@@ -1,0 +1,1807 @@
+/*!
+Theme Name: architectwp
+Theme URI: https://aperturewp.com/downloads/architectwp/
+Author: Afrothemes
+Author URI: https://aperturewp.com;
+Description: ArchitectWP is a WordPress theme built for artchitecture, interior design and real estate management (property management) websites, with it's minimal designs that keep the focus on your work. You can also use this theme as a portfolio for any digital artwork like photography & design portfolios. 
+Version: 1.0.4
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: architectwp
+Tags: one-column, grid-layout, custom-background, custom-logo, custom-menu, featured-images, footer-widgets, threaded-comments, translation-ready, portfolio, blog
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+aperture-portfolio is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+# Normalize
+# Typography
+# Elements
+# Forms
+# Navigation
+	## Links
+	## Menus
+# Accessibility
+# Alignments
+# Clearings
+# Widgets
+# Content
+	## Posts and pages
+	## Comments
+# Infinite scroll
+# Media
+	## Captions
+	## Galleries
+--------------------------------------------------------------*/
+/*--------------------------------------------------------------
+# Normalize
+--------------------------------------------------------------*/
+/* normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+	 ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+	line-height: 1.15; /* 1 */
+	-webkit-text-size-adjust: 100%; /* 2 */
+}
+
+/* Sections
+	 ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+	margin: 0;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+	font-size: 2em;
+	margin: 0.67em 0;
+}
+
+/* Grouping content
+	 ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+	box-sizing: content-box; /* 1 */
+	height: 0; /* 1 */
+	overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+	font-family: monospace, monospace; /* 1 */
+	font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+	 ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+	background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+	border-bottom: none; /* 1 */
+	text-decoration: underline; /* 2 */
+	text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+	font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+	font-family: monospace, monospace; /* 1 */
+	font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+	font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
+}
+
+sub {
+	bottom: -0.25em;
+}
+
+sup {
+	top: -0.5em;
+}
+
+/* Embedded content
+	 ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+	border-style: none;
+}
+
+/* Forms
+	 ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+	font-family: inherit; /* 1 */
+	font-size: 100%; /* 1 */
+	line-height: 1.15; /* 1 */
+	margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+	overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+	text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+	-webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+	border-style: none;
+	padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+	outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+	padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *		`fieldset` elements in all browsers.
+ */
+
+legend {
+	box-sizing: border-box; /* 1 */
+	color: inherit; /* 2 */
+	display: table; /* 1 */
+	max-width: 100%; /* 1 */
+	padding: 0; /* 3 */
+	white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+	vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+	overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+	box-sizing: border-box; /* 1 */
+	padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+	height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+	-webkit-appearance: textfield; /* 1 */
+	outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+	-webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+	-webkit-appearance: button; /* 1 */
+	font: inherit; /* 2 */
+}
+
+/* Interactive
+	 ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+	display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+	display: list-item;
+}
+
+/* Misc
+	 ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+	display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+	display: none;
+}
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: #404040;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-size: 1rem;
+	line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	clear: both;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+dfn, cite, em, i {
+	font-style: italic;
+}
+
+blockquote {
+	margin: 0 1.5em;
+}
+
+address {
+	margin: 0 0 1.5em;
+}
+
+pre {
+	background: #eee;
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+
+code, kbd, tt, var {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+}
+
+abbr, acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+
+mark, ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+html {
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	/* Inherit box-sizing to make it easier to change the property for components that leverage other behavior; see https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/ */
+	box-sizing: inherit;
+}
+
+body {
+	background: #fff;
+	/* Fallback for when there is no custom background color defined. */
+}
+
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+ul, ol {
+	margin: 0 0 1.5em 3em;
+}
+
+ul {
+	list-style: disc;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+
+img {
+	height: auto;
+	/* Make sure images are scaled correctly. */
+	max-width: 100%;
+	/* Adhere to container width. */
+}
+
+figure {
+	margin: 1em 0;
+	/* Extra wide images within figure tags don't overflow the content area. */
+}
+
+table {
+	margin: 0 0 1.5em;
+	width: 100%;
+}
+
+/*--------------------------------------------------------------
+# Forms
+--------------------------------------------------------------*/
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	border: 1px solid;
+	border-radius: 30px;
+	background: #000;
+	color: #fff;
+	font-size: 14px;
+	line-height: 1;
+	padding: 1em 2em;
+}
+
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+	border-color: #ccc #bbb #aaa;
+}
+
+button:active, button:focus,
+input[type="button"]:active,
+input[type="button"]:focus,
+input[type="reset"]:active,
+input[type="reset"]:focus,
+input[type="submit"]:active,
+input[type="submit"]:focus {
+	border-color: #aaa #bbb #bbb;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="url"],
+input[type="password"],
+input[type="search"],
+input[type="number"],
+input[type="tel"],
+input[type="range"],
+input[type="date"],
+input[type="month"],
+input[type="week"],
+input[type="time"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="color"],
+textarea {
+	color: #666;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	padding: 3px;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+textarea:focus {
+	color: #111;
+}
+
+select {
+	border: 1px solid #ccc;
+}
+
+textarea {
+	width: 100%;
+}
+a.button {
+	border:1px solid #fff;
+	border-radius: 40px;
+	padding: 0.5em 1em;
+	color: #fff;
+	text-decoration: none;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	-o-transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+}
+a.alt-button {
+	border:1px solid #ff6b6b;
+	color: #000;
+}
+a.button:hover {
+	color: #eee;
+}
+a.alt-button:hover {
+	color: #fff;
+	background: #ff6b6b;
+}
+/*--------------------------------------------------------------
+# Fonts & Typography
+--------------------------------------------------------------*/
+body {
+	font-family: 'Lato', sans-serif;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Montserrat', 'sytem-ui', sans-serif;
+}
+h1.entry-title {
+	color: #000;
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 50px;
+	text-transform: capitalize;
+}
+.entry-header a {
+	text-decoration: none;
+}
+/*--------------------------------------------------------------
+# Header & Navigation
+--------------------------------------------------------------*/
+#masthead {
+	text-align: center;
+	margin-bottom: 0;
+}
+.site-branding h1,
+.site-branding h1 a {
+	color: #fff;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 22px;
+}
+@media all and (max-width: 420px) {
+.site-branding h1,
+.site-branding h1 a {
+	font-size: 16px;
+	text-align:left;
+}	
+}
+.site-description {
+	color: #888;
+	font-size: 13px;
+}
+
+.site-branding {
+	text-align: left;
+	position: relative;
+	z-index: 99;
+}
+
+.header-absolute {
+	position: absolute;
+	top: 0;
+	width: 100%;
+}
+
+.intro {
+	width: 75%;
+    padding: 6em 0 5em;
+    margin: 0 auto;
+}
+@media all and (max-width: 420px) {
+	.site-branding {
+		text-align: center;
+	}
+	.intro {
+    width: 100%;
+    padding: 1em 0 5em;
+    margin: 0 auto;
+	}
+	.intro h1 {
+		font-size: 25px;
+	}
+}
+#masthead .grid-wide {
+	z-index: 999;
+}
+.intro h1 {
+	font-weight: 300;
+    color: #000;
+    font-size: 32px;
+    text-align: center;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+.intro .adri-social {
+	text-align: center;
+}
+.header-image {
+	width: 100%;
+	display: flex;
+	overflow: hidden;
+	position: relative;
+}
+.page-header-image {
+	width: 100%;
+	max-height: 300px;
+	display: flex;
+	overflow: hidden;
+	position: relative;
+}
+.page-template .page-header-image img {
+	height: max-content;
+}
+.header-content {
+	position: absolute;
+    top: 0;
+    height: 100%;
+    z-index: 99;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    background: rgba(0,0,0,0.5);
+    
+}
+@media all and (max-width: 420px) {
+.header-content {
+	padding-left: 0;
+	padding-top: 3em;
+}	
+}
+.header-content h1 {
+	font-size: 61px;
+	margin: 0;
+	text-transform: capitalize;
+	letter-spacing: .9px;
+	line-height: 65px;
+}
+.header-content h3 {
+	font-size: 20px;
+	font-weight: 300;
+	text-transform: capitalize;
+	margin-bottom: 1.5em;
+}
+.home-intro {
+	padding: 4em 0;
+	text-align: center;
+	max-width: 770px;
+	margin: 0 auto;
+}
+.home-intro .section-title {
+	font-size: 14px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+.home-intro .section-sub-title {
+	color: #000;
+    margin: 0;
+    letter-spacing: .9px;
+    font-size: 40px;
+    line-height: 50px;
+    text-transform: capitalize;
+}
+.home-intro p {
+	font-size: 16px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #7e7d7d;
+}
+
+@media all and (max-width: 420px) {
+	.header-content h1 {
+		font-size: 19px;
+		line-height: 1;
+	}
+	.header-content h3 { 
+		font-size: 15px; 
+		line-height: 1;
+	}
+	.home-intro .section-sub-title {
+		font-size: 25px;
+		line-height: 1;
+	}
+}
+/*Menu */
+#primary #masonry {
+	width: 100%;
+	
+}
+
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+#cssmenu {
+  background: transparent;
+  margin: 0;
+  width: auto;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  position: relative;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+}
+
+#cssmenu ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  float: none;
+  text-align: right;
+  padding-top: 15px;
+}
+
+#cssmenu ul:after,
+#cssmenu:after {
+  content: ' ';
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+#cssmenu a {
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#cssmenu ul li {
+  margin: 0;
+  padding: 0;
+  display: block;
+  position: relative;
+
+}
+
+#cssmenu ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  display: block;
+  margin: 0;
+  -webkit-transition: color .2s ease;
+  -moz-transition: color .2s ease;
+  -ms-transition: color .2s ease;
+  -o-transition: color .2s ease;
+  transition: color .2s ease;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+
+#cssmenu ul li a {
+display: inline-block;
+}
+#cssmenu ul li a:after {
+content: '';
+display: block;
+height: 2px;
+width: 0;
+margin: 10px 0 0;
+background: transparent;
+transition: width .5s ease, background-color .5s ease;
+}
+#cssmenu ul li a:hover:after {
+width: 100%;
+background: #eee;
+}
+
+
+#cssmenu ul li ul {
+  position: absolute;
+  left: -9999px;
+  top: auto;
+  z-index: 9999;
+}
+
+#cssmenu ul li ul li {
+  max-height: 0;
+  position: absolute;
+  -webkit-transition: max-height 0.4s ease-out;
+  -moz-transition: max-height 0.4s ease-out;
+  -ms-transition: max-height 0.4s ease-out;
+  -o-transition: max-height 0.4s ease-out;
+  transition: max-height 0.4s ease-out;
+  background: #ffffff;
+}
+
+#cssmenu ul li ul li.has-sub:after {
+  display: block;
+  position: absolute;
+  content: '';
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background: #000000;
+  z-index: 1;
+  top: 13px;
+  right: 15px;
+}
+
+#cssmenu.align-right ul li ul li.has-sub:after {
+  right: auto;
+  left: 15px;
+}
+
+#cssmenu ul li ul li.has-sub:before {
+  display: block;
+  position: absolute;
+  content: '';
+  height: 0;
+  width: 0;
+  border: 3px solid transparent;
+  border-left-color: #ffffff;
+  z-index: 2;
+  top: 15px;
+  right: 15px;
+}
+
+#cssmenu.align-right ul li ul li.has-sub:before {
+  right: auto;
+  left: 15px;
+  border-left-color: transparent;
+  border-right-color: #ffffff;
+}
+
+#cssmenu ul li ul li a {
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: none;
+  color: #000000;
+  letter-spacing: 0;
+  display: block;
+  width: 170px;
+  padding: 11px 10px 11px 20px;
+  text-align: left;
+}
+
+#cssmenu ul li ul li:hover>a,
+#cssmenu ul li ul li.active>a {
+  color: #777;
+}
+
+#cssmenu ul li ul li:hover:after,
+#cssmenu ul li ul li.active:after {
+  background: #eee;
+}
+
+#cssmenu ul li ul li:hover>ul {
+  left: 100%;
+  top: 0;
+}
+
+#cssmenu ul li ul li:hover>ul>li {
+  max-height: 72px;
+  position: relative;
+}
+
+#cssmenu>ul>li {
+  display: inline-block;
+}
+
+#cssmenu.align-center>ul>li {
+  float: none;
+  display: inline-block;
+}
+
+#cssmenu.align-center>ul {
+  text-align: center;
+}
+
+#cssmenu.align-center ul ul {
+  text-align: left;
+}
+
+#cssmenu.align-right>ul {
+  float: right;
+}
+
+#cssmenu.align-right>ul>li:hover>ul {
+  left: auto;
+  right: 0;
+}
+
+#cssmenu.align-right ul ul li:hover>ul {
+  right: 100%;
+  left: auto;
+}
+
+#cssmenu.align-right ul ul li a {
+  text-align: right;
+}
+
+#cssmenu>ul>li:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  top: 0;
+  z-index: 0;
+  border-bottom: 1px solid #000
+  background: transparent;
+  -webkit-transition: border-bottom .2s;
+  -moz-transition: border-bottom .2s;
+  -ms-transition: border-bottom .2s;
+  -o-transition: border-bottom .2s;
+  transition: border-bottom .2s;
+}
+
+#cssmenu>ul>li.has-sub>a {
+  padding-right: 40px;
+}
+
+#cssmenu>ul>li.has-sub>a:after {
+  display: block;
+  content: '';
+  background: #ffffff;
+  height: 12px;
+  width: 12px;
+  position: absolute;
+  border-radius: 13px;
+  right: 14px;
+  top: 16px;
+}
+
+#cssmenu>ul>li.has-sub>a:before {
+  display: block;
+  content: '';
+  border: 4px solid transparent;
+  border-top-color: #eee;
+  z-index: 2;
+  height: 0;
+  width: 0;
+  position: absolute;
+  right: 16px;
+  top: 21px;
+}
+
+#cssmenu>ul>li>a {
+  color: #fff;
+  padding:15px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500;
+  z-index: 2;
+  position: relative;
+}
+
+#cssmenu>ul>li:hover:after,
+#cssmenu>ul>li.active:after {
+  height: 100%;
+}
+
+#cssmenu>ul>li:hover>a {
+  color: #eee;
+}
+#cssmenu>ul>li.active>a {
+}
+
+#cssmenu>ul>li:hover>a:after,
+#cssmenu>ul>li.active>a:after {
+}
+
+#cssmenu>ul>li:hover>a:before,
+#cssmenu>ul>li.active>a:before {
+  border-top-color: #eee;
+}
+
+#cssmenu>ul>li:hover>ul {
+  left: 0;
+}
+
+#cssmenu>ul>li:hover>ul>li {
+  max-height: 72px;
+  position: relative;
+}
+
+#cssmenu #menu-button {
+  display: none;
+}
+
+#cssmenu>ul>li>a {
+  width: auto;
+  display: inline-block;
+}
+
+#cssmenu>ul>li {
+  width: auto;
+}
+
+#cssmenu>ul>li>ul {
+  width: 170px;
+  display: block;
+}
+
+#cssmenu>ul>li>ul>li {
+  width: 170px;
+  display: block;
+}
+.main-navigation {
+
+}
+
+@media all and (max-width: 800px),
+only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width: 1024px),
+only screen and (min--moz-device-pixel-ratio: 2) and (max-width: 1024px),
+only screen and (-o-min-device-pixel-ratio: 2/1) and (max-width: 1024px),
+only screen and (min-device-pixel-ratio: 2) and (max-width: 1024px),
+only screen and (min-resolution: 192dpi) and (max-width: 1024px),
+only screen and (min-resolution: 2dppx) and (max-width: 1024px) {
+  #cssmenu>ul {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height 0.35s ease-out;
+    -moz-transition: max-height 0.35s ease-out;
+    -ms-transition: max-height 0.35s ease-out;
+    -o-transition: max-height 0.35s ease-out;
+    transition: max-height 0.35s ease-out;
+  }
+  #cssmenu>ul>li>ul {
+    width: 100%;
+    display: block;
+  }
+  #cssmenu.align-right ul li a {
+    text-align: left;
+  }
+  #cssmenu>ul>li>ul>li {
+    width: 100%;
+    display: block;
+  }
+  #cssmenu.align-right ul ul li a {
+    text-align: left;
+  }
+  #cssmenu>ul>li>ul>li>a {
+    width: 100%;
+    display: block;
+  }
+  #cssmenu ul li ul li a {
+    width: 100%;
+  }
+  #cssmenu.align-center>ul {
+    text-align: left;
+  }
+  #cssmenu.align-center>ul>li {
+    display: block;
+  }
+  #cssmenu>ul.open {
+    max-height: 1000px;
+    border-top: 1px solid rgba(110, 110, 110, 0.25);
+    background: #000;
+  }
+  #cssmenu ul {
+    width: 100%;
+  }
+  #cssmenu ul>li {
+    float: none;
+    width: 100%;
+  }
+  #cssmenu ul li a {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 12px 20px;
+    text-align: center;
+  }
+  #cssmenu ul>li:after {
+    display: none;
+  }
+  #cssmenu ul li.has-sub>a:after,
+  #cssmenu ul li.has-sub>a:before,
+  #cssmenu ul li ul li.has-sub:after,
+  #cssmenu ul li ul li.has-sub:before {
+    display: none;
+  }
+  #cssmenu ul li ul,
+  #cssmenu ul li ul li ul,
+  #cssmenu ul li ul li:hover>ul,
+  #cssmenu.align-right ul li ul,
+  #cssmenu.align-right ul li ul li ul,
+  #cssmenu.align-right ul li ul li:hover>ul {
+    left: 0;
+    position: relative;
+    right: auto;
+  }
+  #cssmenu ul li ul li,
+  #cssmenu ul li:hover>ul>li {
+    max-height: 999px;
+    position: relative;
+    background: none;
+  }
+  #cssmenu ul li ul li a {
+    padding: 8px 20px 8px 35px;
+    color: #333;
+  }
+  #cssmenu ul li ul ul li a {
+    padding: 8px 20px 8px 50px;
+  }
+  #cssmenu ul li ul li:hover>a {
+    color: #000000;
+  }
+  #cssmenu #menu-button {
+    display: block;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 17%;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #000;
+    cursor: pointer;
+    background: #000;
+    position: absolute;
+    top: -40px;
+    right: -10px;
+    border: 1px solid #fff;
+    z-index: 9999;
+    text-indent: -99999px;
+  }
+  #cssmenu #menu-button:after {
+    display: block;
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 22px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    right: 20px;
+    top: 16px;
+  }
+  #cssmenu #menu-button:before {
+    display: block;
+    content: '';
+    position: absolute;
+    height: 3px;
+    width: 22px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    right: 20px;
+    top: 26px;
+  }
+}
+
+.site-main .comment-navigation,
+.site-main .posts-navigation,
+.site-main .post-navigation {
+  margin: 0 0 1.5em;
+  overflow: hidden;
+}
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+  float: left;
+  width: 50%;
+}
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+  float: right;
+  text-align: right;
+  width: 50%;
+}
+.comment-author img {
+	border-radius: 30px;
+}
+.comment-author .fn {
+	text-transform: capitalize;
+}
+.comment-metadata {
+	font-size: 12px;
+}
+.navigation a {
+	line-height: 1;
+	text-transform: capitalize;
+	font-size: 16px;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+}
+
+.site-main .comment-navigation, .site-main
+.posts-navigation, .site-main
+.post-navigation {
+	margin: 0 0 1.5em;
+	overflow: hidden;
+}
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+	float: left;
+	width: 50%;
+}
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+
+.nav-previous {
+	padding: 10px 20px;
+}
+.nav-next {
+	padding: 10px 20px;
+}
+.posts-navigation .nav-previous {
+	text-align: right;
+}
+.posts-navigation .nav-links .nav-next {
+	text-align: left;
+}
+.posts-navigation .nav-previous:before {
+	content: "\2190";
+}
+.posts-navigation .nav-next:after {
+	content: "\2192";
+}
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+a {
+	color: #d35400;
+}
+
+a:visited {
+}
+
+a:hover, a:focus, a:active {
+	color: #000;
+}
+
+a:focus {
+	outline: 0;
+}
+
+a:hover, a:active {
+	outline: 0;
+}
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+
+.site-main .comment-navigation, .site-main
+.posts-navigation, .site-main
+.post-navigation {
+	margin: 0 0 1.5em;
+	overflow: hidden;
+}
+
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous {
+	float: left;
+	width: 50%;
+}
+
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next {
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+
+/*--------------------------------------------------------------
+# Accessibility
+--------------------------------------------------------------*/
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+	background-color: #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+	clip: auto !important;
+	clip-path: none;
+	color: #21759b;
+	display: block;
+	font-size: 14px;
+	font-size: 0.875rem;
+	font-weight: bold;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
+}
+
+/* Do not show the outline on the skip link target. */
+#content[tabindex="-1"]:focus {
+	outline: 0;
+}
+
+/*--------------------------------------------------------------
+# Alignments
+--------------------------------------------------------------*/
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*--------------------------------------------------------------
+# Clearings
+--------------------------------------------------------------*/
+.clear:before,
+.clear:after,
+.entry-content:before,
+.entry-content:after,
+.comment-content:before,
+.comment-content:after,
+.site-header:before,
+.site-header:after,
+.site-content:before,
+.site-content:after,
+.site-footer:before,
+.site-footer:after {
+	content: "";
+	display: table;
+	table-layout: fixed;
+}
+
+.clear:after,
+.entry-content:after,
+.comment-content:after,
+.site-header:after,
+.site-content:after,
+.site-footer:after {
+	clear: both;
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+.site-info,
+.site-info,
+.site-info a {
+	font-size: 13px;
+	color: #888;
+	text-align: center;
+}
+.site-footer {
+	background: #000;
+	padding: 4em 0 2em;
+	margin-top: 0em;
+}
+
+.site-footer .left {
+	text-align: left;
+}
+.site-footer .right {
+	text-align: right;
+}
+.site-footer .widget {
+	font-size: 13px;
+}
+@media all and (max-width: 420px) {
+	.site-footer .right {
+	text-align: left;
+}
+}
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+#secondary {
+	padding-right: 0;
+	padding-left: 20px;
+	margin-top: 3em;
+}
+.widget ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+.widget ul li {
+
+}
+
+.widget ul li a{
+	text-decoration: none;
+}
+.widget,
+.widget a {
+	color: #888;
+	text-transform: capitalize;
+}
+.widget h5.widget-title {
+	font-size: 14px;
+	font-weight: 300;
+    font-style: normal;
+    letter-spacing: 4.5px;
+    color: #fff;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+.widget h4.widget-title {
+	font-size: 15px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 1.5px;
+    color: #000;
+}
+.widget {
+	margin: 0 0 1.5em;
+	/* Make sure select elements fit in widgets. */
+}
+
+.widget select {
+	max-width: 100%;
+}
+
+.cat-links,
+.cat-links a {
+	font-size: 13px;
+    color: #888;
+}
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+
+.entry-meta,
+.entry-meta a {
+	font-size: 13px;
+	color: #888;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+.post-thumb {
+	line-height: 0;
+	background: #000;
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top center;
+}
+@media all and (max-width: 420px) {
+	.post-thumb { height: 350px; }
+}
+.post-thumb img {
+	width: 100%;
+}
+.post-thumb a {
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+}
+.post-thumb a:hover {
+	opacity: 0.8;
+}
+
+.single .post-thumbnail {
+	margin-top: 2em;
+}
+
+/*--------------------------------------------------------------
+# Post Item
+--------------------------------------------------------------*/
+.post-item .entry-title {
+	text-transform: capitalize;
+	color: #000;
+    font-size: 18px;
+    font-weight: 500;
+    background: #fff;
+    padding: 0.5em 1em;
+    margin: 0;
+    line-height: 1.4;
+}
+.post-item {
+	margin-bottom: 10px;
+}
+.post-item a.post-cat {
+	color: #000;
+	text-transform: capitalize;
+	font-size: 12px;
+}
+.post-item .post-cat {
+    background: #fff;
+    padding: 1em 1.5em;
+}
+.post-item .entry-header {
+	position: absolute;
+	bottom: 3em;
+	left: 1em;
+	line-height: 0;
+	max-width: 85%;
+}
+.post-item .entry-header a {
+	line-height: 1.3;
+}
+.single-portfolio h1.entry-title {
+	margin-top: 0;
+}
+/*--------------------------------------------------------------
+## Posts and pages
+--------------------------------------------------------------*/
+.sticky {
+	display: block;
+}
+
+
+.post-item {
+	margin: 0;
+	margin-bottom: 0px;
+	
+}
+@media all and (max-width: 420px) {
+	.post-item { width: 100%; }
+}
+.updated:not(.published) {
+	display: none;
+}
+
+.page-content,
+.entry-content,
+.entry-summary {
+	margin: 1.5em 0 0;
+}
+
+.page-links {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+/*--------------------------------------------------------------
+## Comments
+--------------------------------------------------------------*/
+.comment-content a {
+	word-wrap: break-word;
+}
+
+.bypostauthor {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+# Infinite scroll
+--------------------------------------------------------------*/
+/* Globally hidden elements when Infinite Scroll is supported and in use. */
+.infinite-scroll .posts-navigation,
+.infinite-scroll.neverending .site-footer {
+	/* Theme Footer (when set to scrolling) */
+	display: none;
+}
+
+/* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before. */
+.infinity-end.neverending .site-footer {
+	display: block;
+}
+
+/*--------------------------------------------------------------
+# Media
+--------------------------------------------------------------*/
+.page-content .wp-smiley,
+.entry-content .wp-smiley,
+.comment-content .wp-smiley {
+	border: none;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 0;
+}
+
+/* Make sure embeds and iframes fit their containers. */
+embed,
+iframe,
+object {
+	max-width: 100%;
+}
+
+/* Make sure logo link wraps around logo image. */
+.custom-logo-link {
+	display: inline-block;
+}
+
+/*--------------------------------------------------------------
+## Captions
+--------------------------------------------------------------*/
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+}
+
+.wp-caption-text {
+	text-align: center;
+}
+
+/*--------------------------------------------------------------
+## Galleries
+--------------------------------------------------------------*/
+.gallery {
+	margin-bottom: 1.5em;
+}
+
+.gallery-item {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+
+.gallery-caption {
+	display: block;
+}
