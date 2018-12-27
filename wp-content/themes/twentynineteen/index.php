@@ -1,4 +1,3 @@
-<?php
 /**
  * The main template file
  *
@@ -12,10 +11,13 @@
  * @package WordPress
  * @subpackage Twenty_Nineteen
  * @since 1.0.0
- */
 
-get_header();
-?>
+
+/** Header Upload
+<?php get_header(); ?>
+/** Header Upload
+
+
 
 	<section id="primary" class="content-area">
 		<main id="main" class="site-main">
@@ -43,5 +45,7 @@ get_header();
 		</main><!-- .site-main -->
 	</section><!-- .content-area -->
 
-<?php
-get_footer();
+
+
+/** Footer Upload
+<?php get_footer();

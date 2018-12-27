@@ -1,0 +1,80 @@
+/*--------------------------------------------------------------
+Xcel - Footer Standard Styling
+--------------------------------------------------------------*/
+
+.site-footer-standard {
+    background-color: #313131;
+    color: #A1A1A1;
+}
+
+.site-footer-standard .site-footer-bottom-bar {
+    background-color: #080808;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 15px 0;
+}
+
+.site-footer-standard .site-footer-widgets {
+    padding: 40px 0 50px;
+}
+
+.site-footer-standard .site-footer-widgets .site-container > ul {
+    margin: 0;
+    padding: 0;
+}
+.site-footer-standard .site-footer-widgets .site-container > ul > li {
+    margin: 0;
+    padding: 10px 18px 20px;
+    list-style-type: none;
+    display: block;
+    float: left;
+    width: 25%;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.site-footer-standard .site-footer-widgets .site-container > ul > li:first-child {
+    padding: 10px 18px 20px 0;
+}
+.site-footer-standard .site-footer-widgets .site-container > ul > li:last-child {
+    padding: 10px 0 20px 18px;
+}
+
+.site-footer-standard .widgettitle {
+    border-bottom: 1px dotted #C7C7C7;
+    margin: 0 0 14px;
+    padding: 0 0 6px;
+    color: #C7C7C7;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 960px) {
+    
+    .site-footer-standard .site-footer-widgets .site-container > ul > li {
+        margin: 0;
+        padding: 10px 20px 20px;
+        display: block;
+        width: 50%;
+        float: left;
+    }
+    .site-footer-standard .site-footer-widgets .site-container > ul > li:first-child {
+        padding: 10px 20px 20px;
+    }
+    .site-footer-standard .site-footer-widgets .site-container > ul > li:last-child {
+        padding: 10px 20px 20px;
+    }
+    
+}
+
+@media only screen and (max-width: 782px) {
+    
+    .site-footer-standard .site-footer-widgets .site-container > ul > li {
+        padding: 10px 5px 30px;
+        width: 100%;
+        float: none;
+    }
+    .site-footer-standard .site-footer-widgets .site-container > ul > li:first-child,
+    .site-footer-standard .site-footer-widgets .site-container > ul > li:last-child {
+        padding: 10px 5px 30px;
+    }
+    
+}

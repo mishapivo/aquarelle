@@ -1,0 +1,154 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: techlauncher\n"
+"POT-Creation-Date: 2018-06-21 11:24+0500\n"
+"PO-Revision-Date: 2017-12-20 09:37+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_n;_x;_ex;_nx;esc_attr__;"
+"esc_attr_e;esc_attr_x;esc_html__;esc_html_e;esc_html_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:18
+msgid "4"
+msgstr ""
+
+#: 404.php:20
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:23
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:25
+msgid "Go Back"
+msgstr ""
+
+#: 404.php:28
+msgid "Go for a search"
+msgstr ""
+
+#: comments.php:32
+#, php-format
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:37
+#, php-format
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:52 comments.php:74
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:55 comments.php:77
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:56 comments.php:78
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:88
+msgid "Comments are closed."
+msgstr ""
+
+#: content.php:52 featured.php:61 page.php:25 single.php:46
+msgid "Pages:"
+msgstr ""
+
+#: footer.php:28
+msgid "Y"
+msgstr ""
+
+#: footer.php:28
+#, php-format
+msgid "Theme by %1$s"
+msgstr ""
+
+#: footer.php:28
+#, php-format
+msgid "Powered by %1$s"
+msgstr ""
+
+#: functions.php:67
+msgid "Primary menu"
+msgstr ""
+
+#: functions.php:131
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:141
+msgid "Footer Widget Area"
+msgstr ""
+
+#: functions.php:163
+msgid "Read More"
+msgstr ""
+
+#: functions.php:175
+msgid "Continue Reading &raquo;"
+msgstr ""
+
+#: header.php:46
+msgid "Toggle Navigation"
+msgstr ""
+
+#: inc/customize/customize_copyright.php:7
+msgid "Footer Social Icon Settings"
+msgstr ""
+
+#: inc/customize/customize_copyright.php:12
+msgid "Social Link"
+msgstr ""
+
+#: inc/customize/customize_copyright.php:22
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/customize/customize_copyright.php:33
+#: inc/customize/customize_copyright.php:53
+#: inc/customize/customize_copyright.php:74
+#: inc/customize/customize_copyright.php:95
+msgid "Open Link New tab/window"
+msgstr ""
+
+#: inc/customize/customize_copyright.php:42
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/customize/customize_copyright.php:62
+msgid "Linkedin URL"
+msgstr ""
+
+#: inc/customize/customize_copyright.php:83
+msgid "Google-plus URL"
+msgstr ""
+
+#: search.php:23
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:31
+msgid "Not Found"
+msgstr ""
+
+#: search.php:33
+msgid "Sorry, Do Not match."
+msgstr ""
+
+#: searchform.php:3
+msgid "type to search"
+msgstr ""

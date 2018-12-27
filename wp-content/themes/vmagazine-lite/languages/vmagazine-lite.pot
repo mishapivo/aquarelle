@@ -1,0 +1,1485 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: VMagazine Lite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-07 11:44+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: 404.php:21 404.php:23 inc/welcome/sections/free_vs_pro.php:67
+msgid "4"
+msgstr ""
+
+#: 404.php:26
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:30
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#: comments.php:36
+msgid "Comments "
+msgstr ""
+
+#: comments.php:44 comments.php:65
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:47 comments.php:68
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:48 comments.php:69
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:82
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:78
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:79
+msgid "Top Header Menu"
+msgstr ""
+
+#: functions.php:80
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:142
+msgid "Right Sidebar"
+msgstr ""
+
+#: functions.php:144 functions.php:154
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:152
+msgid "Left Sidebar"
+msgstr ""
+
+#: functions.php:162
+msgid "Header Ads Area"
+msgstr ""
+
+#: functions.php:164
+msgid "Display selected widget beside site logo."
+msgstr ""
+
+#: functions.php:172
+msgid "Side Navigation Menu Area"
+msgstr ""
+
+#: functions.php:174
+msgid "Add widgets to display on sidebar"
+msgstr ""
+
+#: functions.php:273 inc/widgets/widget-fields.php:242
+msgid "Upload"
+msgstr ""
+
+#: functions.php:274 inc/widgets/widget-fields.php:246
+#: inc/widgets/widget-fields.php:257
+#: inc/customizer/repeater-controller/repeater-class.php:159
+msgid "Remove"
+msgstr ""
+
+#: page.php:36 layouts/post/single-layout1.php:101
+msgid "Comment here"
+msgstr ""
+
+#: page.php:39 layouts/post/single-layout1.php:104
+msgid "Comment"
+msgstr ""
+
+#: searchform.php:12
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:13
+msgid "Search ..."
+msgstr ""
+
+#: searchform.php:15
+msgid "Search"
+msgstr ""
+
+#. Name of the template
+msgid "Blank Page"
+msgstr ""
+
+#: inc/vmagazine-lite-ajax-functions.php:64
+msgid "View All"
+msgstr ""
+
+#: inc/vmagazine-lite-ajax-functions.php:71
+msgid "No Match Found"
+msgstr ""
+
+#: inc/vmagazine-lite-functions.php:21
+#: inc/customizer/vmagazine-lite-customizer.php:669
+msgid "Recent News"
+msgstr ""
+
+#: inc/vmagazine-lite-functions.php:315
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/vmagazine-lite-functions.php:325
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/vmagazine-lite-functions.php:326
+msgid "(Edit)"
+msgstr ""
+
+#: inc/vmagazine-lite-functions.php:349
+msgid "Your Comment"
+msgstr ""
+
+#: inc/vmagazine-lite-functions.php:362
+msgid "Name*"
+msgstr ""
+
+#: inc/vmagazine-lite-functions.php:363
+msgid "Email Address*"
+msgstr ""
+
+#: inc/vmagazine-lite-functions.php:364
+msgid "Website"
+msgstr ""
+
+#: inc/vmagazine-lite-functions.php:401
+#: inc/customizer/repeater-controller/repeater-class.php:169
+msgid "Select Category"
+msgstr ""
+
+#: inc/vmagazine-lite-functions.php:635
+msgid ""
+"Please configure menus from &quot; Appearance &gt; Menus &quot; to display "
+"here"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:19 layouts/post/single-layout1.php:41
+msgid "Pages:"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:32
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/customizer/additional-settings.php:23
+msgid "Additional Settings"
+msgstr ""
+
+#: inc/customizer/additional-settings.php:31
+msgid "HomePage Settings"
+msgstr ""
+
+#: inc/customizer/additional-settings.php:49
+msgid "Animation Option"
+msgstr ""
+
+#: inc/customizer/additional-settings.php:50
+msgid "Enable/Disable wow animation on homepage."
+msgstr ""
+
+#: inc/customizer/additional-settings.php:53
+#: inc/customizer/additional-settings.php:135
+#: inc/customizer/vmagazine-lite-customizer.php:103
+#: inc/customizer/vmagazine-lite-customizer.php:119
+msgid "Enable"
+msgstr ""
+
+#: inc/customizer/additional-settings.php:54
+#: inc/customizer/additional-settings.php:136
+#: inc/customizer/vmagazine-lite-customizer.php:104
+#: inc/customizer/vmagazine-lite-customizer.php:120
+msgid "Disable"
+msgstr ""
+
+#: inc/customizer/additional-settings.php:66
+msgid "Fallback Image Settings"
+msgstr ""
+
+#: inc/customizer/additional-settings.php:86
+msgid "Fallback Image Option"
+msgstr ""
+
+#: inc/customizer/additional-settings.php:87
+msgid "Show/Hide option of fallback image."
+msgstr ""
+
+#: inc/customizer/additional-settings.php:90
+#: inc/customizer/vmagazine-lite-customizer.php:138
+#: inc/customizer/vmagazine-lite-customizer.php:155
+#: inc/customizer/vmagazine-lite-customizer.php:374
+#: inc/customizer/vmagazine-lite-customizer.php:396
+#: inc/customizer/vmagazine-lite-customizer.php:539
+#: inc/customizer/vmagazine-lite-customizer.php:566
+#: inc/customizer/vmagazine-lite-customizer.php:628
+#: inc/customizer/vmagazine-lite-sanatize.php:33
+msgid "Show"
+msgstr ""
+
+#: inc/customizer/additional-settings.php:91
+#: inc/customizer/vmagazine-lite-customizer.php:139
+#: inc/customizer/vmagazine-lite-customizer.php:156
+#: inc/customizer/vmagazine-lite-customizer.php:375
+#: inc/customizer/vmagazine-lite-customizer.php:397
+#: inc/customizer/vmagazine-lite-customizer.php:540
+#: inc/customizer/vmagazine-lite-customizer.php:567
+#: inc/customizer/vmagazine-lite-customizer.php:629
+#: inc/customizer/vmagazine-lite-sanatize.php:34
+msgid "Hide"
+msgstr ""
+
+#: inc/customizer/additional-settings.php:111
+msgid "Fallback Image"
+msgstr ""
+
+#: inc/customizer/additional-settings.php:131
+msgid "Lazy Load Images"
+msgstr ""
+
+#: inc/customizer/additional-settings.php:132
+msgid "Enable/Disable lazy load for images."
+msgstr ""
+
+#: inc/customizer/additional-settings.php:147
+msgid "Categories Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:43
+msgid "Free vs Pro Version"
+msgstr ""
+
+#: inc/customizer/customizer.php:44
+msgid "Compare and Buy"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:24
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:25
+msgid "This allows to edit general theme settings"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:46
+msgid "Theme color"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:59
+msgid "Header Settings"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:63
+msgid "Header Option"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:81
+msgid "Home Icon"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:82
+msgid "Choose your desired home icons from the available icon lists"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:100
+msgid "Enable/Disable Header Search"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:116
+msgid "Enable/Disable Ajax Search"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:134
+msgid "Hide/Show Shopping Cart"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:135
+msgid "Install and activate WooCommerce plugin to make shopping cart working"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:151
+msgid "Hide/Show Social Icons"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:152
+msgid "To add social icons go to \"General Settings\""
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:164
+#: inc/customizer/repeater-controller/customizer.php:50
+msgid "Social Icons"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:171
+msgid "Header Layouts"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:181
+msgid "Mobile Navigation Option"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:194
+msgid "Background Color"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:195
+msgid "This will change image overlay color if background image exists"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:205
+msgid "Logo"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:206
+msgid "Add logo to display on mobile devices"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:217
+#: inc/widgets/vmagazine-lite-category-slider.php:96
+msgid "Background Image"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:218
+msgid ""
+"Add background image for navigation menu and search to display on mobile view"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:230
+msgid "Background Repeat"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:234
+msgid "No Repeat"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:235
+msgid "Repeat-X"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:236
+msgid "Repeat-Y"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:237
+msgid "Repeat"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:247
+msgid "Design Settings"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:255
+msgid "Archive Settings"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:272
+#: inc/customizer/vmagazine-lite-customizer.php:348
+#: inc/customizer/vmagazine-lite-customizer.php:496
+msgid "Available Sidebars"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:273
+msgid "Select sidebar for whole site archives, categories, search page etc."
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:298
+msgid "Excerpt length"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:299
+msgid "Choose number of words in archive pages."
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:313 inc/etc/hooks.php:140
+#: layouts/archive/content-layout1.php:54
+msgid "Read More"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:320
+msgid "Read More Button"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:331
+msgid "Single Post Settings"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:349
+msgid "Select sidebar for single post."
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:370
+msgid "Show/Hide Post Share"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:371
+msgid "First install and activate the plugin AccessPress Social Share."
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:392
+msgid "Related Posts"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:393
+msgid "Enable/Disable related posts section in single post page."
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:408 inc/etc/hooks.php:61
+msgid "Related Articles"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:415
+msgid "Related Section Title"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:432
+msgid "Types of Related Posts"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:433
+msgid "Option to display related posts from category or tags."
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:436
+#: inc/customizer/vmagazine-lite-sanatize.php:70
+msgid "Related Posts by Category"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:437
+#: inc/customizer/vmagazine-lite-sanatize.php:71
+msgid "Related Posts by Tags"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:455
+msgid "Number of related posts to show"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:468
+msgid "Related Post Excerpt"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:469
+msgid "Enter number of letters for related posts"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:479
+msgid "Page Settings"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:497
+msgid "Select sidebar for every pages."
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:516
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:523
+msgid "Footer Options"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:535
+msgid "Hide / Show Footer Menu"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:550
+msgid "Upload Footer Logo"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:561
+msgid "Hide / Show Social Icons"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:581
+msgid "Copyright Info"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:596
+msgid "Footer Description Text"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:610
+#: inc/customizer/vmagazine-lite-customizer.php:624
+msgid "News Ticker"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:625
+msgid "Enable/Disable news ticker "
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:642
+msgid "Select News Display Type"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:645
+msgid "Display From Latest Posts"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:646
+msgid "Display From Selected Category"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:660
+msgid "Select News Category"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:675
+msgid "Ticker Title"
+msgstr ""
+
+#: inc/customizer/vmagazine-lite-customizer.php:689
+msgid "Number of Posts"
+msgstr ""
+
+#: inc/etc/hooks.php:25
+msgid "Skip to navigation"
+msgstr ""
+
+#: inc/etc/hooks.php:26
+msgid "Skip to content"
+msgstr ""
+
+#: inc/etc/hooks.php:182
+msgid "View a random post"
+msgstr ""
+
+#: inc/etc/template-functions.php:142
+msgid "WordPress Theme :"
+msgstr ""
+
+#. %s: Name of current post
+#: inc/etc/template-tags.php:64
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/etc/template-tags.php:83 inc/welcome/sections/free_vs_pro.php:64
+msgid "1"
+msgstr ""
+
+#: inc/etc/vmagazine-lite-breadcrumbs.php:216
+msgid "Browse:"
+msgstr ""
+
+#: inc/etc/vmagazine-lite-breadcrumbs.php:217
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/etc/vmagazine-lite-breadcrumbs.php:218
+msgid "Home"
+msgstr ""
+
+#: inc/etc/vmagazine-lite-breadcrumbs.php:219
+#: inc/etc/vmagazine-lite-breadcrumbs.php:1206
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/etc/vmagazine-lite-breadcrumbs.php:220
+msgid "Archives"
+msgstr ""
+
+#. %s is the search query. The HTML entities are opening and closing curly quotes.
+#: inc/etc/vmagazine-lite-breadcrumbs.php:222
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#. %s is the page number.
+#: inc/etc/vmagazine-lite-breadcrumbs.php:224
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#. Minute archive title. %s is the minute time format.
+#: inc/etc/vmagazine-lite-breadcrumbs.php:226
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#. Weekly archive title. %s is the week date format.
+#: inc/etc/vmagazine-lite-breadcrumbs.php:228
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: inc/etc/vmagazine-lite-breadcrumbs.php:680
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/etc/vmagazine-lite-breadcrumbs.php:697
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/etc/vmagazine-lite-breadcrumbs.php:714
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/etc/vmagazine-lite-breadcrumbs.php:730
+#: inc/etc/vmagazine-lite-breadcrumbs.php:759
+#: inc/etc/vmagazine-lite-breadcrumbs.php:786
+#: inc/etc/vmagazine-lite-breadcrumbs.php:813
+#: inc/etc/vmagazine-lite-breadcrumbs.php:1154
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/etc/vmagazine-lite-breadcrumbs.php:731
+#: inc/etc/vmagazine-lite-breadcrumbs.php:787
+#: inc/etc/vmagazine-lite-breadcrumbs.php:1158
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/etc/vmagazine-lite-breadcrumbs.php:732
+#: inc/etc/vmagazine-lite-breadcrumbs.php:1162
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/etc/vmagazine-lite-breadcrumbs.php:760
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/etc/vmagazine-lite-breadcrumbs.php:1196
+#: inc/customizer/repeater-controller/repeater-class.php:170
+#: inc/customizer/repeater-controller/repeater-class.php:307
+msgid "Latest Posts"
+msgstr ""
+
+#: inc/etc/vmagazine-lite-breadcrumbs.php:1211
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/etc/woocommerce-hooks.php:273
+msgid "Shop Sidebar"
+msgstr ""
+
+#: inc/etc/woocommerce-hooks.php:275
+msgid "Add widgets here to show on shop page."
+msgstr ""
+
+#: inc/welcome/welcome-config.php:17
+msgid "AP Theme Utility"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:22
+msgid ""
+"AP Theme Utility Plugin adds the feature to Import the Demo Conent with a "
+"single click."
+msgstr ""
+
+#: inc/welcome/welcome-config.php:57
+msgid "VMagazine Setup"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:58
+msgid ""
+"VMagazine is a responsive free multi layout news magazine WordPress theme. "
+"The theme is perfect for all newspaper, magazines and blog websites. In fact,"
+" this is one of the quickest and simplest way to create a news magazine "
+"website. The theme is also highly configurable, uses SiteOrigin Page Builder,"
+" has 8 built in widgets, 4 elegantly designed demo layouts that can be "
+"imported with just one click and the flexibility to place your ads as you "
+"desire."
+msgstr ""
+
+#: inc/welcome/welcome-config.php:61
+msgid "Install and Activate"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:62
+msgid "Deactivate"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:63 inc/welcome/welcome-config.php:80
+msgid "Activate"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:66
+msgid "Step 1 - Documentation"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:67
+msgid ""
+"Read the Documentation and follow the instructions to manage the site , it "
+"helps you to set up the theme more easily and quickly. The Documentation is "
+"very easy with its pictorial  and well managed listed instructions. "
+msgstr ""
+
+#: inc/welcome/welcome-config.php:68
+msgid "Read Now"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:69
+msgid "Step 2 - Customizer Options Panel"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:70
+msgid ""
+"Using the WordPress Customizer you can easily customize every aspect of the "
+"theme."
+msgstr ""
+
+#: inc/welcome/welcome-config.php:71
+msgid "Go to Customizer Panels"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:74
+msgid "Pro Plugins"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:75
+msgid "Take Advantage of some of our Premium Plugins."
+msgstr ""
+
+#: inc/welcome/welcome-config.php:76
+msgid "Free Plugins"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:77
+msgid "These Free Plugins might be handy for you."
+msgstr ""
+
+#: inc/welcome/welcome-config.php:81
+msgid "Activated"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:82
+msgid "Installing Demo"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:83
+msgid "Demo Installed"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:84
+msgid "Are you sure to import demo content ?"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:87
+msgid "All Recommended action has been successfully completed."
+msgstr ""
+
+#: inc/welcome/welcome-config.php:88
+msgid "Customize Theme"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:105
+msgid "World Mag Demo"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:119
+msgid "Tech Mag Demo"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:132
+msgid "Fashion Demo"
+msgstr ""
+
+#: inc/welcome/welcome-config.php:145
+msgid "Gaming Demo"
+msgstr ""
+
+#: inc/welcome/welcome.php:34
+msgid "Getting Started"
+msgstr ""
+
+#: inc/welcome/welcome.php:35
+msgid "Recommended Plugins"
+msgstr ""
+
+#: inc/welcome/welcome.php:36
+msgid "Import Demo"
+msgstr ""
+
+#: inc/welcome/welcome.php:37
+msgid "Support"
+msgstr ""
+
+#: inc/welcome/welcome.php:38
+msgid "Free Vs Pro"
+msgstr ""
+
+#: inc/welcome/welcome.php:94
+msgid "Welcome! Thank you for choosing"
+msgstr ""
+
+#: inc/welcome/welcome.php:94
+msgid "Please make sure you visit our"
+msgstr ""
+
+#: inc/welcome/welcome.php:94
+msgid "Welcome Page"
+msgstr ""
+
+#: inc/welcome/welcome.php:94
+msgid "to get started with Swing."
+msgstr ""
+
+#: inc/welcome/welcome.php:97
+msgid "Lets Get Started"
+msgstr ""
+
+#: inc/welcome/welcome.php:118
+#, php-format
+msgid "Welcome to %1$s - Version %2$s"
+msgstr ""
+
+#: inc/welcome/welcome.php:264
+msgid "Sorry, you are not allowed to install plugins on this site."
+msgstr ""
+
+#: inc/welcome/welcome.php:273
+msgid "Error - unable to verify nonce, please try again."
+msgstr ""
+
+#: inc/welcome/welcome.php:354 inc/welcome/welcome.php:374
+msgid "Plugin Does not Exists"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-category-slider.php:26
+msgid "Display posts from selected category as slider."
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-category-slider.php:31
+msgid "vmagazine-lite : Category Posts(Slider)"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-category-slider.php:45
+#: inc/widgets/vmagazine-lite-featured-slider.php:45
+#: inc/widgets/vmagazine-lite-fullwidth-slider.php:46
+#: inc/widgets/vmagazine-lite-multiple-category-tabbed.php:47
+#: inc/widgets/vmagazine-lite-recent-posts.php:37
+#: inc/widgets/vmagazine-lite-slider-tab-carousel.php:47
+#: inc/widgets/vmagazine-lite-timeline-posts.php:43
+msgid "Layout will be like this"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-category-slider.php:51
+#: inc/widgets/vmagazine-lite-featured-slider.php:52
+#: inc/widgets/vmagazine-lite-multiple-category-tabbed.php:54
+#: inc/widgets/vmagazine-lite-slider-tab-carousel.php:54
+#: inc/widgets/vmagazine-lite-timeline-posts.php:50
+msgid "Block Title"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-category-slider.php:56
+#: inc/widgets/vmagazine-lite-recent-posts.php:51
+#: inc/widgets/vmagazine-lite-timeline-posts.php:56
+msgid "Block posts: "
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-category-slider.php:63
+msgid "Select Category for Slider"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-category-slider.php:70
+#: inc/widgets/vmagazine-lite-fullwidth-slider.php:69
+#: inc/widgets/vmagazine-lite-slider-tab-carousel.php:76
+#: inc/widgets/vmagazine-lite-timeline-posts.php:72
+msgid "No. of Posts"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-category-slider.php:76
+msgid "Excerpt For Post Description"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-category-slider.php:77
+msgid ""
+"Enter Excerpts in number of letters default: 180 &#40; exerpt will work on "
+"first layout only &#41;"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-category-slider.php:83
+#: inc/widgets/vmagazine-lite-featured-slider.php:130
+msgid "View All Button Text"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-category-slider.php:88
+#: inc/widgets/vmagazine-lite-featured-slider.php:136
+#: inc/widgets/vmagazine-lite-fullwidth-slider.php:76
+msgid "Hide/Show Meta"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-category-slider.php:92
+#: inc/widgets/vmagazine-lite-featured-slider.php:140
+#: inc/widgets/vmagazine-lite-fullwidth-slider.php:80
+#: inc/widgets/vmagazine-lite-slider-tab-carousel.php:88
+msgid "Show or hide post meta options like author name, post date etc"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-featured-slider.php:28
+msgid "vmagazine-lite : Featured Slider"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-featured-slider.php:29
+msgid "Widget to control slider and featured posts section."
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-featured-slider.php:59
+msgid "Slider Section"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-featured-slider.php:64
+msgid "Slider Display Type"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-featured-slider.php:71
+msgid "Category for Slider"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-featured-slider.php:78
+msgid "No of slides"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-featured-slider.php:89
+msgid "Featured Posts Section"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-featured-slider.php:95
+msgid "Show/Hide Featured Section"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-featured-slider.php:99
+msgid "Show or hide featured section below slider"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-featured-slider.php:103
+msgid "Featured Posts Display"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-featured-slider.php:110
+msgid "Category for Featured Posts"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-featured-slider.php:117
+msgid "No of posts"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-featured-slider.php:123
+#: inc/widgets/vmagazine-lite-multiple-category-tabbed.php:78
+msgid "Excerpt for post description"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-featured-slider.php:124
+msgid "Enter excerpts in number of letters Default: 150"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-fullwidth-slider.php:26
+msgid "Display fullwidth slider with ."
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-fullwidth-slider.php:31
+msgid "vmagazine-lite: Fullwidth slider"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-fullwidth-slider.php:53
+#: inc/widgets/vmagazine-lite-multiple-category-tabbed.php:60
+#: inc/widgets/vmagazine-lite-slider-tab-carousel.php:60
+msgid "Block Display Type"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-fullwidth-slider.php:61
+#: inc/widgets/vmagazine-lite-recent-posts.php:59
+msgid "Category for Block Posts"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-medium-ad.php:26
+msgid "Display ads in size of medium rectangle"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-medium-ad.php:28
+msgid "vmagazine-lite : Ads Uploader"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-medium-ad.php:41
+msgid "Banner Title"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-medium-ad.php:47
+msgid "Banner Image"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-medium-ad.php:52
+msgid "ADS Bottom Text"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-medium-ad.php:57
+msgid "Banner Url"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-medium-ad.php:62
+msgid "Open link in new tab"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-multiple-category-tabbed.php:26
+msgid "Display posts from selected category as tabbed sytles."
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-multiple-category-tabbed.php:31
+msgid "vmagazine-lite : Multiple Category Tabbed"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-multiple-category-tabbed.php:69
+#: inc/widgets/vmagazine-lite-slider-tab-carousel.php:68
+msgid "Choose categories"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-multiple-category-tabbed.php:79
+msgid "Enter Excerpts in number of letters default: 200"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-multiple-category-tabbed.php:85
+msgid "View All Text"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-multiple-category-tabbed.php:90
+msgid "Hide/Show Meta Description"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-recent-posts.php:21
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-recent-posts.php:45
+msgid "Title"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-recent-posts.php:67
+msgid "Posts Per Page"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-slider-tab-carousel.php:26
+msgid "Display posts from selected category as slider in Tab."
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-slider-tab-carousel.php:31
+msgid "vmagazine-lite : Slider Tab Carousel"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-slider-tab-carousel.php:85
+msgid "Show/Hide Meta"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-timeline-posts.php:26
+msgid "Display posts from selected category as timeline list."
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-timeline-posts.php:28
+msgid "vmagazine-lite : Timeline Posts"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-timeline-posts.php:64
+msgid "Select Category for Lists"
+msgstr ""
+
+#: inc/widgets/vmagazine-lite-timeline-posts.php:80
+msgid "View all Text"
+msgstr ""
+
+#: inc/widgets/widget-fields.php:216
+msgid "Widget Layout"
+msgstr ""
+
+#: inc/widgets/widget-fields.php:237
+msgid "No file chosen"
+msgstr ""
+
+#: inc/widgets/widget-fields.php:251
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: inc/widgets/widget-fields.php:272
+msgid "View File"
+msgstr ""
+
+#: inc/widgets/widget-functions.php:27
+msgid "--Select Category--"
+msgstr ""
+
+#: inc/widgets/widget-functions.php:36
+msgid "From Latest Posts"
+msgstr ""
+
+#: inc/widgets/widget-functions.php:37
+msgid "Random Posts"
+msgstr ""
+
+#: inc/widgets/widget-functions.php:38
+msgid "From Selected Category"
+msgstr ""
+
+#. %s: Name of current post.
+#: layouts/post/single-layout1.php:36
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: layouts/post/single-layout1.php:48
+msgid "Related tags : "
+msgstr ""
+
+#: layouts/post/single-layout1.php:59
+msgid "Share it on:"
+msgstr ""
+
+#: layouts/post/single-layout1.php:82
+msgid "<span> Previous Article</span> <p>%title</p>"
+msgstr ""
+
+#: layouts/post/single-layout1.php:83
+msgid "<span> Next Article</span> <p>%title</p>"
+msgstr ""
+
+#: inc/customizer/repeater-controller/customizer.php:48
+msgid "Social Icons Option"
+msgstr ""
+
+#: inc/customizer/repeater-controller/customizer.php:51
+msgid "Add Profile"
+msgstr ""
+
+#: inc/customizer/repeater-controller/customizer.php:57
+msgid "Choose Icon"
+msgstr ""
+
+#: inc/customizer/repeater-controller/customizer.php:64
+msgid "Enter URL"
+msgstr ""
+
+#: inc/customizer/repeater-controller/repeater-class.php:153
+msgid "No image selected"
+msgstr ""
+
+#: inc/customizer/repeater-controller/repeater-class.php:160
+msgid "Select Image"
+msgstr ""
+
+#: inc/customizer/repeater-controller/repeater-class.php:202
+#: inc/customizer/repeater-controller/repeater-class.php:212
+msgid "Select Page"
+msgstr ""
+
+#: inc/customizer/repeater-controller/repeater-class.php:331
+msgid "Delete"
+msgstr ""
+
+#: inc/customizer/repeater-controller/repeater-class.php:332
+msgid "Close"
+msgstr ""
+
+#: inc/welcome/sections/demo_import.php:40
+msgid "Plugin"
+msgstr ""
+
+#: inc/welcome/sections/demo_import.php:122
+msgid "Install : "
+msgstr ""
+
+#: inc/welcome/sections/demo_import.php:122
+msgid " Plugin"
+msgstr ""
+
+#: inc/welcome/sections/demo_import.php:141
+#, php-format
+msgid ""
+"Please install all the %1$s before you install the demo. It is also "
+"recommended to reset the database using %2$s before importing demo."
+msgstr ""
+
+#: inc/welcome/sections/demo_import.php:141
+msgid "recommended plugins"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:3
+msgid "ONE TIME PAYMENT"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:4
+msgid "No renewal needed"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:8
+msgid "UNLIMITED DOMAIN LICENCE"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:9
+msgid "Use in as many website as you need"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:13
+msgid "FREE UPDATES FOR LIFE TIME"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:14
+msgid "Keep upto date"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:21
+#: inc/welcome/sections/free_vs_pro.php:204
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:22
+#: inc/welcome/sections/free_vs_pro.php:205
+msgid "Upgrade to pro version for additional features and better supports."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:25
+#: inc/welcome/sections/free_vs_pro.php:208
+msgid "Buy Now ($44 only)"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:29
+msgid "Features"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:30
+msgid "Free"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:31
+msgid "Pro"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:35
+msgid "One Click Demo Import."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:36
+msgid ""
+"Tired of configuring site from scratch. Installation of demo is just one "
+"click away."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:47
+msgid "Live Ajax Search"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:48
+msgid "Find your considered article fast and easy."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:59
+msgid "Header Layout"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:60
+msgid ""
+"Configure your website with any header layouts according to your need\n"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:72
+msgid "Build in Mega Menu"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:73
+msgid ""
+"Configure your mega menu without any hassles, with easy configuration "
+"options."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:84
+msgid "Inbuilt Widgets"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:85
+msgid "Choose any one header layout from the available 2 Layouts."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:88
+msgid "8"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:91
+msgid "22"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:96
+msgid "Ads Placements"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:97
+msgid "Place your ads anywhere you prefer using page builder"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:108
+msgid "Preloader Option"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:109
+msgid "Display preloader before the site content loads fully in your website."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:120
+msgid "Typography Option"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:121
+msgid "Change the fonts settings for the entire site."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:132
+msgid "Responsive Design"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:133
+msgid "Displays fine in device with screen sizes."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:144
+msgid "Unlimited theme colors"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:145
+msgid ""
+"Offers unlimited theme colors choose any of your choice and create a "
+"delightful site."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:156
+msgid "WPML  Compatible"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:157
+msgid ""
+"The theme is fully compatible with WordPress Multilingual plugin WMPL and "
+"Polylang."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:168
+msgid "Woocommerce Compatible"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:169
+msgid "Supports the Woocommerce plugin to build a ecommerce based website."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:180
+msgid "SEO Optimized"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:181
+msgid "Google will love it."
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:192
+msgid "RTL Support"
+msgstr ""
+
+#: inc/welcome/sections/free_vs_pro.php:193
+msgid ""
+"The theme is compatible with all RTL (Right to Left) languages like Arabic, "
+"Persian and Hebrew."
+msgstr ""
+
+#: inc/welcome/sections/recommended_plugins.php:40
+#: inc/welcome/sections/recommended_plugins.php:82
+#: inc/welcome/sections/recommended_plugins.php:139
+msgid "Version "
+msgstr ""
+
+#: inc/welcome/sections/support.php:2
+msgid "Documentation"
+msgstr ""
+
+#: inc/welcome/sections/support.php:3
+msgid ""
+"Read the detailed documentation of the theme. The documentation contain all "
+"the necessary information required to setup the theme VMagazine Lite."
+msgstr ""
+
+#: inc/welcome/sections/support.php:4
+msgid "Read Full Documentation"
+msgstr ""
+
+#: inc/welcome/sections/support.php:8 inc/welcome/sections/support.php:10
+msgid "Create Support Tickets"
+msgstr ""
+
+#: inc/welcome/sections/support.php:9
+msgid ""
+"Still having problem after reading all the documentation? No Problem!! "
+"Please create a support ticket. Our dedicated support team will help you to "
+"solve your problem"
+msgstr ""
+
+#. Name of the theme
+msgid "VMagazine Lite"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"VMagazine is a responsive multi layout news magazine WordPress theme. The "
+"theme is perfect for all newspaper, magazines and blog websites. In fact, "
+"this is one of the quickest and simplest theme that allows you to create a "
+"news magazine website in no time. The theme is also highly configurable, "
+"uses SiteOrigin Page Builder, has 8 built in widgets, 4 elegantly designed "
+"demo layouts that can be imported with just one click and the flexibility to "
+"place your ads as you desire. On top of all of these powerful features, "
+"VMagazine can even help you create a great ecommerce site as it is fully "
+"compatible with the WooCommerce plugin. Another important feature of the "
+"theme is that it is fully translation ready and multilingual ready. Know "
+"more about this news magazine WordPress theme here - https:"
+"//accesspressthemes.com/wordpress-themes/vmagazine-lite/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://accesspressthemes.com/wordpress-themes/vmagazine-lite/"
+msgstr ""
+
+#. Author of the theme
+msgid "AccessPress Themes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://accesspressthemes.com/"
+msgstr ""

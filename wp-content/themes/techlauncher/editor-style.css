@@ -1,0 +1,46 @@
+/*
+Description: Used to style the TinyMCE editor.
+*/
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: "Open Sans", Arial, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+}
+
+body#tinymce.wp-editor a{
+	color: #0089bd;
+}
+
+h1 {
+	font-size: 38px;
+	line-height: 40px;
+}
+h2 {
+	font-size: 35px;
+	line-height: 35px;
+}
+h3 {
+	font-size: 29px;
+	line-height: 30px;
+}
+h4 {
+	font-size: 28px;
+	line-height: 25px;
+}
+h5 {
+	font-size: 24px;
+	line-height: 20px;
+}
+h6 {
+	font-size: 20px;
+	line-height: 20px;
+}
+h1, h2, h3, h4, h5, h6, ,a{
+	font-family: muli, "Open Sans", sans-serif;
+	font-weight: normal;
+	letter-spacing: 0.01em;
+}

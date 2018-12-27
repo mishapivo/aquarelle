@@ -1,0 +1,33 @@
+#customize-controls .control-section-vw-health-coaching .accordion-section-title:hover,
+#customize-controls .control-section-vw-health-coaching .accordion-section-title:focus {
+	background-color: #fff;
+}
+.control-section-vw-health-coaching .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+.rtl .control-section-vw-health-coaching .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+/* ---------Customizer--------- */
+.control-section-vw-health-coaching h3.accordion-section-title {
+	background:  #313a43 !important;
+	font-size: 12px !important;
+	color: #fff !important;
+	text-shadow: 1px 1px #000;
+}
+a.button.button-secondary.alignright {
+    color: #fff;
+    box-shadow: none;    
+    font-weight: bold;
+    padding: 1px 10px;
+    background: #2ecc71;
+    height: 32px;
+    font-size: 12px !important;
+}
+a.button.button-secondary.alignright:hover {
+	background: #313a43;
+	color: #fff;
+}

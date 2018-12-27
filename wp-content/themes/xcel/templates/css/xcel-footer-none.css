@@ -1,0 +1,13 @@
+/*--------------------------------------------------------------
+Xcel - Footer None Styling
+--------------------------------------------------------------*/
+
+.site-footer-none {
+    
+}
+
+.site-footer-none .site-footer-bottom-bar {
+    background-color: #080808;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 15px 0;
+}

@@ -1,0 +1,11 @@
+.wpsierra-admin .dashicons-yes {
+  color:green;
+}
+
+.wpsierra-admin .wp-pointer-content {
+  margin-top: 20px;
+}
+
+.wpsierra-admin .wp-pointer-content .wpsierra-admin-h2 {
+  margin-left: 20px;
+}

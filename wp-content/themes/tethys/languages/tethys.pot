@@ -1,0 +1,586 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Tethys 1.0.5\n"
+"POT-Creation-Date: 2018-11-27 21:57+0200\n"
+"PO-Revision-Date: 2018-07-12 19:15+0300\n"
+"Last-Translator: \n"
+"Language-Team: Space-Themes.com <space.themes.com@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_x;esc_html__;esc_html_e;_ex;_n;_nx;esc_attr__;"
+"esc_attr_e\n"
+"X-Poedit-SearchPath-0: woocommerce\n"
+"X-Poedit-SearchPath-1: widgets\n"
+"X-Poedit-SearchPath-2: theme-parts\n"
+"X-Poedit-SearchPath-3: space-themes\n"
+"X-Poedit-SearchPath-4: theme-parts/archive\n"
+"X-Poedit-SearchPath-5: theme-parts/single\n"
+"X-Poedit-SearchPath-6: 404.php\n"
+"X-Poedit-SearchPath-7: archive.php\n"
+"X-Poedit-SearchPath-8: category.php\n"
+"X-Poedit-SearchPath-9: comments.php\n"
+"X-Poedit-SearchPath-10: footer.php\n"
+"X-Poedit-SearchPath-11: functions.php\n"
+"X-Poedit-SearchPath-12: header.php\n"
+"X-Poedit-SearchPath-13: index.php\n"
+"X-Poedit-SearchPath-14: page.php\n"
+"X-Poedit-SearchPath-15: page-fullwidth.php\n"
+"X-Poedit-SearchPath-16: page-home.php\n"
+"X-Poedit-SearchPath-17: page-shop-sidebar.php\n"
+"X-Poedit-SearchPath-18: search.php\n"
+"X-Poedit-SearchPath-19: searchform.php\n"
+"X-Poedit-SearchPath-20: sidebar.php\n"
+"X-Poedit-SearchPath-21: single.php\n"
+"X-Poedit-SearchPath-22: single-attachment.php\n"
+"X-Poedit-SearchPath-23: space-themes/custom-comments.php\n"
+"X-Poedit-SearchPath-24: space-themes/customize.php\n"
+"X-Poedit-SearchPath-25: space-themes/mega-menu.php\n"
+"X-Poedit-SearchPath-26: space-themes/woocommerce.php\n"
+"X-Poedit-SearchPath-27: theme-parts/mobile-menu.php\n"
+"X-Poedit-SearchPath-28: theme-parts/related-posts.php\n"
+"X-Poedit-SearchPath-29: theme-parts/archive/loop.php\n"
+"X-Poedit-SearchPath-30: theme-parts/archive/loop-search.php\n"
+"X-Poedit-SearchPath-31: theme-parts/single/style-1.php\n"
+"X-Poedit-SearchPath-32: theme-parts/single/style-2.php\n"
+"X-Poedit-SearchPath-33: theme-parts/single/style-3.php\n"
+"X-Poedit-SearchPath-34: theme-parts/single/style-4.php\n"
+"X-Poedit-SearchPath-35: widgets/mega-menu.php\n"
+"X-Poedit-SearchPath-36: widgets/widget-1.php\n"
+"X-Poedit-SearchPath-37: widgets/widget-2.php\n"
+"X-Poedit-SearchPath-38: widgets/widget-3.php\n"
+"X-Poedit-SearchPath-39: widgets/widget-4.php\n"
+"X-Poedit-SearchPath-40: widgets/widget-5.php\n"
+"X-Poedit-SearchPath-41: widgets/widget-6.php\n"
+"X-Poedit-SearchPath-42: widgets/widget-7.php\n"
+"X-Poedit-SearchPath-43: widgets/widget-8.php\n"
+"X-Poedit-SearchPath-44: widgets/widget-9.php\n"
+"X-Poedit-SearchPath-45: widgets/widget-10.php\n"
+"X-Poedit-SearchPath-46: woocommerce/archive-product.php\n"
+"X-Poedit-SearchPath-47: woocommerce/single-product.php\n"
+"X-Poedit-SearchPath-48: space-themes/documentation.php\n"
+
+#: 404.php:7
+msgid "Error 404"
+msgstr ""
+
+#: 404.php:20
+msgid "Page not Found"
+msgstr ""
+
+#: 404.php:21
+msgid "Nothing found."
+msgstr ""
+
+#: 404.php:21
+msgid "Go back to home page"
+msgstr ""
+
+#: 404.php:24
+msgid "Search"
+msgstr ""
+
+#: archive.php:29 category.php:29 index.php:28 search.php:33
+msgid "&lsaquo;"
+msgstr ""
+
+#: archive.php:30 category.php:30 index.php:29 search.php:34
+msgid "&rsaquo;"
+msgstr ""
+
+#: archive.php:43 category.php:43 index.php:42 search.php:47
+#: theme-parts/related-posts.php:45
+msgid "Posts not found."
+msgstr ""
+
+#: archive.php:45 category.php:45 index.php:44
+msgid "No posts has been found. Please return to the homepage."
+msgstr ""
+
+#: comments.php:15
+#, php-format
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr ""
+
+#: comments.php:19
+#, php-format
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:39
+msgid "Reply"
+msgstr ""
+
+#: comments.php:45
+msgid "&laquo;"
+msgstr ""
+
+#: comments.php:46
+msgid "&raquo;"
+msgstr ""
+
+#: comments.php:55
+msgid "Name*"
+msgstr ""
+
+#: comments.php:56
+msgid "Email*"
+msgstr ""
+
+#: comments.php:57
+msgid "Website"
+msgstr ""
+
+#: comments.php:59
+msgid "Comment*"
+msgstr ""
+
+#: comments.php:61
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: footer.php:12
+msgid "&copy; Copyright 2018"
+msgstr ""
+
+#: footer.php:12 space-themes/documentation.php:27
+msgid "Designed by "
+msgstr ""
+
+#: footer.php:12 space-themes/documentation.php:27
+msgid "https://space-themes.com/"
+msgstr ""
+
+#: footer.php:12 space-themes/documentation.php:27
+msgid "Space-Themes.com"
+msgstr ""
+
+#: footer.php:23
+msgid "Back to Top"
+msgstr ""
+
+#: functions.php:73
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:74
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:96
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:98
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: functions.php:109
+msgid "Homepage Central Column"
+msgstr ""
+
+#: functions.php:111
+msgid "For widgets in the center column."
+msgstr ""
+
+#: functions.php:122
+msgid "Homepage Left Column"
+msgstr ""
+
+#: functions.php:124
+msgid "For widgets in the left column."
+msgstr ""
+
+#: functions.php:135
+msgid "Homepage Right Column"
+msgstr ""
+
+#: functions.php:137
+msgid "For widgets in the right column."
+msgstr ""
+
+#: functions.php:148
+msgid "Shop Sidebar"
+msgstr ""
+
+#: functions.php:150
+msgid "For widgets on the pages of the shop."
+msgstr ""
+
+#: functions.php:175
+msgid "Only for Mega Menu item."
+msgstr ""
+
+#: functions.php:193
+msgid "Post template style"
+msgstr ""
+
+#: functions.php:203
+msgid "Style 1"
+msgstr ""
+
+#: functions.php:204
+msgid "Style 2 (No Sidebar)"
+msgstr ""
+
+#: functions.php:205
+msgid "Style 3"
+msgstr ""
+
+#: functions.php:206
+msgid "Style 4 (No Sidebar)"
+msgstr ""
+
+#: functions.php:263
+msgid "on"
+msgstr ""
+
+#: index.php:7
+msgid "Recent Posts"
+msgstr ""
+
+#: page-fullwidth.php:48 page-shop-sidebar.php:48 page.php:43
+#: single-attachment.php:29 theme-parts/single/style-1.php:62
+#: theme-parts/single/style-2.php:62 theme-parts/single/style-3.php:59
+#: theme-parts/single/style-4.php:59
+msgid "Pages:"
+msgstr ""
+
+#: search.php:8
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: search.php:10
+msgid "Nothing found"
+msgstr ""
+
+#: search.php:49
+msgid "Nothing found. Please try another search query."
+msgstr ""
+
+#: single-attachment.php:40 theme-parts/single/style-1.php:73
+#: theme-parts/single/style-2.php:73 theme-parts/single/style-3.php:70
+#: theme-parts/single/style-4.php:70
+msgid "Tags:"
+msgstr ""
+
+#: space-themes/custom-comments.php:25
+#, php-format
+msgid "%s says:"
+msgstr ""
+
+#: space-themes/custom-comments.php:29
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: space-themes/custom-comments.php:36
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: space-themes/custom-comments.php:40
+msgid "(Edit)"
+msgstr ""
+
+#: space-themes/customize.php:18 widgets/mega-menu.php:101
+#: widgets/widget-1.php:153 widgets/widget-10.php:112 widgets/widget-2.php:110
+#: widgets/widget-3.php:122 widgets/widget-4.php:112 widgets/widget-5.php:116
+#: widgets/widget-6.php:124 widgets/widget-7.php:156 widgets/widget-8.php:113
+#: widgets/widget-9.php:112
+msgid "All"
+msgstr ""
+
+#: space-themes/customize.php:53
+msgid "Main Color"
+msgstr ""
+
+#: space-themes/customize.php:62
+msgid "Posts"
+msgstr ""
+
+#: space-themes/customize.php:75
+msgid "Enable related posts"
+msgstr ""
+
+#: space-themes/customize.php:90
+msgid "Enable \"time ago\" date format"
+msgstr ""
+
+#: space-themes/documentation.php:7 space-themes/documentation.php:8
+msgid "Documentation"
+msgstr ""
+
+#: space-themes/documentation.php:26
+msgid "Tethys Documentation"
+msgstr ""
+
+#: space-themes/documentation.php:29
+msgid "General Settings"
+msgstr ""
+
+#: space-themes/documentation.php:30
+msgid "Homepage"
+msgstr ""
+
+#: space-themes/documentation.php:31
+msgid "Post Templates"
+msgstr ""
+
+#: space-themes/documentation.php:32
+msgid "Mega Menu"
+msgstr ""
+
+#: space-themes/documentation.php:33
+msgid "Breadcrumbs"
+msgstr ""
+
+#: space-themes/documentation.php:46
+msgid ""
+"How to change the logo, main color, date format and enable related posts in "
+"the Tethys WordPress Theme:"
+msgstr ""
+
+#: space-themes/documentation.php:48
+msgid ""
+"Logo and Favicon - Go to &quot;Appearance&quot; - &quot;Customize&quot; - "
+"&quot;Site Identity&quot;."
+msgstr ""
+
+#: space-themes/documentation.php:49
+msgid ""
+"Main color - Go to &quot;Appearance&quot; - &quot;Customize&quot; - &quot;"
+"Colors&quot;."
+msgstr ""
+
+#: space-themes/documentation.php:50
+msgid ""
+"Enable date format and related posts - Go to &quot;Appearance&quot; - &quot;"
+"Customize&quot; - &quot;Posts&quot;."
+msgstr ""
+
+#: space-themes/documentation.php:64
+msgid "How to add the homepage in the Tethys WordPress Theme:"
+msgstr ""
+
+#: space-themes/documentation.php:66
+msgid "Go to &quot;Pages&quot; - &quot;Add New&quot;."
+msgstr ""
+
+#: space-themes/documentation.php:67
+msgid ""
+"Enter a title and select a template &quot;Homepage&quot;. Click &quot;"
+"Publish&quot;."
+msgstr ""
+
+#: space-themes/documentation.php:68
+msgid ""
+"Go to &quot;Settings&quot; - &quot;Reading&quot;. In the block &quot;A "
+"static page (select below)&quot;, select the created homepage. Click &quot;"
+"Save Changes&quot;."
+msgstr ""
+
+#: space-themes/documentation.php:69
+msgid ""
+"Go to &quot;Appearance&quot; - &quot;Widgets&quot;. Select and configure "
+"widgets for your homepage."
+msgstr ""
+
+#: space-themes/documentation.php:83
+msgid "How to change post template style in the Tethys WordPress Theme:"
+msgstr ""
+
+#: space-themes/documentation.php:85
+msgid "Go to &quot;Posts&quot; - &quot;Add New&quot;."
+msgstr ""
+
+#: space-themes/documentation.php:86
+msgid ""
+"Select a template in the block &quot;Post template style&quot;. Click &quot;"
+"Publish&quot;."
+msgstr ""
+
+#: space-themes/documentation.php:100
+msgid "How to add a mega menu in the Tethys WordPress Theme:"
+msgstr ""
+
+#: space-themes/documentation.php:102
+msgid ""
+"Go to &quot;Appearance&quot; - &quot;Menus&quot; and select a menu to edit."
+msgstr ""
+
+#: space-themes/documentation.php:103
+msgid "In &quot;Screen Options&quot; enable a &quot;CSS Classes&quot;."
+msgstr ""
+
+#: space-themes/documentation.php:104
+msgid ""
+"For menu item add &quot;has-mega-menu&quot; to &quot;CSS Classes&quot; field "
+"and click &quot;Save Menu&quot;."
+msgstr ""
+
+#: space-themes/documentation.php:105
+msgid ""
+"Go to &quot;Appearance&quot; - &quot;Widgets&quot;. Select &quot;[Menu Item "
+"Name] - Mega Menu&quot; sidebar area."
+msgstr ""
+
+#: space-themes/documentation.php:106
+msgid "Drag &quot;#Mega Menu Post [Tethys]&quot; widget into this area."
+msgstr ""
+
+#: space-themes/documentation.php:107
+msgid "Select a category and save."
+msgstr ""
+
+#: space-themes/documentation.php:121
+msgid "How to add breadcrumbs to the Tethys WordPress Theme:"
+msgstr ""
+
+#: space-themes/documentation.php:123
+msgid ""
+"Go to &quot;Plugins&quot; - &quot;Add New&quot;. Install the plugin &quot;"
+"Yoast SEO&quot;."
+msgstr ""
+
+#: space-themes/documentation.php:124
+msgid ""
+"Go to &quot;SEO&quot; - &quot;Search Appearance&quot; - &quot;"
+"Breadcrumbs&quot;."
+msgstr ""
+
+#: space-themes/documentation.php:125
+msgid "Enable Breadcrumbs. Click &quot;Save Changes&quot;."
+msgstr ""
+
+#: theme-parts/related-posts.php:5
+msgid "Read More"
+msgstr ""
+
+#: theme-parts/related-posts.php:47
+msgid "Sorry, no other posts related this article."
+msgstr ""
+
+#: theme-parts/single/style-1.php:50 theme-parts/single/style-2.php:50
+#: theme-parts/single/style-3.php:47 theme-parts/single/style-4.php:47
+msgid "Comments: "
+msgstr ""
+
+#: widgets/mega-menu.php:8
+msgid "#Mega Menu Posts [tethys]"
+msgstr ""
+
+#: widgets/mega-menu.php:9
+msgid "Widget for displaying posts in the mega menu."
+msgstr ""
+
+#: widgets/mega-menu.php:96 widgets/widget-1.php:148 widgets/widget-10.php:107
+#: widgets/widget-2.php:105 widgets/widget-3.php:117 widgets/widget-4.php:107
+#: widgets/widget-5.php:111 widgets/widget-6.php:119 widgets/widget-7.php:151
+#: widgets/widget-8.php:108 widgets/widget-9.php:107
+msgid "Title:"
+msgstr ""
+
+#: widgets/mega-menu.php:99 widgets/widget-1.php:151 widgets/widget-10.php:110
+#: widgets/widget-2.php:108 widgets/widget-3.php:120 widgets/widget-4.php:110
+#: widgets/widget-5.php:114 widgets/widget-6.php:122 widgets/widget-7.php:154
+#: widgets/widget-8.php:111 widgets/widget-9.php:110
+msgid "Select Category:"
+msgstr ""
+
+#: widgets/widget-1.php:8
+msgid "#1 Widget [tethys]"
+msgstr ""
+
+#: widgets/widget-1.php:9
+msgid "Widget #1 for the Homepage"
+msgstr ""
+
+#: widgets/widget-10.php:8
+msgid "#10 Widget [tethys]"
+msgstr ""
+
+#: widgets/widget-10.php:9
+msgid "Widget #10 for the Homepage"
+msgstr ""
+
+#: widgets/widget-10.php:118 widgets/widget-2.php:116 widgets/widget-3.php:128
+#: widgets/widget-4.php:118 widgets/widget-5.php:122 widgets/widget-6.php:130
+#: widgets/widget-8.php:119 widgets/widget-9.php:118
+msgid "Number of post to show:"
+msgstr ""
+
+#: widgets/widget-2.php:8
+msgid "#2 Widget [tethys]"
+msgstr ""
+
+#: widgets/widget-2.php:9
+msgid "Widget #2 for the Homepage"
+msgstr ""
+
+#: widgets/widget-3.php:8
+msgid "#3 Widget [tethys]"
+msgstr ""
+
+#: widgets/widget-3.php:9
+msgid "Widget #3 for the Homepage"
+msgstr ""
+
+#: widgets/widget-4.php:8
+msgid "#4 Widget [tethys]"
+msgstr ""
+
+#: widgets/widget-4.php:9
+msgid "Widget #4 for the Homepage"
+msgstr ""
+
+#: widgets/widget-5.php:8
+msgid "#5 Widget [tethys]"
+msgstr ""
+
+#: widgets/widget-5.php:9
+msgid "Widget #5 for the Homepage"
+msgstr ""
+
+#: widgets/widget-6.php:8
+msgid "#6 Widget [tethys]"
+msgstr ""
+
+#: widgets/widget-6.php:9
+msgid "Widget #6 for the Homepage"
+msgstr ""
+
+#: widgets/widget-7.php:8
+msgid "#7 Widget [tethys]"
+msgstr ""
+
+#: widgets/widget-7.php:9
+msgid "Widget #7 for the Homepage. Video Posts."
+msgstr ""
+
+#: widgets/widget-8.php:8
+msgid "#8 Widget [tethys]"
+msgstr ""
+
+#: widgets/widget-8.php:9
+msgid "Widget #8 for the Homepage"
+msgstr ""
+
+#: widgets/widget-8.php:74
+msgid "Latest News"
+msgstr ""
+
+#: widgets/widget-9.php:8
+msgid "#9 Widget [tethys]"
+msgstr ""
+
+#: widgets/widget-9.php:9
+msgid "Widget #9 for the Homepage"
+msgstr ""

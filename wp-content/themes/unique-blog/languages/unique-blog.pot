@@ -1,0 +1,431 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Unique Blog\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-07 01:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: single.php:43
+msgid " Previous Article"
+msgstr ""
+
+#: index.php:66
+#, php-format
+msgid "%d Comment"
+msgid_plural "%d "
+msgstr[0] ""
+msgstr[1] ""
+
+#. used between list items, there is a space after the comma
+#: themerelic/core/template-tags.php:62
+msgid ", "
+msgstr ""
+
+#: themerelic/customizer/custom-controls/repeater/class-control-repeater.php:441
+#: themerelic/customizer/custom-controls/repeater/class-control-repeater.php:445
+msgid "Add File"
+msgstr ""
+
+#: themerelic/customizer/custom-controls/repeater/class-control-repeater.php:405
+#: themerelic/customizer/custom-controls/repeater/class-control-repeater.php:409
+msgid "Add Image"
+msgstr ""
+
+#: themerelic/customizer/custom-controls/repeater/class-control-repeater.php:82
+#, php-format
+msgid "Add new %s"
+msgstr ""
+
+#: functions.php:132
+msgid "Add widgets here."
+msgstr ""
+
+#: themerelic/unique_blog_functions.php:118
+#: themerelic/unique_blog_functions.php:119
+#: themerelic/unique_blog_functions.php:120
+#, php-format
+msgid "Archive for %s"
+msgstr ""
+
+#: themerelic/unique_blog_functions.php:121
+msgid "Author Archive"
+msgstr ""
+
+#: themerelic/unique_blog_functions.php:135
+msgid "Blog"
+msgstr ""
+
+#: themerelic/unique_blog_functions.php:122
+msgid "Blog Archives"
+msgstr ""
+
+#: themerelic/customizer/panels/general/post-layout.php:31
+msgid "Blog Layout"
+msgstr ""
+
+#: themerelic/customizer/custom-controls/repeater/class-control-repeater.php:441
+#: themerelic/customizer/custom-controls/repeater/class-control-repeater.php:443
+msgid "Change File"
+msgstr ""
+
+#: themerelic/customizer/custom-controls/repeater/class-control-repeater.php:405
+#: themerelic/customizer/custom-controls/repeater/class-control-repeater.php:407
+msgid "Change Image"
+msgstr ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-single.php:39 template-parts/content.php:41
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. Description of the theme
+msgid "Description"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:37 themerelic/core/template-tags.php:99
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: themerelic/customizer/panels/general/slider.php:59
+msgid "Enable Slider Post Inclusive Settings"
+msgstr ""
+
+#: themerelic/customizer/panels/general/slider.php:35
+msgid "Enable Slider Settings"
+msgstr ""
+
+#: themerelic/customizer/panels/footer/social-links.php:35
+msgid "Enable Social Links"
+msgstr ""
+
+#: themerelic/customizer/panels/general/slider.php:60
+msgid "Enable/Disable Slider Post Inclusive Settings."
+msgstr ""
+
+#: themerelic/customizer/panels/general/slider.php:36
+msgid "Enable/Disable Slider Settings."
+msgstr ""
+
+#: themerelic/customizer/panels/footer/social-links.php:36
+msgid "Enable/Disable Social Links."
+msgstr ""
+
+#: footer.php:33
+msgid "facebook"
+msgstr ""
+
+#: themerelic/customizer/panels/footer/social-links.php:56
+msgid "Facebook URL"
+msgstr ""
+
+#: themerelic/customizer/panels/general/post-layout.php:37
+msgid "Fancy Layout"
+msgstr ""
+
+#: themerelic/customizer/panels/footer.php:11
+msgid "Footer Settings"
+msgstr ""
+
+#: themerelic/customizer/panels/general/post-layout.php:65
+msgid "Full Width"
+msgstr ""
+
+#: themerelic/customizer/panels/general.php:11
+msgid "General Settings"
+msgstr ""
+
+#: themerelic/customizer/panels/footer/social-links.php:165
+msgid "Google Plus URL"
+msgstr ""
+
+#: footer.php:38
+msgid "goolge plus"
+msgstr ""
+
+#: themerelic/customizer/panels/general/post-layout.php:36
+msgid "Grid Layout"
+msgstr ""
+
+#: themerelic/customizer/custom-controls/repeater/class-control-repeater.php:369
+msgid "Hex Value"
+msgstr ""
+
+#: themerelic/unique_blog_functions.php:100
+#: themerelic/unique_blog_functions.php:132
+msgid "Home"
+msgstr ""
+
+#. URI of the theme
+msgid "http://underscores.me/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://themerelic.com"
+msgstr ""
+
+#: footer.php:43
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:37
+msgid "instagram"
+msgstr ""
+
+#: themerelic/customizer/panels/footer/social-links.php:142
+msgid "Instagram URL"
+msgstr ""
+
+#: 404.php:22
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: themerelic/customizer/panels/general/post-layout.php:12
+msgid "Layout Settings"
+msgstr ""
+
+#. %s: post title
+#: themerelic/core/template-tags.php:82
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: themerelic/customizer/panels/general/post-layout.php:63
+msgid "Left Sidebar"
+msgstr ""
+
+#: themerelic/customizer/custom-controls/repeater/class-control-repeater.php:237
+#, php-format
+msgid "Limit: %s rows"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: themerelic/core/template-tags.php:69
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: themerelic/customizer/panels/general/post-layout.php:35
+msgid "List Layout"
+msgstr ""
+
+#: themerelic/customizer/panels/header.php:11
+msgid "Logo & Header Settings"
+msgstr ""
+
+#: themerelic/customizer/panels/general/post-layout.php:38
+msgid "Masonry Layout"
+msgstr ""
+
+#: 404.php:31
+msgid "Most Used Categories"
+msgstr ""
+
+#: single.php:65
+msgid "Next Article"
+msgstr ""
+
+#: themerelic/customizer/custom-controls/repeater/class-control-repeater.php:430
+#: themerelic/customizer/custom-controls/repeater/class-control-repeater.php:435
+msgid "No File Selected"
+msgstr ""
+
+#: themerelic/customizer/custom-controls/repeater/class-control-repeater.php:394
+#: themerelic/customizer/custom-controls/repeater/class-control-repeater.php:399
+msgid "No Image Selected"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: themerelic/customizer/panels/general/slider.php:80
+msgid "Number of Post"
+msgstr ""
+
+#: themerelic/customizer/panels/general/slider.php:81
+msgid "Number of Post Display on slider."
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: template-parts/content-page.php:24 template-parts/content-single.php:50
+#: template-parts/content.php:52
+msgid "Pages:"
+msgstr ""
+
+#: footer.php:36
+msgid "pinterest"
+msgstr ""
+
+#: themerelic/customizer/panels/footer/social-links.php:120
+msgid "Pinterest URL"
+msgstr ""
+
+#. %s: post author.
+#: themerelic/core/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. %s: post date.
+#: themerelic/core/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. 1: list of categories.
+#: themerelic/core/template-tags.php:65
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: functions.php:61
+msgid "Primary"
+msgstr ""
+
+#. %s: CMS name, i.e. WordPress.
+#: footer.php:46
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: themerelic/customizer/custom-controls/repeater/class-control-repeater.php:404
+#: themerelic/customizer/custom-controls/repeater/class-control-repeater.php:469
+msgid "Remove"
+msgstr ""
+
+#: themerelic/customizer/panels/general/post-layout.php:64
+msgid "Right Sidebar"
+msgstr ""
+
+#: themerelic/customizer/custom-controls/repeater/class-control-repeater.php:74
+msgid "row"
+msgstr ""
+
+#: themerelic/unique_blog_functions.php:123
+msgid "Search Results"
+msgstr ""
+
+#. %s: search query.
+#: search.php:22
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: functions.php:130
+msgid "Sidebar"
+msgstr ""
+
+#: themerelic/customizer/panels/general/post-layout.php:59
+msgid "Sidebar Layout"
+msgstr ""
+
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: themerelic/customizer/panels/general/slider.php:12
+msgid "Slider Settings"
+msgstr ""
+
+#: themerelic/customizer/panels/footer/social-links.php:12
+msgid "Social Links"
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#. 1: list of tags.
+#: themerelic/core/template-tags.php:72
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. 1: Theme name, 2: Theme author.
+#: footer.php:53
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#. Author of the theme
+msgid "themerelic"
+msgstr ""
+
+#. %1$s: smiley
+#: 404.php:47
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: footer.php:34
+msgid "twitter"
+msgstr ""
+
+#: themerelic/customizer/panels/footer/social-links.php:77
+msgid "Twitter URL"
+msgstr ""
+
+#. Name of the theme
+msgid "Unique Blog"
+msgstr ""
+
+#: footer.php:35
+msgid "youtube"
+msgstr ""
+
+#: themerelic/customizer/panels/footer/social-links.php:99
+msgid "Youtube URL"
+msgstr ""

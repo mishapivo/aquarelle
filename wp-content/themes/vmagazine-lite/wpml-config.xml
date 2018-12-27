@@ -1,0 +1,11 @@
+<wpml-config>
+<admin-texts>
+  <key name="theme_mods_vmagazine-lite">
+      <key name="vmagazine_lite_ticker_caption" />
+      <key name="vmagazine_lite_archive_read_more_text" />
+      <key name="vmagazine_lite_copyright_text" />
+      <key name="vmagazine_lite_description_text" />
+
+    </key>
+</admin-texts>
+</wpml-config>

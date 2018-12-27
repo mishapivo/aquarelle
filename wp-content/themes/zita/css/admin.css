@@ -1,0 +1,11 @@
+/*start zita post meta box style*/
+#zita-meta-box .post-attributes-label{
+margin-bottom:8px;
+}
+#zita-meta-box .post-attributes-setting{
+margin-top:0px;
+}
+#zita-meta-box select{
+width:100%;
+}
+/*end zita post meta box style*/

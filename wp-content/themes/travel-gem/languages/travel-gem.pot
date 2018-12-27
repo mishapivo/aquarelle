@@ -1,0 +1,1509 @@
+# Copyright (C) 2018 WEN Themes
+# This file is distributed under the GPLv2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Travel Gem 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-11-12 10:18:43+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: WEN Themes <info@wenthemes.com>\n"
+"Language-Team: \n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: ../../travel-gem\n"
+
+#: 404.php:17
+msgid "404"
+msgstr ""
+
+#: 404.php:18
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: comments.php:34
+#. translators: 1: title.
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:45
+msgid "Primary"
+msgstr ""
+
+#: functions.php:46
+msgid "Footer"
+msgstr ""
+
+#: functions.php:122
+msgid "Primary Sidebar"
+msgstr ""
+
+#: functions.php:124
+msgid "Add widgets here to appear in your primary sidebar."
+msgstr ""
+
+#: functions.php:131
+msgid "Secondary Sidebar"
+msgstr ""
+
+#: functions.php:133
+msgid "Add widgets here to appear in your secondary sidebar."
+msgstr ""
+
+#: functions.php:142
+msgid "Footer %d"
+msgstr ""
+
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: inc/customizer/controls.php:209
+msgid "Add New"
+msgstr ""
+
+#: inc/customizer/default.php:46
+msgid "Blog"
+msgstr ""
+
+#: inc/customizer/default.php:48
+msgid "Read More"
+msgstr ""
+
+#: inc/customizer/default.php:51 inc/helper/common.php:93
+#: lib/breadcrumbs/breadcrumbs.php:250
+msgid "Home"
+msgstr ""
+
+#: inc/customizer/default.php:55
+msgid "Copyright &copy; All rights reserved."
+msgstr ""
+
+#: inc/customizer/option.php:16
+msgid "Show Site Title"
+msgstr ""
+
+#: inc/customizer/option.php:28
+msgid "Show Tagline"
+msgstr ""
+
+#: inc/customizer/option.php:36 lib/info/info.php:71
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer/option.php:42
+msgid "Header Options"
+msgstr ""
+
+#: inc/customizer/option.php:53 inc/metabox.php:79
+msgid "Header Layout"
+msgstr ""
+
+#: inc/customizer/option.php:65
+msgid "Contact Number"
+msgstr ""
+
+#: inc/customizer/option.php:76
+msgid "Contact Email"
+msgstr ""
+
+#: inc/customizer/option.php:87
+msgid "Contact Address"
+msgstr ""
+
+#: inc/customizer/option.php:98
+msgid "Quote Button Text"
+msgstr ""
+
+#: inc/customizer/option.php:109
+msgid "Quote Button URL"
+msgstr ""
+
+#: inc/customizer/option.php:120
+msgid "Make Primary Menu Sticky"
+msgstr ""
+
+#: inc/customizer/option.php:127
+msgid "Custom Header Options"
+msgstr ""
+
+#: inc/customizer/option.php:137
+msgid "Select Layout"
+msgstr ""
+
+#: inc/customizer/option.php:149
+msgid "Show Title"
+msgstr ""
+
+#: inc/customizer/option.php:160
+msgid "Show Breadcrumb"
+msgstr ""
+
+#: inc/customizer/option.php:167
+msgid "Social Options"
+msgstr ""
+
+#: inc/customizer/option.php:177
+msgid "Social Links"
+msgstr ""
+
+#: inc/customizer/option.php:178
+msgid "Enter full URL."
+msgstr ""
+
+#: inc/customizer/option.php:185
+msgid "Layout Options"
+msgstr ""
+
+#: inc/customizer/option.php:195
+msgid "Global Layout"
+msgstr ""
+
+#: inc/customizer/option.php:207
+msgid "Archive Layout"
+msgstr ""
+
+#: inc/customizer/option.php:219
+msgid "Image in Archive"
+msgstr ""
+
+#: inc/customizer/option.php:231
+msgid "Image Alignment in Archive"
+msgstr ""
+
+#: inc/customizer/option.php:240
+msgid "Blog Options"
+msgstr ""
+
+#: inc/customizer/option.php:250
+msgid "Blog Title"
+msgstr ""
+
+#: inc/customizer/option.php:261 inc/so-widgets/latest-news/latest-news.php:91
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/customizer/option.php:262 inc/so-widgets/latest-news/latest-news.php:92
+msgid "in words"
+msgstr ""
+
+#: inc/customizer/option.php:274
+msgid "Read More Text"
+msgstr ""
+
+#: inc/customizer/option.php:281
+msgid "Breadcrumb Options"
+msgstr ""
+
+#: inc/customizer/option.php:291
+msgid "Home Text"
+msgstr ""
+
+#: inc/customizer/option.php:302
+msgid "Show Current Title"
+msgstr ""
+
+#: inc/customizer/option.php:309
+msgid "Footer Options"
+msgstr ""
+
+#: inc/customizer/option.php:320
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/customizer.php:56
+msgid "Travel Gem Pro"
+msgstr ""
+
+#: inc/customizer.php:57
+msgid "Buy Pro"
+msgstr ""
+
+#: inc/helper/options.php:26
+msgid "No Image"
+msgstr ""
+
+#: inc/helper/options.php:29
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/helper/options.php:30
+msgid "Medium"
+msgstr ""
+
+#: inc/helper/options.php:31
+msgid "Large"
+msgstr ""
+
+#: inc/helper/options.php:32
+msgid "Full (original)"
+msgstr ""
+
+#: inc/helper/options.php:185 inc/helper/options.php:263
+msgid "Default"
+msgstr ""
+
+#: inc/helper/options.php:186
+msgid "Small Header"
+msgstr ""
+
+#: inc/helper/options.php:206
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/helper/options.php:207
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/helper/options.php:208
+msgid "Three Columns"
+msgstr ""
+
+#: inc/helper/options.php:209
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/helper/options.php:229
+msgid "Grid"
+msgstr ""
+
+#: inc/helper/options.php:230
+msgid "Simple"
+msgstr ""
+
+#: inc/helper/options.php:252
+msgid "One"
+msgstr ""
+
+#: inc/helper/options.php:256
+msgid "Two"
+msgstr ""
+
+#: inc/hook/custom.php:140
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/hook/custom.php:142
+msgid "404!"
+msgstr ""
+
+#: inc/hook/tgm.php:19
+msgid "Page Builder by SiteOrigin"
+msgstr ""
+
+#: inc/hook/tgm.php:24
+msgid "SiteOrigin Widgets Bundle"
+msgstr ""
+
+#: inc/hook/tgm.php:29
+msgid "WP Travel"
+msgstr ""
+
+#: inc/hook/tgm.php:34
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/hook/tgm.php:39 lib/info/info.php:86 lib/info/info.php:140
+msgid "One Click Demo Import"
+msgstr ""
+
+#: inc/metabox.php:22
+msgid "Theme Settings"
+msgstr ""
+
+#: inc/site-origin.php:41
+msgid "Travel Gem Widgets"
+msgstr ""
+
+#: inc/site-origin.php:158
+msgid "Widget Title Color"
+msgstr ""
+
+#: inc/site-origin.php:165
+msgid "Widget Subtitle Color"
+msgstr ""
+
+#: inc/site-origin.php:247
+msgid "Overlay"
+msgstr ""
+
+#: inc/site-origin.php:250
+msgid "Applies when background image is set."
+msgstr ""
+
+#: inc/site-origin.php:253
+msgid "Disable"
+msgstr ""
+
+#: inc/site-origin.php:254
+msgid "Light Overlay"
+msgstr ""
+
+#: inc/site-origin.php:255
+msgid "Medium Overlay"
+msgstr ""
+
+#: inc/site-origin.php:256
+msgid "Dark Overlay"
+msgstr ""
+
+#: inc/site-origin.php:355 inc/so-widgets/cta/cta.php:51
+#: inc/so-widgets/destinations-grid/destinations-grid.php:56
+#: inc/so-widgets/latest-news/latest-news.php:51
+#: inc/so-widgets/latest-trips/latest-trips.php:51
+#: inc/so-widgets/recent-posts/recent-posts.php:51
+#: inc/so-widgets/special-page/special-page.php:51
+#: inc/so-widgets/trip-search/trip-search.php:51
+#: inc/so-widgets/trips-filter/trips-filter.php:56
+msgid "Title"
+msgstr ""
+
+#: inc/site-origin.php:359
+#: inc/so-widgets/destinations-grid/destinations-grid.php:60
+#: inc/so-widgets/latest-news/latest-news.php:55
+#: inc/so-widgets/latest-trips/latest-trips.php:55
+#: inc/so-widgets/recent-posts/recent-posts.php:55
+#: inc/so-widgets/special-page/special-page.php:55
+#: inc/so-widgets/trip-search/trip-search.php:55
+#: inc/so-widgets/trips-filter/trips-filter.php:60
+msgid "Subtitle"
+msgstr ""
+
+#: inc/site-origin.php:362
+#: inc/so-widgets/destinations-grid/destinations-grid.php:63
+#: inc/so-widgets/latest-news/latest-news.php:58
+#: inc/so-widgets/latest-trips/latest-trips.php:58
+#: inc/so-widgets/recent-posts/recent-posts.php:58
+#: inc/so-widgets/special-page/special-page.php:58
+#: inc/so-widgets/trip-search/trip-search.php:58
+#: inc/so-widgets/trips-filter/trips-filter.php:63
+msgid "Title/subtitle Alignment"
+msgstr ""
+
+#: inc/so-widgets/cta/cta.php:29
+msgid "Travel Gem: CTA"
+msgstr ""
+
+#: inc/so-widgets/cta/cta.php:31
+msgid "A simple call to action widget."
+msgstr ""
+
+#: inc/so-widgets/cta/cta.php:55
+msgid "Description"
+msgstr ""
+
+#: inc/so-widgets/cta/cta.php:59
+msgid "Primary Button Text"
+msgstr ""
+
+#: inc/so-widgets/cta/cta.php:60 lib/info/info.php:126
+msgid "Learn More"
+msgstr ""
+
+#: inc/so-widgets/cta/cta.php:64
+msgid "Primary Button URL"
+msgstr ""
+
+#: inc/so-widgets/cta/cta.php:69
+msgid "Secondary Button Text"
+msgstr ""
+
+#: inc/so-widgets/cta/cta.php:73
+msgid "Secondary Button URL"
+msgstr ""
+
+#: inc/so-widgets/cta/cta.php:77
+msgid "Settings"
+msgstr ""
+
+#: inc/so-widgets/cta/cta.php:82
+msgid "Title Color"
+msgstr ""
+
+#: inc/so-widgets/cta/cta.php:87
+msgid "Subtitle Color"
+msgstr ""
+
+#: inc/so-widgets/cta/cta.php:92
+msgid "Background Color"
+msgstr ""
+
+#: inc/so-widgets/destinations-grid/destinations-grid.php:29
+msgid "Travel Gem: Destinations Grid"
+msgstr ""
+
+#: inc/so-widgets/destinations-grid/destinations-grid.php:31
+msgid "Displays destinations in grid."
+msgstr ""
+
+#: inc/so-widgets/destinations-grid/destinations-grid.php:51
+#: inc/so-widgets/trips-filter/trips-filter.php:51
+msgid "NOTE:"
+msgstr ""
+
+#: inc/so-widgets/destinations-grid/destinations-grid.php:52
+msgid ""
+"To use this widget, first please make sure 'WP Travel' plugin is activated "
+"and destinations and trips are added."
+msgstr ""
+
+#: inc/so-widgets/destinations-grid/destinations-grid.php:69
+#: inc/so-widgets/trips-filter/trips-filter.php:87
+msgid "Select Destinations"
+msgstr ""
+
+#: inc/so-widgets/destinations-grid/destinations-grid.php:70
+#: inc/so-widgets/trips-filter/trips-filter.php:88
+#: inc/so-widgets/trips-filter/trips-filter.php:100
+#: inc/so-widgets/trips-filter/trips-filter.php:112
+msgid ""
+"Hold down the Ctrl (Windows) / Command (Mac) button to select multiple "
+"options."
+msgstr ""
+
+#: inc/so-widgets/destinations-grid/destinations-grid.php:74
+#: inc/so-widgets/trips-filter/trips-filter.php:92
+msgid "All Destinations"
+msgstr ""
+
+#: inc/so-widgets/destinations-grid/destinations-grid.php:77
+msgid "Number of Destinations"
+msgstr ""
+
+#: inc/so-widgets/destinations-grid/destinations-grid.php:82
+#: inc/so-widgets/latest-news/latest-news.php:74
+#: inc/so-widgets/latest-trips/latest-trips.php:75
+msgid "Number of Columns"
+msgstr ""
+
+#: inc/so-widgets/destinations-grid/tpl/default.php:62
+#: inc/so-widgets/latest-trips/tpl/default.php:115
+#: inc/so-widgets/trips-filter/tpl/default.php:92
+msgid ""
+"WP Travel plugin is not active. Please install and activate the plugin "
+"first."
+msgstr ""
+
+#: inc/so-widgets/latest-news/latest-news.php:29
+msgid "Travel Gem: Latest News"
+msgstr ""
+
+#: inc/so-widgets/latest-news/latest-news.php:31
+msgid "Displays latest posts in grid."
+msgstr ""
+
+#: inc/so-widgets/latest-news/latest-news.php:64
+#: inc/so-widgets/recent-posts/recent-posts.php:64
+msgid "Select Category:"
+msgstr ""
+
+#: inc/so-widgets/latest-news/latest-news.php:66
+#: inc/so-widgets/recent-posts/recent-posts.php:66
+msgid "All Categories"
+msgstr ""
+
+#: inc/so-widgets/latest-news/latest-news.php:69
+#: inc/so-widgets/latest-trips/latest-trips.php:70
+#: inc/so-widgets/recent-posts/recent-posts.php:69
+msgid "Number of Posts"
+msgstr ""
+
+#: inc/so-widgets/latest-news/latest-news.php:80
+#: inc/so-widgets/latest-trips/latest-trips.php:81
+#: inc/so-widgets/recent-posts/recent-posts.php:74
+#: inc/so-widgets/special-page/special-page.php:69
+msgid "Featured Image"
+msgstr ""
+
+#: inc/so-widgets/latest-news/latest-news.php:86
+msgid "More Text"
+msgstr ""
+
+#: inc/so-widgets/latest-news/latest-news.php:88
+msgid "Know More"
+msgstr ""
+
+#: inc/so-widgets/latest-news/latest-news.php:97
+#: inc/so-widgets/latest-trips/latest-trips.php:87
+msgid "Explore Button Text"
+msgstr ""
+
+#: inc/so-widgets/latest-news/latest-news.php:99
+#: inc/so-widgets/latest-trips/latest-trips.php:89
+msgid "Explore More"
+msgstr ""
+
+#: inc/so-widgets/latest-news/latest-news.php:102
+#: inc/so-widgets/latest-trips/latest-trips.php:92
+msgid "Explore Button URL"
+msgstr ""
+
+#: inc/so-widgets/latest-trips/latest-trips.php:29
+msgid "Travel Gem: Latest Trips"
+msgstr ""
+
+#: inc/so-widgets/latest-trips/latest-trips.php:31
+msgid "Displays latest trips in grid."
+msgstr ""
+
+#: inc/so-widgets/latest-trips/latest-trips.php:64
+msgid "Select Trip Type:"
+msgstr ""
+
+#: inc/so-widgets/latest-trips/latest-trips.php:67
+#: inc/so-widgets/trips-filter/trips-filter.php:104
+msgid "All Trip Types"
+msgstr ""
+
+#: inc/so-widgets/latest-trips/tpl/default.php:70
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: inc/so-widgets/latest-trips/tpl/default.php:73
+msgid "out of %1$s5%2$s"
+msgstr ""
+
+#: inc/so-widgets/latest-trips/tpl/default.php:77
+msgid "%d Review"
+msgid_plural "%d Reviews"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/so-widgets/latest-trips/tpl/default.php:87
+msgid "Offer"
+msgstr ""
+
+#: inc/so-widgets/recent-posts/recent-posts.php:29
+msgid "Travel Gem: Recent Posts"
+msgstr ""
+
+#: inc/so-widgets/recent-posts/recent-posts.php:31
+msgid "Displays recent posts."
+msgstr ""
+
+#: inc/so-widgets/recent-posts/recent-posts.php:80
+msgid "Image Width"
+msgstr ""
+
+#: inc/so-widgets/recent-posts/recent-posts.php:81
+msgid "in px"
+msgstr ""
+
+#: inc/so-widgets/recent-posts/recent-posts.php:86
+msgid "Disable Date"
+msgstr ""
+
+#: inc/so-widgets/special-page/special-page.php:29
+msgid "Travel Gem: Special Page"
+msgstr ""
+
+#: inc/so-widgets/special-page/special-page.php:31
+msgid "Displays single page."
+msgstr ""
+
+#: inc/so-widgets/special-page/special-page.php:64
+msgid "Select Page:"
+msgstr ""
+
+#: inc/so-widgets/special-page/special-page.php:66
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: inc/so-widgets/special-page/special-page.php:75
+msgid "Image Alignment"
+msgstr ""
+
+#: inc/so-widgets/trip-search/trip-search.php:29
+msgid "Travel Gem: Trip Search"
+msgstr ""
+
+#: inc/so-widgets/trip-search/trip-search.php:31
+msgid "Displays trip search form."
+msgstr ""
+
+#: inc/so-widgets/trips-filter/tpl/default.php:39
+msgid "All"
+msgstr ""
+
+#: inc/so-widgets/trips-filter/tpl/default.php:75
+msgid "Read more"
+msgstr ""
+
+#: inc/so-widgets/trips-filter/trips-filter.php:29
+msgid "Travel Gem: Trips Filter"
+msgstr ""
+
+#: inc/so-widgets/trips-filter/trips-filter.php:31
+msgid "Displays trips filter."
+msgstr ""
+
+#: inc/so-widgets/trips-filter/trips-filter.php:52
+msgid ""
+"To use this widget, first please make sure 'WP Travel' plugin is activated "
+"and activities and trips are added."
+msgstr ""
+
+#: inc/so-widgets/trips-filter/trips-filter.php:69
+msgid "Filter Type"
+msgstr ""
+
+#: inc/so-widgets/trips-filter/trips-filter.php:81
+msgid "Destination"
+msgstr ""
+
+#: inc/so-widgets/trips-filter/trips-filter.php:82
+msgid "Trip Type"
+msgstr ""
+
+#: inc/so-widgets/trips-filter/trips-filter.php:83
+msgid "Activity"
+msgstr ""
+
+#: inc/so-widgets/trips-filter/trips-filter.php:99
+msgid "Select Trip Types"
+msgstr ""
+
+#: inc/so-widgets/trips-filter/trips-filter.php:111
+msgid "Select Activities"
+msgstr ""
+
+#: inc/so-widgets/trips-filter/trips-filter.php:116
+msgid "All Activities"
+msgstr ""
+
+#: inc/so-widgets/trips-filter/trips-filter.php:123
+msgid "Number of Trips"
+msgstr ""
+
+#: inc/supports/ocdi.php:22
+msgid "Theme Demo Content"
+msgstr ""
+
+#: inc/template-tags.php:47
+#. translators: used between list items, there is a space after the comma
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:61
+msgid "0 Comments"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:248
+msgid "Browse:"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:251
+msgid "404 Not Found"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:252
+msgid "Archives"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:254
+#. Translators: %s is the search query. The HTML entities are opening and
+#. closing curly quotes.
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:256
+#. Translators: %s is the page number.
+msgid "Page %s"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:258
+#. Translators: Minute archive title. %s is the minute time format.
+msgid "Minute %s"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:260
+#. Translators: Weekly archive title. %s is the week date format.
+msgid "Week %s"
+msgstr ""
+
+#: lib/info/class.info.php:121 lib/info/class.info.php:122
+msgid "%s Info"
+msgstr ""
+
+#: lib/info/class.info.php:126
+msgid ""
+"Welcome! Thank you for choosing %1$s. To fully take advantage of the best "
+"our theme can offer please make sure you visit theme info page."
+msgstr ""
+
+#: lib/info/class.info.php:126
+msgid "Get started with %1$s"
+msgstr ""
+
+#: lib/info/class.info.php:126 lib/tgm/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+#: lib/info/class.info.php:232
+msgid "%s() method does not exist."
+msgstr ""
+
+#: lib/info/class.info.php:341 lib/info/class.info.php:382
+msgid "Manage Plugins"
+msgstr ""
+
+#: lib/info/info.php:20
+msgid ""
+"%1$s is now installed and ready to use. We want to make sure you have the "
+"best experience using the theme and that is why we gathered here all the "
+"necessary information for you. Thanks for using our theme!"
+msgstr ""
+
+#: lib/info/info.php:24
+msgid "Getting Started"
+msgstr ""
+
+#: lib/info/info.php:25
+msgid "Support"
+msgstr ""
+
+#: lib/info/info.php:26
+msgid "Useful Plugins"
+msgstr ""
+
+#: lib/info/info.php:27 lib/info/info.php:84 lib/info/info.php:87
+msgid "Demo Content"
+msgstr ""
+
+#: lib/info/info.php:28
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: lib/info/info.php:34
+msgid "Theme Details"
+msgstr ""
+
+#: lib/info/info.php:38 lib/info/info.php:95
+msgid "View Demo"
+msgstr ""
+
+#: lib/info/info.php:42 lib/info/info.php:57 lib/info/info.php:117
+msgid "View Documentation"
+msgstr ""
+
+#: lib/info/info.php:46
+msgid "Rate This Theme"
+msgstr ""
+
+#: lib/info/info.php:54 lib/info/info.php:114
+msgid "Theme Documentation"
+msgstr ""
+
+#: lib/info/info.php:56 lib/info/info.php:116
+msgid ""
+"Please check our full documentation for detailed information on how to "
+"setup and customize the theme."
+msgstr ""
+
+#: lib/info/info.php:63 lib/info/info.php:66
+msgid "Static Front Page"
+msgstr ""
+
+#: lib/info/info.php:65
+msgid ""
+"To achieve custom home page other than blog listing, you need to create and "
+"set static front page."
+msgstr ""
+
+#: lib/info/info.php:73
+msgid ""
+"Theme uses Customizer API for theme options. Using the Customizer you can "
+"easily customize different aspects of the theme."
+msgstr ""
+
+#: lib/info/info.php:74
+msgid "Customize"
+msgstr ""
+
+#: lib/info/info.php:79
+msgid "Page Builder"
+msgstr ""
+
+#: lib/info/info.php:81
+msgid ""
+"Page Builder by SiteOrigin is integrated in the theme to achieve different "
+"layouts. Please make sure both Page Builder by SiteOrigin and SiteOrigin "
+"Widgets Bundle plugins are installed and activated."
+msgstr ""
+
+#: lib/info/info.php:86
+msgid ""
+"To import sample demo content, %1$s plugin should be installed and "
+"activated. After plugin is activated, visit Import Demo Data menu under "
+"Appearance."
+msgstr ""
+
+#: lib/info/info.php:92
+msgid "Theme Preview"
+msgstr ""
+
+#: lib/info/info.php:94
+msgid ""
+"You can check out the theme demos for reference to find out what you can "
+"achieve using the theme and how it can be customized."
+msgstr ""
+
+#: lib/info/info.php:105 lib/info/info.php:108
+msgid "Contact Support"
+msgstr ""
+
+#: lib/info/info.php:107
+msgid ""
+"Got theme support question or found bug or got some feedbacks? Best place "
+"to ask your query is the dedicated Support forum for the theme."
+msgstr ""
+
+#: lib/info/info.php:123
+msgid "Child Theme"
+msgstr ""
+
+#: lib/info/info.php:125
+msgid ""
+"For advanced theme customization, it is recommended to use child theme "
+"rather than modifying the theme file itself. Using this approach, you wont "
+"lose the customization after theme update."
+msgstr ""
+
+#: lib/info/info.php:135
+msgid "Theme supports some helpful WordPress plugins to enhance your site."
+msgstr ""
+
+#: lib/info/info.php:140
+msgid ""
+"To import demo content for this theme, %1$s plugin is needed. Please make "
+"sure plugin is installed and activated. After plugin is activated, you will "
+"see Import Demo Data menu under Appearance."
+msgstr ""
+
+#: lib/info/info.php:145
+msgid ""
+"If you want more advanced features then you can upgrade to the premium "
+"version of the theme."
+msgstr ""
+
+#: lib/info/info.php:146
+msgid "Buy Travel Gem Pro"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:330
+#. translators: %s: plugin name.
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:332
+#. translators: %s: plugin name.
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:370
+#. translators: 1: plugin name(s).
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:375
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:380
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:386
+#: lib/tgm/class-tgm-plugin-activation.php:827
+#: lib/tgm/class-tgm-plugin-activation.php:2533
+#: lib/tgm/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:387
+#: lib/tgm/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:388
+#: lib/tgm/class-tgm-plugin-activation.php:2952
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:390
+#. translators: 1: plugin name.
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:392
+#. translators: 1: plugin name.
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:394
+#. translators: 1: dashboard link.
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:396
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:934
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:934
+#: lib/tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:937
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:1982
+#. translators: %s: version number
+msgid "TGMPA v%s"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2392
+#. translators: 1: number of plugins.
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2396
+#. translators: 1: number of plugins.
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2400
+#. translators: 1: number of plugins.
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2603
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Install %2$s"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2608
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Update %2$s"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2614
+#. translators: %2$s: plugin name in screen reader markup
+msgid "Activate %2$s"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3498
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3501
+#. translators: 1: plugin name, 2: error message.
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3503
+#. translators: 1: plugin name.
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3507
+msgid ""
+"The installation and activation process is starting. This process may take "
+"a while on some hosts, so please be patient."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3509
+#. translators: 1: plugin name.
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3509
+#: lib/tgm/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3509
+#: lib/tgm/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3512
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3515
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3517
+#. translators: 1: plugin name.
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:3520
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: template-parts/author-bio.php:21
+msgid "Written by"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:25
+#. translators: 1: link to WP admin new post page.
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:21 template-parts/content-post.php:39
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-page.php:34
+#. translators: %s: Name of current post. Only visible to screen readers
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: template-parts/content-post.php:28
+#. translators: %s: Name of current post. Only visible to screen readers
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/footer/copyright.php:32
+msgid "Travel Gem by %s"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WEN Themes"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Travel Gem"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://wenthemes.com/item/wordpress-themes/travel-gem/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Travel Gem is a trendy WordPress theme designed for travel and tours "
+"businesses. It smoothly integrates the travel plugin WP Travel so that you "
+"can display the travel packages in attractive way and allow users to book "
+"package easy. Thanks to the page builder integration, bringing changes to "
+"the layout is easy like drag and drop and code free. Theme is responsive "
+"and cross browser compatible which makes your site looks awesome in all "
+"devices of different sizes and also in several browsers. It is packed with "
+"useful features and user-friendly theme options. Official Support Forum: "
+"https://themepalace.com/support-forum/ Full Demo: "
+"https://wenthemes.com/theme-demos/?demo=travel-gem"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wenthemes.com"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Page Builders"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width"
+msgstr ""
+
+#: comments.php:40
+#. translators: 1: comment count number, 2: title.
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:89
+msgctxt "header image description"
+msgid "Default Banner"
+msgstr ""
+
+#: inc/helper/common.php:62
+#. translators: If there are characters in your language that are not supported
+#. by Roboto, translate this to 'off'. Do not translate into your own language.
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/helper/common.php:67
+#. translators: If there are characters in your language that are not supported
+#. by Poppins, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/helper/options.php:77
+msgctxt "alignment"
+msgid "None"
+msgstr ""
+
+#: inc/helper/options.php:78
+msgctxt "alignment"
+msgid "Left"
+msgstr ""
+
+#: inc/helper/options.php:79
+msgctxt "alignment"
+msgid "Center"
+msgstr ""
+
+#: inc/helper/options.php:80
+msgctxt "alignment"
+msgid "Right"
+msgstr ""
+
+#: inc/helper/options.php:153
+msgctxt "transition effect"
+msgid "fade"
+msgstr ""
+
+#: inc/helper/options.php:154
+msgctxt "transition effect"
+msgid "fadeout"
+msgstr ""
+
+#: inc/helper/options.php:155
+msgctxt "transition effect"
+msgid "none"
+msgstr ""
+
+#: inc/helper/options.php:156
+msgctxt "transition effect"
+msgid "scrollHorz"
+msgstr ""
+
+#: inc/helper/options.php:157
+msgctxt "transition effect"
+msgid "tileSlide"
+msgstr ""
+
+#: inc/helper/options.php:158
+msgctxt "transition effect"
+msgid "tileBlind"
+msgstr ""
+
+#: inc/helper/options.php:159
+msgctxt "transition effect"
+msgid "flipHorz"
+msgstr ""
+
+#: inc/helper/options.php:160
+msgctxt "transition effect"
+msgid "flipVert"
+msgstr ""
+
+#: inc/helper/options.php:161
+msgctxt "transition effect"
+msgid "shuffle"
+msgstr ""
+
+#: inc/template-tags.php:53
+#. translators: used between list items, there is a space after the comma
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:249
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:712
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:729
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:746
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:762 lib/breadcrumbs/breadcrumbs.php:791
+#: lib/breadcrumbs/breadcrumbs.php:818 lib/breadcrumbs/breadcrumbs.php:845
+#: lib/breadcrumbs/breadcrumbs.php:1186
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:763 lib/breadcrumbs/breadcrumbs.php:819
+#: lib/breadcrumbs/breadcrumbs.php:1190
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:764 lib/breadcrumbs/breadcrumbs.php:1194
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: lib/breadcrumbs/breadcrumbs.php:792
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:1121
+#: lib/tgm/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2342
+#. translators: 1: install status, 2: update status
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2388
+#. translators: 1: number of plugins.
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/tgm/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: searchform.php:14
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:16
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""

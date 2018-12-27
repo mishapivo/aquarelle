@@ -1,0 +1,526 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Wisdom Blog\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-10-29 07:29+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: 404.php:19
+msgid "404"
+msgstr ""
+
+#: 404.php:19
+msgid "error"
+msgstr ""
+
+#: 404.php:21
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:24
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#. 1: title.
+#: comments.php:37
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:43
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#. Name of the theme
+#: footer.php:43
+msgid "Wisdom Blog"
+msgstr ""
+
+#. 1: Theme name, 2: Theme author.
+#: footer.php:50
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: footer.php:57
+msgid "Back To Top"
+msgstr ""
+
+#: functions.php:52
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:53
+msgid "Footer Menu"
+msgstr ""
+
+#. %s: search query.
+#: search.php:24
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/cv-custom-hooks.php:22 inc/customizer/cv-front-banner-panel.php:92
+#: inc/customizer/cv-front-banner-panel.php:99
+msgid "Banner Title"
+msgstr ""
+
+#: inc/cv-custom-hooks.php:24 inc/customizer/cv-front-banner-panel.php:141
+msgid "Discover"
+msgstr ""
+
+#: inc/cv-post-sidebar-meta.php:16 inc/cv-post-sidebar-meta.php:24
+msgid "Sidebar Layout"
+msgstr ""
+
+#: inc/cv-post-sidebar-meta.php:40
+msgid "Default Sidebar"
+msgstr ""
+
+#: inc/cv-post-sidebar-meta.php:46
+msgid "Left sidebar"
+msgstr ""
+
+#: inc/cv-post-sidebar-meta.php:52
+msgid "Right sidebar"
+msgstr ""
+
+#: inc/cv-post-sidebar-meta.php:58
+msgid "No sidebar Full width"
+msgstr ""
+
+#: inc/cv-post-sidebar-meta.php:64
+msgid "No sidebar Content Centered"
+msgstr ""
+
+#. If there are characters in your language that are not supported
+#. by Roboto Condensed, translate this to 'off'. Do not translate into your own language.
+#: inc/template-functions.php:122
+msgctxt "Playfair Display font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/template-functions.php:126
+msgctxt "Overpass font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/template-functions.php:130
+msgctxt "Pacifico font: on or off"
+msgid "on"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:31
+#, php-format
+msgctxt "post date"
+msgid " %s"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:43
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:66
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:83
+msgid " "
+msgstr ""
+
+#. 1: list of categories.
+#: inc/template-tags.php:86
+#, php-format
+msgid " %1$s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:101
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. 1: list of tags.
+#: inc/template-tags.php:104
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:112 template-parts/content-page.php:36
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: template-parts/content-none.php:16
+msgid "Nothing Found"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:26
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:39
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:46
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:23 template-parts/content-search.php:58
+#: template-parts/content-single.php:63 template-parts/content.php:63
+msgid "Pages:"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-search.php:47 template-parts/content-single.php:52
+#: template-parts/content.php:52
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/content.php:70
+msgid "Read More"
+msgstr ""
+
+#: inc/customizer/cv-additional-panel.php:25
+msgid "Additional Features"
+msgstr ""
+
+#: inc/customizer/cv-additional-panel.php:42
+msgid "Social Media Section"
+msgstr ""
+
+#: inc/customizer/cv-additional-panel.php:69
+msgid "Social Media"
+msgstr ""
+
+#: inc/customizer/cv-additional-panel.php:73
+msgid "Social Media Icons"
+msgstr ""
+
+#: inc/customizer/cv-additional-panel.php:74
+msgid "Add Icon"
+msgstr ""
+
+#: inc/customizer/cv-additional-panel.php:79
+msgid "Social Media Logo"
+msgstr ""
+
+#: inc/customizer/cv-additional-panel.php:80
+msgid "Choose social media icon."
+msgstr ""
+
+#: inc/customizer/cv-additional-panel.php:84
+msgid "Social Icon Url"
+msgstr ""
+
+#: inc/customizer/cv-additional-panel.php:85
+msgid "Enter social media url."
+msgstr ""
+
+#: inc/customizer/cv-custom-classes.php:308
+msgid "Delete"
+msgstr ""
+
+#: inc/customizer/cv-custom-classes.php:309
+msgid "Close"
+msgstr ""
+
+#: inc/customizer/cv-customizer.php:48
+msgid "Wisdom Pro"
+msgstr ""
+
+#: inc/customizer/cv-customizer.php:49
+msgid "Buy Pro"
+msgstr ""
+
+#: inc/customizer/cv-design-panel.php:27
+msgid "Design Settings"
+msgstr ""
+
+#: inc/customizer/cv-design-panel.php:44
+msgid "Archive Section"
+msgstr ""
+
+#: inc/customizer/cv-design-panel.php:65
+msgid "Archive Sidebars"
+msgstr ""
+
+#: inc/customizer/cv-design-panel.php:66 inc/customizer/cv-design-panel.php:164
+#: inc/customizer/cv-design-panel.php:225
+msgid "Choose sidebar from available layouts"
+msgstr ""
+
+#: inc/customizer/cv-design-panel.php:72 inc/customizer/cv-design-panel.php:170
+#: inc/customizer/cv-design-panel.php:231
+#: inc/widgets/cv-widget-functions.php:29
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer/cv-design-panel.php:76 inc/customizer/cv-design-panel.php:174
+#: inc/customizer/cv-design-panel.php:235
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer/cv-design-panel.php:80 inc/customizer/cv-design-panel.php:178
+#: inc/customizer/cv-design-panel.php:239
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer/cv-design-panel.php:84 inc/customizer/cv-design-panel.php:182
+#: inc/customizer/cv-design-panel.php:243
+msgid "No Sidebar Center"
+msgstr ""
+
+#: inc/customizer/cv-design-panel.php:109
+msgid "Archive Layouts"
+msgstr ""
+
+#: inc/customizer/cv-design-panel.php:110
+msgid "Choose layout from available layouts"
+msgstr ""
+
+#: inc/customizer/cv-design-panel.php:116
+msgid "Classic"
+msgstr ""
+
+#: inc/customizer/cv-design-panel.php:120
+msgid "Grid"
+msgstr ""
+
+#: inc/customizer/cv-design-panel.php:142
+msgid "Page Settings"
+msgstr ""
+
+#: inc/customizer/cv-design-panel.php:163
+msgid "Page Sidebars"
+msgstr ""
+
+#: inc/customizer/cv-design-panel.php:203
+msgid "Post Settings"
+msgstr ""
+
+#: inc/customizer/cv-design-panel.php:224
+msgid "Post Sidebars"
+msgstr ""
+
+#: inc/customizer/cv-footer-panel.php:27
+msgid "Footer Section"
+msgstr ""
+
+#: inc/customizer/cv-footer-panel.php:49
+msgid "Footer Logo"
+msgstr ""
+
+#: inc/customizer/cv-footer-panel.php:67
+msgid "wisdom-blog"
+msgstr ""
+
+#: inc/customizer/cv-footer-panel.php:74
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/customizer/cv-front-banner-panel.php:26
+msgid "Banner Settings"
+msgstr ""
+
+#: inc/customizer/cv-front-banner-panel.php:27
+msgid "Managed the banner at frontpage."
+msgstr ""
+
+#: inc/customizer/cv-front-banner-panel.php:48
+msgid "Banner Option"
+msgstr ""
+
+#: inc/customizer/cv-front-banner-panel.php:49
+msgid "Option to control banner section at frontpage."
+msgstr ""
+
+#: inc/customizer/cv-front-banner-panel.php:74
+msgid "Banner Image"
+msgstr ""
+
+#: inc/customizer/cv-front-banner-panel.php:123
+msgid "Banner Content"
+msgstr ""
+
+#: inc/customizer/cv-front-banner-panel.php:124
+msgid "Add banner info."
+msgstr ""
+
+#: inc/customizer/cv-front-banner-panel.php:148
+msgid "Banner Button Text"
+msgstr ""
+
+#: inc/customizer/cv-front-banner-panel.php:172
+msgid "Banner Button Link"
+msgstr ""
+
+#: inc/customizer/cv-general-panel.php:34
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer/cv-general-panel.php:55
+msgid "Theme Color"
+msgstr ""
+
+#: inc/customizer/cv-general-panel.php:75
+msgid "Site Settings"
+msgstr ""
+
+#: inc/customizer/cv-general-panel.php:95
+msgid "Website Layout"
+msgstr ""
+
+#: inc/customizer/cv-general-panel.php:96
+msgid "Choose layout for entire website."
+msgstr ""
+
+#: inc/customizer/cv-general-panel.php:102
+msgid "Boxed Layout"
+msgstr ""
+
+#: inc/customizer/cv-general-panel.php:103
+msgid "FullWidth Layout"
+msgstr ""
+
+#: inc/customizer/cv-header-panel.php:15
+msgid "Innerpages Header Image"
+msgstr ""
+
+#: inc/customizer/cv-header-panel.php:29
+msgid "Header Settings"
+msgstr ""
+
+#: inc/customizer/cv-header-panel.php:46
+msgid "Extra Option"
+msgstr ""
+
+#: inc/customizer/cv-header-panel.php:47
+msgid "Managed the extra settings for header section."
+msgstr ""
+
+#: inc/customizer/cv-header-panel.php:68
+msgid "Search Icon"
+msgstr ""
+
+#: inc/customizer/cv-header-panel.php:69
+msgid "Option to control search icon at primary menu."
+msgstr ""
+
+#: inc/tgm/cv-recommended-plugins.php:63
+msgid "Instagram Feed"
+msgstr ""
+
+#: inc/widgets/cv-author-info.php:20
+msgid "Select the user to display the author info."
+msgstr ""
+
+#: inc/widgets/cv-author-info.php:22
+msgid "CV: Author Info"
+msgstr ""
+
+#: inc/widgets/cv-author-info.php:35 inc/widgets/cv-latest-posts.php:35
+msgid "Widget title"
+msgstr ""
+
+#: inc/widgets/cv-author-info.php:41
+msgid "Select Author"
+msgstr ""
+
+#: inc/widgets/cv-latest-posts.php:20
+msgid "A widget to display the latest posts with thumbnail."
+msgstr ""
+
+#: inc/widgets/cv-latest-posts.php:22
+msgid "CV: Latest Posts"
+msgstr ""
+
+#: inc/widgets/cv-latest-posts.php:41
+msgid "Post Count"
+msgstr ""
+
+#: inc/widgets/cv-widget-fields.php:88
+msgid "- - Select User - -"
+msgstr ""
+
+#: inc/widgets/cv-widget-fields.php:133
+msgid "- - Select Category - -"
+msgstr ""
+
+#: inc/widgets/cv-widget-functions.php:19
+msgid "Sidebar"
+msgstr ""
+
+#: inc/widgets/cv-widget-functions.php:21
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/widgets/cv-widget-functions.php:31
+msgid "Add widgets here for left sidebar."
+msgstr ""
+
+#: inc/widgets/cv-widget-functions.php:39
+msgid "Footer Sidebar"
+msgstr ""
+
+#: inc/widgets/cv-widget-functions.php:41
+msgid "Add widgets here for footer widget area."
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Introducing Wisdom Blog, the latest Clean &amp; Personal Blog Theme from "
+"CodeVibrant! Fully responsive design displays beautifully across desktop, "
+"mobile, and all devices. Easy installation allows you to start post blogs "
+"immediately after the activation. Theme supported Customizer which allows "
+"you to customize and change the design of your blog. Perfect choice for your "
+"personal blog, corporate blog, marketing blog, authority blog or any type of "
+"creative blog."
+msgstr ""
+
+#. URI of the theme
+msgid "https://codevibrant.com/wpthemes/wisdom-blog/"
+msgstr ""
+
+#. Author of the theme
+msgid "CodeVibrant"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://codevibrant.com/"
+msgstr ""

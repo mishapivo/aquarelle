@@ -1,0 +1,121 @@
+/*--------------------------------------------------------------
+Xcel - Header Standard Styling
+--------------------------------------------------------------*/
+
+.site-header-left {
+    float: left;
+    padding: 10px 0 10px 2px;
+}
+
+.site-header-right {
+    float: right;
+    position: relative;
+    padding: 10px 0 0;
+}
+
+.main-navigation {
+    float: left;
+}
+
+@media only screen and (max-width: 960px) {
+	
+    .site-header-left {
+        padding: 10px 0 11px;
+    }
+	.main-navigation {
+        float: right;
+        margin: 0 0 0 8px;
+    }
+    
+}
+
+@media only screen and (max-width: 782px) {
+    
+    .site-header .site-container {
+        position: relative;
+        padding: 0 12px;
+    }
+    .site-header-right {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .main-navigation {
+        margin: 0;
+    }
+    .header-menu-button {
+        padding: 19px 16px;
+    }
+    .header-menu-button .fa.fa-bars {
+        font-size: 21px;
+    }
+    .header-cart {
+        padding: 22px 10px 0;
+    }
+    body.admin-bar .main-navigation #main-menu {
+        padding: 73px 0 30px 0;
+    }
+    body.admin-bar .main-menu-close {
+        top: 56px;
+    }
+    
+}
+
+@media only screen and (max-width: 540px) {
+    
+    .site-header-left {
+        float: none;
+        padding: 10px 0 6px 2px;
+        text-align: center;
+    }
+    .site-branding {
+        display: inline-block;
+        padding: 5px 10px 7px;
+    }
+    .site-title {
+        font-size: 21px;
+    }
+    .site-header-right {
+        position: relative;
+        top: auto;
+        right: auto;
+        padding: 0;
+        text-align: center;
+        float: none;
+    }
+    .main-navigation {
+        float: none;
+        margin: 0;
+    }
+    .header-cart {
+        float: none;
+        padding: 0 0 4px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .header-menu-button {
+        padding: 4px 15px 4px;
+    }
+    .search-btn {
+        display: inline-block;
+        vertical-align: top;
+        float: none;
+        padding: 4px;
+        text-align: center;
+        margin: 0 0 0 8px;
+    }
+    .search-block {
+        left: 0;
+        width: 100%;
+        right: 0;
+        top: 58px
+    }
+    .search-block .search-field {
+        width: 75%;
+    }
+    
+    .home-slider-block {
+        height: 360px;
+    }
+    
+}

@@ -1,0 +1,92 @@
+/* Widget Tabs */
+
+.widget-tabs-wrapper {
+    display: inline-block;
+    width: 100%;
+    background: #048fd2;
+    margin: 0 -15px;
+    padding: 0px 15px;
+}
+
+.widget-tab-control {
+    float: left;
+    margin-left: 5px;
+    padding: 5px;
+    font-size: 11px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+.widget-tab-control:hover {
+    color: #c8cdce;
+    
+}
+
+.widget-tab-control.active {
+    background: #0073aa;
+    color: #fff;
+}
+
+.widget-tab-control.active:after {
+    right: 50%;
+    border: 7px solid transparent;
+    border-bottom-color: transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-bottom-color: #ffffff;
+    bottom: 0px;
+    margin-right: -7px;
+}
+
+.widget-tab-control{
+    color: #eee;
+    padding: 17px 30px;
+    position: relative;
+}
+
+.vmagazine_lite_admin_widget_wrapper small {
+    display: block;
+    width: 100%;
+    clear: both;
+    color: #777;
+}
+.vmagazine_lite_admin_widget_wrapper select {
+    width: 20%;
+    display: block;
+}
+
+/**
+* widget multiple layouts styles
+*/
+.radio-img-layouts {
+    text-align: center;
+    background: #f1f1f1;
+}
+ul.widget-layouts li {
+    display: inline;
+    position: relative;
+    padding: 10px;
+}
+
+.img-selector img{
+    border: 2px solid transparent;
+    
+}
+.img-selector input:checked + img,.current-img-selected{
+    border: 2px solid #AAA;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.img-selector input:checked + img + .img-icon,.img-selected {
+    content: "";
+    height: 35px;
+    width: 35px;
+    right: 0;
+    position: absolute;
+    background: url(selected.png) no-repeat right top;
+}
