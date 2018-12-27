@@ -1,0 +1,449 @@
+Version 7.0.3 (6 February 2018)
+# Single and template customization bug fixed.
+# Synchronize feature has been canceled.
+# improvements to core functions.
+
+Version 7.0.2 (5 February 2018)
+# An important bug fixed.
+
+Version 7.0.1 (5 February 2018)
+# A few small bug fixed.
+
+Version 7.0.0 (4 February 2018)
+# New Feature: The parent elements of the selected element always visible at bottom of the editor.
+# New Feature: Review all changes visually, disable or change.
+# New Feature: Fixed Right Panel, drag-drop the right panel to the right corner of the page.
+# New Feature: CSS Flexbox Support, Flexbox settings will available on right panel when you select a flexbox element.
+# New Feature: Live Customizing type change, Change the current customizing type from the right panel without refresh the page.
+# New Feature: Change the target page live, Change the target page by clicking the page name on the right panel.
+# New Feature: An new smart element Search Tool.
+# Fixed: Selection problem on the elements which has javascript click events.
+# New Feature: CSS Property Based Responsive Options, The editor will show you if there a "width" property applied in another media query to the target element.
+# New Feature: Review breakpoint styles, review selected element styles, the customizing types styles visually, see all applied styles.
+# New Feature: Customizable Interface, all tools are resizable.
+# New Feature: Gradient Text Support, Select a background and apply "text" value to the background-clip property.
+# Added: 300+ Modern CSS3 Gradients
+# Added: Single, Template, Global tabs to CSS editor.
+# Added: All Pseudo-Classes to the editor.
+# Added: CSS Validation to CSS editor
+# Added: Iframe element selection support by click.
+# Added: Highlight elements by class and ID, click any class or id on Design Information tool to highlight the target elements.
+# Added: CSS styles are available in Admin Page of YellowPencil, you can see applied styles directly in Admin Panel.
+# Improvements: 23x faster CSS process and read speed with the new core functions.
+# Improvements: Inspector tool is 3x faster
+# Improvements to all tools reorganized for better user experience.
+# Improvements to core functions of the editor.
+# Many bugs fixed.
+# Notice: Exported the plugin data in older versions will not work on 7 and above versions.
+# Notice: Parallax image features anymore not available in the editor but the elements that applied parallax feature will still work.
+# Notice: Front page, The posts page, and archive pages are not affected by the page template styles.
+# Notice: Defined selectors in the theme and plugin stylesheets are anymore not available in the editor.
+
+Version 6.1.4 (8 September 2017)
+# Added pointer-events property
+# Added cursor property
+# logital improvements to CSS selectors
+# Animation Manager bugs fixed
+
+Version 6.1.3 (22 June 2017)
+# added support for HTML5 id and classes. '##test', '#.#test' and such.
+
+Version 6.1.2 (20 June 2017)
+# the changes you made may not be saved" popup problem has been fixed.
+
+Version 6.1.1 (19 June 2017)
+# Parent tree view  feature has been added to element settings.
+
+Version 6.1.0 (16 June 2017)
+# New smart algorithm for auto "important" tag.
+# Improvements to Editor loading speed.
+# CSS Editor bug fixed.
+# Autoptimize plugin conflict fixed.
+
+Version 6.0.9 (15 June 2017)
+# Visual padding editing bug fixed.
+
+Version 6.0.8 (14 June 2017)
+# New Feature: Visual Margin & Padding Editing
+# New Feature: List Style Properties
+# New Feature: Smarter selector algorithm
+# New Feature: Element Box Model has been added to design information section
+# Added: Text Indent and Word Wrap CSS properties
+# Improvements to Gradient Generator
+# Improvements to Responsive Breakpoints
+# Improvements to ColorPicker
+# Fixed: CSS Minify and Cache conflict
+
+Version 6.0.6 (11 May 2017)
+# Improvements to Editor
+# Saving bug fixed
+# Better Editor Performance
+
+Version 6.0.5 (4 May 2017)
+# Saving issue fixed.
+
+Version 6.0.4 (1 May 2017)
+# jQuery Updated
+# Drag & Drop bug fixed
+# CSS Selector bug fixed
+# Fixed a small problem with breakpoints
+
+Version 6.0.3 (22 April 2017)
+# A few bugs fixed.
+
+Version 6.0.2 (20 April 2017)
+# New Feature: The plugin anymore supports to customize register/login pages. You can show the page as the visitor
+# Fixed: Element inspector bugs
+# Fixed: The plugin does not delete old custom stylesheet files
+# Fixed: Animations do not work in Chrome
+# Fixed: Gradient Generator bugs
+# Improvements to CSS Selectors
+# Improvements to Update API
+
+Version 6.0.1 (14 April 2017)
+# New: Added dynamic breakpoints to Responsive Tool
+# New: Gradient Background Generator
+# Added: New Google fonts.
+# Fixed: Animation Generator and Animation Manager bugs.
+# Fixed: WooCommerce Shop page bug.
+# Improvements to Responsive Tool
+# Improvements to visual selection
+# Improvements to Background Patterns
+
+Version 6.0.0 (2 March 2017)
+# Added: Edit button to post edit pages.
+# Fixed a few bug.
+
+Version 5.5.9 (26 February 2017)
+# CSS Editor bug fixed.
+
+Version 5.5.8 (26 February 2017)
+# Performance optimization. 6x times faster.
+
+Version 5.5.7 (24 February 2017)
+# Display property updated
+# Improvements to smart @media AI
+# Improvements to automatic important algorithm
+# Admin Panel pages updated
+# Added: One-click plugin activation with Envato login.
+# Fixed a few bug.
+
+Version 5.5.6 (17 February 2017)
+# Added: Background Blend Mode property
+# Added: RotateX, RotateY and RotateZ settings to transforms.
+# Added: active, link, visited support
+# Minifying CSS in Header Output
+# CSS Selector Algorithm Updated
+# Fixed Live Preview SSL bug.
+# New Algorithm: Detecting CSS rules in defined media queries of the target element and auto creating limits with media queries.
+# Live Resizing: Height property replaced with min-height
+# Live Resizing: Top and left borders anymore not resizeable. This feature disabled for keep responsive system stable.
+# Fixed minor bugs
+# Animation bug fixed.
+
+Version 5.5.5 (2 December 2016)
+# A few bugs fixed.
+
+Version 5.5.4 (26 November 2016)
+# Fixed: Some elements not selectable.
+# Fixed: conflict with W3 Total Cache.
+
+Version 5.5.3 (24 November 2016)
+# New Interface.
+# 1500% more fast style processing time.
+# 300% more fast resizing performance.
+# Press SHIFT key for select multiple elements.
+# Functional improvements.
+
+Version 5.5.2 (18 November 2016)
+# Fixed a critical loading issue.
+# a few Improvement to make it more functional.
+# A lot bug fixed.
+
+Version 5.5.1 (15 November 2016)
+# Added multiple element selection support
+# Added font families support to the exportable stylesheet.
+# Added static stylesheet support.
+# Added a new option for reset the selected element.
+# New: Press delete key for hiding the selected element.
+# Improvement to hover and focus feature.
+# improvement to Search Element Tool.
+# Improvement to Single Selector Tool. (Now smarter)
+# Filter, box shadow and transform options engine updated. High performance!
+# Improvement to Undo & Redo.
+# Improvement to Smart Guides.
+# New Shortcuts: [R] Responsive Tool, [M] : Measuring Tool, [W]: Wireframe, [D]: Design information
+
+Version 5.5.0 (17 October 2016)
+# Fixed an issue with single selector tool.
+
+Version 5.4.9 (13 October 2016)
+# Fixed a few small issues.
+
+Version 5.4.8 (11 October 2016)
+# Fixed two critical bug.
+
+Version 5.4.7 (7 October 2016)
+# Fixed a critical error.
+
+Version 5.4.6 (7 October 2016)
+# Added transparent color support. (RGBA)
+# Improvement to editor loader.
+# Now support of export all CSS rules as ready-to-use.
+
+Version 5.4.5 (20 August 2016)
+# Improvements for Chrome.
+
+Version 5.4.4 (18 August 2016)
+# Added live animation manager
+# Animations support in responsive now.
+# A critical bug fixed.
+
+Version 5.4.3 (3 August 2016)
+# Critical improvements to core.
+# Improvements to performance
+
+Version 5.4.2 (26 July 2016)
+# Fixed slow loading issue.
+# Improvements to smart CSS Selector.
+
+Version 5.4.1 (24 July 2016)
+# Critical CSS selector bug fixed.
+
+Version 5.4.0 (22 July 2016)
+# Visual Resize Elements
+# Improvements to CSS Selectors.
+# Improvements to UI.
+# Added Smart guides to Drag&Drop and Resize features.
+# Added Design information; Information about selected element, typography and more.
+# Improvements to CSS Editor.
+# Improvements to border radius, font family, animations.
+# Added: Animation manager! Animation manager will available on next update.
+# and a ton minor improvements!
+
+Version 5.3.5 (9 June 2016)
+# New Feature: wireframe.
+# Fixed minor bugs.
+
+Version 5.3.4 (31 May 2016)
+# New Smart artificial intelligence! (Generating CSS codes as human)
+# Powerful performance updates!
+# Improvements to the core.
+# Woocommerce saving bug fixed.
+
+Version 5.3.3 (3 May 2016)
+# Fixed save bug.
+# Added export & import.
+
+Version 5.3.2 (24 April 2016)
+# Fixed an important bug for SSL.
+# Two minor bug fixed.
+
+Version 5.3.1 (23 April 2016)
+# Fixed bug with localhost.
+# minor bugs fixed.
+
+Version 5.3.0 (19 April 2016)
+# New: Resizable Responsive Mode
+# New: Support any CSS media queries
+# improvements to Background Patterns
+# improvements to Custom Selector
+# improvements to Ruler And CSS Editor
+
+Version 5.2.9 (31 March 2016)
+# Fixed selector bug.
+
+Version 5.2.8 (16 March 2016)
+# Fixed: aiming bug.
+
+Version 5.2.7 (16 March 2016)
+# Fixed: menu bug.
+# Fixed: ruler bug.
+
+Version 5.2.6 (15 March 2016)
+# New: you can disable aiming mode.
+# New: Single selector mode
+# New: ruler and measuring tools
+# New: Added "write CSS link"
+# Fixed: a ton bug fixed.
+# Improvements: Improvements on the interface.
+# Shortcuts updated.
+
+Version 5.2.5 (03 March 2016)
+# NEW: Auto typing selector to CSS editor.
+# NEW: Autocomplete for CSS editor.
+# Improvements to selectors.
+
+Version 5.2.3 (10 February 2016)
+# Fixed SSL bug.
+
+Version 5.2.2 (8 February 2016)
+# New: showing padding with a line.
+# New: Smart titles for elements.
+# New: No limit for font-size, etc.
+# New: Visiual select body tag.
+# Improvements to plugin core.
+
+Version 5.2.1 (13 January 2016)
+# Animation bugs fixed.
+# Improvements to SSL.
+# Selector bugs fixed.
+
+Version 5.2.0 (7 January 2016)
+# Added: animation creator.
+# Visual Improvements.
+# Improvements to font family.
+# "Box Shadow color" issue fixed.
+# Core issues fixed.
+# Background color issue fixed.
+# "CSS Editor not show codes" bug fixed.
+# "CSS data lose" bug fixed.
+
+Version 5.1.2 (9 December 2015)
+# Wordpress 4.4. update.
+# Selector bug fixed.
+# Custom selector bug fixed.
+
+Version 5.1.1 (27 November 2015)
+# Added Visibility Property
+# Trash posts bug fixed
+# Improvements to transformed elements.
+# Improvements to dragger and resizer.
+# Animations bug fixed.
+# Improvements to CSS Editor
+
+Version 5.1.0 (18 November 2015)
+# Drag&Drop bug fixed.
+# Live Element re-sizer Added!
+# Improvements to selections
+# Improvements to core.
+# Improvements to color picker
+# Improvements to small screens.
+
+Version 5.0.1 (5 November 2015)
+# A few small bug fixed.
+
+Version 5.0.0 (5 November 2015)
+# Improvements to picker
+# Improvements to performance
+# Improvements to undo/Redo
+# Improvements to CSS Editor
+# Improvements to automatic important system
+# Improvements to slider
+# Smarter And Easy
+# Loading issue fixed.
+# New color picker!
+
+Version 4.7.0 (19 October 2015)
+# All bugs fixed.
+# Added custom Selector.
+# Documentation updated.
+
+Version 4.6.3 (15 October 2015)
+# Added automatic updater
+# Improvements to interface
+# A lot of improvements to core
+# Added helper notices.
+# Fixed "select just it" bug.
+# Fixed drag&drop bug.
+# Fixed parent setting.
+
+Version 4.6.2 (16 September 2015)
+# Important Improvements. 
+
+Version 4.5.1 (4 September 2015)
+# Fixed background image.
+
+Version 4.5 (3 September 2015)
+# Added table-cell for display.
+# Added Drag & Drop Features.
+# Added ESC Key Close Select tag.
+# Added ESC Key Close colorpicker.
+# Improvement for width, animations and display.
+# Body class prefix fixed.
+# background image Full size fixed.
+# H Key problem fixed.
+# Contextmenu close bug fixed.
+# Improvement for CSS Engine.
+# CSS Editor bug fixed.
+# Chrome transform bug fixed.
+# Ruler height bug fixed.
+# Now up/down keys change "px","em" and "%".
+# Slider value bug fixed.
+# Improvement for position.
+# Jquery bug fixed.
+
+Version 4.4 (27 August 2015)
+# Improvement for undo and redo.
+# Added Background image uploader.
+# Added Color picker.
+# Improvement for Text shadow.
+# Added CSS Source Controller page.
+# Theme Part Feature Disabled.
+
+Version 4.3.5 Stable (23 August 2015)
+# New shortcut.
+# Simple improvements.
+
+Version 4.3 Stable (6 August 2015)
+# Added Undo / Repo Feature
+# Added Meterial Colors
+# Improvement for core.
+# New Shortcuts
+# Bugs fixed.
+
+Version 4.2 (3 August 2015)
+# Fixed important bug.
+# Improvement performance.
+# Improvement for core.
+# Added Fullscreen setting.
+# Added Pixel Ruler.
+# Fonts Updated.
+
+Version 4.1 (2 August 2015)
+#  Bugs fixed.
+
+Version 4.0 (1 August 2015)
+# Added CSS Animation property.
+# Added Parallax script.
+# Added CSS editor.
+# Added Automatic prefix.
+# Added CSS Filter property.
+# Added CSS Text Shadow property.
+# Added Box Shadow property.
+# Added Box Sizing property.
+# Added Transform property.
+# Added .PO and .MO files.
+# Added Turkish Translation.
+# Added Shortcut keys.
+# Added descriptions to some options.
+# SSL Bug Fixed.
+# Bugs Fixes!
+
+Version 3.2 (18 June 2015)
+# Fixed Save Bug.
+
+Version 3.1 (17 June 2015)
+# Improvements to core.
+# Added: Export CSS Code
+# Fixed: Bugs.
+
+Version 3.0 (06 June 2015)
+# Improvements to core.
+# Added: Responsive support.
+# Added: Just Select a element.
+# Fixed: bugs.
+
+Version 2.2.3 (15 May 2015)
+# Improvements to core.
+# Added 300+ Background patterns
+# Added Advanced colours.
+
+Version 2.2.2 (14 May 2015)
+# Improvements to some themes.
+
+Version 2.2.1 (13 May 2015)
+# Selector Improvements.
+
+Version 2.2.0 (07 May 2015)
+# Initial release
