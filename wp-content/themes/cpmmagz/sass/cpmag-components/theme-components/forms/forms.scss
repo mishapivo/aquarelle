@@ -1,0 +1,35 @@
+.input-field{
+	margin-bottom: 2.3rem;
+	label{
+		left: 0;
+		color: $entry-content-color;
+		font-size: 14px;
+	}
+}
+input[type=text], input[type=password], input[type=email], input[type=url], input[type=time], input[type=date], input[type=datetime-local], input[type=tel], input[type=number], input[type=search], textarea.materialize-textarea{
+	box-shadow: 0 2px 0 0 #e2e2e2;
+	margin-bottom: 0;
+	border-bottom: 0;
+	margin-top: 5px;
+}
+input[type=text]:focus:not([readonly]), input[type=password]:focus:not([readonly]), input[type=email]:focus:not([readonly]), input[type=url]:focus:not([readonly]), input[type=time]:focus:not([readonly]), input[type=date]:focus:not([readonly]), input[type=datetime-local]:focus:not([readonly]), input[type=tel]:focus:not([readonly]), input[type=number]:focus:not([readonly]), input[type=search]:focus:not([readonly]), textarea.materialize-textarea:focus:not([readonly]){
+	border-bottom: 0;
+	box-shadow: 0 2px 0 0 #26a69a;
+}
+select:focus{
+	outline: 0;
+}
+button, input[type=submit]{
+	@extend .btn;
+	@extend .waves-effect;
+	@extend .waves-light;
+}
+.input-field{
+	span.invalid, span.help-inline{
+		display: block;
+	    margin: 10px 0;
+	    text-transform: uppercase;
+	    font-size: 14px;
+	    color: $error-color;
+	}
+}

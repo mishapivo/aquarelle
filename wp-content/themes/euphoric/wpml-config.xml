@@ -1,0 +1,11 @@
+<wpml-config>
+	<admin-texts>
+		<key name="theme_mods_euphoric">
+			<key name="subscribe_text" />
+			<key name="subscribe_url" />
+			<key name="search_text" />
+			<key name="excerpt_text" />
+			<key name="footer-edit-options" />
+		</key>
+	</admin-texts>
+</wpml-config>

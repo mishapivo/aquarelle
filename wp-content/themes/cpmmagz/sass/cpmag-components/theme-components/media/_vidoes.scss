@@ -1,0 +1,49 @@
+.wp-video{
+    margin: 0px auto;
+}
+
+.fit-audio{
+    .wp-playlist-item{
+        text-align: left;
+        text-transform: capitalize;
+    }
+    .wp-playlist-item-title{
+        text-transform: capitalize;
+    }
+    .wp-playlist{
+        margin-top: 0;
+        .mejs-audio{
+            position: relative;
+        }
+    }
+    .mejs-audio{
+        position: absolute;
+        top: 50%;
+    }
+}
+
+.card-video{
+    .fit-video{
+        .wp-video{
+            margin: 0px auto;
+            width: 100%!important;
+            height: 100%;
+        }
+        .mejs-container {
+          width: 100% !important;
+          height: auto !important;
+          padding-top: 51%;
+        }
+        .mejs-overlay, .mejs-poster {
+          width: 100% !important;
+          height: 100% !important;
+        }
+        .mejs-mediaelement video {
+          position: absolute;
+          top: 0; left: 0; right: 0; bottom: 0;
+          width: 100% !important;
+          height: 100% !important;
+        }
+    }
+}
+

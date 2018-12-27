@@ -1,0 +1,35 @@
+.widget_recent_entries{
+	.card{
+		background: transparent;
+		box-shadow: none;
+		&.news-small{
+			.card-image{
+				width: 20%;
+				height: auto;
+				&:before{display:none;}
+				img{
+					min-height: auto; 
+				}
+			}
+			.card-desc{
+				display: block;
+				background: transparent;
+				width: 80%; 
+				.card-content{
+					padding: 0 0 0 15px;
+					p{
+						margin-bottom: 0;
+					}
+					.entry-meta{
+						a{
+							
+							i{
+								color: inherit;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}

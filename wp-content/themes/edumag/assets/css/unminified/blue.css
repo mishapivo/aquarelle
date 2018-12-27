@@ -1,0 +1,136 @@
+/*--------------------------------------------
+				BACKGROUND COLORS 
+--------------------------------------------*/
+#site-navigation,
+.price-tag,
+.courses-list .upcoming-courses,
+.backtotop:hover,
+.btn-blue,
+.blue-overlay,
+.navigation .nav-links a,
+.navigation .page-numbers.current,
+.woocommerce ul.products li.product .price .amount,
+.woocommerce ul.products li.product .price .amount,
+.woocommerce-LoopProduct-link .blue-overlay,
+#infinite-handle span button,
+.jetpack_subscription_widget .fa-times,
+.jetpack_subscription_widget .widgettitle,
+.jetpack_subscription_widget .widget-title,
+.calendar_wrap table thead,
+span.btn-play,
+.follow-button {
+    background-color: #5EABDF;
+}
+
+/*--------------------------------------------
+			OVERLAY COLOR
+--------------------------------------------*/
+.blue-overlay {
+    background-color: #0072BC;
+}
+/*--------------------------------------------
+				TEXT COLORS 
+--------------------------------------------*/
+#featured-category .featured-post-title h2 a:hover, 
+.featured-category-wrapper h4:hover a,
+.tab-section .tab-link.active a, 
+.tab-section .tab-link a:hover, 
+.portfolio-filter .active a, 
+.portfolio-filter a:hover,
+.article-title h2 a:hover, 
+.course-title h5 a:hover, 
+.widget_topcolleges_slider .slider-item > ul > li a:hover,
+.widget_tp_top_affiliation_widget ul > li a:hover,
+#trending-courses .course-title a:hover,
+.blog-content h3 a:hover,
+.site-footer .article-title h2 a:hover, 
+.site-footer .widget li a:hover, 
+.site-footer a:hover, 
+.site-footer .site-title:hover, 
+.widget_offers li a:hover,
+#breadcrumb-list a:hover,
+.widget_post_slider .slider-title h4 a:hover,
+article.post h2.entry-title a:hover, 
+.hentry p.entry-meta a:hover, 
+.hentry p.entry-meta time:hover,
+#trending-courses ul.tabs li.active .fa, 
+.shop-products ul.tabs li.active .fa,
+.widget_archive li a:hover, 
+.widget_all_courses li a:hover,
+ul.tabs.wc-tabs .active a,
+.woocommerce ul.products li.product:hover .amount,
+.woocommerce ul.products li.product:hover .amount,
+.hover-buttons .fa:hover,
+.widget_abroad_study_steps .slick-dots li.slick-active button:before,
+.travel-resource a:hover, 
+button.slide-down:hover .fa,
+.author-name a:hover,
+.comment-list a:hover, 
+.reply:hover a, 
+.reply:hover a:before,
+.site-branding .site-title a:hover,
+.has-post-thumbnail.hentry p.entry-meta a:hover, 
+.has-post-thumbnail.hentry p.entry-meta time:hover,
+span.tags-links a:hover,
+.author .entry-title a:hover,
+.woocommerce div.product .woocommerce-tabs ul.tabs li a:hover,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a,
+.calendar_wrap table tfoot td#prev a, 
+.calendar_wrap table tfoot td#next a, 
+.calendar_wrap table td a,
+.widget_categories li a:hover,
+.widget_meta li a:hover,
+.widget_pages li a:hover,
+.widget_recent_comments li a:hover,
+.widget_recent_entries li a:hover {
+    color: #5EABDF;
+}
+
+/*--------------------------------------------
+				BACKGROUND AND BORDER COLORS 
+--------------------------------------------*/	
+.wpcf7 input[type="submit"],
+.load-more:hover, 
+p.form-submit input[type="submit"]:hover,
+button.single_add_to_cart_button.button.alt,
+.widget_abroad_study_steps .slick-prev, 
+.widget_abroad_study_steps .slick-next {
+	background-color: #5EABDF;
+	border-color: #5EABDF;
+}
+
+/*--------------------------------------------
+	BACKGROUND ACTIVE AND HOVER COLORS 
+--------------------------------------------*/
+#masthead .current-menu-item,
+.main-navigation li:hover, 
+.main-navigation li:focus {
+    background-color: #4E96C6;
+}
+
+/*--------------------------------------------
+		MENU SEARCH BACKGROUND COLORS
+--------------------------------------------*/
+.main-navigation ul #search input[type="search"] {
+    background-color: #94C9EB;
+}
+/*--------------------------------------------
+		BORDER TOP AND BOTTOM COLOR
+--------------------------------------------*/
+.price-tag:before,
+span.woocommerce-Price-amount.amount:before {
+    border-bottom-color: #5EABDF;
+}
+.price-tag:after,
+span.woocommerce-Price-amount.amount:after {
+    border-top-color: #5EABDF;
+}
+/*--------------------------------------------
+		BORDER TOP AND BOTTOM COLOR
+--------------------------------------------*/
+.price-tag:before {
+    border-bottom-color: #5EABDF;
+}
+.price-tag:after {
+    border-top-color: #5EABDF;
+}

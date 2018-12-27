@@ -1,0 +1,213 @@
+footer{
+    color: #fff;
+    a{
+        color: $white_color;
+        &:hover, &:focus{
+            color: darken($theme_color_dark, 10%);
+        }
+    }
+    .widget{
+
+        .widget-title{
+            color: $white_color;
+        }
+        color: $white_color;
+        // Tabs
+        .tabs .tab{
+            &:before{
+                display: none;
+            }
+            a{
+                margin-left: 0;
+            }
+        }
+        ul{
+            li{
+                position: relative;
+                ul.children, ul.sub-menu{
+                    padding-left: 1.2rem;
+                    margin-top: 10px;
+                    li{
+                        border-bottom: 1px solid #fff;
+                        border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                        padding: 10px 0;
+                        background: transparent;
+                        &:first-child{
+                            border-top: 1px solid #fff;
+                            border-top: 1px solid rgba(255, 255, 255, 0.1);
+                        }
+                        &:last-child{
+                            border-bottom: 0;
+                            padding-bottom: 0;
+                        }
+                        ul.children, ul.sub-menu{
+                            ul.children, ul.sub-menu{
+                                ul.children, ul.sub-menu{
+                                    ul.children, ul.sub-menu{
+                                        ul.children, ul.sub-menu{
+                                            padding-left: 0;
+                                            li{
+                                                padding-left: 0;
+                                                padding-right: 0;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                color: #fff;
+                line-height: 1.5rem;
+                padding: 10px 0;
+                margin: 0;
+                border-bottom: 1px solid #fff;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                &:last-child{
+                    border-bottom: 0;
+                }
+                .post-date{
+                    display: block;
+                    font-size: 0.9rem;
+                    color: $white-color;
+                }
+
+                &:before{
+                    position: absolute;
+                    left: 3px;
+                    content: '';
+                    font-family: 'FontAwesome';
+                }
+                &.recentcomments{
+                    &:before{
+                        display: none;
+                    }
+                }
+                a{
+                    margin-left: 1.1rem;
+                }
+            }
+        }
+        .entry-meta ul li{
+            &:before{
+                display: none;
+            }
+            a{
+                margin-left: 0;
+            }
+        }
+        a{
+            color: $white_color;
+            &:hover, &:focus{
+                color: darken($theme_color_dark, 10%);
+            }
+        }
+        .tagcloud{
+            a{
+                background: $white_color;
+                color: $theme_color;
+                &:hover, &:focus{
+                    color: $theme_color_dark;
+                }
+            }
+        }
+        ul.menu{
+        border: 0;
+            li{
+                line-height: 1.5rem;
+                padding: 10px 0;
+                margin: 0;
+                border-bottom: 1px solid #fff;
+                border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                background: transparent;
+                &:hover, &:focus{
+                    background: transparent;
+                }
+                a{
+                    color: $white_color;
+                    &:hover, &:focus{
+                        color: darken($theme_color_dark, 10%);
+                    }
+                }
+            }
+        }
+    }
+    // Mailchimp
+    .widget_mc4wp_widget{
+        .mc4wp-form label, label{
+            color: $white-color;
+        }
+    }
+    // Calendar
+    .widget_calendar{
+        #prev, #next{
+            a{
+                background: rgba(0,0,0,0.4);
+                border: 0;
+                border-radius: 0;
+            }
+        }
+    }
+    // Archive
+    .widget_archive, .widget_categories{
+        ul li{
+            color: $white_color;
+        }
+    }
+    select{
+        background: rgba(0,0,0,0.4);
+        border-radius: 0;
+        border: 0;
+    }
+    input[type=button], input[type=submit]{
+        color: $theme_color;
+        background: $white_color;
+        &:hover, &:focus{
+            color: darken($white_color, 20%);
+        }
+    }
+
+    .card{
+        box-shadow: none!important;
+        background: transparent!important;
+        .card-image{
+            height: 80px!important;
+        }
+        .card-desc{
+            background-color: transparent!important;
+            .card-content{
+                &:before{
+                    display: none;
+                }
+                h2{
+                    max-height: 1.5rem!important;
+                    a{
+                        color: $white_color;
+                        &:hover, &:focus{
+                            color: darken($theme_color_dark, 10%);
+                        }
+                    }
+                }
+                .entry-meta{
+                    ul{
+                        margin: 0 auto;
+                        li{
+                            padding: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .widget{
+        ul{
+            li.current-cat, li.current-menu-item{
+                a{
+                    color: darken($theme_color_dark, 10%);
+                }
+            }
+        }
+    }
+
+}

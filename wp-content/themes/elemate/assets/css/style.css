@@ -1,0 +1,457 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+a {
+    color: #4db6ac;
+}
+.nav-wrapper {
+	height:64px;
+}
+nav {
+    z-index: 998;
+	box-shadow: none;
+}
+nav.transparent.menu-fixed {
+    position: fixed;
+	animation: fadeInDown 1.4s;
+	-webkit-animation: fadeInDown 1.4s;
+	-moz-animation: fadeInDown 1.4s;
+	-ms-animation: fadeInDown 1.4s;
+	-o-animation: fadeInDown 1.4s;
+}
+nav.transparent.menu-fixed {
+    background-color: #4db6ac !important;
+	box-shadow: 0 1px 5px 0 rgba(0,0,0,0.16),0 1px 10px 0 rgba(0,0,0,0.12);
+}
+nav .brand-logo {
+    color: #4db6ac;
+	z-index: 1;
+}
+.button-collapse {
+	color: #4db6ac;
+}
+.button-close {	
+	background-color: transparent;
+	position: absolute;
+	top: 30px;
+	left: 80%;	
+}
+
+nav.transparent.menu-fixed .brand-logo,
+nav.transparent.menu-fixed .button-collapse {
+	color: #ffffff;
+}
+.side-nav {
+	width: 450px;
+	height: 100%;
+}
+h1.header,
+.side-nav p,
+.side-nav a {
+	color:  #4db6ac;
+}
+.side-nav a:hover {
+    background-color: #4db6ac;
+	color: #ffffff;
+	box-shadow: 0 1px 5px 0 rgba(0,0,0,0.16),0 1px 10px 0 rgba(0,0,0,0.12);
+}
+.side-nav a {
+	padding: 0 28px;
+}
+.side-nav .header a,
+.side-nav a.button-close {
+	color: #ffffff;
+}
+a.button-close {
+	height: 60px;
+}
+
+a.button-close:hover {
+	box-shadow: none;
+	background-color: transparent;
+}
+.side-nav .header,
+.side-nav .widget-title {
+	height: 64px;
+	background-color: #4db6ac;
+	box-shadow: 0 1px 5px 0 rgba(0,0,0,0.16),0 1px 10px 0 rgba(0,0,0,0.12);
+}
+
+.side-nav h2 a {
+	font-size: 0.467em;
+	padding: 0.257em 0 0.857em 0.875em;
+	width: 80%;
+}
+.side-nav h2 a:hover {
+	box-shadow: none;
+}
+
+.side-nav h2.widget-title {
+	padding: 0.757em 0 0.857em 0.875em;
+}
+.side-nav .widget li {
+    list-style: none;
+    padding-bottom: 0;
+    border-bottom: 0;
+    margin-bottom: 0;
+}
+
+.side-nav p {
+	padding: 1% 2%;
+}
+
+#primary nav {
+    background-color: transparent;
+    box-shadow: none;
+	line-height: 46px;
+	width: 100%;
+	position: relative;
+}
+
+p {
+	line-height: 2rem;
+}
+
+textarea {
+    height: auto;
+	padding: 1.25%;
+}
+
+@media only screen and (min-width: 993px) {
+	nav a.button-collapse {
+		display: block;
+	}
+}
+
+.parallax-container {
+	line-height: 0;
+	height: auto;
+	color: rgba(63,63,63,.9);
+}
+.parallax-container .section {
+	width: 100%;
+	padding: 10%;
+}
+.parallax-container h1.header {
+	color: #4db6ac;
+}
+.parallax-container .row h5.header.col.s12 {
+	padding: 3%;
+	width: 70%;
+	background-color: rgba(255,255,255,0.6);
+	float: none;
+	margin: 0 auto;
+}
+
+footer.page-footer,
+.parallax-container .btn-large {
+	background-color: #4db6ac;
+}
+
+.card-content .entry-meta {
+	font-size: 0.775rem;
+	margin-bottom: 1em;
+}
+
+.card-image .post-thumbnail a img {
+	transition: opacity 0.3s;
+	opacity: 0.7;
+}
+
+.card-image .post-thumbnail a:hover img,
+.card-image .post-thumbnail a:focus img {
+	opacity: 0.9;
+}
+
+.elementor-page .content-container.container,
+.elementor-body .content-container.container {
+    margin: 0 auto;
+    max-width: 100%;
+    width: 100%;
+	overflow: hidden;
+}
+
+.elementor-body .content-container .section,
+.elementor-page .content-container .section {    
+	padding: 0;
+}
+
+.elementor-body .content-container .row,
+.elementor-page .content-container .row,
+.elementor-body .hentry,
+.elementor-page .hentry {
+    margin-bottom: 0;
+}
+
+.elementor-body .content-container header,
+.elementor-page .content-container header,
+.elementor-body .content-container .edit-link,
+.elementor-page .content-container .edit-link,
+.elementor-body .footer-widgets,
+.elementor-page .footer-widgets,
+.elementor-page .entry-footer,
+.elementor-body .entry-footer {
+    display: none;
+}
+
+@media only screen and (max-width : 992px) {
+	h1.header {
+		font-size: 3.2rem;
+	}
+	h5.header {
+		font-size: 1.34rem;
+		line-height: 100%;
+	}	
+	.parallax-container .section {
+		position: absolute;
+		top: 40%;
+		padding: 8%;
+	}
+	#index-banner .section {
+		top: 10%;
+	}
+	.side-nav {
+		width: 340px;
+	}
+	.side-nav h2 a {
+		font-size: 0.427em;
+		padding: 0.257em 0 0.457em 0.275em;
+	}
+}
+
+@media only screen and (max-width : 600px) {
+	h1.header {
+		font-size: 2.2rem;
+	}
+	h5.header {
+		font-size: 1.14rem;
+		line-height: 100%;
+	}
+	#index-banner .section {
+		top: 4%;
+	}
+	nav.transparent.menu-fixed {
+		top: 0;
+	}
+	
+	.side-nav h2 a {
+		font-size: 0.387em;
+	}
+}
+
+.icon-block {
+	padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+footer.page-footer {
+	margin: 0;
+	padding-top: 0;
+}
+
+.elementor-body footer.page-footer,
+.elementor-page footer.page-footer {
+    padding-top: 0;
+}
+#primary nav.navigation {
+	line-height: 26px;
+}
+nav.navigation {
+    background-color: transparent;
+	clear: both;
+}
+.nav-previous {
+	width: 50%;
+	float: left;
+}
+.nav-next {
+	width: 50%;
+	float: right;
+	text-align: right;
+}
+
+/*
+ * Custom CSS specific to the Elementor Blank Template and theme agnostic.
+ */
+
+/* Anchor Menu */
+.anchor-menu {
+	background-color: #ffffff;
+	color: #29292a;
+}
+
+.anchor-menu a,
+.anchor-menu a:visited {
+	color: #29292a;
+	-webkit-transition: color 0.2s;
+	transition: color 0.2s;
+}
+
+.anchor-menu a:hover,
+.anchor-menu a:focus {
+	color: rgba(255,255,255,0.7);
+}
+
+.elementor-widget-wp-widget-nav_menu {
+	clear: both;
+	display: block;	
+	width: 100%;
+	
+}
+
+.elementor-widget-wp-widget-nav_menu h5 {
+	width: 20%;
+	float: left;
+	clear: none;
+	margin: 0;
+	padding: 0.757em 0;
+	font-size: 18px;
+	text-align: left;
+}
+
+.elementor-widget-wp-widget-nav_menu ul {
+	background-color: transparent;
+	display: none;
+	list-style: none;
+	padding: 0 1em;
+	margin: 0 auto;
+	max-width: 1080px;
+	width: 80%;
+	float: left;
+}
+
+@media screen and (min-width: 60em) {
+	.anchor-menu-fixed.elementor-widget-wp-widget-nav_menu .wrap,
+	.site-header-hidden.elementor-widget-wp-widget-nav_menu .wrap {
+		padding-bottom: 0.25em;
+		padding-top: 0.25em;
+	}
+	
+	.anchor-menu {
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 100%;
+		z-index: 3;
+		transition: transform 0.2s;
+	}
+	
+	.anchor-menu-fixed.elementor-widget-wp-widget-nav_menu,
+	.site-header-hidden.elementor-widget-wp-widget-nav_menu {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		z-index: 7;
+	}
+
+	.anchor-menu-fixed.anchor-menu,
+    .anchor-menu-fixed.elementor-widget-wp-widget-nav_menu {
+		-webkit-animation: header-down 0.2s ease-in;
+		animation: header-down 0.2s ease-in;
+		-webkit-transform: translate(0);
+		transform: translate(0);
+	}
+
+	.site-header-hidden.anchor-menu,
+    .site-header-hidden.elementor-widget-wp-widget-nav_menu {
+		-webkit-animation: header-up 0.5s ease-in;
+		animation: header-up 0.5s ease-in;
+		-webkit-transform: translate(-100%);
+		transform: translate(-100%);
+	}
+
+	.admin-bar .anchor-menu-fixed.anchor-menu,
+    .admin-bar .anchor-menu-fixed.elementor-widget-wp-widget-nav_menu {
+		top: 32px;
+	}	
+
+	@-webkit-keyframes header-down {
+		from {
+			-webkit-transform: translate(0, -100%);
+		}
+
+		to {
+			-webkit-transform: translate(0);
+		}
+	}
+
+	@keyframes header-down {
+		from {
+			transform: translate(0, -100%);
+		}
+
+		to {
+			transform: translate(0);
+		}
+	}
+
+	@-webkit-keyframes header-up {
+		from {
+			-webkit-transform: translate(0);
+		}
+
+		to {
+			-webkit-transform: translate(0, -100%);
+		}
+	}
+
+	@keyframes header-up {
+		from {
+			transform: translate(0);
+		}
+
+		to {
+			transform: translate(0, -100%);
+		}
+	}
+	
+	.elementor-widget-wp-widget-nav_menu {
+		width: 100%;
+	}
+
+	.elementor-widget-wp-widget-nav_menu ul {
+		display: block;
+		padding: 0.857em 0;
+	}
+
+	.elementor-widget-wp-widget-nav_menu li {
+		display: inline-block;
+		position: relative;
+	}
+
+	.elementor-widget-wp-widget-nav_menu li li {
+		display: block;
+	}
+
+	.elementor-widget-wp-widget-nav_menu a {
+		padding: 0.5em 1em;
+	}
+
+	.anchor-menu-fixed.anchor-menu .elementor-widget-wp-widget-nav_menu a {
+		padding-bottom: 0.75em;
+		padding-top: 0.75em;
+	}
+
+	.elementor-widget-wp-widget-nav_menu a:hover,
+    .elementor-widget-wp-widget-nav_menu a:focus {
+		color: #999;
+	}
+	
+	.anchor-menu-fixed.elementor-widget-wp-widget-nav_menu h5 {
+		text-align: right;
+		margin-left: 3.5%;
+	}
+	
+	.anchor-menu-fixed.elementor-widget-wp-widget-nav_menu ul {
+		float: left;
+		padding-right: 3.5%;
+	}
+
+}
+ 

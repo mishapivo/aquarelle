@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "evolve-admin";
+    src: url("fonts/evolve-admin.eot");
+    src: url("fonts/evolve-admin.eot?#iefix") format("embedded-opentype"),
+    url("fonts/evolve-admin.woff") format("woff"),
+    url("fonts/evolve-admin.ttf") format("truetype"),
+    url("fonts/evolve-admin.svg#evolve-admin") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+
+[data-icon]:before {
+    content: attr(data-icon);
+    font-family: "evolve-admin" !important;
+    font-style: normal !important;
+    font-variant: normal !important;
+    font-weight: normal !important;
+    line-height: 1;
+    text-transform: none !important;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="evolve-icon-"]:before,
+[class*=" evolve-icon-"]:before {
+    font-family: "evolve-admin" !important;
+    font-style: normal !important;
+    font-variant: normal !important;
+    font-weight: normal !important;
+    line-height: 1;
+    text-transform: none !important;
+    speak: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.evolve-icon-menu:before {
+    content: "\63";
+}
+
+.evolve-icon-woocommerce:before {
+    content: "\64";
+}
+
+.evolve-icon-sliding-bar:before {
+    content: "\65";
+}
+
+.evolve-icon-blog:before {
+    content: "\66";
+}
+
+.evolve-icon-components:before {
+    content: "\67";
+}
+
+.evolve-icon-styling:before {
+    content: "\69";
+}
+
+.evolve-icon-social-media:before {
+    content: "\71";
+}
+
+.evolve-icon-bootstrap:before {
+    content: "\72";
+}
+
+.evolve-icon-builder:before {
+    content: "\76";
+}
+
+.evolve-icon-footer:before {
+    content: "\79";
+}
+
+.evolve-icon-header:before {
+    content: "\7a";
+}
+
+.evolve-icon-parallax:before {
+    content: "\41";
+}
+
+.evolve-icon-breadcrumbs:before {
+    content: "\44";
+}
+
+.evolve-icon-sidebar:before {
+    content: "\45";
+}
+
+.evolve-icon-contact:before {
+    content: "\46";
+}
+
+.evolve-icon-lightbox:before {
+    content: "\48";
+}
+
+.evolve-icon-posts-slider:before {
+    content: "\49";
+}
+
+.evolve-icon-general:before {
+    content: "\4c";
+}
+
+.evolve-icon-typography:before {
+    content: "\4d";
+}
+
+.evolve-icon-extra:before {
+    content: "\61";
+}
+
+.evolve-icon-logo:before {
+    content: "\62";
+}
+
+.evolve-icon-portfolio:before {
+    content: "\68";
+}
+
+.evolve-icon-side-nav:before {
+    content: "\6a";
+}
+
+.evolve-icon-check:before {
+    content: "\6b";
+}

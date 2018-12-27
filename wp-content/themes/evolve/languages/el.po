@@ -1,0 +1,5204 @@
+# Translation of Themes - evolve in Greek
+# This file is distributed under the same license as the Themes - evolve package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-12-19 22:16+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"Language: el\n"
+"Project-Id-Version: Themes - evolve\n"
+"POT-Creation-Date: 2018-12-19 22:14+0000\n"
+"Last-Translator: admin <senditme@centrum.sk>\n"
+"Language-Team: Greek\n"
+"Report-Msgid-Bugs-To: \n"
+"X-Loco-Version: 2.2.0; wp-5.0.1"
+
+#: 404.php:31
+msgid "Yay! 404 Not Found"
+msgstr ""
+
+#: 404.php:33 template-parts/post/content-none.php:19
+msgid ""
+"Sorry, but you are looking for something that isn't here or it's been moved. "
+"Try a search?"
+msgstr ""
+
+#: comments.php:8
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Το άρθρο έχει συνθηματικό. Πληκτρολογήστε το συνθηματικό για να δείτε τα "
+"σχόλια."
+
+#: comments.php:54 inc/comments.php:38
+msgid "No Comments Yet"
+msgstr "Κανένα σχόλιο"
+
+#: comments.php:70
+msgid "Comments are closed"
+msgstr "Τα σχόλια είναι απενεργοποιημένα"
+
+#: functions.php:89
+#, php-format
+msgid "Page %s"
+msgstr "Σελίδα %s"
+
+#: functions.php:131
+msgid "Primary Menu"
+msgstr "Κύριο μενού"
+
+#: functions.php:132
+msgid "Sticky Header Menu"
+msgstr ""
+
+#: functions.php:433
+msgid "You reached the end"
+msgstr ""
+
+#: functions.php:434
+msgid "Load more items"
+msgstr "Φορτώστε περισσότερα στοιχεία"
+
+#: functions.php:527 inc/template-tags.php:1014
+#: template-parts/post/content-post.php:66
+msgid "Read More"
+msgstr "Διαβάστε περισσότερα"
+
+#: functions.php:542
+msgid "To view this protected content, enter the password below"
+msgstr ""
+
+#: functions.php:543
+msgid "Password:"
+msgstr "Συνθηματικό:"
+
+#: functions.php:543 bbpress/form-reply-move.php:77 bbpress/form-reply.php:179
+#: bbpress/form-topic-merge.php:106 bbpress/form-topic-split.php:111
+#: bbpress/form-topic.php:251 woocommerce/single-product-reviews.php:76
+msgid "Submit"
+msgstr "Υποβολή"
+
+#: header.php:19
+msgid "Skip to main content"
+msgstr ""
+
+#: search.php:25
+#, php-format
+msgid "Search results for %s"
+msgstr "Αποτελέσματα αναζήτησης για %s"
+
+#: search.php:31
+#, php-format
+msgid "Your search for %s didn't match any entries"
+msgstr ""
+
+#: search.php:65 woocommerce/loop/no-products-found.php:29
+msgid "Suggestions"
+msgstr "Προτάσεις"
+
+#: search.php:67 woocommerce/loop/no-products-found.php:31
+msgid "Make sure all words are spelled correctly."
+msgstr ""
+
+#: search.php:68 woocommerce/loop/no-products-found.php:32
+msgid "Try different keywords."
+msgstr ""
+
+#: search.php:69 woocommerce/loop/no-products-found.php:33
+msgid "Try more general keywords."
+msgstr ""
+
+#: searchform.php:12 inc/template-tags.php:88
+msgid "Type your search"
+msgstr "Αναζήτηση Άρθρου"
+
+#: bbpress/content-archive-forum.php:15 bbpress/content-single-forum.php:15
+#: bbpress/content-single-topic-lead.php:37
+msgid "Subscribe"
+msgstr "Εγγραφή"
+
+#: bbpress/content-archive-forum.php:16 bbpress/content-single-forum.php:16
+#: bbpress/content-single-topic-lead.php:38
+msgid "Subscribed"
+msgstr ""
+
+#: bbpress/content-single-topic-lead.php:15
+msgid "Open"
+msgstr "Ανοιχτό"
+
+#: bbpress/content-single-topic-lead.php:17
+msgid "Closed"
+msgstr "Κλειστό"
+
+#: bbpress/content-single-topic-lead.php:20
+msgid "Pinned"
+msgstr ""
+
+#: bbpress/content-single-topic-lead.php:31
+msgid "Favorite"
+msgstr "Αγαπημένο"
+
+#: bbpress/content-single-topic-lead.php:32
+msgid "Favorited"
+msgstr "Αγαπημένο"
+
+#: bbpress/content-statistics.php:17
+msgid "Registered Users"
+msgstr "Εγγεγραμμένοι Χρήστες"
+
+#: bbpress/content-statistics.php:22
+msgid "Forums"
+msgstr "Συζήτησεις"
+
+#: bbpress/content-statistics.php:27 bbpress/loop-forums.php:16
+msgid "Topics"
+msgstr "Θέματα"
+
+#: bbpress/content-statistics.php:32 bbpress/loop-forums.php:17
+#: bbpress/loop-topics.php:18
+msgid "Replies"
+msgstr "Απαντήσεις"
+
+#: bbpress/content-statistics.php:37
+msgid "Topic Tags"
+msgstr "Ετικέτες θέματος"
+
+#: bbpress/content-statistics.php:44
+msgid "Empty Topic Tags"
+msgstr "Κενές ετικέτες θεμάτων"
+
+#: bbpress/content-statistics.php:53
+msgid "Hidden Topics"
+msgstr "Κρυφά θέματα"
+
+#: bbpress/content-statistics.php:64
+msgid "Hidden Replies"
+msgstr "Κρυφές απαντήσεις"
+
+#: bbpress/form-anonymous.php:19
+msgid "Your email address will not be published. Required fields are marked *"
+msgstr ""
+"Το email σας δεν θα δημοσιευθεί. Τα υποχρεωτικά πεδία σημειώνονται με *"
+
+#: bbpress/form-anonymous.php:23
+msgid "Name*"
+msgstr "Όνομα*"
+
+#: bbpress/form-anonymous.php:29
+msgid "Email*"
+msgstr "Ηλ. διεύθυνση"
+
+#: bbpress/form-anonymous.php:35 bbpress/form-user-edit.php:79
+#: inc/comments.php:245
+msgid "Website"
+msgstr "Δικτυακός τόπος"
+
+#: bbpress/form-reply-move.php:18
+#, php-format
+msgid "Move reply \"%s\""
+msgstr "Μετακίνηση απάντησης \"%s\""
+
+#: bbpress/form-reply-move.php:21
+msgid ""
+"You can either make this reply a new topic with a new title, or merge it "
+"into an existing topic"
+msgstr ""
+"Μπορείτε είτε να δημιουργήσετε ένα νέο θέμα μ' αυτή την απάντηση ή να τη "
+"συγχωνεύσετε σ' ένα υπάρχον θέμα."
+
+#: bbpress/form-reply-move.php:25
+msgid ""
+"If you choose an existing topic, replies will be ordered by the time and "
+"date they were created"
+msgstr ""
+"Αν επιλέξετε ένα υπάρχον θέμα, οι απαντήσεις θα ταξινομηθούν βάσει του "
+"χρόνου δημιουργίας τους"
+
+#: bbpress/form-reply-move.php:28
+msgid "Move method"
+msgstr "Μέθοδος μετακίνησης"
+
+#: bbpress/form-reply-move.php:35 bbpress/form-topic-split.php:33
+#, php-format
+msgid "New topic in <strong>%s</strong> titled:"
+msgstr "Νέο θέμα στο <strong>%s</strong> που ονομάζεται:"
+
+#: bbpress/form-reply-move.php:39
+#, php-format
+msgid "Moved: %s"
+msgstr "Μετακινήθηκε: %s"
+
+#: bbpress/form-reply-move.php:55 bbpress/form-topic-split.php:53
+msgid "Use an existing topic in this forum:"
+msgstr "Χρησιμοποιήστε ένα υπάρχον θέμα σ' αυτή τη συζήτηση:"
+
+#: bbpress/form-reply-move.php:65 bbpress/form-topic-split.php:64
+msgid "No other topics found!"
+msgstr "Δεν βρέθηκαν άλλα θέματα!"
+
+#: bbpress/form-reply-move.php:71 bbpress/form-topic-merge.php:100
+#: bbpress/form-topic-split.php:105
+msgid "<strong>WARNING:</strong> This process cannot be undone"
+msgstr "<strong>ΠΡΟΣΟΧΗ:</strong> αυτή η διαδικασία δεν μπορεί να αναιρεθεί"
+
+#: bbpress/form-reply-move.php:88
+msgid "You do not have the permissions to edit this reply!"
+msgstr "Δεν έχετε εξουσιοδότηση να επεξεργαστείτε αυτήν την απάντηση!"
+
+#: bbpress/form-reply-move.php:88
+msgid "You cannot edit this reply"
+msgstr "Δεν μπορείτε να επεξεργαστείτε αυτήν την απάντηση"
+
+#: bbpress/form-reply.php:23
+#, php-format
+msgid "Now editing reply to %s"
+msgstr ""
+
+#: bbpress/form-reply.php:25
+#, php-format
+msgid "Reply to %s"
+msgstr "Απαντήστε σε: %s"
+
+#: bbpress/form-reply.php:38
+msgid ""
+"This topic is marked as closed to new replies, however your posting "
+"capabilities still allow you to do so"
+msgstr ""
+
+#: bbpress/form-reply.php:65 bbpress/form-topic.php:80
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes:"
+msgstr ""
+"Μπορείτε να χρησιμοποιήσετε αυτά <abbr title=\"HyperText Markup Language\">"
+"HTML</abbr>ετικέτες και χαρακτηριστικά:"
+
+#: bbpress/form-reply.php:80 bbpress/form-topic.php:95
+msgid "Your account has the ability to post unrestricted HTML content"
+msgstr ""
+
+#: bbpress/form-reply.php:92 bbpress/form-topic.php:107
+msgid "Tags"
+msgstr "Ετικέτες"
+
+#: bbpress/form-reply.php:115 bbpress/form-topic.php:190
+msgid "Keep a log of this edit"
+msgstr "Κατέγραψε αυτήν την επεξεργασία"
+
+#: bbpress/form-reply.php:122 bbpress/form-topic.php:197
+msgid "Optional reason for editing"
+msgstr "Προαιρετικοί λόγοι επεξεργασίας"
+
+#: bbpress/form-reply.php:148 bbpress/form-topic.php:223
+msgid "Notify the author of follow-up replies via email"
+msgstr ""
+"Ειδοποιήστε τον συγγραφέα των ανταπαντήσεων μέσω ηλεκτρονικού ταχυδρομείου"
+
+#: bbpress/form-reply.php:156 bbpress/form-topic.php:231
+msgid "Notify me of follow-up replies via email"
+msgstr "Ειδοποίησέ με για ανταπαντήσεις μέσω ηλεκτρονικού ταχυδρομείου"
+
+#: bbpress/form-reply.php:198
+#, php-format
+msgid "The topic <b>%s</b> is closed to new replies"
+msgstr ""
+
+#: bbpress/form-reply.php:203
+#, php-format
+msgid "The forum <b>%s</b> is closed to new topics and replies"
+msgstr ""
+
+#: bbpress/form-reply.php:208
+msgid "You cannot reply to this topic"
+msgstr "Δεν μπορείτε να απαντήσετε σ' αυτό το θέμα"
+
+#: bbpress/form-reply.php:208
+msgid "You must be logged in to reply to this topic"
+msgstr "Πρέπει να είστε συνδεδεμένοι για να απαντήσετε σ' αυτό το θέμα"
+
+#: bbpress/form-search.php:15
+msgid "Search forum"
+msgstr "Αναζήτηση φόρουμ"
+
+#: bbpress/form-topic-merge.php:17
+#, php-format
+msgid "Merge topic \"%s\""
+msgstr "Συγχώνευσε θέμα \"%s\""
+
+#: bbpress/form-topic-merge.php:21
+msgid ""
+"Select the topic to merge this one into. The destination topic will remain "
+"the lead topic, and this one will change into a reply."
+msgstr ""
+"Επιλέξτε το θέμα στο οποίο θα συγχωνευθεί. Το θέμα προορισμού θα παραμείνει "
+"κύριο και αυτό θα μετατραπεί σε απάντηση."
+
+#: bbpress/form-topic-merge.php:22
+msgid ""
+"To keep this topic as the lead, go to the other topic and use the merge tool "
+"from there instead."
+msgstr ""
+"Για να διατηρήσετε αυτό το θέμα ως κύριο, πηγαίνετε στο άλλο θέμα και "
+"χρησιμοποιήστε την συγχώνευση από εκεί."
+
+#: bbpress/form-topic-merge.php:26
+msgid ""
+"All replies within both topics will be merged chronologically. The order of "
+"the merged replies is based on the time and date they were posted. If the "
+"destination topic was created after this one, it's post date will be updated "
+"to second earlier than this one."
+msgstr ""
+"Όλες οι απαντήσεις και στα δύο θέματα θα συγχωνευθούν χρονικά. Η τάξη των "
+"συγχωνευμένων απαντήσεων βασίζεται στον χρόνο και στην ημερομηνία "
+"δημοσίευσης. Αν το θέμα προορισμού δημιουργήθηκε σε διαφορετικό χρόνο από "
+"αυτό, η ημερομηνία δημοσίευσης θα ανανεωθεί στην αμέσως νεότερη από αυτό."
+
+#: bbpress/form-topic-merge.php:29
+msgid "Destination"
+msgstr "Προορισμός"
+
+#: bbpress/form-topic-merge.php:40
+msgid "Merge with this topic:"
+msgstr "Συγχώνευση μ' αυτό το θέμα:"
+
+#: bbpress/form-topic-merge.php:50
+msgid "No topics were found to which the topic could be merged to!"
+msgstr "Δεν βρέθηκαν θέματα στα οποία το θέμα αυτό θα μπορούσε να συγχωνευθεί!"
+
+#: bbpress/form-topic-merge.php:58
+msgid "There are no other topics in this forum to merge with"
+msgstr "Δεν υπάρχουν άλλα θέματα σ' αυτήν τη συζήτηση για να συγχωνευθούν"
+
+#: bbpress/form-topic-merge.php:64 bbpress/form-topic-split.php:70
+msgid "Topic extras"
+msgstr "Έξτρα θεμάτων"
+
+#: bbpress/form-topic-merge.php:74
+msgid "Merge topic subscribers"
+msgstr "Συγχώνευση συνδρομητών θέματος"
+
+#: bbpress/form-topic-merge.php:84
+msgid "Merge topic favoriters"
+msgstr "Συγχώνευση αυτών που έχουν κάνει αγαπημένο το θέμα"
+
+#: bbpress/form-topic-merge.php:94
+msgid "Merge topic tags"
+msgstr "Συγχώνευση ετικετών θέματος"
+
+#: bbpress/form-topic-merge.php:117 bbpress/form-topic-split.php:122
+msgid "You do not have the permissions to edit this topic!"
+msgstr "Δεν έχετε εξουσιοδότηση να επεξεργαστείτε αυτό το θέμα!"
+
+#: bbpress/form-topic-merge.php:117 bbpress/form-topic-split.php:122
+msgid "You cannot edit this topic"
+msgstr "Δεν μπορείτε να επεξεργαστείτε αυτό το θέμα"
+
+#: bbpress/form-topic-split.php:18
+#, php-format
+msgid "Split topic \"%s\""
+msgstr "Χωρισμός θέματος \"%s\""
+
+#: bbpress/form-topic-split.php:21
+msgid ""
+"When you split a topic, you are slicing it in half starting with the reply "
+"you just selected. Choose to use that reply as a new topic with a new title, "
+"or merge those replies into an existing topic."
+msgstr ""
+"Όταν χωρίζετε ένα θέμα, το χωρίζετε από την απάντηση που μόλις επιλέξατε και "
+"κάτω. Επιλέξτε να χρησιμοποιήσετε αυτήν την απάντηση σαν νέο θέμα μ' έναν "
+"νέο τίτλο, ή συγχωνεύστε αυτές τις απαντήσεις σ' ένα υπάρχον θέμα."
+
+#: bbpress/form-topic-split.php:24
+msgid ""
+"If you use the existing topic option, replies within both topics will be "
+"merged chronologically. The order of the merged replies is based on the time "
+"and date they were posted."
+msgstr ""
+"Αν επιλέξετε την επιλογή του υπάρχοντος θέματος, οι απαντήσεις και στα δύο "
+"θέματα θα συγχωνευθούν χρονικά. Η σειρά των συγχωνευμένων απαντήσεων "
+"βασίζονται στην ώρα και στην ημερομηνία δημοσίευσής τους."
+
+#: bbpress/form-topic-split.php:26
+msgid "Split method"
+msgstr "Μέθοδος διαχωρισμού"
+
+#: bbpress/form-topic-split.php:37
+#, php-format
+msgid "Split: %s"
+msgstr "Διαχώρισε: %s"
+
+#: bbpress/form-topic-split.php:79
+msgid "Copy subscribers to the new topic"
+msgstr "Αντέγραψε τους συνδρομητές στο νέο θέμα"
+
+#: bbpress/form-topic-split.php:89
+msgid "Copy favoriters to the new topic"
+msgstr "Αντέγραψε τα αγαπημένα στο νέο θέμα"
+
+#: bbpress/form-topic-split.php:99
+msgid "Copy topic tags to the new topic"
+msgstr "Αντέγραψε τις ετικέτες του θέματος στο νέο θέμα"
+
+#: bbpress/form-topic-tag.php:15
+#, php-format
+msgid "Manage Tag: \"%s\""
+msgstr "Διαχείριση ετικέτας: \"%s\""
+
+#: bbpress/form-topic-tag.php:19
+msgid "Rename"
+msgstr "Αλλαγή ονόματος"
+
+#: bbpress/form-topic-tag.php:22
+msgid "Leave the slug empty to have one automatically generated."
+msgstr "Αφήστε κενή την slug για να δημιουργηθεί αυτόματα."
+
+#: bbpress/form-topic-tag.php:26
+msgid ""
+"Changing the slug affects its permalink. Any links to the old slug will stop "
+"working."
+msgstr ""
+"Η αλλαγή της slug επηρεάζει τον μόνιμο σύνδεσμό της. Όποιοι σύνδεσμοι στην "
+"παλιά slug θα πάψει να δουλεύει."
+
+#: bbpress/form-topic-tag.php:32
+msgid "Name:"
+msgstr "Όνομα:"
+
+#: bbpress/form-topic-tag.php:37
+msgid "Slug:"
+msgstr "Slug:"
+
+#: bbpress/form-topic-tag.php:42
+msgid "Update"
+msgstr "Ενημέρωση"
+
+#: bbpress/form-topic-tag.php:56 bbpress/form-topic-tag.php:70
+msgid "Merge"
+msgstr "Συγχώνευση"
+
+#: bbpress/form-topic-tag.php:59
+msgid "Merging tags together cannot be undone"
+msgstr "Η συγχώνευση ετικετών δεν μπορεί να αναιρεθεί"
+
+#: bbpress/form-topic-tag.php:65
+msgid "Existing tag:"
+msgstr "Υπάρχουσα ετικέτα:"
+
+#: bbpress/form-topic-tag.php:70
+#, php-format
+msgid ""
+"Are you sure you want to merge the \"%s\" tag into the tag you specified?"
+msgstr ""
+"Είστε σίγουροι ότι θέλετε να συγχωνεύσετε την ετικέτα \"%s\" μ' αυτή που "
+"καθορίσατε;"
+
+#: bbpress/form-topic-tag.php:85 bbpress/form-topic-tag.php:98
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: bbpress/form-topic-tag.php:88
+msgid "This does not delete your topics. Only the tag itself is deleted."
+msgstr "Δεν θα διαγραφούν τα θέματά σας. Μόνο οι ετικέτες."
+
+#: bbpress/form-topic-tag.php:91
+msgid "Deleting a tag cannot be undone."
+msgstr "Η διαγραφή ετικέτας δεν μπορεί να αναιρεθεί."
+
+#: bbpress/form-topic-tag.php:92
+msgid "Any links to this tag will no longer function."
+msgstr "Οι σύνδεσμοι προς την ετικέτα δεν θα λειτουργούν πλέον."
+
+#: bbpress/form-topic-tag.php:98
+#, php-format
+msgid ""
+"Are you sure you want to delete the \"%s\" tag? This is permanent and cannot "
+"be undone."
+msgstr ""
+"Είστε σίγουροι ότι θέλετε να διαγράψετε την ετικέτα \"%s\"; Θα είναι μόνιμο "
+"και δεν θα μπορεί να αναιρεθεί."
+
+#: bbpress/form-topic.php:23
+#, php-format
+msgid "Now editing %s"
+msgstr ""
+
+#: bbpress/form-topic.php:25
+#, php-format
+msgid "Create new topic in %s"
+msgstr ""
+
+#: bbpress/form-topic.php:25
+msgid "Create new topic"
+msgstr "Δημιουργία νέου θέματος"
+
+#: bbpress/form-topic.php:38
+msgid ""
+"This forum is marked as closed to new topics, however your posting "
+"capabilities still allow you to do so"
+msgstr ""
+
+#: bbpress/form-topic.php:53
+#, php-format
+msgid "Topic title (maximum length: %d)"
+msgstr "Τίτλος θέματος (μέγιστο μήκος: %d)"
+
+#: bbpress/form-topic.php:129 bbpress/loop-forums.php:15
+#: bbpress/loop-search.php:12
+msgid "Forum"
+msgstr "Συζήτηση"
+
+#: bbpress/form-topic.php:134
+msgid "No forum"
+msgstr ""
+
+#: bbpress/form-topic.php:151
+msgid "Topic type"
+msgstr "Τύπος θέματος"
+
+#: bbpress/form-topic.php:166
+msgid "Topic status"
+msgstr "Κατάσταση θέματος"
+
+#: bbpress/form-topic.php:270
+#, php-format
+msgid "The forum %s is closed to new topics and replies"
+msgstr ""
+
+#: bbpress/form-topic.php:278
+msgid "You cannot create new topics"
+msgstr "Δεν μπορείτε να δημιουργήσετε νέα θέματα"
+
+#: bbpress/form-topic.php:278
+msgid "You must be logged in to create new topics"
+msgstr "Πρέπει να έχετε συνδεθεί για να δημιουργήσετε νέα θέματα"
+
+#: bbpress/form-user-edit.php:17 inc/comments.php:235
+#: inc/woocommerce-support.php:354 woocommerce/single-product-reviews.php:71
+msgid "Name"
+msgstr "Όνομα"
+
+#: bbpress/form-user-edit.php:28 inc/woocommerce-support.php:1734
+msgid "First name"
+msgstr "Μικρό όνομα"
+
+#: bbpress/form-user-edit.php:38 inc/woocommerce-support.php:1740
+msgid "Last name"
+msgstr "Επώνυμο"
+
+#: bbpress/form-user-edit.php:48
+msgid "Nickname"
+msgstr "Ψευδώνυμο"
+
+#: bbpress/form-user-edit.php:58
+msgid "Display name"
+msgstr "Εμφανιζόμενο όνομα"
+
+#: bbpress/form-user-edit.php:70
+msgid "Contact info"
+msgstr "Στοιχεία επαφής"
+
+#: bbpress/form-user-edit.php:106
+msgid "About yourself"
+msgstr "Λίγα λόγια για εσάς"
+
+#: bbpress/form-user-edit.php:106
+msgid "About the user"
+msgstr "Για το μέλος"
+
+#: bbpress/form-user-edit.php:115
+msgid "Biographical info"
+msgstr ""
+
+#: bbpress/form-user-edit.php:124
+msgid "Account"
+msgstr "Λογαριασμός"
+
+#: bbpress/form-user-edit.php:129 bbpress/form-user-login.php:16
+#: bbpress/form-user-register.php:21 inc/woocommerce-support.php:2185
+#: woocommerce/myaccount/form-login.php:90
+msgid "Username"
+msgstr "Ψευδώνυμο"
+
+#: bbpress/form-user-edit.php:137 bbpress/form-user-register.php:28
+#: inc/comments.php:240 woocommerce/single-product-reviews.php:73
+msgid "Email"
+msgstr "Ηλ. Διεύθυνση"
+
+#: bbpress/form-user-edit.php:153
+#, php-format
+msgid ""
+"There is a pending email address change to <code>%1$s</code>. <a "
+"href=\"%2$s\">Cancel</a>"
+msgstr ""
+"Εκκρεμεί μια αλλαγή ηλεκτρονικού ταχυδρομείου για τον/την <code>%1$s</code>. "
+"<a href=\"%2$s\">Άκυρο</a>"
+
+#: bbpress/form-user-edit.php:162
+msgid "New Password"
+msgstr "Νέος Κωδικός πρόσβασης"
+
+#: bbpress/form-user-edit.php:166
+msgid ""
+"If you would like to change the password type a new one. Otherwise leave "
+"this blank"
+msgstr ""
+
+#: bbpress/form-user-edit.php:176
+msgid "Type your new password again"
+msgstr ""
+
+#: bbpress/form-user-edit.php:187
+msgid ""
+"Your password should be at least ten characters long. Use upper and lower "
+"case letters, numbers, and symbols to make it even stronger"
+msgstr ""
+
+#: bbpress/form-user-edit.php:197
+msgid "User role"
+msgstr "Ρόλος χρήστη"
+
+#: bbpress/form-user-edit.php:204
+msgid "Network Role"
+msgstr "Ρόλος δικτύου"
+
+#: bbpress/form-user-edit.php:209
+msgid "Grant this user super admin privileges for the Network."
+msgstr "Αποδώστε στο μέλος αυτό διαχειριστικά δικαιώματα στο δίκτυο."
+
+#: bbpress/form-user-edit.php:229
+msgid "Update Profile"
+msgstr "Ενημέρωση προφίλ"
+
+#: bbpress/form-user-edit.php:229
+msgid "Update User"
+msgstr "Ενημέρωση μέλους"
+
+#: bbpress/form-user-login.php:13 bbpress/form-user-login.php:40
+#: inc/woocommerce-support.php:2203
+msgid "Log In"
+msgstr "Συνδεθείτε"
+
+#: bbpress/form-user-login.php:23 inc/woocommerce-support.php:2191
+#: woocommerce/myaccount/form-login.php:46
+#: woocommerce/myaccount/form-login.php:110
+msgid "Password"
+msgstr "Συνθηματικό"
+
+#: bbpress/form-user-login.php:33
+msgid "Keep me signed in"
+msgstr "Κράτησέ με συνδεδεμένο."
+
+#: bbpress/form-user-lost-pass.php:14
+msgid "Lost Password"
+msgstr "Χαμένο συνθηματικό"
+
+#: bbpress/form-user-lost-pass.php:18
+msgid "Username or Email"
+msgstr "Όνομα Χρήστη ή Email"
+
+#: bbpress/form-user-lost-pass.php:27
+msgid "Reset My Password"
+msgstr "Επαναφορά κωδικού πρόσβασης μου"
+
+#: bbpress/form-user-register.php:13
+msgid "Create an account"
+msgstr "Δημιουργία λογαριασμού"
+
+#: bbpress/form-user-register.php:16
+msgid "Your username must be unique, and cannot be changed later."
+msgstr ""
+"Το όνομα χρήστη σας πρέπει να είναι μοναδικό και δεν μπορεί να αλλάξει "
+"αργότερα."
+
+#: bbpress/form-user-register.php:17
+msgid ""
+"We use your email address to email you a secure password and verify your "
+"account."
+msgstr ""
+"Χρησιμοποιούμε την διεύθυνση ηλεκτρονικού ταχυδρομείου σας για να σας "
+"στείλουμε έναν ασφαλή κωδικό και για να επιβεβαιώσουμε τον λογαριασμό σας."
+
+#: bbpress/form-user-register.php:38 woocommerce/myaccount/form-login.php:80
+#: woocommerce/myaccount/form-login.php:123
+#: woocommerce/myaccount/form-login.php:123
+msgid "Register"
+msgstr "Εγγραφείτε"
+
+#: bbpress/loop-forums.php:17 bbpress/loop-topics.php:18
+#: inc/admin/customizer/customizer-options.php:3683
+msgid "Posts"
+msgstr "Άρθρα"
+
+#: bbpress/loop-forums.php:18 bbpress/loop-topics.php:19
+msgid "Freshness"
+msgstr "Πριν από"
+
+#: bbpress/loop-search-forum.php:15
+msgid "Forum: "
+msgstr "Συζήτηση: "
+
+#: bbpress/loop-search-forum.php:27
+#, php-format
+msgid "Last updated %s"
+msgstr "Τελευταία ενημέρωση %s"
+
+#: bbpress/loop-search-reply.php:14
+msgid "In reply to: "
+msgstr "σε απάντηση του: "
+
+#: bbpress/loop-search-topic.php:22
+msgid "Topic: "
+msgstr "Θέμα:"
+
+#: bbpress/loop-search-topic.php:50 bbpress/loop-single-topic.php:76
+#, php-format
+msgid "Started by %1$s"
+msgstr "Ξεκίνησε από: %1$s"
+
+#: bbpress/loop-search-topic.php:65 bbpress/loop-single-topic.php:91
+#, php-format
+msgid "in <a href=\"%1$s\"><b>%2$s</b></a>"
+msgstr ""
+
+#: bbpress/loop-search.php:10
+msgid "Reply"
+msgstr "Απάντηση"
+
+#: bbpress/loop-search.php:11 bbpress/loop-topics.php:16
+msgid "Topic"
+msgstr "Θέμα"
+
+#: bbpress/loop-single-reply.php:16
+msgid "In reply to "
+msgstr "σε απάντηση του "
+
+#: bbpress/loop-single-reply.php:45
+#, php-format
+msgid "Posts: %s"
+msgstr "Άρθρα: %s"
+
+#: bbpress/loop-topics.php:17
+msgid "Voices"
+msgstr "Φωνές"
+
+#: bbpress/pagination-replies.php:16 bbpress/pagination-search.php:16
+#: bbpress/pagination-topics.php:16 template-parts/navigation/navigation.php:14
+msgid "Navigation"
+msgstr ""
+
+#: bbpress/user-details.php:28
+#, php-format
+msgid "%s's Profile"
+msgstr "Προφίλ του/της %s"
+
+#: bbpress/user-details.php:29 bbpress/user-profile.php:14
+msgid "Profile"
+msgstr "Προφίλ"
+
+#: bbpress/user-details.php:34
+#, php-format
+msgid "%s's Topics Started"
+msgstr "Το θέμα ξεκίνησε ο/η %s"
+
+#: bbpress/user-details.php:34
+msgid "Topics Started"
+msgstr "Συζητήσεις που ξεκίνησε"
+
+#: bbpress/user-details.php:39
+#, php-format
+msgid "%s's Replies Created"
+msgstr "Απαντήσεις που έγιναν από τον/την %s"
+
+#: bbpress/user-details.php:39
+msgid "Replies Created"
+msgstr "Απαντήσεις που έκανε"
+
+#: bbpress/user-details.php:47
+#, php-format
+msgid "%s's Favorites"
+msgstr "Τα αγαπημένα του/της %s"
+
+#: bbpress/user-details.php:47
+msgid "Favorites"
+msgstr "Αγαπημένα"
+
+#: bbpress/user-details.php:59
+#, php-format
+msgid "%s's Subscriptions"
+msgstr "Οι συνδρομές του/της %s"
+
+#: bbpress/user-details.php:59
+msgid "Subscriptions"
+msgstr "Συνδρομές"
+
+#: bbpress/user-details.php:67
+#, php-format
+msgid "Edit %s's Profile"
+msgstr "Επεξεργασία %s's Προφίλ"
+
+#: bbpress/user-details.php:67 inc/front-page-elements.php:108
+#: inc/front-page-elements.php:230 inc/front-page-elements.php:322
+#: inc/woocommerce-support.php:1447
+msgid "Edit"
+msgstr "Αλλαγή"
+
+#: bbpress/user-favorites.php:17
+msgid "Favorite forum topics"
+msgstr ""
+
+#: bbpress/user-favorites.php:34
+msgid "You currently have no favorite topics"
+msgstr ""
+
+#: bbpress/user-favorites.php:34
+msgid "This user has no favorite topics"
+msgstr ""
+
+#: bbpress/user-profile.php:27
+msgid "Forum role:"
+msgstr ""
+
+#: bbpress/user-profile.php:30
+msgid "Topics started:"
+msgstr ""
+
+#: bbpress/user-profile.php:33
+msgid "Replies created:"
+msgstr ""
+
+#: bbpress/user-replies-created.php:17
+msgid "Forum replies created"
+msgstr ""
+
+#: bbpress/user-replies-created.php:34
+msgid "You have not replied to any topics"
+msgstr ""
+
+#: bbpress/user-replies-created.php:34
+msgid "This user has not replied to any topics"
+msgstr ""
+
+#: bbpress/user-subscriptions.php:21
+msgid "Subscribed forums"
+msgstr ""
+
+#: bbpress/user-subscriptions.php:34
+msgid "You are not currently subscribed to any forums"
+msgstr ""
+
+#: bbpress/user-subscriptions.php:34
+msgid "This user is not currently subscribed to any forums"
+msgstr ""
+
+#: bbpress/user-subscriptions.php:44
+msgid "Subscribed topics"
+msgstr ""
+
+#: bbpress/user-subscriptions.php:61
+msgid "You are not currently subscribed to any topics"
+msgstr ""
+
+#: bbpress/user-subscriptions.php:61
+msgid "This user is not currently subscribed to any topics"
+msgstr ""
+
+#: bbpress/user-topics-created.php:17
+msgid "Forum topics started"
+msgstr ""
+
+#: bbpress/user-topics-created.php:34
+msgid "You have not created any topics"
+msgstr ""
+
+#: bbpress/user-topics-created.php:34
+msgid "This user has not created any topics"
+msgstr ""
+
+#: inc/bbpress-support.php:47 inc/template-tags.php:732
+#: inc/woocommerce-support.php:287
+msgid "Breadcrumb"
+msgstr ""
+
+#: inc/bbpress-support.php:78 inc/comments.php:94 inc/template-tags.php:627
+#: inc/template-tags.php:668 inc/template-tags.php:890
+#: inc/template-tags.php:944 inc/template-tags.php:1054
+#: woocommerce/single-product/product-image.php:79
+msgid "Previous"
+msgstr "Προηγούμενο"
+
+#: inc/bbpress-support.php:79 inc/comments.php:95 inc/template-tags.php:628
+#: inc/template-tags.php:667 inc/template-tags.php:894
+#: inc/template-tags.php:948 inc/template-tags.php:1058
+#: woocommerce/single-product/product-image.php:83
+msgid "Next"
+msgstr "Επόμενο"
+
+#: inc/comments.php:37 inc/template-tags.php:479
+#: template-parts/post/content-post.php:52
+msgid "% Comments"
+msgstr "Χωρίς σχόλια"
+
+#: inc/comments.php:39 inc/template-tags.php:479
+#: template-parts/post/content-post.php:52
+msgid "1 Comment"
+msgstr "1 σχόλιο"
+
+#: inc/comments.php:43
+msgid "% Pings/Trackbacks"
+msgstr "% Pings/Trackbacks"
+
+#: inc/comments.php:45
+msgid "1 Ping/Trackback"
+msgstr ""
+
+#: inc/comments.php:80
+msgid "Follow replies"
+msgstr ""
+
+#: inc/comments.php:110 inc/tabs-widget.php:76
+msgid "Comments"
+msgstr "Σχόλια"
+
+#: inc/comments.php:159
+msgid "Author"
+msgstr "Συγγραφέας"
+
+#: inc/comments.php:160
+msgid "Pingback"
+msgstr "Παράθεση"
+
+#: inc/comments.php:161
+msgid "Verified buyer"
+msgstr "Επιβεβαιωμένος αγοραστής"
+
+#: inc/comments.php:168
+#, php-format
+msgid "%1$s - %2$s"
+msgstr "%1$s - %2$s"
+
+#: inc/comments.php:187
+msgid "Your comment is awaiting moderation"
+msgstr "Το σχόλιό σας αναμένει έγκριση"
+
+#: inc/comments.php:250
+msgid ""
+"Save my name, email, and website in this browser for the next time I comment."
+msgstr ""
+
+#: inc/comments.php:289
+msgid "Cancel reply"
+msgstr "Ακυρώστε την απάντηση"
+
+#: inc/front-page-elements.php:12
+msgid "Bootstrap Slider will be displayed here"
+msgstr ""
+
+#: inc/front-page-elements.php:12 inc/front-page-elements.php:29
+msgid "Add slides"
+msgstr ""
+
+#: inc/front-page-elements.php:29
+msgid "Parallax Slider will be displayed here"
+msgstr ""
+
+#: inc/front-page-elements.php:108
+msgid "Content boxes element will be displayed here"
+msgstr ""
+
+#: inc/front-page-elements.php:230
+msgid "Testimonials element will be displayed here"
+msgstr ""
+
+#: inc/front-page-elements.php:322
+msgid "Counter circles element will be displayed here"
+msgstr ""
+
+#: inc/tabs-widget.php:7
+msgid "evolve: Tabs"
+msgstr ""
+
+#: inc/tabs-widget.php:10
+msgid "Popular posts, recent posts and comments."
+msgstr ""
+
+#: inc/tabs-widget.php:59
+msgid "Popular"
+msgstr "Δημοφιλή"
+
+#: inc/tabs-widget.php:67
+msgid "Recent"
+msgstr "Πρόσφατα"
+
+#: inc/tabs-widget.php:198
+msgid " says"
+msgstr " λέει"
+
+#: inc/tabs-widget.php:249
+msgid "Popular Posts Order By"
+msgstr ""
+
+#: inc/tabs-widget.php:257
+msgid "Highest Comments"
+msgstr ""
+
+#: inc/tabs-widget.php:262
+msgid "Highest Views"
+msgstr ""
+
+#: inc/tabs-widget.php:266
+msgid "Number of popular posts"
+msgstr ""
+
+#: inc/tabs-widget.php:272
+msgid "Number of recent posts"
+msgstr ""
+
+#: inc/tabs-widget.php:278
+msgid "Number of comments"
+msgstr "Αριθμός σχολίων"
+
+#: inc/tabs-widget.php:289
+msgid "Show popular posts"
+msgstr ""
+
+#: inc/tabs-widget.php:294
+msgid "Show recent posts"
+msgstr "Προβολή πρόσφατων άρθρων"
+
+#: inc/tabs-widget.php:299
+msgid "Show comments"
+msgstr "Προβολή σχολίων"
+
+#: inc/template-functions.php:333
+msgid "You are browsing archives for"
+msgstr ""
+
+#: inc/template-functions.php:857
+msgid "Add a menu"
+msgstr "Προσθήκη μενού"
+
+#: inc/template-tags.php:88 inc/template-tags.php:805
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: inc/template-tags.php:128 inc/template-tags.php:142
+msgid "Sticky"
+msgstr ""
+
+#: inc/template-tags.php:468
+msgid "Written by"
+msgstr "Συντάκτης"
+
+#: inc/template-tags.php:469
+#, php-format
+msgid "View all posts by %s"
+msgstr "Δείτε όλα τα άρθρα από %s"
+
+#: inc/template-tags.php:479 template-parts/post/content-post.php:52
+msgid "Leave a Comment"
+msgstr "Σχολιάστε"
+
+#: inc/template-tags.php:548
+msgid "Similar posts"
+msgstr "Σχετικά άρθρα"
+
+#: inc/template-tags.php:553
+msgid "Permanent Link to"
+msgstr "Μόνιμος σύνδεσμος προς"
+
+#: inc/template-tags.php:560
+msgid "Untitled"
+msgstr "Χωρίς τίτλο"
+
+#: inc/template-tags.php:659 woocommerce/loop/pagination.php:28
+msgid "Pages"
+msgstr ""
+
+#: inc/template-tags.php:659
+msgid "Pages:"
+msgstr "Σελίδες:"
+
+#: inc/template-tags.php:735 inc/woocommerce-support.php:291
+msgid "Home"
+msgstr "Αρχική"
+
+#: inc/template-tags.php:757 inc/admin/customizer/customizer-options.php:3599
+msgid "Blog"
+msgstr "Ιστολόγιο"
+
+#: inc/template-tags.php:802
+msgid "404 - Page not Found"
+msgstr "404 - Η Σελίδα δεν Βρέθηκε"
+
+#: inc/template-tags.php:1044
+msgid ""
+"Oops, no posts to display! Please check your Post Slider Category Name(s) "
+"settings"
+msgstr ""
+
+#: inc/template-tags.php:1108 inc/admin/customizer/customizer-options.php:4015
+msgid "RSS Feed"
+msgstr "RSS Feed"
+
+#: inc/template-tags.php:1117 inc/admin/customizer/customizer-options.php:4024
+msgid "Newsletter"
+msgstr "Ενημερωτικό Δελτίο"
+
+#: inc/template-tags.php:1125 inc/admin/customizer/customizer-options.php:4033
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/template-tags.php:1133 inc/admin/customizer/customizer-options.php:4042
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/template-tags.php:1141 inc/admin/customizer/customizer-options.php:4096
+msgid "Google Plus"
+msgstr "Google Plus"
+
+#: inc/template-tags.php:1149 inc/admin/customizer/customizer-options.php:4051
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/template-tags.php:1156 inc/admin/customizer/customizer-options.php:4060
+msgid "Skype"
+msgstr "Skype"
+
+#: inc/template-tags.php:1164 inc/admin/customizer/customizer-options.php:4069
+msgid "YouTube"
+msgstr "Youtube"
+
+#: inc/template-tags.php:1172 inc/admin/customizer/customizer-options.php:4078
+msgid "Flickr"
+msgstr "Flickr"
+
+#: inc/template-tags.php:1180
+msgid "LinkedIn"
+msgstr "Linkedin"
+
+#: inc/template-tags.php:1188 inc/admin/customizer/customizer-options.php:4105
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/template-tags.php:1196 inc/admin/customizer/customizer-options.php:4114
+msgid "Tumblr"
+msgstr "Tumblr"
+
+#: inc/template-tags.php:1228
+msgid "Share on Twitter"
+msgstr "Μοιραστείτε στο Twitter"
+
+#: inc/template-tags.php:1235
+msgid "Share on Facebook"
+msgstr "Μοιραστείτε στο Facebook"
+
+#: inc/template-tags.php:1242
+msgid "Share on Google Plus"
+msgstr "Κοινοποίηση στο Google Plus"
+
+#: inc/template-tags.php:1249
+msgid "Share on Pinterest"
+msgstr "Κοινοποίηση στο Pinterest"
+
+#: inc/template-tags.php:1256
+msgid "Share by Email"
+msgstr "Κοινοποίηση με Email"
+
+#: inc/template-tags.php:1263
+msgid "More options"
+msgstr "Περισσότερες επιλογές"
+
+#: inc/widgets.php:10
+msgid "Sidebar 1"
+msgstr "Πλευρική Στήλη 1"
+
+#: inc/widgets.php:19
+msgid "Sidebar 2"
+msgstr "Πλευρική στήλή 2"
+
+#: inc/widgets.php:32
+#, php-format
+msgid "Header %d"
+msgstr "Επικεφαλίδα %d"
+
+#: inc/widgets.php:46
+#, php-format
+msgid "Footer %d"
+msgstr "Υποσέλιδο %d"
+
+#: inc/woocommerce-support.php:85
+msgid "Sale!"
+msgstr "Προσφορά!"
+
+#: inc/woocommerce-support.php:302
+msgid "Search..."
+msgstr "Αναζήτηση..."
+
+#: inc/woocommerce-support.php:351 inc/woocommerce-support.php:353
+#: inc/woocommerce-support.php:354 inc/woocommerce-support.php:355
+#: inc/woocommerce-support.php:356 inc/woocommerce-support.php:357
+#: inc/woocommerce-support.php:358
+msgid "Sort by"
+msgstr "Ταξινόμηση ως προς τα"
+
+#: inc/woocommerce-support.php:351 inc/woocommerce-support.php:353
+msgid "Default order"
+msgstr ""
+
+#: inc/woocommerce-support.php:355
+msgid "Price"
+msgstr "Τιμή"
+
+#: inc/woocommerce-support.php:356
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: inc/woocommerce-support.php:357
+msgid "Popularity"
+msgstr "Δημοτικότητα"
+
+#: inc/woocommerce-support.php:358
+msgid "Rating"
+msgstr "Βαθμολογία"
+
+#: inc/woocommerce-support.php:363 inc/woocommerce-support.php:365
+#: inc/woocommerce-support.php:366 inc/woocommerce-support.php:367
+#: inc/admin/metaboxes/page-tabs/tab-pagetitlebar.php:4
+#: inc/admin/metaboxes/page-tabs/tab-pagetitlebar.php:9
+msgid "Show"
+msgstr "Προβολή"
+
+#: inc/woocommerce-support.php:363
+msgid " Products"
+msgstr " Προϊόντα"
+
+#: inc/woocommerce-support.php:365 inc/woocommerce-support.php:366
+#: inc/woocommerce-support.php:367
+msgid "Products"
+msgstr "Προϊόντα"
+
+#: inc/woocommerce-support.php:525
+#: woocommerce/single-product/product-image.php:74
+msgid "Awaiting product image"
+msgstr "Αναμονή εικόνας προϊόντος"
+
+#: inc/woocommerce-support.php:544
+msgid "Show details"
+msgstr "Εμφάνιση λεπτομερειών"
+
+#: inc/woocommerce-support.php:563 inc/woocommerce-support.php:2237
+msgid "0 items"
+msgstr "0 αντικείμενα"
+
+#: inc/woocommerce-support.php:571 inc/woocommerce-support.php:2245
+msgid "Your cart is currently empty"
+msgstr ""
+
+#: inc/woocommerce-support.php:582 inc/woocommerce-support.php:2256
+#, php-format
+msgid "%s item"
+msgid_plural "%s items"
+msgstr[0] "%s στοιχείο"
+msgstr[1] "%s προϊόντα"
+
+#: inc/woocommerce-support.php:618 inc/woocommerce-support.php:1142
+#: inc/woocommerce-support.php:2291 woocommerce/checkout/form-checkout.php:59
+msgid "View Cart"
+msgstr "Προβολή καλαθιού"
+
+#: inc/woocommerce-support.php:621 inc/woocommerce-support.php:2294
+msgid "Checkout"
+msgstr "Ταμείο"
+
+#: inc/woocommerce-support.php:658
+#, php-format
+msgid "You have %s item in your cart"
+msgid_plural "You have %s items in your cart"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/woocommerce-support.php:695
+msgid "Calculate shipping"
+msgstr "Υπολογισμός Αποστολής"
+
+#: inc/woocommerce-support.php:700
+msgid "Select a country&hellip;"
+msgstr "Επιλέξτε μία χώρα&hellip;"
+
+#: inc/woocommerce-support.php:721 inc/woocommerce-support.php:726
+#: inc/woocommerce-support.php:739
+msgid "State / County"
+msgstr "Περιφέρεια"
+
+#: inc/woocommerce-support.php:727
+msgid "Select a state&hellip;"
+msgstr "Επιλέξτε νομό&hellip;"
+
+#: inc/woocommerce-support.php:750
+msgid "City"
+msgstr "Πόλη"
+
+#: inc/woocommerce-support.php:758
+msgid "Postcode / ZIP"
+msgstr "Ταχυδρομικός κωδικός / ZIP"
+
+#: inc/woocommerce-support.php:763
+msgid "Update Totals"
+msgstr "Ενημέρωση συνόλου"
+
+#: inc/woocommerce-support.php:788
+msgid "Have a promotional code?"
+msgstr ""
+
+#: inc/woocommerce-support.php:792
+msgid "Coupon code"
+msgstr "Κωδικός κουπονιού"
+
+#: inc/woocommerce-support.php:795
+msgid "Apply Coupon"
+msgstr ""
+
+#: inc/woocommerce-support.php:950
+msgid "Billing Address"
+msgstr "Διεύθυνση Χρέωσης"
+
+#: inc/woocommerce-support.php:959
+msgid "Shipping Address"
+msgstr "Διεύθυνση Αποστολής"
+
+#: inc/woocommerce-support.php:972
+msgid "Additional Information"
+msgstr "Περισσότερες Πληροφορίες"
+
+#: inc/woocommerce-support.php:982
+msgid "Review &amp; Payment"
+msgstr ""
+
+#: inc/woocommerce-support.php:1063 inc/woocommerce-support.php:1079
+msgid "Continue"
+msgstr "Συνέχεια"
+
+#: inc/woocommerce-support.php:1113 woocommerce/checkout/form-checkout.php:29
+#, php-format
+msgid "Hello, %s"
+msgstr "Γεια σας %s"
+
+#: inc/woocommerce-support.php:1155
+msgid "Dashboard"
+msgstr "Πίνακα ελέγχου"
+
+#: inc/woocommerce-support.php:1162
+msgid "View Downloads"
+msgstr "Προβολή Μεταφορτώσεων"
+
+#: inc/woocommerce-support.php:1168
+msgid "View Orders"
+msgstr "Προβολή Παραγγελιών"
+
+#: inc/woocommerce-support.php:1175
+msgid "Change Address"
+msgstr "Αλλαγή Διεύθυνσης"
+
+#: inc/woocommerce-support.php:1181
+msgid "Edit Account"
+msgstr "Επεξεργασία λογαριασμού"
+
+#: inc/woocommerce-support.php:1187 inc/woocommerce-support.php:2217
+msgid "Logout"
+msgstr "Αποσύνδεση"
+
+#: inc/woocommerce-support.php:1208
+#, php-format
+msgid "Hello %1$s%2$s%3$s (not %2$s? %4$sSign out%5$s)"
+msgstr ""
+
+#: inc/woocommerce-support.php:1214
+#, php-format
+msgid ""
+"From your account dashboard you can view your %1$srecent orders%2$s, manage "
+"your %3$sshipping and billing addresses%2$s and %4$sedit your password and "
+"account details%2$s."
+msgstr ""
+
+#: inc/woocommerce-support.php:1228
+msgid "Order"
+msgstr "Σειρά"
+
+#: inc/woocommerce-support.php:1229
+msgid "Date "
+msgstr ""
+
+#: inc/woocommerce-support.php:1230
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: inc/woocommerce-support.php:1231 inc/woocommerce-support.php:1798
+#: woocommerce/cart/cart-totals.php:93 woocommerce/cart/cart-totals.php:94
+#: woocommerce/cart/cart.php:34 woocommerce/checkout/review-order.php:18
+msgid "Total"
+msgstr "Σύνολα"
+
+#: inc/woocommerce-support.php:1248
+msgid "Recent orders"
+msgstr "Πρόσφατες Παραγγελίες"
+
+#: inc/woocommerce-support.php:1281
+msgctxt "hash before order number"
+msgid "#"
+msgstr "#"
+
+#: inc/woocommerce-support.php:1291
+#, php-format
+msgid "%1$s for %2$s item"
+msgid_plural "%1$s for %2$s items"
+msgstr[0] "%1$s για %2$s αντικείμενο"
+msgstr[1] "%1$s για %2$s αντικείμενα"
+
+#: inc/woocommerce-support.php:1298 woocommerce/checkout/thankyou.php:31
+msgid "Pay"
+msgstr "Πληρωμή"
+
+#: inc/woocommerce-support.php:1302
+msgid "View"
+msgstr "Προβολή"
+
+#: inc/woocommerce-support.php:1306
+msgid "Cancel"
+msgstr "Άκυρο"
+
+#: inc/woocommerce-support.php:1339 inc/woocommerce-support.php:1390
+msgid "Go Shop"
+msgstr ""
+
+#: inc/woocommerce-support.php:1341
+msgid "No order has been made yet."
+msgstr "Δεν έχει γίνει καμία κράτηση ακόμα."
+
+#: inc/woocommerce-support.php:1360
+msgid "Available downloads"
+msgstr "Διαθέσιμες λήψεις"
+
+#: inc/woocommerce-support.php:1373
+#, php-format
+msgid "%s download remaining"
+msgid_plural "%s downloads remaining"
+msgstr[0] "Απομένει %s μεταφόρτωση"
+msgstr[1] "Απομένουν %s μεταφορτώσεις"
+
+#: inc/woocommerce-support.php:1393
+msgid "No downloads available yet."
+msgstr "Δεν υπάρχουν διαθέσιμες λήψεις ακόμα."
+
+#: inc/woocommerce-support.php:1412
+msgid "My address"
+msgstr ""
+
+#: inc/woocommerce-support.php:1419 inc/woocommerce-support.php:1425
+#: inc/woocommerce-support.php:1514 inc/woocommerce-support.php:1952
+msgid "Billing address"
+msgstr "Διεύθυνση χρέωσης"
+
+#: inc/woocommerce-support.php:1420 inc/woocommerce-support.php:1573
+#: inc/woocommerce-support.php:1969
+msgid "Shipping address"
+msgstr "Διεύθυνση Αποστολής"
+
+#: inc/woocommerce-support.php:1431
+msgid "The following addresses will be used on the checkout page by default."
+msgstr ""
+"Οι ακόλουθες διευθύνσεις θα χρησιμοποιούνται σαν προεπιλογή στη σελίδα "
+"ολοκλήρωσης παραγγελίας."
+
+#: inc/woocommerce-support.php:1466
+msgid "You have not set up this type of address yet"
+msgstr ""
+
+#: inc/woocommerce-support.php:1528 inc/woocommerce-support.php:1587
+msgid "Save Address"
+msgstr "Αποθήκευση διεύθυνσης"
+
+#: inc/woocommerce-support.php:1663
+msgid "is a required field."
+msgstr "είναι ένα απαιτούμενο πεδίο."
+
+#: inc/woocommerce-support.php:1676
+msgid "Please enter a valid postcode/ZIP."
+msgstr "Εισαγάγετε έναν έγκυρο ταχυδρομικό κώδικα / ZIP."
+
+#: inc/woocommerce-support.php:1685
+msgid "is not a valid phone number."
+msgstr "δεν είναι έγκυρος αριθμός τηλεφώνου."
+
+#: inc/woocommerce-support.php:1692
+msgid "is not a valid email address."
+msgstr "δεν είναι έγκυρη διεύθυνση ηλεκτρονικού ταχυδρομείου."
+
+#: inc/woocommerce-support.php:1707
+msgid "Address changed successfully."
+msgstr "Η διεύθυνση άλλαξε με επιτυχία."
+
+#: inc/woocommerce-support.php:1730
+msgid "Edit account"
+msgstr "Επεξεργασία λογαριασμού"
+
+#: inc/woocommerce-support.php:1745 woocommerce/myaccount/form-login.php:100
+msgid "Email address"
+msgstr "Διεύθυνση Email"
+
+#: inc/woocommerce-support.php:1750
+msgid "Password Change"
+msgstr "Αλλαγή Κωδικού Πρόσβασης"
+
+#: inc/woocommerce-support.php:1753
+msgid "Current Password (leave blank to leave unchanged)"
+msgstr "Τρέχων Κωδικός Πρόσβασης (άφησε κενό για να μην αλλαχθεί)"
+
+#: inc/woocommerce-support.php:1757
+msgid "New Password (leave blank to leave unchanged)"
+msgstr "Νέος Κωδικός Πρόσβασης (άφησε κενό για να μην αλλαχθεί)"
+
+#: inc/woocommerce-support.php:1761
+msgid "Confirm New Password"
+msgstr "Επιβεβαίωση Νέου Κωδικού"
+
+#: inc/woocommerce-support.php:1768
+msgid "Save changes"
+msgstr "Αποθήκευση αλλαγών"
+
+#: inc/woocommerce-support.php:1791
+msgid "Order details"
+msgstr "Στοιχεία Παραγγελίας"
+
+#: inc/woocommerce-support.php:1796 woocommerce/cart/cart.php:30
+#: woocommerce/checkout/review-order.php:17
+msgid "Product"
+msgstr "Προϊόν"
+
+#: inc/woocommerce-support.php:1797 woocommerce/cart/cart.php:33
+#: woocommerce/global/quantity-input.php:33
+#: woocommerce/global/quantity-input.php:36
+msgid "Quantity"
+msgstr "Ποσότητα"
+
+#: inc/woocommerce-support.php:1860
+#, php-format
+msgid "Download file%s"
+msgstr "Κατεβάστε το αρχείο %s"
+
+#: inc/woocommerce-support.php:1919
+msgid "Customer details"
+msgstr "Στοιχεία πελάτη"
+
+#: inc/woocommerce-support.php:1925
+msgid "Note:"
+msgstr "Σημείωση:"
+
+#: inc/woocommerce-support.php:1928
+msgid "Email:"
+msgstr "Ηλεκτρονικό Ταχυδρομείο:"
+
+#: inc/woocommerce-support.php:1931
+msgid "Telephone:"
+msgstr "Τηλέφωνο:"
+
+#: inc/woocommerce-support.php:1957 inc/woocommerce-support.php:1974
+#: woocommerce/single-product/meta.php:32
+msgid "N/A"
+msgstr "Μη Διαθέσιμο"
+
+#: inc/woocommerce-support.php:2152
+msgid "Cart"
+msgstr ""
+
+#: inc/woocommerce-support.php:2173 woocommerce/checkout/thankyou.php:34
+msgid "My Account"
+msgstr "Ο Λογαριασμός μου"
+
+#: inc/woocommerce-support.php:2198
+msgid "Remember Me"
+msgstr "Να με Θυμάσαι"
+
+#. translators: 1: reviews count 2: product name
+#: woocommerce/single-product-reviews.php:35
+#, php-format
+msgid "%1$s Review for %2$s"
+msgid_plural "%1$s Reviews for %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: woocommerce/single-product-reviews.php:37
+msgid "Reviews"
+msgstr "Αξιολογήσεις"
+
+#: woocommerce/single-product-reviews.php:56
+msgid "There are no reviews yet"
+msgstr "Δεν έχει γίνει κάποια αξιολόγηση"
+
+#: woocommerce/single-product-reviews.php:69
+msgid "Add a review"
+msgstr "Προσθήκη μίας αξιολόγησης"
+
+#: woocommerce/single-product-reviews.php:69
+#, php-format
+msgid "Be the first to review &ldquo;%s&rdquo;"
+msgstr "Αξιολόγησε πρώτος/η το &ldquo;%s&rdquo;"
+
+#: woocommerce/single-product-reviews.php:82
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a review"
+msgstr ""
+
+#: woocommerce/single-product-reviews.php:86
+msgid "Your rating"
+msgstr "Η αξιολόγησή σας"
+
+#: woocommerce/single-product-reviews.php:87
+msgid "Rate&hellip;"
+msgstr "Βαθμολογίστε&hellip;"
+
+#: woocommerce/single-product-reviews.php:88
+msgid "Perfect"
+msgstr "Τέλειο"
+
+#: woocommerce/single-product-reviews.php:89
+msgid "Good"
+msgstr "Καλό"
+
+#: woocommerce/single-product-reviews.php:90
+msgid "Average"
+msgstr "Μέτριο"
+
+#: woocommerce/single-product-reviews.php:91
+msgid "Not that bad"
+msgstr "Όχι και τόσο άσχημα"
+
+#: woocommerce/single-product-reviews.php:92
+msgid "Very poor"
+msgstr "Πολύ Φτωχό"
+
+#: woocommerce/single-product-reviews.php:94
+msgid "Your review"
+msgstr "Η αξιολόγησή σας"
+
+#: woocommerce/single-product-reviews.php:102
+msgid ""
+"Only logged in customers who have purchased this product may leave a review."
+msgstr ""
+"Μόνο συνδεδεμένοι πελάτες που έχουν αγοράσει αυτό το προϊόν μπορούν να "
+"αφήσουν μία αξιολόγηση."
+
+#: inc/admin/class-evolve-admin.php:22 inc/admin/class-evolve-admin.php:69
+#: inc/admin/class-evolve-admin.php:82
+msgid "About"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:50
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:54
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:67
+msgid "Thank you for installing"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:67
+msgid ""
+"theme by Theme4Press. To learn more about this theme please visit the about "
+"page"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:71
+msgid "Dismiss"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:96
+#: inc/admin/customizer/customizer-options.php:24
+msgid "Theme Homepage"
+msgstr "Αρχική σελίδα Θέματος"
+
+#: inc/admin/class-evolve-admin.php:102
+#: inc/admin/customizer/customizer-options.php:24
+msgid "Compare With Premium Version"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:108
+msgid "Rate"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:108
+msgid "Theme"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:124
+msgid "Let's Get Started"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:132
+msgid "Plugins"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:140
+msgid "Changelog"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:148
+msgid "Premium Version"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:176
+msgid "Theme Options"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:177
+#, php-format
+msgid "Visit the %1$sCustomize%2$s page to set the various theme options"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:181
+msgid "Customize"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:214
+msgid "Documentation &amp; Knowledge Base"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:215
+msgid "Learn how to set up the sections of theme in our detailed documentation"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:220
+#: inc/admin/customizer/customizer-options.php:24
+msgid "Documentation"
+msgstr "Τεκμηρίωση"
+
+#: inc/admin/class-evolve-admin.php:225
+msgid "Knowledge Base"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:233
+msgid "Support Forums"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:234
+msgid ""
+"Got an issue with the theme? Please visit forums and submit any question"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:239
+#: inc/admin/customizer/customizer-options.php:24
+msgid "Support"
+msgstr "Υποστήριξη"
+
+#: inc/admin/class-evolve-admin.php:249
+msgid "Help Translate"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:253
+msgid "Please help us to localize the theme to your language"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:259
+msgid "Translate"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:269
+msgid "General Question"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:270
+msgid "If you have some general enquiries, feel free to contact us"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:275
+msgid "Contact"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:298
+msgid "Compatible Plugins"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:303
+msgid "bbPress"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:307
+msgid "BuddyPress"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:311
+msgid "Contact Form 7"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:315
+msgid "Gravity Forms"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:319 inc/admin/class-evolve-admin.php:534
+#: inc/admin/customizer/customizer-options.php:24
+#: inc/admin/customizer/customizer-options.php:5043
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: inc/admin/class-evolve-admin.php:323
+msgid "WPML"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:389
+msgid "evolve Plus"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: inc/admin/class-evolve-admin.php:392
+msgid "evolve"
+msgstr "evolve"
+
+#: inc/admin/class-evolve-admin.php:399
+#: inc/admin/customizer/customizer-options.php:24
+msgid "Theme4Press Slider"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:406
+#: inc/admin/customizer/customizer-options.php:24
+msgid "Built-in Mega Menu"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:413
+#: inc/admin/customizer/customizer-options.php:24
+msgid "Custom Sidebars"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:420
+#: inc/admin/customizer/customizer-options.php:24
+msgid "Portfolios"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:427
+#: inc/admin/customizer/customizer-options.php:24
+msgid "Google Map Contact"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:434
+#: inc/admin/customizer/customizer-options.php:24
+msgid "Sticky Navigation"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:441
+#: inc/admin/customizer/customizer-options.php:24
+msgid "Lightbox"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:448
+#: inc/admin/customizer/customizer-options.php:24
+msgid "Slider Revolution (Bundled)"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:455
+#: inc/admin/customizer/customizer-options.php:24
+msgid "LayerSlider (Bundled)"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:462
+#: inc/admin/customizer/customizer-options.php:24
+msgid "100% Width Template"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:469
+#: inc/admin/customizer/customizer-options.php:24
+msgid "Shortcodes"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:476
+msgid "Child Theme"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:483
+#: inc/admin/customizer/customizer-options.php:145
+msgid "Custom Front Page Builder"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:487 inc/admin/class-evolve-admin.php:501
+#: inc/admin/class-evolve-admin.php:512 inc/admin/class-evolve-admin.php:525
+#: inc/admin/class-evolve-admin.php:538 inc/admin/class-evolve-admin.php:549
+#: inc/admin/class-evolve-admin.php:562 inc/admin/class-evolve-admin.php:575
+msgid "EXTRA IN PREMIUM"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:488
+msgid ""
+"Unlimited Number Of Content Boxes, Counter Circles And Testimonials. All "
+"Items Can\n"
+"                                Easily Reorder"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:492
+msgid ""
+"Content Boxes Limited To 4, Counter Circles Limited To 3, Testimonials "
+"Limited To 2"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:497
+#: inc/admin/customizer/customizer-options.php:24
+msgid "Custom Headers"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:502
+#: inc/admin/customizer/customizer-options.php:24
+msgid "Custom Headers Can Be Set Per Post/Page"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:508
+#: inc/admin/customizer/customizer-options.php:24
+msgid "Header Layouts"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:513
+#: inc/admin/customizer/customizer-options.php:24
+msgid "5 Header Layouts"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:516
+msgid "2 Header Layouts"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:521
+#: inc/admin/customizer/customizer-options.php:24
+msgid "Live Customizer"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:526
+#: inc/admin/customizer/customizer-options.php:24
+msgid "300+ Theme Options"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:529
+msgid "240+ Theme Options"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:539
+#: inc/admin/customizer/customizer-options.php:24
+msgid "Custom/Global Sidebar For WooCommerce Pages"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:545
+#: inc/admin/customizer/customizer-options.php:24
+#: inc/admin/customizer/customizer-options.php:174
+#: inc/admin/customizer/customizer-options.php:4131
+#: inc/admin/metaboxes/page-tabs/tab-slider.php:14
+msgid "Bootstrap Slider"
+msgstr "Bootstrap Slider"
+
+#: inc/admin/class-evolve-admin.php:550 inc/admin/class-evolve-admin.php:563
+msgid "Unlimited Number Of Slides, Slides Reorder"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:553 inc/admin/class-evolve-admin.php:566
+#: inc/admin/class-evolve-admin.php:579
+msgid "Limited To 5 Slides"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:558
+#: inc/admin/customizer/customizer-options.php:24
+#: inc/admin/customizer/customizer-options.php:175
+#: inc/admin/customizer/customizer-options.php:4455
+#: inc/admin/customizer/customizer.php:526
+#: inc/admin/customizer/customizer.php:536
+#: inc/admin/customizer/customizer.php:555
+#: inc/admin/customizer/customizer.php:565
+#: inc/admin/customizer/customizer.php:583
+#: inc/admin/customizer/customizer.php:592
+#: inc/admin/customizer/customizer.php:607
+#: inc/admin/customizer/customizer.php:627
+#: inc/admin/customizer/customizer.php:636
+#: inc/admin/customizer/customizer.php:656
+#: inc/admin/customizer/customizer.php:665
+#: inc/admin/customizer/customizer.php:684
+#: inc/admin/customizer/customizer.php:692
+#: inc/admin/customizer/customizer.php:707
+#: inc/admin/metaboxes/page-tabs/tab-slider.php:12
+msgid "Parallax Slider"
+msgstr "Parallax Slider"
+
+#: inc/admin/class-evolve-admin.php:571
+#: inc/admin/customizer/customizer-options.php:24
+#: inc/admin/customizer/customizer-options.php:176
+#: inc/admin/customizer/customizer-options.php:4747
+#: inc/admin/customizer/customizer.php:527
+#: inc/admin/customizer/customizer.php:541
+#: inc/admin/customizer/customizer.php:550
+#: inc/admin/customizer/customizer.php:569
+#: inc/admin/customizer/customizer.php:579
+#: inc/admin/customizer/customizer.php:593
+#: inc/admin/customizer/customizer.php:608
+#: inc/admin/customizer/customizer.php:628
+#: inc/admin/customizer/customizer.php:642
+#: inc/admin/customizer/customizer.php:650
+#: inc/admin/customizer/customizer.php:670
+#: inc/admin/customizer/customizer.php:679
+#: inc/admin/customizer/customizer.php:693
+#: inc/admin/customizer/customizer.php:708
+#: inc/admin/metaboxes/page-tabs/tab-slider.php:13
+msgid "Posts Slider"
+msgstr "Slider άρθρων"
+
+#: inc/admin/class-evolve-admin.php:576
+msgid "Up To 30 Slides"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:584
+msgid "WordPress Coding Standards"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:591
+msgid "Schema.org SEO Optimization"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:598
+msgid "bbPress &amp; BuddyPress"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:605
+msgid "Contact Forms Compatible"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:612
+msgid "WPML &amp; Translation Ready"
+msgstr ""
+
+#: inc/admin/class-evolve-admin.php:622
+msgid "View Premium Version"
+msgstr ""
+
+#: template-parts/header/header-v1.php:70
+#: template-parts/header/header-v2.php:54
+msgid "Primary"
+msgstr ""
+
+#: template-parts/navigation/navigation.php:36
+msgid "Newer Entries"
+msgstr ""
+
+#: template-parts/navigation/navigation.php:37
+msgid "Older Entries"
+msgstr "Παλιότερα άρθρα"
+
+#: template-parts/post/content-none.php:9
+msgid "Nothing To Show Yet"
+msgstr ""
+
+#: template-parts/post/content-none.php:13
+msgid "Get started with your website"
+msgstr "Ξεκινήστε με τον ιστότοπό σας"
+
+#: template-parts/post/content-none.php:15
+#, php-format
+msgid "<a href=\"%1$s\" class=\"btn btn-lg mb-5\">Publish your first post</a>"
+msgstr ""
+
+#. Translators: $s shipping destination.
+#: woocommerce/cart/cart-shipping.php:50
+#, php-format
+msgid "Estimate for %s"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:51
+msgid "Change address"
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:53
+msgid "This is only an estimate. Prices will be updated during checkout."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:60
+msgid "Enter your address to view shipping options."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:62
+msgid ""
+"There are no shipping methods available. Please ensure that your address has "
+"been entered correctly, or contact us if you need any help."
+msgstr ""
+"Δεν υπάρχουν διαθέσιμοι τρόποι αποστολής. Παρακαλούμε ελέγξτε ξανά τη "
+"διεύθυνσή σας ή επικοινωνήστε μαζί μας αν χρειάζεστε οποιαδήποτε βοήθεια."
+
+#. Translators: $s shipping destination.
+#: woocommerce/cart/cart-shipping.php:65
+#, php-format
+msgid "No shipping options were found for %s."
+msgstr ""
+
+#: woocommerce/cart/cart-shipping.php:66
+msgid "Enter a different address"
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:29
+msgid "Cart totals"
+msgstr "Σύνολα καλαθιού"
+
+#: woocommerce/cart/cart-totals.php:34 woocommerce/cart/cart-totals.php:35
+msgid "Subtotal"
+msgstr "Υποσύνολο"
+
+#: woocommerce/cart/cart-totals.php:56 woocommerce/cart/cart-totals.php:57
+msgid "Shipping"
+msgstr "Αποστολή"
+
+#: woocommerce/cart/cart-totals.php:72
+#, php-format
+msgid "(estimated for %s)"
+msgstr "(εκτίμηση για %s)"
+
+#: woocommerce/cart/cart.php:31
+msgid "Price "
+msgstr ""
+
+#: woocommerce/cart/cart.php:35
+msgid "Action"
+msgstr "Ενέργεια"
+
+#: woocommerce/cart/cart.php:80
+msgid "Available on backorder"
+msgstr "Διαθέσιμο κατόπιν παραγγελίας"
+
+#: woocommerce/cart/cart.php:123
+msgid "Remove this item"
+msgstr "Αφαίρεση αυτού του προϊόντος"
+
+#: woocommerce/cart/cart.php:163
+msgid "Update Cart"
+msgstr "Ενημέρωση Καλαθιού"
+
+#: woocommerce/cart/cart.php:165
+msgid "Proceed to Checkout"
+msgstr "Ολοκλήρωση της παραγγελίας"
+
+#: woocommerce/checkout/form-billing.php:29
+msgid "Billing &amp; Shipping"
+msgstr "Χρέωση &amp; Αποστολή"
+
+#: woocommerce/checkout/form-billing.php:33
+msgid "Billing details"
+msgstr "Στοιχεία χρέωσης"
+
+#: woocommerce/checkout/form-billing.php:64
+msgid "Create an account?"
+msgstr "Δημιουργία λογαριασμού;"
+
+#: woocommerce/checkout/form-checkout.php:72
+msgid "You must be logged in to checkout"
+msgstr ""
+
+#: woocommerce/checkout/form-checkout.php:103
+msgid "Your order"
+msgstr "Η παραγγελία σας"
+
+#: woocommerce/checkout/form-shipping.php:36
+msgid "Ship to a different address?"
+msgstr "Αποστολή σε διαφορετική διεύθυνση;"
+
+#: woocommerce/checkout/form-shipping.php:70
+#: woocommerce/single-product/tabs/additional-information.php:25
+msgid "Additional information"
+msgstr "Επιπλέον πληροφορίες"
+
+#: woocommerce/checkout/review-order.php:66
+msgid "Cart Subtotal"
+msgstr "Υποσύνολο Kαλαθιού"
+
+#: woocommerce/checkout/review-order.php:121
+msgid "Order Total"
+msgstr "Σύνολο Παραγγελίας"
+
+#: woocommerce/checkout/thankyou.php:19
+msgid ""
+"Unfortunately your order cannot be processed as the originating "
+"bank/merchant has declined your transaction."
+msgstr ""
+"Δυστυχώς, η παραγγελία σας δεν μπορεί να καταχωρηθεί, καθώς η τράπεζά σας "
+"απέρριψε τη συναλλαγή."
+
+#: woocommerce/checkout/thankyou.php:23
+msgid "Please attempt your purchase again or go to your account page."
+msgstr ""
+"Παρακαλώ προσπαθήστε να ολοκληρώσετε την αγορά σας ξανά ή πηγαίνετε στη "
+"σελίδα του λογαριασμού σας."
+
+#: woocommerce/checkout/thankyou.php:25
+msgid "Please attempt your purchase again."
+msgstr "Παρακαλούμε επιχειρήσει και πάλι την αγορά σας."
+
+#: woocommerce/checkout/thankyou.php:41 woocommerce/checkout/thankyou.php:73
+msgid "Thank you. Your order has been received."
+msgstr "Σας ευχαριστούμε. Έχουμε λάβει την παραγγελία σας."
+
+#: woocommerce/checkout/thankyou.php:45
+msgid "Order:"
+msgstr ""
+
+#: woocommerce/checkout/thankyou.php:49
+msgid "Date:"
+msgstr "Ημερομηνία:"
+
+#: woocommerce/checkout/thankyou.php:53
+msgid "Total:"
+msgstr "Σύνολο:"
+
+#: woocommerce/checkout/thankyou.php:58
+msgid "Payment method:"
+msgstr "Μέθοδος Πληρωμής:"
+
+#. translators: %s: Quantity.
+#: woocommerce/global/quantity-input.php:29
+#, php-format
+msgid "%s quantity"
+msgstr "%s ποσότητα"
+
+#: woocommerce/global/quantity-input.php:47
+msgctxt "Product quantity input tooltip"
+msgid "Qty"
+msgstr "Ποσ"
+
+#: woocommerce/loop/add-to-cart.php:28 woocommerce/loop/add-to-cart.php:52
+#: woocommerce/loop/add-to-cart.php:63
+msgid "Read more"
+msgstr "Περισσότερα"
+
+#: woocommerce/loop/add-to-cart.php:42
+msgid "Select options"
+msgstr ""
+
+#: woocommerce/loop/add-to-cart.php:47
+msgid "View options"
+msgstr "Δείτε τις επιλογές"
+
+#: woocommerce/loop/add-to-cart.php:58
+msgid "Add to cart"
+msgstr "Προσθήκη στο καλάθι"
+
+#: woocommerce/loop/no-products-found.php:26
+msgid "No products were found matching your selection"
+msgstr ""
+
+#: woocommerce/myaccount/form-login.php:32
+msgid "Login"
+msgstr "Είσοδος"
+
+#: woocommerce/myaccount/form-login.php:39
+msgid "Username or email address"
+msgstr "Όνομα χρήστη ή διεύθυνση email"
+
+#: woocommerce/myaccount/form-login.php:57
+msgid "Log in"
+msgstr "Σύνδεση"
+
+#: woocommerce/myaccount/form-login.php:63
+msgid "Remember me"
+msgstr "Να με θυμάσαι"
+
+#: woocommerce/myaccount/form-login.php:67
+msgid "Lost your password?"
+msgstr "Χάσατε τον κωδικό σας;"
+
+#: woocommerce/myaccount/form-lost-password.php:24
+msgid ""
+"Lost your password? Please enter your username or email address. You will "
+"receive a link to create a new password via email."
+msgstr ""
+"Χάσατε τον κωδικό σας; Παρακαλούμε, εισάγετε το όνομα χρήση ή τη διεύθυνση "
+"email σας. Θα λάβετε έναν σύνδεσμο για να δημιουργήσετε ένα νέο κωδικό μέσω "
+"email."
+
+#: woocommerce/myaccount/form-lost-password.php:27
+msgid "Username or email"
+msgstr "Όνομα χρήστη ή email"
+
+#: woocommerce/myaccount/form-lost-password.php:39
+msgid "Reset password"
+msgstr "Επαναφορά κωδικού/συνθηματικού"
+
+#: woocommerce/single-product/meta.php:31
+msgid "SKU:"
+msgstr "SKU:"
+
+#: inc/admin/customizer/customizer-options.php:18
+msgid "Theme Links & Premium Version"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:24
+msgid "evolve Plus key features"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:24
+msgid "Image or Video Responsive Unlimited Slides With Nice Animations"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:24
+msgid ""
+"Excellent Mega Menu When You Need To Add Widgets Or Specially Style Your Menu"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:24
+msgid "Create Alerts, Tabs, Pricing Tables etc."
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:24
+msgid "Create Unique Sidebars With Widgets For Any Page"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:24
+msgid "Up To 9 Layouts &ndash; Select The Right Type For Your Showcase"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:24
+msgid "Contact Page Template With The Google Map And reCaptcha Protection"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:24
+msgid ""
+"Sticky Navigation Is Perfect If You Need Organized Pages - For Example For "
+"Documentation"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:24
+msgid ""
+"Responsive Lightbox Ready To Display Your Amazing Shots, YouTube Or Vimeo "
+"Videos, Or Instagram Photos"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:24
+msgid "Responsive Premium WordPress Slider With Breathtaking Effects"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:24
+msgid "Create Fantastic Slides With The Bundled Premium Slider Plugin"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:24
+msgid ""
+"100% Width Template Let You To Set Any Page To Be Full Width Of The "
+"Browser's Window"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:24
+msgid "EXTRA IN PREMIUM: Unlimited Number Of Slides, Slides Reorder"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:24
+msgid "EXTRA IN PREMIUM: Up To 30 Slides"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:37
+#: inc/admin/customizer/customizer-options.php:780
+#: inc/admin/customizer/customizer-options.php:3610
+#: inc/admin/customizer/customizer-options.php:4142
+#: inc/admin/customizer/customizer-options.php:4466
+msgid "General"
+msgstr "Γενικά"
+
+#: inc/admin/customizer/customizer-options.php:42
+msgid "Select Front Page Layout"
+msgstr "Επιλογή διάταξης αρχικής σελίδας"
+
+#: inc/admin/customizer/customizer-options.php:43
+msgid "Select Content and Sidebar alignment for Front Page"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:57
+msgid "Front Page Layout Width Style"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:60
+#: inc/admin/customizer/customizer-options.php:85
+msgid "Boxed"
+msgstr "Με πλαίσιο"
+
+#: inc/admin/customizer/customizer-options.php:61
+#: inc/admin/customizer/customizer-options.php:86
+msgid "Wide"
+msgstr "Πλατύ"
+
+#: inc/admin/customizer/customizer-options.php:67
+msgid "Select General Layout"
+msgstr "Επιλογή γενικής διάταξης"
+
+#: inc/admin/customizer/customizer-options.php:68
+msgid ""
+"Select general Content and Sidebar alignment. This option can be overridden "
+"per post/page setting"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:82
+msgid "General Layout Width Style"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:92
+msgid "Max Content Layout Width"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:93
+msgid "Select the maximum content width for your website (px)"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:112
+msgid "Content Top & Bottom Padding"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:113
+msgid "Enter the page Content Top & Bottom Padding"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:156
+msgid "Elements Display & Order"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:161
+msgid "Front Page Elements Display and Order"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:167
+msgid "Header Area"
+msgstr "Περιοχή κεφαλίδας"
+
+#: inc/admin/customizer/customizer-options.php:171
+#: inc/admin/customizer/customizer.php:521
+#: inc/admin/customizer/customizer.php:535
+#: inc/admin/customizer/customizer.php:549
+#: inc/admin/customizer/customizer.php:563
+#: inc/admin/customizer/customizer.php:577
+#: inc/admin/customizer/customizer.php:591
+#: inc/admin/customizer/customizer.php:605
+#: inc/admin/customizer/customizer.php:623
+#: inc/admin/customizer/customizer.php:637
+#: inc/admin/customizer/customizer.php:651
+#: inc/admin/customizer/customizer.php:666
+#: inc/admin/customizer/customizer.php:680
+#: inc/admin/customizer/customizer.php:694
+#: inc/admin/customizer/customizer.php:709
+msgid "Header (REORDER ONLY)"
+msgstr "Κεφαλίδα (μόνο για αναδιάταξη)"
+
+#: inc/admin/customizer/customizer-options.php:174
+#: inc/admin/customizer/customizer-options.php:175
+#: inc/admin/customizer/customizer-options.php:176
+#: inc/admin/customizer/customizer.php:509
+#: inc/admin/customizer/customizer.php:510
+msgid " (ACTIVE)"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:174
+#: inc/admin/customizer/customizer-options.php:175
+#: inc/admin/customizer/customizer-options.php:176
+#: inc/admin/customizer/customizer.php:509
+#: inc/admin/customizer/customizer.php:510
+msgid " (INACTIVE)"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:182
+msgid "Content Elements Position"
+msgstr "Θέση στοιχείων περιεχομένου"
+
+#: inc/admin/customizer/customizer-options.php:183
+msgid "Select the position of front page elements"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:186
+msgid "Above/Below Content and Sidebar"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:187
+msgid "In Content And Next To Sidebar"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:193
+msgid "Content Area"
+msgstr "Περιοχή περιεχομένου"
+
+#: inc/admin/customizer/customizer-options.php:207
+#: inc/admin/customizer/customizer-options.php:2352
+#: inc/admin/customizer/customizer.php:125
+#: inc/admin/customizer/customizer.php:138
+msgid "Content Boxes"
+msgstr "Πλαίσια περιεχομένου"
+
+#: inc/admin/customizer/customizer-options.php:212
+msgid "Enable Content Boxes On Front Page"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:213
+msgid "Check this box if you want to enable Content Boxes On Front Page"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:219
+#: inc/admin/customizer/customizer-options.php:793
+#: inc/admin/customizer/customizer-options.php:1106
+msgid "Items"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:227
+msgid "Content Box 1"
+msgstr "Πλαίσιο περιεχομένου 1"
+
+#: inc/admin/customizer/customizer-options.php:233
+msgid "Enable Content Box 1"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:235
+#: inc/admin/customizer/customizer-options.php:314
+#: inc/admin/customizer/customizer-options.php:393
+#: inc/admin/customizer/customizer-options.php:472
+#: inc/admin/customizer/customizer-options.php:720
+#: inc/admin/customizer/customizer-options.php:1006
+#: inc/admin/customizer/customizer-options.php:1758
+#: inc/admin/customizer/customizer-options.php:1804
+#: inc/admin/customizer/customizer-options.php:1815
+#: inc/admin/customizer/customizer-options.php:3039
+#: inc/admin/customizer/customizer-options.php:3153
+#: inc/admin/customizer/customizer-options.php:3249
+#: inc/admin/customizer/customizer-options.php:3631
+#: inc/admin/customizer/customizer-options.php:3700
+#: inc/admin/customizer/customizer-options.php:3709
+#: inc/admin/customizer/customizer-options.php:3774
+#: inc/admin/customizer/customizer-options.php:3818
+#: inc/admin/customizer/customizer-options.php:3827
+#: inc/admin/customizer/customizer-options.php:3836
+#: inc/admin/customizer/customizer-options.php:3845
+#: inc/admin/customizer/customizer-options.php:3854
+#: inc/admin/customizer/customizer-options.php:3863
+#: inc/admin/customizer/customizer-options.php:3872
+#: inc/admin/customizer/customizer-options.php:3881
+#: inc/admin/customizer/customizer-options.php:3890
+#: inc/admin/customizer/customizer-options.php:3899
+#: inc/admin/customizer/customizer-options.php:3921
+#: inc/admin/customizer/customizer.php:1048
+msgid "Enabled"
+msgstr "Ενεργοποιημένο"
+
+#: inc/admin/customizer/customizer-options.php:236
+#: inc/admin/customizer/customizer-options.php:315
+#: inc/admin/customizer/customizer-options.php:394
+#: inc/admin/customizer/customizer-options.php:473
+#: inc/admin/customizer/customizer-options.php:721
+#: inc/admin/customizer/customizer-options.php:1007
+#: inc/admin/customizer/customizer-options.php:1759
+#: inc/admin/customizer/customizer-options.php:1805
+#: inc/admin/customizer/customizer-options.php:1816
+#: inc/admin/customizer/customizer-options.php:1855
+#: inc/admin/customizer/customizer-options.php:1888
+#: inc/admin/customizer/customizer-options.php:1918
+#: inc/admin/customizer/customizer-options.php:3040
+#: inc/admin/customizer/customizer-options.php:3154
+#: inc/admin/customizer/customizer-options.php:3250
+#: inc/admin/customizer/customizer-options.php:3500
+#: inc/admin/customizer/customizer-options.php:3632
+#: inc/admin/customizer/customizer-options.php:3645
+#: inc/admin/customizer/customizer-options.php:3701
+#: inc/admin/customizer/customizer-options.php:3710
+#: inc/admin/customizer/customizer-options.php:3721
+#: inc/admin/customizer/customizer-options.php:3743
+#: inc/admin/customizer/customizer-options.php:3775
+#: inc/admin/customizer/customizer-options.php:3819
+#: inc/admin/customizer/customizer-options.php:3828
+#: inc/admin/customizer/customizer-options.php:3837
+#: inc/admin/customizer/customizer-options.php:3846
+#: inc/admin/customizer/customizer-options.php:3855
+#: inc/admin/customizer/customizer-options.php:3864
+#: inc/admin/customizer/customizer-options.php:3873
+#: inc/admin/customizer/customizer-options.php:3882
+#: inc/admin/customizer/customizer-options.php:3891
+#: inc/admin/customizer/customizer-options.php:3900
+#: inc/admin/customizer/customizer-options.php:3922
+#: inc/admin/customizer/customizer-options.php:3980
+#: inc/admin/customizer/customizer-options.php:5002
+#: inc/admin/customizer/customizer.php:1049
+msgid "Disabled"
+msgstr "Ανενεργό"
+
+#: inc/admin/customizer/customizer-options.php:241
+msgid "Content Box 1 Title"
+msgstr "Τίτλος πλαισίου περιεχομένου 1"
+
+#: inc/admin/customizer/customizer-options.php:251
+msgid "Content Box 1 Icon (Font Awesome)"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:262
+msgid "Content Box 1 Icon Color"
+msgstr "Χρώμα εικονιδίου του πλαισίου περιεχομένου 1"
+
+#: inc/admin/customizer/customizer-options.php:279
+msgid "Content Box 1 description"
+msgstr "Περιγραφή πλαισίου περιεχομένου 1"
+
+#: inc/admin/customizer/customizer-options.php:289
+msgid "Content Box 1 Button"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:290
+#: inc/admin/customizer/customizer-options.php:369
+#: inc/admin/customizer/customizer-options.php:448
+#: inc/admin/customizer/customizer-options.php:527
+#, php-format
+msgid "Default: %1$s<a class=\"btn btn-sm\" href=\"#\">Learn more</a>%2$s"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:306
+msgid "Content Box 2"
+msgstr "Πλαίσιο περιεχομένου 2"
+
+#: inc/admin/customizer/customizer-options.php:312
+msgid "Enable Content Box 2"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:320
+msgid "Content Box 2 Title"
+msgstr "Τίτλος πλαισίου περιεχομένου 2"
+
+#: inc/admin/customizer/customizer-options.php:330
+msgid "Content Box 2 Icon (Font Awesome)"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:341
+msgid "Content Box 2 Icon Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:358
+msgid "Content Box 2 description"
+msgstr "Περιγραφή πλαισίου περιεχομένου 2"
+
+#: inc/admin/customizer/customizer-options.php:368
+msgid "Content Box 2 Button"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:385
+msgid "Content Box 3"
+msgstr "Πλαίσιο περιεχομένου 3"
+
+#: inc/admin/customizer/customizer-options.php:391
+msgid "Enable Content Box 3"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:399
+msgid "Content Box 3 Title"
+msgstr "Τίτλος πλαισίου περιεχομένου 3"
+
+#: inc/admin/customizer/customizer-options.php:409
+msgid "Content Box 3 Icon (Font Awesome)"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:420
+msgid "Content Box 3 Icon Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:437
+msgid "Content Box 3 description"
+msgstr "Περιγραφή πλαισίου περιεχομένου 3"
+
+#: inc/admin/customizer/customizer-options.php:447
+msgid "Content Box 3 Button"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:464
+msgid "Content Box 4"
+msgstr "Πλαίσιο περιεχομένου 4"
+
+#: inc/admin/customizer/customizer-options.php:470
+msgid "Enable Content Box 4"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:478
+msgid "Content Box 4 Title"
+msgstr "Τίτλος πλαισίου περιεχομένου 4"
+
+#: inc/admin/customizer/customizer-options.php:488
+msgid "Content Box 4 Icon (Font Awesome)"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:499
+msgid "Content Box 4 Icon Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:516
+msgid "Content Box 4 description"
+msgstr "Περιγραφή πλαισίου περιεχομένου 4"
+
+#: inc/admin/customizer/customizer-options.php:526
+msgid "Content Box 4 Button"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:537
+msgid "Content Boxes Background Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:551
+#: inc/admin/customizer/customizer-options.php:837
+#: inc/admin/customizer/customizer-options.php:1157
+#: inc/admin/customizer/customizer-options.php:1344
+#: inc/admin/customizer/customizer-options.php:1538
+msgid "Section Settings"
+msgstr "Ρυθμίσεις ενότητας"
+
+#: inc/admin/customizer/customizer-options.php:557
+msgid "Title of Content Boxes Section"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:564
+#: inc/admin/customizer/customizer-options.php:850
+#: inc/admin/customizer/customizer-options.php:1170
+#: inc/admin/customizer/customizer-options.php:1357
+#: inc/admin/customizer/customizer-options.php:1551
+msgid "Title Font, Alignment and Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:565
+#: inc/admin/customizer/customizer-options.php:851
+#: inc/admin/customizer/customizer-options.php:1171
+#: inc/admin/customizer/customizer-options.php:1358
+#: inc/admin/customizer/customizer-options.php:1552
+msgid "Select the font, alignment and color of the section title"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:585
+#: inc/admin/customizer/customizer-options.php:871
+#: inc/admin/customizer/customizer-options.php:1191
+#: inc/admin/customizer/customizer-options.php:1378
+#: inc/admin/customizer/customizer-options.php:1572
+msgid "Section Padding"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:586
+#: inc/admin/customizer/customizer-options.php:872
+#: inc/admin/customizer/customizer-options.php:1192
+#: inc/admin/customizer/customizer-options.php:1379
+#: inc/admin/customizer/customizer-options.php:1573
+msgid "Enter the section padding"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:607
+#: inc/admin/customizer/customizer-options.php:893
+#: inc/admin/customizer/customizer-options.php:1213
+#: inc/admin/customizer/customizer-options.php:1400
+#: inc/admin/customizer/customizer-options.php:1594
+msgid "Section Background Image"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:608
+#: inc/admin/customizer/customizer-options.php:894
+#: inc/admin/customizer/customizer-options.php:1214
+#: inc/admin/customizer/customizer-options.php:1401
+#: inc/admin/customizer/customizer-options.php:1595
+msgid ""
+"Upload a background image for this section, or specify an image URL directly"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:622
+#: inc/admin/customizer/customizer-options.php:908
+#: inc/admin/customizer/customizer-options.php:1228
+#: inc/admin/customizer/customizer-options.php:1415
+#: inc/admin/customizer/customizer-options.php:1609
+msgid "Background Image Responsiveness Style"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:623
+#: inc/admin/customizer/customizer-options.php:909
+#: inc/admin/customizer/customizer-options.php:1229
+#: inc/admin/customizer/customizer-options.php:1416
+#: inc/admin/customizer/customizer-options.php:1610
+msgid ""
+"Select if the section background image should be displayed in cover or "
+"contain size"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:626
+#: inc/admin/customizer/customizer-options.php:912
+#: inc/admin/customizer/customizer-options.php:1232
+#: inc/admin/customizer/customizer-options.php:1419
+#: inc/admin/customizer/customizer-options.php:1613
+#: inc/admin/customizer/customizer-options.php:2701
+#: inc/admin/customizer/customizer-options.php:2808
+#: inc/admin/customizer/customizer-options.php:3097
+msgid "Cover"
+msgstr "cover"
+
+#: inc/admin/customizer/customizer-options.php:627
+#: inc/admin/customizer/customizer-options.php:913
+#: inc/admin/customizer/customizer-options.php:1233
+#: inc/admin/customizer/customizer-options.php:1420
+#: inc/admin/customizer/customizer-options.php:1614
+#: inc/admin/customizer/customizer-options.php:2702
+#: inc/admin/customizer/customizer-options.php:2809
+#: inc/admin/customizer/customizer-options.php:3098
+msgid "Contain"
+msgstr "Περιέχει"
+
+#: inc/admin/customizer/customizer-options.php:628
+#: inc/admin/customizer/customizer-options.php:914
+#: inc/admin/customizer/customizer-options.php:1234
+#: inc/admin/customizer/customizer-options.php:1421
+#: inc/admin/customizer/customizer-options.php:1615
+#: inc/admin/customizer/customizer-options.php:2703
+#: inc/admin/customizer/customizer-options.php:2810
+msgid "None"
+msgstr "Καμμία"
+
+#: inc/admin/customizer/customizer-options.php:642
+#: inc/admin/customizer/customizer-options.php:928
+#: inc/admin/customizer/customizer-options.php:1248
+#: inc/admin/customizer/customizer-options.php:1435
+#: inc/admin/customizer/customizer-options.php:1629
+#: inc/admin/customizer/customizer-options.php:2717
+#: inc/admin/customizer/customizer-options.php:2824
+#: inc/admin/customizer/customizer-options.php:3045
+msgid "Background Repeat"
+msgstr "Επανάληψη φόντου"
+
+#: inc/admin/customizer/customizer-options.php:645
+#: inc/admin/customizer/customizer-options.php:931
+#: inc/admin/customizer/customizer-options.php:1251
+#: inc/admin/customizer/customizer-options.php:1438
+#: inc/admin/customizer/customizer-options.php:1632
+#: inc/admin/customizer/customizer-options.php:2720
+#: inc/admin/customizer/customizer-options.php:2827
+#: inc/admin/customizer/customizer-options.php:3051
+msgid "no-repeat"
+msgstr "no-repeat"
+
+#: inc/admin/customizer/customizer-options.php:646
+#: inc/admin/customizer/customizer-options.php:932
+#: inc/admin/customizer/customizer-options.php:1252
+#: inc/admin/customizer/customizer-options.php:1439
+#: inc/admin/customizer/customizer-options.php:1633
+#: inc/admin/customizer/customizer-options.php:2721
+#: inc/admin/customizer/customizer-options.php:2828
+#: inc/admin/customizer/customizer-options.php:3048
+msgid "repeat"
+msgstr "Επανάληψη"
+
+#: inc/admin/customizer/customizer-options.php:647
+#: inc/admin/customizer/customizer-options.php:933
+#: inc/admin/customizer/customizer-options.php:1253
+#: inc/admin/customizer/customizer-options.php:1440
+#: inc/admin/customizer/customizer-options.php:1634
+#: inc/admin/customizer/customizer-options.php:2722
+#: inc/admin/customizer/customizer-options.php:2829
+#: inc/admin/customizer/customizer-options.php:3049
+msgid "repeat-x"
+msgstr "repeat-x"
+
+#: inc/admin/customizer/customizer-options.php:648
+#: inc/admin/customizer/customizer-options.php:934
+#: inc/admin/customizer/customizer-options.php:1254
+#: inc/admin/customizer/customizer-options.php:1441
+#: inc/admin/customizer/customizer-options.php:1635
+#: inc/admin/customizer/customizer-options.php:2723
+#: inc/admin/customizer/customizer-options.php:2830
+#: inc/admin/customizer/customizer-options.php:3050
+msgid "repeat-y"
+msgstr "repeat-y"
+
+#: inc/admin/customizer/customizer-options.php:662
+#: inc/admin/customizer/customizer-options.php:948
+#: inc/admin/customizer/customizer-options.php:1268
+#: inc/admin/customizer/customizer-options.php:1455
+#: inc/admin/customizer/customizer-options.php:1649
+#: inc/admin/customizer/customizer-options.php:2737
+#: inc/admin/customizer/customizer-options.php:2844
+msgid "Background Position"
+msgstr "Θέση φόντου"
+
+#: inc/admin/customizer/customizer-options.php:665
+#: inc/admin/customizer/customizer-options.php:951
+#: inc/admin/customizer/customizer-options.php:1271
+#: inc/admin/customizer/customizer-options.php:1458
+#: inc/admin/customizer/customizer-options.php:1652
+#: inc/admin/customizer/customizer-options.php:2740
+#: inc/admin/customizer/customizer-options.php:2847
+msgid "center top"
+msgstr "κέντρο - επάνω"
+
+#: inc/admin/customizer/customizer-options.php:666
+#: inc/admin/customizer/customizer-options.php:952
+#: inc/admin/customizer/customizer-options.php:1272
+#: inc/admin/customizer/customizer-options.php:1459
+#: inc/admin/customizer/customizer-options.php:1653
+#: inc/admin/customizer/customizer-options.php:2741
+#: inc/admin/customizer/customizer-options.php:2848
+msgid "center center"
+msgstr "κέντρο κέντρο"
+
+#: inc/admin/customizer/customizer-options.php:667
+#: inc/admin/customizer/customizer-options.php:953
+#: inc/admin/customizer/customizer-options.php:1273
+#: inc/admin/customizer/customizer-options.php:1460
+#: inc/admin/customizer/customizer-options.php:1654
+#: inc/admin/customizer/customizer-options.php:2742
+#: inc/admin/customizer/customizer-options.php:2849
+msgid "center bottom"
+msgstr "κέντρο κάτω"
+
+#: inc/admin/customizer/customizer-options.php:668
+#: inc/admin/customizer/customizer-options.php:954
+#: inc/admin/customizer/customizer-options.php:1274
+#: inc/admin/customizer/customizer-options.php:1461
+#: inc/admin/customizer/customizer-options.php:1655
+#: inc/admin/customizer/customizer-options.php:2743
+#: inc/admin/customizer/customizer-options.php:2850
+msgid "left top"
+msgstr "αριστερή κορυφή"
+
+#: inc/admin/customizer/customizer-options.php:669
+#: inc/admin/customizer/customizer-options.php:955
+#: inc/admin/customizer/customizer-options.php:1275
+#: inc/admin/customizer/customizer-options.php:1462
+#: inc/admin/customizer/customizer-options.php:1656
+#: inc/admin/customizer/customizer-options.php:2744
+#: inc/admin/customizer/customizer-options.php:2851
+msgid "left center"
+msgstr "Αριστερά κέντρο"
+
+#: inc/admin/customizer/customizer-options.php:670
+#: inc/admin/customizer/customizer-options.php:956
+#: inc/admin/customizer/customizer-options.php:1276
+#: inc/admin/customizer/customizer-options.php:1463
+#: inc/admin/customizer/customizer-options.php:1657
+#: inc/admin/customizer/customizer-options.php:2745
+#: inc/admin/customizer/customizer-options.php:2852
+msgid "left bottom"
+msgstr "αριστερά κάτω"
+
+#: inc/admin/customizer/customizer-options.php:671
+#: inc/admin/customizer/customizer-options.php:957
+#: inc/admin/customizer/customizer-options.php:1277
+#: inc/admin/customizer/customizer-options.php:1464
+#: inc/admin/customizer/customizer-options.php:1658
+#: inc/admin/customizer/customizer-options.php:2746
+#: inc/admin/customizer/customizer-options.php:2853
+msgid "right top"
+msgstr "δεξιά κορυφή"
+
+#: inc/admin/customizer/customizer-options.php:672
+#: inc/admin/customizer/customizer-options.php:958
+#: inc/admin/customizer/customizer-options.php:1278
+#: inc/admin/customizer/customizer-options.php:1465
+#: inc/admin/customizer/customizer-options.php:1659
+#: inc/admin/customizer/customizer-options.php:2747
+#: inc/admin/customizer/customizer-options.php:2854
+msgid "right center"
+msgstr "δεξιό κέντρο"
+
+#: inc/admin/customizer/customizer-options.php:673
+#: inc/admin/customizer/customizer-options.php:959
+#: inc/admin/customizer/customizer-options.php:1279
+#: inc/admin/customizer/customizer-options.php:1466
+#: inc/admin/customizer/customizer-options.php:1660
+#: inc/admin/customizer/customizer-options.php:2748
+#: inc/admin/customizer/customizer-options.php:2855
+msgid "right bottom"
+msgstr "δεξιά κάτω"
+
+#: inc/admin/customizer/customizer-options.php:687
+#: inc/admin/customizer/customizer-options.php:973
+#: inc/admin/customizer/customizer-options.php:1293
+#: inc/admin/customizer/customizer-options.php:1480
+#: inc/admin/customizer/customizer-options.php:1674
+msgid "Section Background Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:688
+#: inc/admin/customizer/customizer-options.php:974
+#: inc/admin/customizer/customizer-options.php:1294
+#: inc/admin/customizer/customizer-options.php:1481
+#: inc/admin/customizer/customizer-options.php:1675
+msgid "Custom background color of section"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:718
+#, php-format
+msgid "Enable Testimonial %d"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:727
+#, php-format
+msgid "Testimonial %d Avatar"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:728
+#, php-format
+msgid ""
+"Upload an image for the Testimonial %d, or specify an image URL directly"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:743
+#, php-format
+msgid "Testimonial %d Name"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:758
+#, php-format
+msgid "Testimonial %d Content"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:775
+#: inc/admin/customizer/customizer.php:126
+#: inc/admin/customizer/customizer.php:139
+msgid "Testimonials"
+msgstr "Μαρτυρίες"
+
+#: inc/admin/customizer/customizer-options.php:786
+msgid "Enable Testimonials On Front Page"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:787
+msgid "Check this box if you want to enable Testimonials On Front Page"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:808
+msgid "Background Color"
+msgstr "Χρώμα Φόντου"
+
+#: inc/admin/customizer/customizer-options.php:822
+msgid "Text Color"
+msgstr "Χρώμα κειμένου"
+
+#: inc/admin/customizer/customizer-options.php:843
+msgid "Title of Testimonials Section"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1004
+#, php-format
+msgid "Enable Counter Circle %d"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1013
+#, php-format
+msgid "Counter Circle %d Icon"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1014
+msgid "Click an icon to select"
+msgstr "Κάντε κλικ σε ένα εικονίδιο για να επιλέξετε"
+
+#: inc/admin/customizer/customizer-options.php:1030
+#, php-format
+msgid "Counter Circle %d Percentage"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1031
+msgid "From 1% to 100%"
+msgstr "Από 1% έως 100%"
+
+#: inc/admin/customizer/customizer-options.php:1047
+#, php-format
+msgid "Counter Circle %d Text"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1048
+msgid "Insert text for counter circle box, keep it short"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1063
+#, php-format
+msgid "Counter Circle %d Filled Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1064
+msgid "Controls the color of the filled in area"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1078
+#, php-format
+msgid "Counter Circle %d Unfilled Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1079
+msgid "Controls the color of the unfilled in area"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1094
+msgid "Counter Circle"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1099
+msgid "Enable Counter Circles On Front Page"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1100
+msgid "Check this box if you want to enable Counter Circles On Front Page"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1131
+msgid "Counter Circle Text Font"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1132
+msgid "Select the font and color of the counter circle text and icon"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1163
+msgid "Title of Counter Circle Section"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1322
+#: inc/admin/customizer/customizer.php:128
+msgid "WooCommerce Products"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1327
+msgid "Product Categories"
+msgstr "Κατηγορίες Προϊόντων"
+
+#: inc/admin/customizer/customizer-options.php:1328
+msgid "Please select a category which contains some products"
+msgstr "Παρακαλώ επιλέξτε μια κατηγορία που περιέχει ορισμένα προϊόντα"
+
+#: inc/admin/customizer/customizer-options.php:1335
+msgid "Number Of Products To Display"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1336
+msgid "Select the number of Products To Display"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1350
+msgid "Title of WooCommerce Product Section"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1510
+#: inc/admin/customizer/customizer-options.php:1529
+#: inc/admin/customizer/customizer.php:129
+#: inc/admin/customizer/customizer.php:141
+msgid "Custom Content"
+msgstr "Περιεχόμενο ειδικό"
+
+#: inc/admin/customizer/customizer-options.php:1515
+msgid "Enable Custom Content On Front Page"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1516
+msgid "Check this box if you want to enable Custom Content On Front Page"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1522
+msgid "Custom Content Element"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1530
+msgid "Add Custom Content to Front Page"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1544
+msgid "Title of Custom Content Section"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1702
+#: inc/admin/customizer/customizer-options.php:1713
+#: inc/admin/metaboxes/metaboxes.php:279
+msgid "Header"
+msgstr "Κεφαλίδα"
+
+#: inc/admin/customizer/customizer-options.php:1718
+msgid "Header Padding"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1719
+msgid "Enter the header padding"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1755
+#: inc/admin/customizer/customizer-options.php:1812
+msgid "Enable Searchbox"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1756
+msgid "Check this box if you want to display searchbox in the Header"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1766
+msgid "General Slider Position"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1767
+msgid ""
+"Select if the slider shows below or above the header. This only works for "
+"the slider assigned in Post/Page Options, not in Front Page. This option can "
+"be overridden per post/page setting"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1770
+msgid "Below Header"
+msgstr "Κάτω από την κεφαλίδα"
+
+#: inc/admin/customizer/customizer-options.php:1771
+msgid "Above Header"
+msgstr "Πάνω από την Κεφαλίδα"
+
+#: inc/admin/customizer/customizer-options.php:1777
+msgid "Choose Header Type"
+msgstr "Επιλογή τύπου κεφαλίδας"
+
+#: inc/admin/customizer/customizer-options.php:1778
+msgid "Choose your Header Type"
+msgstr "Επιλέξτε τον τύπο κεφαλίδας σας"
+
+#: inc/admin/customizer/customizer-options.php:1796
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1801
+msgid "Enable Sticky Header"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1802
+msgid "Check this box if you want to display Sticky Header"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1813
+msgid "Check this box if you want to display searchbox in the Sticky Header"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1834
+msgid "Logo"
+msgstr "Λογότυπο"
+
+#: inc/admin/customizer/customizer-options.php:1839
+msgid "Custom Logo"
+msgstr "Προσαρμοσμένο Λογότυπο"
+
+#: inc/admin/customizer/customizer-options.php:1840
+msgid "Upload a logo for your website, or specify an image URL directly"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1848
+msgid "Logo Position"
+msgstr "Θέση λογότυπου"
+
+#: inc/admin/customizer/customizer-options.php:1849
+msgid "Choose the position of your Custom Logo for Header #1"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1852
+#: inc/admin/customizer/customizer-options.php:5003
+msgid "Left"
+msgstr "Αριστερά"
+
+#: inc/admin/customizer/customizer-options.php:1853
+msgid "Center"
+msgstr "Κέντρο"
+
+#: inc/admin/customizer/customizer-options.php:1854
+#: inc/admin/customizer/customizer-options.php:5004
+msgid "Right"
+msgstr "Δεξιά"
+
+#: inc/admin/customizer/customizer-options.php:1869
+#: inc/admin/customizer/customizer-options.php:2140
+msgid "Website Title & Tagline"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1874
+msgid "Disable Website Title"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1875
+msgid "Check this box if you don't want to display title of your website"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1881
+msgid "Website Tagline Position"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1882
+msgid "Choose the position of website tagline"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1885
+msgid "Next to Website Title"
+msgstr "Δίπλα στον τίτλο του ιστοτόπου"
+
+#: inc/admin/customizer/customizer-options.php:1886
+msgid "Above Website Title"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1887
+msgid "Under Website Title"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1902
+#: inc/admin/customizer/customizer-options.php:2213
+#: inc/admin/customizer/customizer-options.php:2922
+msgid "Menu"
+msgstr "Μενού"
+
+#: inc/admin/customizer/customizer-options.php:1907
+msgid "Disable Main Menu"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1908
+msgid "Check this box if you don't want to display main menu"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1913
+msgid "Menu Item Hover Effect"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1914
+msgid "Select the main menu hover effect"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1917
+msgid "Rollover"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1927
+msgid "Padding Between Menu Items"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1928
+msgid "Padding between menu items in px"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1952
+msgid "Main Menu Height"
+msgstr "Ύψος κύριου μενού"
+
+#: inc/admin/customizer/customizer-options.php:1953
+msgid "Select the main menu height"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1973
+msgid "Responsive Menu Layout"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1974
+msgid "Choose the layout of responsive menu on smaller screen sizes"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:1977
+msgid "Closed Submenu Items"
+msgstr "Κλειστά στοιχεία υπομενού"
+
+#: inc/admin/customizer/customizer-options.php:1978
+msgid "Open Submenu Items"
+msgstr "Άνοιγμα στοιχείων υπομενού"
+
+#: inc/admin/customizer/customizer-options.php:1995
+msgid "Header Widgets"
+msgstr "Μικροεφαρμογές κεφαλίδας"
+
+#: inc/admin/customizer/customizer-options.php:2000
+msgid "Number of Widget Cols in The Header Block"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2001
+msgid "Select how many header widget areas you want to display in Header Block"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2014
+msgid "Header Widgets Placement"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2015
+msgid "Choose where to display header widgets"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2018
+msgid "Front Page"
+msgstr "Αρχική Σελίδα"
+
+#: inc/admin/customizer/customizer-options.php:2019
+msgid "Single Post"
+msgstr "Μονό άρθρο"
+
+#: inc/admin/customizer/customizer-options.php:2020
+msgid "Only Pages"
+msgstr "Μόνο σελίδες"
+
+#: inc/admin/customizer/customizer-options.php:2021
+msgid "All Website"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2022
+msgid "Select Per Post/Page Options"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2036
+msgid "Footer"
+msgstr "Υποσέλιδο"
+
+#: inc/admin/customizer/customizer-options.php:2047
+msgid "Footer Widgets"
+msgstr "Μικροεφαρμογές στο υποσέλιδο"
+
+#: inc/admin/customizer/customizer-options.php:2052
+msgid "Number of Widget Cols in Footer"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2053
+msgid "Select how many footer widget areas you want to display"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2074
+#: inc/admin/customizer/customizer-options.php:2079
+msgid "Custom Footer"
+msgstr "Προσαρμοσμένο υποσέλιδο"
+
+#: inc/admin/customizer/customizer-options.php:2080
+#, php-format
+msgid ""
+"Available %1$sHTML%2$s tags and attributes: %3$s Default: %4$s<div "
+"id=\"copyright\"><a href=\"%5$s\">evolve</a> theme by Theme4Press - Powered "
+"by <a href=\"http://wordpress.org\">WordPress</a></div>%6$s"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2096
+msgid "Typography"
+msgstr "Τυπογραφία"
+
+#: inc/admin/customizer/customizer-options.php:2107
+msgid "Website Body"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2112
+msgid "Website Body Font"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2113
+msgid "Select the typography you want for your Website Body"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2145
+msgid "Website Title Font"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2146
+msgid "Select the typography you want for your Website Title"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2165
+msgid "Website Tagline Font"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2166
+msgid "Select the typography you want for your Website Tagline"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2185
+msgid "Sticky Header Website Title Font"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2186
+msgid "Select the typography you want for your Sticky Header Website Title"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2218
+msgid "Main Menu Font"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2219
+msgid "Select the typography you want for your Main Menu"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2246
+msgid "Widget"
+msgstr "Μικροεφαρμογή"
+
+#: inc/admin/customizer/customizer-options.php:2251
+msgid "Widget Title Font"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2252
+msgid "Select the typography you want for your Widget Title"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2271
+msgid "Widget Content Font"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2272
+msgid "Select the typography you want for your Widget Content"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2299
+msgid "Post/Page Title & Content"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2304
+msgid "Post/Page Title Font"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2305
+msgid "Select the typography you want for your Post/Page Title"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2324
+msgid "Post/Page Content Font"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2325
+msgid "Select the typography you want for your Website Post/Page Content"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2357
+msgid "Content Boxes Title Font"
+msgstr "Γραμματοσειρά τίτλου πλαίσιων περιεχομένου"
+
+#: inc/admin/customizer/customizer-options.php:2358
+msgid "Select the typography you want for your Content Boxes Title"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2377
+msgid "Content Boxes Description Font"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2378
+msgid "Select the typography you want for your Content Boxes Description"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2405
+msgid "Footer Copyright"
+msgstr "Κείμενο πνευματικών δικαιωμάτων Υποσέλιδου"
+
+#: inc/admin/customizer/customizer-options.php:2410
+msgid "Footer Copyright Font"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2411
+msgid "Select the typography you want for your Footer Copyright"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2438
+msgid "Headings"
+msgstr "Κεφαλίδες"
+
+#: inc/admin/customizer/customizer-options.php:2443
+msgid "H1 Font"
+msgstr "Γραμματοσειρά H1"
+
+#: inc/admin/customizer/customizer-options.php:2444
+msgid ""
+"Select the typography you want for your H1 tag in Website Post/Page Content"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2463
+msgid "H2 Font"
+msgstr "Γραμματοσειρά H2"
+
+#: inc/admin/customizer/customizer-options.php:2464
+msgid ""
+"Select the typography you want for your H2 tag in Website Post/Page Content"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2483
+msgid "H3 Font"
+msgstr "Γραμματοσειρά H3"
+
+#: inc/admin/customizer/customizer-options.php:2484
+msgid ""
+"Select the typography you want for your H3 tag in Website Post/Page Content"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2503
+msgid "H4 Font"
+msgstr "Γραμματοσειρά H4"
+
+#: inc/admin/customizer/customizer-options.php:2504
+msgid ""
+"Select the typography you want for your H4 tag in Website Post/Page Content"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2523
+msgid "H5 Font"
+msgstr "Γραμματοσειρά H5"
+
+#: inc/admin/customizer/customizer-options.php:2524
+msgid ""
+"Select the typography you want for your H5 tag in Website Post/Page Content"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2543
+msgid "H6 Font"
+msgstr "Γραμματοσειρά H6"
+
+#: inc/admin/customizer/customizer-options.php:2544
+msgid ""
+"Select the typography you want for your H6 tag in Website Post/Page Content"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2571
+#: inc/admin/metaboxes/metaboxes.php:280
+msgid "Breadcrumbs"
+msgstr "Διαδρομή"
+
+#: inc/admin/customizer/customizer-options.php:2576
+msgid "Enable Breadcrumbs Navigation"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2577
+msgid "Check this box if you want to enable Breadcrumbs Navigation"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2593
+msgid "Styling"
+msgstr "Μορφοποίηση"
+
+#: inc/admin/customizer/customizer-options.php:2604
+#: inc/admin/customizer/customizer-options.php:2609
+msgid "Main Color Scheme"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2610
+msgid "Please select the predefined color scheme for your website"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2687
+msgid "Header & Footer"
+msgstr "Κεφαλίδα και Υποσέλιδο"
+
+#: inc/admin/customizer/customizer-options.php:2692
+msgid "Header Styling"
+msgstr "Στυλ κεφαλίδας"
+
+#: inc/admin/customizer/customizer-options.php:2697
+msgid "Header Background Image Responsiveness Style"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2698
+msgid ""
+"Select if the header background image should be displayed in cover or "
+"contain size. Change "
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2762
+msgid "Header Color"
+msgstr "Χρώμα γραμματοσειράς κεφαλίδας"
+
+#: inc/admin/customizer/customizer-options.php:2763
+msgid "Custom background color of Header"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2777
+msgid "Footer Styling"
+msgstr "Μορφοποίηση υποσέλιδου"
+
+#: inc/admin/customizer/customizer-options.php:2782
+msgid "Footer Reveal Effect"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2783
+msgid "Check this box if you want to enable Footer Reveal Effect"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2789
+msgid "Footer Image"
+msgstr "Εικόνα Υποσέλιδου"
+
+#: inc/admin/customizer/customizer-options.php:2790
+msgid ""
+"Upload a footer background image for your website, or specify an image URL "
+"directly"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2804
+msgid "Footer Background Image Responsiveness Style"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2805
+msgid ""
+"Select if the footer background image should be displayed in cover or "
+"contain size"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2869
+msgid "Footer Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2870
+msgid "Custom background color of Footer"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2883
+msgid "Header & Footer Default Pattern"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2888
+msgid "Header and Footer Pattern"
+msgstr "Μοτίβο κεφαλίδας και υποσέλιδου"
+
+#: inc/admin/customizer/customizer-options.php:2889
+msgid "Choose the pattern for header and footer background"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2927
+msgid "Main Menu Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2928
+msgid "Custom background color of Main Menu"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2942
+msgid "Disable Main Menu Background Gradient, Shadow and Borders For Header #1"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2943
+msgid ""
+"Check this box if you want to disable main menu background gradient, shadow "
+"effect and borders"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2949
+#: inc/admin/customizer/customizer-options.php:3256
+msgid "Text Shadow Effect Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2950
+msgid "Enables the text shadow effect on the menu items"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2953
+#: inc/admin/customizer/customizer-options.php:3116
+msgid "Light"
+msgstr "Ανοιχτόχρωμο"
+
+#: inc/admin/customizer/customizer-options.php:2954
+#: inc/admin/customizer/customizer-options.php:3117
+msgid "Dark"
+msgstr "Σκούρο"
+
+#: inc/admin/customizer/customizer-options.php:2963
+msgid "Top Bar Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2964
+msgid "Background color of Top Bar for Header #2"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2978
+msgid "Menu Hover Font Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:2979
+msgid "Menu hover font color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3001
+msgid "Header Block"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3006
+msgid "Color Scheme of The Header Block Area"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3007
+msgid "Choose the color scheme for the Header Block area"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3021
+msgid "Background Image of The Header Block Area"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3022
+msgid "Upload an image for the Header Block area"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3036
+msgid "100% Background Image"
+msgstr "100% εικόνα φόντου"
+
+#: inc/admin/customizer/customizer-options.php:3037
+msgid ""
+"Have background image always at 100% in width and height and scale according "
+"to the browser size"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3073
+msgid "Content"
+msgstr "Περιεχόμενο"
+
+#: inc/admin/customizer/customizer-options.php:3078
+msgid "Content Image"
+msgstr "Εικόνα περιεχομένου"
+
+#: inc/admin/customizer/customizer-options.php:3079
+msgid ""
+"Upload a content background image for your website, or specify an image URL "
+"directly"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3093
+msgid "Content Background Image Responsiveness Style"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3094
+msgid ""
+"Select if the content background image should be displayed in cover or "
+"contain size"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3112
+msgid "Content Color"
+msgstr "Χρώμα Περιεχομένου"
+
+#: inc/admin/customizer/customizer-options.php:3113
+msgid "Background color of content"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3123
+msgid "Or Custom Content Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3124
+msgid "Custom background color of content area"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3145
+msgid "Widgets"
+msgstr "Μικροεφαρμογές"
+
+#: inc/admin/customizer/customizer-options.php:3150
+msgid "Enable Widget Title Custom Background"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3151
+msgid ""
+"Check this box if you want to enable custom background for widget titles"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3159
+msgid "Widget Title Custom Background"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3160
+msgid "Choose the color scheme for widgets background"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3182
+msgid "Disable Widget Content Boxed Background"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3183
+msgid "Check this box if you want to disable widget content boxed background"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3197
+msgid "Links"
+msgstr "Σύνδεσμοι"
+
+#: inc/admin/customizer/customizer-options.php:3202
+msgid "Primary Link Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3203
+msgid "Custom color for content links"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3217
+msgid "Secondary Link Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3218
+msgid "Custom color for links in post metas, widgets, navigation etc."
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3240
+msgid "Shadows"
+msgstr "Σκιές"
+
+#: inc/admin/customizer/customizer-options.php:3245
+msgid "Shadow Effect"
+msgstr "Εφέ σκίασης"
+
+#: inc/admin/customizer/customizer-options.php:3246
+msgid "Enables the shadow effect on the elements"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3257
+msgid "Select the text shadow effect custom color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3279
+msgid "Components"
+msgstr "Στοιχεία"
+
+#: inc/admin/customizer/customizer-options.php:3290
+msgid "Buttons"
+msgstr "Κουμπιά"
+
+#: inc/admin/customizer/customizer-options.php:3295
+msgid "Button Shape"
+msgstr "Σχήμα κουμπιού"
+
+#: inc/admin/customizer/customizer-options.php:3296
+msgid "Select the default shape for buttons"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3299
+msgid "Square"
+msgstr "Τετράγωνο"
+
+#: inc/admin/customizer/customizer-options.php:3300
+msgid "Round"
+msgstr "Κυκλικά"
+
+#: inc/admin/customizer/customizer-options.php:3301
+msgid "Pill"
+msgstr "Χάπι"
+
+#: inc/admin/customizer/customizer-options.php:3307
+msgid "Button Type"
+msgstr "Τύπος Κουμπιού"
+
+#: inc/admin/customizer/customizer-options.php:3308
+msgid "Select the default button type"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3311
+msgid "Flat"
+msgstr "Επίπεδο"
+
+#: inc/admin/customizer/customizer-options.php:3312
+msgid "3d"
+msgstr "3d"
+
+#: inc/admin/customizer/customizer-options.php:3318
+msgid "Button Gradient Top Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3319
+msgid "Controls the top color of the button gradients"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3336
+msgid "Button Gradient Bottom Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3337
+msgid "Controls the bottom color of the button gradients"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3354
+msgid "Button Gradient Top Hover Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3355
+msgid "Controls the top hover color of the button gradients"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3372
+msgid "Button Gradient Bottom Hover Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3373
+msgid "Controls the bottom hover color of the button gradients"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3390
+msgid "Button Accent Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3391
+msgid "This option controls the color of the button text and icon"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3405
+msgid "Button Accent Hover Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3406
+msgid "This option controls the hover color of the button text and icon"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3420
+msgid "Button Bevel Color (3D Mode Only)"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3421
+msgid "Controls the default bevel color of the buttons"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3435
+msgid "Button Border Color"
+msgstr "Χρώμα περιγράμματος κουμπιού"
+
+#: inc/admin/customizer/customizer-options.php:3436
+msgid "Controls the border color of the buttons"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3450
+msgid "Button Border Hover Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3451
+msgid "Controls the border hover color of the buttons"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3465
+msgid "Button Border Width"
+msgstr "Πλάτος περιγράμματος κουμπιού"
+
+#: inc/admin/customizer/customizer-options.php:3466
+msgid "Select the border width for buttons in px"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3482
+msgid "Disable Flat Button Shadow"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3483
+msgid ""
+"Select the box to disable the inset shadow and text shadow on the flat "
+"button type"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3489
+msgid "Button Hover Effect"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3490
+msgid "Select the hover effect for buttons or disable it"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3493
+msgid "Pulse"
+msgstr "Παλμός"
+
+#: inc/admin/customizer/customizer-options.php:3494
+msgid "RubberBand"
+msgstr "RubberBand"
+
+#: inc/admin/customizer/customizer-options.php:3495
+msgid "Shake"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3496
+msgid "Swing"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3497
+msgid "Tada"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3498
+msgid "Wobble"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3499
+msgid "Jello"
+msgstr "Jello"
+
+#: inc/admin/customizer/customizer-options.php:3514
+msgid "Forms"
+msgstr "Φόρμες"
+
+#: inc/admin/customizer/customizer-options.php:3519
+msgid "Text, TextArea"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3525
+msgid "Form Background Color"
+msgstr "Χρώμα Φόντου Φόρμας"
+
+#: inc/admin/customizer/customizer-options.php:3526
+msgid "Controls the background color of form text, textarea field"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3540
+msgid "Form Text Color"
+msgstr "Χρώμα Κειμένου Φόρμας"
+
+#: inc/admin/customizer/customizer-options.php:3541
+msgid "Controls the text, textarea color for forms"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3555
+msgid "Form Border Color"
+msgstr "Χρώμα Περιγράμματος φόρμας"
+
+#: inc/admin/customizer/customizer-options.php:3556
+msgid "Controls the border color of form text, textarea fields"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3570
+msgid "Radio, CheckBox, Active/Focus Items"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3576
+msgid "Form Radio, CheckBox, Active/Focus Items Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3577
+msgid ""
+"Controls the color of form components - radio, checkbox, active/focus items "
+"etc."
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3615
+msgid "Blog Layout"
+msgstr "Διάταξη ιστολογίου"
+
+#: inc/admin/customizer/customizer-options.php:3616
+msgid ""
+"Grid layout with 3 posts per row is recommended to use with disabled "
+"Sidebar(s)"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3627
+msgid "Archive Page Title"
+msgstr "Τίτλος Σελίδας Αρχείου"
+
+#: inc/admin/customizer/customizer-options.php:3628
+msgid "Enable page title in archive pages"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3638
+msgid "'Share This' Buttons Placement"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3639
+msgid "Choose placement of the 'Share This' buttons"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3642
+msgid "Single posts"
+msgstr "Μεμονωμένα άρθρα"
+
+#: inc/admin/customizer/customizer-options.php:3643
+msgid "Single posts + Archive pages"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3644
+msgid "All pages"
+msgstr "Όλες οι σελίδες"
+
+#: inc/admin/customizer/customizer-options.php:3651
+msgid "Pagination Type"
+msgstr "Τύπος σελιδοποίησης"
+
+#: inc/admin/customizer/customizer-options.php:3652
+msgid ""
+"Select the pagination type for the assigned blog page in Settings > Reading."
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3655
+msgid "Navigation Links"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3656
+msgid "Number Pagination"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3657
+msgid "Infinite Scroll"
+msgstr "Άπειρη κύλιση"
+
+#: inc/admin/customizer/customizer-options.php:3663
+msgid "Position of Navigation Links"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3664
+#, php-format
+msgid "Choose the position of the %1$sOlder/Newer Posts%2$s links"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3667
+#: inc/admin/customizer/customizer-options.php:3731
+msgid "After Posts"
+msgstr "Μετά τα άρθρα"
+
+#: inc/admin/customizer/customizer-options.php:3668
+#: inc/admin/customizer/customizer-options.php:3732
+msgid "Before Posts"
+msgstr "Πριν από τα άρθρα"
+
+#: inc/admin/customizer/customizer-options.php:3669
+#: inc/admin/customizer/customizer-options.php:3733
+msgid "Both"
+msgstr "Και τα δύο"
+
+#: inc/admin/customizer/customizer-options.php:3688
+msgid "Post Title Excerpt Length"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3689
+msgid ""
+"Enter number of characters for Post Title Excerpt. This works only if a grid "
+"layout is enabled"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3697
+msgid "Enable Post Excerpts"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3698
+msgid ""
+"Check this box if you want to display post excerpts on 1 column blog layout"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3706
+msgid "Enable Post Author Avatar"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3707
+msgid "Check this box if you want to display post author avatar"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3715
+msgid "Post Meta Header Placement"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3716
+msgid "Choose placement of the post meta header - Date, Author, Comments"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3719
+msgid "Single Posts + Archive Pages"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3720
+msgid "Single Posts"
+msgstr "Μεμονωμένα άρθρα"
+
+#: inc/admin/customizer/customizer-options.php:3727
+msgid "Position of Previous/Next Posts Links"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3728
+#, php-format
+msgid "Choose the position of the %1$sPrevious/Next Post%2$s links"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3739
+msgid "Display Similar Posts"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3740
+#, php-format
+msgid "Choose if you want to display %1$sSimilar posts%2$s in articles"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3744
+msgid "Match by Categories"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3745
+msgid "Match by Tags"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3759
+msgid "Featured Image"
+msgstr "Χαρακτηριστική Εικόνα"
+
+#: inc/admin/customizer/customizer-options.php:3764
+msgid "Enable Featured Images"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3765
+msgid "Check this box if you want to display featured images"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3771
+msgid "Enable Featured Image on Single Blog Posts"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3772
+msgid ""
+"Check this box if you want to display featured image on Single Blog Posts"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3783
+msgid "Hide Placeholder Thumbnail Images"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3784
+msgid "Turn on if you don't want to display placeholder thumbnail images"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3792
+msgid "Enable Hover Effect on Featured Images"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3793
+msgid "Check this box if you want to enable hover effect on featured images"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3810
+msgid "Post Format"
+msgstr "Μορφή άρθρου"
+
+#: inc/admin/customizer/customizer-options.php:3815
+msgid "Sticky Post Format Background"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3816
+msgid ""
+"Check this box if you want to enable background color for sticky post format"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3824
+msgid "Aside Post Format Background"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3825
+msgid ""
+"Check this box if you want to enable background color for aside post format"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3833
+msgid "Audio Post Format Background"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3834
+msgid ""
+"Check this box if you want to enable background color for audio post format"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3842
+msgid "Chat Post Format Background"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3843
+msgid ""
+"Check this box if you want to enable background color for chat post format"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3851
+msgid "Gallery Post Format Background"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3852
+msgid ""
+"Check this box if you want to enable background color for gallery post format"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3860
+msgid "Image Post Format Background"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3861
+msgid ""
+"Check this box if you want to enable background color for image post format"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3869
+msgid "Link Post Format Background"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3870
+msgid ""
+"Check this box if you want to enable background color for link post format"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3878
+msgid "Quote Post Format Background"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3879
+msgid ""
+"Check this box if you want to enable background color for quote post format"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3887
+msgid "Status Post Format Background"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3888
+msgid ""
+"Check this box if you want to enable background color for status post format"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3896
+msgid "Video Post Format Background"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3897
+msgid ""
+"Check this box if you want to enable background color for video post format"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3913
+msgid "Social Media Links"
+msgstr "Σύνδεσμοι Κοινωνικών Δικτύων"
+
+#: inc/admin/customizer/customizer-options.php:3918
+msgid "Enable Subscribe/Social Links in Header"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3919
+msgid "Check this box if you want to display Subscribe/Social Links in header"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3929
+msgid "Subscribe/Social Icons Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3930
+msgid "Choose the color scheme of Subscribe/Social Icons"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3947
+msgid "Subscribe/Social Icons Size"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3948
+msgid "Choose the size of Subscribe/Social Icons"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3951
+msgid "Normal"
+msgstr "Κανονικό"
+
+#: inc/admin/customizer/customizer-options.php:3952
+msgid "Small"
+msgstr "Μικρό"
+
+#: inc/admin/customizer/customizer-options.php:3953
+msgid "Large"
+msgstr "Μεγάλο"
+
+#: inc/admin/customizer/customizer-options.php:3954
+msgid "X-Large"
+msgstr "X-Large"
+
+#: inc/admin/customizer/customizer-options.php:3976
+msgid "Enable Social Media Links Border/Radius"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:3977
+msgid ""
+"Select if you want to display social links with a border, border radius or "
+"disable it"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4016
+#, php-format
+msgid "Insert custom RSS Feed URL, e.g. %1$s%2$s%3$s"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4025
+#, php-format
+msgid ""
+"Insert custom newsletter URL, e.g. %1$shttp://feedburner.google."
+"com/fb/a/mailverify?uri=Example&amp;loc=en_US%2$s"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4034
+msgid "Insert your Facebook URL"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4043
+msgid "Insert your Twitter URL"
+msgstr "Εισάγετε Twitter URL σας"
+
+#: inc/admin/customizer/customizer-options.php:4052
+msgid "Insert your Instagram URL"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4061
+msgid "Insert your Skype URL"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4070
+msgid "Insert your YouTube URL"
+msgstr "Εισαγωγή της διεύθυνσης URL του YouTube"
+
+#: inc/admin/customizer/customizer-options.php:4079
+msgid "Insert your Flickr URL"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4087
+msgid "Linkedin"
+msgstr "Linkedin"
+
+#: inc/admin/customizer/customizer-options.php:4088
+msgid "Insert your Linkedin profile URL"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4097
+msgid "Insert your Google Plus profile URL"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4106
+msgid "Insert your Pinterest profile URL"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4115
+msgid "Insert your Tumblr profile URL"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4147
+msgid "Enable Bootstrap Slider"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4148
+msgid "Check this box if you want to enable Bootstrap Slider"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4154
+msgid "Enable Bootstrap Slider On Front Page"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4155
+msgid "Check this box if you want to enable Bootstrap Slider On Front Page"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4164
+msgid "Bootstrap Slider On All Website"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4165
+msgid "Display Bootstrap Slider on all website?"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4174
+msgid "Disable Bootstrap Slides 100% Width Background"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4175
+msgid "Check this box to disable Bootstrap Slides 100% Width Background"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4183
+msgid "Speed"
+msgstr "Ταχύτητα"
+
+#: inc/admin/customizer/customizer-options.php:4184
+msgid "Input the time between transitions (Default: 7000)"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4196
+msgid "Bootstrap Slider Title and Description Font"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4205
+#: inc/admin/customizer/customizer-options.php:4520
+#: inc/admin/customizer/customizer-options.php:4861
+msgid "Slide Title Font"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4206
+#: inc/admin/customizer/customizer-options.php:4521
+#: inc/admin/customizer/customizer-options.php:4862
+msgid "Select the typography you want for the slide title"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4229
+#: inc/admin/customizer/customizer-options.php:4544
+#: inc/admin/customizer/customizer-options.php:4885
+msgid "Slide Title Font Background Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4230
+#: inc/admin/customizer/customizer-options.php:4545
+#: inc/admin/customizer/customizer-options.php:4886
+msgid "Select the background color for the slide title"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4247
+#: inc/admin/customizer/customizer-options.php:4562
+#: inc/admin/customizer/customizer-options.php:4903
+msgid "Slide Description Font"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4248
+#: inc/admin/customizer/customizer-options.php:4563
+#: inc/admin/customizer/customizer-options.php:4904
+msgid "Select the typography you want for the slide description"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4271
+#: inc/admin/customizer/customizer-options.php:4586
+#: inc/admin/customizer/customizer-options.php:4927
+msgid "Slide Description Font Background Color"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4272
+#: inc/admin/customizer/customizer-options.php:4587
+#: inc/admin/customizer/customizer-options.php:4928
+msgid "Select the background color for the slide description"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4289
+msgid "Bootstrap Slider Content Responsiveness"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4298
+#: inc/admin/customizer/customizer-options.php:4613
+#: inc/admin/customizer/customizer-options.php:4954
+msgid "Slide Title Visibility"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4299
+#: inc/admin/customizer/customizer-options.php:4614
+#: inc/admin/customizer/customizer-options.php:4955
+msgid ""
+"Choose the MINIMUM screen resolution where the slide title will be visible"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4302
+#: inc/admin/customizer/customizer-options.php:4318
+#: inc/admin/customizer/customizer-options.php:4617
+#: inc/admin/customizer/customizer-options.php:4633
+#: inc/admin/customizer/customizer-options.php:4958
+#: inc/admin/customizer/customizer-options.php:4974
+msgid "Always"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4303
+#: inc/admin/customizer/customizer-options.php:4618
+msgid "Desktop ( >= 992px ) "
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4304
+#: inc/admin/customizer/customizer-options.php:4619
+#: inc/admin/customizer/customizer-options.php:4960
+msgid "Tablet ( >= 768px )"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4305
+#: inc/admin/customizer/customizer-options.php:4620
+#: inc/admin/customizer/customizer-options.php:4961
+msgid "Phone ( >= 576px )"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4314
+#: inc/admin/customizer/customizer-options.php:4629
+#: inc/admin/customizer/customizer-options.php:4970
+msgid "Slide Title and Description Font Background Color Visibility (If Set)"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4315
+#: inc/admin/customizer/customizer-options.php:4630
+#: inc/admin/customizer/customizer-options.php:4971
+msgid ""
+"Choose the MAXIMUM screen resolution where the slide title and description "
+"background color will be visible"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4319
+#: inc/admin/customizer/customizer-options.php:4634
+msgid "Smaller Than Desktop ( <= 992px ) "
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4320
+#: inc/admin/customizer/customizer-options.php:4635
+#: inc/admin/customizer/customizer-options.php:4976
+msgid "Tablet And Smaller ( <= 768px )"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4321
+#: inc/admin/customizer/customizer-options.php:4636
+#: inc/admin/customizer/customizer-options.php:4977
+msgid "Phone And Smaller ( <= 576px )"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4330
+msgid "Bootstrap Slider Layout"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4339
+msgid "Choose Bootstrap Slider Layout Type"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4340
+msgid "Choose your Bootstrap Slider layout style"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4361
+#: inc/admin/customizer/customizer-options.php:4653
+msgid "Add Slides"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4370
+#: inc/admin/customizer/customizer-options.php:4662
+#, php-format
+msgid "Enable Slide %d"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4371
+#: inc/admin/customizer/customizer-options.php:4663
+#, php-format
+msgid "Enable or Disable Slide %d"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4378
+#, php-format
+msgid "Slide %d Image"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4379
+#: inc/admin/customizer/customizer-options.php:4671
+#, php-format
+msgid "Upload an image for the Slide %d, or specify an image URL directly"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4394
+#, php-format
+msgid "Slide %d Title"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4409
+#, php-format
+msgid "Slide %d Description"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4425
+#, php-format
+msgid "Slide %d Button"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4426
+#: inc/admin/customizer/customizer-options.php:4719
+#, php-format
+msgid ""
+"Default: %1$s<a class=\"btn d-none d-sm-inline-block\" href=\"#\">Learn "
+"more</a>%2$s"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4443
+#: inc/admin/customizer/customizer-options.php:4735
+msgid "Slides"
+msgstr "Slides"
+
+#: inc/admin/customizer/customizer-options.php:4471
+msgid "Enable Parallax Slider"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4472
+msgid "Check this box if you want to enable Parallax Slider"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4478
+msgid "Enable Parallax Slider On Front Page"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4479
+msgid "Check this box if you want to enable Parallax Slider On Front Page"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4488
+msgid "Parallax Slider on All Website"
+msgstr "Parallax Slider on All Website"
+
+#: inc/admin/customizer/customizer-options.php:4489
+msgid "Display Parallax Slider on all website?"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4498
+msgid "Parallax Speed"
+msgstr "Ταχύτητα Parallax "
+
+#: inc/admin/customizer/customizer-options.php:4499
+msgid "Input the time between transitions (Default: 4000)"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4511
+msgid "Parallax Slider Title and Description Font"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4604
+msgid "Parallax Slider Content Responsiveness"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4670
+#, php-format
+msgid "Slide %s Image"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4686
+#, php-format
+msgid "Slide %s Title"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4702
+#, php-format
+msgid "Slide %s Description"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4718
+#, php-format
+msgid "Slide %s Button"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4752
+msgid "Enable Posts Slider"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4753
+msgid "Check this box if you want to enable Posts Slider"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4759
+msgid "Enable Posts Slider On Front Page"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4760
+msgid "Check this box if you want to enable Posts Slider On Front Page"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4769
+msgid "Posts Slider on All Website"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4770
+msgid "Display Posts Slider on all website?"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4779
+msgid "Number of Posts to Display"
+msgstr "Αριθμός άρθρων που θα εμφανιστούν"
+
+#: inc/admin/customizer/customizer-options.php:4790
+msgid "Slideshow Content"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4791
+msgid "Choose to display latest posts or posts of a category"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4794
+msgid "Recent Posts"
+msgstr "Πρόσφατα άρθρα"
+
+#: inc/admin/customizer/customizer-options.php:4795
+msgid "Posts in Category"
+msgstr "Άρθρα στην κατηγορία"
+
+#: inc/admin/customizer/customizer-options.php:4804
+msgid "Category Name(s)"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4805
+msgid "Select post categories as content for the posts slideshow"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4815
+msgid "Slider Speed"
+msgstr "Ταχύτητα Slide"
+
+#: inc/admin/customizer/customizer-options.php:4816
+msgid "Input the time between transitions (Default: 3500)"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4828
+msgid "Slide Title Max Length"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4829
+msgid "Sets the length of Slide Title. Default is 40"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4840
+msgid "Slide Excerpt Max Length"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4841
+msgid "Sets the length of Slide Excerpt. Default is 40"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4852
+msgid "Posts Slider Title and Description Font"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4945
+msgid "Posts Slider Content Responsiveness"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4959
+msgid "Desktop ( >= 992px )"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4975
+msgid "Smaller Than Desktop ( <= 992px )"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:4994
+msgid "Extra"
+msgstr "Επιπλέον"
+
+#: inc/admin/customizer/customizer-options.php:4999
+msgid "Position of 'Back to Top' Button"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:5005
+msgid "Middle"
+msgstr "Μέση"
+
+#: inc/admin/customizer/customizer-options.php:5011
+msgid "Enable Edit Post/Page Link on The Front End"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:5012
+msgid "Check this box if you want to display edit post/page link"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:5018
+msgid "Disable Font Awesome"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:5019
+msgid "Check the box to disable Font Awesome"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:5025
+msgid "Disable Font Awesome Conversion From Version 4 to 5"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:5026
+msgid ""
+"Check the box to disable Font Awesome conversion from version 4 to 5 if you "
+"update the icons manually"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:5048
+msgid "Disable WooCommerce Shop Page Ordering Boxes"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:5049
+msgid "Check the box to disable the ordering boxes displayed on the shop page"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:5057
+msgid "Show WooCommerce Order Notes on Checkout"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:5058
+msgid "Check the box to show the order notes on the checkout page"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:5066
+msgid "Show WooCommerce My Account Link in Header"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:5067
+msgid "Check the box to show My Account link, uncheck to disable"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:5075
+msgid "Show WooCommerce Cart Link in Header"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:5076
+msgid "Check the box to show the Cart icon, uncheck to disable"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:5084
+msgid "Account Area Message 1"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:5085
+msgid ""
+"Insert your text and it will appear in the first message box on the account "
+"page"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:5085
+msgid "Insert e.g.: Call us - <i class=\"fa fa-phone\"></i> 7438 882 764"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:5092
+msgid "Account Area Message 2"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:5093
+msgid ""
+"Insert your text and it will appear in the second message box on the account "
+"page"
+msgstr ""
+
+#: inc/admin/customizer/customizer-options.php:5093
+msgid ""
+"Insert e.g.: Email us - <i class=\"fa fa-envelope\"></i> contact@example.com"
+msgstr ""
+
+#: inc/admin/customizer/customizer.php:117
+msgid "No categories found"
+msgstr ""
+
+#: inc/admin/customizer/customizer.php:122
+#: inc/admin/customizer/customizer.php:135
+msgid "Blog/Page Content (REORDER ONLY)"
+msgstr ""
+
+#: inc/admin/customizer/customizer.php:127
+#: inc/admin/customizer/customizer.php:140
+msgid "Counter Circles"
+msgstr ""
+
+#: inc/admin/customizer/customizer.php:186
+#: inc/admin/customizer/customizer.php:216
+#: inc/admin/metaboxes/page-tabs/tab-slider.php:4
+msgid "Default"
+msgstr "Προεπιλεγμένο"
+
+#: inc/admin/customizer/customizer.php:212
+msgid "All"
+msgstr "Όλα"
+
+#: inc/admin/customizer/customizer.php:522
+#: inc/admin/customizer/customizer.php:540
+#: inc/admin/customizer/customizer.php:554
+#: inc/admin/customizer/customizer.php:564
+#: inc/admin/customizer/customizer.php:578
+#: inc/admin/customizer/customizer.php:597
+#: inc/admin/customizer/customizer.php:606
+#: inc/admin/customizer/customizer.php:622
+#: inc/admin/customizer/customizer.php:641
+#: inc/admin/customizer/customizer.php:655
+#: inc/admin/customizer/customizer.php:664
+#: inc/admin/customizer/customizer.php:678
+#: inc/admin/customizer/customizer.php:698
+#: inc/admin/customizer/customizer.php:706
+msgid "Bootstrap Slider (ACTIVE)"
+msgstr ""
+
+#: inc/admin/customizer/customizer.php:1250
+msgid "Upgrade to premium"
+msgstr ""
+
+#: inc/admin/metaboxes/metaboxes.php:23
+msgid "Post Options"
+msgstr ""
+
+#: inc/admin/metaboxes/metaboxes.php:24
+msgid "Page Options"
+msgstr ""
+
+#: inc/admin/metaboxes/metaboxes.php:25
+msgid "Product Options"
+msgstr ""
+
+#: inc/admin/metaboxes/metaboxes.php:268
+msgid "Upload"
+msgstr "Μεταφόρτωση"
+
+#: inc/admin/metaboxes/metaboxes.php:269
+msgid "Remove"
+msgstr "Αφαίρεση"
+
+#: inc/admin/metaboxes/metaboxes.php:278
+msgid "Layout"
+msgstr "Διάταξη"
+
+#: inc/admin/metaboxes/metaboxes.php:281
+msgid "Slider"
+msgstr "Slider"
+
+#: woocommerce/single-product/add-to-cart/variable.php:34
+msgid "This product is currently out of stock and unavailable."
+msgstr "Αυτό το προϊόν είναι εξαντλημένο και μή διαθέσιμο αυτή τη στιγμή."
+
+#: woocommerce/single-product/add-to-cart/variable.php:52
+msgid "Clear"
+msgstr "Εκκαθάριση"
+
+#: woocommerce/single-product/tabs/description.php:15
+msgid "Product description"
+msgstr "Περιγραφή προϊόντος"
+
+#: inc/admin/metaboxes/page-tabs/tab-header.php:3
+msgid "Enable Header Widgets"
+msgstr ""
+
+#: inc/admin/metaboxes/page-tabs/tab-header.php:4
+#: inc/admin/metaboxes/page-tabs/tab-layout.php:16
+msgid "No"
+msgstr "Όχι"
+
+#: inc/admin/metaboxes/page-tabs/tab-header.php:5
+#: inc/admin/metaboxes/page-tabs/tab-layout.php:17
+msgid "Yes"
+msgstr "Ναι"
+
+#: inc/admin/metaboxes/page-tabs/tab-layout.php:5
+msgid "Sidebar Position"
+msgstr "Θέση Πλευρικής Στήλης"
+
+#: inc/admin/metaboxes/page-tabs/tab-layout.php:5
+msgid "Use this setting to select and set position of sidebar"
+msgstr ""
+
+#: inc/admin/metaboxes/page-tabs/tab-layout.php:5
+#, php-format
+msgid ""
+"If \"No Sidebar\" is selected, this layout will follow the settings of "
+"%1$sCustomize -> General -> Select General Layout%2$s"
+msgstr ""
+
+#: inc/admin/metaboxes/page-tabs/tab-layout.php:15
+msgid "Full Width"
+msgstr "Πλήρες πλάτος"
+
+#: inc/admin/metaboxes/page-tabs/tab-layout.php:15
+#, php-format
+msgid ""
+"If setting Full Width, please set the above Sidebar Position to %1$sNo "
+"Sidebar%2$s"
+msgstr ""
+
+#: inc/admin/metaboxes/page-tabs/tab-pagetitlebar.php:3
+msgid "Page Title"
+msgstr "Τίτλο σελίδας"
+
+#: inc/admin/metaboxes/page-tabs/tab-pagetitlebar.php:5
+#: inc/admin/metaboxes/page-tabs/tab-pagetitlebar.php:10
+msgid "Hide"
+msgstr "Απόκρυψη"
+
+#: inc/admin/metaboxes/page-tabs/tab-pagetitlebar.php:8
+msgid "Page Breadcrumb"
+msgstr "Διαδρομή σελίδας"
+
+#: inc/admin/metaboxes/page-tabs/tab-slider.php:3
+msgid "Slider Position"
+msgstr "Θέση slider"
+
+#: inc/admin/metaboxes/page-tabs/tab-slider.php:3
+msgid ""
+"Select if the slider shows below or above the header. This only works for "
+"the slider assigned in page options, not with shortcodes"
+msgstr ""
+
+#: inc/admin/metaboxes/page-tabs/tab-slider.php:5
+msgid "Below"
+msgstr "Κάτω"
+
+#: inc/admin/metaboxes/page-tabs/tab-slider.php:6
+msgid "Above"
+msgstr "Πάνω"
+
+#: inc/admin/metaboxes/page-tabs/tab-slider.php:10
+msgid "Slider Type"
+msgstr ""
+
+#: inc/admin/metaboxes/page-tabs/tab-slider.php:11
+msgid "No Slider"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"evolve by Theme4Press is an eye-catching and minimal WordPress theme built "
+"for web enthusiasts who like effective yet sweet website. It's based on two "
+"solid frameworks - Twitter Bootstrap and Kirki framework with focus on "
+"details and usability which move this theme to the next level, we are not "
+"afraid to say to PREMIUM one. Standard of this theme is not only settings of "
+"many theme options but its flexibility which let you build any website of "
+"your needs - if it's just a blog, e-shop, magazine or any business page. "
+"With the front page DRAG &amp; DROP builder you can create new beautiful "
+"websites within few minutes. *** IMPORTANT: Please read the CHANGELOG.txt "
+"file for any important changes before you always update the theme! ***"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://theme4press.com/evolve-multipurpose-wordpress-theme/"
+msgstr "https://theme4press.com/evolve-multipurpose-wordpress-theme/"
+
+#. Author of the plugin/theme
+msgid "Theme4Press"
+msgstr "Theme4Press"
+
+#. Author URI of the plugin/theme
+msgid "http://theme4press.com"
+msgstr "http://theme4press.com"

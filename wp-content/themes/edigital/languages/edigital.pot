@@ -1,0 +1,1009 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2018-02-07 08:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: 404.php:19
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid "404"
+msgstr ""
+
+#: 404.php:21
+msgid "error"
+msgstr ""
+
+#: 404.php:23
+msgid ""
+"It looks like nothing was found at this location. Maybe try to a search?"
+msgstr ""
+
+#. 1: title.
+#: comments.php:36
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:42
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:52 comments.php:73
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:55 comments.php:76
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:56 comments.php:77
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:90
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:42
+#, php-format
+msgid " | Theme: %1$s by %2$s."
+msgstr ""
+
+#. Author URI of the theme
+#: footer.php:42
+msgid "https://mysterythemes.com"
+msgstr ""
+
+#: functions.php:61
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:62
+msgid "Footer Menu"
+msgstr ""
+
+#: header.php:27
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:89
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: header.php:92
+msgid "Blog"
+msgstr ""
+
+#: inc/edigital-functions.php:66
+msgid "Select Category"
+msgstr ""
+
+#: inc/edigital-functions.php:86
+msgid "Select Pages"
+msgstr ""
+
+#: inc/template-tags.php:30
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:35
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#: inc/template-tags.php:42
+msgid "0 "
+msgstr ""
+
+#: inc/template-tags.php:42
+msgid "1 "
+msgstr ""
+
+#: inc/template-tags.php:42
+msgid "% "
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:57 inc/template-tags.php:63
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:59
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:65
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:72
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:79 template-parts/content-page.php:32
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#. translators: %s: Name of current post.
+#: template-parts/content-archive.php:33 template-parts/content-single.php:28
+#: template-parts/content.php:37
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/content-archive.php:38 template-parts/content-page.php:21
+#: template-parts/content-single.php:33 template-parts/content.php:42
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-none.php:16
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:23
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:27
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:33
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. Name of the template
+msgid "Home Page"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:33 inc/about-theme/edigital-about.php:110
+msgid "About"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:33
+msgid "Welcom"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:69
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:73
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:87
+msgid "Dismiss"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:88
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing EDigital! To fully take advantage of the "
+"best our theme can offer please make sure you visit our %1$s welcome page "
+"%2$s."
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:90
+msgid "Get started with edigital"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:125
+msgid "Theme Info"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:127
+msgid "View Demo"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:129
+#: inc/about-theme/edigital-about.php:202
+msgid "View PRO version"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:131
+msgid "Rate this theme"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:140
+msgid "Free Vs Pro"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:144
+msgid "More Themes"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:148
+msgid "Changelog"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:182
+msgid "Theme Customizer"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:183
+msgid "All Theme Options are available via Customize screen."
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:184
+#: inc/about-theme/edigital-about.php:279
+msgid "Customize"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:188
+#: inc/about-theme/edigital-about.php:190
+msgid "Documentation"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:189
+msgid "Please view our documentation page to setup the theme."
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:194
+msgid "Got theme support question?"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:195
+msgid "Please put it in our dedicated support forum."
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:196
+msgid "Support"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:200
+msgid "Need more features?"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:201
+#: inc/about-theme/edigital-about.php:441
+msgid "Upgrade to PRO version for more exciting features."
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:206
+msgid "Have you need customization?"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:207
+msgid "Please send message with your requirement."
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:208
+msgid "Customization"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:214
+#: inc/about-theme/edigital-about.php:222
+msgid "Translate"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:218
+msgid "Click below to translate this theme into your own language."
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:234
+msgid "Return to Updates"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:234
+msgid "Return to Dashboard &rarr; Updates"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:237
+msgid "Go to Dashboard &rarr; Home"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:237
+msgid "Go to Dashboard"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:277
+msgid "Active"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:315
+msgid "Activate"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:324
+msgid "Install Now"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:327
+msgid "Live Preview"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:389
+msgid "View changelog below:"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:446
+msgid "Features"
+msgstr ""
+
+#. Name of the theme
+#: inc/about-theme/edigital-about.php:447
+msgid "EDigital"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:448 inc/customizer/customizer.php:46
+msgid "EDigital Pro"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:453
+msgid "Price"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:454
+msgid "Free"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:455
+msgid "$55"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:458
+msgid "Import Demo Data"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:463
+msgid "WooCommerce Plugin Compatible"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:468
+msgid "Easy Digital Download Plugin Compatible"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:473
+msgid "Top Header Section"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:478
+msgid "Ticker Section"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:483
+msgid "Pre Loaders"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:488
+msgid "Header Layouts"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:489
+msgid "1"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:490
+msgid "3"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:493
+#: inc/customizer/additional-panel.php:115
+msgid "Header Sticky"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:498
+msgid "Google Fonts"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:500
+msgid "600+"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:503
+msgid "Typography Options"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:508
+#: inc/about-theme/edigital-about.php:513
+msgid "No. of Widgets"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:509
+#: inc/about-theme/edigital-about.php:514
+msgid "7"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:510
+msgid "11"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:515
+msgid "14"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:518
+msgid "Footer Widget Area"
+msgstr ""
+
+#: inc/about-theme/edigital-about.php:527
+msgid "View Pro"
+msgstr ""
+
+#: inc/customizer/additional-panel.php:32
+msgid "Additional Settings"
+msgstr ""
+
+#: inc/customizer/additional-panel.php:44
+msgid "Social Icons"
+msgstr ""
+
+#: inc/customizer/additional-panel.php:56
+msgid "Facebook"
+msgstr ""
+
+#: inc/customizer/additional-panel.php:57
+msgid "Twitter"
+msgstr ""
+
+#: inc/customizer/additional-panel.php:58
+msgid "Linkedin"
+msgstr ""
+
+#: inc/customizer/additional-panel.php:59
+msgid "Pinterest"
+msgstr ""
+
+#: inc/customizer/additional-panel.php:60
+msgid "Google Plus"
+msgstr ""
+
+#: inc/customizer/additional-panel.php:61
+msgid "Youtube"
+msgstr ""
+
+#: inc/customizer/additional-panel.php:92
+msgid "Header Settings"
+msgstr ""
+
+#: inc/customizer/additional-panel.php:116
+msgid "Enable/Disable header sticky option."
+msgstr ""
+
+#: inc/customizer/additional-panel.php:119
+msgid "Enable"
+msgstr ""
+
+#: inc/customizer/additional-panel.php:120
+msgid "Disable"
+msgstr ""
+
+#: inc/customizer/customizer-classes.php:23
+msgid "&mdash; Select Category &mdash;"
+msgstr ""
+
+#: inc/customizer/customizer-sanitize.php:22
+#: inc/customizer/general-panel.php:114
+msgid "FullWidth Layout"
+msgstr ""
+
+#: inc/customizer/customizer-sanitize.php:23
+#: inc/customizer/general-panel.php:115
+msgid "Boxed Layout"
+msgstr ""
+
+#: inc/customizer/customizer-sanitize.php:35 inc/customizer/footer-panel.php:72
+#: inc/customizer/footer-panel.php:101 inc/customizer/frontpage-panel.php:68
+msgid "Show"
+msgstr ""
+
+#: inc/customizer/customizer-sanitize.php:36 inc/customizer/footer-panel.php:73
+#: inc/customizer/footer-panel.php:102 inc/customizer/frontpage-panel.php:69
+msgid "Hide"
+msgstr ""
+
+#: inc/customizer/customizer.php:47
+msgid "Buy Pro"
+msgstr ""
+
+#: inc/customizer/footer-panel.php:33 inc/customizer/footer-panel.php:45
+msgid "Footer Settings"
+msgstr ""
+
+#: inc/customizer/footer-panel.php:68
+msgid "Footer Logo"
+msgstr ""
+
+#: inc/customizer/footer-panel.php:69
+msgid "Show/hide site logo in footer section."
+msgstr ""
+
+#: inc/customizer/footer-panel.php:97
+msgid "Social Media"
+msgstr ""
+
+#: inc/customizer/footer-panel.php:98
+msgid "Show/hide social media icons in footer section."
+msgstr ""
+
+#: inc/customizer/footer-panel.php:117
+msgid "2017 Edigital"
+msgstr ""
+
+#: inc/customizer/footer-panel.php:126
+msgid "Copyright Text"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:28
+msgid "FrontPage Settings"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:41
+msgid "Slider Settings"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:64
+msgid "Slider Section"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:65
+msgid "Enable/Disable slider section at homepage."
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:94
+msgid "Slider Category"
+msgstr ""
+
+#: inc/customizer/frontpage-panel.php:95
+msgid "Select category for Homepage slider"
+msgstr ""
+
+#: inc/customizer/general-panel.php:37
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer/general-panel.php:63
+msgid "Theme Skin Color"
+msgstr ""
+
+#: inc/customizer/general-panel.php:64
+msgid "Choose website skin color from available options."
+msgstr ""
+
+#: inc/customizer/general-panel.php:68
+msgid "Skin 1"
+msgstr ""
+
+#: inc/customizer/general-panel.php:72
+msgid "Skin 2"
+msgstr ""
+
+#: inc/customizer/general-panel.php:76
+msgid "Skin 3"
+msgstr ""
+
+#: inc/customizer/general-panel.php:92
+msgid "Website Layout"
+msgstr ""
+
+#: inc/customizer/general-panel.php:93
+msgid "Choose site layout which shows your website more effective."
+msgstr ""
+
+#: inc/customizer/general-panel.php:111
+msgid "Site Layout"
+msgstr ""
+
+#: inc/customizer/innerpages-panel.php:36
+msgid "InnerPages Settings"
+msgstr ""
+
+#: inc/customizer/innerpages-panel.php:48
+msgid "Archive Settings"
+msgstr ""
+
+#: inc/customizer/innerpages-panel.php:70
+msgid "Archive Sidebars"
+msgstr ""
+
+#: inc/customizer/innerpages-panel.php:71
+#: inc/customizer/innerpages-panel.php:128
+#: inc/customizer/innerpages-panel.php:184
+msgid "Choose sidebar from available layouts"
+msgstr ""
+
+#: inc/customizer/innerpages-panel.php:75
+#: inc/customizer/innerpages-panel.php:132
+#: inc/customizer/innerpages-panel.php:188
+#: inc/metaboxes/edigital-post-metabox.php:43
+#: inc/widgets/edigital-widget-functions.php:24
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/customizer/innerpages-panel.php:79
+#: inc/customizer/innerpages-panel.php:136
+#: inc/customizer/innerpages-panel.php:192
+#: inc/metaboxes/edigital-post-metabox.php:49
+#: inc/widgets/edigital-widget-functions.php:14
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/customizer/innerpages-panel.php:83
+#: inc/customizer/innerpages-panel.php:140
+#: inc/customizer/innerpages-panel.php:196
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer/innerpages-panel.php:87
+#: inc/customizer/innerpages-panel.php:144
+#: inc/customizer/innerpages-panel.php:200
+msgid "No Sidebar Center"
+msgstr ""
+
+#: inc/customizer/innerpages-panel.php:105
+msgid "Page Settings"
+msgstr ""
+
+#: inc/customizer/innerpages-panel.php:127
+msgid "Page Sidebars"
+msgstr ""
+
+#: inc/customizer/innerpages-panel.php:161
+msgid "Post Settings"
+msgstr ""
+
+#: inc/customizer/innerpages-panel.php:183
+msgid "Post Sidebars"
+msgstr ""
+
+#: inc/metaboxes/edigital-post-metabox.php:14
+#: inc/metaboxes/edigital-post-metabox.php:22
+msgid "Sidebar Layouts"
+msgstr ""
+
+#: inc/metaboxes/edigital-post-metabox.php:37
+msgid "Default Sidebar"
+msgstr ""
+
+#: inc/metaboxes/edigital-post-metabox.php:55
+msgid "No Sidebar Full Width"
+msgstr ""
+
+#: inc/metaboxes/edigital-post-metabox.php:61
+msgid "No Sidebar Content Centered"
+msgstr ""
+
+#: inc/tgm/edigital-tgm.php:63
+msgid "Easy Digital Downloads"
+msgstr ""
+
+#: inc/tgm/edigital-tgm.php:91
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/tgm/edigital-tgm.php:92
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/tgm/edigital-tgm.php:93
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#. %s: plugin name.
+#: inc/tgm/edigital-tgm.php:94
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#. %s: plugin name.
+#: inc/tgm/edigital-tgm.php:95
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: inc/tgm/edigital-tgm.php:96
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/edigital-tgm.php:101
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/edigital-tgm.php:106
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/edigital-tgm.php:111
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/edigital-tgm.php:116
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/edigital-tgm.php:121
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/edigital-tgm.php:126
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/edigital-tgm.php:131
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/edigital-tgm.php:136
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/tgm/edigital-tgm.php:141
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: inc/tgm/edigital-tgm.php:142
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: inc/tgm/edigital-tgm.php:143
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: inc/tgm/edigital-tgm.php:144
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: inc/tgm/edigital-tgm.php:145
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: inc/tgm/edigital-tgm.php:146
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: inc/tgm/edigital-tgm.php:147
+msgid "Dismiss this notice"
+msgstr ""
+
+#: inc/tgm/edigital-tgm.php:148
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: inc/tgm/edigital-tgm.php:149
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: inc/widgets/edigital-call-to-action.php:24
+msgid "Display content as Call To Action."
+msgstr ""
+
+#: inc/widgets/edigital-call-to-action.php:26
+msgid "EDigital: Call To Action"
+msgstr ""
+
+#: inc/widgets/edigital-call-to-action.php:39
+#: inc/widgets/edigital-testimonials.php:53
+msgid "Section Background Image"
+msgstr ""
+
+#: inc/widgets/edigital-call-to-action.php:45
+msgid "Section Content"
+msgstr ""
+
+#: inc/widgets/edigital-call-to-action.php:52
+msgid "Section Button Text"
+msgstr ""
+
+#: inc/widgets/edigital-call-to-action.php:58
+msgid "Section Button Url"
+msgstr ""
+
+#: inc/widgets/edigital-featured-products.php:24
+msgid "To show featured products of EDD."
+msgstr ""
+
+#: inc/widgets/edigital-featured-products.php:26
+msgid "EDigital: Featured Products"
+msgstr ""
+
+#: inc/widgets/edigital-featured-products.php:36
+msgid "Select EDD Category"
+msgstr ""
+
+#: inc/widgets/edigital-featured-products.php:45
+#: inc/widgets/edigital-latest-blog.php:41
+#: inc/widgets/edigital-latest-products.php:39
+#: inc/widgets/edigital-service-section.php:41
+#: inc/widgets/edigital-testimonials.php:40
+msgid "Section Title"
+msgstr ""
+
+#: inc/widgets/edigital-featured-products.php:51
+#: inc/widgets/edigital-latest-blog.php:47
+#: inc/widgets/edigital-latest-products.php:45
+#: inc/widgets/edigital-service-section.php:47
+#: inc/widgets/edigital-testimonials.php:46
+msgid "Section Info"
+msgstr ""
+
+#: inc/widgets/edigital-featured-products.php:58
+#: inc/widgets/edigital-service-section.php:54
+#: inc/widgets/edigital-testimonials.php:59
+msgid "Section Category"
+msgstr ""
+
+#: inc/widgets/edigital-featured-products.php:66
+#: inc/widgets/edigital-latest-blog.php:61
+#: inc/widgets/edigital-service-section.php:62
+msgid "Section Post Count"
+msgstr ""
+
+#. if the download has variable prices, show the first one as a starting price
+#: inc/widgets/edigital-featured-products.php:153
+#: inc/widgets/edigital-latest-products.php:114
+msgid "Starting at: "
+msgstr ""
+
+#: inc/widgets/edigital-latest-blog.php:24
+msgid "This widget shows the latest posts from selected categories."
+msgstr ""
+
+#: inc/widgets/edigital-latest-blog.php:26
+msgid "EDigital: Latest Blog"
+msgstr ""
+
+#: inc/widgets/edigital-latest-blog.php:54
+msgid "Section Categories"
+msgstr ""
+
+#: inc/widgets/edigital-latest-blog.php:68
+msgid "Section button text"
+msgstr ""
+
+#: inc/widgets/edigital-latest-blog.php:93
+msgid "Read More"
+msgstr ""
+
+#: inc/widgets/edigital-latest-products.php:24
+msgid "This widget shows the latest Products available in store."
+msgstr ""
+
+#: inc/widgets/edigital-latest-products.php:26
+msgid "EDigital: Latest Products"
+msgstr ""
+
+#: inc/widgets/edigital-service-section.php:24
+msgid "Display posts from selected category as grid view."
+msgstr ""
+
+#: inc/widgets/edigital-service-section.php:26
+msgid "EDigital: Service Section"
+msgstr ""
+
+#: inc/widgets/edigital-single-page.php:24
+msgid "This widget shows the whole content from selected page."
+msgstr ""
+
+#: inc/widgets/edigital-single-page.php:26
+msgid "EDigital: Single Page"
+msgstr ""
+
+#: inc/widgets/edigital-single-page.php:41
+msgid "Section Page"
+msgstr ""
+
+#: inc/widgets/edigital-single-page.php:49
+msgid "Use featured image"
+msgstr ""
+
+#: inc/widgets/edigital-testimonials.php:23
+msgid ""
+"This widget for showing posts from selected category as testimonials layout."
+msgstr ""
+
+#: inc/widgets/edigital-testimonials.php:25
+msgid "Edigital: Testimonials"
+msgstr ""
+
+#: inc/widgets/edigital-widget-fields.php:151
+msgid "No image selected"
+msgstr ""
+
+#: inc/widgets/edigital-widget-fields.php:158
+msgid "Remove"
+msgstr ""
+
+#: inc/widgets/edigital-widget-fields.php:159
+msgid "Select Image"
+msgstr ""
+
+#: inc/widgets/edigital-widget-functions.php:16
+#: inc/widgets/edigital-widget-functions.php:26
+#: inc/widgets/edigital-widget-functions.php:36
+msgid "Add widgets here."
+msgstr ""
+
+#: inc/widgets/edigital-widget-functions.php:34
+msgid "Home Page Fullwidth Area"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Edigital is a Multipurpose theme mainly designed for Easy Digital Downloads "
+"Plugin. This theme allows you to sell digital products utilizing very "
+"popular Easy Digital Downloads plugin, you can sell anything digital "
+"including items such as stock photos, plugins, softwares, audio files , "
+"videos, music, digital art such as icons, templates, themes, or photos etc."
+"You can also use this theme as a business or blogging theme. Get free "
+"support at https://mysterythemes.com/support/forum/themes/free-themes/ , "
+"check the docs at http://docs.mysterythemes.com/edigital/ and check the demo "
+"at http://demo.mysterythemes.com/edigital/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://mysterythemes.com/wp-themes/edigital/"
+msgstr ""
+
+#. Author of the theme
+msgid "Mystery Themes"
+msgstr ""

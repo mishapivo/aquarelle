@@ -1,0 +1,163 @@
+@import "color-variables";
+
+.top-header,
+.tabs,
+.slick-dots li.slick-active button:before,
+.btn:hover,
+.btn-large:hover,
+button:hover,
+input[type=submit]:hover,
+footer.page-footer,
+.btn,
+.btn-large,
+button,
+input[type=submit],
+span.badge, .slick-prev, .slick-next, .widget .tagcloud a, footer.page-footer .footer-widget-area, .category-sticky:before{
+	background: $aspalt-primary;
+}
+a,
+nav.main-navigation ul a:hover,
+nav.main-navigation ul a:focus,
+.slick-dots li button:before,
+nav.main-navigation ul li:hover a,
+nav.main-navigation ul li.active a,
+.card h2 a:hover,
+.card h2 a:focus,
+#nav-search #search_submit,
+.sec-sidebar .widget a:hover, .sec-sidebar .widget a:focus,
+footer .widget .tagcloud a:hover, footer .widget .tagcloud a:focus,
+.nav-links .nav-previous a:hover, .nav-links .nav-previous a:focus, .nav-links .nav-next a:hover, .nav-links .nav-previous a:hover,
+.author-links a:hover, .author-links a:focus,
+.card .card-image .card-title,
+.card .card-gallery .card-title,
+.widget ul.menu li a:hover, .widget ul.menu li a:focus, {
+	color: $aspalt-primary;
+}
+nav.main-navigation .site-logo-link{
+    a{
+        color: $aspalt-primary;
+        &:hover, &:focus{
+            color: $aspalt-secondary;
+        }
+    }
+}
+.slick-dots li button:before,
+blockquote,
+.card .card-quote blockquote{
+	border-color: $aspalt-primary;
+}
+.category-sticky:after{
+    border-left-color: $aspalt-primary;
+    border-right-color: $aspalt-primary;
+}
+footer.page-footer .footer-copyright,
+.btn:hover,
+.btn-large:hover,
+button:hover,
+button:focus,
+input[type=submit]:hover,
+nav.main-navigation ul li:hover,
+nav.main-navigation ul li.active,{
+	background: $aspalt-secondary;
+}
+.tabs .indicator{
+    background: darken($aspalt-secondary, 7%);
+}
+nav.main-navigation ul li:hover a,
+nav.main-navigation ul li.active a,
+nav.main-navigation ul ul.dropdown-content li:hover > a,
+nav.main-navigation ul ul.dropdown-content li:focus > a,
+nav.main-navigation ul li:hover #nav-search #search_submit,
+nav.main-navigation ul li:focus #nav-search #search_submit,
+nav.main-navigation ul li.active #nav-search #search_submit, .widget .tagcloud a:hover, .widget .tagcloud a:focus,
+{
+	color: $white-color;
+}
+nav.main-navigation ul.side-nav li.active ul li a{
+    color: $nav_color;
+}
+nav.main-navigation ul.side-nav li.active ul li a:hover{
+    color: $white-color;
+}
+.to-top:before{
+	border-bottom-color: $aspalt-secondary;
+}
+.top-nav{
+    li{
+        &:hover, &:focus{
+            background: darken($aspalt-secondary, 10%);
+        }
+    }
+    li.current-menu-item{
+        background: darken($aspalt-secondary, 10%);
+        a{
+            color: $white_color;
+        }
+    }
+}
+footer{
+    button, .btn, btn-large, input[type=submit]{
+        background: $white-color;
+        color: $aspalt-primary;
+        &:hover, &:focus{
+            background: darken($white_color, 20%);
+            color: $white-color;
+        }
+    }
+    .widget{
+        ul, ul.menu{
+            li.current-cat, li.current-menu-item{
+                a{
+                    color: darken($aspalt-secondary, 10%);
+                    &:hover, &:focus{
+                        color: darken($aspalt-secondary, 10%);
+                    }
+                }
+            }
+            li{
+                a{
+                    color: $white_color;
+                    &:hover, &:focus{
+                        color: darken($aspalt-secondary, 10%);
+                    }
+                }
+            }
+            a{
+                color: $white_color;
+                &:hover, &:focus{
+                    color: darken($aspalt-secondary, 10%);
+                }
+            }
+        }
+        a{
+        color: $white_color;
+            &:hover, &:focus{
+                color: darken($aspalt-secondary, 10%);
+            }
+        }
+    }
+    a{
+        color: $white_color;
+        &:hover, &:focus{
+            color: darken($aspalt-secondary, 10%);
+        }
+    }
+
+}
+.mm-menu{
+    background: $aspalt-primary;
+}
+.mm-panel .mm-listview{
+    li{
+        background: $aspalt-primary;
+        a{
+            color: #fff;
+        }
+        &:hover, &:focus{
+            background: $aspalt-secondary;
+        }
+    }
+    li.current-menu-item{
+        background: $aspalt-secondary;
+    }
+}

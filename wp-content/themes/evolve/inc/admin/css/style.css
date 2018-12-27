@@ -1,0 +1,148 @@
+#poststuff .evolve-metabox h3 {
+    background-color: #fbeba4;
+    border: 1px solid #d7c281;
+    border-radius: 3px;
+    color: #000;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 13px 10px;
+}
+
+.evolve-metabox {
+    padding: 10px 10px 0 10px;
+}
+
+.evolve-metabox-field {
+    margin-bottom: 15px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.evolve-metabox-field label {
+    display: block;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 4px;
+}
+
+.evolve-metabox-field input[type=text],
+.evolve-metabox-field select,
+.evolve-metabox-field textarea {
+    width: calc(100% - 2px);
+}
+
+.evolve-metabox-field .no-float-images .evolve-radio {
+    clear: both;
+    float: left;
+}
+
+span.description {
+    color: #555d66;
+    display: block;
+    font-style: normal;
+    line-height: 18px;
+    margin: 0 0 5px;
+}
+
+.evolve-metabox-tabs i {
+    line-height: .8em;
+    margin-right: .5rem;
+    vertical-align: middle;
+}
+
+.evolve-postbox .inside {
+    margin: 0;
+    padding: 0;
+}
+
+#poststuff .evolve-postbox .inside {
+    margin: 0;
+}
+
+.evolve-metabox-tabs {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.evolve-metabox-tabs li {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.evolve-metabox-tabs li a {
+    background: #f3f3f3;
+    color: #999;
+    display: block;
+    font-size: .8rem;
+    font-weight: 600;
+    padding: 15px 8px 15px 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.evolve-metabox-tabs li.active a,
+.evolve-metabox-tabs li.active a:hover {
+    background-color: #fff;
+    color: #333;
+}
+
+.evolve-metabox-tabs li a:hover {
+    color: #333;
+}
+
+.evolve-metabox-tabs li a:focus {
+    box-shadow: none;
+}
+
+.evolve-metabox-content {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    float: left;
+}
+
+.evolve-metabox-tab.active {
+    display: block;
+}
+
+.evolve-metabox-tab {
+    display: none;
+}
+
+[class^="evolve-img-selected"],
+[class*=" evolve-img-selected"] {
+    border: 1px solid #3498db;
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
+    -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
+}
+
+.evolve-radio {
+    cursor: pointer;
+    margin: 6px;
+}
+
+.evolve-metabox .hidden {
+    display: none;
+}
+
+@media (max-width: 781.98px) {
+    .evolve-metabox-tabs,
+    .evolve-metabox-content {
+        width: 100%;
+    }
+}
+
+@media (min-width: 782px) {
+    .evolve-metabox-tabs {
+        width: 28%;
+    }
+
+    .evolve-metabox-content {
+        margin: 0 1%;
+        width: 70%;
+    }
+}

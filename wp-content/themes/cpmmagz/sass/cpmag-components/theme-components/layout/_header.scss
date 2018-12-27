@@ -1,0 +1,128 @@
+.top-header{
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+	.no-container{
+		display: block;
+		padding: 0 2rem;
+	}
+}
+.nav-wrapper.no-container{
+	display: block;
+	padding: 0 2rem;
+}
+header.site-header{
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+	z-index: 99999;
+	position: relative;
+	a{
+		transition: none;
+	}
+	.site-title{
+		margin: 0 auto;
+		overflow: hidden;
+    	white-space: nowrap;
+    	text-overflow: clip;
+		font-size: 1.8rem;
+		a{
+			line-height: 82px;
+		}
+	}
+	&.fixed-header{
+		.main-navigation{
+			-webkit-transition: all 0.6s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+		    -moz-transition: all 0.6s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+		    -ms-transition: all 0.6s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+		    -o-transition: all 0.6s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+		    transition: all 0.6s cubic-bezier(0.000, 0.795, 0.000, 1.000);
+			position: fixed;
+			top: 0;
+			width: 100%;
+			left: 0;
+			height: 70px;
+    		line-height: 70px;
+    		.nav-wrapper{
+				background-color: none;
+    			i{
+    				height: 70px;
+    				line-height: 70px;
+    			}
+    			.dropdown-content li > a > i{
+    				height: inherit;
+    				line-height: inherit;
+    			}
+    		}
+    		.site-title{
+				margin: 0 auto;
+				a{
+					line-height: 70px;
+				}
+			}
+		}
+	}
+
+}
+.admin-bar{
+	.fixed-header{
+		.main-navigation{
+			top: 32px!important;
+			@include media("(max-width: 782px)"){
+		        top: 46px!important;
+		    }
+			@include media("(max-width: 600px)"){
+		        top: 0!important;
+		    }
+		}
+	}
+}
+@include media("(max-width: 600px)"){
+    .admin-bar{
+	    header.site-header{
+	    	padding-top: 46px;
+	    }
+	}
+}
+.post-header{
+	.card{border-top: 1px solid #eee;}
+	.card-content{
+		h4{
+			line-height: 140%;
+			margin-top: 0;
+			margin-bottom: 1.5rem;
+		}
+	}
+}
+// The drop down navigation
+nav {
+	.nav-wrapper{
+		i{
+			display: inline-block;
+		}
+	}
+}
+.nav-wrapper {
+	ul{
+		li{
+			&.has-sub{
+				ul{
+					display: none;
+				}
+			}
+		}
+	}
+}
+p.site-description {
+    line-height: 20px;
+    margin-bottom: 0;
+    margin-top: 5px;
+    font-size: 13px;
+}
+header.site-header .site-title a {
+    line-height: 0 !important;
+}
+.custom-logo-link img{
+    max-height: 70px;
+    width: auto;
+    display: block;
+}
+

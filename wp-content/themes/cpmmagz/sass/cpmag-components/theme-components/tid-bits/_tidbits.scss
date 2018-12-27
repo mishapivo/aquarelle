@@ -1,0 +1,248 @@
+#site-loader{
+	@include pos-fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(255, 255, 255, 0.95);
+	z-index: 999;
+	text-align: center;
+	@extend .valign-wrapper;
+	img{
+		text-align: center;
+		margin: 0 auto;
+	}
+}
+
+.wp-caption{
+	background: #f1f1f1;
+}
+footer{
+	.wp-caption{
+		background: #000;
+		background: rgba(0, 0, 0, 0.4);
+	}
+}
+.gallery-item.fulla{
+	background-size: cover;
+    background-position: center center;
+}
+figure.gallery-item{
+	margin-left: 0;
+	margin-right: 0;
+}
+.entry-meta{
+	display: block;
+	text-transform: uppercase;
+	@include font-size(0.9);
+	color: $meta_color;
+	a{
+		font-weight: 500;
+		color: $meta_color;
+		@include theme-transitions;
+		&:hover, &:focus{
+			color: darken($meta_color, 20%);
+		}
+		.fa{
+			color: darken($meta_color, 20%);
+			margin-right: 5px;
+		}
+	}
+	ul{
+		@include clearfix;
+		li{
+			@include ulli;
+			margin-bottom: 8px;
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+	}
+}
+.related-posts {
+	.entry-meta{
+		ul{
+			li{
+				margin-right: 2px;
+			}
+		}
+	}
+}
+.label{
+	display: inline-block;
+	font-size: $label-font;
+	font-weight: 500;
+	text-transform: uppercase;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	a{
+		background: $label_bg;
+		color: $color_white;
+		padding: 0.4rem 0.8rem;
+		display: block;
+	}
+}
+.label-small{
+	@extend .label;
+	margin-bottom: 0;
+	margin-right: 0;
+	@include font-size(0.75);
+	a{
+		padding: 0.2rem 0.6rem;
+	}
+	.fa{
+		margin-right: 5px;
+	}
+}
+span.badge{
+	@extend .span.badge;
+    border-radius: 2px;
+	background: $theme_color;
+	color: $badge_color;
+}
+// To the top
+.to-top{
+	position: relative;
+	&:before{
+		@include arrow-up;
+		position: absolute;
+		content: '';
+		top: -20px;
+		left: 50%;
+		@include abs-translate;
+	}
+}
+// Pagination
+.pagination.card{
+	margin: 1rem 0;
+	width: auto;
+	@include fontstack;
+	span, a{
+		display: block;
+		padding: 0.8rem 1.2rem;
+		text-align: center;
+		border-right: 1px solid #e2e2e2;
+		color: $site_color;
+		@include font-size(1.15);
+		@include theme-transitions;
+		&:hover, &:focus{
+			background: #e2e2e2;
+		}
+	}
+	.current{
+		background: #e2e2e2;
+	}
+}
+.pagination-navi{
+	li{
+		padding: 0;
+		.title, a, .current{
+			margin-right: 0;
+		}
+		a{
+			background: #fff;
+		}
+		span, a{
+			display: block;
+			padding: 0.8rem 1.2rem;
+			text-align: center;
+			border: 0;
+			border-right: 1px solid #e2e2e2;
+			color: $site_color;
+			@include font-size(1.15);
+			@include theme-transitions;
+			&:hover, &:focus{
+				background: #e2e2e2;
+			}
+		}
+		.current{
+			border: 0;
+			border-right: 1px solid #e2e2e2;
+		}
+		&:last-child{
+			a, span, .title{border: 0;}
+		}
+	}
+
+
+}
+// Inline Search
+.search-inline{
+	form{
+		position: relative;
+		.input-field{
+			margin-bottom: 2rem;
+		}
+		input{
+			font-size: 1.7rem;
+			font-weight: 300;
+		}
+		.search-btn{
+			position: absolute;
+			top: 0;
+			right: 0;
+		}
+	}
+}
+// Sticky
+.sticky{
+	background: #f1f1f1;
+}
+.category-sticky{
+	position: relative;
+	&:before{
+		position: absolute;
+		content: "";
+		font-family: FontAwesome;
+		line-height: 35px;
+		text-align: center;
+		height: 35px;
+		width: 30px;
+		background: $theme-color;
+		top: 0;
+		right: 2rem;
+		color: #fff;
+		z-index: 9999;
+	}
+	&:after{
+		content: "";
+	    display: block;
+	    border: 15px solid transparent;
+	    border-left-color: $theme-color;
+	    border-right-color: $theme-color;
+	    position: absolute;
+	    top: 20px;
+	    right: 2rem;
+		z-index: 999;
+
+	}
+}
+.tagcloud{
+	@include clearfix;
+	a{
+		@extend .waves-effect.waves-light;
+		float: left;
+		padding: 0.3rem 0.6rem;
+    	background-color: $label_bg;
+    	color: $white_color;
+	    margin: 0 0.3rem 0.3rem 0;
+	    font-size: 14px!important;
+	    display: inline-block;
+	    &:hover, &:focus{
+			color: #fff;
+	    }
+	}
+}
+.form-msg{
+	padding: 10px;
+    border: 1px solid #e2e2e2;
+    background-color: #f1f1f1;
+    font-size: 14px;
+    text-transform: uppercase;
+	&.success{
+		border: 1px solid $success-color;
+		background: $success-color;
+		color: #fff;
+	}
+}
+.fit-video p{
+	margin: 0;
+}

@@ -1,0 +1,1063 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Devion v10.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-08-05 17:10+0200\n"
+"Last-Translator: Игорь <dybabiz@ya.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.6.2\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../../../../\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ devion
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ошибка 404. Страница не найдена"
+
+# @ devion
+#: 404.php:20
+msgid ""
+"It looks like nothing was found at this location. Maybe try a new search?"
+msgstr "По данному адресу ничего не найдено. Воспользуйтесь поиском."
+
+# @ themeslug
+#: FT/FT_scope.php:82
+msgid "Site Logo"
+msgstr "Логотип сайта"
+
+# @ devion
+#: FT/FT_scope.php:97
+msgid "Maximum width (px)"
+msgstr "Максимальная ширина (пикс)"
+
+# @ devion
+#: FT/FT_scope.php:106
+msgid "Maximum height (px)"
+msgstr "Максимальная высота (пикс)"
+
+# @ optionsframework
+# @ ft_op
+#: FT/plugin/options-framework/includes/class-options-framework-admin.php:92
+#: FT/plugin/options-framework/includes/class-options-framework-admin.php:93
+#: FT/plugin/options-framework/includes/class-options-framework-admin.php:338
+msgid "Theme Options"
+msgstr "Опции темы"
+
+# @ ft_op
+#: FT/plugin/options-framework/includes/class-options-framework-admin.php:208
+msgid "Save Options"
+msgstr "Сохранить настройки"
+
+# @ ft_op
+#: FT/plugin/options-framework/includes/class-options-framework-admin.php:209
+msgid "Restore Defaults"
+msgstr "По умолчанию"
+
+# @ ft_op
+#: FT/plugin/options-framework/includes/class-options-framework-admin.php:209
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr "Нажмите ОК чтобы сбросить."
+
+# @ ft_op
+#: FT/plugin/options-framework/includes/class-options-framework-admin.php:239
+msgid "Default options restored."
+msgstr "Настройки по умолчанию восстановлены."
+
+# @ ft_op
+#: FT/plugin/options-framework/includes/class-options-framework-admin.php:291
+msgid "Options saved."
+msgstr "Настройки сохранены."
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-media-uploader.php:63
+msgid "No file chosen"
+msgstr "Файл не выбран"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-media-uploader.php:66
+#: FT/plugin/options-framework/includes/class-options-media-uploader.php:119
+msgid "Upload"
+msgstr "Загрузить"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-media-uploader.php:68
+#: FT/plugin/options-framework/includes/class-options-media-uploader.php:120
+msgid "Remove"
+msgstr "Удалить"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-media-uploader.php:71
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-media-uploader.php:95
+msgid "View File"
+msgstr "Посмотреть файл"
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:248
+msgid "No Repeat"
+msgstr ""
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:249
+msgid "Repeat Horizontally"
+msgstr ""
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:250
+msgid "Repeat Vertically"
+msgstr ""
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:251
+msgid "Repeat All"
+msgstr ""
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:264
+msgid "Top Left"
+msgstr ""
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:265
+msgid "Top Center"
+msgstr ""
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:266
+msgid "Top Right"
+msgstr ""
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:267
+msgid "Middle Left"
+msgstr ""
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:268
+msgid "Middle Center"
+msgstr ""
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:269
+msgid "Middle Right"
+msgstr ""
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:270
+msgid "Bottom Left"
+msgstr ""
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:271
+msgid "Bottom Center"
+msgstr ""
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:272
+msgid "Bottom Right"
+msgstr ""
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:285
+msgid "Scroll Normally"
+msgstr ""
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:286
+msgid "Fixed in Place"
+msgstr ""
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:360
+msgid "Normal"
+msgstr ""
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:361
+msgid "Italic"
+msgstr ""
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:362
+msgid "Bold"
+msgstr ""
+
+# @ optionsframework
+#: FT/plugin/options-framework/includes/class-options-sanitization.php:363
+msgid "Bold Italic"
+msgstr ""
+
+# @ devion
+#: archive.php:24
+#, php-format
+msgid "Author: %s"
+msgstr "Автор: %s"
+
+# @ devion
+#: archive.php:27
+#, php-format
+msgid "Day: %s"
+msgstr "День: %s"
+
+# @ devion
+#: archive.php:30
+#, php-format
+msgid "Month: %s"
+msgstr "Месяц: %s"
+
+# @ devion
+#: archive.php:30
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+# @ devion
+#: archive.php:33
+#, php-format
+msgid "Year: %s"
+msgstr "Год: %s"
+
+# @ devion
+#: archive.php:33
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+# @ devion
+#: archive.php:36
+msgid "Asides"
+msgstr ""
+
+# @ devion
+#: archive.php:39
+msgid "Galleries"
+msgstr ""
+
+# @ devion
+#: archive.php:42
+msgid "Images"
+msgstr ""
+
+# @ devion
+#: archive.php:45 inc/video_type.php:8 videos.php:19
+msgid "Videos"
+msgstr ""
+
+# @ devion
+#: archive.php:48
+msgid "Quotes"
+msgstr ""
+
+# @ devion
+#: archive.php:51
+msgid "Links"
+msgstr ""
+
+# @ devion
+#: archive.php:54
+msgid "Statuses"
+msgstr ""
+
+# @ devion
+#: archive.php:57
+msgid "Audios"
+msgstr ""
+
+# @ devion
+#: archive.php:60
+msgid "Chats"
+msgstr ""
+
+# @ devion
+#: archive.php:63
+msgid "Archives"
+msgstr "Архивы"
+
+# @ devion
+#: comments.php:28
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Один комментарий на &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментарии на &ldquo;%2$s&rdquo;"
+
+# @ devion
+#: comments.php:35 comments.php:54
+msgid "Comment navigation"
+msgstr "Комментарий навигация"
+
+# @ devion
+#: comments.php:36 comments.php:55
+msgid "&larr; Older Comments"
+msgstr "&larr; Предыдущие комментарии"
+
+# @ devion
+#: comments.php:37 comments.php:56
+msgid "Newer Comments &rarr;"
+msgstr "Следующие комментарии &rarr;"
+
+# @ devion
+#: comments.php:66
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+# @ devion
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+# @ devion
+#: content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы написать первую запись? <a href=\"%1$s\">Начать здесь</a>."
+
+# @ devion
+#: content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "К сожалению, по вашему запросу ничего не найдено."
+
+# @ devion
+#: content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"Кажется, мы можем и найти то, что вы  ищете. Возможно, поиск может помочь."
+
+# @ devion
+#: content-page.php:18 content-single.php:24 content-video.php:17
+msgid "Pages:"
+msgstr "Страницы:"
+
+# @ devion
+#: content-page.php:24 content-single.php:64 content-video.php:24
+#: content.php:61 inc/template-tags.php:143 inc/template-tags.php:164
+msgid "Edit"
+msgstr "Редактировать"
+
+# @ devion
+#. translators: used between list items, there is a space after the comma
+#. translators: used between list items, there is a space after the comma
+#: content-single.php:33 content-single.php:36 content.php:38 content.php:48
+msgid ", "
+msgstr ""
+
+# @ devion
+#: content-single.php:41
+#, php-format
+msgid ""
+"This entry was tagged %2$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr "Метка: %2$s. "
+
+# @ devion
+#: content-single.php:43
+#, php-format
+msgid "Bookmark the <a href=\"%3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+# @ devion
+#: content-single.php:49
+#, php-format
+msgid ""
+"This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" "
+"rel=\"bookmark\">permalink</a>."
+msgstr "Категория: %1$s Метки: %2$s. "
+
+# @ devion
+#: content-single.php:51
+#, php-format
+msgid ""
+"This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" rel=\"bookmark"
+"\">permalink</a>."
+msgstr "Категория: %1$s. "
+
+# @ devion
+#: content.php:42
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Категория: %1$s"
+
+# @ devion
+#: content.php:52
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Метки: %1$s"
+
+# @ devion
+#: content.php:58
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+# @ devion
+#: content.php:58
+msgid "1 Comment"
+msgstr "1 Комментарий"
+
+# @ devion
+#: content.php:58
+msgid "% Comments"
+msgstr "% Комментарии"
+
+# @ devion
+#: functions.php:46
+msgid "Primary Menu"
+msgstr "Главное меню"
+
+# @ devion
+#: functions.php:85
+msgid "Sidebar"
+msgstr "Боковая колонка"
+
+# @ devion
+#: functions.php:95
+msgid "Footer"
+msgstr "Подвал"
+
+# @ devion
+#: header.php:23
+msgid "Skip to content"
+msgstr "Наверх"
+
+# @ devion
+#: homepage.php:60
+msgid "Latest Videos"
+msgstr "Последние видео"
+
+# @ devion
+#: homepage.php:103
+msgid "Latest Articles"
+msgstr "Последняя запись"
+
+# @ tgmpa
+#: inc/add-plugins.php:114 inc/class-tgm-plugin-activation.php:196
+msgid "Install Required Plugins"
+msgstr ""
+
+# @ tgmpa
+#: inc/add-plugins.php:115 inc/class-tgm-plugin-activation.php:197
+msgid "Install Plugins"
+msgstr ""
+
+# @ tgmpa
+#: inc/add-plugins.php:116 inc/class-tgm-plugin-activation.php:198
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+# @ tgmpa
+#: inc/add-plugins.php:117
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+# @ devion
+#: inc/add-plugins.php:118 inc/class-tgm-plugin-activation.php:200
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ devion
+#: inc/add-plugins.php:119 inc/class-tgm-plugin-activation.php:201
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ devion
+#: inc/add-plugins.php:120 inc/class-tgm-plugin-activation.php:202
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ devion
+#: inc/add-plugins.php:121 inc/class-tgm-plugin-activation.php:203
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ devion
+#: inc/add-plugins.php:122 inc/class-tgm-plugin-activation.php:204
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ devion
+#: inc/add-plugins.php:123 inc/class-tgm-plugin-activation.php:205
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ devion
+#: inc/add-plugins.php:124 inc/class-tgm-plugin-activation.php:206
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ devion
+#: inc/add-plugins.php:125 inc/class-tgm-plugin-activation.php:207
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ devion
+#: inc/add-plugins.php:126 inc/class-tgm-plugin-activation.php:208
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ devion
+#: inc/add-plugins.php:127 inc/class-tgm-plugin-activation.php:209
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ tgmpa
+#: inc/add-plugins.php:128 inc/class-tgm-plugin-activation.php:210
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+# @ tgmpa
+#: inc/add-plugins.php:129 inc/class-tgm-plugin-activation.php:212
+#: inc/class-tgm-plugin-activation.php:1951
+msgid "Plugin activated successfully."
+msgstr ""
+
+# @ tgmpa
+#: inc/add-plugins.php:130
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:199
+msgid "Something went wrong."
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:211
+msgid "Return to the dashboard"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:214
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:215
+msgid "Dismiss this notice"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:544
+#: inc/class-tgm-plugin-activation.php:2168
+msgid "Return to the Dashboard"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1174
+msgid "Private Repository"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1177
+msgid "Pre-Packaged"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1182
+msgid "WordPress Repository"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1185
+msgid "Required"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1185
+msgid "Recommended"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1188
+msgid "Not Installed"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1190
+msgid "Installed But Not Activated"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1290
+#: inc/class-tgm-plugin-activation.php:1398
+msgid "Install"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1312
+#: inc/class-tgm-plugin-activation.php:1399
+msgid "Activate"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1361
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1377
+msgid "Plugin"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1378
+msgid "Source"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1379
+msgid "Type"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1380
+msgid "Status"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1508
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1616
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+# @ tgmpa
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: inc/class-tgm-plugin-activation.php:1638
+#: inc/class-tgm-plugin-activation.php:213
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1934
+msgid "Install package not available."
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1935
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1936
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1937
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1938
+msgid "Plugin install failed."
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1939
+msgid "Plugin installed successfully."
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:1950
+msgid "Plugin activation failed."
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:2064
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:2065
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:2065
+#: inc/class-tgm-plugin-activation.php:2074
+msgid "Show Details"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:2065
+#: inc/class-tgm-plugin-activation.php:2074
+msgid "Hide Details"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:2066
+msgid "All installations and activations have been completed."
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:2067
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:2071
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:2072
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:2073
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:2074
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:2075
+msgid "All installations have been completed."
+msgstr ""
+
+# @ tgmpa
+#: inc/class-tgm-plugin-activation.php:2076
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ devion
+#: inc/extras.php:63
+#, php-format
+msgid "Page %s"
+msgstr "Страница %s"
+
+# @ devion
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Записи навигация"
+
+# @ devion
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Предыдущие записи"
+
+# @ devion
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Следующие записи <span class=\"meta-nav\">&rarr;</span>"
+
+# @ devion
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr "Запис навигация"
+
+# @ devion
+#: inc/template-tags.php:55
+#, php-format
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr ""
+
+# @ devion
+#: inc/template-tags.php:56
+#, php-format
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+# @ devion
+#: inc/template-tags.php:83
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr "Опубликовано %s"
+
+# @ devion
+#: inc/template-tags.php:88
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "от %s"
+
+# @ devion
+#: inc/template-tags.php:143
+msgid "Pingback:"
+msgstr ""
+
+# @ devion
+#: inc/template-tags.php:155
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr "%s <span class=\"says\">говорит:</span>"
+
+# @ devion
+#: inc/template-tags.php:161
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+# @ devion
+#: inc/template-tags.php:168
+msgid "Your comment is awaiting moderation."
+msgstr "Спасибо! Ваш комментарий ожидает проверки."
+
+# @ devion
+#: inc/video_type.php:6
+msgctxt "Post Type General Name"
+msgid "Videos"
+msgstr "Видео"
+
+# @ devion
+#: inc/video_type.php:7
+msgctxt "Post Type Singular Name"
+msgid "Video"
+msgstr "Видео"
+
+# @ devion
+#: inc/video_type.php:9
+msgid "Parent Video:"
+msgstr "Основное видео:"
+
+# @ devion
+#: inc/video_type.php:10
+msgid "All Videos"
+msgstr "Все видео"
+
+# @ devion
+#: inc/video_type.php:11
+msgid "View Video"
+msgstr "Просмотр видео"
+
+# @ devion
+#: inc/video_type.php:12
+msgid "Add New Video"
+msgstr "Добавить видео"
+
+# @ devion
+#: inc/video_type.php:13
+msgid "Add New"
+msgstr "Добавить"
+
+# @ devion
+#: inc/video_type.php:14
+msgid "Edit video"
+msgstr "Редактировать видео"
+
+# @ devion
+#: inc/video_type.php:15
+msgid "Update Video"
+msgstr "Обновить видео"
+
+# @ devion
+#: inc/video_type.php:16
+msgid "Search Video"
+msgstr "Поиск видео"
+
+# @ devion
+#: inc/video_type.php:17
+msgid "Not found"
+msgstr "Не найдено"
+
+# @ devion
+#: inc/video_type.php:18
+msgid "Not found in Trash"
+msgstr "Не найдено в корзине"
+
+# @ devion
+#: inc/video_type.php:21
+msgid "video_type"
+msgstr ""
+
+# @ devion
+#: inc/video_type.php:22
+msgid "Video items"
+msgstr ""
+
+# @ devion
+#: inc/video_type.php:54
+msgctxt "Taxonomy General Name"
+msgid "Genres"
+msgstr "Жанры"
+
+# @ devion
+#: inc/video_type.php:55
+msgctxt "Taxonomy Singular Name"
+msgid "Genre"
+msgstr "Жанр"
+
+# @ devion
+#: inc/video_type.php:56
+msgid "Genre"
+msgstr "Жанр"
+
+# @ devion
+#: inc/video_type.php:57
+msgid "All Genres"
+msgstr "Все жанры"
+
+# @ devion
+#: inc/video_type.php:58
+msgid "Parent Genre"
+msgstr "Основной жанр"
+
+# @ devion
+#: inc/video_type.php:59
+msgid "Parent Genre:"
+msgstr "Основной жанр:"
+
+# @ devion
+#: inc/video_type.php:60
+msgid "New Genre Name"
+msgstr "Имя нового жанра"
+
+# @ devion
+#: inc/video_type.php:61
+msgid "Add New Genre"
+msgstr "Добавить жанр"
+
+# @ devion
+#: inc/video_type.php:62
+msgid "Edit Genre"
+msgstr "Редактировать жанр"
+
+# @ devion
+#: inc/video_type.php:63
+msgid "Update Genre"
+msgstr "Обновить жанр"
+
+# @ devion
+#: inc/video_type.php:64
+msgid "Separate Genres with commas"
+msgstr "Отделяйте жанры запятыми"
+
+# @ devion
+#: inc/video_type.php:65
+msgid "Search Genres"
+msgstr "Поиск жанра"
+
+# @ devion
+#: inc/video_type.php:66
+msgid "Add or remove Genres"
+msgstr "Добавить или удалить Жанры"
+
+# @ devion
+#: inc/video_type.php:67
+msgid "Choose from the most used Genres"
+msgstr "Выберите из самых используемых Жанров"
+
+# @ devion
+#: inc/video_type.php:68
+msgid "Not Found"
+msgstr "Не найдены"
+
+# @ devion
+#: index.php:19 single.php:12
+msgid "Blog"
+msgstr "Блог"
+
+# @ devion
+#: search.php:13
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результат поиска для: %s"

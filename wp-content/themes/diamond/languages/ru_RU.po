@@ -1,0 +1,651 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Diamond v1.1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-12-17 10:41+0200\n"
+"Last-Translator: admin <dyba03@yandex.ua>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ diamond
+#: 404.php:14
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ошибка 404: страница не найдена."
+
+# @ diamond
+#: 404.php:17 content-none.php:18
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы создать свою первую запись? <a href=\"%1$s\">Начните сейчас</a>."
+
+# @ diamond
+#: 404.php:21 content-none.php:22
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, но ничего не найдено. Пожалуйста, попробуйте еще раз с другими ключевыми словами."
+
+# @ diamond
+#: 404.php:26 content-none.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Нам не удалось найти то, что вы ищите. Попробуйте воспользоваться поиском."
+
+# @ diamond
+#: archive.php:48 search.php:41
+msgid "Previous page"
+msgstr "Предыдущая страница"
+
+# @ diamond
+#: archive.php:49 search.php:42
+msgid "Next page"
+msgstr "Следующая страница"
+
+# @ diamond
+#: archive.php:50 image.php:62 index.php:43 search.php:43
+msgid "Page"
+msgstr "Страница"
+
+# @ diamond
+#: author-bio.php:11
+msgid "Published by"
+msgstr "Автор:"
+
+# @ diamond
+#: author-bio.php:33 author-presentation.php:15
+#, php-format
+msgid "View all posts by %s"
+msgstr "Все записи автора: %s"
+
+# @ diamond
+#: class-tgm-plugin-activation.php:226
+msgid "Install Required Plugins"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:227
+msgid "Install Plugins"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:228
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:229
+msgid "Something went wrong."
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:230
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:231
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:232
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to install the %s plugin. Contact the administrator of this site for help on getting the plugin installed."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %s plugins. Contact the administrator of this site for help on getting the plugins installed."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:233
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:234
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:235
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to activate the %s plugin. Contact the administrator of this site for help on getting the plugin activated."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %s plugins. Contact the administrator of this site for help on getting the plugins activated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:236
+#, php-format
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:237
+#, php-format
+msgid "Sorry, but you do not have the correct permissions to update the %s plugin. Contact the administrator of this site for help on getting the plugin updated."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %s plugins. Contact the administrator of this site for help on getting the plugins updated."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:238
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:239
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:240
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:241
+msgid "Return to the dashboard"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:242 class-tgm-plugin-activation.php:2116
+msgid "Plugin activated successfully."
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:244
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:245
+msgid "Dismiss this notice"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:595 class-tgm-plugin-activation.php:2346
+msgid "Return to the Dashboard"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:1281 class-tgm-plugin-activation.php:1465
+msgid "Private Repository"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:1285 class-tgm-plugin-activation.php:1469
+msgid "Pre-Packaged"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:1290
+msgid "WordPress Repository"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:1293
+msgid "Required"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:1293
+msgid "Recommended"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:1296
+msgid "Not Installed"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:1299
+msgid "Installed But Not Activated"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:1416
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:1438
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:1490
+#, php-format
+msgid "No plugins to install or activate. <a href=\"%1$s\">Return to the Dashboard</a>"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:1506
+msgid "Plugin"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:1507
+msgid "Source"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:1508
+msgid "Type"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:1509
+msgid "Status"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:1527
+msgid "Install"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:1528
+msgid "Activate"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:1639
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:1755
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+# @ diamond
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: class-tgm-plugin-activation.php:1778 class-tgm-plugin-activation.php:243
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:2099
+msgid "Install package not available."
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:2100
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:2101
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:2102
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:2103
+msgid "Plugin install failed."
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:2104
+msgid "Plugin installed successfully."
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:2115
+msgid "Plugin activation failed."
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:2238
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:2239
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:2243
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:2244
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:2244 class-tgm-plugin-activation.php:2251
+msgid "Show Details"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:2244 class-tgm-plugin-activation.php:2251
+msgid "Hide Details"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:2245
+msgid "All installations and activations have been completed."
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:2246
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:2250
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:2251
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:2252
+msgid "All installations have been completed."
+msgstr ""
+
+# @ diamond
+#: class-tgm-plugin-activation.php:2253
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ diamond
+#: comments.php:27
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Один комментарий на &ldquo;%2$s&rdquo;"
+msgstr[1] "Комментариев: %1$s на &ldquo;%2$s&rdquo;"
+
+# @ diamond
+#: comments.php:52
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+# @ diamond
+#: content-none.php:15
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+# @ diamond
+#: content-page.php:22 content-search.php:22 content.php:22 page.php:32
+#: single.php:32
+msgid "by"
+msgstr "Автор:"
+
+# @ diamond
+#: content-page.php:22 content-search.php:22 content.php:22 page.php:32
+msgid "0"
+msgstr ""
+
+# @ diamond
+#: content-page.php:22 content-search.php:22 content.php:22 page.php:32
+msgid "1"
+msgstr ""
+
+# @ diamond
+#: content-page.php:22 content-search.php:22 content.php:22 page.php:32
+msgid "%"
+msgstr ""
+
+# @ diamond
+#: content-page.php:22 content-search.php:22 content.php:22 page.php:32
+#: single.php:32
+msgid "In"
+msgstr "Рубрика"
+
+# @ diamond
+#: content-page.php:23 content-search.php:23 content.php:23 image.php:70
+msgid "Edit"
+msgstr "﻿Изменить"
+
+# @ diamond
+#: functions.php:94
+msgid "Sidebar Menu"
+msgstr ""
+
+# @ diamond
+#: functions.php:95
+msgid "Header Menu"
+msgstr ""
+
+# @ diamond
+#: functions.php:132
+msgid "Widget Area"
+msgstr ""
+
+# @ diamond
+#: functions.php:134 functions.php:143
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+# @ diamond
+#: functions.php:141
+msgid "Widget right"
+msgstr ""
+
+# @ diamond
+#: functions.php:213
+msgid "expand child menu"
+msgstr ""
+
+# @ diamond
+#: functions.php:214
+msgid "collapse child menu"
+msgstr ""
+
+# @ diamond
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+# @ diamond
+#: header.php:44
+msgid "Menu and widgets"
+msgstr ""
+
+# @ diamond
+#: header.php:66
+msgid "Second Menu "
+msgstr ""
+
+# @ diamond
+#: image.php:23
+msgid "Previous Image"
+msgstr "﻿Предыдущее изображение"
+
+# @ diamond
+#: image.php:23
+msgid "Next Image"
+msgstr "﻿Следующее изображение"
+
+# @ diamond
+#: image.php:58
+msgid "Pages:"
+msgstr "﻿Страницы:"
+
+# @ diamond
+#: image.php:83
+#, php-format
+msgctxt "Parent post link"
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr "<span class=«meta-nav»>Опубликовано</span> <span class=«post-title»>%title</span>"
+
+# @ diamond
+#: inc/back-compat.php:36 inc/back-compat.php:46 inc/back-compat.php:59
+#, php-format
+msgid "Diamond requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr ""
+
+# @ diamond
+#: inc/customizer.php:18
+msgid "BUY NOW FOR $29"
+msgstr ""
+
+# @ diamond
+#: inc/template-tags.php:22
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+# @ diamond
+#: inc/template-tags.php:25
+msgid "Older Comments"
+msgstr "Предыдущие комментарии"
+
+# @ diamond
+#: inc/template-tags.php:29
+msgid "Newer Comments"
+msgstr "Новые комментарии"
+
+# @ diamond
+#: inc/template-tags.php:48
+msgid "Featured"
+msgstr "Прикреплено"
+
+# @ diamond
+#: inc/template-tags.php:54
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "Формат"
+
+# @ diamond
+#: inc/template-tags.php:75
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Опубликовано:"
+
+# @ diamond
+#: inc/template-tags.php:84
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "Автор:"
+
+# @ diamond
+#: inc/template-tags.php:90 inc/template-tags.php:98
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+# @ diamond
+#: inc/template-tags.php:93
+msgctxt "Used before category names."
+msgid "Categories"
+msgstr "Рубрики:"
+
+# @ diamond
+#: inc/template-tags.php:101
+msgctxt "Used before tag names."
+msgid "Tags"
+msgstr "Метки:"
+
+# @ diamond
+#: inc/template-tags.php:112
+msgctxt "Used before full size attachment link."
+msgid "Full size"
+msgstr "Исходный размер"
+
+# @ diamond
+#: inc/template-tags.php:121
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+# @ diamond
+#: inc/template-tags.php:121
+msgid "1 Comment"
+msgstr "Один комментарий"
+
+# @ diamond
+#: inc/template-tags.php:121
+msgid "% Comments"
+msgstr "Комментариев: %"
+
+# @ diamond
+#. translators: %s: Name of current post
+#: inc/template-tags.php:236
+#, php-format
+msgid "Continue reading %s"
+msgstr "Читать далее %s"
+
+# @ diamond
+#: search.php:15
+msgid "Search Results for: "
+msgstr "Результаты поиска:"
+
+# @ diamond
+#: search.php:16
+#, php-format
+msgid "%s"
+msgstr ""
+
+# @ diamond
+#: sidebar.php:34
+msgid "http://www.eightpixeldesign.com/"
+msgstr ""
+
+# @ diamond
+#: sidebar.php:34
+msgid "Proudly published by EightPixelDesign"
+msgstr ""

@@ -1,0 +1,105 @@
+.cpmag-carousel-item{
+	&:focus{
+		border: 0;
+		outline: 0;
+	}
+}
+/*--------------------------------------------------------------
+# Trending Carousel
+--------------------------------------------------------------*/
+.trending-carousel{
+	.cpmag-carousel-item{
+		padding: 0 4px;
+	}
+}
+/*--------------------------------------------------------------
+# Multiple Carousel
+--------------------------------------------------------------*/
+.multiple-items{
+	margin-top: 2rem;
+	.cpmag-carousel-item{
+		padding: 0;
+		&.slick-slide{
+			.card{margin: 0 $gutter-width / 2 $element-bottom-margin;}
+		}
+		&.slick-active{
+			.card{margin: 0 2px $element-bottom-margin $gutter-width / 2;}
+		}
+		&.slick-current{
+			.card{margin: 0 $gutter-width / 2 $element-bottom-margin 2px;}
+			@include media("(max-width: 600px)"){
+		     	.card{
+		    		margin-right: 4px;
+		     	}
+		    }
+		}
+	}
+
+}
+/*--------------------------------------------------------------
+# Post Gallery Carousel
+--------------------------------------------------------------*/
+.cpmagz-post-gallery{
+	.slick-dots{
+		bottom: 15px;
+		top: auto;
+		text-align: center;
+	}
+}
+.news-small{
+	.card-gallery{
+		.cpmagz-post-gallery{
+			.slick-prev{
+				left: 5px;
+			}
+			.slick-next{
+				right: 5px;
+			}
+		}
+	}
+}
+/*--------------------------------------------------------------
+# Featured Video Carousel
+--------------------------------------------------------------*/
+span.slick-prev, span.slick-next{
+	opacity: 0;
+}
+#featured-video-list-wrap{
+	&:hover, &:focus{
+		span.slick-prev, span.slick-next{
+			opacity: 1;
+		}
+	}
+	.slick-slide{
+		.card{
+			margin: 0 10px 0;
+		}
+	}
+	.slick-prev{
+		left: 0;
+    	top: 39%;
+	}
+	.slick-next{
+		right: 0;
+    	top: 39%;
+	}
+}
+/*--------------------------------------------------------------
+# Related Posts Carousel
+--------------------------------------------------------------*/
+.related-posts {
+	.slick-next{
+		right: 1px;
+	}
+	.slick-prev{
+		left: 2px;
+	}
+	.slick-prev, .slick-next{
+		opacity: 0;
+	}
+	&:hover, &:focus{
+		.slick-prev, .slick-next{
+			opacity: 1;
+		}
+	}
+}

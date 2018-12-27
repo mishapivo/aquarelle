@@ -1,0 +1,122 @@
+@mixin fontstack{
+	font-family: 'Roboto Slab', Roboto;
+}
+@mixin clearfix{
+	&:after {
+	    content: "";
+	    display: table;
+	    clear: both;
+	}
+}
+// Media Queries
+@mixin media($queryString){
+    @media #{$queryString} {
+      @content;
+    }
+}
+
+@mixin theme-transitions{
+	-moz-transition: all 0.4s ease-in-out;
+	-webkit-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+// Position Absolute
+@mixin pos-absolute {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+@mixin pos-fixed{
+	position: fixed;
+	left: 0%;
+	top: 0%;
+}
+// Ul Nav
+@mixin ulli {
+	float: left;
+	margin-right: 1rem;
+}
+//NewsVideo
+@mixin newsvideo{
+	background-color: none;
+	box-shadow: none;
+}
+@mixin arrow-up{
+	width: 0;
+	height: 0;
+	border-left: $arrow-width solid transparent;
+	border-right: $arrow-width solid transparent;
+	border-bottom: $arrow-width solid darken($theme_color, 10%);
+}
+@mixin abs-translate{
+	transform: translate(-50%, 0%);
+	-webkit-transform: translate(-50%, 0%);
+	-moz-transform: translate(-50%, 0%);
+	-o-transform: translate(-50%, 0%);
+	-ms-transform: translate(-50%, 0%);
+}
+@mixin card-content-before{
+	position: absolute;
+	content: '';
+	width: 0;
+	height: 0;
+	z-index: 999;
+}
+@mixin card-common-formats{
+	&:before{
+		display: none;
+	}
+	background-color: $mid-night-blue;
+	color: $white_color;
+	padding: 1.2rem;
+	text-align: left;
+	@include font-size(1.2);
+}
+@mixin post-content-before{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	background-color: $mid-night-blue;
+	font-family: FontAwesome;
+}
+@mixin circle-img{
+	border-radius: 50%;
+	-moz-border-radius: 50%;
+	-o-border-radius: 50%;
+	padding: 4px;
+	border: 1px solid #e2e2e2;
+	background-color: #fff;
+}
+@mixin the-line{
+	&:before{
+		position: absolute;
+		background-color: #e2e2e2;
+		width: 100%;
+		height: 1px;
+		content: '';
+		left: 0;
+		top: 50%;
+		z-index: 1;
+	}
+}
+@mixin widget-mixin{
+	>ul{
+		@extend .collection;
+		>li{
+			@extend .collection-item;
+			-moz-transition: all 0.4s ease-in-out;
+			-webkit-transition: all 0.4s ease-in-out;
+			transition: all 0.4s ease-in-out;
+			&:hover, &:focus{
+				background-color: #f1f1f1;
+			}
+			a{
+				color: $site_color;
+			}
+		}
+	}
+}

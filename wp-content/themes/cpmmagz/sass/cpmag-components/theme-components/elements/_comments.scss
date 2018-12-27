@@ -1,0 +1,94 @@
+#comments ol{
+	margin: 0;
+	padding-left: 0;
+	.children{
+		padding-left: 3rem;
+	}
+}
+
+#comments{
+	ol{
+		list-style: none;
+		li{
+			list-style-type: none;
+		}
+	}
+}
+.comments-wrap > ol{
+	padding: 0!important;
+}
+.comments-wrap #respond{
+	margin: 0 auto 3rem;
+	form{
+		p.logged-in-as{
+			margin-bottom: 40px;
+		}
+	}
+}
+.comment-body-wrapper{
+	position: relative;
+	.comment-img{
+		position: absolute;
+		left: 0;
+	}
+	.comment-content-wrapper{
+		padding-left: 6.5rem;
+	}
+}
+.comment-img{
+	text-align: center;
+	img{
+		height: 80px;
+		width: 80px;
+	}
+}
+.comment-body{
+	padding: 1.1rem;
+	border: 1px solid #e2e2e2;
+    box-shadow: none;
+
+	.comment-meta-wrap{
+		h2{
+			@include font-size(1.15);
+			color: $title-color;
+			margin: 15px 0 7px 0;
+			a{
+				color: $title-color;
+			}
+		}
+		position: relative;
+		.comment-img{
+			position: absolute;
+			left: 0;
+		}
+		.comment-wrap{
+			padding-left: 6rem;
+		}
+	}
+	.comment-metadata{
+		font-size: 12px;
+		text-transform: uppercase;
+		font-weight: 500;
+		color: $meta_color;
+		a{
+			color: $meta_color;
+		}
+	}
+	.reply{
+		text-align: right;
+		text-transform: uppercase;
+		font-weight: 500;
+		a{
+			color: $entry-content-color;
+		}
+	}
+}
+#respond{
+	margin: 3rem 0 0;
+	.comment-notes{
+		margin-bottom: 3rem;
+	}
+}
+.bypostauthor{
+	background: #f1f1f1;
+}

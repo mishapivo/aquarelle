@@ -1,0 +1,20 @@
+/*!
+Theme Name: EleMate
+Theme URI: http://buildwithelementor.com/elemate-theme/
+Author: WPDevHQ
+Author URI: http://www.wpdevhq.com
+Description: EleMate(Elementor Material) is a custom theme for the Elementor plugin utilising the Material design CSS framework. Any Niche, Any Color, Any Screen, Any Device - Just plug and play!
+Version: 1.0.4
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, right-sidebar, custom-menu, custom-header, custom-logo, featured-images, threaded-comments, translation-ready
+
+Text Domain: elemate
+*/
+
+/*
+ * This file is left empty on purpose - all theme's styles are located in the assets/css folder.
+ * This file is only here to serve as the theme's header required by WordPress themes API.
+ * The best way to extend this theme with your styles and custom functions is to use a child theme.
+ * Your child theme's stylesheet will automatically be enqueued after this theme's styles have been loaded.
+ */

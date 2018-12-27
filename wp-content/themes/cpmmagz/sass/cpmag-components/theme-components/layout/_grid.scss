@@ -1,0 +1,24 @@
+.container {
+  margin: 0 auto;
+  max-width: 1140px;
+  width: 90%;
+}
+@media #{$medium-and-up} {
+  .container {
+    width: 85%;
+  }
+}
+@media #{$large-and-up} {
+  .container {
+    width: 100%; 
+  }
+}
+@include media("(max-width: 1200px)"){
+  .container {
+    width: 95%; 
+  }
+}
+// Grids Overrides
+.row{
+	margin-bottom: 0;
+}

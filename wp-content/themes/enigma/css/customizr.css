@@ -1,0 +1,39 @@
+/*Cutomizer CSS*/#customize-controls [id*="enigma_theme_option"] > h3:before {    content: '\f0ad';    font-family: fontawesome;    padding-right: 5px;}
+#accordion-section-enigma_more h3.accordion-section-title{
+	background: #31A3DD;
+	color:#fff;
+	
+}#accordion-section-enigma_Rate h3.accordion-section-title{	background: #579fc3;	color:#fff;	}.stitched {   padding: 20px;   margin: 10px;   background: #558a9a;   color: #fff;   font-size: 17px;   font-weight: bold;   line-height: 1.3em;   border: 2px dashed #fff;   border-radius: 10px;   box-shadow: 0 0 0 4px #558a9a, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);   text-shadow: -1px -1px #aa3030;   font-weight: normal;}
+.btn-lg, .btn-group-lg > .btn {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+.upsell-enigma {    float: none;    border: 1px solid rgba(204, 204, 204, 0.68);    box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);    margin-bottom: 20px;    padding: 10px;    overflow: hidden;    word-wrap: break-word;	background: rgba(255, 255, 255, 0.6);}
+.btn-success {
+  color: #fff;
+  background-color: #3ca3e0;
+  border-color: #4cae4c;
+}
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.upsell-btn a:hover {color:#fff;}.versionhd {    font-size: 16px;    color: #000;    font-weight: bold;}.versionhd span {    color: #3f7125;    font-size: 12px;}/* update pro */a.button.enigma_pro1 {    padding: 7px;    height: 45px;    font-size: 18px;    color: #fff;    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);}a.button.enigma_pro1:hover {	padding: 7px;    height: 45px;    font-size: 18px;    color: #fff;    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%);}#accordion-section-enigma-pro h3.accordion-section-title {    color: #fff;    font-size: 19px;    background: linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%) !important;}h2.pro_title {    text-shadow: 2px 2px 2px #ccc;}#accordion-section-enigma-pro h3.accordion-section-title:hover {    color: #fff !important;}

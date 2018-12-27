@@ -1,0 +1,76 @@
+.entry-footer{
+	@include clearfix;
+	.cpm-share{
+		ul{
+			float: right;
+		}
+	}
+	.footer-meta-wrap{
+		margin: 1rem 0;
+	}
+	.footer-meta{
+		span{
+			margin-right: 7px;
+			margin-bottom: 7px;
+			a{
+				padding: 0.2rem 1rem;
+			}
+		}
+	}
+}
+.post-author{
+	margin-top: 2rem;
+}
+.author-img{
+	position: relative;
+	@include the-line;
+	img{
+		@include circle-img;
+		width: 80px;
+		height: 80px;
+		position: relative;
+		z-index: 9;
+	}
+}
+.author-desc{
+	width: 75%;
+	margin: 0 auto;
+	color: $entry-content-color;
+	h2{
+		font-family: 'Roboto Slab', Roboto;
+		color: $title-color;
+		@include font-size(1.3);
+		a{
+			color: $title-color;
+			&:hover, &:focus{
+				color: $theme_sec_color;
+			}
+		}
+	}
+}
+.author-links{
+	a{
+		font-weight: 500;
+		color: $entry-content-color;
+		position: relative;
+		margin-right: 5px;
+		padding: 0 5px;
+		&:hover, &:focus{
+			color: $theme_sec_color;
+		}
+		&:before{
+			content: '';
+			width: 1px;
+			height: 77%;
+			position: absolute;
+			right: -5px;
+			top: 2px;
+			background: $entry-content-color;
+		}
+		&:last-child{
+			&:before{
+				display: none;
+			}
+		}
+	}
+}

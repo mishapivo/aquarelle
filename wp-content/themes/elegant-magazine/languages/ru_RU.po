@@ -1,0 +1,1698 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Elegant Magazine v10.1.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2018-08-02 15:30+0300\n"
+"Last-Translator: Игорь <dybabiz@ya.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ elegant-magazine
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ой! Это страница не может быть найдена."
+
+# @ elegant-magazine
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Ничего не было найдено. Может попробовать одну из следующих ссылок или новый поиск?"
+
+# @ elegant-magazine
+#. translators: 1: title.
+#: comments.php:34
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "Один комментарий для &ldquo;%1$s&rdquo;"
+
+# @ elegant-magazine
+#. translators: 1: comment count number, 2: title.
+#: comments.php:40
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s комментариев для &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментариев для &ldquo;%2$s&rdquo;"
+
+# @ elegant-magazine
+#: comments.php:63
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+# @ elegant-magazine
+#: functions.php:68 header.php:168
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+# @ elegant-magazine
+#: functions.php:69
+msgid "Top Menu"
+msgstr "Главное меню"
+
+# @ elegant-magazine
+#: functions.php:70
+msgid "Social Menu"
+msgstr "Социальное меню"
+
+# @ elegant-magazine
+#: functions.php:71
+msgid "Footer Menu"
+msgstr "Меню в подвале"
+
+# @ elegant-magazine
+#: functions.php:131
+msgid "Theme Demo Content"
+msgstr ""
+
+# @ elegant-magazine
+#. translators: If there are characters in your language that are not supported by Oswald, translate this to 'off'. Do not translate into your own language.
+#: functions.php:161
+msgctxt "Oswald font: on or off"
+msgid "on"
+msgstr ""
+
+# @ elegant-magazine
+#. translators: If there are characters in your language that are not supported by Lato, translate this to 'off'. Do not translate into your own language.
+#: functions.php:166
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+# @ elegant-magazine
+#: header.php:37
+msgid "Skip to content"
+msgstr "Перейти к содержимому"
+
+# @ elegant-magazine
+#: inc/customizer/customizer-control.php:75
+msgid "All"
+msgstr "Все "
+
+# @ elegant-magazine
+#: inc/customizer/customizer-default.php:44
+msgid "Exclusive"
+msgstr "Эксклюзивный"
+
+# @ elegant-magazine
+#: inc/customizer/customizer-default.php:65
+msgid "You may also like"
+msgstr "Похожее"
+
+# @ elegant-magazine
+#: inc/customizer/customizer-default.php:77
+msgid "Copyright &copy; All rights reserved."
+msgstr "Copyright &copy;  Все права защищены."
+
+# @ elegant-magazine
+#: inc/customizer/customizer.php:90
+msgid "Disable Image Tint/Overlay"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/customizer.php:110
+msgid "Elegant Magazine Pro"
+msgstr " "
+
+# @ elegant-magazine
+#: inc/customizer/customizer.php:111
+msgid "Upgrade now"
+msgstr " "
+
+# @ elegant-magazine
+#: inc/customizer/font-color-options.php:26
+msgid "Top header background color"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/font-color-options.php:49
+msgid "Top header texts color"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/frontpage-options.php:21
+msgid "Frontpage Options"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/frontpage-options.php:30
+msgid "Advertisement"
+msgstr "Реклама"
+
+# @ elegant-magazine
+#: inc/customizer/frontpage-options.php:52
+msgid "Banner Section Advertisement"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/frontpage-options.php:53
+#, php-format
+msgid "Recommended Size %1$s px X %2$s px"
+msgstr "Рекомендуемый размер %1$s px X %2$s px"
+
+# @ elegant-magazine
+#: inc/customizer/frontpage-options.php:74
+msgid "URL Link"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/frontpage-options.php:86
+msgid "Ticker news"
+msgstr "Бегущая строка"
+
+# @ elegant-magazine
+#: inc/customizer/frontpage-options.php:106
+msgid "Enable Ticker News"
+msgstr "Включить бегущую строку"
+
+# @ elegant-magazine
+#: inc/customizer/frontpage-options.php:123
+msgid "Ticker Title"
+msgstr "Название бегущей строки"
+
+# @ elegant-magazine
+#: inc/customizer/frontpage-options.php:141
+msgid "Ticker News Category"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/frontpage-options.php:142
+msgid "Select category to be shown on ticker "
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/frontpage-options.php:156
+msgid "Main banner news"
+msgstr "Основной баннер"
+
+# @ elegant-magazine
+#: inc/customizer/frontpage-options.php:175
+msgid "Enable main news section"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/frontpage-options.php:195
+msgid "Slider news category"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/frontpage-options.php:196
+msgid "Select category to be shown on slider "
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/frontpage-options.php:217
+msgid "Featured news category"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/frontpage-options.php:218
+msgid "Select category to be shown on featured section "
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/frontpage-options.php:236
+msgid "Enable static page content"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/frontpage-options.php:248
+#: inc/customizer/frontpage-options.php:273
+#: inc/customizer/theme-options.php:172
+msgid "Layout"
+msgstr "Расположение"
+
+# @ elegant-magazine
+#: inc/customizer/frontpage-options.php:258
+#: inc/customizer/frontpage-options.php:292
+msgid "Frontpage Content alignment"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/frontpage-options.php:259
+#: inc/customizer/frontpage-options.php:293
+msgid "Select frontpage content alignment"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/frontpage-options.php:263
+#: inc/customizer/frontpage-options.php:297
+msgid "Home Content - Home Sidebar"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/frontpage-options.php:264
+#: inc/customizer/frontpage-options.php:298
+msgid "Home Sidebar - Home Content"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/frontpage-options.php:265
+#: inc/customizer/frontpage-options.php:299
+msgid "Only Home Content"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:19 lib/info/info.php:71
+msgid "Theme Options"
+msgstr "Настройки темы"
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:28
+msgid "Preloader"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:46
+msgid "Enable preloader"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:63
+msgid "Header"
+msgstr "Шапка сайта"
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:82
+msgid "Transparent top header"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:103
+msgid "Show date on top header"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:124
+msgid "Show social menu on top header"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:136
+msgid "Breadcrumb"
+msgstr "Навигационная цепочка"
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:154
+msgid "Show breadcrumbs"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:190
+msgid "Content alignment"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:191
+msgid "Select global content alignment"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:195
+msgid "Content - Primary sidebar"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:196
+msgid "Primary sidebar - Content"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:197 inc/hooks/hook-meta.php:75
+msgid "Full width content"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:213
+msgid "Archive"
+msgstr "Архив"
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:231
+msgid "Archive layout"
+msgstr "Архив расположегие"
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:232
+msgid "Select layout for archive"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:236
+msgid "Full"
+msgstr "По всей ширине"
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:237
+msgid "List"
+msgstr "Лист"
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:254
+msgid "Image alignment"
+msgstr "Выравнивание картинки"
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:255
+msgid "Select image alignment for archive"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:259
+msgid "Left"
+msgstr "Слева"
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:260
+msgid "Right"
+msgstr "Справа"
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:277
+msgid "Content view"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:278
+msgid "Select content view for archive"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:282
+msgid "Post excerpt"
+msgstr "Выдержка"
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:283
+msgid "Full Content"
+msgstr "Полное содержание"
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:295
+msgid "Related Posts"
+msgstr "Похожие записи"
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:313
+msgid "Show on single posts"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:331 inc/widgets/widget-author-info.php:123
+#: inc/widgets/widget-posts-double-column.php:187
+#: inc/widgets/widget-posts-tabbed.php:135
+#: inc/widgets/widget-posts-tabbed.php:138
+#: inc/widgets/widget-posts-tabbed.php:145
+msgid "Title"
+msgstr "Заголовок "
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:345
+msgid "Latest blog carousel"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:363
+msgid "Show above footer"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:373
+msgid "Footer"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/customizer/theme-options.php:391
+msgid "Copyright Text"
+msgstr "Авторские права"
+
+# @ elegant-magazine
+#: inc/hooks/blocks/block-post-lists.php:76 template-parts/content-page.php:26
+#: template-parts/content-search.php:16 template-parts/content.php:35
+#: template-parts/content.php:51
+msgid "Pages:"
+msgstr "Странницы:"
+
+# @ elegant-magazine
+#: inc/hooks/hook-meta.php:22
+msgid "Layout Options"
+msgstr "Настройки расположения"
+
+# @ elegant-magazine
+#: inc/hooks/hook-meta.php:69
+msgid "Content - Primary Sidebar"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/hooks/hook-meta.php:72
+msgid "Primary Sidebar - Content"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/hooks/hook-tgm.php:19
+msgid "WP Post Author"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/hooks/hook-tgm.php:24 lib/info/info.php:89 lib/info/info.php:143
+msgid "One Click Demo Import"
+msgstr ""
+
+# @ elegant-magazine
+#. translators: 1: list of categories.
+#: inc/template-tags.php:19
+#, php-format
+msgid " %1$s"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/template-tags.php:33
+msgid "By"
+msgstr " "
+
+# @ elegant-magazine
+#: inc/template-tags.php:38
+msgid "/"
+msgstr ""
+
+# @ elegant-magazine
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:56
+msgid ", "
+msgstr ""
+
+# @ elegant-magazine
+#. translators: 1: list of categories.
+#: inc/template-tags.php:59
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Категории: %1$s"
+
+# @ elegant-magazine
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:63 inc/template-tags.php:118
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+# @ elegant-magazine
+#. translators: 1: list of tags.
+#: inc/template-tags.php:66
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Метки: %1$s"
+
+# @ elegant-magazine
+#. translators: %s: post title
+#: inc/template-tags.php:76
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr "Оставить комментарий<span class=\"screen-reader-text\"> на %s</span>"
+
+# @ elegant-magazine
+#. translators: %s: Name of current post. Only visible to screen readers
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:93 inc/template-tags.php:130
+#: template-parts/content-page.php:39
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Изменить <span class=\"screen-reader-text\">%s</span>"
+
+# @ elegant-magazine
+#. translators: 1: list of tags.
+#: inc/template-tags.php:121
+msgid "Tags:"
+msgstr "Метки:"
+
+# @ elegant-magazine
+#: inc/widgets/widget-author-info.php:20
+msgid "Displays author info."
+msgstr "Отображает информацию об авторе."
+
+# @ elegant-magazine
+#: inc/widgets/widget-author-info.php:24
+msgid "EM Author Info"
+msgstr "EM  об авторе"
+
+# @ elegant-magazine
+#: inc/widgets/widget-author-info.php:124
+#: inc/widgets/widget-posts-double-column.php:188
+msgid "Subtitle"
+msgstr "Подзаголовок"
+
+# @ elegant-magazine
+#: inc/widgets/widget-author-info.php:125
+msgid "Profile image"
+msgstr "Изображение профиля"
+
+# @ elegant-magazine
+#: inc/widgets/widget-author-info.php:126
+msgid "Name"
+msgstr "Имя "
+
+# @ elegant-magazine
+#: inc/widgets/widget-author-info.php:127
+msgid "Descriptions"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-author-info.php:128
+msgid "Facebook"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-author-info.php:129
+msgid "Twitter"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-author-info.php:130
+msgid "LinkedIn"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-carousel.php:20
+msgid "Displays posts carousel from selected category."
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-carousel.php:24
+msgid "EM Posts Carousel"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-carousel.php:135
+#: inc/widgets/widget-posts-double-column.php:189
+#: inc/widgets/widget-posts-express-column.php:180
+#: inc/widgets/widget-posts-single-column.php:160
+#: inc/widgets/widget-posts-slider.php:122
+#: inc/widgets/widget-posts-tabbed.php:144
+#: inc/widgets/widget-posts-tabbed.php:146
+msgid "Select category"
+msgstr "Выберите категорию"
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-double-column-double-categories.php:19
+msgid "Displays posts from selected double categories in double column."
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-double-column-double-categories.php:22
+msgid "EM Double Categories Posts "
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-double-column-double-categories.php:275
+msgid "Select first category"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-double-column-double-categories.php:276
+msgid "Select second category"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-double-column.php:20
+msgid "Displays posts from selected category in double column."
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-double-column.php:24
+msgid "EM Posts - Double Column "
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-double-column.php:187
+msgid "Double Column Posts"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-double-column.php:188
+msgid "Double Column Posts Subtitle"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-express-column.php:20
+msgid "Displays posts from selected category in express column."
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-express-column.php:24
+msgid "EM Posts - Express Column "
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-single-column.php:20
+msgid "Displays posts from selected category in single column."
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-single-column.php:24
+msgid "EM Posts - Single Column "
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-single-column.php:147
+#: inc/widgets/widget-posts-tabbed.php:126
+msgid "Yes"
+msgstr "Да"
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-single-column.php:148
+#: inc/widgets/widget-posts-tabbed.php:127
+msgid "No"
+msgstr "Нет"
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-single-column.php:162
+#: inc/widgets/widget-posts-tabbed.php:150
+msgid "Show excerpt"
+msgstr "Показать выдержку"
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-slider.php:20
+msgid "Displays posts slider from selected category."
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-slider.php:24
+msgid "EM Posts Slider"
+msgstr "EM записи слайдер"
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-tabbed.php:21
+msgid "Displays tabbed posts lists from selected settings."
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-tabbed.php:25
+msgid "EM Tabbed Posts"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-tabbed.php:50
+msgid "EM Popular"
+msgstr "EM Популярное"
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-tabbed.php:51
+msgid "EM Latest"
+msgstr "EM последнее"
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-tabbed.php:55
+#: inc/widgets/widget-posts-tabbed.php:145
+msgid "EM Categorised"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-tabbed.php:67
+#: inc/widgets/widget-posts-tabbed.php:135
+msgid "Popular"
+msgstr "Популярные"
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-tabbed.php:74
+msgid "Recent"
+msgstr "Новые"
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-tabbed.php:82
+msgid "Categorised"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-tabbed.php:134
+msgid "Popular Posts"
+msgstr "Популярные записи"
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-tabbed.php:137
+msgid "Latest Posts"
+msgstr "Новые записи"
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-tabbed.php:138
+msgid "Latest"
+msgstr "Новое"
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-tabbed.php:142
+msgid "Categorised Posts"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-posts-tabbed.php:149
+msgid "Settings for all tabs"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-social-contacts.php:20
+msgid "Displays social contacts lists from selected settings."
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-social-contacts.php:24
+msgid "EM Social Contacts"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widget-social-contacts.php:41
+msgid "EM Social"
+msgstr "EM социальное"
+
+# @ elegant-magazine
+#: inc/widgets/widget-social-contacts.php:75
+msgid "Social menu is not set. You need to create menu and assign it to Social Menu on Menu Settings."
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widgets-base.php:181
+msgid "Upload"
+msgstr "Загрузка"
+
+# @ elegant-magazine
+#: inc/widgets/widgets-base.php:182
+msgid "Select Image"
+msgstr "Выбрать изображение"
+
+# @ elegant-magazine
+#: inc/widgets/widgets-base.php:183
+msgid "Choose Image"
+msgstr "Выбрать изображение"
+
+# @ elegant-magazine
+#: inc/widgets/widgets-base.php:194
+msgctxt "Remove"
+msgid "X"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widgets-common-functions.php:55
+msgid "All Categories"
+msgstr "Все категории"
+
+# @ elegant-magazine
+#: inc/widgets/widgets-register-sidebars.php:10
+msgid "Main Sidebar"
+msgstr "Главный сайдбар"
+
+# @ elegant-magazine
+#: inc/widgets/widgets-register-sidebars.php:12
+msgid "Add widgets for main sidebar."
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widgets-register-sidebars.php:20
+msgid "Off-canvas Panel"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widgets-register-sidebars.php:22
+msgid "Add widgets for off-canvas panel."
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widgets-register-sidebars.php:30
+msgid "Front-page Content Section"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widgets-register-sidebars.php:32
+msgid "Add widgets to front-page contents section."
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widgets-register-sidebars.php:40
+msgid "Front-page Sidebar Section"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widgets-register-sidebars.php:42
+msgid "Add widgets to front-page sidebar section."
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widgets-register-sidebars.php:50
+msgid "Footer First Section"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widgets-register-sidebars.php:52
+msgid "Displays items on footer first column."
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widgets-register-sidebars.php:60
+msgid "Footer Second Section"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widgets-register-sidebars.php:62
+msgid "Displays items on footer second column."
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widgets-register-sidebars.php:70
+msgid "Footer Third Section"
+msgstr ""
+
+# @ elegant-magazine
+#: inc/widgets/widgets-register-sidebars.php:72
+msgid "Displays items on footer third column."
+msgstr ""
+
+# @ elegant-magazine
+#: inc/woocommerce.php:230
+msgid "View your shopping cart"
+msgstr ""
+
+# @ elegant-magazine
+#. translators: number of items in the mini cart.
+#: inc/woocommerce.php:234
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ elegant-magazine
+#: lib/breadcrumbs/breadcrumbs.php:244
+msgid "Browse:"
+msgstr "Обзор:"
+
+# @ elegant-magazine
+#: lib/breadcrumbs/breadcrumbs.php:245
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr "Навигация по сайту"
+
+# @ elegant-magazine
+#: lib/breadcrumbs/breadcrumbs.php:246
+msgid "Home"
+msgstr "Главная"
+
+# @ elegant-magazine
+#: lib/breadcrumbs/breadcrumbs.php:247
+msgid "404 Not Found"
+msgstr "404 Ничего не найдено"
+
+# @ elegant-magazine
+#: lib/breadcrumbs/breadcrumbs.php:248
+msgid "Archives"
+msgstr "Архивы"
+
+# @ elegant-magazine
+#: lib/breadcrumbs/breadcrumbs.php:250
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Результаты поиска для: &#8220;%s&#8221;"
+
+# @ elegant-magazine
+#: lib/breadcrumbs/breadcrumbs.php:252
+#, php-format
+msgid "Page %s"
+msgstr "Страница %s"
+
+# @ elegant-magazine
+#: lib/breadcrumbs/breadcrumbs.php:254
+#, php-format
+msgid "Minute %s"
+msgstr "Минуты %s"
+
+# @ elegant-magazine
+#: lib/breadcrumbs/breadcrumbs.php:256
+#, php-format
+msgid "Week %s"
+msgstr "Неделя %s"
+
+# @ elegant-magazine
+#: lib/breadcrumbs/breadcrumbs.php:708
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/breadcrumbs/breadcrumbs.php:725
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/breadcrumbs/breadcrumbs.php:742
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/breadcrumbs/breadcrumbs.php:758 lib/breadcrumbs/breadcrumbs.php:787
+#: lib/breadcrumbs/breadcrumbs.php:814 lib/breadcrumbs/breadcrumbs.php:841
+#: lib/breadcrumbs/breadcrumbs.php:1182
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/breadcrumbs/breadcrumbs.php:759 lib/breadcrumbs/breadcrumbs.php:815
+#: lib/breadcrumbs/breadcrumbs.php:1186
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/breadcrumbs/breadcrumbs.php:760 lib/breadcrumbs/breadcrumbs.php:1190
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/breadcrumbs/breadcrumbs.php:788
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/class.info.php:121 lib/info/class.info.php:122
+#, php-format
+msgid "%s info"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/class.info.php:126
+#, php-format
+msgid "Welcome! Thank you for choosing %1$s. To fully take advantage of the best our theme can offer please make sure you visit theme details page."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/class.info.php:126
+#, php-format
+msgid "Get started with %1$s"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/class.info.php:126 lib/tgm/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/class.info.php:232
+#, php-format
+msgid "%s() method does not exist."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/class.info.php:341 lib/info/class.info.php:382
+msgid "Manage Plugins"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:20
+#, php-format
+msgid "Howdy %1$s, we would like to thank you for installing and activating %2$s theme for your precious site. All of the features provided by the theme are now ready to use; Here, we have gathered all of the essential details and helpful links for you and your better experience with %2$s. Once again, Thanks for using our theme!"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:24
+msgid "Getting Started"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:25
+msgid "Support"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:26
+msgid "Useful Plugins"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:27 lib/info/info.php:87 lib/info/info.php:90
+msgid "Demo Content"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:28
+msgid "Upgrade to Pro"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:34
+msgid "Theme Details"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:38 lib/info/info.php:98
+msgid "View Demo"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:42 lib/info/info.php:57 lib/info/info.php:120
+msgid "View Documentation"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:46
+msgid "Rate This Theme"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:54 lib/info/info.php:117
+msgid "Theme Documentation"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:56 lib/info/info.php:119
+msgid "Please check our full documentation for detailed information on how to setup and customize the theme."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:63 lib/info/info.php:66
+msgid "Static Front Page"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:65
+msgid "To achieve custom home page other than blog listing, you need to create and set static front page."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:73
+msgid "Theme uses Customizer API for theme options. Using the Customizer you can easily customize different aspects of the theme."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:74
+msgid "Customize"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:79 lib/info/info.php:82
+msgid "Widgets"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:81
+msgid "Theme uses Wedgets API for widget options. Using the Widgets you can easily customize different aspects of the theme."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:89
+#, php-format
+msgid "To import sample demo content, %1$s plugin should be installed and activated. After plugin is activated, visit Import Demo Data menu under Appearance."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:95
+msgid "Theme Preview"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:97
+msgid "You can check out the theme demos for reference to find out what you can achieve using the theme and how it can be customized."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:108 lib/info/info.php:111
+msgid "Contact Support"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:110
+msgid "Got theme support question or found bug or got some feedbacks? Best place to ask your query is the dedicated Support forum for the theme."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:126
+msgid "Child Theme"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:128
+msgid "For advanced theme customization, it is recommended to use child theme rather than modifying the theme file itself. Using this approach, you wont lose the customization after theme update."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:129
+msgid "Learn More"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:138
+msgid "Theme supports some helpful WordPress plugins to enhance your site. But, please enable only those plugins which you need in your site. For example, enable WooCommerce only if you are using e-commerce."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:143
+#, php-format
+msgid "To import demo content for this theme, %1$s plugin is needed. Please make sure plugin is installed and activated. After plugin is activated, you will see Import Demo Data menu under Appearance."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:148
+msgid "If you want more advanced features then you can upgrade to the premium version of the theme."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/info/info.php:149
+msgid "Upgrade Now"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "Установка плагинов"
+
+# @ elegant-magazine
+#. translators: %s: plugin name.
+#: lib/tgm/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+# @ elegant-magazine
+#. translators: %s: plugin name.
+#: lib/tgm/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+# @ elegant-magazine
+#. translators: 1: plugin name(s).
+#: lib/tgm/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ elegant-magazine
+#. translators: 1: plugin name(s).
+#: lib/tgm/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ elegant-magazine
+#. translators: 1: plugin name(s).
+#: lib/tgm/class-tgm-plugin-activation.php:348
+#, php-format
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ elegant-magazine
+#. translators: 1: plugin name(s).
+#: lib/tgm/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ elegant-magazine
+#. translators: 1: plugin name(s).
+#: lib/tgm/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ elegant-magazine
+#. translators: 1: plugin name(s).
+#: lib/tgm/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:386
+#: lib/tgm/class-tgm-plugin-activation.php:827
+#: lib/tgm/class-tgm-plugin-activation.php:2533
+#: lib/tgm/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:387
+#: lib/tgm/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr ""
+
+# @ elegant-magazine
+#. translators: 1: plugin name.
+#: lib/tgm/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+# @ elegant-magazine
+#. translators: 1: plugin name.
+#: lib/tgm/class-tgm-plugin-activation.php:392
+#, php-format
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+# @ elegant-magazine
+#. translators: 1: dashboard link.
+#: lib/tgm/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:934
+#: lib/tgm/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:1121
+#: lib/tgm/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+# @ elegant-magazine
+#. translators: %s: version number
+#: lib/tgm/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+# @ elegant-magazine
+#. translators: 1: install status, 2: update status
+#: lib/tgm/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+# @ elegant-magazine
+#. translators: 1: number of plugins.
+#: lib/tgm/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ elegant-magazine
+#. translators: 1: number of plugins.
+#: lib/tgm/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ elegant-magazine
+#. translators: 1: number of plugins.
+#: lib/tgm/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ elegant-magazine
+#. translators: 1: number of plugins.
+#: lib/tgm/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+# @ elegant-magazine
+#. translators: %2$s: plugin name in screen reader markup
+#: lib/tgm/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+# @ elegant-magazine
+#. translators: %2$s: plugin name in screen reader markup
+#: lib/tgm/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+# @ elegant-magazine
+#. translators: %2$s: plugin name in screen reader markup
+#: lib/tgm/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+# @ elegant-magazine
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: lib/tgm/class-tgm-plugin-activation.php:2952
+#: lib/tgm/class-tgm-plugin-activation.php:388
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+# @ elegant-magazine
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: lib/tgm/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ elegant-magazine
+#. translators: 1: plugin name, 2: error message.
+#: lib/tgm/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+# @ elegant-magazine
+#. translators: 1: plugin name.
+#: lib/tgm/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+# @ elegant-magazine
+#. translators: 1: plugin name.
+#: lib/tgm/class-tgm-plugin-activation.php:3509
+#: lib/tgm/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s done."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+# @ elegant-magazine
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: lib/tgm/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+# @ elegant-magazine
+#: lib/tgm/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+# @ elegant-magazine
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: lib/tgm/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Установка плагина  %1$s (%2$d/%3$d)"
+
+# @ elegant-magazine
+#. translators: %s: search query.
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+# @ elegant-magazine
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr "Страница не найдена"
+
+# @ elegant-magazine
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:25
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните здесь</a>."
+
+# @ elegant-magazine
+#: template-parts/content-none.php:38
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "К сожалению, но по вашему запросу совпадений не найдено. Попробуйте еще раз с другими словами."
+
+# @ elegant-magazine
+#: template-parts/content-none.php:44
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Кажется, мы не можем найти то, что вы ищете. Возможно, поиск сможет помочь."
+
+# @ elegant-magazine
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:17
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Подробнее <span class=\"screen-reader-text\">%1$s</span>"

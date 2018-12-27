@@ -1,0 +1,166 @@
+.ad-300x250{
+	text-align: center;
+}
+.widget{
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
+	select{
+		display: block;
+	}
+}
+.widget-title{
+	margin-bottom: 1rem;
+}
+.sec-sidebar{
+	.widget{
+	@include widget-mixin;
+
+	.entry-meta{
+		display: block;
+		text-transform: uppercase;
+		@include font-size(0.9);
+		color: $meta_color;
+			a{
+				font-weight: 500;
+				color: $meta_color;
+				@include theme-transitions;
+				&:hover, &:focus{
+					color: darken($meta_color, 20%);
+				}
+				.fa{
+					color: darken($meta_color, 20%);
+					margin-right: 5px;
+				}
+			}
+			ul{
+				@include clearfix;
+				margin: 0;
+				li{
+					@include ulli;
+					margin-bottom: 8px;
+					&:last-child{
+						margin-bottom: 0;
+					}
+				}
+			}
+		}
+	}
+	.widget_recent_entries{
+		@include widget-mixin;
+		li{
+			span{
+				display: block;
+				color: $meta_color;
+				font-weight: 500;
+				font-size: 0.9rem;
+			}
+		}
+	}
+	ul.children, ul.sub-menu {
+		margin-top: 10px;
+		li{
+			border-bottom: 1px solid #e2e2e2;
+    		padding: 10px 20px;
+    		background: transparent;
+			&:first-child{
+				border-top: 1px solid #e2e2e2;
+			}
+			&:last-child{
+				border-bottom: 0;
+				padding-bottom: 0;
+			}
+
+		}
+	}
+	select{
+		border: 1px solid #e2e2e2;
+	}
+
+}
+.widget{
+	ul.menu{
+		@extend .collection;
+		li{
+			@extend .collection-item;
+			-moz-transition: all 0.4s ease-in-out;
+			-webkit-transition: all 0.4s ease-in-out;
+			transition: all 0.4s ease-in-out;
+			&:hover, &:focus{
+				background: #f1f1f1;
+			}
+			a{
+				color: $site_color;
+				&:hover, &:focus{
+					color: $theme_color;
+				}
+			}
+		}
+	}
+	.card{
+		.label-count{
+			a{
+				color: $white_color;
+				&:hover, &:focus{
+					color: $white_color;
+				}
+			}
+		}
+	}
+}
+//Calendar Widget
+.widget_calendar{
+	td, th{
+		text-align: center;
+	}
+	#prev a, #next a{
+		background: #f1f1f1;
+		padding: 0;
+		display: block;
+		padding: 10px 5px;
+	}
+}
+.widget.widget_mc4wp_form_widget{
+	.mc4wp-form{
+		input[type=email], input[type=text] {
+			padding: 10px 0 10px;
+		}
+		label{
+			color: #fff;
+		}
+	}
+
+	.mc4wp-alert{
+		font-size: 14px;
+	}
+	input[type=submit]{
+		height: 40px;
+		line-height: 40px;
+	}
+}
+.widget .mc4wp-form-basic input{
+	height: 40px;
+}
+
+.widget{
+	.tabs{
+		margin: 0;
+	    border: 0;
+	    border-radius: 0;
+	    .tab{
+			border-bottom: 0;
+			background: none;
+			overflow:hidden;
+			white-space: nowrap;
+			text-overflow: ellipsis;
+			&:hover, &:focus{
+				background: none;
+			}
+			a{
+				color: #fff;
+				&:hover, &:focus{
+					color: #fff;
+				}
+			}
+	    }
+	}
+}

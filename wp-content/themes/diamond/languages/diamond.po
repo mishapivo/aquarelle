@@ -1,0 +1,243 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: diamond\n"
+"POT-Creation-Date: 2015-08-22 01:44+0200\n"
+"PO-Revision-Date: 2015-08-22 01:45+0200\n"
+"Last-Translator: \n"
+"Language-Team: EightPixelDesign <pixeldesign94@gmail.com>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;printf(;e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:14
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:17 content-none.php:18
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: 404.php:21 content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: 404.php:26 content-none.php:27
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: archive.php:48 search.php:41
+msgid "Previous page"
+msgstr ""
+
+#: archive.php:49 search.php:42
+msgid "Next page"
+msgstr ""
+
+#: archive.php:50 image.php:62 index.php:43 search.php:43
+msgid "Page"
+msgstr ""
+
+#: author-bio.php:11
+msgid "Published by"
+msgstr ""
+
+#: author-bio.php:33 author-presentation.php:15
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#: content-none.php:15
+msgid "Nothing Found"
+msgstr ""
+
+#: content-page.php:22 content-search.php:22 content.php:22 page.php:32
+#: single.php:32
+msgid "by"
+msgstr ""
+
+#: content-page.php:22 content-search.php:22 content.php:22 page.php:32
+msgid "0"
+msgstr ""
+
+#: content-page.php:22 content-search.php:22 content.php:22 page.php:32
+msgid "1"
+msgstr ""
+
+#: content-page.php:22 content-search.php:22 content.php:22 page.php:32
+msgid "%"
+msgstr ""
+
+#: content-page.php:22 content-search.php:22 content.php:22 page.php:32
+#: single.php:32
+msgid "In"
+msgstr ""
+
+#: content-page.php:23 content-search.php:23 content.php:23 image.php:70
+msgid "Edit"
+msgstr ""
+
+#: functions.php:84
+msgid "Sidebar Menu"
+msgstr ""
+
+#: functions.php:85
+msgid "Header Menu"
+msgstr ""
+
+#: functions.php:132
+msgid "Widget Area"
+msgstr ""
+
+#: functions.php:134 functions.php:143
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: functions.php:141
+msgid "Widget right"
+msgstr ""
+
+#: functions.php:213
+msgid "expand child menu"
+msgstr ""
+
+#: functions.php:214
+msgid "collapse child menu"
+msgstr ""
+
+#: functions.php:351
+msgid "DIAMOND PRO WITH MORE OPTIONS "
+msgstr ""
+
+#: functions.php:351
+msgid "http://www.eightpixeldesign.com/diamond"
+msgstr ""
+
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:44
+msgid "Menu and widgets"
+msgstr ""
+
+#: image.php:23
+msgid "Previous Image"
+msgstr ""
+
+#: image.php:23
+msgid "Next Image"
+msgstr ""
+
+#: image.php:58
+msgid "Pages:"
+msgstr ""
+
+#: inc/back-compat.php:36 inc/back-compat.php:46 inc/back-compat.php:59
+#, php-format
+msgid ""
+"Diamond requires at least WordPress version 4.1. You are running version %s. "
+"Please upgrade and try again."
+msgstr ""
+
+#: inc/custom-header.php:45 inc/custom-header.php:51
+msgid "Logo"
+msgstr ""
+
+#: inc/custom-header.php:47
+msgid ""
+"Upload a logo to replace the default site name and description in the header"
+msgstr ""
+
+#: inc/customizer.php:18
+msgid "BUY NOW FOR $29"
+msgstr ""
+
+#: inc/customizer.php:55
+msgid "Header and Sidebar Text Color"
+msgstr ""
+
+#: inc/customizer.php:56 inc/customizer.php:72 inc/customizer.php:77
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr ""
+
+#: inc/customizer.php:71
+msgid "Header and Sidebar Background Color"
+msgstr ""
+
+#: inc/customizer.php:101
+msgid "Default"
+msgstr ""
+
+#: inc/customizer.php:119 inc/customizer.php:126
+msgid "Favicon"
+msgstr ""
+
+#: inc/customizer.php:121
+msgid "Upload a favicon to your Wordpress"
+msgstr ""
+
+#: inc/template-tags.php:22
+msgid "Comment navigation"
+msgstr ""
+
+#: inc/template-tags.php:25
+msgid "Older Comments"
+msgstr ""
+
+#: inc/template-tags.php:29
+msgid "Newer Comments"
+msgstr ""
+
+#: inc/template-tags.php:48
+msgid "Featured"
+msgstr ""
+
+#: inc/template-tags.php:121
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:121
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:121
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:236
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: search.php:15
+msgid "Search Results for: "
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: sidebar.php:33
+msgid "http://www.eightpixeldesign.com/"
+msgstr ""
+
+#: sidebar.php:33
+msgid "Proudly published by EightPixelDesign"
+msgstr ""

@@ -1,0 +1,114 @@
+/*--------------------------------------------------------------
+# Include Fonts
+--------------------------------------------------------------*/
+// @import "fonts";
+/*--------------------------------------------------------------
+# Site Typography
+--------------------------------------------------------------*/
+html{color: $site_color;text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased;}
+
+// Header Styles
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 { font-size: $h1-fontsize; line-height: 110%; margin: ($h1-fontsize / 3) 0 ($h1-fontsize / 3) 0;}
+h2 { font-size: $h2-fontsize; line-height: 110%; margin: ($h2-fontsize / 3) 0 ($h2-fontsize / 3) 0;}
+h3 { font-size: $h3-fontsize; line-height: 110%; margin: ($h3-fontsize / 3) 0 ($h3-fontsize / 3) 0;}
+h4 { font-size: $h4-fontsize; line-height: 110%; margin: ($h4-fontsize / 3) 0 ($h4-fontsize / 3) 0;}
+h5 { font-size: $h5-fontsize; line-height: 110%; margin: ($h5-fontsize / 3) 0 ($h5-fontsize / 3) 0;}
+h6 { font-size: $h6-fontsize; line-height: 110%; margin: ($h6-fontsize / 3) 0 ($h6-fontsize / 3) 0;}
+p{color: $entry-content-color;}
+a{
+	@include theme-transitions;
+}
+.fulla{
+    width: 100%;
+    height: 100%;
+}
+abbr[title]{
+    cursor: help;
+}
+hr{
+    margin: 2rem auto;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 0;
+}
+.read-more.btn{
+    padding: 0 1rem;
+}
+.tabs .indicator{
+    background: darken($theme_color_dark, 5%);
+}
+.op0{
+    opacity: 0;
+}
+//  Dropcap
+.dropcap{
+	float: left;
+    display: block;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 69%;
+    margin-right: 0.3rem;
+    padding: 0.3rem;
+}
+//  Blockquote
+blockquote {
+    margin: 2rem 0;
+    padding-left: 1.5rem;
+    border-left: 5px solid $theme_color;
+    font-size: 1.2rem;
+    font-family: "Roboto Slab";
+    line-height: 165%;
+    p{
+        line-height: 165%;
+    }
+}
+pre{
+	background: #f6f6f6;
+	font-size: 14px;
+    line-height: 1.5em;
+    margin: 1.5rem 0;
+    max-width: 100%;
+    overflow: auto;
+    padding: 1.5em;
+}
+
+// Theme Typography
+.entry-content p{
+	margin-bottom: 1.3rem;
+	color: $entry-content-color;
+	line-height: 150%;
+}
+.section-title, .widget-title, .comments-title, .reply-title{
+	margin-top: 0;
+	@include font-size(1.420);
+	font-family: 'Roboto Slab', Roboto;
+}
+.page-title {
+	font-weight: 300;
+	line-height: 130%;
+	text-transform: capitalize;
+	margin: 0;
+	span{
+		font-weight: 700;
+	}
+}
+.section-title{
+	line-height: 71%;
+	font-family: 'Roboto Slab', Roboto;
+	a{
+		color: $title-color;
+	}
+}
+.widget-title{
+	a{
+		color: $title-color;
+	}
+}
+.entry-title{
+	@include font-size(2);
+	line-height: 130%;
+	font-family: 'Roboto Slab', Roboto;
+}
+.cpm-share h3{
+	@include font-size(1.20);
+}

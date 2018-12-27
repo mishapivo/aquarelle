@@ -1,0 +1,144 @@
+@charset "UTF-8";
+/*!
+Theme Name: CPMmagz
+Theme URI: https://codethemes.co/product/cpm-magz/
+Author: CodeThemes
+Author URI: https://codethemes.co
+Description: CPMMagz theme is clean, blog and magazine focused for blogger & Media Houses.Awesome WordPress theme for magazines and blogs. Powered by Material Design UI, this theme is designed to suit the need for Magazine, Sport, Blog and other News portals and Entertainment sites. CPMmagz is a Cross-Browser Compatible theme that works on all leading web browsers. We've implemented the built-in WordPress customizer which allows user to customize their site easily as per their needs. Features include easy customization of a custom logo, fav icon, social icons, background, theme color, custom menu, featured content, highlights, breaking news, contact page and much more. For more information visit https://codethemes.co/product/cpm-magz/
+Version: 1.3.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: grid-layout, footer-widgets, blog, e-commerce, entertainment, news, food-and-drink, two-columns, left-sidebar, custom-background, custom-colors, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, threaded-comments, translation-ready
+Text Domain: cpmmagz
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+CPMmagz is based on Underscores http://underscores.me/ and Materialize http://materializecss.com/ , (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+
+1. Materialize Components
+	1.1 Colors
+	1.2 Normalize
+	1.3 Global
+	1.4 Material Design Icons
+	1.5 Grids
+	1.6 Navbar
+	1.7 Fonts
+	1.8 Typography
+	1.9 Cards
+	1.10 Toast
+	1.11 Tabs
+	1.12 Tooltip
+	1.13 Buttons
+	1.14 Dropdown
+	1.15 Wave
+	1.16 Modal
+	1.17 Collapsible
+	1.18 Material BOx
+	1.19 Forms
+	1.20 Table Of Contents
+	1.21 Sidenav
+	1.22 PreLoader
+	1.23 Slider
+	1.24 Defaults
+	1.25 Default Dates
+	1.26 Default Time
+
+2. Wordpress Core Styles
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+1.0 Materialize Import
+--------------------------------------------------------------*/
+@import "material-components/prefixer";
+@import "material-components/mixins";
+@import "material-components/variables";
+/*--------------------------------------------------------------
+# 1.2 Normalize
+--------------------------------------------------------------*/
+@import "material-components/normalize";
+/*--------------------------------------------------------------
+# 1.3 Global
+--------------------------------------------------------------*/
+@import "material-components/global";
+/*--------------------------------------------------------------
+# 1.4 Material Design Icons
+--------------------------------------------------------------*/
+@import "material-components/icons-material-design";
+/*--------------------------------------------------------------
+# 1.5 Grids
+--------------------------------------------------------------*/
+@import "material-components/grid";
+/*--------------------------------------------------------------
+# 1.6 Navbar
+--------------------------------------------------------------*/
+@import "material-components/navbar";
+/*--------------------------------------------------------------
+# 1.8 Typography
+--------------------------------------------------------------*/
+@import "material-components/typography";
+/*--------------------------------------------------------------
+# 1.9 Cards
+--------------------------------------------------------------*/
+@import "material-components/cards";
+/*--------------------------------------------------------------
+# 1.11 Tabs
+--------------------------------------------------------------*/
+@import "material-components/tabs";
+/*--------------------------------------------------------------
+# 1.13 Buttons
+--------------------------------------------------------------*/
+@import "material-components/buttons";
+/*--------------------------------------------------------------
+# 1.14 Dropdown
+--------------------------------------------------------------*/
+@import "material-components/dropdown";
+/*--------------------------------------------------------------
+# 1.15 Waves
+--------------------------------------------------------------*/
+@import "material-components/waves";
+/*--------------------------------------------------------------
+# 1.17 Collapsible
+--------------------------------------------------------------*/
+@import "material-components/collapsible";
+/*--------------------------------------------------------------
+# 1.18 Material Box
+--------------------------------------------------------------*/
+@import "material-components/materialbox";
+/*--------------------------------------------------------------
+# 1.19 Forms
+--------------------------------------------------------------*/
+@import "material-components/form";
+/*--------------------------------------------------------------
+# 1.20 Table Of Contents
+--------------------------------------------------------------*/
+@import "material-components/table_of_contents";
+/*--------------------------------------------------------------
+# 1.23 Slider
+--------------------------------------------------------------*/
+@import "material-components/slider";
+/*--------------------------------------------------------------
+# 1.24 Defaults
+--------------------------------------------------------------*/
+@import "material-components/date_picker/default.scss";
+/*--------------------------------------------------------------
+# 1.25 Default Dates
+--------------------------------------------------------------*/
+@import "material-components/date_picker/default.date.scss";
+/*--------------------------------------------------------------
+# 1.26 Default Time
+--------------------------------------------------------------*/
+@import "material-components/date_picker/default.time.scss";
+/*--------------------------------------------------------------
+2.0 Wordpress Core Styles
+--------------------------------------------------------------*/
+@import "cpmag-components/wordpress-components/wordpress";
+/*--------------------------------------------------------------
+3.0 Theme Styles
+--------------------------------------------------------------*/
+@import "cpmag-components/theme-components/cpmagz";

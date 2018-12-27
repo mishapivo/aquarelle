@@ -1,0 +1,14 @@
+img{
+	max-width: 100%;
+	height: auto;
+}
+.round-img {
+	img{
+		@include circle-img;
+	}
+}
+.tiled-gallery {
+    .gallery-row{
+        margin: 0 auto;
+    }
+}

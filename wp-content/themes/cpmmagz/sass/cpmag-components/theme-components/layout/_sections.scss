@@ -1,0 +1,19 @@
+section.section{
+	padding: $site-padding 0 0 0;
+	&.featured-section{
+		background: $alt_bg;
+		padding: $big-site-padding 0;
+	}
+	&.highlights-section{
+		padding: 0;
+		.card{
+			margin-top: 0;
+		}
+	}
+	&.add-section{
+		text-align: center;
+	}
+}
+.related-posts{
+	margin-bottom: 4rem;
+}

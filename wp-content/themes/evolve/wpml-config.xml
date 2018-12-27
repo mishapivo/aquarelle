@@ -1,0 +1,92 @@
+<wpml-config>
+    <admin-texts>
+        <key name="theme_mods_evolve">
+
+            <!-- Bootstrap Slider -->
+
+            <key name="evl_bootstrap_slide1_title"/>
+            <key name="evl_bootstrap_slide2_title"/>
+            <key name="evl_bootstrap_slide3_title"/>
+            <key name="evl_bootstrap_slide4_title"/>
+            <key name="evl_bootstrap_slide5_title"/>
+            <key name="evl_bootstrap_slide1_desc"/>
+            <key name="evl_bootstrap_slide2_desc"/>
+            <key name="evl_bootstrap_slide3_desc"/>
+            <key name="evl_bootstrap_slide4_desc"/>
+            <key name="evl_bootstrap_slide5_desc"/>
+            <key name="evl_bootstrap_slide1_button"/>
+            <key name="evl_bootstrap_slide2_button"/>
+            <key name="evl_bootstrap_slide3_button"/>
+            <key name="evl_bootstrap_slide4_button"/>
+            <key name="evl_bootstrap_slide5_button"/>
+
+            <!-- Parallax Slider -->
+
+            <key name="evl_slide1_title"/>
+            <key name="evl_slide2_title"/>
+            <key name="evl_slide3_title"/>
+            <key name="evl_slide4_title"/>
+            <key name="evl_slide5_title"/>
+            <key name="evl_slide1_desc"/>
+            <key name="evl_slide2_desc"/>
+            <key name="evl_slide3_desc"/>
+            <key name="evl_slide4_desc"/>
+            <key name="evl_slide5_desc"/>
+            <key name="evl_slide1_button"/>
+            <key name="evl_slide2_button"/>
+            <key name="evl_slide3_button"/>
+            <key name="evl_slide4_button"/>
+            <key name="evl_slide5_button"/>
+
+            <!-- Custom Footer -->
+
+            <key name="evl_footer_content"/>
+
+            <!-- Content Boxes -->
+
+            <key name="evl_content_boxes_title"/>
+            <key name="evl_content_box1_title"/>
+            <key name="evl_content_box2_title"/>
+            <key name="evl_content_box3_title"/>
+            <key name="evl_content_box4_title"/>
+            <key name="evl_content_box5_title"/>
+            <key name="evl_content_box1_desc"/>
+            <key name="evl_content_box2_desc"/>
+            <key name="evl_content_box3_desc"/>
+            <key name="evl_content_box4_desc"/>
+            <key name="evl_content_box5_desc"/>
+            <key name="evl_content_box1_button"/>
+            <key name="evl_content_box2_button"/>
+            <key name="evl_content_box3_button"/>
+            <key name="evl_content_box4_button"/>
+            <key name="evl_content_box5_button"/>
+
+            <!-- Testimonials -->
+
+            <key name="evl_testimonials_title"/>
+            <key name="evl_fp_testimonial1_name"/>
+            <key name="evl_fp_testimonial2_name"/>
+            <key name="evl_fp_testimonial1_content"/>
+            <key name="evl_fp_testimonial2_content"/>
+
+            <!-- Counter Circle -->
+
+            <key name="evl_counter_circle_title"/>
+            <key name="evl_fp_counter_circle1_text"/>
+            <key name="evl_fp_counter_circle2_text"/>
+            <key name="evl_fp_counter_circle3_text"/>
+
+            <!-- WooCommerce -->
+
+            <key name="evl_woo_product_title"/>
+            <key name="evl_woo_acc_msg_1"/>
+            <key name="evl_woo_acc_msg_2"/>
+
+            <!-- Custom Content -->
+
+            <key name="evl_custom_content_title"/>
+            <key name="evl_fp_custom_content_editor"/>
+
+        </key>
+    </admin-texts>
+</wpml-config>

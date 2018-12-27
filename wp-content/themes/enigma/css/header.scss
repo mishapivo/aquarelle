@@ -1,0 +1,198 @@
+/*------------------------------------*\
+    #PRIMARY-MENU
+\*------------------------------------*/
+.primary-menu {
+	@include grid;
+	@include sans-serif;
+	font-weight: $bold;
+	height: $nav-bar-height;
+
+	&__wrapper {
+		@include clearfix();
+		background: rgba(white, 0.3);
+	}
+
+	/* more explicit here to prevent conflicts with
+		the megamenu / subnav */
+	> .nav > ul {
+		@include no-margin-padding();
+		@include no-bullets();
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+
+		> li {
+			border-top: 2px solid transparent;
+
+			&:hover {
+				background: white;
+				border-top: 2px solid $dark-slate-blue;
+
+				/* show mega menu on rollover */
+				.mega-menu__wrapper {
+					display: block;
+				}
+			}
+
+			> a {
+				box-sizing: border-box;
+				color: $dark-slate-blue;
+				display: block;
+				letter-spacing: 1px;
+				line-height: 40px;
+				padding: 10px 35px;
+				text-decoration: none;
+				text-transform: uppercase;
+			}
+
+		}
+	}
+
+	.sub-menu {
+		display: none;
+	}
+}
+
+
+/* home */
+.nav-home a {
+	@include remove-text;
+	background: path('icon-home.svg') center center no-repeat;
+
+	&:hover {
+		background: white path('icon-home.svg') center center no-repeat;
+	}
+}
+
+/* search - needs to be specific in order to prevent
+	interferences with the search bar */
+.nav-search > a {
+	@include remove-text;
+	background: path('icon-search.svg') center center no-repeat;
+	left: 0;
+	position: relative;
+	transition: left 0.5s ease-in-out;
+
+	&:hover {
+		background: white path('icon-search.svg') center center no-repeat;
+	}
+}
+
+
+
+
+
+/*------------------------------------*\
+    #MEGA-MENU
+\*------------------------------------*/
+@keyframes reveal-mega-menu {
+	0% {
+		height: 0%;
+	}
+
+	100% {
+		height: auto;
+	}
+}
+
+@keyframes fadein-mega-menu {
+	0% {
+		opacity: 0;
+		top: -5px;
+	}
+
+	100% {
+		opacity: 1;
+		top: 0;
+	}
+}
+
+.mega-menu {
+	@include grid;
+	animation: fadein-mega-menu .5s ease-in-out;
+	position: relative;
+
+	&__wrapper {
+		animation: reveal-mega-menu .25s ease-in-out;
+		background: white;
+		box-shadow: 0 4px 4px -2px #777;
+		display: none;
+		left: 0;
+		min-height: 320px;
+		padding: 35px 0 45px;
+		position: absolute;
+		width: 100%;
+		z-index: map-get($zindex, mega-menu);
+	}
+
+	/* content within the mega menu */
+	&__content {
+		@include push(1);
+		@include span(7);
+		box-sizing: border-box;
+		border-right: 10px solid $butterscotch;
+		padding-left: 33px;
+		padding-right: 120px;
+
+		/* mega menu title */
+		h2 {
+			@include sans-serif($light);
+			font-size: em(28px);
+			color: $dark-slate-blue;
+			letter-spacing: 1px;
+			margin-bottom: 10px;
+			margin-top: 25px;
+		}
+
+		/* description */
+		p {
+			@include serif;
+			font-size: em(18px);
+			font-weight: normal;
+			line-height: em(28px, 18px);
+			margin-bottom: 30px;
+		}
+
+		/* learn more button */
+		.learn-more {
+			@include btn--inverse($dark-slate-blue, $dark-slate-blue, white);
+			margin-bottom: 25px;
+
+			&:after {
+                @include btn-arrow($dark-slate-blue);
+            }
+
+            &:hover:after {
+                @include btn-arrow(white);
+            }
+		}
+	}
+
+	/* subnavigation within the mega menu */
+	&__subnav {
+		@include span(4);
+		@include last;
+
+		.subnav {
+			@include no-bullets;
+			padding: 0;
+			margin: 25px 0 25px 40px;
+
+			li {
+				font-size: em(16px);
+				line-height: em(20px, 16px);
+				margin-bottom: 20px;
+
+				a {
+					color: $dark-slate-blue;
+					text-decoration: none;
+					text-transform: uppercase;
+
+					&:hover {
+						color: $butterscotch;
+					}
+				}
+			}
+		}
+	}
+}

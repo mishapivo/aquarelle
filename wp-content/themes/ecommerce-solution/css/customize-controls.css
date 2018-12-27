@@ -1,0 +1,22 @@
+#customize-controls .control-section-ecommerce-solution .accordion-section-title:hover,
+#customize-controls .control-section-ecommerce-solution .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.control-section-ecommerce-solution .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+
+.rtl .control-section-ecommerce-solution .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+
+.wp-core-ui .button, .wp-core-ui .button-secondary {
+    border: solid 1px #0073aa;
+    color: #0073aa;
+    font-size: 16px;
+    font-weight: bold !important;
+}

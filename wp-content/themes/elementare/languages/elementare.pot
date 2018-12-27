@@ -1,0 +1,1741 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Elementare\n"
+"POT-Creation-Date: 2018-12-19 13:13+0100\n"
+"PO-Revision-Date: 2018-12-19 13:13+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:32
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#: archive.php:39 index.php:44 search.php:39
+msgid "Previous"
+msgstr ""
+
+#: archive.php:40 index.php:45 search.php:40
+msgid "Next"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:34
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:40
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:54
+msgid "Reply"
+msgstr ""
+
+#: comments.php:63
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:74
+msgid "Name *"
+msgstr ""
+
+#: comments.php:75
+msgid "Email *"
+msgstr ""
+
+#: comments.php:76
+msgid "Website"
+msgstr ""
+
+#: comments.php:78
+msgid "Required fields are marked "
+msgstr ""
+
+#. translators: %s: wordpress login url
+#: comments.php:83
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#. translators: 1: profile user link, 2: username, 3: logout link
+#: comments.php:85
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:86
+msgid "Your email address will not be published."
+msgstr ""
+
+#: comments.php:87
+msgid "Leave a Reply"
+msgstr ""
+
+#. translators: %s: name of person to reply
+#: comments.php:89
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:90
+msgid "Cancel reply"
+msgstr ""
+
+#: comments.php:91
+msgid "Post Comment"
+msgstr ""
+
+#: comments.php:92
+msgid "Comment *"
+msgstr ""
+
+#: footer.php:50
+msgid "https://wordpress.org/"
+msgstr ""
+
+#. translators: %s: CMS name, i.e. WordPress.
+#: footer.php:52
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#. translators: 1: theme name, 2: theme developer
+#: footer.php:57
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:52 functions.php:154
+msgid "Primary"
+msgstr ""
+
+#: functions.php:53
+msgid "Footer"
+msgstr ""
+
+#: functions.php:87
+msgid "Small"
+msgstr ""
+
+#: functions.php:88
+msgid "S"
+msgstr ""
+
+#: functions.php:93
+msgid "Regular"
+msgstr ""
+
+#: functions.php:94
+msgid "M"
+msgstr ""
+
+#: functions.php:99
+msgid "Large"
+msgstr ""
+
+#: functions.php:100
+msgid "L"
+msgstr ""
+
+#: functions.php:105
+msgid "Larger"
+msgstr ""
+
+#: functions.php:106
+msgid "XL"
+msgstr ""
+
+#: functions.php:185
+msgid "Classic Sidebar"
+msgstr ""
+
+#: functions.php:187 functions.php:196 functions.php:205 functions.php:214
+#: functions.php:223
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:194
+msgid "Push Sidebar"
+msgstr ""
+
+#: functions.php:203
+msgid "Footer Left"
+msgstr ""
+
+#: functions.php:212
+msgid "Footer Center"
+msgstr ""
+
+#: functions.php:221
+msgid "Footer Right"
+msgstr ""
+
+#: header.php:33
+msgid "Skip to content"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:31
+#: inc/admin/elementare-admin-page.php:104
+msgid "About"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:66
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:69
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:81
+msgid "Dismiss"
+msgstr ""
+
+#. translators: 1: start option panel link, 2: end option panel link
+#: inc/admin/elementare-admin-page.php:85
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing Elementare theme! To fully take advantage of "
+"the best our theme can offer and read the documentation please make sure you "
+"visit our %1$swelcome page%2$s."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:89
+msgid "Get started with Elementare"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:110
+msgid "Theme Info"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:112
+msgid "View Demo"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:114
+msgid "View PRO version Demo"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:116
+msgid "Import demo content (instructions)"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:118
+msgid "Rate this theme"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:131
+msgid "Free Vs PRO"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:134
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:137
+msgid "Changelog"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:165
+msgid "Theme Customizer"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:166
+msgid "All Theme Options are available via Customize screen."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:167
+msgid "Customize"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:170
+msgid "Got theme support question?"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:171
+msgid "Please put it in our support forum."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:172
+msgid "Support"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:175
+msgid "Need more features?"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:176
+#: inc/admin/elementare-admin-page.php:537
+msgid "Upgrade to PRO version for more exciting features."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:177
+msgid "Info about PRO version"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:182
+#: inc/admin/elementare-admin-page.php:190
+msgid "Translate"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:186
+msgid "Click below to translate this theme into your own language."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:201
+msgid "Return to Updates"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:201
+msgid "Return to Dashboard &rarr; Updates"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:204
+msgid "Go to Dashboard &rarr; Home"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:204
+msgid "Go to Dashboard"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:217
+msgid "View changelog below:"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:262
+msgid "Elementare WordPress Theme Documentation"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:265
+msgid "How to import demo content"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:270
+msgid "First install the \"One Click Demo Import\" plugin on the website"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:271
+msgid "One Click Demo Import plugin page"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:279
+msgid ""
+"Once you have installed and activated the plugin, go to your WordPress "
+"Dashboard under \"Appearance-> Import Demo Data\" and click on the \"Import "
+"Demo Data\" button. Please click on the Import button only once and wait, it "
+"can take a couple of minutes."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:280
+#: inc/demo-import/demo-import-settings.php:11
+msgid ""
+"We recommend importing the demo content to new websites without content. "
+"This is to avoid filling the website with new pages and posts that could "
+"create confusion with existing content. After you import the demo, the main "
+"menu, widgets, and some parts of the theme (like the site logo) must be set "
+"manually."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:292
+msgid "How to set the \"one page\" template in the home page"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:297
+msgid ""
+"Watch the video to set the onepage template on the home page, or read the "
+"step-by-step instructions below."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:300
+#: inc/admin/elementare-admin-page.php:366
+msgid "Link to the YouTube video"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:305
+msgid ""
+"1) Create a new page and name it as you like (eg. My Home Page). In the "
+"\"Page Attributes\" section choose the template called \"One Page Website\" "
+"and save the page."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:313
+msgid ""
+"2) Go in your WordPress Dashboard under \"Settings-> Reading\". Set the "
+"\"Front page displays\" on \"Static Page\" and choose the page you "
+"previously created as Front page (eg. My Home Page)."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:321
+msgid ""
+"3) Perfect! Now you can go in your WordPress Dashboard under \"Appearance-> "
+"Customize\" and you'll see the section called \"Elementare Onepage\" in "
+"which you can customize the home page."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:333
+msgid "One Page: how to scroll to section using the menu"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:338
+msgid ""
+"1) Go to your WordPress Dashboard under \"Appearance-> Customize-> "
+"Elementare Onepage\" and choose one section (eg. Features) and add a section "
+"ID (eg. features) for this section. Save the options."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:346
+msgid ""
+"2) Now go to your WordPress Dashboard under \"Appearance-> Menus\" and "
+"create a new custom link with the URL of your home page followed the ID "
+"created for the section (eg. yoursite.com/#features). Add this custom link "
+"to your menu and save the options."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:358
+msgid ""
+"One Page: how to set \"About Us\" section, \"Features\" section, \"Services"
+"\" section and \"Team\" section"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:363
+msgid ""
+"Watch the video to set the \"About Us\" section, or read the step-by-step "
+"instructions below."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:371
+msgid ""
+"1) These sections (About Us, Features, Services and Team) work in the same "
+"way and with the same procedure. To insert the content create a new page, "
+"and insert the title, content and featured image. The featured image is only "
+"valid for the \"About Us\" and \"Team\" section but is not mandatory."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:379
+msgid ""
+"2) Now go to \"Appearance-> Customize-> Elementare Onepage\" and choose the "
+"section you want to edit (About Us, Features or Services). Find the option "
+"called \"Choose the page to display\" and search the page you just created."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:387
+msgid ""
+"3) Now the section will show the content of the page previously created and "
+"the layout will be like the example image. The \"Features\", \"Services\" "
+"and \"Team\" sections work in the same way but will have a different layout."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:399
+msgid "One Page: how to re-order sections"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:404
+msgid ""
+"Re-order sections is available in Elementare PRO version. With this feature "
+"you can choose the position of each section using drag and drop. Click on "
+"the button below for more information:"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:405
+msgid "More Info About PRO Version"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:417
+msgid "How to add social icons"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:422
+msgid ""
+"Go to your WordPress Dashboard under \"Appearance-> Customize-> Elementare "
+"Theme Options-> Social Network\". Here you can choose which social network "
+"to show, social icons will be displayed in the footer."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:434
+msgid "How to add custom logo"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:439
+msgid ""
+"Go to your WordPress Dashboard under \"Appearance-> Customize-> Site Identity"
+"\". Here you can upload your custom logo (size 250x60px)."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:451
+msgid "How to change theme colors"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:456
+msgid ""
+"Go to your WordPress Dashboard under \"Appearance-> Customize-> Elementare "
+"Theme Options-> Theme Colors\". Here you can change the theme colors "
+"according to sections of the site (header, content, push sidebar and footer)."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:468
+msgid "How to display page loader"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:473
+msgid ""
+"Go to your WordPress Dashboard under \"Appearance-> Customize-> Elementare "
+"Theme Options-> General Settings\", find the option called \"Display page "
+"loader\" and check it. The background will be the same of \"Content "
+"background color\" and the loader icon the same color of \"Link color\"."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:485
+msgid "Can I use a page builder plugin?"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:490
+msgid ""
+"Yes, the theme is compatible with Elementor Page Builder, SiteOrigin and "
+"Beaver Builder plugins. Just create or edit the page you want to use the "
+"page builder and choose the template called \"Full Width for page builders"
+"\". This template allows page builders to have maximum page customization "
+"(only the menu and the footer will be visible)."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:492
+msgid ""
+"Moreover, in the PRO version, it is possible to use the custom sections to "
+"\"import\" entire pages created with the Page Builders inside the Onepage."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:504
+msgid "How to highlight a menu item"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:509
+msgid ""
+"If you need to emphasize a menu item (call to action, donate button, etc..) "
+"just go to your WordPress Dashboard under \"Appearance-> Menus\". Create a "
+"new \"Custom Links\" and drag it into the menu. Expand the entry and in the "
+"\"CSS Classes\" section write: crestaMenuButton"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:517
+msgid ""
+"This will be the result (the colors change according to the ones chosen)."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:541
+msgid "Features"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:542
+msgid "Elementare"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:543
+msgid "Elementare PRO"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:548
+msgid "Theme Options made with the WP Customizer"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:553
+msgid "Responsive Design"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:558
+msgid "Logo Upload"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:563
+msgid "Unlimited Text and Background Color"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:568
+msgid "Choose Social Icons"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:570
+msgid "+ more social buttons"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:573
+msgid "WooCommerce Compatibility"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:578
+msgid "WPML Multilingual ready"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:583
+msgid "RTL Support"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:588
+msgid "Sidebar and Footer Widgets"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:593
+msgid "Loading Page"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:594
+msgid "1 loader"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:595
+msgid "7 loaders"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:598
+msgid "One Page Template"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:600
+msgid "+ more sections"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:603
+msgid "One Page additional sections"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:605
+msgid ""
+"Portfolio, Google Map, Numbers, Newsletter, Clients, Testimonials, Video and "
+"more..."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:608
+msgid "One Page Section Reorder"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:613
+msgid "One Page Template scroll animations"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:618
+msgid "One Page choose Slider Height"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:623
+msgid "Portfolio Template"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:628
+msgid "Parallax Effect"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:633
+msgid "Google Fonts switcher"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:638
+msgid "Manage sidebar position"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:643
+msgid "Sticky Sidebar"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:648
+msgid "Post views counter"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:653
+msgid "9 Exclusive Widgets"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:658
+msgid "4 Shortcodes"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:663
+msgid "Related Posts Box"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:668
+msgid "Information About Author Box"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:673
+msgid "PowerTip, LightBox, Custom Copyright Text and much more..."
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:681
+msgid "View PRO version demo"
+msgstr ""
+
+#: inc/admin/elementare-admin-page.php:682
+msgid "Get Elementare PRO"
+msgstr ""
+
+#: inc/customizer.php:71
+msgid "Elementare Theme Options"
+msgstr ""
+
+#: inc/customizer.php:78
+msgid "Elementare Onepage"
+msgstr ""
+
+#: inc/customizer.php:82
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer.php:87
+msgid "Posts and pages settings"
+msgstr ""
+
+#: inc/customizer.php:92
+msgid "Theme Colors"
+msgstr ""
+
+#: inc/customizer.php:97
+msgid "Social Buttons"
+msgstr ""
+
+#: inc/customizer.php:103
+msgid "Onepage general settings"
+msgstr ""
+
+#: inc/customizer.php:108
+msgid "Section slider"
+msgstr ""
+
+#: inc/customizer.php:113
+msgid "Section about us"
+msgstr ""
+
+#: inc/customizer.php:118
+msgid "Section features"
+msgstr ""
+
+#: inc/customizer.php:123
+msgid "Section skills"
+msgstr ""
+
+#: inc/customizer.php:128
+msgid "Section call to action"
+msgstr ""
+
+#: inc/customizer.php:133
+msgid "Section services"
+msgstr ""
+
+#: inc/customizer.php:138
+msgid "Section blog"
+msgstr ""
+
+#: inc/customizer.php:143
+msgid "Section team"
+msgstr ""
+
+#: inc/customizer.php:148
+msgid "Section contact"
+msgstr ""
+
+#: inc/customizer.php:155
+msgid "Elementare useful links"
+msgstr ""
+
+#: inc/customizer.php:168
+msgid "Display page loader"
+msgstr ""
+
+#: inc/customizer.php:182
+msgid "Display search button in the header"
+msgstr ""
+
+#: inc/customizer.php:196
+msgid "Enable Smooth Scroll"
+msgstr ""
+
+#: inc/customizer.php:210
+msgid "Enable Animate Cursor"
+msgstr ""
+
+#: inc/customizer.php:224
+msgid "Show scroll to top button also on mobile view"
+msgstr ""
+
+#: inc/customizer.php:238
+msgid "Fixed main menu also on mobile view"
+msgstr ""
+
+#: inc/customizer.php:252
+msgid "Custom Excerpt Final"
+msgstr ""
+
+#: inc/customizer.php:266
+msgid "Text lenght for blog excerpt (number of words)"
+msgstr ""
+
+#: inc/customizer.php:283
+msgid "Show the scroll down button"
+msgstr ""
+
+#: inc/customizer.php:297
+msgid "Scroll down effect on featured images"
+msgstr ""
+
+#: inc/customizer.php:303
+msgid "No effect"
+msgstr ""
+
+#: inc/customizer.php:304 inc/customizer.php:830
+msgid "Zoom Effect"
+msgstr ""
+
+#: inc/customizer.php:322
+msgid "Header Section"
+msgstr ""
+
+#: inc/customizer.php:338
+msgid "Content Section"
+msgstr ""
+
+#: inc/customizer.php:354
+msgid "Push Sidebar Section"
+msgstr ""
+
+#: inc/customizer.php:370
+msgid "Footer Section"
+msgstr ""
+
+#: inc/customizer.php:380
+msgid "Header Background Color"
+msgstr ""
+
+#: inc/customizer.php:386
+msgid "Header Text Color"
+msgstr ""
+
+#: inc/customizer.php:392
+msgid "Header Accent Color"
+msgstr ""
+
+#: inc/customizer.php:398
+msgid "Content Background Color"
+msgstr ""
+
+#: inc/customizer.php:404
+msgid "Content Text Color"
+msgstr ""
+
+#: inc/customizer.php:410
+msgid "Content Accent Color"
+msgstr ""
+
+#: inc/customizer.php:416
+msgid "General Border Color"
+msgstr ""
+
+#: inc/customizer.php:422
+msgid "Push sidebar first background color"
+msgstr ""
+
+#: inc/customizer.php:428
+msgid "Push sidebar second background color"
+msgstr ""
+
+#: inc/customizer.php:434
+msgid "Push sidebar text color"
+msgstr ""
+
+#: inc/customizer.php:440
+msgid "Push sidebar accent color"
+msgstr ""
+
+#: inc/customizer.php:446
+msgid "Footer background color"
+msgstr ""
+
+#: inc/customizer.php:452
+msgid "Footer text color"
+msgstr ""
+
+#: inc/customizer.php:458
+msgid "Footer accent color"
+msgstr ""
+
+#: inc/customizer.php:490
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/customizer.php:495
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/customizer.php:500
+msgid "Google Plus URL"
+msgstr ""
+
+#: inc/customizer.php:505
+msgid "Linkedin URL"
+msgstr ""
+
+#: inc/customizer.php:510
+msgid "Instagram URL"
+msgstr ""
+
+#: inc/customizer.php:515
+msgid "YouTube URL"
+msgstr ""
+
+#: inc/customizer.php:520
+msgid "Pinterest URL"
+msgstr ""
+
+#: inc/customizer.php:525
+msgid "Tumblr URL"
+msgstr ""
+
+#: inc/customizer.php:530
+msgid "Flickr URL"
+msgstr ""
+
+#: inc/customizer.php:535
+msgid "VK URL"
+msgstr ""
+
+#: inc/customizer.php:540
+msgid "Xing URL"
+msgstr ""
+
+#: inc/customizer.php:545
+msgid "Reddit URL"
+msgstr ""
+
+#: inc/customizer.php:550
+msgid "Vimeo URL"
+msgstr ""
+
+#: inc/customizer.php:555
+msgid "Imdb URL"
+msgstr ""
+
+#: inc/customizer.php:584
+msgid "Open social links"
+msgstr ""
+
+#: inc/customizer.php:590 inc/customizer.php:2291
+msgid "Same window"
+msgstr ""
+
+#: inc/customizer.php:591
+msgid "New Window"
+msgstr ""
+
+#: inc/customizer.php:602
+msgid "Display social network in footer"
+msgstr ""
+
+#: inc/customizer.php:616
+msgid "Display social network in float"
+msgstr ""
+
+#: inc/customizer.php:637
+msgid "One Page Map"
+msgstr ""
+
+#: inc/customizer.php:649
+msgid "Show the one page section map"
+msgstr ""
+
+#: inc/customizer.php:663
+msgid "Slider Text"
+msgstr ""
+
+#: inc/customizer.php:677
+msgid "About Us Text"
+msgstr ""
+
+#: inc/customizer.php:691
+msgid "Features Text"
+msgstr ""
+
+#: inc/customizer.php:705
+msgid "Skills Text"
+msgstr ""
+
+#: inc/customizer.php:719
+msgid "CTA Text"
+msgstr ""
+
+#: inc/customizer.php:733
+msgid "Services Text"
+msgstr ""
+
+#: inc/customizer.php:747
+msgid "Blog Text"
+msgstr ""
+
+#: inc/customizer.php:761
+msgid "Team Text"
+msgstr ""
+
+#: inc/customizer.php:775
+msgid "Contact Text"
+msgstr ""
+
+#: inc/customizer.php:792
+msgid "Display section slider"
+msgstr ""
+
+#: inc/customizer.php:806 inc/customizer.php:1054 inc/customizer.php:1368
+#: inc/customizer.php:1756 inc/customizer.php:2035 inc/customizer.php:2320
+#: inc/customizer.php:2705 inc/customizer.php:2982 inc/customizer.php:3262
+msgid "Section ID name"
+msgstr ""
+
+#: inc/customizer.php:807 inc/customizer.php:1055 inc/customizer.php:1369
+#: inc/customizer.php:1757 inc/customizer.php:2036 inc/customizer.php:2321
+#: inc/customizer.php:2706 inc/customizer.php:2983 inc/customizer.php:3263
+msgid ""
+"ID for this section - if you want the user to be able to scroll down to this "
+"section."
+msgstr ""
+
+#: inc/customizer.php:822
+msgid "Scroll down effect on slider"
+msgstr ""
+
+#: inc/customizer.php:829
+msgid "No Effect"
+msgstr ""
+
+#: inc/customizer.php:841
+msgid "Show scroll down button"
+msgstr ""
+
+#: inc/customizer.php:860
+msgid "Slider background color"
+msgstr ""
+
+#: inc/customizer.php:861 inc/customizer.php:1112 inc/customizer.php:1426
+#: inc/customizer.php:1814 inc/customizer.php:2093 inc/customizer.php:2378
+#: inc/customizer.php:2763 inc/customizer.php:3040 inc/customizer.php:3320
+msgid ""
+"Use the same background color in both boxes if you do not want to use a "
+"gradient background."
+msgstr ""
+
+#: inc/customizer.php:880 inc/customizer.php:1131 inc/customizer.php:1445
+#: inc/customizer.php:1833 inc/customizer.php:2112 inc/customizer.php:2397
+#: inc/customizer.php:2782 inc/customizer.php:3059 inc/customizer.php:3339
+msgid "First Background Color"
+msgstr ""
+
+#: inc/customizer.php:900 inc/customizer.php:1151 inc/customizer.php:1465
+#: inc/customizer.php:1853 inc/customizer.php:2132 inc/customizer.php:2417
+#: inc/customizer.php:2802 inc/customizer.php:3079 inc/customizer.php:3359
+msgid "Second Background Color"
+msgstr ""
+
+#: inc/customizer.php:919
+msgid "Slider text color"
+msgstr ""
+
+#: inc/customizer.php:938 inc/customizer.php:1189 inc/customizer.php:1503
+#: inc/customizer.php:1891 inc/customizer.php:2170 inc/customizer.php:2455
+#: inc/customizer.php:2840 inc/customizer.php:3117 inc/customizer.php:3397
+msgid "Text Color Section"
+msgstr ""
+
+#: inc/customizer.php:958
+msgid "Slider "
+msgstr ""
+
+#: inc/customizer.php:974
+msgid "Slide image "
+msgstr ""
+
+#: inc/customizer.php:989
+msgid "Slider Text "
+msgstr ""
+
+#: inc/customizer.php:1004
+msgid "Slider Subtext "
+msgstr ""
+
+#: inc/customizer.php:1023
+msgid "Note:"
+msgstr ""
+
+#: inc/customizer.php:1024
+msgid "Upload up to three sliders. Recommended image size: 1920X1080"
+msgstr ""
+
+#: inc/customizer.php:1040
+msgid "Display section about us"
+msgstr ""
+
+#: inc/customizer.php:1074 inc/customizer.php:1388
+msgid "About us background image"
+msgstr ""
+
+#: inc/customizer.php:1092 inc/customizer.php:1406 inc/customizer.php:1794
+#: inc/customizer.php:2073 inc/customizer.php:2358 inc/customizer.php:2743
+#: inc/customizer.php:3020 inc/customizer.php:3300
+msgid "Background Image Section (optional)"
+msgstr ""
+
+#: inc/customizer.php:1111
+msgid "About us background color"
+msgstr ""
+
+#: inc/customizer.php:1170 inc/customizer.php:1484
+msgid "About us text color"
+msgstr ""
+
+#: inc/customizer.php:1208
+msgid "About us title and subtitle"
+msgstr ""
+
+#: inc/customizer.php:1216 sections/section-aboutus.php:5
+msgid "About Us"
+msgstr ""
+
+#: inc/customizer.php:1223 inc/customizer.php:1537 inc/customizer.php:1925
+#: inc/customizer.php:2489 inc/customizer.php:2874 inc/customizer.php:3151
+#: inc/customizer.php:3431
+msgid "Title"
+msgstr ""
+
+#: inc/customizer.php:1232 sections/section-aboutus.php:6
+msgid "Who We Are"
+msgstr ""
+
+#: inc/customizer.php:1239 inc/customizer.php:1553 inc/customizer.php:1941
+#: inc/customizer.php:2505 inc/customizer.php:2890 inc/customizer.php:3167
+#: inc/customizer.php:3447
+msgid "Subtitle"
+msgstr ""
+
+#: inc/customizer.php:1254 inc/customizer.php:1568 inc/customizer.php:1956
+#: inc/customizer.php:2520 inc/customizer.php:2905 inc/customizer.php:3182
+#: inc/customizer.php:3462
+msgid "Show section title in the background"
+msgstr ""
+
+#: inc/customizer.php:1273
+msgid "About us content"
+msgstr ""
+
+#: inc/customizer.php:1287 inc/customizer.php:1694 inc/customizer.php:2585
+#: inc/customizer.php:3229
+msgid "Choose the page to display"
+msgstr ""
+
+#: inc/customizer.php:1288
+msgid "Title, content and featured image will be used in the box"
+msgstr ""
+
+#: inc/customizer.php:1306
+msgid "About us button"
+msgstr ""
+
+#: inc/customizer.php:1314 inc/customizer.php:1703 inc/customizer.php:2248
+#: sections/section-aboutus.php:8 sections/section-cta.php:10
+#: sections/section-features.php:30 sections/section-features.php:54
+#: sections/section-features.php:58 sections/section-features.php:98
+#: sections/section-features.php:102 sections/section-features.php:106
+#: sections/section-features.php:162 sections/section-features.php:166
+#: sections/section-features.php:170 sections/section-features.php:174
+msgid "More Information"
+msgstr ""
+
+#: inc/customizer.php:1321 inc/customizer.php:2254
+msgid "Text Button"
+msgstr ""
+
+#: inc/customizer.php:1336 inc/customizer.php:2269
+msgid "Link Button"
+msgstr ""
+
+#: inc/customizer.php:1354
+msgid "Display section features"
+msgstr ""
+
+#: inc/customizer.php:1425
+msgid "Features background color"
+msgstr ""
+
+#: inc/customizer.php:1522
+msgid "Features title, subtitle and options"
+msgstr ""
+
+#: inc/customizer.php:1530 sections/section-features.php:5
+msgid "Elements"
+msgstr ""
+
+#: inc/customizer.php:1546 sections/section-features.php:6
+msgid "Amazing Features"
+msgstr ""
+
+#: inc/customizer.php:1583 inc/customizer.php:2535
+msgid "Text lenght for boxes content (number of words)"
+msgstr ""
+
+#: inc/customizer.php:1603
+msgid "Background Color Inner box"
+msgstr ""
+
+#: inc/customizer.php:1623
+msgid "Text Color Inner box"
+msgstr ""
+
+#: inc/customizer.php:1638
+msgid "How many boxes to display"
+msgstr ""
+
+#: inc/customizer.php:1645
+msgid "1"
+msgstr ""
+
+#: inc/customizer.php:1646
+msgid "2"
+msgstr ""
+
+#: inc/customizer.php:1647
+msgid "3"
+msgstr ""
+
+#: inc/customizer.php:1648
+msgid "4"
+msgstr ""
+
+#: inc/customizer.php:1664
+msgid "Box number "
+msgstr ""
+
+#: inc/customizer.php:1681 inc/customizer.php:2208 inc/customizer.php:2572
+#: inc/customizer.php:3713
+msgid "FontAwesome Icon"
+msgstr ""
+
+#: inc/customizer.php:1695 inc/customizer.php:2586
+msgid "Title and content (unformatted) will be used in the box"
+msgstr ""
+
+#: inc/customizer.php:1710
+msgid "Text Button "
+msgstr ""
+
+#: inc/customizer.php:1724
+msgid "Link Button "
+msgstr ""
+
+#: inc/customizer.php:1742
+msgid "Display section skills"
+msgstr ""
+
+#: inc/customizer.php:1776
+msgid "Skills background image"
+msgstr ""
+
+#: inc/customizer.php:1813
+msgid "Skills background color"
+msgstr ""
+
+#: inc/customizer.php:1872
+msgid "Skills text color"
+msgstr ""
+
+#: inc/customizer.php:1910
+msgid "Skills title and subtitle"
+msgstr ""
+
+#: inc/customizer.php:1918 sections/section-skills.php:5
+msgid "Our Skills"
+msgstr ""
+
+#: inc/customizer.php:1934 sections/section-skills.php:6
+msgid "What We Do"
+msgstr ""
+
+#: inc/customizer.php:1976
+msgid "Skill number "
+msgstr ""
+
+#: inc/customizer.php:1988
+msgid "Skill name"
+msgstr ""
+
+#: inc/customizer.php:2002
+msgid "Skill value"
+msgstr ""
+
+#: inc/customizer.php:2003
+msgid "Enter a value between 0 and 100"
+msgstr ""
+
+#: inc/customizer.php:2021
+msgid "Display section call to action"
+msgstr ""
+
+#: inc/customizer.php:2055
+msgid "CTA background image"
+msgstr ""
+
+#: inc/customizer.php:2092
+msgid "CTA background color"
+msgstr ""
+
+#: inc/customizer.php:2151
+msgid "CTA text color"
+msgstr ""
+
+#: inc/customizer.php:2189
+msgid "CTA title, subtitle and options"
+msgstr ""
+
+#: inc/customizer.php:2223
+msgid "Call to action phrase"
+msgstr ""
+
+#: inc/customizer.php:2239
+msgid "Call to action description"
+msgstr ""
+
+#: inc/customizer.php:2284
+msgid "Open the link in"
+msgstr ""
+
+#: inc/customizer.php:2292
+msgid "New window"
+msgstr ""
+
+#: inc/customizer.php:2306
+msgid "Display section services"
+msgstr ""
+
+#: inc/customizer.php:2340
+msgid "Services background image"
+msgstr ""
+
+#: inc/customizer.php:2377
+msgid "Services background color"
+msgstr ""
+
+#: inc/customizer.php:2436
+msgid "Services text color"
+msgstr ""
+
+#: inc/customizer.php:2474
+msgid "Services title, subtitle and options"
+msgstr ""
+
+#: inc/customizer.php:2482 sections/section-services.php:5
+msgid "Services"
+msgstr ""
+
+#: inc/customizer.php:2498 sections/section-services.php:6
+msgid "What We Offer"
+msgstr ""
+
+#: inc/customizer.php:2555
+msgid "Service number "
+msgstr ""
+
+#: inc/customizer.php:2605
+msgid "Services text"
+msgstr ""
+
+#: inc/customizer.php:2619
+msgid "Phrase"
+msgstr ""
+
+#: inc/customizer.php:2635
+msgid "Textarea"
+msgstr ""
+
+#: inc/customizer.php:2654
+msgid "Services image"
+msgstr ""
+
+#: inc/customizer.php:2672
+msgid "Upload Image"
+msgstr ""
+
+#: inc/customizer.php:2673
+msgid "Recommended image size: 1000X600px."
+msgstr ""
+
+#: inc/customizer.php:2691
+msgid "Display section blog"
+msgstr ""
+
+#: inc/customizer.php:2725
+msgid "Blog background image"
+msgstr ""
+
+#: inc/customizer.php:2762
+msgid "Blog background color"
+msgstr ""
+
+#: inc/customizer.php:2821
+msgid "Blog text color"
+msgstr ""
+
+#: inc/customizer.php:2859
+msgid "Blog title, subtitle and options"
+msgstr ""
+
+#: inc/customizer.php:2867 sections/section-blog.php:7
+msgid "News"
+msgstr ""
+
+#: inc/customizer.php:2883 sections/section-blog.php:8
+msgid "Latest Posts"
+msgstr ""
+
+#: inc/customizer.php:2920
+msgid "Number of posts to show"
+msgstr ""
+
+#: inc/customizer.php:2929 sections/section-blog.php:10
+msgid "Go to the blog!"
+msgstr ""
+
+#: inc/customizer.php:2935
+msgid "Text blog button"
+msgstr ""
+
+#: inc/customizer.php:2950
+msgid "Link Blog Button"
+msgstr ""
+
+#: inc/customizer.php:2968
+msgid "Display section team"
+msgstr ""
+
+#: inc/customizer.php:3002
+msgid "Team background image"
+msgstr ""
+
+#: inc/customizer.php:3039
+msgid "Team background color"
+msgstr ""
+
+#: inc/customizer.php:3098
+msgid "Team text color"
+msgstr ""
+
+#: inc/customizer.php:3136
+msgid "Team title, subtitle and options"
+msgstr ""
+
+#: inc/customizer.php:3144 sections/section-team.php:5
+msgid "Our Team"
+msgstr ""
+
+#: inc/customizer.php:3160 sections/section-team.php:6
+msgid "Nice to meet you"
+msgstr ""
+
+#: inc/customizer.php:3197
+msgid "Text lenght for team content (number of words)"
+msgstr ""
+
+#: inc/customizer.php:3217
+msgid "Person number "
+msgstr ""
+
+#: inc/customizer.php:3230
+msgid "Featured Image, title and content will be used in the box"
+msgstr ""
+
+#: inc/customizer.php:3248
+msgid "Display section contact"
+msgstr ""
+
+#: inc/customizer.php:3282
+msgid "Contact background image"
+msgstr ""
+
+#: inc/customizer.php:3319
+msgid "Contact background color"
+msgstr ""
+
+#: inc/customizer.php:3378
+msgid "Contact text color"
+msgstr ""
+
+#: inc/customizer.php:3416
+msgid "Contact title and subtitle"
+msgstr ""
+
+#: inc/customizer.php:3424 sections/section-contact.php:5
+msgid "Contact Us"
+msgstr ""
+
+#: inc/customizer.php:3440 sections/section-contact.php:6
+msgid "Get in touch"
+msgstr ""
+
+#: inc/customizer.php:3481
+msgid "Contact fields"
+msgstr ""
+
+#: inc/customizer.php:3495
+msgid "Additional Text"
+msgstr ""
+
+#: inc/customizer.php:3511
+msgid "Company Name"
+msgstr ""
+
+#: inc/customizer.php:3527
+msgid "Address line 1"
+msgstr ""
+
+#: inc/customizer.php:3543
+msgid "Address line 2"
+msgstr ""
+
+#: inc/customizer.php:3559
+msgid "Address line 3"
+msgstr ""
+
+#: inc/customizer.php:3575
+msgid "Phone Number"
+msgstr ""
+
+#: inc/customizer.php:3590
+msgid "Make phone number clickable"
+msgstr ""
+
+#: inc/customizer.php:3606
+msgid "Fax Number"
+msgstr ""
+
+#: inc/customizer.php:3622
+msgid "Email Address"
+msgstr ""
+
+#: inc/customizer.php:3637
+msgid "Make email clickable"
+msgstr ""
+
+#: inc/customizer.php:3652
+msgid "Contact Form Shortcode"
+msgstr ""
+
+#: inc/customizer.php:3673
+msgid "Background Color Contact Form"
+msgstr ""
+
+#: inc/customizer.php:3693
+msgid "Text Color Contact Form"
+msgstr ""
+
+#: inc/customizer.php:3948
+msgid "Thank you for using Elementare WordPress Theme"
+msgstr ""
+
+#: inc/customizer.php:3953 inc/pro-button/class-customize.php:90
+msgid "Theme Documentation"
+msgstr ""
+
+#: inc/customizer.php:3956
+msgid "Watch the demo"
+msgstr ""
+
+#: inc/customizer.php:3959
+msgid "Watch the PRO Version demo"
+msgstr ""
+
+#: inc/customizer.php:3962
+msgid "More info about Elementare theme"
+msgstr ""
+
+#: inc/customizer.php:4264
+msgid "Facebook"
+msgstr ""
+
+#: inc/customizer.php:4267
+msgid "Twitter"
+msgstr ""
+
+#: inc/customizer.php:4270
+msgid "Google Plus"
+msgstr ""
+
+#: inc/customizer.php:4273
+msgid "Linkedin"
+msgstr ""
+
+#: inc/customizer.php:4276
+msgid "Instagram"
+msgstr ""
+
+#: inc/customizer.php:4279
+msgid "YouTube"
+msgstr ""
+
+#: inc/customizer.php:4282
+msgid "Pinterest"
+msgstr ""
+
+#: inc/customizer.php:4285
+msgid "Tumblr"
+msgstr ""
+
+#: inc/customizer.php:4288
+msgid "Flickr"
+msgstr ""
+
+#: inc/customizer.php:4291
+msgid "VK"
+msgstr ""
+
+#: inc/customizer.php:4294
+msgid "Xing"
+msgstr ""
+
+#: inc/customizer.php:4297
+msgid "Reddit"
+msgstr ""
+
+#: inc/customizer.php:4300
+msgid "Vimeo"
+msgstr ""
+
+#: inc/customizer.php:4303
+msgid "Imdb"
+msgstr ""
+
+#: inc/demo-import/demo-import-settings.php:7
+msgid "Elementare Demo Content"
+msgstr ""
+
+#: inc/pro-button/class-customize.php:77
+msgid "Elementare PRO Theme"
+msgstr ""
+
+#: inc/pro-button/class-customize.php:78
+msgid "More Info"
+msgstr ""
+
+#: inc/pro-button/class-customize.php:89
+msgid "Need help?"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:38
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:62
+msgid ", "
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:68
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:78 template-parts/content-page.php:35
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:21
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: sections/section-aboutus.php:45
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: sections/section-skills.php:35
+msgid "%"
+msgstr ""
+
+#: single.php:21
+msgid "Next Post"
+msgstr ""
+
+#: single.php:22
+msgid "Next post:"
+msgstr ""
+
+#: single.php:24
+msgid "Previous Post"
+msgstr ""
+
+#: single.php:25
+msgid "Previous post:"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:25
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:22 template-parts/content-single.php:28
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/content-single.php:32
+msgid "Page"
+msgstr ""
+
+#: template-parts/content.php:36
+msgid "Read More"
+msgstr ""

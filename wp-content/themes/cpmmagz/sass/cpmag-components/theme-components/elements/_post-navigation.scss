@@ -1,0 +1,61 @@
+.post-navigation{
+	margin: 2.5rem 0;
+}
+
+.nav-links{
+	@include clearfix;
+	border-top: 1px solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	@include font-size(1.15);
+	font-family: 'Roboto Slab', Roboto;
+	.next-span{
+		display: block;
+		text-transform: uppercase;
+	    font-size: 14px;
+	    font-family: 'Roboto';
+	}
+	.nav-previous{
+		float: left;
+		text-align: left;
+		.fa{
+			margin-right: 7px;
+		}
+		position: relative;
+		&:before{
+			right: -1px;
+	    }
+	}
+	.nav-next{
+		position: relative;
+		float: right;
+		text-align: right;
+		.fa{
+			margin-left: 7px;
+		}
+		&:before{
+			left: 0;
+		}
+	}
+	.nav-previous, .nav-next{
+		&:before{
+			position: absolute;
+			height: 100%;
+			width: 1px;
+			background: #e2e2e2;
+			top: 0;
+			content: '';
+		}
+		padding: 2rem 0;
+		width: 50%;
+		a{
+			display: block;
+			color: #797979;
+			&:hover, &:focus{
+				color: $theme_sec_color;
+			}
+		}
+		.disabled-nav{
+			color: $meta_color;
+		}
+	}
+}

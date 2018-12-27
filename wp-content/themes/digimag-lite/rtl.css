@@ -1,0 +1,140 @@
+/*
+Theme Name: digimag
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+
+/* Top Bar */
+.menu-toggle:before {
+	margin-left: 19px;
+	margin-right: 0;
+}
+
+/* Navigation */
+.main-navigation ul {
+	padding-right: 0;
+}
+.topbar-navigation .jetpack-social-navigation li + li {
+	margin-right: 20px;
+	margin-left: 0;
+}
+
+/* Video posts */
+.digimag-video-posts .video-posts__navigation {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+.sidebar-area {
+	padding: 60px 40px 70px 0px;
+}
+.sidebar-area:before {
+	right: 0;
+	left: -10vw;
+}
+
+.masonry-posts .sd-content ul {
+	margin: 0 10px 0 0 !important;
+}
+
+.masonry-posts .sd-content ul li:first-child {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.recent-post__image {
+	margin-left: 20px;
+	margin-right: 0;
+}
+
+.digimag-ajax-more-button i {
+	margin-right: 0;
+	margin-left: 9px;
+}
+
+/* Footer */
+.footer-1:before {
+	right: calc( 50vh - 780px);
+	left: 0;
+}
+
+.footer-3 {
+	border-right: 1px solid #e2e2e2;
+	border-left: none;
+}
+
+.footer-2 .grid {
+	margin-right: 0;
+}
+
+.grid {
+	margin-right: -40px;
+	margin-left: 0;
+}
+
+.grid > * {
+	padding-right: 40px;
+	padding-left: 0;
+}
+
+.digimag-contact-info .contact i {
+	float: right;
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+@media (min-width: 1200px) {
+	.subscription #subscribe-submit {
+		margin-right: -13%;
+	}
+}
+@media (max-width: 1600px) {
+	.footer-1 {
+		padding-left: 20px;
+		padding-right: 0;
+	}
+	.footer-3 {
+		padding-right: 20px;
+		padding-left: 0;
+	}
+}
+
+@media (max-width: 991px) {
+	.footer-3 {
+	    border: none;
+	}
+	.digimag-contact-info .contact {
+		background-position: right;
+	}
+	.footer-1:before {
+		right: unset;
+	}
+	.footer-2 .grid {
+		margin-right: -40px;
+	}
+}
+
+
+/* Single */
+.entry-permalink input {
+	padding: 10px 40px 10px 20px;
+}
+.entry-permalink i {
+	left: -35px;
+	right: unset;
+}
+.author-info {
+	margin-right: 60px;
+	margin-left: 0;
+}

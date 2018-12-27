@@ -1,0 +1,40 @@
+body.mceContentBody {
+	font-family: 'Raleway', Sans-serif;
+	margin:15px
+}
+
+.mceContentBody .wp-caption, .mceContentBody img {
+	max-width: 100%;
+	height: auto;
+}
+
+.alignnone {
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+.alignleft {
+	float: left;
+	margin: 4px 8px 4px 0;
+}
+.alignright {
+	float: right;
+	margin: 4px 0 4px 8px;
+}
+.aligncenter {
+	display: block;
+	margin: 4px auto;
+}
+
+.wp-caption {
+	margin-bottom: 24px;
+}
+
+.wp-caption-text {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing:    border-box;
+	box-sizing:         border-box;
+	font-size: 12px;
+	font-style: italic;
+	line-height: 1.5;
+	margin: 9px 0;
+}

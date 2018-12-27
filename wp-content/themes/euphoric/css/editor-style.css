@@ -1,0 +1,348 @@
+/*
+Theme Name: Euphoric
+Description: Used to style the TinyMCE editor.
+*/
+
+
+/**
+ * Table of Contents:
+ *
+ * 1.0 - Body
+ * 2.0 - Typography
+ * 3.0 - Elements
+ * 4.0 - Alignment
+ * 5.0 - Caption
+ * 6.0 - Galleries
+ * 7.0 - RTL
+ */
+
+/**
+ * 1.0 - Body
+ */
+
+body {
+	background-color: #fff;
+	color: #838383;
+	margin: 20px 40px;
+	max-width: 580px;
+}
+
+/**
+ * 2.0 - Typography
+ */
+
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	font-family: "Lato", "Helvetica Neue", helvetica, arial, sans-serif;
+	font-size: 15px;
+	line-height: 1.7;
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+	color: #222;
+	font-family: 'Playfair Display', serif;
+	font-weight: 500;
+	line-height: 1.1;
+	margin: 0 0 0.75em;
+}
+
+h1 a, 
+h2 a, 
+h3 a, 
+h4 a, 
+h5 a, 
+h6 a {
+	color: #222;
+}
+
+h1 {
+  font-size: 36px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 14px;
+}
+h6 {
+  font-size: 12px;
+}
+
+p {
+	margin: 0 0 1em 0;
+	padding: 0;
+}
+
+dfn, cite, em, i {
+	font-style: italic;
+}
+
+blockquote {
+	padding: 10px 20px;
+	margin: 0 0 20px;
+	font-size: 18px;
+	border-left: 5px solid #eeeeee;
+}
+
+blockquote cite {
+	display: block;
+	font-style: normal;
+	font-weight: 600;
+	margin-top: 0.5em;
+}
+
+address {
+	margin: 0 0 1.5em;
+}
+
+pre {
+	background: #eee;
+	font-family: "Courier 10 Pitch", Courier, monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+	line-height: 1.6;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 1.6em;
+}
+
+code, kbd, tt, var {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+}
+
+abbr, acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+
+mark, ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+
+big {
+	font-size: 125%;
+}
+
+/* Typography for Thai Font */
+
+html[lang="th"] h1,
+html[lang="th"] h2,
+html[lang="th"] h3,
+html[lang="th"] h4,
+html[lang="th"] h5,
+html[lang="th"] h6 {
+	letter-spacing: 0;
+	line-height: 1.65;
+}
+
+html[lang="th"] body,
+html[lang="th"] button,
+html[lang="th"] input,
+html[lang="th"] select,
+html[lang="th"] textarea {
+	line-height: 1.8;
+}
+
+/**
+ * 3.0 - Elements
+ */
+
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;
+}
+
+ul, ol {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+ol {
+	list-style: decimal;
+}
+
+li > ul,
+li > ol {
+	margin-bottom: 0;
+	margin-left: 1.5em;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	margin: 0 1.5em 1.5em;
+}
+
+img {
+	height: auto;
+	/* Make sure images are scaled correctly. */
+	max-width: 100%;
+	/* Adhere to container width. */
+	vertical-align: middle;
+}
+
+figure {
+	margin: 0;
+	/* Extra wide images within figure tags don't overflow the content area. */
+}
+
+ #primary .post .entry-content table,
+ #primary .page .entry-content table {
+	margin: 0 0 1.5em;
+	width: 100%;
+}
+
+ #primary .post .entry-content table th,
+ #primary .page .entry-content table th {
+  font-size: 16px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+ #primary .post .entry-content table,
+ #primary .page .entry-content table {
+ 	border: 1px solid #ebebeb;
+}
+
+ #primary .post .entry-content table th,
+ #primary .post .entry-content table td,
+ #primary .page .entry-content table th,
+ #primary .page .entry-content table td {
+	border-right: 1px solid #ebebeb;
+ 	padding: 0.6vw 2vw;
+ 	text-align: left;
+ }
+
+ #primary .post .entry-content table tr,
+ #primary .page .entry-content table tr {
+ 	border-bottom: 1px solid #ebebeb;
+ }
+
+/**
+ * 5.0 - Caption
+ */
+
+.wp-caption {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+.wp-caption img[class*="wp-image-"] {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption .wp-caption-text {
+	margin: 0.8075em 0;
+}
+
+.wp-caption-text {
+	text-align: center;
+}
+
+/**
+ * 6.0 - Galleries
+ */
+
+.gallery {
+	margin-bottom: 1.5em;
+}
+
+.gallery-item {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+
+.gallery-caption {
+	display: block;
+}
+
+/**
+ * 7.0 - RTL
+ */
+
+.rtl th {
+	text-align: right;
+}
+
+.rtl ol {
+	counter-reset: item;
+}
+
+.rtl ol > li:before {
+	left: auto;
+	right: -1.5em;
+}
+
+.rtl li > ul,
+.rtl li > ol {
+	margin-left: 0;
+	margin-right: 1.5em;
+}
+
+.rtl .mejs-offscreen {
+	right: -10000px;
+}

@@ -1,0 +1,63 @@
+.customize-partial-edit-shortcut button, .widget .customize-partial-edit-shortcut button {
+	left: -20px;
+	width: 20px;
+	height: 20px;
+	min-width: 20px;
+	min-height: 20px;
+	padding: 0px;
+}
+
+.customize-partial-edit-shortcut button svg {
+	min-width: 16px;
+	min-height: 16px;
+	width: 16px;
+	height: 16px;
+}
+
+@media (min-width: 768px) {
+	.customize-partial-edit-shortcut.customize-partial-edit-shortcut-left_footer_setting button {
+		left: 190px;
+		top: -15px;
+	}
+
+	.customize-partial-edit-shortcut.customize-partial-edit-shortcut-center_footer_setting button {
+		top: -15px;
+	}
+
+	.customize-partial-edit-shortcut.customize-partial-edit-shortcut-right_footer_setting button {
+		left: -173px;
+		top: -15px;
+	}
+}
+
+.customize-partial-edit-shortcut.customize-partial-edit-shortcut-top_main_menu_hidden_field {
+	top: 8px;
+	left: 65px;
+}
+
+.customize-partial-edit-shortcut.customize-partial-edit-shortcut-front_slider_endis button {
+	left: 6px;
+	top: 6px;
+}
+
+.customize-partial-edit-shortcut.customize-partial-edit-shortcut-back_to_top button {
+	top: -15px;
+}
+
+.customize-partial-edit-shortcut.customize-partial-edit-shortcut-sb_menu_onoff button {
+	top: -15px;
+}
+
+.widget_recent_entries span.customize-partial-edit-shortcut {
+	margin: -1px 0 0 -1px !important;
+}
+
+.customize-partial-edit-shortcut.customize-partial-edit-shortcut-sprofile_link_facebook button {
+	top: 24px;
+	left: 6px;
+}
+
+.customize-partial-edit-shortcut.customize-partial-edit-shortcut-archive_infobar_endis button {
+	top: -10px;
+	left: -75px;
+}

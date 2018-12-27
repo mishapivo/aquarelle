@@ -1,0 +1,96 @@
+footer{
+	.widget{
+		//Forms
+		form{margin-top: 1rem;}
+		::-webkit-input-placeholder {
+		   color: $white_color;
+		}
+
+		:-moz-placeholder { /* Firefox 18- */
+		   color: $white_color;
+		}
+
+		::-moz-placeholder {  /* Firefox 19+ */
+		   color: $white_color;
+		}
+
+		:-ms-input-placeholder {
+		   color: $white_color;
+		}
+		.input-field{
+			label{
+				color: $white_color;
+			}
+			label.active {
+		    	@include transform(translateY(-100%));
+		  	}
+		}
+		input[type=text],
+		input[type=password],
+		input[type=email],
+		input[type=url],
+		input[type=time],
+		input[type=date],
+		input[type=datetime-local],
+		input[type=tel],
+		input[type=number],
+		input[type=search],
+		textarea.materialize-textarea {
+				border-bottom-color: $white_color;
+				// Disabled input style
+				  &:disabled, &[readonly="readonly"] {
+				    color: $input-disabled-color;
+				    border-bottom: 1px dotted $input-disabled-color;
+				  }
+				  // Disabled label style
+				  &:disabled+label, &[readonly="readonly"]+label {
+				    color: $input-disabled-color;
+				  }
+				  // Focused input style
+				  &:focus:not([readonly]) {
+				    border-bottom: 0px solid $sky_blue;
+				    box-shadow: 0 2px 0 0 $sky_blue;
+				  }
+				  // Focused label style
+				  &:focus:not([readonly])+label {
+				    color: $white-color;
+				  }
+				  // Valid Input Style
+				  &.valid,
+				  &:focus.valid {
+				    border-bottom: 0px solid $input-success-color;
+				    box-shadow: 0 2px 0 0 $input-success-color;
+				  }
+				  // Custom Success Message
+				  &.valid + label:after,
+				  &:focus.valid + label:after {
+				    content: attr(data-success);
+				    color: $input-success-color;
+				    opacity: 1;
+				  }
+				  // Invalid Input Style
+				  &.invalid,
+				  &:focus.invalid {
+				    border-bottom: 0px solid $input-error-color;
+				    box-shadow: 0 2px 0 0 $input-error-color;
+				  }
+				  // Custom Error message
+				  &.invalid + label:after,
+				  &:focus.invalid + label:after {
+				    content: attr(data-error);
+				    color: $input-error-color;
+				    opacity: 1;
+				  }
+
+				  // Form Message Shared Styles
+				  & + label:after {
+				    display: block;
+				    content: "";
+				    position: absolute;
+				    top: 65px;
+				    opacity: 0;
+				    transition: .2s opacity ease-out, .2s color ease-out;
+				  }
+		}
+	}
+}

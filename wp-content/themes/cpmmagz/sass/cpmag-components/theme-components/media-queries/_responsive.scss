@@ -1,0 +1,224 @@
+//Grid
+html, html.js{
+    @include media("(max-width: 600px)"){
+        margin-top: 0!important;
+    }
+}
+.container{
+	@include media("(max-width: 992px)"){
+        width: 90%;
+    }
+    @include media("(max-width: 800px)"){
+        width: 80%;
+    }
+    @include media("(max-width: 600px)"){
+        width: 85%;
+    }
+}
+@include media("(min-width: 993px)"){
+    #themenu{
+        display: none!important;
+    }
+    .mm-page.mm-slideout{
+        transform: none!important;
+    }
+}
+//Top Navigation
+@include media("(max-width: 700px)"){
+    .top-nav, .social-nav{
+    	width: 100%;
+    }
+    .top-nav{
+        float: right!important;
+    }
+    .social-nav{
+        li{
+            float: none;
+            display: table-cell;
+            width: 1%;
+            text-align: center;
+        }
+    }
+}
+//Brand Logo
+@include media("(max-width: 992px)"){
+    .nav-wrapper{
+        .valign-wrapper{
+            display: block;
+        }
+    }
+    nav{
+    	.site-logo-link, .brand-logo{
+            text-align: center;
+            display: block;
+        }
+    }
+    nav.main-navigation.thenav{
+        height: 82px!important;
+    }
+    header.site-header.fixed-header .main-navigation.thenav{
+        height: 70px!important;
+    }
+    .sidebar.left-side{
+        margin-top: 4rem;
+    }
+    .sidebar.right-side{
+        margin-top: 4rem;
+    }
+    .custom-logo-link img{
+        margin: 0 auto;
+    }
+    header.site-header .site-title{
+        margin-top: 10px;
+        text-align: center;
+    }
+    p.site-description{
+        text-align: center;
+    }
+}
+// Homepage Sections
+.featured-section{
+	.row{
+		.col.l7{
+			@include media("(max-width: 1000px)"){
+		        width: 52%;
+		    }
+		}
+		.col.l5{
+			@include media("(max-width: 1000px)"){
+		        width: 48%;
+		    }
+		}
+		@media only screen and (max-width: 800px){
+			.col.l5, .col.l7{
+				width: 100%;
+			}
+		}
+	}
+}
+.row{
+	.col{
+		&.sidebar-grid{
+			@include media("(max-width: 1000px)"){
+		    	width: 40%;
+		    }
+		}
+	}
+}
+.row{
+	.col{
+		&.primary-grid{
+			@include media("(max-width: 1000px)"){
+		    	width: 60%;
+		    }
+		}
+	}
+}
+@media only screen and (max-width: 800px){
+	.row .col.primary-grid, .row .col.sidebar-grid{
+		width: 100%;
+	}
+	.sidebar-grid{
+		margin-bottom: 2.5rem;
+	}
+}
+.highlights-section{
+
+	@include media("(max-width: 1000px)"){
+    	.multiple-items{
+			.cpmag-carousel-item{
+				&.slick-active{
+					.card{margin-right: 2px;}
+				}
+				&.slick-current{
+					.card{margin-right: 2px;}
+				}
+			}
+
+		}
+    }
+}
+.hot-section{
+	.row{
+		.col{
+			@include media("(max-width: 1000px)"){
+		        width: 100%;
+		    }
+		}
+	}
+}
+.category-section{
+	.row{
+		.col{
+			@include media("(max-width: 1000px)"){
+		        width: 100%;
+		    }
+		}
+	}
+}
+.featured-video-carousel{
+	#featured-video-wrap{
+		@include media("(max-width: 1000px)"){
+	        width: 100%;
+	    }
+	}
+	#featured-video-list-wrap{
+		@include media("(max-width: 1000px)"){
+	        width: 100%;
+	    }
+	}
+}
+
+// Cards
+@media only screen and (max-width: 560px){
+    .card.news-medium{
+    	.card-image{
+    		width: 100%;
+    	}
+    	.card-desc{
+    		position: static;
+    		width: 100%;
+    	}
+    }
+    .card.archive-card .card-desc{
+        height: auto;
+    }
+}
+// Footer
+@include media("(max-width: 600px)"){
+    .nav-links{
+        border: 0;
+        .nav-next, .nav-previous{
+            &:before{
+                width: 0;
+                background: transparent;
+            }
+            width: 100%;
+            text-align: center;
+            border: 1px solid #e2e2e2;
+        }
+        .nav-next{
+            border-bottom: 0;
+        }
+    }
+}
+@include media("(max-width: 480px)"){
+    .comment-body-wrapper .comment-img{
+        position: static;
+        width: 100%;
+    }
+    .comment-body-wrapper .comment-content-wrapper{
+        padding-left: 0;
+        width: 100%;
+    }
+    .cpm-pagination{
+        .pagination{
+            width: 100%;
+            &.left{margin-bottom: 0;}
+            &.right{margin-top: 0;}
+        }
+    }
+    .top-header .container{
+        width: 95%;
+    }
+}

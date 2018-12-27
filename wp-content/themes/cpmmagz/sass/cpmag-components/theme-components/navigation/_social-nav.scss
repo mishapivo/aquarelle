@@ -1,0 +1,110 @@
+.social-nav, .cpm-share {
+	@include clearfix;
+	li{
+		@include ulli;
+		margin-right: 0;
+		a{
+			display: block;
+			height: 40px;
+			width: 40px;
+			line-height: 40px;
+			position: relative;
+			text-decoration: none;
+			text-align: center;
+			transition: all 0.3s ease-in-out;
+			&:hover,
+			&:focus{
+				color: #fff;
+			}
+			&[href*="facebook.com"]:hover, &.fb-link:hover,
+			&[href*="facebook.com"]:focus, &.fb-link:focus{
+				background-color: #3b5998;
+			}
+			&[href*="twitter.com"]:hover, &.tw-link:hover,
+			&[href*="twitter.com"]:focus, &.tw-link:focus{
+				background-color: #3cf;
+			}
+			&[href*="gp.com"]:hover, &.gp-link:hover,
+			&[href*="gp.com"]:focus, &.gp-link:focus{
+				background-color: #dd4b39;
+			}
+			&[href*="youtube.com"]:hover, &.yt-link:hover,
+			&[href*="youtube.com"]:focus, &.yt-link:focus{
+				background-color: #D44238;
+			}
+			&[href*="pinterest.com"]:hover, &.pin-link:hover,
+			&[href*="pinterest.com"]:focus, &.pin-link:focus{
+				background-color: #C00300;
+			}
+			&[href*="instagram.com"]:hover, &.in-link:hover,
+			&[href*="instagram.com"]:focus, &.in-link:focus{
+				background-color: #3f729b;
+			}
+			&[href*="wordpress.org"]:hover, &[href*="wordpress.com"]:hover, &.wp-link:hover,
+			&[href*="wordpress.org"]:focus, &[href*="wordpress.com"]:hover, &.wp-link:focus{
+				background-color: #398CB6;
+			}
+			&[href*="dribbble.org"]:hover, &.db-link:hover,
+			&[href*="dribbble.org"]:focus, &.db-link:focus{
+				background-color: #DE618D;
+			}
+			&[href*="linkedin.org"]:hover, &.ln-link:hover,
+			&[href*="linkedin.org"]:focus, &.ln-link:focus{
+				background-color: #1F7AB3;
+			}
+			&[href*="tumblr.com"]:hover, &.tm-link:hover,
+			&[href*="tumblr.com"]:focus, &.tm-link:focus{
+				background-color: #36465d;
+			}
+		}
+	}
+}
+.cpm-share{
+	ul{
+		@include clearfix;
+	}
+	li {
+		a{
+			border-radius: 50%;
+			margin-right: 10px;
+			margin-bottom: 10px;
+			color: #fff;
+			font-size: 14px;
+			height: 30px;
+			width: 30px;
+			line-height: 30px;
+			&[href*="facebook.com"], &.fb-link{
+				background-color: #3b5998;
+			}
+			&[href*="twitter.com"], &.tw-link{
+				background-color: #3cf;
+			}
+			&[href*="gp.com"], &.gp-link{
+				background-color: #dd4b39;
+			}
+			&[href*="youtube.com"], &.yt-link{
+				background-color: #D44238;
+			}
+			&[href*="instagram.com"], &.in-link{
+				background-color: #3f729b;
+			}
+			&[href*="wordpress.org"], &[href*="wordpress.com"], &.wp-link{
+				background-color: #398CB6;
+			}
+			&[href*="dribbble.org"], &.db-link{
+				background-color: #DE618D;
+			}
+			&[href*="linkedin.org"], &.ln-link{
+				background-color: #1F7AB3;
+			}
+			&[href*="tumblr.com"], &.tm-link{
+				background-color: #36465d;
+			}
+		}
+		&:last-child{
+			a{
+				margin-right: 0;
+			}
+		}
+	}
+}

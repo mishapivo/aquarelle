@@ -1,0 +1,71 @@
+/*
+Theme Name:   	EDigital Market
+Theme URI:    	https://mysterythemes.com/wpthemes/edigital-market/
+Author:       	Mystery Themes
+Author URI:   	https://mysterythemes.com/
+Description:  	EDigital Market is a child theme of EDigital Multipurpose theme mainly designed for Easy Digital Downloads Plugin. This theme allows you to sell digital products utilizing very popular Easy Digital Downloads plugin, you can sell anything digital including items such as stock photos, plugins, softwares, audio files , videos, music, digital art such as icons, templates, themes, or photos etc.You can also use this theme as a business or blogging theme.
+Version:      	1.0.0
+License:      	GNU General Public License v3 or later
+License URI:  	http://www.gnu.org/licenses/gpl-3.0.html
+Template:     	edigital
+Text Domain:  	edigital-market
+Tags: 			e-commerce, blog, one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-colors, custom-menu, featured-images, sticky-post, theme-options, translation-ready
+*/
+
+body,h1,h2,h3,h4,h5,h6{
+    font-family: 'Ruda', sans-serif;
+}
+.page-template-home-template #masthead .mt-container {
+	background: rgba(0,0,0,0.5);
+	padding: 10px 30px;
+	border-bottom: 3px solid #27b6d4;
+}
+
+.home #masthead-sticky-wrapper, 
+.home.no-header-sticky #masthead {
+	top: 20px;
+}
+
+.home #masthead-sticky-wrapper.is-sticky #masthead .mt-container{
+    background: none;
+    border-bottom: none;
+}
+
+.slider-overlay {
+	background: rgba(0, 0, 0, 0.4) none repeat scroll 0 0;
+}
+
+.edigital_call_to_action .edigital-widget-wrapper {
+	padding: 70px 0 70px;
+}
+
+.slider-btn a {
+	border-radius: 30px;
+}
+
+.latest-posts-wrapper .blog-content-wrapper {
+	border: 1px solid #e1e1e1;
+	padding: 20px 20px;
+	border-top: none;
+}
+
+.blog-content-wrapper .news-more {
+	background: #27b6d4;
+	display: inline-block;
+	padding: 8px 25px;
+	color: #fff !important;
+}
+
+.blog-content-wrapper .news-more:hover{
+    border-radius: 30px;
+}
+
+.latest-posts-wrapper .blog-date {
+	left: auto;
+	right: 20px;
+	bottom: -30px;
+}
+
+.search-icon-hide .header-search-wrapper {
+    display: none;
+}

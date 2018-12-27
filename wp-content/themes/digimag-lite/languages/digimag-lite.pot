@@ -1,0 +1,1066 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Digimag Lite\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-07-13 02:38+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: 404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:19
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: comments.php:31
+msgctxt "comments"
+msgid "Comment"
+msgid_plural "Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:51
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:51
+msgid "Primary"
+msgstr ""
+
+#: functions.php:54
+msgid "Top"
+msgstr ""
+
+#: functions.php:109
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:111
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:118 header.php:29 header.php:36
+msgid "Slide Out Sidebar"
+msgstr ""
+
+#: functions.php:120
+msgid "Widget for Slide Out Sidebar."
+msgstr ""
+
+#: functions.php:127
+msgid "Topbar Languages"
+msgstr ""
+
+#: functions.php:129
+msgid "Add your languages widget here."
+msgstr ""
+
+#: functions.php:137
+msgid "Front Page Top Section"
+msgstr ""
+
+#: functions.php:139
+msgid "Widget for front page top section."
+msgstr ""
+
+#: functions.php:147
+msgid "Front Page Main Content Section"
+msgstr ""
+
+#: functions.php:149
+msgid "Widget for front page main content section."
+msgstr ""
+
+#: functions.php:157
+msgid "Front Page Bottom Section"
+msgstr ""
+
+#: functions.php:159
+msgid "Widget for front page bottom section."
+msgstr ""
+
+#: functions.php:167
+msgid "Footer 1"
+msgstr ""
+
+#: functions.php:169 functions.php:179 functions.php:189
+msgid "Add your footer widget here."
+msgstr ""
+
+#: functions.php:177
+msgid "Footer 2"
+msgstr ""
+
+#: functions.php:187
+msgid "Footer 3"
+msgstr ""
+
+#: functions.php:197
+msgid "Popular Posts"
+msgstr ""
+
+#: functions.php:199
+msgid ""
+"This should be used only with Popular Posts Widget and show on archive page."
+msgstr ""
+
+#: functions.php:266
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:269
+msgctxt "Roboto Slab font: on or off"
+msgid "on"
+msgstr ""
+
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:30 header.php:37
+msgid "Menu"
+msgstr ""
+
+#: searchform.php:12
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:13
+msgid "Search Articles ..."
+msgstr ""
+
+#: searchform.php:17
+msgid "Search"
+msgstr ""
+
+#: inc/breadcrumbs.php:20
+msgid "Home"
+msgstr ""
+
+#. search query
+#: inc/breadcrumbs.php:122
+#, php-format
+msgid "Search results for &quot;%s&quot;"
+msgstr ""
+
+#: inc/breadcrumbs.php:124
+msgid "Not Found"
+msgstr ""
+
+#: inc/breadcrumbs.php:140
+msgid "Archives"
+msgstr ""
+
+#: inc/breadcrumbs.php:148
+msgid "You are here: "
+msgstr ""
+
+#: inc/class-digimag-lite-category-colorpicker.php:37
+#: inc/class-digimag-lite-category-colorpicker.php:58
+msgid "Category Color"
+msgstr ""
+
+#: inc/class-digimag-lite-category-colorpicker.php:41
+#: inc/class-digimag-lite-category-colorpicker.php:62
+msgid "Select the color for this category"
+msgstr ""
+
+#: inc/custom-header.php:33
+msgid "Linux Server"
+msgstr ""
+
+#: inc/extras.php:15 inc/customizer/customizer.php:159
+msgid "Load More Articles"
+msgstr ""
+
+#: inc/template-functions.php:51
+msgid "Full Name *"
+msgstr ""
+
+#: inc/template-functions.php:53
+msgid "Mail Address *"
+msgstr ""
+
+#: inc/template-functions.php:55
+msgid "Website URL"
+msgstr ""
+
+#: inc/template-functions.php:66
+msgid "Submit Comment"
+msgstr ""
+
+#: inc/template-functions.php:81
+msgid "Write Your Comments Here..."
+msgstr ""
+
+#: inc/template-tags.php:39
+msgid "Posted by: "
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:45
+#, php-format
+msgctxt "post author"
+msgid "%1$s%2$s"
+msgstr ""
+
+#: inc/template-tags.php:105
+msgid ", "
+msgstr ""
+
+#. 1: list of tags.
+#: inc/template-tags.php:122
+#, php-format
+msgid "Tags: %1$s"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:138
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. permalink.
+#: inc/template-tags.php:186
+#, php-format
+msgid "Permalink: %s"
+msgstr ""
+
+#: inc/template-tags.php:233
+msgid "visit author's website"
+msgstr ""
+
+#: inc/template-tags.php:338 template-parts/single-info-box.php:51
+msgid "Next Post"
+msgstr ""
+
+#: inc/template-tags.php:338 template-parts/single-info-box.php:34
+msgid "Previous Post"
+msgstr ""
+
+#: inc/user-social.php:19
+msgid "Facebook profile URL"
+msgstr ""
+
+#: inc/user-social.php:20
+msgid "Twitter username (without @)"
+msgstr ""
+
+#: inc/user-social.php:21
+msgid "Google+"
+msgstr ""
+
+#: inc/user-social.php:22
+msgid "Dribbble"
+msgstr ""
+
+#: inc/user-social.php:23
+msgid "Instagram"
+msgstr ""
+
+#: inc/user-social.php:24
+msgid "Youtube"
+msgstr ""
+
+#: inc/user-social.php:25
+msgid "Pinterest"
+msgstr ""
+
+#: template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:35
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:41
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:18 template-parts/content-single.php:49
+#: template-parts/content.php:47
+msgid "Pages:"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content-single.php:38
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: template-parts/content-single.php:59 template-parts/single-info-box.php:15
+msgid "Share article:"
+msgstr ""
+
+#: template-parts/content.php:56
+msgid "Read More"
+msgstr ""
+
+#. placeholder replaced with string
+#: template-parts/copyright.php:13
+#, php-format
+msgid ""
+"Copyright &copy; DigiMag Lite 2018 &bull; All rights reserved.\n"
+"\t\tDeveloped with %1$s by %2$s"
+msgstr ""
+
+#: template-parts/copyright.php:16
+msgid "http://gretathemes.com/"
+msgstr ""
+
+#: template-parts/copyright.php:16 inc/dashboard/sections/welcome.php:26
+msgid "GretaThemes"
+msgstr ""
+
+#: template-parts/single-info-box.php:23
+msgid "Category"
+msgstr ""
+
+#: template-parts/slideout-sidebar.php:24
+msgid "Add your widget here"
+msgstr ""
+
+#: inc/admin/plugins.php:32
+msgid "Jetpack"
+msgstr ""
+
+#: inc/customizer/customizer.php:33
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer/customizer.php:42
+msgid "General Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:53
+msgid "Enable sticky header"
+msgstr ""
+
+#: inc/customizer/customizer.php:64
+msgid "Enable syntax highlighting"
+msgstr ""
+
+#: inc/customizer/customizer.php:74
+msgid "Homepage Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:84
+msgid "Homepage Layout"
+msgstr ""
+
+#: inc/customizer/customizer.php:88
+msgid "List"
+msgstr ""
+
+#: inc/customizer/customizer.php:89
+msgid "Grid"
+msgstr ""
+
+#: inc/customizer/customizer.php:97
+msgid "Single Post"
+msgstr ""
+
+#: inc/customizer/customizer.php:107
+msgid "Do not show page header"
+msgstr ""
+
+#: inc/customizer/customizer.php:117
+msgid "Info Box Title Length"
+msgstr ""
+
+#: inc/customizer/customizer.php:121
+msgid ""
+"Enter the number of maximum words for the titles of next/previous posts in "
+"the info box"
+msgstr ""
+
+#: inc/customizer/customizer.php:129
+msgid "Post Navigation Title Length"
+msgstr ""
+
+#: inc/customizer/customizer.php:133
+msgid ""
+"Enter the number of maximum words for the titles of next/previous posts in "
+"the bottom of the page"
+msgstr ""
+
+#: inc/customizer/customizer.php:140
+msgid "Pagination Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:149
+msgid "Pagination Style"
+msgstr ""
+
+#: inc/customizer/customizer.php:153
+msgid "Default"
+msgstr ""
+
+#: inc/customizer/customizer.php:154
+msgid "Load More Button"
+msgstr ""
+
+#: inc/customizer/customizer.php:163
+msgid "Load More Button Text"
+msgstr ""
+
+#: inc/customizer/customizer.php:172
+msgid "Ads Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:184
+msgid ""
+"<h4 class=\"customizer-group-heading-message\">Insert Ads on your Homepage "
+"&amp; Archive Page </h4><p class=\"customizer-group-heading-message\">Check "
+"out <a target=\"_blank\" href=\"https://gretathemes.com/wordpress-"
+"themes/digimag/?utm_source=WordPress&utm_medium=link&utm_campaign=digimag-"
+"lite\">Digimag PRO</a> to unlock this feature</p>"
+msgstr ""
+
+#: inc/customizer-pro/class-digimag-lite-customizer-pro.php:61
+msgid "Ready For More?"
+msgstr ""
+
+#: inc/customizer-pro/class-digimag-lite-customizer-pro.php:62
+msgid "Upgrade To PRO"
+msgstr ""
+
+#: inc/customizer-pro/class-digimag-lite-customizer-pro.php:64
+msgid "Need Some Help?"
+msgstr ""
+
+#: inc/customizer-pro/class-digimag-lite-customizer-pro.php:65
+msgid "Documentation"
+msgstr ""
+
+#. theme name and theme slug.
+#: inc/dashboard/class-digimag-lite-dashboard.php:118
+#, php-format
+msgid ""
+"Please rate <strong>%1$s</strong> <a href=\"https://wordpress."
+"org/support/theme/%2$s/reviews/?filter=5\" target=\"_blank\">&#9733;&#9733;"
+"&#9733;&#9733;&#9733;</a> on <a href=\"https://wordpress."
+"org/support/theme/%2$s/reviews/?filter=5\" target=\"_blank\">WordPress."
+"org</a> to help us spread the word. Thank you from GretaThemes!"
+msgstr ""
+
+#. theme name and welcome page.
+#: inc/dashboard/class-digimag-lite-dashboard.php:132
+#, php-format
+msgid ""
+"Welcome! Thank you for choosing %1$s. To get started, visit our <a "
+"href=\"%2$s\">welcome page</a>."
+msgstr ""
+
+#. theme name.
+#: inc/dashboard/class-digimag-lite-dashboard.php:139
+#, php-format
+msgid "Get started with %s"
+msgstr ""
+
+#: inc/dashboard/class-digimag-lite-dashboard.php:158
+msgid "Install The Required Plugins"
+msgstr ""
+
+#. theme name.
+#: inc/dashboard/class-digimag-lite-dashboard.php:160
+#, php-format
+msgid ""
+"%s needs some plugins to working properly. Please install and activate our "
+"required plugins."
+msgstr ""
+
+#: inc/dashboard/class-digimag-lite-dashboard.php:161
+msgid "Install Plugins"
+msgstr ""
+
+#. theme name.
+#: inc/dashboard/class-digimag-lite-dashboard.php:165
+#, php-format
+msgid "%1$s needs %2$s to working properly. Please install and activate it."
+msgstr ""
+
+#. plugin name.
+#: inc/dashboard/class-digimag-lite-dashboard.php:167
+#, php-format
+msgid "Install %s"
+msgstr ""
+
+#: inc/dashboard/class-digimag-lite-dashboard.php:174
+msgid "You have installed and active all required plugins"
+msgstr ""
+
+#. plugin name.
+#: inc/dashboard/class-digimag-lite-dashboard.php:177
+#, php-format
+msgid "<strong>%s has been installed and activated</strong>"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-category-posts-widget.php:24
+msgid "Latest From: "
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-category-posts-widget.php:34
+msgid "Digimag Lite: Category Posts"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-category-posts-widget.php:37
+msgid "A widget that displays your latest posts from chosen categories"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-category-posts-widget.php:63
+msgid "Latest Text: "
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-category-posts-widget.php:68
+msgid "Excerpt Length (words): "
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-category-posts-widget.php:75
+#: inc/widgets/class-digimag-lite-recent-posts-widget.php:78
+msgid "Select category: "
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-category-posts-widget.php:78
+msgid "Select"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-category-posts-widget.php:157
+#: inc/widgets/class-digimag-lite-featured-posts-widget.php:116
+#: inc/widgets/class-digimag-lite-recent-posts-widget.php:155
+#: inc/widgets/class-digimag-lite-video-posts-widget.php:152
+msgid "..."
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-category-posts-widget.php:163
+msgid "Read More ..."
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-contact-widget.php:19
+msgid "Display your location and contact information."
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-contact-widget.php:24
+msgid "Digimag: Contact Info"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-contact-widget.php:38
+msgid "Get in touch"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-contact-widget.php:39
+msgid "Timposn St, Suite 247, USA, GA"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-contact-widget.php:40
+msgctxt "phone"
+msgid "+559-843-4919"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-contact-widget.php:118
+#: inc/widgets/class-digimag-lite-featured-posts-widget.php:176
+#: inc/widgets/class-digimag-lite-popular-posts-widget.php:140
+#: inc/widgets/class-digimag-lite-trending-widget.php:150
+#: inc/widgets/class-digimag-lite-video-posts-widget.php:55
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-contact-widget.php:123
+msgid "Address:"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-contact-widget.php:128
+msgid "Phone:"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-contact-widget.php:133
+msgid "Email Address:"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-featured-posts-widget.php:24
+msgid "Featured Post"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-featured-posts-widget.php:33
+msgid "Digimag: Featured Posts"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-featured-posts-widget.php:36
+msgid "A widget that displays your featured posts based on the tag you choose"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-featured-posts-widget.php:181
+msgid "Type: "
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-featured-posts-widget.php:183
+msgid "Slider"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-featured-posts-widget.php:184
+msgid "Single"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-featured-posts-widget.php:189
+#: inc/widgets/class-digimag-lite-popular-posts-widget.php:145
+#: inc/widgets/class-digimag-lite-trending-widget.php:155
+msgid "Tag Name:"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-featured-posts-widget.php:194
+#: inc/widgets/class-digimag-lite-popular-posts-widget.php:155
+#: inc/widgets/class-digimag-lite-trending-widget.php:168
+#: inc/widgets/class-digimag-lite-video-posts-widget.php:60
+msgid "Number Of Posts To Show:"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-featured-posts-widget.php:196
+#: inc/widgets/class-digimag-lite-video-posts-widget.php:62
+msgid "(Please choose 5 or more to make the slider work properly)"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-featured-posts-widget.php:200
+#: inc/widgets/class-digimag-lite-video-posts-widget.php:66
+msgid "Title Length:"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-featured-posts-widget.php:202
+#: inc/widgets/class-digimag-lite-recent-posts-widget.php:67
+#: inc/widgets/class-digimag-lite-video-posts-widget.php:68
+msgid "(Leave 0 to get full title)"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-featured-posts-widget.php:207
+msgid "Hide Category"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-popular-posts-widget.php:24
+msgid "What's rising"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-popular-posts-widget.php:32
+msgid "Digimag: Popular Posts"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-popular-posts-widget.php:35
+msgid "A widget that displays your popular posts based on the tag you choose"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-popular-posts-widget.php:151
+msgid "Use Current Category? "
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-popular-posts-widget.php:160
+msgid "Number Of Columns: "
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-popular-posts-widget.php:162
+msgid "1"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-popular-posts-widget.php:163
+msgid "3"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-recent-posts-widget.php:26
+msgid "Latest Articles"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-recent-posts-widget.php:35
+msgid "Digimag: Recent Posts"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-recent-posts-widget.php:61
+msgid "Title: "
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-recent-posts-widget.php:65
+msgid "Title Length: "
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-recent-posts-widget.php:70
+msgid "Number of posts to display: "
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-recent-posts-widget.php:74
+msgid "Show latest posts"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-recent-posts-widget.php:75
+msgid "Show posts from a category"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-trending-widget.php:24
+msgid "Trending Articles"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-trending-widget.php:32
+msgid "Digimag: Trending Articles"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-trending-widget.php:35
+msgid "A widget that displays your trending articles"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-trending-widget.php:160
+msgid "Trending type: "
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-trending-widget.php:162
+msgid "Slide"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-trending-widget.php:163
+msgid "Rotate"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-trending-widget.php:173
+msgid "Slide speed:"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-trending-widget.php:175
+msgid "(Incresing it will slow down the slide speed)"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-video-posts-widget.php:30
+msgid "Digimag: Video Posts"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-video-posts-widget.php:33
+msgid "A widget that displays your post format video"
+msgstr ""
+
+#: inc/widgets/class-digimag-lite-video-posts-widget.php:128
+msgid "Go to videos"
+msgstr ""
+
+#: inc/dashboard/sections/getting-started.php:12
+msgid "Implement Recommended Actions"
+msgstr ""
+
+#. theme name.
+#: inc/dashboard/sections/getting-started.php:16
+#, php-format
+msgid ""
+"We have made a list of steps for you, to make sure you will get the most of "
+"%s. They are easy to follow."
+msgstr ""
+
+#: inc/dashboard/sections/getting-started.php:20
+#: inc/dashboard/sections/tabs.php:11
+msgid "Recommended Actions"
+msgstr ""
+
+#: inc/dashboard/sections/getting-started.php:24
+msgid "Customize The Theme"
+msgstr ""
+
+#: inc/dashboard/sections/getting-started.php:25
+msgid ""
+"Using the WordPress Customizer you can easily customize every aspect of the "
+"theme."
+msgstr ""
+
+#: inc/dashboard/sections/getting-started.php:27
+msgid "Start Customize"
+msgstr ""
+
+#: inc/dashboard/sections/getting-started.php:31
+msgid "Read Full Documentation"
+msgstr ""
+
+#: inc/dashboard/sections/getting-started.php:32
+msgid ""
+"Need any help to setup and configure the theme? Please check our full "
+"documentation for detailed information on how to use it."
+msgstr ""
+
+#: inc/dashboard/sections/getting-started.php:34
+msgid "Read Documentation"
+msgstr ""
+
+#: inc/dashboard/sections/getting-started.php:39
+msgid "screenshot"
+msgstr ""
+
+#: inc/dashboard/sections/newsletter.php:11
+msgid "GretaThemes Newsletter"
+msgstr ""
+
+#: inc/dashboard/sections/newsletter.php:13
+msgid ""
+"Subscribe to our newsletter to receive news and tutorials about our themes "
+"and WordPress. We will never spam you."
+msgstr ""
+
+#: inc/dashboard/sections/newsletter.php:15
+msgid "Subscribe"
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:14
+msgid "Lite"
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:15
+msgid "PRO"
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:21
+msgid "Responsive Design"
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:22
+msgid ""
+"Works in any browsers on desktops, tablets and mobile devices and optimized "
+"for speed."
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:29
+msgid "Front Page Sections"
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:30
+msgid "Easy to setup your static front page with content sections"
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:37
+msgid "Featured Content"
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:38
+msgid ""
+"Show your most important posts in a slider on the front page. Install "
+"Jetpack to use this feature."
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:45
+msgid "Sticky Sidebar"
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:46
+msgid ""
+"Glues your website 's sidebar, making them permanently visible when "
+"scrolling up and down."
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:53
+msgid "1-Click Demo Import"
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:54
+msgid ""
+"Save time setting up the theme and get exactly what you see in the demo."
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:61
+msgid "Custom Google Fonts"
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:62
+msgid ""
+"Integrated all Google Fonts with various options to customize for a "
+"beautiful typography."
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:69
+msgid "Custom Colors"
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:70
+msgid "Customize colors of any element on your website."
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:77
+msgid "Megamenu"
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:78
+msgid ""
+"Add multi-column drop-down menus to your navigation, where you can insert "
+"widgets, images and videos into."
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:85
+msgid "Instagram in Sidebar"
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:86
+msgid ""
+"Showing your Instagram images in the footer or sidebar in an attractive "
+"format."
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:93
+msgid "Advertising"
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:94
+msgid ""
+"Place your advertisements and banners on your homepage and archive page."
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:101
+msgid "Subscription"
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:102
+msgid ""
+"Insert a subscription form to allow users to subscribe to your posts and "
+"receive notifications via email."
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:109
+msgid "Related Posts"
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:110
+msgid ""
+"Show related posts after posting to recommend previous posts from your blog "
+"to the visitors."
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:117
+msgid "Priority Support"
+msgstr ""
+
+#: inc/dashboard/sections/pro.php:118
+msgid ""
+"You will benefit of our full support for any issues you have with the theme."
+msgstr ""
+
+#. pro theme name.
+#: inc/dashboard/sections/pro.php:129
+#, php-format
+msgid "Get %s PRO now"
+msgstr ""
+
+#: inc/dashboard/sections/recommended-actions.php:21
+msgid "Connect Your Site To Jetpack"
+msgstr ""
+
+#. theme name.
+#: inc/dashboard/sections/recommended-actions.php:25
+#, php-format
+msgid ""
+"%s uses Jetpack to support featured content, social menu. Connect to Jetpack "
+"to use these features as well as variety of other tools."
+msgstr ""
+
+#: inc/dashboard/sections/recommended-actions.php:28
+msgid "Connect To Jetpack"
+msgstr ""
+
+#: inc/dashboard/sections/recommended-themes.php:21
+msgid "More themes from us"
+msgstr ""
+
+#: inc/dashboard/sections/recommended-themes.php:36
+msgid "Live Demo"
+msgstr ""
+
+#. theme name.
+#: inc/dashboard/sections/recommended-themes.php:46
+msgid "Browser All Themes"
+msgstr ""
+
+#: inc/dashboard/sections/tabs.php:10
+msgid "Getting Started"
+msgstr ""
+
+#: inc/dashboard/sections/tabs.php:12
+msgid "Free vs. PRO"
+msgstr ""
+
+#: inc/dashboard/sections/upgrade.php:10
+msgid "Upgrade to PRO Version"
+msgstr ""
+
+#: inc/dashboard/sections/upgrade.php:11
+msgid ""
+"Please upgrade to the PRO plan to unlock more awesome features. You can "
+"check them out <a class=\"action-links\" href=\"#pro\">here</a>."
+msgstr ""
+
+#. theme name.
+#: inc/dashboard/sections/upgrade.php:15
+#, php-format
+msgid "Get %s Pro now"
+msgstr ""
+
+#. %1$s - Theme name, %2$s - Theme version.
+#: inc/dashboard/sections/welcome.php:12
+#, php-format
+msgid "Welcome to %1$s"
+msgstr ""
+
+#. theme slug.
+#: inc/dashboard/sections/welcome.php:19
+#, php-format
+msgid ""
+"Please rate us <a href=\"https://wordpress.org/support/theme/%1$s/reviews/?"
+"filter=5\" target=\"_blank\">&#9733;&#9733;&#9733;&#9733;&#9733;</a> on <a "
+"href=\"https://wordpress.org/support/theme/%1$s/reviews/?filter=5\" "
+"target=\"_blank\">WordPress.org</a> to help us spread the word. Thank you "
+"from GretaThemes!"
+msgstr ""
+
+#: inc/dashboard/sections/welcome.php:29
+msgid "Support"
+msgstr ""
+
+#: inc/dashboard/sections/welcome.php:30
+msgid " Share"
+msgstr ""
+
+#: inc/dashboard/sections/welcome.php:31
+msgid " Tweet"
+msgstr ""
+
+#. Name of the theme
+msgid "Digimag Lite"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"A professional WordPress magazine theme for news, video or tech blog "
+"websites. Digimag Lite has a modern, clean and elegant look and lots of "
+"customization for your blog. Built on the latest technology of WordPress, "
+"Digimag Lite is lightweight, fast and optimized for all mobile phones."
+msgstr ""
+
+#. URI of the theme
+msgid "https://gretathemes.com/wordpress-themes/digimag/"
+msgstr ""
+
+#. Author of the theme
+msgid "ElightUp"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://elightup.com/"
+msgstr ""

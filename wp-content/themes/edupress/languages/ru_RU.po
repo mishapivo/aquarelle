@@ -1,0 +1,540 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: EduPress v10.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-02-20 18:31+0300\n"
+"Last-Translator: Игорь <dybabiz@ya.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ edupress
+#: 404.php:25
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ой! Страница не найдена."
+
+# @ edupress
+#: 404.php:26
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Ничего не было найдено. Может попробовать одну из следующих ссылок или новый поиск?"
+
+# @ edupress
+#: 404.php:46
+msgid "Popular Categories"
+msgstr "Популярные категории"
+
+# @ edupress
+#: archive.php:50 index.php:62 search.php:48
+msgid "Older Posts"
+msgstr "Старые записи"
+
+# @ edupress
+#: archive.php:51 index.php:63 search.php:49
+msgid "Newer Posts"
+msgstr "Новые записи"
+
+# @ edupress
+#. translators: %s: post title
+#: comments.php:33
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr "Один комментарий для &ldquo;%s&rdquo;"
+
+# @ edupress
+#. translators: 1: number of comments, 2: post title
+#: comments.php:38
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s комментарий для &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментариев для &ldquo;%2$s&rdquo;"
+
+# @ edupress
+#: comments.php:53 comments.php:74
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+# @ edupress
+#: comments.php:56 comments.php:77
+msgid "Older Comments"
+msgstr "Старые комментарии"
+
+# @ edupress
+#: comments.php:57 comments.php:78
+msgid "Newer Comments"
+msgstr "Новые комментарии"
+
+# @ edupress
+#: comments.php:90
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто."
+
+# @ edupress
+#: footer.php:19
+msgid "Copyright &copy;"
+msgstr ""
+
+# @ edupress
+#: footer.php:19
+msgid "Y"
+msgstr ""
+
+# @ edupress
+#: footer.php:19
+msgid "All Rights Reserved"
+msgstr "Все права защищены"
+
+# @ edupress
+#: functions.php:52
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+# @ edupress
+#: functions.php:53 inc/plugin-enhancements.php:124
+msgid "Social Menu"
+msgstr "Социальные кнопки"
+
+# @ edupress
+#: functions.php:54
+msgid "Social Menu (Footer)"
+msgstr "Социальная ссылки в футере"
+
+# @ edupress
+#: functions.php:115
+msgid "Main Sidebar"
+msgstr "Главный сайдбар"
+
+# @ edupress
+#: functions.php:117
+msgid "This is the main sidebar area that appears on all pages"
+msgstr ""
+
+# @ edupress
+#: functions.php:125
+msgid "Footer: Column 1"
+msgstr ""
+
+# @ edupress
+#: functions.php:127 functions.php:137 functions.php:147 functions.php:157
+msgid "This is displayed in the footer of the website. By default has a width of 275px."
+msgstr ""
+
+# @ edupress
+#: functions.php:135
+msgid "Footer: Column 2"
+msgstr ""
+
+# @ edupress
+#: functions.php:145
+msgid "Footer: Column 3"
+msgstr ""
+
+# @ edupress
+#: functions.php:155
+msgid "Footer: Column 4"
+msgstr ""
+
+# @ edupress
+#. translators: If there are characters in your language that are not supported by Roboto, translate this to 'off'. Do not translate into your own language.
+#: functions.php:184
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr ""
+
+# @ edupress
+#. translators: If there are characters in your language that are not supported by Lato, translate this to 'off'. Do not translate into your own language.
+#: functions.php:189
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+# @ edupress
+#. translators: If there are characters in your language that are not supported by Lora, translate this to 'off'. Do not translate into your own language.
+#: functions.php:194
+msgctxt "Lora font: on or off"
+msgid "on"
+msgstr ""
+
+# @ edupress
+#. translators: If there are characters in your language that are not supported by Open Sans, translate this to 'off'. Do not translate into your own language.
+#: functions.php:199
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+# @ edupress
+#: functions.php:250
+msgctxt "The main label for the expandable mobile menu"
+msgid "HOME"
+msgstr "ГЛАВНАЯ"
+
+# @ edupress
+#: header.php:25
+msgid "Skip to content"
+msgstr "Наверх"
+
+# @ edupress
+#: inc/customizer.php:57
+msgid "Page Background Color"
+msgstr "Цвет фона страницы"
+
+# @ edupress
+#: inc/customizer.php:68
+msgid "Link Color"
+msgstr "Цвет Ссылки"
+
+# @ edupress
+#: inc/customizer.php:79
+msgid "Link Color :hover"
+msgstr "Цвет ссылки при наведении"
+
+# @ edupress
+#: inc/customizer.php:90
+msgid "Main Text Color"
+msgstr "Цвет основного текста"
+
+# @ edupress
+#: inc/customizer.php:101
+msgid "Secondary Text Color"
+msgstr "Дополнительный цвет текста"
+
+# @ edupress
+#: inc/customizer.php:111
+msgid "Header Background Color"
+msgstr "Цвет фона шапки"
+
+# @ edupress
+#: inc/customizer.php:121
+msgid "Footer Background Color"
+msgstr "Фоновый цвет футера"
+
+# @ edupress
+#: inc/customizer.php:134
+msgid "Header Bottom Border Color"
+msgstr "Цвет границы Низа Шапки"
+
+# @ edupress
+#: inc/customizer.php:144
+msgid "Footer Top Border Color"
+msgstr "Цвет верхней границы футера"
+
+# @ edupress
+#: inc/customizer.php:154
+msgid "Highlight Background Color"
+msgstr "Цвет фона выделения"
+
+# @ edupress
+#: inc/customizer.php:164
+msgid "Widget Title Background Color"
+msgstr "Цвет фона заголовка виджета"
+
+# @ edupress
+#: inc/customizer.php:174
+msgid "Menu Widget Title Background Color"
+msgstr ""
+
+# @ edupress
+#: inc/customizer.php:182
+msgid "Theme Options"
+msgstr "Опции темы"
+
+# @ edupress
+#: inc/customizer.php:183
+msgid "EduPress Theme Options"
+msgstr ""
+
+# @ edupress
+#: inc/customizer.php:187
+msgid "Header"
+msgstr "Шапка сайта"
+
+# @ edupress
+#: inc/customizer.php:198
+msgid "Display site title and tagline in the header."
+msgstr ""
+
+# @ edupress
+#: inc/customizer.php:204
+msgid "Featured Content Blocks"
+msgstr "Рекомендуемые блоки контента"
+
+# @ edupress
+#: inc/customizer.php:215
+msgid "Show Featured Pages (Tabs) Section on the Front Page"
+msgstr ""
+
+# @ edupress
+#: inc/customizer.php:226
+msgid "Show the page titles and excerpts for the Featured Pages"
+msgstr ""
+
+# @ edupress
+#: inc/customizer.php:238 inc/customizer.php:298
+msgid "Front Page: Featured Page #1"
+msgstr ""
+
+# @ edupress
+#: inc/customizer.php:239 inc/customizer.php:299
+#, php-format
+msgid "This list is populated with <a href=\"%1$s\">Pages</a>."
+msgstr ""
+
+# @ edupress
+#: inc/customizer.php:251 inc/customizer.php:311
+msgid "Front Page: Featured Page #2"
+msgstr ""
+
+# @ edupress
+#: inc/customizer.php:263 inc/customizer.php:323
+msgid "Front Page: Featured Page #3"
+msgstr ""
+
+# @ edupress
+#: inc/customizer.php:275
+msgid "Front Page: Featured Page #4"
+msgstr ""
+
+# @ edupress
+#: inc/customizer.php:287
+msgid "Show Featured Pages (Columns) Section on the Front Page"
+msgstr ""
+
+# @ edupress
+#: inc/customizer.php:331
+msgid "Other Options"
+msgstr "Другие настройки"
+
+# @ edupress
+#: inc/customizer.php:341
+msgid "Display Featured Image on Post Pages"
+msgstr ""
+
+# @ edupress
+#: inc/customizer.php:353
+msgid "Display Author Gravatar on Post Pages"
+msgstr ""
+
+# @ edupress
+#: inc/customizer.php:377 inc/customizer.php:430 inc/customizer.php:480
+msgid "None"
+msgstr "Отсутствует"
+
+# @ edupress
+#: inc/customizer.php:599
+msgid "Default"
+msgstr "По умолчанию"
+
+# @ edupress
+#: inc/jetpack.php:43
+msgid "Load more posts"
+msgstr "Загрузить еще"
+
+# @ edupress
+#: inc/plugin-enhancements.php:82
+#, php-format
+msgid "The %1$s is necessary to use some of this theme&rsquo;s features, including: "
+msgstr ""
+
+# @ edupress
+#: inc/plugin-enhancements.php:83
+msgid "Jetpack plugin"
+msgstr "Плагин Jetpack,"
+
+# @ edupress
+#: inc/plugin-enhancements.php:106
+msgid "Site Logo"
+msgstr "Логотип сайта"
+
+# @ edupress
+#: inc/plugin-enhancements.php:115
+msgid "Featured Content"
+msgstr "Рекомендуемый контент"
+
+# @ edupress
+#: inc/plugin-enhancements.php:133
+msgid "Menus"
+msgstr "Меню"
+
+# @ edupress
+#: inc/plugin-enhancements.php:142
+msgid "Comics"
+msgstr "Комиксы"
+
+# @ edupress
+#: inc/plugin-enhancements.php:151
+msgid "Testimonials"
+msgstr "Отзывы"
+
+# @ edupress
+#: inc/plugin-enhancements.php:160
+msgid "Portfolios"
+msgstr "Портфолио"
+
+# @ edupress
+#: inc/plugin-enhancements.php:178
+msgid "no specific module needed"
+msgstr ""
+
+# @ edupress
+#: inc/plugin-enhancements.php:179
+msgid "Custom Content Types module"
+msgstr "Пользовательские типы контента модуль"
+
+# @ edupress
+#: inc/plugin-enhancements.php:256
+#, php-format
+msgid " Please activate %1$s. %2$s"
+msgstr "Пожалуйста, активируйте %1$s. %2$s"
+
+# @ edupress
+#: inc/plugin-enhancements.php:258
+msgid "Activate"
+msgstr "Активировать"
+
+# @ edupress
+#: inc/plugin-enhancements.php:266
+#, php-format
+msgid " Please install %1$s. %2$s"
+msgstr "Пожалуйста, установите %1$s. %2$s"
+
+# @ edupress
+#: inc/plugin-enhancements.php:268
+msgid "Install"
+msgstr "Усстановить"
+
+# @ edupress
+#: inc/plugin-enhancements.php:293
+#, php-format
+msgid "To use %1$s, please activate the Jetpack plugin&rsquo;s %2$s."
+msgstr "Чтобы использовать%1$s, пожалуйста, активировать плагин &rsquo;s %2$s."
+
+# @ edupress
+#: inc/plugin-enhancements.php:389
+msgid "Your request failed permission check."
+msgstr "Ваш запрос не прошел проверку разрешений."
+
+# @ edupress
+#: inc/plugin-enhancements.php:396
+msgid "Your request was processed. See ya!"
+msgstr "Ваш запрос успешно обработан!"
+
+# @ edupress
+#: inc/template-tags.php:22
+msgid "Pingback:"
+msgstr ""
+
+# @ edupress
+#: inc/template-tags.php:22 inc/template-tags.php:50
+msgid "Edit"
+msgstr "Изменить "
+
+# @ edupress
+#: inc/template-tags.php:40
+#, php-format
+msgctxt "1: date, 2: time"
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+# @ edupress
+#: inc/template-tags.php:46
+msgid "Your comment is awaiting moderation."
+msgstr "Спасибо! Ваш комментарий ожидает проверки."
+
+# @ edupress
+#. translators: %s: Name of current post
+#: inc/template-tags.php:89
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "Продолжить чтение <span class=\"screen-reader-text\"> \"%s\"</span>"
+
+# @ edupress
+#: index.php:49
+msgid "Recent Posts"
+msgstr "Свежие записи"
+
+# @ edupress
+#: search.php:23
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результат поиска для: %s"
+
+# @ edupress
+#: template-parts/content-home-featured.php:67
+msgid "No Featured Pages Found"
+msgstr "Рекомендуемые страницы не найдено"
+
+# @ edupress
+#: template-parts/content-home-featured.php:70
+msgid "This section will display your featured pages. Configure (or disable) it via the Customizer."
+msgstr ""
+
+# @ edupress
+#: template-parts/content-home-featured.php:71
+msgid "Important: This message is NOT visible to site visitors, only to admins and editors."
+msgstr ""
+
+# @ edupress
+#. translators: %s: Name of current post.
+#. translators: %s: Name of current post.
+#. translators: %s: Name of current post.
+#: template-parts/content-home.php:23 template-parts/content-page.php:23
+#: template-parts/content-single.php:32
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Читать далее %s <span class=\"meta-nav\">&rarr;</span>"
+
+# @ edupress
+#: template-parts/content-home.php:30 template-parts/content-page.php:30
+#: template-parts/content-single.php:39
+msgid "Pages:"
+msgstr "Страницы:"
+
+# @ edupress
+#: template-parts/content-none.php:17
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните здесь</a>."
+
+# @ edupress
+#: template-parts/content-none.php:21
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, но ничего не найдено. Пожалуйста, попробуйте еще раз с другими ключевыми словами."
+
+# @ edupress
+#: template-parts/content-none.php:25
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Кажется, мы не можем найти то, что вы ищете. Возможно, поиск может помочь."
+
+# @ edupress
+#: template-parts/content-single.php:19 template-parts/content.php:34
+msgid "By"
+msgstr "От"
+
+# @ edupress
+#: template-parts/content-single.php:20 template-parts/content.php:35
+msgid "Published"
+msgstr " "
+
+# @ edupress
+#: template-parts/content-single.php:21 template-parts/content.php:36
+msgctxt "Used on archive and post pages to separate multiple categories."
+msgid ", "
+msgstr ""
+
+# @ edupress
+#: template-parts/content-single.php:47
+#, php-format
+msgid "Tags: %1$s"
+msgstr "Метки: %1$s "

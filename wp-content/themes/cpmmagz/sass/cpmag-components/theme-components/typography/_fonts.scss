@@ -1,0 +1,30 @@
+@font-face {
+    font-family: "Roboto Slab";
+    src: url("assets/font/roboto-slab/robotoslab-thin-webfont.woff2") format("woff2"),
+        url("assets/font/roboto-slab/robotoslab-thin-webfont.woff") format("woff"),
+        url("assets/font/roboto-slab/robotoslab-thin-webfont.ttf") format("truetype");
+    font-weight: 200;
+}
+@font-face {
+    font-family: "Roboto Slab";
+    src: url("assets/font/roboto-slab/robotoslab-light-webfont.woff2") format("woff2"),
+        url("assets/font/roboto-slab/robotoslab-light-webfont.woff") format("woff"),
+        url("assets/font/roboto-slab/robotoslab-light-webfont.ttf") format("truetype");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Roboto Slab";
+    src: url("assets/font/roboto-slab/robotoslab-regular-webfont.woff2") format("woff2"),
+        url("assets/font/roboto-slab/robotoslab-regular-webfont.woff") format("woff"),
+        url("assets/font/roboto-slab/robotoslab-regular-webfont.ttf") format("truetype");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto Slab";
+    src: url("assets/font/roboto-slab/robotoslab-bold-webfont.woff2") format("woff2"),
+        url("assets/font/roboto-slab/robotoslab-bold-webfont.woff") format("woff"),
+        url("assets/font/roboto-slab/robotoslab-bold-webfont.ttf") format("truetype");
+    font-weight: 700;
+}

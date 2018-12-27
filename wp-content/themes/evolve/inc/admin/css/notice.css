@@ -1,0 +1,46 @@
+.evolve-notice {
+    background-color: #fefefe;
+    border-radius: .25rem;
+    box-shadow: 0 .125rem .25rem rgba(0, 0, 0, .075);
+    color: #666;
+    margin-bottom: 1rem;
+    padding: .75rem 1.25rem;
+    position: relative;
+}
+
+.evolve-notice [class^="icon-"],
+.evolve-notice [class*=" icon-"] {
+    display: inline-block;
+    height: 2rem;
+    margin-right: .8rem;
+    vertical-align: middle;
+    width: 2rem;
+    fill: currentColor;
+}
+
+.evolve-notice a {
+    text-decoration: none;
+}
+
+.evolve-notice .button {
+    background: #41d6cf;
+    border: none;
+    border-radius: 2em;
+    box-shadow: none;
+    color: #fff;
+    font-weight: 500;
+    height: 35px;
+    margin: 0 1rem;
+    padding: .2rem 1rem;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+
+.evolve-notice .button:hover,
+.evolve-notice .button:focus {
+    background: #41cbc4;
+    border: none;
+    box-shadow: 0 0 0 0.2rem rgba(50, 162, 168, 0.25);
+    -webkit-box-shadow: 0 0 0 0.2rem rgba(50, 162, 168, 0.25);
+    color: #fff;
+}

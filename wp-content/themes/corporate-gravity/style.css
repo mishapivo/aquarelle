@@ -1,0 +1,532 @@
+/*
+Theme Name: Corporate Gravity
+Theme URI: https://keonthemes.com/downloads/corporate-gravity/
+Author: Keon Themes
+Author URI: https://keonthemes.com/
+Description: Corporate Gravity is a enhanced child theme of Business Gravity suitable for corporate, business, company, agency, blogger, creative and professional portfolio. Theme Demo: https://keonthemes.com/theme-demo/?id=MjY4NXxjb3Jwb3JhdGUtZ3Jhdml0eXxDb3Jwb3JhdGUgR3Jhdml0eQ=
+Version: 1.0.0
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Template: business-gravity
+Text Domain: corporate-gravity
+Tags: blog, portfolio, education, grid-Layout, two-columns, flexible-header, left-sidebar, right-sidebar, custom-background, custom-colors, custom-header, custom-logo, custom-menu, featured-images, full-width-template, post-formats, rtl-language-support, theme-options, sticky-post, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/*======================================*/
+/* General */
+/*======================================*/
+
+body .top-header .top-header-left .list span {
+  color: #5cb6ce;
+}
+
+body .top-header .top-header-right .search-icon,
+body .top-header .top-header-right .cart-icon {
+  border-left-color: rgba(255,255,255,0.5);
+  color: #ccc;
+}
+
+body .top-header .top-header-right .search-icon {
+  background: transparent;
+  border-left: 1px solid rgba(255,255,255,0.5);
+}
+
+body .block-top-footer .widget ul li,
+body .block-top-footer .widget ol li {
+  border-color: rgba(255,255,255,0.15);
+}
+
+body .banner-overlay, .post-content-overlay .post-thumb figure a {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+body .block-top-footer strong {
+  color: #b9b9b9;
+}
+
+/*======================================*/
+/* Primary */
+/*======================================*/
+
+/*======================================*/
+/* Background */
+/*======================================*/
+
+body.single .post-footer span.cat-links:before {
+  background-color: #6FBDD5 !important;
+}
+
+body .wrap-detail-page form input[type=submit], 
+body .wrap-detail-page .wpcf7 input[type=submit], 
+body .wrap-detail-page .kt-contact-form-area .form-group input.form-control[type=submit], 
+body input[type=button], 
+body input[type=reset], 
+body input[type=submit], 
+body .button-primary, 
+body .button-primary:hover, 
+body .button-primary:focus, 
+body .button-primary:active, 
+body .section-title:before, 
+body .page-numbers.current, 
+body .page-numbers:hover.current, 
+body .page-numbers:focus.current, 
+body .page-numbers:active.current, 
+body .widget.widget_mc4wp_form_widget input[type=submit], 
+body .woocommerce ul.products li.product .onsale, 
+body .woocommerce ul.products li.product .button, 
+body .woocommerce ul.products li.product a.added_to_cart, 
+body.single article.hentry .post-text a.wp-block-button__link, 
+body .page article.hentry .post-text a.wp-block-button__link, 
+body #blog-post article.hentry .post-text a.wp-block-button__link, 
+body .search article.hentry .post-text a.wp-block-button__link, 
+body .archive article.hentry .post-text a.wp-block-button__link, 
+body .tag article.hentry .post-text a.wp-block-button__link, 
+body .category article.hentry .post-text a.wp-block-button__link, 
+body article.hentry #ak-blog-post .post-text a.wp-block-button__link, 
+body.single article.hentry .post-text .page-links > .page-number, 
+body .page article.hentry .post-text .page-links > .page-number, 
+body #blog-post article.hentry .post-text .page-links > .page-number, 
+body .search article.hentry .post-text .page-links > .page-number, 
+body .archive article.hentry .post-text .page-links > .page-number, 
+body .tag article.hentry .post-text .page-links > .page-number, 
+body .category article.hentry .post-text .page-links > .page-number, 
+body article.hentry #ak-blog-post .post-text .page-links > .page-number, 
+body article.hentry.sticky .post-thumb:before, 
+body article.hentry.sticky .post-format-outer > span a, 
+body.single .post-footer span.cat-links:before, 
+body .comments-area .comment-respond .comment-form .submit, 
+body .searchform .search-button, #go-top span:hover, 
+body #go-top span:focus, #go-top span:active, 
+body .widget.widget_calendar tbody a, 
+body .top-header-right .search-icon, 
+body .top-header-right .cart-icon a .count, 
+body .header-bottom-right .header-search-wrap .search-icon, 
+body .meta .meta-date, .contact-form-section input[type=submit], 
+body .kt-contact-form-area .form-group input.form-control[type=submit], 
+body .comments-area .comment-list .reply a, 
+body .block-footer-callback .mc4wp-form input[type=submit], 
+body .block-portfolio.block-grid .gallery-content .post-content-inner .icon-area {
+  background-color: #6FBDD5;
+}
+
+/*======================================*/
+/* Border */
+/*======================================*/
+
+body.fixed-nav-active .main-navigation .nav > ul > li.current-menu-item {
+  border: 1px solid #6FBDD5 !important;
+}
+
+body .wrap-detail-page .wpcf7 input[type=submit], 
+body .wrap-detail-page .kt-contact-form-area .form-group input.form-control[type=submit], 
+body .button-primary, 
+body .page-numbers.current, 
+body .page-numbers:hover.current, 
+body .page-numbers:focus.current, 
+body .page-numbers:active.current, 
+body .woocommerce ul.products li.product .button, 
+body .woocommerce ul.products li.product a.added_to_cart, 
+body.single article.hentry .post-text .page-links > .page-number, 
+body .page article.hentry .post-text .page-links > .page-number, 
+body #blog-post article.hentry .post-text .page-links > .page-number, 
+body .search article.hentry .post-text .page-links > .page-number, 
+body .archive article.hentry .post-text .page-links > .page-number, 
+body .tag article.hentry .post-text .page-links > .page-number, 
+body .category article.hentry .post-text .page-links > .page-number, 
+body article.hentry #ak-blog-post .post-text .page-links > .page-number, 
+body .comments-area .comment-respond .comment-form .submit, 
+body .searchform .search-button, #go-top span:hover, 
+body #go-top span:focus, 
+body #go-top span:active, 
+body.fixed-nav-active .main-navigation .nav > ul > li.current-menu-item, 
+body .main-navigation ul ul, 
+body .main-navigation ul.primary-menu > .current_page_item, 
+body .main-navigation ul.primary-menu > .current-menu-item, 
+body .contact-form-section input[type=submit], 
+body .kt-contact-form-area .form-group input.form-control[type=submit] {
+  border-color: #6FBDD5;
+}
+
+/*======================================*/
+/* color */
+/*======================================*/
+.main-navigation ul.primary-menu > .current_page_item > a, 
+.main-navigation ul.primary-menu > .current-menu-item > a {
+  color: #6FBDD5;
+}
+
+a, 
+.woocommerce ul.products li.product .price .amount, 
+.woocommerce ul.products li.product .price ins .amount, 
+body.single article.hentry .post-text a, 
+.page article.hentry .post-text a, 
+#blog-post article.hentry .post-text a, 
+.search article.hentry .post-text a, 
+.archive article.hentry .post-text a, 
+.tag article.hentry .post-text a, 
+.category article.hentry .post-text a, 
+article.hentry #ak-blog-post .post-text a, 
+.comments-area .comment-respond .logged-in-as a, 
+article.post-content .post-title .cat, 
+.widget.widget_calendar tfoot a, 
+.widget.widget_rss li a, 
+.header-bottom-right .callback-button a:hover span, 
+.header-bottom-right .callback-button a:focus span, 
+.header-bottom-right .callback-button a:active span, 
+.main-navigation li.current-menu-parent .current-menu-item > a, 
+.main-navigation .page_item_has_children.current-menu-item, 
+.main-navigation .menu-item-has-children.current-menu-item, 
+.offcanvas-navigation li.current_page_item > a, 
+.offcanvas-navigation li.current-menu-item > a, 
+.offcanvas-navigation li.current_page_ancestor > a, 
+.offcanvas-navigation li.current-menu-ancestor > a, 
+.icon-block-outer .icon-outer span {
+  color: #6FBDD5;
+}
+
+/*======================================*/
+/* Title */
+/*======================================*/
+
+h1, h2, body.woocommerce.single-product .product_title, h3, h4, h5, h6, h1 a, h2 a, body.woocommerce.single-product .product_title a, h3 a, h4 a, h5 a, h6 a, .wrap-inner-banner .page-header .page-title, .sub-title, .widget .widget-title, .widget .widgettitle, .block-grid .post-content .post-content-inner .post-title h3 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*======================================*/
+/* Body */
+/*======================================*/
+
+html, body, button, input, select, textarea, blockquote, pre, code, kbd, tt, var, input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], input[type="number"], input[type="tel"], input[type="range"], input[type="date"], input[type="month"], input[type="week"], input[type="time"], input[type="datetime"], input[type="datetime-local"], input[type="color"], textarea, .wpcf7-form-control, .form-control, input[type="button"], input[type="reset"], input[type="submit"], input[type="button"]:hover, input[type="button"]:active, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:active, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:active, input[type="submit"]:focus, .button, .button-primary, .button-light, .comments-area .comment-list .reply a, .button-outline, .button-outline:hover, .button-outline:focus, .button-outline:active, .woocommerce ul.products li.product .button, .woocommerce ul.products li.product a.added_to_cart, .woocommerce #respond input#submit, .woocommerce input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce .cart .button, .woocommerce .cart input.button, .woocommerce button.button.alt, .woocommerce a.button.alt, .woocommerce input.button.alt, .nav-links .nav-previous a:before, .nav-links .nav-previous a:after, .nav-links .nav-next a:before, .nav-links .nav-next a:after, .author-detail .author-content .author-name, .author-detail .author-content .author-name span, .related-post .related-post-list h3 a, .searchform .search-button, .site-header .site-branding .site-title a, .block-grid .post-content .post-content-inner .button-container .button-text, .icon-block-outer .icon-content-area .button-container .button-text, .block-testimonial .slide-item article.post-content .post-content-inner .post-title cite {
+	font-family: 'Montserrat', sans-serif;
+}
+
+/*======================================/*
+/* Top Header Section */
+/*======================================*/
+.top-header-right .socialgroup a {
+  border: none;
+  border-radius: 0px;
+  height: auto;
+  width: auto;
+  line-height: auto;
+  margin: 0 8px;
+}
+
+.top-header-right .socialgroup a:before {
+    font-size: 14px;
+}
+
+/*======================================/*
+/* Home Slider Section */
+/*======================================*/
+
+.block-slider .slide-item .text-center .post-title:before {
+  display: none;
+}
+
+.block-slider .slide-item .text-center .content {
+  padding-left: 0px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.block-slider .slide-item .text-center .content:before {
+  background-color: #fff;
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 60px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 0;
+}
+
+/*======================================*/
+/* Home Service Section */
+/*======================================*/
+
+.block-service .service-item-wrap {
+  margin-bottom: -30px;
+}
+
+.grid-service-outer {
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.service-content {
+  background: #6FBDD5;
+  padding: 25px 15px;
+  position: relative;
+}
+
+.service-content .icon-area {
+  border-radius: 100%;
+  line-height: 50px;
+  width: 50px;
+  height: 50px;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+  background: #6FBDD5;
+  margin: 0 auto;
+  position: absolute;
+  display: block;
+  left: 0;
+  top: -24px;
+  right: 0;
+}
+
+.icon-content-area h3 {
+  color: #FFF;
+  font-weight: 400;
+  font-size: 18px;
+  margin: 0;
+}
+
+.hover-text {
+  position: absolute;
+  top: 0px;
+  padding: 20px;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease 0.1s;
+     -moz-transition: all 0.5s ease 0.1s;
+      -ms-transition: all 0.5s ease 0.1s;
+       -o-transition: all 0.5s ease 0.1s;
+          transition: all 0.5s ease 0.1s;
+  z-index: 11;
+}
+
+.grid-service-outer > a {
+  display: block;
+  position: relative;
+}
+
+.grid-service-outer > a:before {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  opacity: 0;
+  -webkit-transition: all 0.4s ease 0s;
+     -moz-transition: all 0.4s ease 0s;
+      -ms-transition: all 0.4s ease 0s;
+       -o-transition: all 0.4s ease 0s;
+          transition: all 0.4s ease 0s;
+  -webkit-transform: scale(0.85);
+     -moz-transform: scale(0.85);
+      -ms-transform: scale(0.85);
+       -o-transform: scale(0.85);
+          transform: scale(0.85);
+  z-index: 1;
+}
+
+.grid-service-outer:hover a:before{
+  opacity: 1;
+  -webkit-transform: scale(1);
+     -moz-transform: scale(1);
+      -ms-transform: scale(1);
+       -o-transform: scale(1);
+          transform: scale(1);
+}
+
+.grid-service-outer:hover .hover-text {
+  visibility: visible;
+  opacity: 1;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+     -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+       -o-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+body .icon-block-outer:hover .icon-content-area a,
+body .icon-block-outer:focus .icon-content-area a,
+body .icon-block-outer:active .icon-content-area a {
+  -webkit-transition: color 0.3s, border 0.5s, background-color 0.5s;
+  -moz-transition: color 0.3s, border 0.5s, background-color 0.5s;
+  -ms-transition: color 0.3s, border 0.5s, background-color 0.5s;
+  -o-transition: color 0.3s, border 0.5s, background-color 0.5s;
+  transition: color 0.3s, border 0.5s, background-color 0.5s;
+}
+
+body .icon-block-outer:hover .icon-content-area h3 a:hover,
+body .icon-block-outer:focus .icon-content-area h3 a:focus,
+body .icon-block-outer:active .icon-content-area h3 a:active {
+  color: #d5d5d5;
+}
+
+/*======================================*/
+/* About Section */
+/*======================================*/
+
+body .thumb-block-outer .content-outer {
+  padding: 50px 60px 60px 60px;
+  margin-left: -60px;
+  background: #fff;
+}
+
+.meta .meta-date .day {
+  border-bottom: 1px solid #cec8c8;
+}
+
+/*======================================*/
+/* Footer Section */
+/*======================================*/
+
+.site-footer.site-footer-four {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+body .footer-social .socialgroup ul {
+  margin: 0;
+}
+
+body .site-footer.site-footer-four .footer-social {
+  border-top: none;
+  margin: 0;
+}
+
+.site-footer.site-footer-four .footer-inner {
+  padding: 0;
+}
+
+.site-footer-four .footer-social {
+  text-align: right;
+}
+
+.site-footer.site-footer-four .footer-social .socialgroup {
+  margin-top: 0;
+  background-color: transparent;
+  vertical-align: middle;
+}
+
+.site-footer-four .socialgroup li {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.site-footer-four .footer-menu {
+  text-align: left;
+}
+
+/*======================================*/
+/* Top header Section */
+/*======================================*/
+
+body .top-header {
+  background-color: transparent;
+}
+
+.top-header .top-header-left .list,
+.top-header .top-header-left .list a,
+body .top-header .top-header-left .list span,
+.top-header-right .socialgroup a {
+  color: #ccc;
+}
+
+/*======================================*/
+/* header Section */
+/*======================================*/
+
+.site-header-five {
+  z-index: 999;
+  position: absolute;
+  width: 100%;
+  background: transparent;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.hgroup-wrap {
+  background: #FFF;
+  padding: 18px 20px;
+}
+
+.top-header {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  z-index: 99991;
+  color: #bfbfbf;
+}
+
+body .header-bottom-right .callback-button a.default-button {
+  background-color: #6FBDD5 !important; 
+  border: 1px solid #6FBDD5;
+  padding: 8px 15px !important;
+}
+
+body .header-bottom-right .callback-button a.default-button:hover,
+body .header-bottom-right .callback-button a.default-button:focus,
+body .header-bottom-right .callback-button a.default-button:active {
+  background-color: #E62739 !important; 
+  border: 1px solid #E62739;
+}
+
+.top-header-right .cart-icon,
+.top-header-right .search-icon {
+  padding: 9px 15px;
+}
+
+.top-header-right .socialgroup {
+  vertical-align: middle;
+}
+.top-header-right .socialgroup ul {
+  font-size: 0;
+}
+
+.block-slider.pages-slider .banner-overlay, 
+.block-slider.pages-slider .post-content-overlay .post-thumb figure a, 
+.post-content-overlay .post-thumb figure .block-slider.pages-slider a {
+    padding: 190px 0 140px;
+}
+
+/*======================================*/
+/* Responsive Media */
+/*======================================*/
+
+@media only screen and (max-width: 991px) { 
+
+  .footer-inner,
+  .site-footer-four .footer-menu,
+  .site-footer-four .footer-social {
+    text-align: center
+  }
+
+  .site-footer-four .footer-menu {
+    margin: 10px 0 15px;
+  }
+
+}
+
+@media only screen and (max-width: 575px) {
+
+  body .thumb-block-outer .content-outer {
+    padding: 10px 15px 45px;
+    margin-left: 0;
+  }
+
+  .block-slider.pages-slider .banner-overlay, 
+  .block-slider.pages-slider .post-content-overlay .post-thumb figure a, 
+  .post-content-overlay .post-thumb figure .block-slider.pages-slider a {
+    padding: 100px 0;
+  }
+
+}
+
+/*--------------------------------------------------------------
+        !!! KEON THEMES (https://keonthemes.com) !!!
+--------------------------------------------------------------*/

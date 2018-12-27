@@ -1,0 +1,32 @@
+.top-header{
+	background: $theme_color;
+	color: $white_color;
+	a{
+		color: $white_color;
+	}
+	ul{
+		margin: 0;
+	}
+}
+.top-nav{
+	@include clearfix;
+	li{
+		font-size: 14px;
+		@include ulli;
+		margin: 0;
+		a{
+			line-height: 40px;
+			@include theme-transitions;
+			color: $white_color;
+			padding: 0 14px;
+		}
+		&:hover, &:focus{
+			background: darken($theme_color_dark, 10%);
+		}
+	}
+	li.current-menu-item{
+		background: darken($theme_color_dark, 10%);
+		color: $white_color;
+	}
+}
+/*** Top Nav Menu ***/

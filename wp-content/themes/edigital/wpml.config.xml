@@ -1,0 +1,13 @@
+<wpml-config>
+   <admin-texts>
+     	<key name="theme_mods_edigital">
+         <key name="fb_link"/>
+         <key name="tw_link"/>
+         <key name="lnk_link"/>
+         <key name="pin_link"/>
+         <key name="gp_link"/>
+         <key name="yt_link"/>
+         <key name="site_copyright_text"/>
+   	</key>
+   </admin-texts>
+</wpml-config>

@@ -1,0 +1,95 @@
+.mm-menu{
+    background: $theme_color;
+}
+.mm-navbar{
+    background: #2A3038;
+    a{
+        color: #fff!important;
+    }
+}
+.mm-panel .mm-listview{
+    li{
+        background: $theme_color;
+        a{
+            color: #fff;
+        }
+        &:hover, &:focus{
+            background: $theme_color_dark;
+            box-shadow: 3px 0px 0px 0 #fff inset;
+        }
+    }
+    li.current-menu-item{
+        background: $theme_color_dark;
+        box-shadow: 3px 0px 0px 0 #fff inset;
+    }
+}
+.mm-menu .mm-listview > li .mm-next:after,
+.mm-menu .mm-listview > li .mm-arrow:after,
+.mm-menu .mm-navbar .mm-btn:before,
+.mm-menu .mm-navbar .mm-btn:after {
+    border-color: #fff!important;
+}
+html.mm-opening .mm-slideout{
+    position: relative;
+    z-index: 99999;
+}
+.mm-page {
+    z-index: 99999;
+    #page{
+        position: relative;
+        z-index: 99999;
+        background: #fff;/*Give the background. So that mobile menu doesnot show up while opening the mobile menu*/
+    }
+}
+html.mm-opened{
+    margin-top: 0px!important;
+}
+.mm-opened .mm-page #page{
+    padding-top: 0px;
+}
+.mm-opened .admin-bar .mm-page #page{
+    padding-top: 32px;
+}
+@include media("(max-width: 782px)"){
+    html.mm-opened{
+        margin-top: 0px!important;
+    }
+    .mm-opened .mm-page #page{
+        padding-top: 0px;
+    }
+    .mm-opened .admin-bar .mm-page #page{
+        padding-top: 46px;
+    }
+}
+@include media("(max-width: 600px)"){
+    .mm-opened .mm-page #page{
+        padding-top: 0px;
+    }
+    .mm-opened .admin-bar .mm-page #page{
+        padding-top: 0px;
+    }
+}
+// Jetpack Infinite Scroll
+body.has-site-logo .site-title{
+    display: none !important;
+}
+div#infinite-footer {
+    display: none;
+}
+#infinite-handle{
+    display: none;
+}
+//Contact Form 7
+.wpcf7{
+	margin-top: 3rem;
+}
+//Firefox overrides
+@-moz-document url-prefix() {
+    .single-post, .page{
+        .featured-media{
+            .valign-wrapper{
+                display: block!important;
+            }
+        }
+    }
+}

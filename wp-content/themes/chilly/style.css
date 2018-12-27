@@ -1,0 +1,18 @@
+/*
+Theme Name: Chilly
+Theme URI: https://spicethemes.com/chilly-wordpress-theme/
+Author: spicethemes.com
+Author URI: https://spicethemes.com
+Template:     spicepress
+Description: Chilly is a responsive, multi-purpose WordPress theme. It’s flexible and suitable for agencies, blogs, businesses, finance, accounting, consulting, corporations, or portfolios. Customization is easy and straight-forward, with options provided that allow you to setup your site to perfectly fit your desired online presence. For more details, visit this link https://wordpress.org/themes/spicepress/. We hope you will find the chilly theme useful.
+Tags: one-column, two-columns, right-sidebar, flexible-header, custom-colors, custom-menu, custom-logo, editor-style, featured-images, footer-widgets, sticky-post, threaded-comments, translation-ready, blog 
+Version: 1.1.7.1
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License: GNU General Public License v3 or later
+Text Domain: chilly
+*/
+
+.blog-seperate {
+    padding-bottom: 70px;
+    margin: 0px;
+}

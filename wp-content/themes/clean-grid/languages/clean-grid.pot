@@ -1,0 +1,860 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Clean Grid\n"
+"POT-Creation-Date: 2018-09-26 18:15+0530\n"
+"PO-Revision-Date: 2018-09-26 18:14+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: 404.php:23
+msgid "Sorry! the requested page cannot be found."
+msgstr ""
+
+#: 404.php:28
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: 404.php:35
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:51
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:37
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:43
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:22 header.php:75
+msgid "Twitter"
+msgstr ""
+
+#: footer.php:24 header.php:77
+msgid "Facebook"
+msgstr ""
+
+#: footer.php:26 header.php:79
+msgid "Google Plus"
+msgstr ""
+
+#: footer.php:28 header.php:81
+msgid "Pinterest"
+msgstr ""
+
+#: footer.php:30 header.php:83
+msgid "Linkedin"
+msgstr ""
+
+#: footer.php:32 header.php:85
+msgid "Instagram"
+msgstr ""
+
+#: footer.php:34 header.php:115
+msgid "VK"
+msgstr ""
+
+#: footer.php:36 header.php:87
+msgid "Flickr"
+msgstr ""
+
+#: footer.php:38 header.php:89
+msgid "Youtube"
+msgstr ""
+
+#: footer.php:40 header.php:91
+msgid "Vimeo"
+msgstr ""
+
+#: footer.php:42 header.php:93
+msgid "SoundCloud"
+msgstr ""
+
+#: footer.php:44 header.php:95
+msgid "Lastfm"
+msgstr ""
+
+#: footer.php:46 header.php:97
+msgid "Github"
+msgstr ""
+
+#: footer.php:48 header.php:99
+msgid "Bitbucket"
+msgstr ""
+
+#: footer.php:50 header.php:101
+msgid "Tumblr"
+msgstr ""
+
+#: footer.php:52 header.php:103
+msgid "Digg"
+msgstr ""
+
+#: footer.php:54 header.php:105
+msgid "Delicious"
+msgstr ""
+
+#: footer.php:56 header.php:107
+msgid "Stumbleupon"
+msgstr ""
+
+#: footer.php:58 header.php:109
+msgid "Reddit"
+msgstr ""
+
+#: footer.php:60 header.php:111
+msgid "Dribbble"
+msgstr ""
+
+#: footer.php:62 header.php:113
+msgid "Behance"
+msgstr ""
+
+#: footer.php:64 header.php:117
+msgid "Codepen"
+msgstr ""
+
+#: footer.php:66 header.php:119
+msgid "JSFiddle"
+msgstr ""
+
+#: footer.php:68 header.php:121
+msgid "Stack Overflow"
+msgstr ""
+
+#: footer.php:70 header.php:123
+msgid "Stack Exchange"
+msgstr ""
+
+#: footer.php:72 header.php:125
+msgid "BuySellAds"
+msgstr ""
+
+#: footer.php:74 header.php:127
+msgid "SlideShare"
+msgstr ""
+
+#: footer.php:76 header.php:129
+msgid "Skype"
+msgstr ""
+
+#: footer.php:78 header.php:131
+msgid "Email Us"
+msgstr ""
+
+#: footer.php:80 header.php:133
+msgid "RSS"
+msgstr ""
+
+#. translators: %s: Year and site name.
+#: footer.php:119
+#, php-format
+msgid "Copyright &copy; %s"
+msgstr ""
+
+#: footer.php:119
+msgid "Y"
+msgstr ""
+
+#. translators: %s: Theme author.
+#: footer.php:121
+#, php-format
+msgid "Design by %s"
+msgstr ""
+
+#: functions.php:79
+msgid "Primary Menu"
+msgstr ""
+
+#: header.php:134
+msgid "Search"
+msgstr ""
+
+#: inc/admin/classes/class-customize-recommended-plugins.php:18
+msgid "WP-PageNavi"
+msgstr ""
+
+#: inc/admin/classes/class-customize-recommended-plugins.php:19
+msgid ""
+"WP-PageNavi plugin helps to display numbered page navigation of this theme. "
+"Just install and activate the plugin."
+msgstr ""
+
+#: inc/admin/classes/class-customize-recommended-plugins.php:23
+msgid "Regenerate Thumbnails"
+msgstr ""
+
+#: inc/admin/classes/class-customize-recommended-plugins.php:24
+msgid ""
+"Regenerate Thumbnails plugin helps you to regenerate your thumbnails to "
+"match with this theme. Install and activate the plugin. From the left hand "
+"navigation menu, click Tools &gt; Regen. Thumbnails. On the next screen, "
+"click Regenerate All Thumbnails."
+msgstr ""
+
+#: inc/admin/customizer.php:29
+msgid "Theme Options"
+msgstr ""
+
+#: inc/admin/options/footer-options.php:13
+msgid "Footer"
+msgstr ""
+
+#: inc/admin/options/footer-options.php:17
+msgid "Footer copyright notice"
+msgstr ""
+
+#: inc/admin/options/footer-options.php:21
+msgid "Hide Footer Widgets"
+msgstr ""
+
+#: inc/admin/options/footer-options.php:26
+msgid "Hide Theme Designer Credits"
+msgstr ""
+
+#: inc/admin/options/getting-started.php:13
+msgid "Getting Started"
+msgstr ""
+
+#: inc/admin/options/getting-started.php:13
+msgid ""
+"Thanks for your interest in Clean Grid! If you have any questions or run "
+"into any trouble, please visit us the following links. We will get you fixed "
+"up!"
+msgstr ""
+
+#: inc/admin/options/getting-started.php:17
+msgid "Documentation"
+msgstr ""
+
+#: inc/admin/options/getting-started.php:21
+msgid "Contact Us"
+msgstr ""
+
+#: inc/admin/options/header-options.php:14
+msgid "Header Options"
+msgstr ""
+
+#: inc/admin/options/header-options.php:18
+msgid "Hide Header Content"
+msgstr ""
+
+#: inc/admin/options/post-options.php:13
+msgid "Post Options"
+msgstr ""
+
+#: inc/admin/options/post-options.php:17
+msgid "Hide HomePage Posts Heading"
+msgstr ""
+
+#: inc/admin/options/post-options.php:19 index.php:42
+msgid "Recent Posts"
+msgstr ""
+
+#: inc/admin/options/post-options.php:21
+msgid "HomePage Posts Heading"
+msgstr ""
+
+#: inc/admin/options/post-options.php:25
+msgid "Thumbnail Link"
+msgstr ""
+
+#: inc/admin/options/post-options.php:25
+msgid "Do you want single post thumbnail to be linked to their post?"
+msgstr ""
+
+#: inc/admin/options/post-options.php:25
+msgid "Yes"
+msgstr ""
+
+#: inc/admin/options/post-options.php:25
+msgid "No"
+msgstr ""
+
+#: inc/admin/options/post-options.php:29
+msgid "Auto Post Summary Length"
+msgstr ""
+
+#: inc/admin/options/post-options.php:29
+msgid ""
+"Enter the number of words need to display in the post summary. Default is 20 "
+"words."
+msgstr ""
+
+#: inc/admin/options/post-options.php:31 inc/functions/other.php:20
+msgid "Continue Reading"
+msgstr ""
+
+#: inc/admin/options/post-options.php:33
+msgid "Read More Text"
+msgstr ""
+
+#: inc/admin/options/post-options.php:37
+msgid "Hide Posted Date"
+msgstr ""
+
+#: inc/admin/options/post-options.php:41
+msgid "Hide Post Author"
+msgstr ""
+
+#: inc/admin/options/post-options.php:45
+msgid "Hide Post Categories"
+msgstr ""
+
+#: inc/admin/options/post-options.php:49
+msgid "Hide Post Tags"
+msgstr ""
+
+#: inc/admin/options/post-options.php:53
+msgid "Hide Comment Link"
+msgstr ""
+
+#: inc/admin/options/post-options.php:57
+msgid "Hide Post Edit Link"
+msgstr ""
+
+#: inc/admin/options/post-options.php:61
+msgid "Hide Thumbnails from Every Page"
+msgstr ""
+
+#: inc/admin/options/post-options.php:65
+msgid "Hide Thumbnails from Posts/Pages"
+msgstr ""
+
+#: inc/admin/options/post-options.php:69
+msgid "Show Post Snippet"
+msgstr ""
+
+#: inc/admin/options/post-options.php:73
+msgid "Hide Read More Button"
+msgstr ""
+
+#: inc/admin/options/post-options.php:77
+msgid "Hide Author Bio Box"
+msgstr ""
+
+#: inc/admin/options/recommended-plugins.php:14
+#: inc/admin/options/recommended-plugins.php:18
+msgid "Recommended Plugins"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:13
+msgid "Social Links"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:17
+msgid "Hide Header Social Buttons"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:21
+msgid "Show Footer Social Buttons"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:25
+msgid "Twitter URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:29
+msgid "Facebook URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:33
+msgid "Google Plus URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:37
+msgid "Pinterest URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:41
+msgid "Linkedin Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:45
+msgid "Instagram Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:49
+msgid "VK Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:53
+msgid "Flickr Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:57
+msgid "Youtube URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:61
+msgid "Vimeo URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:65
+msgid "Soundcloud URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:69
+msgid "Lastfm URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:73
+msgid "Github URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:77
+msgid "Bitbucket URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:81
+msgid "Tumblr URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:85
+msgid "Digg URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:89
+msgid "Delicious URL"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:93
+msgid "Stumbleupon Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:97
+msgid "Reddit Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:101
+msgid "Dribbble Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:105
+msgid "Behance Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:109
+msgid "Codepen Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:113
+msgid "JSFiddle Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:117
+msgid "Stack Overflow Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:121
+msgid "Stack Exchange Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:125
+msgid "BuySellAds Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:129
+msgid "SlideShare Link"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:133
+msgid "Skype Username"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:137
+msgid "Email Address"
+msgstr ""
+
+#: inc/admin/options/social-profiles.php:141
+msgid "RSS Feed URL"
+msgstr ""
+
+#: inc/admin/options/upgrade-to-pro.php:13
+msgid "Upgrade to Pro Version"
+msgstr ""
+
+#: inc/admin/options/upgrade-to-pro.php:18
+msgid "Clean Grid Pro"
+msgstr ""
+
+#: inc/admin/options/upgrade-to-pro.php:21
+msgid "Do you enjoy Clean Grid? Upgrade to Clean Grid Pro now and get:"
+msgstr ""
+
+#: inc/admin/options/upgrade-to-pro.php:23
+msgid "Color Options"
+msgstr ""
+
+#: inc/admin/options/upgrade-to-pro.php:24
+msgid "Font Options"
+msgstr ""
+
+#: inc/admin/options/upgrade-to-pro.php:25
+msgid "Layout Options"
+msgstr ""
+
+#: inc/admin/options/upgrade-to-pro.php:26
+msgid "News Ticker"
+msgstr ""
+
+#: inc/admin/options/upgrade-to-pro.php:27
+msgid "Custom Page Templates"
+msgstr ""
+
+#: inc/admin/options/upgrade-to-pro.php:28
+msgid "Custom Post Templates"
+msgstr ""
+
+#: inc/admin/options/upgrade-to-pro.php:29
+msgid "Posts Grid-Layout Styles (2/3/4 Columns)"
+msgstr ""
+
+#: inc/admin/options/upgrade-to-pro.php:30
+msgid "Posts Grid-Thumbnails Styles (Horizontal/Square/Vertical/Auto Height)"
+msgstr ""
+
+#: inc/admin/options/upgrade-to-pro.php:31
+msgid ""
+"Featured Posts Widgets with Layout Styles (2/3/4 Columns) and Thumbnail "
+"Styles (Horizontal/Square/Vertical/Auto Height) : These widgets displays "
+"recent/popular/random posts or posts from a given category or tag."
+msgstr ""
+
+#: inc/admin/options/upgrade-to-pro.php:32
+msgid "Tabbed Widget"
+msgstr ""
+
+#: inc/admin/options/upgrade-to-pro.php:33
+msgid "Social Profiles Widget and About Me Widget"
+msgstr ""
+
+#: inc/admin/options/upgrade-to-pro.php:34
+msgid "2 Header Layouts (full-width header or header+728x90 ad)"
+msgstr ""
+
+#: inc/admin/options/upgrade-to-pro.php:35
+msgid "Post Summaries/Posts Share Buttons"
+msgstr ""
+
+#: inc/admin/options/upgrade-to-pro.php:36
+msgid "Related Posts with Thumbnails"
+msgstr ""
+
+#: inc/admin/options/upgrade-to-pro.php:37
+msgid "Author Bio Box with Social Buttons"
+msgstr ""
+
+#: inc/admin/options/upgrade-to-pro.php:38
+msgid "Sticky Menu/Sticky Sidebars with enable/disable capability"
+msgstr ""
+
+#: inc/admin/options/upgrade-to-pro.php:39
+msgid "WooCommerce Support"
+msgstr ""
+
+#: inc/admin/options/upgrade-to-pro.php:40
+msgid "Built-in Contact Form"
+msgstr ""
+
+#: inc/admin/options/upgrade-to-pro.php:41
+msgid "Search Engine Optimized"
+msgstr ""
+
+#: inc/admin/options/upgrade-to-pro.php:42
+msgid "More Customizer options"
+msgstr ""
+
+#: inc/admin/options/upgrade-to-pro.php:43
+msgid "More Features..."
+msgstr ""
+
+#: inc/admin/options/upgrade-to-pro.php:45
+msgid "Upgrade To Clean Grid PRO"
+msgstr ""
+
+#: inc/functions/author-bio-box.php:21
+msgid "Author: "
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/functions/postmeta.php:18
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/functions/postmeta.php:21
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space
+#: inc/functions/postmeta.php:32
+msgid "&nbsp;"
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/functions/postmeta.php:35 inc/functions/postmeta.php:64
+#, php-format
+msgid "<span class=\"screen-reader-text\">Posted in </span>%1$s"
+msgstr ""
+
+#: inc/functions/postmeta.php:49 inc/functions/postmeta.php:78
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/functions/postmeta.php:49 inc/functions/postmeta.php:78
+msgid "1 Comment"
+msgstr ""
+
+#: inc/functions/postmeta.php:49 inc/functions/postmeta.php:78
+msgid "% Comments"
+msgstr ""
+
+#. translators: used between list items, there is a space
+#: inc/functions/postmeta.php:61
+msgid ", "
+msgstr ""
+
+#: inc/functions/postmeta.php:80 template-parts/content-page.php:45
+msgid "Edit"
+msgstr ""
+
+#: inc/functions/posts-navigation.php:26
+msgid "&larr; Older posts"
+msgstr ""
+
+#: inc/functions/posts-navigation.php:26
+msgid "Newer posts &rarr;"
+msgstr ""
+
+#: inc/functions/widgets-init.php:17
+msgid "Header Banner"
+msgstr ""
+
+#: inc/functions/widgets-init.php:18
+msgid "This sidebar is located on the header of the web page."
+msgstr ""
+
+#: inc/functions/widgets-init.php:26
+msgid "Main Sidebar"
+msgstr ""
+
+#: inc/functions/widgets-init.php:27
+msgid "This sidebar is located on the right-hand side of web page."
+msgstr ""
+
+#: inc/functions/widgets-init.php:35
+msgid "Top Full Width Widgets (Home Page Only)"
+msgstr ""
+
+#: inc/functions/widgets-init.php:36
+msgid "This full-width widget area is located at the top of homepage."
+msgstr ""
+
+#: inc/functions/widgets-init.php:44
+msgid "Top Full Width Widgets (Every Page)"
+msgstr ""
+
+#: inc/functions/widgets-init.php:45
+msgid "This full-width widget area is located at the top of every page."
+msgstr ""
+
+#: inc/functions/widgets-init.php:53
+msgid "Top Widgets (Home Page Only)"
+msgstr ""
+
+#: inc/functions/widgets-init.php:54
+msgid "This widget area is located at the top of homepage."
+msgstr ""
+
+#: inc/functions/widgets-init.php:62
+msgid "Top Widgets (Every Page)"
+msgstr ""
+
+#: inc/functions/widgets-init.php:63
+msgid "This widget area is located at the top of every page."
+msgstr ""
+
+#: inc/functions/widgets-init.php:71
+msgid "Bottom Widgets (Home Page Only)"
+msgstr ""
+
+#: inc/functions/widgets-init.php:72
+msgid "This widget area is located at the bottom of homepage."
+msgstr ""
+
+#: inc/functions/widgets-init.php:80
+msgid "Bottom Widgets (Every Page)"
+msgstr ""
+
+#: inc/functions/widgets-init.php:81
+msgid "This widget area is located at the bottom of every page."
+msgstr ""
+
+#: inc/functions/widgets-init.php:89
+msgid "Footer 1"
+msgstr ""
+
+#: inc/functions/widgets-init.php:90
+msgid "This sidebar is located on the left bottom of web page."
+msgstr ""
+
+#: inc/functions/widgets-init.php:98
+msgid "Footer 2"
+msgstr ""
+
+#: inc/functions/widgets-init.php:99 inc/functions/widgets-init.php:108
+msgid "This sidebar is located on the middle bottom of web page."
+msgstr ""
+
+#: inc/functions/widgets-init.php:107
+msgid "Footer 3"
+msgstr ""
+
+#: inc/functions/widgets-init.php:116
+msgid "Footer 4"
+msgstr ""
+
+#: inc/functions/widgets-init.php:117
+msgid "This sidebar is located on the right bottom of web page."
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:33
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:14
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:15
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:17
+msgctxt "submit button"
+msgid "Search"
+msgstr ""
+
+#: single.php:34 template-full-width-post.php:35
+msgid "&larr; %title"
+msgstr ""
+
+#: single.php:34 template-full-width-post.php:35
+msgid "%title &rarr;"
+msgstr ""
+
+#. translators: %s: post title.
+#: template-parts/content-grid.php:19 template-parts/content-single.php:32
+#: template-parts/content-singlefull.php:32
+#, php-format
+msgid "Permanent Link to %s"
+msgstr ""
+
+#: template-parts/content-none.php:16
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:26
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:39
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:45
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content-page.php:25 template-parts/content-single.php:41
+#: template-parts/content-singlefull.php:41
+#, php-format
+msgid ""
+"Continue reading<span class=\"screen-reader-text\"> \"%s\"</span> <span "
+"class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: template-parts/content-page.php:36 template-parts/content-single.php:52
+#: template-parts/content-singlefull.php:52
+msgid "Pages:"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Clean Grid"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://themesdna.com/clean-grid-wordpress-theme/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Clean Grid is clean, minimalistic and fully responsive WordPress theme with "
+"three-column grid-layout for posts. Its theme options help to customize "
+"theme easily and has clean post summaries, full-width custom post/page "
+"templates, sticky menu and sticky sidebar, 728x90 header widget area, right "
+"sidebar, 4 columns footer, social buttons, scroll-to-top button and more. "
+"With Clean Grid PRO version you can get color and font options, 2/3/4 "
+"columns grid-layouts for posts, horizontal/square/vertical/auto-height "
+"thumbnail styles for post grids, featured posts widgets with grid-layout "
+"options and thumbnail style options, news ticker, social widget, about me "
+"widget, tabbed widget and more widgets, layout options, more custom page/"
+"post templates, header layouts, share buttons for post summaries and posts, "
+"built-in contact form, related posts with thumbnails and more features. Free "
+"version demo: https://themesdna.com/demo/clean-grid/"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "ThemesDNA"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themesdna.com/"
+msgstr ""

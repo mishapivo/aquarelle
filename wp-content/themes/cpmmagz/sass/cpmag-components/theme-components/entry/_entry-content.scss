@@ -1,0 +1,35 @@
+
+.entry-content {
+	ul{
+		padding: 0 0 0 2.5rem;
+    	margin: 1rem 0;
+		li{
+			list-style-type: square;
+		}
+	}
+	ol{
+		padding: 0 0 0 2.5rem;
+    	margin: 1rem 0;
+	}
+	h1, h2, h3, h4, h5, h6,
+	.h1, .h2, .h3, .h4, .h5, .h6{
+		line-height: 130%;
+	}
+	figure.wp-caption{
+		margin: 0 1rem 1rem;
+	}
+	.sharedaddy{
+		margin: 2rem auto 0;
+	}
+	.post-password-form{
+		input[type='submit']{
+			margin-top: 1.5rem;
+		}
+	}
+}
+.entry-content > *:first-child{
+	margin-top: 0!important;
+}
+.entry-content > *:last-child{
+	margin-bottom: 0!important;
+}

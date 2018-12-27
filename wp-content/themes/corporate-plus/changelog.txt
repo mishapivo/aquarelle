@@ -1,0 +1,61 @@
+== Change log ==
+
+= 1.3.3 - Mar 31 2018 =
+* Fixed : Bxslider bugs https://github.com/stevenwanderski/bxslider-4/issues/1188
+
+= 1.3.2 - Jan 06 2018=
+* Added : New Upgrade to Pro class
+* Added : New Breadcrumb library
+* Added : Read More Text on blog archive
+* Added : Image size on blog archive
+* Fixed : Default Slider
+* Update: Customizer Background Image Section edited
+* Update: Customizer Background Image Section edited
+* Update: Missing escaping in comment form and dynamic css
+* Update : Admin script enqueue
+* Update : Font Awesome, bootstrap, animate
+* Update : Animation removed from sidebar, sidebar-left,WooCommerce template, template parts except content.php and page/post title
+
+= 1.3.1 - May 15 2017 =
+* Update: Breadcrumb on WooCommece Page
+
+= 1.3.0 - May 03 2017 =
+* Add: Slider option : Text or Image
+* Add: Unlimited Slider Number
+* Add: Display Image Only
+* Add: Feature Slider Image Display Options
+* Add: Footer Widgets
+* Add: Menu Sticky Options
+* Add: WooCommerce Options on header
+* Add: WooCommerce Support
+* Added : Front Page, Archive and Single Page/Post Advanced Sidebar
+* Added : Front Page Content Options
+* Added : Theme Menu Page
+* Update : Customizer experience
+* Update : bxslider library
+
+= 1.2.1 - May 29 2016 =
+* Add: Google plus social icon
+* Check: Compatibility with WP 4.5.2
+
+= 1.2.0 - Apr 24 2016 =
+* Add: Support Custom Logo in WP >= 4.5
+* Check: Compatibility with WP 4.5
+* Fixed: Minor bug fixes
+* Update: Minimum required WP 4.3
+
+= 1.2.0 - Apr 21 2016 =
+* Fixed : Scroll
+
+= 1.0.6 - Apr 11 2016 =
+* Slider Text Fixed
+* Custom CSS Fixed
+
+= 1.0.5 - Apr 10 2016 =
+* Fixed: Front Page Feature Section
+
+= 1.0.4 - Mar 25 2016 =
+* Live in WordPress.org
+
+= 0.0.1 - Nov 11 2015 =
+* Submitted to WordPress.org
