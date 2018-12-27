@@ -1,0 +1,187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Foodies v10.0.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-04-02 18:03+0300\n"
+"Last-Translator: Игорь <dybabiz@ya.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.12\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ foodies
+#: 404.php:19
+msgid "Oops! That page can't be found."
+msgstr "Увы, запрашиваемая страница недоступна."
+
+# @ foodies
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Ничего не было найдено. Может попробовать одну из следующих ссылок или новый поиск?"
+
+# @ foodies
+#: comments.php:15
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Один комментарий для &ldquo;%s&rdquo;"
+
+# @ foodies
+#: comments.php:19
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s комментариев для &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментариев для &ldquo;%2$s&rdquo;"
+
+# @ foodies
+#: comments.php:33 comments.php:52
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+# @ foodies
+#: comments.php:36 comments.php:55
+msgid "Older Comments"
+msgstr "Старые комментарии"
+
+# @ foodies
+#: comments.php:37 comments.php:56
+msgid "Newer Comments"
+msgstr "Новые комментарии"
+
+# @ foodies
+#: comments.php:66
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто"
+
+# @ foodies
+#: content.php:25
+msgid "Back"
+msgstr "Назад"
+
+# @ foodies
+#: content.php:26
+msgid "Onward"
+msgstr "Вперед"
+
+# @ foodies
+#: functions/customization.php:19
+msgid "Theme Color"
+msgstr "Цвет темы"
+
+# @ foodies
+#: functions/customization.php:26
+msgid "Blog Settings"
+msgstr "Настройка блога"
+
+# @ foodies
+#: functions/customization.php:42 functions/customization.php:76
+#: functions/customization.php:102
+msgid "Set Category Color"
+msgstr "Цвет категории"
+
+# @ foodies
+#: functions/customization.php:48
+msgid "Category 1"
+msgstr ""
+
+# @ foodies
+#: functions/customization.php:63
+msgid "Category 2"
+msgstr ""
+
+# @ foodies
+#: functions/customization.php:89
+msgid "Category 3"
+msgstr ""
+
+# @ foodies
+#: functions.php:20
+msgid "Top Header Menu"
+msgstr "Верхнее меню"
+
+# @ foodies
+#: functions.php:21
+msgid "Footer Menu"
+msgstr "Меню в подвале"
+
+# @ foodies
+#: functions.php:61
+msgid "Sidebar"
+msgstr ""
+
+# @ foodies
+#: functions.php:63
+msgid "Add widgets here."
+msgstr "Добавьте свои виджеты."
+
+# @ foodies
+#: functions.php:78
+msgctxt "Lato font: on or off"
+msgid "on"
+msgstr ""
+
+# @ foodies
+#: functions.php:99
+msgid "By : "
+msgstr ""
+
+# @ foodies
+#: functions.php:101
+msgid "Category : "
+msgstr "Категория :"
+
+# @ foodies
+#: functions.php:102
+msgid "Tags : "
+msgstr "Теги :"
+
+# @ foodies
+#: functions.php:104
+msgid "Comment : 0"
+msgstr "Комментариев : 0"
+
+# @ foodies
+#: functions.php:104
+msgid "Comment : 1"
+msgstr "Комментариев : 1"
+
+# @ foodies
+#: functions.php:104
+msgid "Comments : %"
+msgstr "Комментариев : %"
+
+# @ foodies
+#: page.php:17 single.php:19
+msgid "Pages:"
+msgstr "Страницы:"
+
+# @ foodies
+#: page.php:21 page.php:28 single.php:23 single.php:30
+msgid "Page"
+msgstr "Страница "
+
+# @ foodies
+#: page.php:26 single.php:28
+msgid "Previous page"
+msgstr "Предыдущая страница"
+
+# @ foodies
+#: page.php:27 single.php:29
+msgid "Next page"
+msgstr "Следущая страница"
+
+# @ foodies
+#: search.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords"
+msgstr "К сожалению, ничего не найдено. Пожалуйста, попытайтесь снова с другими ключевыми словами."

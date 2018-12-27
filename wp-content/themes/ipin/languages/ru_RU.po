@@ -1,0 +1,197 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: iPin\n"
+"POT-Creation-Date: 2013-07-21 09:35+0800\n"
+"PO-Revision-Date: 2013-08-22 17:17+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:10
+msgid "404 Error: Page Not Found"
+msgstr "Ошибка 404. Не найдено"
+
+#: 404.php:14
+msgid "Apologies, but the page you requested could not be found."
+msgstr "К сожалению, по вашему запросу ничего не найдено."
+
+#: 404.php:15 index.php:93
+msgid "Perhaps searching will help."
+msgstr "Возможно поиск поможет."
+
+#: comments.php:15
+msgid "&laquo; Older Comments"
+msgstr "&laquo; Предыдущие комментарии"
+
+#: comments.php:16
+msgid "Newer Comments &raquo;"
+msgstr "Новые комментарии &raquo;"
+
+#: comments.php:25
+msgid "Leave a Comment"
+msgstr "Оставить комментарий"
+
+#: comments.php:26
+msgid "Submit Comment"
+msgstr "Отправить комментарий"
+
+#: comments.php:29 index.php:10
+msgid "Comment"
+msgstr "Комментировать"
+
+#: functions.php:14
+msgid "Top Navigation"
+msgstr "Верхнее меню"
+
+#: functions.php:75
+msgid "All items loaded"
+msgstr "Все загружены"
+
+#: functions.php:245
+#, php-format
+msgid "%s min ago"
+msgstr "%s мин назад"
+
+#: functions.php:247
+#, php-format
+msgid "%s mins ago"
+msgstr "%s минут назад"
+
+#: functions.php:256
+#, php-format
+msgid "%s hour ago"
+msgstr "%s час назад"
+
+#: functions.php:258
+#, php-format
+msgid "%s hours ago"
+msgstr "%s часов назад"
+
+#: functions.php:267
+#, php-format
+msgid "%s day ago"
+msgstr "%s день назад"
+
+#: functions.php:269
+#, php-format
+msgid "%s days ago"
+msgstr "%s дней назад"
+
+#: functions.php:288
+msgid "Reply"
+msgstr "Ответить"
+
+#: functions.php:294
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает проверки."
+
+#: functions.php:306
+msgid "Name (Required)"
+msgstr "Имя (обязательно)"
+
+#: functions.php:307
+msgid "Email (Required)"
+msgstr "E-mail (обязательно)"
+
+#: functions.php:308
+msgid "Website"
+msgstr "Сайт"
+
+#: header.php:68 searchform.php:3
+msgid "Search"
+msgstr "Поиск"
+
+#: header.php:71
+msgid "Subscribe to our RSS Feed"
+msgstr "Подписка на RSS"
+
+#: header.php:74
+msgid "Follow us on Twitter"
+msgstr "Мы на Twitter"
+
+#: header.php:78
+msgid "Find us on Facebook"
+msgstr "Мы на Facebook"
+
+#: header.php:91
+msgid "Search results for"
+msgstr "Результаты поиска"
+
+#: header.php:105
+msgid "Tag:"
+msgstr "Метка:"
+
+#: index.php:11
+msgid "View"
+msgstr "Просмотр"
+
+#: index.php:40
+msgid "onto"
+msgstr " / Рубрика:"
+
+#: index.php:73
+msgid "View all"
+msgstr "Все"
+
+#: index.php:73
+msgid "comments"
+msgstr "комментарии"
+
+#: index.php:89
+msgid "No Items Found"
+msgstr "Ничего не найдено"
+
+#: index.php:106
+msgid "&laquo; Previous"
+msgstr "&laquo; Назад"
+
+#: index.php:107
+msgid "Next &raquo;"
+msgstr "Вперед &raquo;"
+
+#: index.php:111 page.php:43 page_full_width.php:42 page_left_sidebar.php:44
+#: single.php:61
+msgid "Top"
+msgstr "Наверх"
+
+#: page.php:17 page_full_width.php:22 page_left_sidebar.php:22 single.php:22
+msgid "Pages:"
+msgstr "Страницы:"
+
+#: page.php:18 page_full_width.php:23 page_left_sidebar.php:23
+msgid "Edit Page"
+msgstr "Редактировать"
+
+#: sidebar-left.php:3 single.php:28
+msgid "Categories"
+msgstr "Рубрики"
+
+#: sidebar-right.php:3
+msgid "Archives"
+msgstr "Архивы"
+
+#: single.php:15
+msgid "0 Comments"
+msgstr "Ваш комментарий"
+
+#: single.php:15
+msgid "1 Comment"
+msgstr "1 комментарий"
+
+#: single.php:15
+msgid "% Comments"
+msgstr "Комментариев: %"
+
+#: single.php:15
+msgid "Edit"
+msgstr "Править"
+
+#: single.php:29
+msgid "Tags: "
+msgstr "Метки:"

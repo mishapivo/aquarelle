@@ -1,0 +1,386 @@
+# Copyright (C) 2015 Pro Theme Design
+# This file is distributed under the GNU General Public License v2.0 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Kent 1.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/theme/kent\n"
+"POT-Creation-Date: 2015-02-25 03:27:20+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2015-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:11
+msgid "Error 404 - Not Found"
+msgstr ""
+
+#: 404.php:12
+msgid ""
+"Sorry, but the page you are looking for has not been found. Try checking the "
+"URL for errors, then hit the refresh button in your browser."
+msgstr ""
+
+#: 404.php:22
+msgid "Recent Posts"
+msgstr ""
+
+#: archive.php:23
+msgid "Author: %s"
+msgstr ""
+
+#: archive.php:27
+msgid "Day: %s"
+msgstr ""
+
+#: archive.php:31
+msgid "Month: %s"
+msgstr ""
+
+#: archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#: archive.php:35
+msgid "Year: %s"
+msgstr ""
+
+#: archive.php:35
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: archive.php:39
+msgid "Asides"
+msgstr ""
+
+#: archive.php:43
+msgid "Galleries"
+msgstr ""
+
+#: archive.php:47
+msgid "Images"
+msgstr ""
+
+#: archive.php:50
+msgid "Videos"
+msgstr ""
+
+#: archive.php:54
+msgid "Quotes"
+msgstr ""
+
+#: archive.php:58
+msgid "Links"
+msgstr ""
+
+#: archive.php:62
+msgid "Statuses"
+msgstr ""
+
+#: archive.php:66
+msgid "Audios"
+msgstr ""
+
+#: archive.php:70
+msgid "Chats"
+msgstr ""
+
+#: archive.php:74
+msgid "Archives"
+msgstr ""
+
+#: author.php:11
+msgid "Author Archives"
+msgstr ""
+
+#: comments.php:18
+msgid "1 reply"
+msgid_plural "%1$s replies"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:20 inc/postmetadata.php:22
+msgid "Leave a comment"
+msgstr ""
+
+#: comments.php:36
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:39
+msgid "Newer Comments"
+msgstr ""
+
+#: content-contributors.php:29
+msgid "%d Article"
+msgid_plural "%d Articles"
+msgstr[0] ""
+msgstr[1] ""
+
+#: content-empty.php:10
+msgid "Nothing Found"
+msgstr ""
+
+#: content-empty.php:16
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: content-empty.php:20
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-empty.php:25
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-page.php:17 content-single.php:20
+msgid "Pages: "
+msgstr ""
+
+#: content-single.php:27
+msgid "Categories: "
+msgstr ""
+
+#: content-single.php:35
+msgid "Tagged as: "
+msgstr ""
+
+#: content-single.php:44 content-single.php:47
+msgid "<span class=\"more-link\">%link</span>"
+msgstr ""
+
+#: content.php:12
+msgid "Permalink for: %s"
+msgstr ""
+
+#: content.php:27
+msgid "Estimated reading time: %s"
+msgstr ""
+
+#: footer.php:3
+msgid "A Semantic Personal Publishing Platform"
+msgstr ""
+
+#: footer.php:3
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: footer.php:5
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+#: functions.php:91
+msgid "Page %s"
+msgstr ""
+
+#. Translators: If there are characters in your language that are not
+#. 		 * supported by Lora, translate this to 'off'. Do not translate into your
+#. 		 * own language.
+#. 		 *
+#. 		 * Technique borrowed from TwentyThirteen
+#: functions.php:120
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+#: functions.php:181
+msgid "Corn"
+msgstr ""
+
+#: functions.php:186
+msgid "Hills"
+msgstr ""
+
+#: functions.php:191
+msgid "Barcelona Traffic"
+msgstr ""
+
+#: functions.php:196
+msgid "Blurred Lines"
+msgstr ""
+
+#: functions.php:201
+msgid "Bright Lights Big City"
+msgstr ""
+
+#: functions.php:206
+msgid "Carmel"
+msgstr ""
+
+#: functions.php:211
+msgid "Ocean"
+msgstr ""
+
+#: functions.php:216
+msgid "Deep in the Forest"
+msgstr ""
+
+#: functions.php:221
+msgid "Dew"
+msgstr ""
+
+#: functions.php:226
+msgid "Jet Sky"
+msgstr ""
+
+#: functions.php:231
+msgid "Maldives"
+msgstr ""
+
+#: functions.php:236
+msgid "Mission Peak"
+msgstr ""
+
+#: functions.php:241
+msgid "Stars"
+msgstr ""
+
+#: functions.php:246
+msgid "Tuscany"
+msgstr ""
+
+#: functions.php:254
+msgid "Footer Widgets"
+msgstr ""
+
+#: functions.php:256
+msgid "Widgets that display at the bottom of your website."
+msgstr ""
+
+#: functions.php:270
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:312
+msgid "Read More"
+msgstr ""
+
+#: functions.php:349
+msgid "Continue reading &rarr;"
+msgstr ""
+
+#: functions.php:409
+msgid "Older &rsaquo;"
+msgstr ""
+
+#: functions.php:410
+msgid "&lsaquo; Newer"
+msgstr ""
+
+#: functions.php:451
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:453
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:485
+msgid "Theme"
+msgstr ""
+
+#: functions.php:486
+msgid "Options for the Kent theme."
+msgstr ""
+
+#: functions.php:498
+msgid "Username for avatar to show in sidebar"
+msgstr ""
+
+#: header.php:28
+msgid "&lsaquo; return"
+msgstr ""
+
+#: header.php:41
+msgid "Menu"
+msgstr ""
+
+#: header.php:42 header.php:60
+msgid "Home"
+msgstr ""
+
+#: image.php:15
+msgid ""
+"<p class=\"postmetadata\">Published <span class=\"entry-date\"><time class="
+"\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span> at <a href=\"%3$s"
+"\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s"
+"\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a></p>"
+msgstr ""
+
+#: image.php:36
+msgid "&lsaquo; Back"
+msgstr ""
+
+#: inc/postmetadata.php:10
+msgid ""
+"By <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title="
+"\"%6$s\" rel=\"author\">%7$s</a></span> on <a href=\"%1$s\" title=\"%2$s\" "
+"rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a>"
+msgstr ""
+
+#: inc/postmetadata.php:16
+msgid "View all posts by %s"
+msgstr ""
+
+#: inc/postmetadata.php:22
+msgid "1 Comment"
+msgstr ""
+
+#: inc/postmetadata.php:22
+msgid "% Comments"
+msgstr ""
+
+#: search.php:11
+msgid "Search results for &#8216;<em>%s</em>&#8217;"
+msgstr ""
+
+#: searchform.php:10
+msgctxt "search input placeholder text"
+msgid "Search..."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+#: wp-content/themes/premium/kent/style.css
+msgid "Kent"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+#: wp-content/themes/premium/kent/style.css
+msgid "https://wordpress.com/themes/kent/"
+msgstr ""
+
+#. Description of the plugin/theme
+#: wp-content/themes/premium/kent/style.css
+msgid ""
+"Kent is a clean WordPress theme designed for writers who want to focus on "
+"writing content. It's the perfect theme for people who want to tell stories. "
+"Kent includes custom header, social links, and footer widget options to "
+"allow you to lay out your site exactly as you wish."
+msgstr ""
+
+#. Author of the plugin/theme
+#: wp-content/themes/premium/kent/style.css
+msgid "Pro Theme Design"
+msgstr ""
+
+#. Author URI of the plugin/theme
+#: wp-content/themes/premium/kent/style.css
+msgid "http://theme.wordpress.com/themes/by/pro-theme-design/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+#: wp-content/themes/premium/kent/page-templates/contributors.php
+msgid "Contributor Page"
+msgstr ""

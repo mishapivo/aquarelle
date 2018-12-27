@@ -1,0 +1,903 @@
+/*==========================================================
+    Jalil theme Main Style
+============================================================*/
+
+/*========================================================== 
+=> CSS Indexing
+=> Default CSS
+=> Breadcrumb CSS
+=> Preloader CSS
+=> Header CSS & Mainmenu CSS
+=> Footer CSS
+=> Page CSS
+=> Comments CSS
+=> Responsive CSS
+============================================================*/
+/*========================================================== 
+    Default CSS 
+============================================================*/ 
+html,body {
+  height: 100%;
+  margin: 0;
+}
+body {
+    font-size: 15px;
+    line-height: 26px;
+    letter-spacing: 1px;
+    color:#252525;
+    background:#fff;
+    position:relative;
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    background-image: url(../img/bacground-img1.jpg);
+}
+h1,h2,h3,h4,h5,h6 {
+    text-transform: capitalize;
+    margin:0 0 10px;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+}
+p {
+    margin:0 0 5px;
+    color:#555;
+}
+a {
+    text-decoration: none;
+    transition: all 0.5s ease;
+    color: #E74C3C;
+}
+img{
+    max-width: 100%;
+    display:block;
+    height: auto;
+}
+a:hover,
+a:focus  {
+    color: #252525;
+    outline: none;
+    text-decoration: none;
+    background:none;
+    transition: all 0.5s ease;
+}
+ul,
+ul li {
+    margin: 0;
+    padding: 0;
+    list-style:none;
+} .nav li a:focus{
+    background:none;
+    outline:none;
+}
+.section {
+    padding:70px 0;
+}
+.no-margin{
+    margin:0;
+}
+#scrollUp {
+    bottom: 20px;
+    right: 20px;
+    background: #252525;
+    color: #fff;
+    font-size: 30px;
+    opacity: 0.5;
+    padding: 4px 10px;
+}
+#scrollUp:hover {
+    opacity:1;
+}
+/*========================================================== 
+    Breadcrumb CSS
+============================================================*/  
+#breadcrumbs {
+    text-align: center;
+    padding: 55px 0;
+    position:relative;
+    background-repeat:no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+#breadcrumbs:before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:#000;
+    opacity:0.8;
+}
+#breadcrumbs.padding-top{
+    padding-top: 130px;
+}
+.blog-padding-top{
+    padding-top: 130px;
+}
+#breadcrumbs h2{
+    color:#fff;
+    text-transform:uppercase;
+}
+#breadcrumbs span{
+    display: inline-block;
+    color:#eee;
+    font-size:18px;
+    text-transform:capitalize;
+}
+/*========================================================== 
+    Preloader CSS
+============================================================*/  
+.loader{
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background:rgba(37, 37, 37, 0.9);
+    opacity: 0.9;
+    z-index:4444;
+}
+.loader-inner{
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-40px;
+}
+.k-line {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background:#E74C3C;
+}
+.k-line11-1 {
+    animation: k-loadingP 2s infinite;
+}
+.k-line11-2 {
+    animation: k-loadingP 2s infinite;
+    animation-delay: .15s;
+}
+.k-line11-3 {
+    animation: k-loadingP 2s infinite;
+    animation-delay: .30s;
+}
+.k-line11-4 {
+    animation: k-loadingP 2s infinite;
+    animation-delay: .45s;
+}
+.k-line11-5 {
+    animation: k-loadingP 2s infinite;
+    animation-delay: .60s;
+}
+
+@keyframes k-loadingP {
+    0% {
+        transform:translateY(0)
+    }
+    35% {
+        transform:translateY(0);
+        opacity:.3
+    }
+    50% {
+        transform:translateY(-20px);
+        opacity:.8
+    }
+    70% {
+        transform:translateY(3px);
+        opacity:.8
+    }
+    85% {
+        transform:translateY(-3px)
+    }
+}
+/*========================================================== 
+    Header CSS & Mainmenu CSS
+============================================================*/ 
+.admin-bar .header-area.navbar-fixed-top{
+    padding-top: 32px;
+}
+.site-title{
+    padding-top:10px;
+}
+.site-title a{
+    color:#fff;
+    text-transform:uppercase;
+    font-size:35px;
+    font-weight:700;
+}
+.page-title.screen-reader-text {
+    display: none;
+}
+header.jalil-header-img {
+    position: relative;
+    padding-top: 0;
+}
+header.jalil-header-img .container {
+    position: absolute;
+    top: 0;
+    left:  0;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    right:  auto;
+    bottom: 0;
+    background: rgba(0,0,0,0.3);
+    padding-top: 110px;
+}
+.container.logo-bg-container{
+    background-color: #333;
+}
+.header-img img {
+    max-width: 100%;
+    height: 250px;
+}
+.logo-bg{
+    background: #E74C3C;
+}
+.navbar-logo{
+    position: relative;
+}
+.navbar-logo:before{
+    content:"";
+    position:absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100%;
+    background:#333333;
+}
+.logo-bg.navbar-logo-bg{
+    background: transparent;
+    padding-top: 30px;
+}
+.mainmenu{
+    float: right;
+}
+.mainmenu ul li{
+    float: left;
+    position: relative;
+    display: block;
+    margin-left: 5px;
+}
+.mainmenu li a {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 20px;
+    position: relative;
+    display: block;
+}
+.mainmenu li:last-child {
+    border: 0px;
+}
+.mainmenu li:hover a,
+.mainmenu li.active a {
+    color: #fff;
+    color: #252525;
+}
+.mainmenu ul li ul {
+    position: absolute;
+    left: 0;
+    z-index: 8;
+    width: 220px;
+    top: 150%;
+    opacity: 0;
+    background: #252525;
+    visibility: hidden;
+    border-top: 3px solid #E74C3C;
+}
+.mainmenu ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+.mainmenu ul li ul li {
+    border-right: none;
+}
+.mainmenu ul li ul.sub-menu li a {
+    padding: 8px 20px;
+    text-align: left;
+    border-radius: 0px;
+    background: transparent;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.mainmenu ul li ul.sub-menu li:hover a {
+    color: #252525;
+}
+.mainmenu li ul li:hover a {
+    color: #252525;
+}
+.mainmenu ul li ul li:last-child {
+    border-bottom: 0px solid;
+}
+.top-nav-collapse {
+    background: #ffffff;
+    box-shadow: 0 40px 100px rgba(0,0,0,.2);
+    transition: 0.5s;
+}
+.jalil-responsive-menu {
+    position: absolute;
+    right: 0;
+    top: -60px;
+    z-index: 9;
+    display: none;
+}
+.slicknav_menu .slicknav_menutxt {
+    display: none;
+}
+.slicknav_btn {
+    background: transparent;
+    padding: 18px;
+}
+.slicknav_menu {
+    padding: 0;
+    background: none;
+}
+.slicknav_menu .slicknav_icon-bar {
+    background-color: #fff;
+    box-shadow: 0 0 0;
+}
+.slicknav_nav {
+    background: #333;
+    width: 250px;
+    margin-right: 22px;
+    position: relative;
+    top: -2px;
+}
+.slicknav_nav a{
+    font-weight: 400;
+    font-size: 16px;
+    transition: 0.5s;
+}
+.slicknav_nav .slicknav_row:hover,
+.slicknav_nav a:hover {
+    background: #E74C3C;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 0;
+}
+.slicknav_nav li.active a{
+    background: #E74C3C;
+    color: #fff;
+}
+.slicknav_nav .slicknav_row:hover a {
+    color: #E74C3C;
+}
+.slicknav_nav .slicknav_row, 
+.slicknav_nav a {
+    margin: 0;
+}
+.slicknav_nav li {
+    padding: 0px;
+    text-align: left;
+    font-size: inherit;
+    line-height: inherit;
+    border: none;
+}
+.main-navigation .btn > a:hover {
+    background-color: #333;
+    color: #fff;
+    transition: 0.5s;
+}
+input.search-field.form-control.input-lg {
+    width: 500px;
+}
+/*========================================================== 
+    Footer CSS
+============================================================*/ 
+#footer {
+    background: #E74C3C;
+    padding: 10px 0;
+}
+#footer .copyright{
+    padding:5px 0;
+    float:left;
+}
+#footer .copyright p a{
+    color:#fff;
+    margin:0;
+}
+#footer .copyright span{
+    margin:0px 5px;
+}
+#footer .social {
+    float: right;
+    margin-top: 5px;
+}
+#footer .social li {
+    display: inline-block;
+    margin-right: 10px;
+    color:#fff;
+    font-weight:500;
+}
+#footer .social li:last-child{
+    margin-right:0;
+}
+#footer .social a {
+    display: block;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+    border-radius: 100%;
+}
+#footer .social li:hover a i{
+    opacity: 0;
+    -webkit-animation-name: hvr-icon-drop;
+    animation-name: hvr-icon-drop;
+    -webkit-animation-duration: 0.5s;
+    animation-duration: 0.5s;
+    -webkit-animation-delay: 0.3s;
+    animation-delay: 0.3s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+    animation-timing-function: cubic-bezier(0.52, 1.64, 0.37, 0.66);
+}
+/*========================================================== 
+   Page CSS
+============================================================*/  
+.page .map,
+.page #particles-js{
+    display:none;
+}
+article.sticky{
+    background-color: #f2f2f2;
+    display: block;
+}
+article.post,
+article.project {
+    margin-bottom: 30px;
+    border: 1px solid #ddd;
+    padding: 30px;
+}
+article.post:last-child{
+    margin-bottom: 0px;
+}
+article.post img,
+article.project img {
+    margin-bottom: 15px;
+}
+.entry-meta{
+    margin-bottom: 10px;
+}
+.entry-title {
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 26px;
+}
+.entry-meta i,
+.entry-footer i{
+    color: #cccccc;
+    margin-right: 5px;
+}
+.entry-title a,
+.entry-footer span a,
+.entry-meta a{
+    color: #999999;
+}
+.entry-title a:hover ,
+.entry-footer span a:hover,
+.entry-meta a:hover{
+    color: #E74C3C;
+}
+.entry-footer{
+    margin-top: 10px;
+}
+.entry-footer span,
+.entry-meta span{
+    margin-right: 15px;
+}
+p.comment-notes {
+    margin-bottom: 30px;
+}
+.nav-links{
+    overflow: hidden;
+}
+.nav-previous{
+    float: left;
+    width: 50%;
+    text-align: left;
+}
+.nav-next{
+    text-align: right;
+    width: 50%;
+    float: right;
+}
+.nav-links a{
+    display: inline-block;
+    color: #E74C3C;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.page-links{
+    margin-top: 10px;
+}
+.page-links a{
+    display: inline-block;
+    border: 1px solid #E74C3C;
+    color: #E74C3C;
+    padding: 0px 10px;
+    transition: 0.5s;
+    margin: 0px 5px;
+}
+.nav-links a:hover,
+.page-links a:hover{
+    color: #252525;
+    transition: 0.5s;
+    border-color: #252525;
+}
+article.post .button {
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+    margin-top: 5px;
+}
+article.post .button {
+    color: #999999;
+}
+article.post .button i{
+    margin-left:5px;
+}
+article.post .button:hover{
+    color:#E74C3C;
+}
+.search-results article.page .entry-summary {
+    display: none;
+}
+.entry-content h2{
+    margin-top: 15px;
+}
+.entry-content table {
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+.entry-content table th,
+.entry-content table td {
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+}
+.entry-content table th {
+    background-color: #f9f9f9;
+}
+.entry-content dd {
+    margin-bottom: 15px;
+}
+.entry-content ul,
+.entry-content ol {
+    padding-left: 15px;
+    margin: 0px;
+}
+.entry-content address {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+/*========================================================== 
+   Comments CSS
+============================================================*/
+.comments-area {
+    margin-top: 40px;
+}
+.comments-area h2.comments-title {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+.comment-content h2{
+    margin-top: 15px;
+}
+.comment-content p{
+    margin-bottom: 5px;
+}
+.comment-list {
+    margin: 0px;
+    padding: 0;
+    list-style: none;
+}
+.comment-meta {
+    margin-bottom: 20px;
+}
+.comment-meta a {
+    color: #333;
+}
+.bypostauthor {
+    display: block;
+}
+.comment-author.vcard {
+    position: relative;
+    padding-left: 50px;
+}
+.comment-author.vcard img {
+    position: absolute;
+    left: 0;
+    top: 7px;
+}
+.comment-metadata {
+    margin-left: 50px;
+}
+.comments-area table {
+    border-left: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
+}
+.comments-area table th,
+.comments-area table td {
+    border-top: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 10px;
+}
+.comments-area table th {
+    background-color: #f9f9f9;
+}
+.comments-area dd {
+    margin-bottom: 15px;
+}
+.comments-area .comment-content ul,
+.comments-area .comment-content ol {
+    padding-left: 15px;
+    margin: 0;
+}
+.comments-area address {
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+.comment-reply-link {
+    display: inline-block;
+    color: #E74C3C;
+    margin-top: 10px;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+.comment-reply-link:hover{
+    color: #252525;
+}
+.comment-list li.comment {
+    margin-bottom: 30px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+}
+.comment-list li.comment:last-child {
+    border-bottom: 0px solid #ddd;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.comment-metadata {
+    font-size: 80%;
+}
+.comment-list li.comment ol.children {
+    padding-left: 50px;
+    margin: 0;
+    list-style: none;
+    margin-top: 25px;
+}
+.comment-list li.comment ol.children ol.children {
+    padding-left: 20px;
+}
+.comment-respond {
+    margin-top: 50px;
+} 
+.comment-form label{
+    margin-bottom: 5px;
+}
+.comment-form input,
+.comment-form textarea{
+    margin-bottom: 15px
+}
+.comment-form textarea{
+    resize: vertical;
+}
+.comment-reply-title{
+    margin-top: 30px;
+}
+.comment-form input[type="text"],
+.comment-form input[type="email"],
+.comment-form input[type="url"]{
+    width: 100%;
+    height: 44px;
+    border: 1px solid #bbb;
+    padding-left: 10px;
+    transition: 0.5s;
+}
+.comment-form input[type="checkbox"]{
+    width: 2%;
+    border:1px solid #bbb;
+    margin-top: 0px;
+    margin-right: 5px;
+}
+.comment-form textarea{
+    width: 100%;
+    border:1px solid #bbb;
+    padding:10px;
+    transition: 0.5s;
+}
+.comment-form input[type="text"]:hover,
+.comment-form input[type="text"]:focus,
+.comment-form input[type="email"]:hover,
+.comment-form input[type="email"]:focus,
+.comment-form input[type="url"]:hover,
+.comment-form input[type="url"]:focus,
+.comment-form textarea:hover,
+.comment-form textarea:focus{
+    border: 1px solid #E74C3C;
+}
+.comment-form input[type="submit"]{
+    height: 44px;
+    width: 100%;
+    border: 0px solid;
+    color: #fff;
+    transition: 0.5s;
+    background: #E74C3C;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.comment-form input[type="submit"]:hover{
+    background:#252525;
+    color: #fff;
+    transition: 0.5s;
+}
+.post-password-form {
+    margin-top: 15px;
+}
+.post-password-form input[type="password"]{
+    border: 1px solid #ddd;
+    padding: 10px 25px;
+}
+.post-password-form input[type="submit"]{
+    border: 1px solid #ddd;
+    padding: 10px 25px;
+    background: #333;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.5s;
+    margin-left: -6px;
+}
+.post-password-form input[type="submit"]:hover{
+    background: #E74C3C;
+    border: 1px solid #E74C3C;
+    transition: 0.5s;
+}
+
+.page-content .search-form input[type="search"]{
+    width: 100%;
+    display: inline-block;
+}
+.page-content .search-form input[type="submit"] {
+    width: 15%;
+    display: inline-block;
+    margin-left: -6px;
+}
+.screen-reader-text {
+    visibility: hidden;
+}
+.search-form input[type="search"] {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px 25px;
+    margin: 10px 0px;
+    transition: 0.5s;
+}
+.search-form input[type="submit"] {
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px 25px;
+    background: #333;
+    color: #fff;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+.search-form input[type="search"]:hover,
+.search-form input[type="search"]:focus{
+    border: 1px solid #E74C3C;
+}
+.search-form input[type="submit"]:hover{
+    background: #E74C3C;
+    border: 1px solid #E74C3C;
+    transition: 0.5s;
+}
+/*========================================================== 
+    Responsive
+============================================================*/
+/*========================================================== 
+    Tablet Layout: 768px
+============================================================*/
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+body{
+    font-size:14px;
+}
+.site-title {
+    text-align: center;
+}
+.mainmenu ul li{
+    margin-right:3px;
+}
+.mainmenu li a{
+    padding:15px 12px;
+    font-size:13px;
+}
+.widget:first-child{
+	margin-top: 30px;
+}
+}
+/*========================================================== 
+   Wide Mobile Layout
+============================================================*/
+@media (min-width: 481px) and (max-width: 767px) {
+body{
+    font-size: 14px;
+}
+.admin-bar .header-area.navbar-fixed-top {
+    padding-top: 45px;
+}
+.mainmenu{
+    display: none;
+}
+.jalil-responsive-menu{
+    display: block;
+}
+.widget h2 {
+    margin-top: 30px;
+}
+#footer .copyright {
+    float: none;
+    text-align: center;
+}
+#footer .social {
+    text-align: center;
+    float: none;
+}
+article.post, article.project {
+    padding: 10px;
+}
+.widget:first-child{
+    margin-top: 30px;
+}
+.nav-previous {
+    float: none;
+    width: 100%;
+    text-align: center;
+    font-size: 12px;
+}
+.nav-next {
+    text-align: center;
+    width: 100%;
+    float: none;
+    font-size: 12px;
+}
+.comment-form{
+    margin-bottom: 30px;
+}
+}
+@media (min-width: 481px) and (max-width: 600px) {
+.admin-bar .header-area.navbar-fixed-top {
+    padding-top: 90px;
+}
+.mainmenu{
+    display: none;
+}
+.jalil-responsive-menu{
+    display: block;
+}
+}
+/*========================================================== 
+    Mobile Layout
+============================================================*/
+@media (min-width: 320px) and (max-width: 480px) {
+.admin-bar .header-area.navbar-fixed-top {
+    padding-top: 90px;
+}
+.mainmenu{
+    display: none;
+}
+.jalil-responsive-menu{
+    display: block;
+}
+}

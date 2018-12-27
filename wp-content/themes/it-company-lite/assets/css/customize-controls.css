@@ -1,0 +1,33 @@
+#customize-controls .control-section-it-company-lite .accordion-section-title:hover,
+#customize-controls .control-section-it-company-lite .accordion-section-title:focus {
+	background-color: #fff;
+}
+.control-section-it-company-lite .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 400;
+	margin-left: 8px;
+}
+.rtl .control-section-it-company-lite .accordion-section-title .button {
+	margin-left:  0;
+	margin-right: 8px;
+}
+/* ---------Customizer--------- */
+.control-section-it-company-lite h3.accordion-section-title {
+	background: #927ae9 !important;
+	color: #fff !important;
+	text-shadow: 1px 1px #344151;
+}
+a.button.button-secondary.alignright {
+    color: #fff;
+    box-shadow: none;
+    border: solid 1px #fff;
+    font-weight: bold;
+    padding: 1px 10px;
+    background: transparent;
+    height: 32px;
+    border-radius: 30px;
+}
+a.button.button-secondary.alignright:hover {
+	background: #344151;
+	color: #fff;
+}

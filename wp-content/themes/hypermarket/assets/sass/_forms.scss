@@ -1,0 +1,390 @@
+//
+// Forms - Hypermarket Theme
+// --------------------------------------------------
+
+.form-control {
+  display: block;
+  line-height: $line-height-base;
+  font-size: $input-font-size;
+  color: $input-color;
+  text-transform: none;
+  border: 2px solid $input-border-color;
+  border-radius: $input-border-radius;
+  background-color: $input-bg;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  @include size(100%, $input-height);
+  @include margin(null null $line-height-computed null);
+  @include padding(0 16px);
+  @include transition(all .3s);
+  &:focus {
+    border-color: $input-focus-border-color;
+    outline: none;
+  }
+
+	// Placeholder
+	@include placeholder();
+	&.placeholder {
+		color: $input-color-placeholder;
+	}
+}
+
+textarea.form-control {
+  height: auto !important;
+  padding: 13px 16px !important;
+}
+.form-group {
+  @include margin(null null $line-height-computed null);
+}
+.form-element {
+  @include position(relative, null null null null);
+  @include margin(null null $line-height-computed null);
+  > i {
+    display: block;
+    font-size: $input-icon-size;
+    @include position(absolute, 13px null null 0);
+  }
+}
+.form-group,
+.form-element {
+  .form-control { @include margin(null null 0 null); }
+}
+label {
+  display: block;
+  color: $gray-dark;
+  font-size: $font-size-small;
+  font-weight: 500;
+  @include margin(null null 8px null);
+}
+select.form-control::-ms-expand {
+  display: none;
+}
+select option {
+	color: $input-color;
+}
+
+// Small Inputs
+.form-control-sm {
+  height: $input-height-sm;
+}
+
+// Forms Validation
+.form-element {
+  &:before {
+    display: block;
+    font-family: 'Material Icons';
+    font-size: $input-icon-size;
+    line-height: 1;
+    margin-top: -($input-icon-size / 2);
+    @include opacity(0);
+    @include transition(opacity .3s);
+    @include position(absolute, 50% 14px null null);
+  }
+  &.error {
+    .form-control {
+      border-color: $brand-danger;
+      padding-right: $input-icon-size + 20;
+    }
+    &:before {
+      content:"\e5c9";
+      color: $brand-danger;
+      @include opacity(1);
+    }
+    &:focus { border-color: $brand-danger; }
+  }
+  &.valid {
+    .form-control {
+      border-color: $brand-success;
+      padding-right: $input-icon-size + 20;
+    }
+    &:before {
+      content:"\e5ca";
+      color: $brand-success;
+      @include opacity(1);
+    }
+    &:focus { border-color: $brand-success; }
+  }
+  &.form-select:before {
+    content: "\e5c5";
+    z-index: 10;
+    font-size: $input-icon-size + 2;
+    margin-top: -($input-icon-size / 2) - 1;
+    color: $text-color;
+    pointer-events: none;
+    @include opacity(1);
+  }
+}
+.status-message {
+  width: 100%;
+  text-align: center;
+  font-size: $font-size-base;
+  line-height: 1.8;
+  background-color: #fff;
+  visibility: hidden;
+  border: 1px solid transparent;
+  border-radius: $border-radius-base;
+  @include opacity(0);
+  @include padding(25px);
+  @include position(absolute, 0 null null 0);
+  @include transform(translateY(20px));
+  @include transition(all .4s);
+  &.error {
+    color: $brand-danger;
+    border-color: $brand-danger;
+  }
+  &.success {
+    color: $brand-success;
+    border-color: $brand-success;
+  }
+}
+.back-btn {
+  @extend .btn;
+  @extend .btn-sm;
+  line-height: ($btn-sm-height - 2) !important;
+  border: 1px solid $brand-danger !important;
+  background-color: transparent !important;
+  color: $brand-danger !important;
+  margin-top: 20px !important;
+  &:hover {
+    background-color: $brand-danger !important;
+    color: #fff !important;
+  }
+}
+.done-btn {
+  @extend .btn;
+  @extend .btn-sm;
+  line-height: ($btn-sm-height - 2) !important;
+  border: 1px solid $brand-success !important;
+  background-color: transparent !important;
+  color: $brand-success !important;
+  margin-top: 20px !important;
+  &:hover {
+    background-color: $brand-success !important;
+    color: #fff !important;
+  }
+}
+
+// Custom Checkboxes / Radios
+// --------------------------------------------------
+.form-control + .checkbox,
+.form-control + .checkbox-inline,
+.form-control + .radio,
+.form-control + .radio-inline {
+  @include margin(20px null null null);
+}
+.checkbox,
+.radio,
+.checkbox-inline,
+.radio-inline {
+  display: table;
+  width: auto;
+  font-size: $checkbox-radio-label-font-size;
+  color: $checkbox-radio-label-color;
+  text-transform: none;
+  font-weight: normal;
+  cursor: default;
+  @include position(relative, null null null null);
+  @include margin(null null 12px 2px);
+  @include user-select(none);
+  &.disabled {
+    color: $disabled-color;
+    cursor: not-allowed;
+  }
+}
+.text-light {
+  &.checkbox,
+  &.radio,
+  &.checkbox-inline,
+  &.radio-inline,
+  .checkbox,
+  .radio,
+  .checkbox-inline,
+  .radio-inline { color: #fff; }
+}
+label.hover {
+  cursor: pointer;
+}
+.checkbox-inline,
+.radio-inline {
+  display: inline-block;
+  @include margin(null 18px null null);
+}
+.text-right .checkbox-inline,
+.text-right .radio-inline {
+  @include margin(null 0 null 15px);
+}
+.text-center .checkbox-inline,
+.text-center .radio-inline {
+  @include margin(nill 10px);
+}
+
+// Checkbox/Radio replacement
+input[type="checkbox"], input[type="radio"] {
+  @include appearance(none);
+  @include position($input-icon-size/3 0 0 0);
+  @include transition(.2s);
+  background: $checkbox-radio-border-color;
+  color: $body-bg;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  z-index: 1000;
+  width: 20px !important;
+  height: 20px !important;
+  @include margin(null 0.5rem null null);
+  @include position(relative, null null null null);
+  &:hover {
+    background: darken($gray-light, 15%);
+  }
+  &:checked {
+    background: $link-color;
+    // checkmark
+    &::before {
+      @include position(absolute);
+      @extend .text-center;
+      content: '\2714';
+      display: inline-block;
+      font-size: $input-icon-size/1.5;
+      line-height: $input-icon-size;
+      @include square(20px);
+    }
+  }
+}
+input[type="radio"] {
+  border-radius: 50%; 
+  &::after {
+    border-radius: 50%;
+  }
+}
+
+
+// Count Input (Quantity)
+.count-input {
+  width: 100px !important;
+  margin: 10px 0;
+  @include position(relative, null null null null);
+  input {
+    border: 2px solid $hr-border;
+    border-radius: $border-radius-small;
+    background: none;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    width: 100% !important;
+    height: $btn-sm-height;
+    &::-webkit-inner-spin-button, 
+    &::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      @include margin(0);
+    }
+    &:focus { outline: none; }
+  }
+  .incr-btn {
+    display: block;
+    font-size: $font-size-lead;
+    color: $input-color;
+    font-weight: 300;
+    text-align: center;
+    line-height: $line-height-base;
+    text-decoration: none;
+    width: $btn-sm-height !important;
+    height: $btn-sm-height;
+    @include position(absolute, 0 0 null null);
+    &.minus {
+      border-right: none;
+      border-bottom-right-radius: 0;
+      border-top-right-radius: 0;
+    }
+    &.plus {
+      border-left: none;
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 0;
+    }
+    &:first-child {
+      right: auto;
+      left: 0;
+    }
+  }
+}
+
+// Login Form
+.login-form {
+  .form-footer {
+    display: table;
+    width: 100%;
+    .rememberme,
+    .form-submit {
+      display: table-cell;
+      vertical-align: middle;
+      .btn { @include margin(0 null null null); }
+    }
+    .rememberme { width: 60%; }
+    .form-submit { width: 40%; }
+  }
+}
+.woocommerce-checkout {
+  .login-form {
+    .form-footer {
+      .rememberme { 
+        width: 66.66666667%;
+        @include padding(null 15px null null);
+      }
+      .form-submit { 
+        width: 33.33333333%;
+        @include padding(null null null 15px);
+      }
+    }
+  }
+}
+
+// Checkout Form
+.checkout-form {
+  &.container {
+    width: 100% !important;
+    @include padding(0);
+  }
+}
+
+// Subscription Form
+.subscribe-form, .mc4wp-form, .mc4wp-form-fields {
+  display: block;
+  width: 100%;
+  @include position(relative, null null null null);
+  .form-control {
+    @include margin(null null 0 null);
+  }
+  .mc4wp-response {
+    font-size: 70%;
+    @include padding(24px null null null);
+  }
+}
+
+// Search Box
+.search-box {
+  width: 100%;
+  @include position(relative, null null null null);
+  .form-control {
+    @include padding(null ($search-icon-size + 18) null null);
+    @include margin(null null 0 null);
+  }
+  button[type=submit] {
+    display: block;
+    font-size: $search-icon-size;
+    line-height: 1;
+    border: none;
+    background-color: transparent;
+    margin-top: -(($search-icon-size / 2) + 1);
+    @include transition(color .3s);
+    @include padding(0);
+    @include position(absolute, 50% 12px null null);
+    &:focus { outline: none; }
+    &:hover { color: $gray; }
+  }
+}
+
+// Color Select
+.color-select { min-width: 100px; }

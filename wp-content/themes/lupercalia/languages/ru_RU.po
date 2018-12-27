@@ -1,0 +1,586 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lupercalia v10.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-01-11 17:11+0300\n"
+"Last-Translator: Игорь <dybabiz@ya.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ lupercalia
+#: 404.php:9 full-width-page.php:61 index.php:21
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+# @ lupercalia
+#: 404.php:10 full-width-page.php:62 index.php:22
+msgid "Nothing was found. You can try again using the search form below."
+msgstr "Ничего не найдено. Вы можете попробовать еще раз, используя форму поиска ниже."
+
+# @ lupercalia
+#: comments.php:5
+msgid "this post is password protected. Enter the password to view any comments."
+msgstr "Это сообщение защищено паролем. Введите пароль для просмотра комментариев."
+
+# @ lupercalia
+#: comments.php:28
+#, php-format
+msgid "Leave a comment to %1$s"
+msgstr "﻿Оставить комментарий %s"
+
+# @ lupercalia
+#: comments.php:36 comments.php:55
+msgid "Comment navigation"
+msgstr "Комментарий навигация"
+
+# @ lupercalia
+#: comments.php:37 comments.php:56
+msgid "&larr; Older Comments"
+msgstr "&larr; Прошлые комментарии"
+
+# @ lupercalia
+#: comments.php:38 comments.php:57
+msgid "Newer Comments &rarr;"
+msgstr "Новые комментарии &larr;"
+
+# @ lupercalia
+#: comments.php:73
+msgid "Comments are closed."
+msgstr "Комментарии выключены."
+
+# @ lupercalia
+#: footer.php:11
+msgid "All rights reserved"
+msgstr "Все права защищены"
+
+# @ lupercalia
+#: functions.php:51
+msgid "Navigation Menu"
+msgstr "Навигация меню"
+
+# @ lupercalia
+#: functions.php:111
+msgctxt "header image description"
+msgid "Header 1"
+msgstr ""
+
+# @ lupercalia
+#: functions.php:116
+msgctxt "header image description"
+msgid "Header 2"
+msgstr ""
+
+# @ lupercalia
+#: functions.php:121
+msgctxt "header image description"
+msgid "Header 3"
+msgstr ""
+
+# @ lupercalia
+#: functions.php:126
+msgctxt "header image description"
+msgid "Header 4"
+msgstr ""
+
+# @ lupercalia
+#: functions.php:131
+msgctxt "header image description"
+msgid "Header 5"
+msgstr ""
+
+# @ lupercalia
+#: functions.php:136
+msgctxt "header image description"
+msgid "Header 6"
+msgstr ""
+
+# @ lupercalia
+#: functions.php:215
+msgid "Home"
+msgstr "Главная"
+
+# @ lupercalia
+#: functions.php:217
+msgid "This sidebar is located on the home page of the site."
+msgstr "Выводит виджеты на главной с левой стороны"
+
+# @ lupercalia
+#: functions.php:225 inc/theme_options/theme_options.php:408
+msgid "Blog"
+msgstr "Блог"
+
+# @ lupercalia
+#: functions.php:227
+msgid "This sidebar is located on the blog single pages of the site."
+msgstr "Выводит виджеты в блоге с левой стороны"
+
+# @ lupercalia
+#: functions.php:235
+msgid "Pages"
+msgstr "Страницы"
+
+# @ lupercalia
+#: functions.php:237
+msgid "This sidebar is located on the single pages of the site."
+msgstr "Выводит виджеты на страницах с левой стороны"
+
+# @ lupercalia
+#: functions.php:245 inc/theme_options/theme_options.php:189
+msgid "Front Page"
+msgstr "Настройки главной"
+
+# @ lupercalia
+#: functions.php:247
+msgid "This section is located below the slider on the front page."
+msgstr ""
+
+# @ lupercalia
+#: functions.php:255
+msgid "Pre-Footer"
+msgstr ""
+
+# @ lupercalia
+#: functions.php:257
+msgid "This section is located before the footer."
+msgstr ""
+
+# @ lupercalia
+#: functions.php:265
+msgid "Archive"
+msgstr "Архив"
+
+# @ lupercalia
+#: functions.php:267
+msgid "This sidebar is located on archive pages (tags, categories, etc)."
+msgstr ""
+
+# @ lupercalia
+#: functions.php:312
+msgid "Category: "
+msgstr "Категория: "
+
+# @ lupercalia
+#: functions.php:339
+msgid "Tag: "
+msgstr "Метки: "
+
+# @ lupercalia
+#: functions.php:345 functions.php:351 functions.php:357
+msgid "Archive: "
+msgstr "Архив: "
+
+# @ lupercalia
+#: functions.php:363
+msgid "Author: "
+msgstr "Автор: "
+
+# @ lupercalia
+#: functions.php:369
+msgid "Site archives"
+msgstr ""
+
+# @ lupercalia
+#: functions.php:374
+msgid "Search result(s) for: "
+msgstr "Результаты поиска для: %s"
+
+# @ lupercalia
+#: functions.php:380
+msgid "Error 404: "
+msgstr "Ошибка 404"
+
+# @ lupercalia
+#: functions.php:536
+msgid "You might also like: "
+msgstr "Похожее:"
+
+# @ lupercalia
+#: functions.php:696
+msgid "Last entries from blog"
+msgstr "Последние записи из блога"
+
+# @ lupercalia
+#. translators: 1: date, 2: time
+#: functions.php:862
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+# @ lupercalia
+#: functions.php:862
+msgid "(Edit)"
+msgstr "(Редактировать)"
+
+# @ lupercalia
+#: functions.php:871
+msgid "Your comment is awaiting moderation."
+msgstr "Спасибо! Ваш комментарий ожидает проверки."
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:107
+msgid "General"
+msgstr "Основные"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:110
+msgid "General Settings."
+msgstr "Основное настройки"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:111
+msgid "Logo"
+msgstr "Логотип"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:112
+msgid "Breadcrumb"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:113
+msgid "Color Scheme"
+msgstr "Цветовая схема"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:117
+msgid "Manage your general settings."
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:125
+msgid "Click on Upload Logo button to upload your logo"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:130
+msgid "Upload Logo"
+msgstr "Загрузите логотип"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:142
+#: inc/theme_options/theme_options.php:286
+msgid "Check to hide it."
+msgstr "Поставьте галочку чтобы выключить"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:192
+msgid "Front-Page Settings."
+msgstr "Настройки главной страницы"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:193
+msgid "Slider Section"
+msgstr "Размер слайда"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:194
+msgid "Last Entries Section"
+msgstr "Вывод записей из категорий"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:202
+msgid "Manage your front page settings."
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:219
+msgid " width (px) x height (%)"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:231
+msgid "Click on \"upload image\" button to choose your image"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:234
+msgid "Upload Image"
+msgstr "Загрузить Изображение"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:241
+msgid "Type a title to this image(optional)"
+msgstr "Введите название для картинки(не обязательно)"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:248
+msgid "Type a description to this image(optional)"
+msgstr "Ввыдите описание для картинки(не обязательно)"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:255
+msgid "Link to redirect the image(optional)"
+msgstr "Ввыдите ссылку(не обязательно)"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:271
+msgid "Add Slider Item"
+msgstr "Добавить слайд"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:290
+msgid "Enable/Disable \"Last Entries\" section from the front page."
+msgstr "Включение / выключение"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:302
+msgid "Give a title to the \"Last Entries\" section."
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:306
+#: inc/theme_options/theme_options.php:442
+msgid "All categories"
+msgstr "Все категории"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:310
+msgid "Pick which category to display on the \"Last Entries\" section."
+msgstr "Укажите нужную категорию"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:319
+#: inc/theme_options/theme_options.php:468
+msgid " Post offset"
+msgstr "Количество записей"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:323
+#: inc/theme_options/theme_options.php:472
+msgid "Choose the number of post(s) to be skipped."
+msgstr "Укажите сколько записей выводить."
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:331
+#: inc/theme_options/theme_options.php:480
+msgid "Ascending"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:333
+#: inc/theme_options/theme_options.php:482
+msgid "Random"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:338
+#: inc/theme_options/theme_options.php:487
+msgid "Choose how the post(s) should be displayed."
+msgstr "Тип отображения"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:411
+msgid "Blog Settings."
+msgstr "Настройки блог"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:412
+msgid "Blog Slider"
+msgstr "Блог слайдер"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:413
+msgid "Related Posts"
+msgstr "Похожие записи"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:422
+msgid "Manage your blog settings."
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:434
+#: inc/theme_options/theme_options.php:500
+msgid " Check to hide it."
+msgstr "Поставьте галочку чтобы скрыть"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:438
+msgid "Enable/Disable \"Blog Slider\" section from the blog page."
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:446
+msgid "Pick which category to display on the \"Blog Slider\" section."
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:455
+msgid " Number of Posts"
+msgstr " Количество записей"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:459
+msgid "Choose the number of post(s) to be displayed."
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:538
+msgid "Contact"
+msgstr "Контакты"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:541
+msgid "Contact Settings."
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:542
+msgid "Facebook URL"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:543
+msgid "Flickr URL"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:544
+msgid "Google+ URL"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:545
+msgid "Instagram URL"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:546
+msgid "Linkedin URL"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:547
+msgid "Pinterest URL"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:548
+msgid "Tumblr URL"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:549
+msgid "Twitter URL"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:550
+msgid "Vimeo URL"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:551
+msgid "YouTube URL"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:552
+msgid "Address"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:553
+msgid "Phone Number"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:554
+msgid "Email"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:562
+msgid "Manage your contact settings."
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:573
+msgid "www.facebook.com/user-or-page-name"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:586
+msgid "www.flickr.com/photos/username"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:599
+msgid "www.plus.google.com/user-number"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:612
+msgid "www.instagram.com/username"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:625
+msgid "www.linkedin.com/profile/view?id=id-number"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:638
+msgid "www.pinterest.com/username"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:651
+msgid "username.tumblr.com"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:664
+msgid "wwww.twitter.com/username"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:677
+msgid "www.vimeo.com/username"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:690
+msgid "www.youtube.com/user/username"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:703
+msgid "Av. Street. etc"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:716
+msgid "+00 0000 0000"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:729
+msgid "name@provider"
+msgstr ""
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:766
+msgid "Theme Options"
+msgstr "Опции темы"
+
+# @ lupercalia
+#: inc/theme_options/theme_options.php:782
+msgid "Help"
+msgstr ""
+
+# @ lupercalia
+#: searchform.php:2
+msgid "Search"
+msgstr "Поиск"

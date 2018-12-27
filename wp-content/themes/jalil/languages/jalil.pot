@@ -1,0 +1,186 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Jalil\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-08-20 17:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#. 1: list of categories.
+#. 1: list of tags.
+#: inc/template-tags.php:65 inc/template-tags.php:73
+#, php-format
+msgid " %1$s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:61
+msgid ", "
+msgstr ""
+
+#: 404.php:15
+msgid "404 Error Page"
+msgstr ""
+
+#: functions.php:121
+msgid "Add footer widgets here."
+msgstr ""
+
+#: functions.php:111
+msgid "Add widgets here."
+msgstr ""
+
+#: 404.php:27
+msgid "Back To Home"
+msgstr ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#. 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:41
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: footer.php:29
+msgid "Copyright 2018 jalil - All right reserved"
+msgstr ""
+
+#. %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:101 template-parts/content-page.php:31
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: functions.php:119
+msgid "Footer Widget"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://thenextlevel.com.au/"
+msgstr ""
+
+#. URI of the theme
+msgid "http://underscores.me/"
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#. Name of the theme
+msgid "Jalil"
+msgstr ""
+
+#. Author of the theme
+msgid "jewel1994"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:84
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:69
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: 404.php:26
+msgid ""
+"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur molestie "
+"massa odio, vel lacinia nulla scelerisque eget. Integer mattis nisl in "
+"gravida fermentum"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: 404.php:25
+msgid "Page not found!"
+msgstr ""
+
+#: template-parts/content-page.php:18 template-parts/content.php:56
+msgid "Pages:"
+msgstr ""
+
+#. %s: post author.
+#: inc/template-tags.php:44
+#, php-format
+msgctxt "post author"
+msgid " %s"
+msgstr ""
+
+#. %s: post date.
+#: inc/template-tags.php:29
+#, php-format
+msgctxt "post date"
+msgid " %s"
+msgstr ""
+
+#: functions.php:47
+msgid "Primary"
+msgstr ""
+
+#: template-parts/content.php:52
+msgid "Read More"
+msgstr ""
+
+#. 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#. %s: search query.
+#: search.php:16 search.php:34
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: functions.php:109
+msgid "Sidebar"
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Which is a unique feature and user competitive feature. Using any kind of "
+"personal portfolio, resume , business , onepage Websites."
+msgstr ""

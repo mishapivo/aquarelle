@@ -1,0 +1,114 @@
+/* Mobile Portrait View */
+@media screen and (max-width:767px) {
+*{box-sizing:border-box;}
+.left, .right, .copyright-txt, .design-by{ float:none; text-align:center;}
+.container { width:auto; padding:0 20px;}
+.site-header{ position:relative; background-color:#111 !important; }
+.logo{ width:auto; float:none; text-align:center; margin-bottom:10px; position:relative;}
+.logo::after, .logo::before{ position:relative;}
+.header_navarea{ float:none;}
+.header-contactpart .phoneno{ display:block;}
+#services_3col_section{ margin:0;}
+/*coloumn css*/
+.thumbnail_box{ width:100%; float:none; margin:0 0 10px;}
+/*sidebar css*/
+#sidebar{ width:100%; float:none;}
+.content-area{ width:auto; margin:0; padding:50px 20px;}
+.pgecontent_layout{ width:auto; float:none;}
+
+/*slider css*/
+#slider{ top:0; margin:0;}
+.nivo-caption{ width:70%; top:18%;}
+.nivo-caption h2{ font-size:18px !important; line-height:22px !important; margin:0 0 10px !important;}
+.nivo-caption p{ line-height:16px; font-size:14px;}
+.nivo-directionNav a{ top:30% !important;}
+.nivo-controlNav{ display:none !important;}
+a.nivo-prevNav{ left:1%;}
+a.nivo-nextNav{right:1%;}
+.nivo-caption .slide_more{ display:none;}
+.aboutme_imagebx, .aboutme_descarea{ float:none; width:auto; margin:0 0 25px 0;}
+
+
+/*front blog post*/
+
+.wpcf7 input[type="text"], .wpcf7 input[type="tel"], .wpcf7 input[type="email"], .wpcf7 textarea{ width:100%;}
+#sitelayout_type{ width:100%;}
+.services_3col_box{ width:auto; float:none; margin:0 0 35px;}
+.services_3col_box.last_column{ margin-bottom:30px;}
+.widget-column-1, .widget-column-2, .widget-column-3, .widget-column-4{ float:none; width:100%; margin:0 0 25px; padding:0; text-align:left;}
+.sitefooter ul li{ margin:0;}
+.sitefooter ul li a{ padding:5px;}
+.aboutme_descarea h3{ font-size:30px;}
+.sitefooter h2{ font-size:20px;}
+#aboutme_section{ padding-bottom:30px;}
+.postlist_style .thumbnail_box{ width:auto; height:auto; overflow:hidden; float:none; margin:0 0 25px 0;}
+.postlist_style .thumbnail_box img{ height:auto; min-height: inherit;}
+}
+
+/* Mobile Landscape View */
+@media screen and (min-width: 481px) and (max-width: 767px){
+*{box-sizing:border-box;}
+.container, .content-area{ width:440px; margin:0 auto;}
+.nivo-controlNav{ display:none !important;}
+.thumbnail_box{ width:50%; float:left; margin:5px 20px 10px 0;}
+}
+/* Mobile Landscape View */
+@media screen and (min-width: 300px) and (max-width: 481px){
+*{box-sizing:border-box;}
+.social-icons{ display:block; padding:0;}
+.social-icons a{ padding:0; padding:0 10px; display:inline-table; line-height:40px;}
+}
+
+@media screen and (min-width:768px) and (max-width: 980px){
+.site-header { width:100%; position:relative !important;}
+.services_3col_box h3{ font-size:16px;}
+.site-header{ position:relative; background-color:rgba(0, 0, 0, 0.9);}
+#aboutme_section{ padding:40px 0 10px;}
+.aboutme_descarea h3{ font-size:34px;}
+.nivo-directionNav a{ top:40%;}
+.aboutme_descarea{ padding-bottom:25px;}
+}
+
+/* Tablet View */
+@media screen and (max-width:1169px) and (min-width:768px) { 
+*{box-sizing:border-box;}
+.container { width:auto; padding:0 20px;}
+
+/*slider css*/
+.nivo-caption{ width:60%; top:20%;}
+.nivo-caption h2{ font-size:42px; line-height:45px;}
+.content-area{ width:auto; margin:0; padding:50px 20px;}
+#sidebar{ width:30%;}
+.pgecontent_layout{ width:65%;}
+#sitelayout_type{ width:100%;}
+.aboutme_descarea{ padding-bottom:25px;}
+}
+
+@media screen and (max-width:1169px) and (min-width:981px) { 
+html{overflow-x:hidden; }
+.nivo-caption{ bottom:35%;}
+}
+
+@media screen and (max-width: 980px){
+.toggleMenu{display: block;}
+.sitenav{float:none; margin:0; position:relative; overflow-x:hidden; background-color:#fff; border-radius:0; top:0; border-bottom:none; }
+.sitenav ul{color:#000; width:100% !important; float:none !important; margin:0; padding:0;}
+.sitenav ul li{border-top:1px #cccccc solid; display:block; float:none; text-align:left; border-bottom:none !important}
+.sitenav ul li a{padding:5px 10px !important; display:block; color:#000; border:none; text-align:left;}
+.sitenav ul li a:hover, .sitenav ul li.current_page_item a{color:#efc62c;  border:none !important; border-radius:0;}
+.sitenav ul li ul, .sitenav ul li ul ul{ display:block !important; background: transparent !important;}
+.sitenav ul li ul li a:before{content:"\00BB \00a0";}
+.sitenav ul li ul li a{padding-left:20px !important; }
+.sitenav ul li ul li a, .sitenav ul li.current-menu-ancestor a.parent{ border:none; border-radius:0;}
+.sitenav ul li ul li ul li a{padding-left:30px !important;}
+.sitenav ul li ul li ul li ul li a{padding-left:40px !important;}
+.sitenav ul li:hover > ul{ background:none !important; box-shadow:none;}
+.sitenav ul li:hover > ul{ background: transparent !important; width:auto !important; display:block; position: relative !important; left:0; right:0; top:0; padding:0;}
+.sitenav ul li:hover ul li ul, .sitenav ul li:hover ul li:hover > ul, .sitenav ul li:hover ul li:hover > ul li ul{  background: transparent !important; display:block; position:relative !important;  right:0; left:0; top:0;}
+.sitenav ul li:hover ul li:hover ul, .sitenav ul li:hover ul li:hover ul li:hover ul{ left:0 !important;}
+.sitenav ul li ul li a{ color:#000;}
+.site-header{ position:relative; background-color:#111 !important; }
+.logo{ width:auto; float:none; text-align:center; margin-bottom:10px; position:relative;}
+.logo::after, .logo::before{ position:relative;}
+.header_navarea{ float:none;}
+}

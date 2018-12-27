@@ -1,0 +1,61 @@
+/*
+Theme Name: Greenigma 
+Theme URI: 
+Description: Greenigma is a Modern Material Design WordPress Theme. It is a child theme of most famous WordPress theme Enigma. It is intuitive and easy to use, robust and reliable, highly flexible and fully responsive theme. Based on live customizer, the theme allows to preview the changes as you go. It is the perfect theme for the professionals, bloggers, and creative personnel’s website, as it provides a clean and flexible appearance, an elegant portfolio, and a catchy online shop. The theme is translation ready, fully SEO optimized, fast loading and is fully compatible with woo commerce and all other major WordPress plugins.
+Author: weblizar
+Author URI: http://www.weblizar.com
+Template: enigma
+Version: 1.8.5
+Tags: rtl-language-support,two-columns, three-columns, custom-menu, right-sidebar, front-page-post-form, custom-background, featured-image-header, sticky-post, theme-options, threaded-comments, featured-images, flexible-header, translation-ready , blog , custom-logo , E-Commerce , footer-widgets , portfolio 
+Text Domain: enigma
+*/
+@media(min-width:1200px){
+.header_search {
+    float:right !important;
+}
+}
+
+/* product template */
+.container.product h1 {
+    text-align: center;
+    padding-bottom: 37px;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+.col-md-12.col-sm-12.about-men-name {
+    text-align: center;
+    box-shadow: 0px 0px 22px #1abc9c26;
+    border: 1px solid #1abc9c;
+}
+.container.product {
+    padding-bottom: 76px;
+}
+.about-men-name h3 a {
+    color: #666;
+}
+.about-men-name h3{
+    margin-top: 10px !important;
+}
+a.button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+    color: #fff;
+    padding: 6px;
+    background: #1abc9c;
+}
+.col-md-12.pro_btn {
+    padding: 15px;
+}
+.presto-product .img-thumbnail {
+    padding: 1px !important;
+    background-color: #1abc9c !important;
+    border: none;
+	border-radius: 0px !important;
+}
+a.added_to_cart.wc-forward {
+    background: #1abc9c;
+    color: #fff;
+    padding: 6px;
+}

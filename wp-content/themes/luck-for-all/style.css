@@ -1,0 +1,117 @@
+/*
+Theme Name: Luck for All
+Description: This theme is based on one of my most favourite themes - Twenty Twelve. The Homepage in "Luck For All" theme shows more posts in less area, thus reducing the overall height of your homepage. So the user has to scroll less than before. This is extremely useful for bloggers who post daily on their website and have a lot of posts. 
+Author: Steven
+Text Domain: luck-for-all
+Template: twentytwelve
+Tags: custom-background, two-columns, right-sidebar, threaded-comments, translation-ready, featured-images, full-width-template, custom-header, footer-widgets, blog
+Version: 1.0.5
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Author URI: https://luckforall.club
+Theme URI: https://www.luckforall.club/theme/
+
+Luck For All Theme is Licensed under GNU GPL v2.0
+Luck For All Theme - (C) 2018, Steven Kramer
+
+*/
+
+.site-content .home-post-new {
+	display: block;
+	overflow: auto;
+	margin-bottom: 0;
+	border-bottom: solid 3px #eee;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+.home-post-new .thumbnail {
+	float: left;
+	width: 20%;
+	padding: 0 10px;
+}
+.home-post-new .content {
+	float: left;
+	width: 74%;
+}
+.post-title {
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.post-excerpt {
+	color: #666;
+	line-height: 1.8em;
+}
+.home-post-new:hover {
+	background: #eee;
+}
+
+.widget-area .widget {
+	padding: 15px;
+	margin-bottom: 10px;
+	background: #eee;
+}
+.widget-area .widget h3 {
+	font-size: 20px;
+	color: #000;
+	margin-top: -10px;
+	margin-bottom: 10px;
+	
+}
+.widget-area ul {
+	list-style: disc;
+	margin-left: 15px;
+}
+
+@media screen and (min-width: 600px) {
+.widget-area {
+    float: right;
+    width: 32.041667%;
+    }
+}
+
+.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
+	border-bottom-width: 3px;
+}
+
+
+#page {
+	border: solid 5px #444;
+}
+
+#masthead h1, #masthead h2 {
+	text-align: center;
+}
+#masthead h1 {
+	font-size: 32px;
+}
+
+@media screen and (min-width: 600px) {
+	.main-navigation li {
+		margin: 0 20px 0 0;
+		border-right: solid 1px #eee;
+		padding-right: 20px;
+	}
+	.main-navigation ul.nav-menu, .main-navigation div.nav-menu > ul {
+		text-align: center;
+	}
+	.main-navigation ul.nav-menu ul, .main-navigation div.nav-menu > ul ul {
+		text-align: left;
+	}
+}
+
+#footer-menu {
+	display: inline-block;
+	float: right;
+}
+#footer-menu li {
+		display: inline-block;
+		float: left;
+		margin-right: 10px;
+	}
+#footer-menu ul ul {
+		display: none;
+	}
+	
+#site-logo {
+	text-align: center;
+}	

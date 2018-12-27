@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+a { color:deeppink; }
+
+label[for="toggle-left"],
+.custom-post-thumbnail p,
+.searchform,
+.entry-thumbnail p,
+.navigation li a:hover { background:deeppink; }
+
+.front-top .widget:hover { border-top-color:deeppink; }
+
+.sidebar .widget:hover { border-bottom-color:deeppink; }
+
+ 

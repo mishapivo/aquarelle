@@ -1,0 +1,515 @@
+//
+// Scaffolding - Hypermarket Theme
+// --------------------------------------------------
+
+
+// Reset the box-sizing
+//
+// Heads up! This reset may cause conflicts with some third-party widgets.
+// For recommendations on resolving such conflicts, see
+// http://getbootstrap.com/getting-started/#third-box-sizing
+* {
+  @include box-sizing(border-box);
+}
+*:before,
+*:after {
+  @include box-sizing(border-box);
+}
+
+// Body reset
+html * {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+html {
+  font-size: 10px;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+@-ms-viewport { width: device-width; }
+
+body {
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  font-weight: $text-weight;
+  line-height: $line-height-base;
+  color: $text-color;
+  background-color: $body-bg;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+// Reset fonts for relevant elements
+input,
+button,
+select,
+textarea {
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+// Links
+a {
+  color: $link-color;
+  text-decoration: underline;
+  @include transition(color .3s);
+
+  &:hover {
+    color: $link-hover-color;
+    text-decoration: none;
+  }
+  &:focus {
+    color: $link-hover-color;
+    outline: none;
+  }
+}
+a.link-title {
+  color: $text-color;
+  text-decoration: none;
+  &:hover { color: $gray; }
+}
+
+// Images
+// Responsive images (ensure images don't scale beyond their parents)
+img {
+  vertical-align: middle;
+  @include img-responsive;
+}
+svg { max-width: 100%; }
+
+// Rounded corners
+.img-rounded {
+  border-radius: $border-radius-large;
+}
+
+// Perfect circle
+.img-circle {
+  border-radius: 50%; // set radius in percents
+}
+
+// Fieldset
+fieldset {
+  border-color: $gray-light;
+}
+
+// Opacity values
+.opacity-75 { @include opacity(.75); }
+.opacity-50 { @include opacity(.5); }
+.opacity-25 { @include opacity(.25); }
+
+// Featured Image
+.featured-image {
+  width: 100%;
+  height: $featured-image-height-desktop;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  @media #{$tablet-land} {
+    height: $featured-image-height-tablet;
+  }
+  @media #{$tablet-port} {
+    height: $featured-image-height-mobile;
+  }
+}
+// Featured Background
+.featured-background {
+  width: 100%;
+  height: $featured-image-height-desktop;
+  background-color: $gray-lighter;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  > img.avatar {
+    margin: 0 auto;
+    @extend .img-circle;
+    border: 5px solid $body-bg;
+    @media #{$tablet-port} {
+      width: 220px;
+    }
+    @media #{$mobile-port} {
+      width: 120px;
+    }
+  }
+  @media #{$tablet-land} {
+    height: $featured-image-height-tablet;
+  }
+  @media #{$tablet-port} {
+    height: $featured-image-height-mobile;
+  }
+}
+.display-inline {
+  display: inline-block !important;
+  vertical-align: middle;
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.throw-outside {
+  position: absolute; 
+  left: -5000px;
+}
+
+// Horizontal rules
+hr {
+  border: 0;
+  border-top: 1px solid $hr-border;
+  @include margin($line-height-computed null $line-height-computed null);
+}
+
+.block { display: block; }
+.inline {
+  display: inline-block;
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+.relative { position: relative !important; }
+.absolute { position: absolute !important; }
+
+// Only display content to screen readers
+//
+// See: http://a11yproject.com/posts/how-to-hide-content/
+.sr-only {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+  @include square(1px);
+  @include margin(-1px);
+  @include padding(0);
+}
+
+// Use in conjunction with .sr-only to only display content when it's focused.
+// Useful for "Skip to main content" links; see http://www.w3.org/TR/2013/NOTE-WCAG20-TECHS-20130905/G1
+// Credit: HTML5 Boilerplate
+.sr-only-focusable {
+  &:active,
+  &:focus {
+    position: static;
+    overflow: visible;
+    clip: auto;
+    @include margin(0);
+    @include square(auto);
+  }
+}
+
+// Text Selection Color
+::selection { color: $text-color; background: $brand-default; }
+::-moz-selection { color: $text-color; background: $brand-default; }
+
+kbd {
+  background-color: $gray-dark;
+  border-radius: 0;
+}
+
+
+// Vertical alignment
+.va-middle { vertical-align: middle; }
+.va-top { vertical-align: top; }
+.va-bottom { vertical-align: bottom; }
+
+// Vertical Space classes
+.space-top-half {
+  margin-top: floor($line-height-computed / 2) !important;
+}
+.space-top {
+  margin-top: $line-height-computed !important;
+}
+.space-top-2x {
+  margin-top: floor($line-height-computed * 2) !important;
+}
+.space-top-3x {
+  margin-top: floor($line-height-computed * 3) !important;
+}
+.space-bottom-half {
+  margin-bottom: floor($line-height-computed / 2) !important;
+}
+.space-bottom {
+  margin-bottom: $line-height-computed !important;
+}
+.space-bottom-2x {
+  margin-bottom: floor($line-height-computed * 2) !important;
+}
+.space-bottom-3x {
+  margin-bottom: floor($line-height-computed * 3) !important;
+}
+.padding-top-half {
+  padding-top: floor($line-height-computed / 2) !important;
+}
+.padding-top {
+  padding-top: $line-height-computed !important;
+}
+.padding-top-2x {
+  padding-top: floor($line-height-computed * 2) !important;
+}
+.padding-top-3x {
+  padding-top: floor($line-height-computed * 3) !important;
+}
+.padding-bottom-half {
+  padding-bottom: floor($line-height-computed / 2) !important;
+}
+.padding-bottom {
+  padding-bottom: $line-height-computed !important;
+}
+.padding-bottom-2x {
+  padding-bottom: floor($line-height-computed * 2) !important;
+}
+.padding-bottom-3x {
+  padding-bottom: floor($line-height-computed * 3) !important;
+}
+@media #{$tablet-port} {
+  .space-top {
+    margin-top: floor($line-height-computed / 1.5) !important;
+  }
+  .space-top-2x {
+    margin-top: floor($line-height-computed * 1.5) !important;
+  }
+  .space-top-3x {
+    margin-top: floor($line-height-computed * 2) !important;
+  }
+  .space-bottom {
+    margin-bottom: floor($line-height-computed / 1.5) !important;
+  }
+  .space-bottom-2x {
+    margin-bottom: floor($line-height-computed * 1.5) !important;
+  }
+  .space-bottom-3x {
+    margin-bottom: floor($line-height-computed * 2) !important;
+  }
+  .padding-top {
+    padding-top: floor($line-height-computed / 1.5) !important;
+  }
+  .padding-top-2x {
+    padding-top: floor($line-height-computed * 1.5) !important;
+  }
+  .padding-top-3x {
+    padding-top: floor($line-height-computed * 2) !important;
+  }
+  .padding-bottom {
+    padding-bottom: floor($line-height-computed / 1.5) !important;
+  }
+  .padding-bottom-2x {
+    padding-bottom: floor($line-height-computed * 1.5) !important;
+  }
+  .padding-bottom-3x {
+    padding-bottom: floor($line-height-computed * 2) !important;
+  }
+}
+.space-top-none { margin-top: 0 !important; }
+.space-bottom-none { margin-bottom: 0 !important; }
+.space-left-none { margin-left: 0 !important; }
+.space-right-none { margin-right: 0 !important; }
+.padding-top-none { padding-top: 0 !important; }
+.padding-bottom-none { padding-bottom: 0 !important; }
+.padding-left-none { padding-left: 0 !important; }
+.padding-right-none { padding-right: 0 !important; }
+
+.page-edit .edit-link {
+  display: inline-block;
+  margin-top: $line-height-computed;
+}
+.text-center { text-align: center; }
+.text-right { text-align: right; }
+
+.block-center {
+  display: block;
+  @include margin(null auto);
+}
+.tablet-center {
+  @media #{$tablet-land} {
+    text-align: center !important;
+  }
+}
+.mobile-center {
+  @media #{$tablet-port} {
+    text-align: center !important;
+  }
+}
+
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  overflow: hidden;
+  @include square(1px);
+}
+.screen-reader-text:focus {
+  background-color: #f1f1f1;
+  border-radius: 3px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  color: #21759b;
+  display: block;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-weight: bold;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000; /* Above WP toolbar. */
+  @include padding(15px 23px 14px 23px);
+}
+
+// Container Fluid
+.container-fluid {
+  max-width: 1920px;
+  @include margin(null auto);
+  @include padding(0 30px);
+}
+
+// Container Full
+.bs3-grid-builder-container.container-full {
+  width: 100%;
+  @include margin(0 auto);
+}
+
+// Homepage control
+.page-template-template-homepage {
+  #hypermarket-header {
+    & + section:not(.hero-slider), 
+    & + section:not(.hero-product) {
+      margin-top: 0 !important;
+      padding-top: 7px !important;
+      & hr { display: none; }
+    }
+    & + section.hero-slider, 
+    & + section.hero-product {
+      margin-top: 0 !important;
+      padding-top: 0 !important;
+    }
+    & + .content-wrapper {
+      section:not(.hero-slider),
+      section:not(.hero-product) {
+        margin-top: 0 !important;
+        padding-top: 40px !important;
+      }
+      section.hero-slider, 
+      section.hero-product {
+        margin-top: 0 !important;
+        padding-top: 0 !important;
+      }
+      & hr { display: none; }
+    }
+  }
+  #hypermarket-new-arrivals-products {
+    & + section {
+      margin-top: 0 !important;
+      padding-top: 0 !important;
+    }
+  }
+}
+
+// WordPress core classes
+.wp-caption {
+  background: $body-bg;
+  border: 1px solid $gray-lighter;
+  max-width: 96%; /* Image does not overflow the content area */
+  text-align: center;
+  @include padding(5px 3px 10px 3px);
+}
+.wp-caption p.wp-caption-text {
+  font-size: 11px;
+  line-height: 17px;
+  @include margin(0);
+  @include padding(0 4px 5px 4px);
+}
+.alignright {
+  float:right;
+  @include margin(5px 0 20px 20px);
+}
+.alignleft {
+  float: left;
+  @include margin(5px 20px 20px 0);
+}
+.aligncenter,
+div.aligncenter {
+  display: block;
+  @include margin(5px auto);
+}
+a img.aligncenter {
+  display: block;
+  @include margin(null auto);
+}
+.bypostauthor { 
+  background-color: $gray-light;
+  padding: floor($line-height-computed * 1.5) floor($line-height-computed / 2) !important;
+} 
+.sticky:not(.post) {
+  position: fixed;
+}
+.gallery:not(.grid-item) { 
+  overflow: hidden;
+  position: relative;
+  @include margin(0 auto 18px auto); 
+}
+.gallery:not(.grid-item) .gallery-item {
+  float: left;
+  text-align: center;
+  @include padding(3px null);
+  @include margin(0 null null null);
+}
+.gallery:not(.grid-item) img {
+  box-shadow: 0px 0px 4px $gray;
+  @include margin(0 auto);
+  @include transition (all .3s ease 0s);
+}
+.gallery:not(.grid-item) img:hover { background: $gray-lighter; }
+.gallery:not(.grid-item) .gallery-caption {
+  color: $gray;
+  font-size: 12px;
+  @include margin(floor($line-height-computed / 2) 0 floor($line-height-computed / 2) 0);
+}
+.gallery:not(.grid-item) dl, .gallery dt { @include margin(0); }
+.gallery:not(.grid-item) br+br { display: none; }
+.gallery:not(.grid-item).gallery-columns-1 .gallery-item {
+    width: 100%;
+    float: none;
+}
+.gallery:not(.grid-item).gallery-columns-2 .gallery-item {
+    width: 50%
+}
+.gallery:not(.grid-item).gallery-columns-3 .gallery-item {
+    width: 33.3333%
+}
+.gallery:not(.grid-item).gallery-columns-4 .gallery-item {
+    width: 25%
+}
+.gallery:not(.grid-item).gallery-columns-5 .gallery-item {
+    width: 20%
+}
+.gallery:not(.grid-item).gallery-columns-6 .gallery-item {
+    width: 16.6667%
+}
+.gallery:not(.grid-item).gallery-columns-7 .gallery-item {
+    width: 14.2857%
+}
+.gallery:not(.grid-item).gallery-columns-8 .gallery-item {
+    width: 12.5%
+}
+.gallery:not(.grid-item).gallery-columns-9 .gallery-item {
+    width: 11.1111%
+}
+.gallery:not(.grid-item).gallery-columns-2 .gallery-item:nth-child(2n+1),
+.gallery:not(.grid-item).gallery-columns-3 .gallery-item:nth-child(3n+1),
+.gallery:not(.grid-item).gallery-columns-4 .gallery-item:nth-child(4n+1),
+.gallery:not(.grid-item).gallery-columns-5 .gallery-item:nth-child(5n+1),
+.gallery:not(.grid-item).gallery-columns-6 .gallery-item:nth-child(6n+1),
+.gallery:not(.grid-item).gallery-columns-7 .gallery-item:nth-child(7n+1),
+.gallery:not(.grid-item).gallery-columns-8 .gallery-item:nth-child(8n+1),
+.gallery:not(.grid-item).gallery-columns-9 .gallery-item:nth-child(9n+1) {
+  clear: left;
+}

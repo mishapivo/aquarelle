@@ -1,0 +1,377 @@
+body {margin: 0;padding: 0;font-size: 14px;line-height: 25px;color: #262930;background: #F2F2F2;height: 100%;font-family: 'Roboto';}
+a,a:hover,a:focus {color: #000;outline: 0;text-decoration: none;-webkit-transition: all 0.3s ease-in-out 0s;-moz-transition: all 0.3s ease-in-out 0s;-ms-transition: all 0.3s ease-in-out 0s;-o-transition: all 0.3s ease-in-out 0s;transition: all 0.3s ease-in-out 0s;}
+a:hover,a:focus{color:#128900;}
+button {background: transparent;border: 0;outline: 0;}
+img.custom-logo {width: 80%;}
+.foodies-content {padding-left: 0;margin-left: 0;width: 100%;height: auto;}
+.foodies-wrapper {padding-left: 250px;}
+.side-bar {width: 250px;margin-left: -280px;left: 280px;color: #262930;position: fixed;height: 100%;z-index: 1050;padding: 0 15px;background: #FDFFEC;    overflow-y: auto;font-weight: 400;font-size: 14px;line-height: 25px;}
+/*side-bar nav start*/
+ul.menu {margin-bottom: 40px;padding-left: 0;margin-top: 10px;}
+ul.sub-menu {padding-left: 0;}
+.widget ul li,ul.menu li {list-style-type: none;}
+.dropdown-menu{top: 95%;}
+.modal-content{border: 0;}
+.modal-content {-webkit-box-shadow: none;box-shadow:none;}/*karan*/
+.tab-menu-area .navbar-header {display: none;}        
+.side-bar .navbar {position: static;border: 0;margin: 0;}
+.side-bar .navbar-brand {height: auto;padding: 0;}
+.side-bar .side-bar-collapse {padding: 0;}
+/*side-bar nav start end*/
+.logo {overflow: hidden;margin: 20px 0;text-align: center;margin-bottom: 40px;}
+.btn-black {background: #128900;border-radius: 2px;padding: 5px 20px;width: 100%;text-align: left;color: rgba(255, 255, 255, 0.8);}
+.side-bar .btn-black {margin: 5px 0;}
+.side-bar button .selected-option {float: left;}
+.side-bar button span {float: right;}
+.side-bar button img {width: 15px;opacity: 0.5;}
+.side-bar .link {text-align: center;margin: 15px 0;cursor: pointer;font-size: 12px;line-height: 18px;}
+.link a {color: #128900;}
+.side-bar .dropdown-menu {right: 0;margin: 0;border: 0;box-shadow: none;border-radius: 2px;background: #128900;color: #262930;}
+.side-bar .dropdown-menu > li > a {background: transparent;color: rgba(255, 255, 255, 0.7);}
+.side-bar .dropdown-menu > li > a:hover,.side-bar .dropdown-menu > li > a:focus {color: #fff;}
+.modal-backdrop.in {opacity: 0;filter: inherit;}
+.modal-backdrop {position: relative;}
+.modal {display: none;overflow: hidden;position: absolute;top: 0;right: 0;bottom: 0;left: 0;background-color: rgba(133, 134, 128, 0.7);}
+.side-bar-collapse .modal-dialog {width: 100%;height: 80%;}
+.side-bar-collapse .modal-content {position: relative;background-color: #128900;border: 0;border-radius: 0;outline: 0;box-shadow: none;height: 100vh;}
+.side-bar .modal-header {border: 0;padding-top: 0;}
+.side-bar .modal-body{padding-top: 0;}
+.side-bar .close {opacity: 0.5;}
+#all-cuisines .close img {width: 15px;}
+#all-cuisines .cuisines-sorting {padding: 0 18px 0 35px;}
+#all-cuisines .cuisines-sorting li {padding: 0 0 20px;}
+#all-cuisines .cuisines-sorting li a {display: block;color: rgba(255, 255, 255, 0.7);}
+#all-cuisines .cuisines-sorting li:nth-child(1) {padding-left: 40px;color: rgba(255, 255, 255, 0.7);}
+#all-cuisines .cuisines-sorting li a.active, #all-cuisines .cuisines-sorting li a:hover {color:rgba(255,255,255,1);}
+.side-bar button:hover img{opacity: 1;}
+.btn-black:hover{color:#fff;}
+#all-cuisines .cuisines-sorting img {width: 20px;margin-right: 20px;}
+.shuffle-item {padding: 0;}
+div.foodies-item{margin: 0;padding: 0;border: 0;outline: 0;vertical-align: top;margin: 10px 0 0 10px;border-radius: 5px;overflow: hidden;box-shadow: 0px 2px 2px 0px rgba(0,0,0,0.1);}
+.foodies-item {position: relative;}
+.foodies-item img {width: 100%;height: auto;transition: all 1s ease-in-out;}
+.foodies-item:hover img {transform: scale(2);}
+.foodies-items .inner {font-size: 14px; padding: 14px 25px;overflow: hidden;}
+.foodies-items .bg1 {background: #fff;position: inherit;}
+.foodies-items .bg2 {background: #fff;position: inherit;}
+.foodies-items .inner .title {float: left;width: 80%;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.foodies-items .inner .icon {float: right;}
+.foodies-items .inner .icon img {width: 15px;margin-left: 5px;}
+.inner-wrap {width: 100%;background: #1D2025;position: relative;text-align: center;z-index: 1;}
+.inner-wrap .inner-content {font-family: 'DroidSerif';float: inherit;margin: 0 auto;padding: 50px 0;}
+.inner-content .close-btn {position: absolute;right: 30px;}
+.inner-content .close-btn .close {opacity: 1;}
+.inner-content .close-btn img {width: 20px;}
+.inner-content .content-icon img {width: 40px;margin: 0 5px;display: inline;}
+.inner-content .content-title {font-size: 45px;line-height: 90px;}
+.inner-content .content-subtitle {font-size: 16px;color: rgba(255, 255, 255, 0.5);}
+.content-details {padding-top: 22px;clear: both;font-size: 16px;color: rgba(255, 255, 255, 0.75);}
+.content-details .row {margin: 0;padding: 14px 30px;}
+.content-label {float: left;}
+.content-description {text-align: right;}
+.content-description .link {float: right;padding-left: 5px;}
+#about .modal-header{padding-bottom: 13px;}
+#about .about-title{clear: both;color: #fff;}
+#about a {color: rgba(65,131,215,0.5);}
+#about .credits{padding-top: 60px;}
+#about .credits .credits-title{color: #fff;}
+#about .credits a {color: rgba(65,131,215,0.75);}
+#about .credits p{margin: 0;color: rgba(255, 255, 255, 0.75);}
+.info {background: none repeat scroll 0 0 #222;display: none;float: left;width: 100%;}
+#top.masthead, .m, section {position: relative;}
+.foodies{width: 23.6%;;display: inline-block;}
+.inner a{
+    color: #4d4d4d;
+}
+h2.widget-title{
+    font-size: 16px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, .h7, h1, h2, h3, h4, h5, h6, h7{color: #212121;line-height: 1.4;}
+p, li, ul{color: #777777;line-height: 2;}
+.widget-area a{color: #000;}
+.widget-area a:hover, .side-bar a:focus{ color: #128900}
+.widget-area ul{padding: 0;}
+input[type="search"].search-field {
+    border: 1px solid #128900;
+    outline: 0;
+    width: 100%;
+    padding: 2px 40px 2px 5px;
+    border-radius: 2px;
+    background: url('../images/search.svg') no-repeat center right 18px transparent;
+    background-size: 15px;
+    z-index: 1;
+    border-top-color: transparent;
+    border-right-color: transparent;
+    border-left-color: transparent;
+}
+.foodies-section input[type="search"].search-field{
+    width: 30%;
+}
+.side-bar-collapse h4 {
+    background: none;
+    border-bottom: 2px solid #128900;
+    display: table-cell;
+    padding-bottom: 8px;
+}
+.search h3{margin-top: 0;padding-top: 15px;margin-left: 10%;}
+.side-bar ::-webkit-input-placeholder {
+    visibility: hidden;
+    background: transparent;
+}
+.side-bar :-moz-placeholder {
+   visibility: hidden;
+   background: transparent;
+}
+.side-bar ::-moz-placeholder {
+   visibility: hidden;
+   background: transparent;
+}
+.side-bar :-ms-input-placeholder {
+   visibility: hidden;
+   background: transparent;
+}
+input[type="submit"].search-submit{
+    position: absolute;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    width: 40px;
+}
+input[type="submit"].search-submit:hover{
+    opacity: 0;
+}
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+.foodies-section input[type="submit"].search-submit{
+    right: 36%;
+    bottom: 10%;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    background: #128900;
+    border-radius: 2px;
+    padding: 5px 20px;
+    width: auto;
+    text-align: left;
+    color: rgba(255, 255, 255, 0.8);
+    border: 1px solid #128900;
+    transition: all 0.5s;
+}
+button:hover , html input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover{
+    opacity: 0.7;
+}
+.foodies:hover.foodies::after{background: rgba(29, 32, 37, 0.0);}
+.open.foodies::after{background: rgba(29, 32, 37, 0.0);}
+textarea, input, select{
+    border: 1px solid #A7A7A7;
+    outline: 0;
+    width: 100%;
+    border-radius: 2px;
+    background: transparent;
+    padding: 5px 10px;
+    resize: none;
+}
+.search-form label{
+    display: inline;
+    margin-right: 10px;
+}
+.search .modal-footer, .error404 .modal-footer{
+    border: none;
+}
+input[type="search"]{
+    width: 30%;
+    padding: 2px 40px 2px 5px;
+}
+textarea:focus, input:focus, select:focus, select:hover,textarea:hover, input:hover{
+    border: 1px solid #128900;
+
+    outline: 0;
+}
+span.category {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.colors{ text-align: right; }
+.modal-dialog.menu-dialog, #about .modal-dialog{
+    padding-top: 0;
+}
+div#all-cuisines, div#about{
+    padding-right: 0 !important;
+}
+p.comment-form-author, p.comment-form-email, p.comment-form-url {width: 32.2%;display: inline-block;margin-right: 10px;}
+p.comment-form-url {margin-right: 0px;}
+/*Foddies Popup styling*/
+.modal-header{border-bottom-width: 0px;}
+body{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	line-height: 25px;
+    font-size: 14px;
+}
+h2.recipeTitle{
+    font-weight: normal;
+    color: #676767;
+    font-size: 24px;
+}
+.authorName{
+    font-size: 14px;
+    font-weight: 300;
+}
+.printIcon i{color:#128900;}
+.likeNRate {
+    padding: 15px;
+    padding-left: 5px;
+}
+span.btn.btn-success {
+    padding: 3px 20px 3px 20px;
+    color: #fff !important;
+    font-size: 14px;
+}
+.recipeCategory img {
+    max-width: 15px;
+    max-height: 15px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.recipeCategory h6{
+	display: inline-block;
+	font-weight: 600;
+	font-size: 13px;
+}
+h4{
+    font-size: 20px;
+}
+h3.headings{
+	font-weight: 600;
+	font-size: 20px;
+	color:#128900;
+    margin-bottom: 30px;
+
+}
+.recipeCategory{
+	margin-bottom: 10px;
+}
+.recipeDescription {
+    margin-bottom: 25px;
+}
+.recipeInstruction h4, .recipeInstruction p, .recipeInstruction img{margin-bottom: 20px;}
+.modal-dialog{padding: 50px 0;margin: 0 auto;}
+.foodiesList p{color:#777777;}
+input[type='radio'],
+input[type='checkbox'] {
+    /* Hide the input, but have it still be clickable */
+    opacity: 0;
+    float: left;
+    width: 18px;
+}
+
+input[type='radio'] + label,
+input[type='checkbox'] + label {
+    margin: 0;
+    clear: none;
+
+    /* Left padding makes room for image */
+    padding: 5px 0 2px 24px;
+
+    /* Make look clickable because they are */
+    cursor: pointer;
+
+    background: url(../images/unchecked.png) left center no-repeat;
+    background-size: 6%;
+}
+label{display: block;}
+/*
+    Change from unchecked to checked graphic
+*/
+input[type='radio']:checked + label {
+    background-image: url(../images/radio.png);
+}
+input[type='checkbox']:checked + label {
+    background-image: url(../images/checked.png);
+}
+ul.recipeNotes{padding-left: 10px;margin-bottom: 30px;}
+ul.recipeNotes li{
+    list-style-type: none;
+    background: url(../images/notes.png) left center no-repeat;
+    background-size: 2.5%;
+    padding-left: 25px;
+}
+.comment-author.vcard img {border-radius: 100px;margin-right: 10px;}
+.comment-list {list-style-type: none;padding: 0;}
+.children {list-style-type: none;}
+.comment-metadata {font-size: 12px;padding: 10px 0px;}
+.pagination {width: 100%;text-align: center;}
+.page-numbers {padding: 5px 10px;font-size: 16px;font-weight: bold;border:1px solid transparent }
+.page-numbers.current, a.page-numbers:hover{border: 1px solid #128900;border-radius: 2px;color: #128900;}
+ul.recipeNotes li span{margin-right: 5px;}
+a#inifiniteLoader{
+    position: fixed;  
+    z-index: 2;  
+    bottom: 15px;   
+    right: 10px; 
+    display:none;
+}
+.loader {
+	background: url("../images/preloader.gif") repeat scroll 0 0 / 64px 64px rgba(0, 0, 0, 0); width:64px; height: 64px; position: fixed; bottom: 0;left: 50%; z-index: 999;
+}
+.modal-dialog {
+    width: 80%;
+}
+@media (min-width: 992px) {
+    .collapse {
+    display: inherit;
+}
+}
+@media (max-width: 991px) {
+.logo {margin:20px 0;}
+.logo img{width: auto;max-height: 40px;}
+.foodies-wrapper{padding-left:0;}
+.side-bar {width: 100%;margin: 0 0 1px;left: 0;position: inherit;border-bottom: 1px solid #e0e0e0;}
+.side-bar .dropdown-menu {position: relative;width: 100%;}
+.side-bar #about{padding: 0;}
+.side-bar .modal-dialog {margin: 30px 0 0;}
+/*side-bar nav start*/
+.side-bar .close {opacity: 1;margin-right: 15px;}
+.side-bar .navbar-header {float: none;display: block;position: relative;}
+.side-bar .navbar-toggle {border: 0;position: absolute;right: 0;top: 50%;margin: -15px 0 0;}
+.side-bar .navbar .navbar-toggle span {float: none;background: #128900;}
+.side-bar .navbar-collapse {border: 0;box-shadow: none;}
+.side-bar .modal {position: fixed;}
+.side-bar .link {position: static;padding: 15px 0px;width: 100%;}
+/*side-bar nav start end*/
+.inner-content .content-icon img {width: 30px;}
+.foodies{width: 33.33%;display: inline-block;}
+}
+@media (max-width: 1024px){
+    .foodies{width: 31.3%;display: inline-block;}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+/*Side-bar nav start*/
+.side-bar .navbar-collapse.collapse {display: none !important;}
+.side-bar .navbar-collapse.collapse.in {display: block !important;}
+.side-bar .navbar-header .collapse,.side-bar .navbar-toggle {display: block !important;}
+/*Side-bar nav end*/
+.foodies{width: 47%;display: inline-block;}
+    .modal-dialog {width: 100%;padding: 0;} 
+    p.comment-form-author, p.comment-form-email, p.comment-form-url {width: 100%; display: inline-block;margin-right: 10px;}
+}
+@media (max-width: 685px) {
+.foodies{width: 47%;display: inline-block;}
+    .modal-dialog {width: 100%;padding: 0;} 
+    p.comment-form-author, p.comment-form-email, p.comment-form-url {width: 100%; display: inline-block;margin-right: 10px;}
+}
+@media (max-width: 480px) {
+.foodies{width: 100%;}
+.modal-dialog {width: 100%;padding: 0;}  
+.inner-content .content-title {font-size: 30px;}
+.content-label{font-weight: bold;}
+.content-label,.content-description{float:none;width:100%;text-align: center;}
+.content-description .link{float: none;padding: 0;}
+div.foodies-item {margin: 0 0 10px;} 
+    p.comment-form-author, p.comment-form-email, p.comment-form-url {width: 100%; display: inline-block;margin-right: 10px;}
+}

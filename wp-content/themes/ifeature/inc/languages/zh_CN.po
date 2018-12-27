@@ -1,0 +1,216 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: iFeature 5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-20 09:19:47 UTC\n"
+"PO-Revision-Date: 2014-03-26 16:43+0530\n"
+"Last-Translator: Surya <surya@cyberchimps.com>\n"
+"Language-Team: Chinese, China\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../404.php
+msgid "Oops! That page cannot be found."
+msgstr "哎呀！无法找到该网页。"
+
+msgid ""
+"It looks like nothing was found at this location. Maybe try searching for it?"
+msgstr "在这个位置好像什么也没找到。试试搜索一下它？"
+
+#: ../../archive.php
+msgid "Category Archives: %s"
+msgstr "分类存档： %s"
+
+#: ../../archive.php
+msgid "Tag Archives: %s"
+msgstr "Tag存档：%s"
+
+#: ../../archive.php
+msgid "Author Archives: %s"
+msgstr "作者存档：%s"
+
+#: ../../archive.php
+msgid "Daily Archives: %s"
+msgstr "每日存档：%s"
+
+#: ../../archive.php
+msgid "Monthly Archives: %s"
+msgstr "每月存档：%s"
+
+#: ../../archive.php
+msgid "Yearly Archives: %s"
+msgstr "每年存档：%s"
+
+msgid "Archives"
+msgstr "存档："
+
+#: ../../comments.php
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+
+#: ../../comments.php
+msgid "Comment navigation"
+msgstr "评论导航"
+
+#: ../../comments.php
+msgid "Older Comments"
+msgstr "较旧的评论 "
+
+#: ../../comments.php
+msgid "Newer Comments"
+msgstr "较新的评论"
+
+#: ../../comments.php
+msgid "&larr; Older Comments"
+msgstr "&larr;较旧的评论"
+
+#: ../../comments.php
+msgid "Newer Comments &rarr;"
+msgstr "较新的评论&rarr;"
+
+#: ../../comments.php
+msgid "Comments are closed."
+msgstr "评论被关闭。"
+
+msgid "Permalink to %s"
+msgstr "到%s 的固定链接"
+
+#: ../../content.php
+msgid "Continue reading"
+msgstr "继续阅读"
+
+msgid "Edit"
+msgstr "编辑"
+
+#: ../../content.php ../../image.php
+msgid "Pages:"
+msgstr "页面："
+
+#: ../../footer.php ../../sidebar-left.php ../../sidebar-right.php
+#: ../../sidebar.php
+msgid "Pages"
+msgstr "页面"
+
+msgid "Categories"
+msgstr "分类目录"
+
+#: ../../footer.php ../../sidebar-left.php ../../sidebar-right.php
+#: ../../sidebar.php
+msgid "WordPress"
+msgstr "WordPress"
+
+#: ../../footer.php ../../sidebar-left.php ../../sidebar-right.php
+#: ../../sidebar.php
+msgid ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr "基于 WordPress，优美的个人信息发布平台。"
+
+msgid "Pingback:"
+msgstr "引用通知（pingback）："
+
+#: ../../functions.php
+msgid "(Edit)"
+msgstr "（编辑）"
+
+#: ../../functions.php
+msgid "says"
+msgstr "说"
+
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正在等待审核。"
+
+#: ../../functions.php
+msgid "%1$s at %2$s"
+msgstr "%1$s于%2$s"
+
+msgid "iFeature Responsive Drag and Drop WordPress Theme"
+msgstr "iFeature的响应拖放式WordPress主题"
+
+msgid "Logo"
+msgstr "徽标"
+
+#: ../../functions.php
+msgid "iMenu Options"
+msgstr "iMenu 选项"
+
+#: ../../functions.php
+msgid "Menu Home Icon"
+msgstr "菜单主页图标"
+
+#: ../../image.php
+msgid "Published"
+msgstr "已发布"
+
+#: ../../image.php
+msgid "size"
+msgstr "大小"
+
+msgid "Previous"
+msgstr "上一个"
+
+#: ../../image.php
+msgid "Next"
+msgstr "下一个"
+
+msgid "Post a comment"
+msgstr "发表评论"
+
+msgid "or leave a trackback"
+msgstr "或留下一个引用追踪标记（trackback）"
+
+msgid "Trackback URL"
+msgstr "引用追踪URL"
+
+msgid "Comments are closed, but you can leave a trackback"
+msgstr "评论已关闭，但你可以留下一个引用追踪标记"
+
+msgid "Trackbacks are closed, but you can"
+msgstr "引用追踪已经关闭，但你可以"
+
+msgid "post a comment"
+msgstr "发表评论"
+
+msgid "Both comments and trackbacks are currently closed."
+msgstr "评论和引用追踪都已被关闭。"
+
+msgid "Nothing Found"
+msgstr "没有找到任何内容"
+
+#: ../../no-results.php
+msgid "Ready to publish your first post?"
+msgstr "准备好发布您的第一篇文章了吗？"
+
+#: ../../no-results.php
+msgid "Get started here"
+msgstr "从这里开始"
+
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "抱歉，没有符合您搜索条件的内容。请再次尝试一些不同的关键词。"
+
+msgid ""
+"It seems we cannot find what you are looking for. Perhaps searching can help."
+msgstr "我们没有找到您所寻找的东西，也许搜索可以给您提供帮助。"
+
+msgid "Search Results for: %s"
+msgstr "关于  %s  的搜索结果"
+
+#: ../../searchform.php
+msgid "Search"
+msgstr "搜索"
+
+#: ../../sidebar-right.php ../../sidebar.php ../../sidebar-left.php
+msgid "Subscribe"
+msgstr "订阅"
+
+msgid "Entries (RSS)"
+msgstr "条目（RSS）"
+
+#: ../../sidebar-left.php ../../sidebar-right.php ../../sidebar.php
+msgid "Comments (RSS)"
+msgstr "评论（RSS）"

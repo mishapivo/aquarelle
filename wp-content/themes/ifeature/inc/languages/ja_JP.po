@@ -1,0 +1,248 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: iFeature 5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-20 09:19:47 UTC\n"
+"PO-Revision-Date: 2014-03-26 16:45+0530\n"
+"Last-Translator: Surya <surya@cyberchimps.com>\n"
+"Language-Team: Japanese, Japan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../../404.php
+msgid "Oops! That page cannot be found."
+msgstr "おっと！そのページが見つかりません。"
+
+#: ../../404.php
+msgid ""
+"It looks like nothing was found at this location. Maybe try searching for it?"
+msgstr ""
+"何もこの場所で発見されなかったように見えます。多分それを検索してみてくださ"
+"い？"
+
+#: ../../archive.php
+msgid "Category Archives: %s"
+msgstr "カテゴリー:"
+
+#: ../../archive.php
+msgid "Tag Archives: %s"
+msgstr "アーカイブ:"
+
+#: ../../archive.php
+msgid "Author Archives: %s"
+msgstr "著者アーカイブ: %s"
+
+#: ../../archive.php
+msgid "Daily Archives: %s"
+msgstr "%sのお知らせ"
+
+#: ../../archive.php
+msgid "Monthly Archives: %s"
+msgstr "%sのお知らせ"
+
+#: ../../archive.php
+msgid "Yearly Archives: %s"
+msgstr "%sのお知らせ"
+
+#: ../../archive.php ../../footer.php ../../sidebar-left.php
+#: ../../sidebar-right.php ../../sidebar.php
+msgid "Archives"
+msgstr "お知らせ"
+
+#: ../../comments.php
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+
+#: ../../comments.php
+msgid "Comment navigation"
+msgstr "コメント"
+
+#: ../../comments.php
+msgid "Older Comments"
+msgstr "古いコメント"
+
+#: ../../comments.php
+msgid "Newer Comments"
+msgstr "新しいコメント"
+
+#: ../../comments.php
+msgid "&larr; Older Comments"
+msgstr "&larr;古いコメント"
+
+#: ../../comments.php
+msgid "Newer Comments &rarr;"
+msgstr "新しいコメント&rarr;"
+
+#: ../../comments.php
+msgid "Comments are closed."
+msgstr "コメントフィード"
+
+#: ../../content.php
+msgid "Permalink to %s"
+msgstr "パーマへ%s"
+
+#: ../../content.php
+msgid "Continue reading"
+msgstr "続きを読む"
+
+#: ../../content.php ../../image.php
+msgid "Edit"
+msgstr "編集"
+
+#: ../../content.php ../../image.php
+msgid "Pages:"
+msgstr "ページ:"
+
+#: ../../footer.php ../../sidebar-left.php ../../sidebar-right.php
+#: ../../sidebar.php
+msgid "Pages"
+msgstr "ページ"
+
+#: ../../footer.php ../../sidebar-left.php ../../sidebar-right.php
+#: ../../sidebar.php
+msgid "Categories"
+msgstr "部類"
+
+#: ../../footer.php ../../sidebar-left.php ../../sidebar-right.php
+#: ../../sidebar.php
+msgid "WordPress"
+msgstr "ワードプレス"
+
+#: ../../footer.php ../../sidebar-left.php ../../sidebar-right.php
+#: ../../sidebar.php
+msgid ""
+"Powered by WordPress, state-of-the-art semantic personal publishing platform."
+msgstr ""
+"ワードプレスは、最先端のセマンティックパーソナルパブリッシングプラットフォー"
+"ムを搭載。"
+
+#: ../../functions.php
+msgid "Pingback:"
+msgstr "ピンバック"
+
+#: ../../functions.php
+msgid "(Edit)"
+msgstr "(編集)"
+
+#: ../../functions.php
+msgid "says"
+msgstr "さんより:"
+
+#: ../../functions.php
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは承認待ちです。"
+
+#: ../../functions.php
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: ../../functions.php
+msgid "iFeature Responsive Drag and Drop WordPress Theme"
+msgstr "iFeatureレスポンシブドラッグアンドドロップワードプレステーマ"
+
+#: ../../functions.php
+msgid "Logo"
+msgstr "ロゴ"
+
+#: ../../functions.php
+msgid "iMenu Options"
+msgstr "iメニューのオプション"
+
+#: ../../functions.php
+msgid "Menu Home Icon"
+msgstr "メニューホームアイコン"
+
+#: ../../image.php
+msgid "Published"
+msgstr "発行者"
+
+#: ../../image.php
+msgid "size"
+msgstr "サイズ"
+
+#: ../../image.php
+msgid "Previous"
+msgstr "前"
+
+#: ../../image.php
+msgid "Next"
+msgstr "次"
+
+#: ../../image.php
+msgid "Post a comment"
+msgstr "コメントを投稿するにはログインしてください。"
+
+#: ../../image.php
+msgid "or leave a trackback"
+msgstr "かtrackbackを残す"
+
+#: ../../image.php
+msgid "Trackback URL"
+msgstr "トラックバックURL"
+
+#: ../../image.php
+msgid "Comments are closed, but you can leave a trackback"
+msgstr "コメント閉鎖されていますが、トラックバックを残すことができ"
+
+#: ../../image.php
+msgid "Trackbacks are closed, but you can"
+msgstr "トラックバックは閉じられていますが、次のことができます"
+
+#: ../../image.php
+msgid "post a comment"
+msgstr "コメントを投稿するにはログインしてください。"
+
+#: ../../image.php
+msgid "Both comments and trackbacks are currently closed."
+msgstr "両方のコメントやトラックバックは現在閉鎖されています。"
+
+#: ../../no-results.php
+msgid "Nothing Found"
+msgstr "何が見つかりました"
+
+#: ../../no-results.php
+msgid "Ready to publish your first post?"
+msgstr "最初の投稿を公開する準備はできましたか？"
+
+#: ../../no-results.php
+msgid "Get started here"
+msgstr "ここで始める"
+
+#: ../../no-results.php
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"申し訳ありませんが、何も検索条件に一致するものがありません。いくつかの異なっ"
+"たキーワードで、もう一度やり直してください。"
+
+#: ../../no-results.php
+msgid ""
+"It seems we cannot find what you are looking for. Perhaps searching can help."
+msgstr ""
+"それは、我々はあなたが探しているものを見つけることができないようです。おそら"
+"く、検索が役立ちます。"
+
+#: ../../search.php
+msgid "Search Results for: %s"
+msgstr "検索結果: %s"
+
+#: ../../searchform.php
+msgid "Search"
+msgstr "検索"
+
+#: ../../sidebar-right.php ../../sidebar.php ../../sidebar-left.php
+msgid "Subscribe"
+msgstr "購読"
+
+#: ../../sidebar-left.php ../../sidebar-right.php ../../sidebar.php
+msgid "Entries (RSS)"
+msgstr "エントリ（のRSS）"
+
+#: ../../sidebar-left.php ../../sidebar-right.php ../../sidebar.php
+msgid "Comments (RSS)"
+msgstr "コメント（RSS）"

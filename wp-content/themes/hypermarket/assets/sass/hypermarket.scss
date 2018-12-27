@@ -1,0 +1,39 @@
+/**
+ * Hypermarket Theme
+ *
+ * @author      	Mahdi Yazdani
+ * @package     	Hypermarket
+ * @dependencies 	Bourbon, Bootstrap, Material Design Icons, Hypermarket Icons 
+ * @since       	1.5.0
+ */
+
+/* Bourbon SASS Mixins Library*/
+@import "bourbon/bourbon"; /* http://bourbon.io/*/
+
+/* Core required libraries*/
+@import "core";
+
+/* Core variables and mixins*/
+@import "bs-variables";
+@import "variables";
+@import "mixins";
+
+/* Core CSS*/
+@import "scaffolding";
+@import "typography";
+@import "forms";
+@import "tables";
+@import "buttons";
+
+/* Components*/
+@import "social-buttons";
+@import "navbar";
+@import "blog";
+@import "shop";
+@import "widgets";
+@import "components";
+@import "tooltips";
+@import "navs";
+@import "panels";
+@import "pagination";
+@import "footer";

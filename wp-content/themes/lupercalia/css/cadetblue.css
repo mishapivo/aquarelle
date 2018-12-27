@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+a { color:cadetblue; }
+
+label[for="toggle-left"],
+.custom-post-thumbnail p,
+.searchform,
+.entry-thumbnail p,
+.navigation li a:hover { background:cadetblue; }
+
+.front-top .widget:hover { border-top-color:cadetblue; }
+
+.sidebar .widget:hover { border-bottom-color:cadetblue; }
+ 

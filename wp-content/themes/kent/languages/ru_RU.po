@@ -1,0 +1,416 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kent v1.1.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-09-09 11:10+0300\n"
+"Last-Translator: admin\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ kent
+#: 404.php:11
+msgid "Error 404 - Not Found"
+msgstr "Ошибка 404 - Ничего не найдено."
+
+# @ kent
+#: 404.php:12
+msgid "Sorry, but the page you are looking for has not been found. Try checking the URL for errors, then hit the refresh button in your browser."
+msgstr "К сожалению, страница, которую вы искали, не найдена."
+
+# @ kent
+#: 404.php:22
+msgid "Recent Posts"
+msgstr "Последние записи"
+
+# @ kent
+#: archive.php:23
+#, php-format
+msgid "Author: %s"
+msgstr "Автор: %s"
+
+# @ kent
+#: archive.php:27
+#, php-format
+msgid "Day: %s"
+msgstr "День: %s"
+
+# @ kent
+#: archive.php:31
+#, php-format
+msgid "Month: %s"
+msgstr "Месяц: %s"
+
+# @ kent
+#: archive.php:31
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+# @ kent
+#: archive.php:35
+#, php-format
+msgid "Year: %s"
+msgstr "Год: %s"
+
+# @ kent
+#: archive.php:35
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+# @ kent
+#: archive.php:39
+msgid "Asides"
+msgstr "Заметки"
+
+# @ kent
+#: archive.php:43
+msgid "Galleries"
+msgstr "Галереи"
+
+# @ kent
+#: archive.php:47
+msgid "Images"
+msgstr "Изображения"
+
+# @ kent
+#: archive.php:50
+msgid "Videos"
+msgstr "Видео"
+
+# @ kent
+#: archive.php:54
+msgid "Quotes"
+msgstr "Цитаты"
+
+# @ kent
+#: archive.php:58
+msgid "Links"
+msgstr "Ссылки"
+
+# @ kent
+#: archive.php:62
+msgid "Statuses"
+msgstr "Статусы"
+
+# @ kent
+#: archive.php:66
+msgid "Audios"
+msgstr "Аудио"
+
+# @ kent
+#: archive.php:70
+msgid "Chats"
+msgstr "Чаты"
+
+# @ kent
+#: archive.php:74
+msgid "Archives"
+msgstr "Архивы"
+
+# @ kent
+#: author.php:11
+msgid "Author Archives"
+msgstr "Архив автора"
+
+# @ kent
+#: comments.php:18
+#, php-format
+msgid "1 reply"
+msgid_plural "%1$s replies"
+msgstr[0] "Один комментарий"
+msgstr[1] "Комментариев: %1$s"
+
+# @ kent
+#: comments.php:20 inc/postmetadata.php:22
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+# @ kent
+#: comments.php:36
+msgid "Older Comments"
+msgstr "Предыдущие комментарии"
+
+# @ kent
+#: comments.php:39
+msgid "Newer Comments"
+msgstr "Новые комментарии"
+
+# @ kent
+#: content-contributors.php:29
+#, php-format
+msgid "%d Article"
+msgid_plural "%d Articles"
+msgstr[0] "Статья: %d"
+msgstr[1] "Статьи: %d"
+
+# @ kent
+#: content-empty.php:10
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+# @ kent
+#: content-empty.php:16
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы создать свою первую запись? <a href=\"%1$s\">Начните сейчас</a>."
+
+# @ kent
+#: content-empty.php:20
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, по вашему запросу ничего не найдено. Попробуйте другие ключевые слова."
+
+# @ kent
+#: content-empty.php:25
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Кажется, мы не можем найти то, что вы ищете. Возможно, вам поможет поиск."
+
+# @ kent
+#: content-page.php:17 content-single.php:20
+msgid "Pages: "
+msgstr "Страницы:"
+
+# @ kent
+#: content-single.php:27
+msgid "Categories: "
+msgstr "Рубрики:"
+
+# @ kent
+#: content-single.php:35
+msgid "Tagged as: "
+msgstr "Метки:"
+
+# @ kent
+#: content-single.php:44 content-single.php:47
+#, php-format
+msgid "<span class=\"more-link\">%link</span>"
+msgstr "<span class=\"more-link\">%</span>"
+
+# @ kent
+#: content.php:12
+#, php-format
+msgid "Permalink for: %s"
+msgstr "%s"
+
+# @ kent
+#: content.php:27
+#, php-format
+msgid "Estimated reading time: %s"
+msgstr "Читать далее"
+
+# @ kent
+#: footer.php:11
+msgid "A Semantic Personal Publishing Platform"
+msgstr ""
+
+# @ kent
+#: footer.php:11
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+# @ kent
+#: footer.php:13
+#, php-format
+msgid "Theme: %1$s by %2$s."
+msgstr ""
+
+# @ kent
+#: functions.php:78
+msgctxt "Google font: on or off"
+msgid "on"
+msgstr ""
+
+# @ kent
+#: functions.php:143
+msgid "Corn"
+msgstr ""
+
+# @ kent
+#: functions.php:148
+msgid "Hills"
+msgstr ""
+
+# @ kent
+#: functions.php:153
+msgid "Barcelona Traffic"
+msgstr ""
+
+# @ kent
+#: functions.php:158
+msgid "Blurred Lines"
+msgstr ""
+
+# @ kent
+#: functions.php:163
+msgid "Carmel"
+msgstr ""
+
+# @ kent
+#: functions.php:168
+msgid "Ocean"
+msgstr ""
+
+# @ kent
+#: functions.php:173
+msgid "Deep in the Forest"
+msgstr ""
+
+# @ kent
+#: functions.php:178
+msgid "Dew"
+msgstr ""
+
+# @ kent
+#: functions.php:183
+msgid "Jet Sky"
+msgstr ""
+
+# @ kent
+#: functions.php:188
+msgid "Maldives"
+msgstr ""
+
+# @ kent
+#: functions.php:193
+msgid "Mission Peak"
+msgstr ""
+
+# @ kent
+#: functions.php:198
+msgid "Stars"
+msgstr ""
+
+# @ kent
+#: functions.php:203
+msgid "Tuscany"
+msgstr ""
+
+# @ kent
+#: functions.php:214
+msgid "Top Menu"
+msgstr ""
+
+# @ kent
+#: functions.php:227
+msgid "Footer Widgets"
+msgstr ""
+
+# @ kent
+#: functions.php:229
+msgid "Widgets that display at the bottom of your website."
+msgstr ""
+
+# @ kent
+#: functions.php:279
+msgid "Read More"
+msgstr "Читать далее"
+
+# @ kent
+#: functions.php:316
+msgid "Continue reading &rarr;"
+msgstr ""
+
+# @ kent
+#: functions.php:380
+#, php-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ kent
+#: functions.php:382
+#, php-format
+msgid "%d second"
+msgid_plural "%d seconds"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ kent
+#: functions.php:414
+msgid "Theme"
+msgstr "Тема"
+
+# @ kent
+#: functions.php:415
+msgid "Options for the Kent theme."
+msgstr "Настройки темы"
+
+# @ kent
+#: functions.php:427
+msgid "Username for avatar to show in sidebar"
+msgstr "Аватар в боковой панели"
+
+# @ kent
+#: header.php:22
+msgid "&lsaquo; return"
+msgstr "&lsaquo; Назад"
+
+# @ kent
+#: header.php:35
+msgid "Menu"
+msgstr ""
+
+# @ kent
+#: header.php:36 header.php:54
+msgid "Home"
+msgstr "Главная"
+
+# @ kent
+#: image.php:15
+#, php-format
+msgid "<p class=\"postmetadata\">Published <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Return to %7$s\" rel=\"gallery\">%7$s</a></p>"
+msgstr "Опубликовано <span class=\"entry-date\"><time class=\"entry-date\" datetime=\"%1$s\" pubdate>%2$s</time></span>   <a href=\"%3$s\" title=\"Ссылка на изображение\">%4$s &times; %5$s</a> в <a href=\"%6$s\" title=\"Вернуться %7$s\" rel=\"gallery\">%7$s</a>"
+
+# @ kent
+#: image.php:36
+msgid "&lsaquo; Back"
+msgstr "&lsaquo; Назад"
+
+# @ kent
+#: inc/postmetadata.php:10
+#, php-format
+msgid "By <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span> on <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a>"
+msgstr "<span class=\"meta-author\">Автор: <strong><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></strong>.</span> Опубликовано: <a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a>"
+
+# @ kent
+#: inc/postmetadata.php:16
+#, php-format
+msgid "View all posts by %s"
+msgstr "Все записи автора: %s"
+
+# @ kent
+#: inc/postmetadata.php:22
+msgid "1 Comment"
+msgstr "Один комментарий"
+
+# @ kent
+#: inc/postmetadata.php:22
+msgid "% Comments"
+msgstr "Комментариев: %"
+
+# @ kent
+#: search.php:11
+#, php-format
+msgid "Search results for &#8216;<em>%s</em>&#8217;"
+msgstr "Результаты поиска: %s"
+
+# @ kent
+#: searchform.php:10
+msgctxt "search input placeholder text"
+msgid "Search..."
+msgstr "Поиск…"

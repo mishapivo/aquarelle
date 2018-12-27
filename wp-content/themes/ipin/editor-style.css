@@ -1,0 +1,7 @@
+@import url('css/bootstrap.css');
+@import url('style.css');
+
+body#tinymce.wp-editor { 
+background: #fff;
+padding: 5px;
+}

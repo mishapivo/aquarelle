@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+a { color:crimson; }
+
+label[for="toggle-left"],
+.custom-post-thumbnail p,
+.searchform,
+.entry-thumbnail p,
+.navigation li a:hover { background:crimson; }
+
+.front-top .widget:hover { border-top-color:crimson; }
+
+.sidebar .widget:hover { border-bottom-color:crimson; }
+
+
+ 

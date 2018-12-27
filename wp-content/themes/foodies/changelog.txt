@@ -1,0 +1,21 @@
+Version 1.0
+i)  Theme Submitted for approval
+
+Version 1.0.1 (4th Aug 2016)
+i)  Search template added.
+ii) Minor css bug fixed.
+
+Version 1.0.2 (26th Dec 2016)
+i)  Code optimization.
+
+Version 1.0.3 (26th Dec 2016)
+i)  Mobile menu fixes.
+
+Version 1.0.4 (10th March 2017)
+i) Removed depricated functions.
+ii) Fixed single comment issue.
+iii) Minor css fixes.
+
+Version 1.0.5 (20th March 2017)
+i) Add theme editor styling.
+ii)minor fixes.

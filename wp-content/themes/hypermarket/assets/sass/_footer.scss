@@ -1,0 +1,67 @@
+//
+// Footer - Hypermarket Theme
+// --------------------------------------------------
+
+.footer {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+
+  .column {
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+    @include background($gray-lighter);
+    @include padding(45px 25px);
+    @include position(relative, null null null null);
+    &:nth-of-type(even) {
+      background-color: darken($gray-lighter, 2%);
+    }
+    @media #{$tablet-land} {
+      display: block;
+      width: 100%;
+      @include padding(45px 15px);
+    }
+    .widget {
+      border: none;
+      @include padding(floor($line-height-computed * 1.2) 0 0 0);
+      &:first-child { @include padding(0); }
+      &.woocommerce {
+        & ul { list-style: none; }
+        ul.children { @include padding(0); }
+      }
+      .menu {
+        list-style: none;
+        @include padding(0);
+        & li {
+          @include margin(null 15px null null);
+          display: inline-block;
+          &:last-child { @include margin(0); }
+        }
+      }
+    }
+  }
+  .copyright {
+    font-size: $font-size-xs;
+    color: $gray;
+    @include margin(-5px null 0 null);
+  }
+  // Mailchimp Widget
+  .subscribe-form, .widget_mc4wp_form_widget .mc4wp-form {
+    .form-control {
+      @include border-color($body-bg);
+    }
+  }
+  // WooCommerce Products
+  .product_list_widget {
+    & > li {
+      text-align: left;
+    }
+  }
+  // Widget Calendar
+  .widget_calendar {
+    table {
+      th, td { @include padding(15px); }
+    }
+  }
+}

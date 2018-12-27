@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+a { color:burlywood; }
+
+label[for="toggle-left"],
+.custom-post-thumbnail p,
+.searchform,
+.entry-thumbnail p,
+.navigation li a:hover { background:burlywood; }
+
+.front-top .widget:hover { border-top-color:burlywood; }
+
+.sidebar .widget:hover { border-bottom-color:burlywood; }
+

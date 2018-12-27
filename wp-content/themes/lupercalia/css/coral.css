@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+a { color:coral; }
+
+label[for="toggle-left"],
+.custom-post-thumbnail p,
+.searchform,
+.entry-thumbnail p,
+.navigation li a:hover { background:coral; }
+
+.front-top .widget:hover { border-top-color:coral; }
+
+.sidebar .widget:hover { border-bottom-color:coral; }
+
+
+ 

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+a { color:darkcyan; }
+
+label[for="toggle-left"],
+.custom-post-thumbnail p,
+.searchform,
+.entry-thumbnail p,
+.navigation li a:hover { background:darkcyan; }
+
+.front-top .widget:hover { border-top-color:darkcyan; }
+
+.sidebar .widget:hover { border-bottom-color:darkcyan; }
+ 

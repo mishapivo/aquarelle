@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+a { color:cornflowerblue; }
+
+label[for="toggle-left"],
+.custom-post-thumbnail p,
+.searchform,
+.entry-thumbnail p,
+.navigation li a:hover { background:cornflowerblue; }
+
+.front-top .widget:hover { border-top-color:cornflowerblue; }
+
+.sidebar .widget:hover { border-bottom-color:cornflowerblue; }
+ 
+
+ 

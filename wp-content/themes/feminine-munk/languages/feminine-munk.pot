@@ -1,0 +1,295 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2017-09-01 10:49+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION"
+
+#: 404.php:15
+msgid "oops page not found."
+msgstr ""
+
+#: 404.php:17
+msgid "It looks like nothing was found at this location. Click the link below to return home."
+msgstr ""
+
+#: 404.php:19
+msgid "Back to Home"
+msgstr ""
+
+#: template-function.php:348
+msgid "All right reserved."
+msgstr ""
+
+#: template-function.php:350
+msgid "Theme by"
+msgstr ""
+
+#: template-function.php:350
+msgid "Powered by"
+msgstr ""
+
+#: template-function.php:360
+msgid "WordPress"
+msgstr ""
+
+#: template-function.php:407
+msgid "Cannot found Similar Post"
+msgstr ""
+
+
+#: template-function.php:521
+msgid "404 Error - Page not Found"
+msgstr ""
+
+#: template-function.php:553
+msgid "Search Result"
+msgstr ""
+
+#: template-function.php:553
+msgid "Edit"
+msgstr ""
+
+#: template-function.php:553
+msgid "|&nbsp; Posted at&nbsp;"
+msgstr ""
+
+#: 404.php:30
+msgid "Most Used Categories"
+msgstr ""
+
+#. translators: %1$s: smiley
+#: 404.php:47
+msgid "Try looking in the monthly archives. %1$s"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:34
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#: comments.php:77
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:18
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: functions.php:47
+msgid "Primary"
+msgstr ""
+
+#: functions.php:105
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:107
+msgid "Add widgets here."
+msgstr ""
+
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:45
+msgid "Primary Menu"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:52
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:46
+msgid "% Comments"
+msgstr ""
+
+#: inc/template-tags.php:46
+msgid "1 Comment"
+msgstr ""
+
+#: inc/template-tags.php:46
+msgid "Leave a comment"
+msgstr ""
+
+#: inc/template-tags.php:42
+msgid "By"
+msgstr ""
+
+#: inc/template-tags.php:46
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:117
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:118
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:119
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:120
+msgid "SUBMIT Comment"
+msgstr ""
+
+#: comments.php:33
+msgid "%1$s Comments"
+msgstr ""
+
+#: comments.php:58
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:58
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:124
+msgid "Comment"
+msgstr ""
+
+#: comments.php:119
+msgid "Name*"
+msgstr ""
+
+#: comments.php:120
+msgid "Email*"
+msgstr ""
+
+#: comments.php:124
+msgid "Website"
+msgstr ""
+
+#: comments.php:118
+msgid "Logged in as <a href="%1$s">%2$s</a>. <a href="%3$s" title="Log out of this account">Log out?</a>"
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:55
+msgid "Posted in %1$s"
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:62
+msgid "Tagged %1$s"
+msgstr ""
+
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:89 template-parts/content-page.php:35
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#. translators: %s: search query.
+#: search.php:22
+msgid "Search Results for: %s"
+msgstr ""
+
+#: search.php:28
+msgid "%s Results are found"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:25
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:38
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:22 template-parts/content.php:45
+msgid "Pages:"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: template-parts/content.php:34
+msgctxt ""
+"Continuess readingsss<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "_s"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://underscores.me/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Hi. I'm a starter theme called <code>_s</code>, or <em>underscores</em>, if "
+"you like. I'm a theme meant for hacking so don't use me as a <em>Parent "
+"Theme</em>. Instead try turning me into the next, most awesome, WordPress "
+"theme out there. That's what I'm here for."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Automattic"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://automattic.com/"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:40
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: %s: post date.
+#: inc/template-tags.php:29
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/template-tags.php:35
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:59
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#: comments.php:58
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:59
+msgid "Newer Comments"
+msgstr ""

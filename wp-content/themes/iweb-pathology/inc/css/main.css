@@ -1,0 +1,612 @@
+/*
+ Theme Name: IWeb Pathology
+Theme URI: http://theme.iwebdm.com/
+Author: Nalin Joshi
+Author URI: http://iwebdm.com/
+Description: Description
+Text Domain: iweb_pathology
+ Version:        0.0.1
+*/
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;     box-sizing: border-box;
+}
+
+/* ==============================
+	About Us Section
+================================= */
+
+.iwebpath-abtus {
+	margin: 0 auto;
+	max-width: 1920px;
+	height: auto;
+	padding: 0 0;
+	background-color: #fff;
+}
+.iwebpath-abtus-w {
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	width: 90%;
+	margin: 0 auto;
+	padding: 0 0;
+	text-align: center;
+}
+.iwebpath-abtus-a {
+	display: inline-block;
+	padding: 0 20px 0 0;
+	width: 33.3333%;
+	height: auto;
+}
+.iwebpath-abtus-b {
+	display: inline-block;
+	margin: 0 0;
+	width: 33.3333%;
+	height: 300px;
+	overflow: hidden!important;
+}
+.iwebpath-abtus-b img {
+	flex-shrink: 0;
+	min-width: 100%;
+	min-height: 100%
+}
+.iwebpath-abtus-c {
+	display: inline-block;
+	padding: 0 0 0 20px;
+	width: 33.3333%;
+	height: auto;
+}
+h3.abtus-a-h3, .iwebpath-abtus-c h3 {
+	font-family: 'Domine', serif;
+}
+.iwebpath-abtus-a span {
+	color: #3c3950;
+}
+.iwebpath-abtus-a1 {
+	margin: 0 0;
+	border-bottom: 1px solid #D3D3D3;
+}
+.iwebpath-abtus-a1-a {
+	width: 50%;
+	float: left;
+	padding: 0 10px 0 0;
+	text-align: left;
+	line-height: normal;
+}
+.iwebpath-abtus-a1-b {
+	width: 50%;
+	display: inline-block;
+	padding: 0 0 0 10px ;
+	text-align: right;
+	line-height: normal;
+}
+p.abtus-a1 {
+	font-size: 15px;
+	line-height: normal;
+	padding: 10px 0;
+	margin: 0 0;
+	color: #606060;
+}
+
+@media (max-width: 1100px) and (min-width: 700px) {
+	.iwebpath-abtus {
+		margin-bottom: 20px;
+	}
+	.iwebpath-abtus-b {
+		display: none;
+	}
+	.iwebpath-abtus-a, .iwebpath-abtus-c {
+		width: 50%;
+	}
+}
+@media (max-width: 699px) {
+	.iwebpath-abtus {
+		margin-bottom: 20px;
+	}
+	.iwebpath-abtus-w {
+		display: block;
+		margin: 0 auto;
+	}
+	.iwebpath-abtus-b {
+		width: 100%;
+		height: auto;
+		margin: 20px 0 0 0;
+	}
+	.iwebpath-abtus-a, .iwebpath-abtus-c {
+		width: 100%;
+		padding: 0 0;
+	}
+	.iwebpath-abtus-b img {
+		width: 100%;
+		height: auto;
+	}
+}
+
+
+/* ==============================
+	Packages Section
+================================= */
+
+.iwebpath-pckg {
+	margin: 0 auto;
+	max-width: 1920px;
+	height: auto;
+	padding: 30px 0;
+	background-color: #f7f7f7;
+}
+.iwebpath-pckg-w {
+	width: 90%;
+	margin: 0 auto;
+	text-align: center;
+}
+.iwebpath-pckg-a {
+	display: inline-block;
+	margin: 10px 15px;
+	width: 220px;
+	height: auto;
+	background-color: #fff;
+	vertical-align: top;
+}
+.iwebpath-pckg-a1 {
+	position: relative;
+	width: 220px;
+	height: 150px;
+	padding: 0 0;
+	margin: 0 auto;
+}
+.iwebpath-pckg-a1 img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	vertical-align: bottom;
+	opacity: 0.7;
+}
+.iwebpath-pckg-a1 img:hover {
+	opacity: 0.3;
+}
+.iwebpath-pckg-a2 {
+	width: 220px;
+	padding: 0 0;
+	text-align: center;
+	border-bottom: 1px solid #D3D3D3;
+}
+.iwebpath-pckg-a3 {
+	width: 220px;
+	padding: 0 0;
+	text-align: center;
+}
+.iwebpath-pckg-a2 p {
+	font-size: 15px;
+	line-height: 20px;
+	padding: 10px;
+	margin: 0 0;
+}
+
+h5.pckg-a3 {
+	color: #fff;
+	margin: 0 0;
+}
+.txt-pckg-a1 {
+	color: #fff;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	text-align: center;
+	text-transform: uppercase;
+	}
+
+
+/* ==============================
+	Features Test Profiles
+================================= */
+
+.iwebpatho_testpf {
+	margin: 0 auto;
+	max-width: 1920px;
+	height: auto;
+	display: block;
+	background-color: #fff;
+	overflow: hidden;
+}
+.iwebpatho_testpf-a {
+	margin: 0 auto;
+	width: 540px;
+	height: auto;
+	float: left;
+}
+.iwebpatho_testpf-b {
+	margin: 0 auto;
+	padding: 20px 45px 40px 30px;
+	width: 60%;
+	height: auto;
+	float: right;
+	text-align: center;
+	background-color: #fff;
+}
+.iwebpatho_testpf-b1 {
+	margin: 20px;
+	width: 190px;
+	height: auto;
+	display: inline-block;
+	text-align: center;
+	text-transform: uppercase;
+}
+.iwebpatho_testpf-b1 img {
+	height: 90px;
+	width: 90px;
+	padding: 10px;
+	border: 1px solid;
+	border-radius: 100%;
+}
+.iwebpatho_testpf-b1 p {
+	margin: 0 auto;
+	font-weight: bold;
+}
+.iwebpatho_testpf-b1 img:hover {
+	animation: patho_rotateY 1s forwards;
+}
+h1.testpf-b-h3 {
+	text-transform: uppercase;
+}
+.iwebpatho_testpf-b span {
+	color: #3c3950;
+}
+
+@media (max-width: 900px) {
+	.iwebpatho_testpf-b {
+		padding: 20px 40px;
+		width: 100%;
+	}
+}
+
+/* ==============================
+   Our Doctors
+================================= */
+
+
+.iwebpatho-ourdoc {
+	margin: 0 auto;
+	max-width: 1920px;
+	padding: 32px 0;
+	text-align: center;
+	background-color: #f7f7f7;
+	}
+.iwebpatho-ourdoc-w {
+  display: inline-block;
+	max-width: 90%;
+	margin: 0 auto;
+	text-align: center;
+	}
+.iwebpatho-ourdoc-a {
+	display: inline-block;
+	width: 270px;
+	height: 375px;
+	margin: 20px 30px;
+	text-align: center;
+	border: 1px solid #DCDCDC;
+	overflow: hidden;
+	background-color: #fff;
+	vertical-align: top;
+	}
+.iwebpatho-ourdoc-b {
+	display: inline-block;
+	width: 500px;
+	height: auto;
+	margin: 20px 10px;
+	vertical-align: top;
+}
+.iwebpatho-ourdoc-a1 {
+	display: inline-block;
+	width: 270px;
+	height: 270px;
+	vertical-align: top;
+	position: relative;
+	}
+.iwebpatho-ourdoc-a1 img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.iwebpatho-ourdoc-a1-box {
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	position: absolute;
+	top: 89%;
+	left: 41%;
+	width: 50px;
+	height: 50px;
+	border-radius: 100%;
+	border: 4px solid #fff;
+	overflow: hidden;
+	color: #fff;
+	font-size: 37px;
+	}
+.iwebpatho-ourdoc-a2 {
+	display: block;
+	padding: 30px 5px 10px 5px;
+	text-align: center;
+	}
+.iwebpatho-ourdoc-a2 .fa {
+   color: #999;
+	text-align: center;
+	font-size: 14px;
+	line-height: 22px;
+	margin: 0 5px;
+	padding: 0;
+	float: none;
+	border-radius: 100%;
+}
+.iwebpatho-ourdoc-a2 .fa:hover {
+	animation: patho_rotateY 1s linear infinite;
+	-webkit-animation: patho_rotateY 1s linear infinite;
+	-moz-animation: patho_rotateY 1s linear infinite;
+	-o-animation: patho_rotateY 1s linear infinite;
+}
+.iwebpatho-ourdoc-w span {
+	color: #3c3950;
+}
+
+@media (max-width: 400px) {
+	.iwebpatho-ourdoc-a {
+		margin: 15px auto;
+	}
+}
+
+/* ==============================
+	Latest News Section
+================================= */
+
+.iweb-patho-isection8 {
+	margin: 0 auto;
+	max-width: 1920px;
+	min-height: 360px;
+	height: auto;
+	padding: 32px 0;
+	background-color:#fff;
+	text-align: center;
+	}
+.iweb-patho-isection8-a {
+	display: block;
+	max-width: 90%;
+	height: 495px;
+	height:auto;
+	margin: 0 auto;
+	padding: 0 0 0 0;
+	float: none;
+	text-align: center;
+	}
+.iweb-patho-isection8-a1 {
+	display: inline-block;
+	width: 30%;
+	min-height: 490px;
+	height:auto;
+	vertical-align: top;
+	margin: 20px 10px;
+	text-align: left;
+	border: 1px solid #E0E0E0;
+	}
+.iweb-patho-isection8-b1 {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+	height: 250px;
+	vertical-align: top;
+	}
+.iweb-patho-isection8-b1 img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	overflow: hidden;
+	border-bottom: 4px solid;
+	}
+.iweb-patho-isection8-b1 img:hover {
+	animation: iwebshake 0.5s;
+	/* When the animation is finished, start again */
+	/*animation-iteration-count: infinite; */
+}
+
+.iwebpatho_latnews-b1-box {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+	color: #fff;
+	font-size: 32px;
+	text-align: center;
+	padding: 0 0;
+	}
+.iweb-patho-isection8-a1 h4 {
+	text-align: left;
+	font-weight: bold;
+	padding: 20px 10px 0 10px;
+	margin: 0 auto;
+	line-height: normal;
+	}
+.isec8a1h3 {
+	font-size: 16px;
+	text-align: left;
+	padding: 0 0;
+	line-height: normal;
+	margin: 0 0;
+	}
+
+@media screen and (max-width: 768px) and (min-width: 640px) {
+
+	.iweb-patho-isection8-a1 {
+		width: 45%;
+		margin: 10px;
+	}
+}
+
+@media (max-width: 639px) {
+
+	.iweb-patho-isection8-a1 {
+		width: 93%;
+		margin: 10px;
+		background-color: #fff;
+	}
+}
+
+/* ==============================
+		Home Collection
+================================= */
+
+.iweb-patho-isection3 {
+	margin: -6px auto 0;
+	max-width: 1920px;
+	min-height: 60px;
+	height: auto;
+	text-align: center;
+	position: relative;
+}
+.iweb-patho-isection3-a {
+	display: flex;
+	display: -webkit-flex;
+	align-items: center;
+	width: 90%;
+	height:auto;
+	margin: 0 auto;
+	padding: 10px 0;
+}
+.iweb-patho-isection3-a1 {
+	float: left;
+	width: auto;
+	height:auto;
+	margin: 0 auto;
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+}
+.iweb-patho-isection3-a2 {
+	display: inline-block;
+	width: 300px;
+	height:auto;
+	margin: 0 auto;
+	padding: 15px 0;
+}
+
+@media (max-width:768px) {
+	.iweb-patho-isection3-a {
+		display: block;
+	}
+	.iweb-patho-isection3-a1, .iweb-patho-isection3-a2 {
+		float: none;
+		width: 100%;
+		display: inline-block;
+		text-align: center;
+	}
+}
+
+/* ==============================
+	 404 page
+================================= */
+
+body #iwebpath-bckgr {
+	background: #111;
+}
+
+/* ==============================
+	Do Not CHange
+================================= */
+
+.tmarg-0 { margin-top: 0; }
+.bmarg-0 { margin-bottom: 0; }
+.lmarg-0 { margin-left: 0; }
+.rmarg-0 { margin-right: 0; }
+.tpad-0 { padding-top: 0; }
+.bpad-0 { padding-bottom: 0; }
+.lpad-0 { padding-left: 0; }
+.rpad-0 { padding-right: 0; }
+.bmarg-5 {margin-bottom: 5px;}
+.img-cent { margin: 0 auto; }
+img.alignright { float: right; margin: 0 0 1em 1em; }
+img.alignleft { float: left; margin: 0 1em 1em 0; }
+img.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.talign-r { text-align: right;}
+.talign-l { text-align: left;}
+.talign-c { text-align: center;}
+.alignright { float: right; }
+.alignleft { float: left; }
+.aligncenter { display: block; margin-left: auto; margin-right: auto; }
+.textupc { text-transform: uppercase;}
+.border1f { border: 1px solid #fff;}
+.txtbold {font-weight: bold;}
+.txtcolfff {color: #fff;}
+.upcase {text-transform: uppercase;}
+
+.isecdesc {
+	font-size: 19px;
+	text-align: center;
+}
+
+.patho-button {
+	border: 1px solid #fff;
+	color: #fff;
+	margin: 10px 0;
+	padding: 4px 15px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 16px;
+	font-weight:300;
+	cursor: pointer;
+	border-radius: 5px;
+	-webkit-transition-duration: 0.8s; /* Safari */
+	transition-duration: 0.8s;
+	}
+.patho-button:hover {
+	background-color: #fff;
+	border: 1px solid;
+	}
+
+/* Bottom to Top Button */
+
+#topBtn {
+	display: none; /* Hidden by default */
+	position: fixed; /* Fixed/sticky position */
+	bottom: 20px; /* Place the button at the bottom of the page */
+	right: 30px; /* Place the button 30px from the right */
+	z-index: 99; /* Make sure it does not overlap */
+	border: 2px solid #fff; /* Remove borders */
+	outline: none; /* Remove outline */
+	/*background-color: #4db8ff; /* Set a background color */
+	color: white; /* Text color */
+	cursor: pointer; /* Add a mouse pointer on hover */
+	padding: 10px; /* Some padding */
+	/*border-radius: 50%; /* Rounded corners */
+	/*font-size: 18px; /* Increase font size */
+	}
+#topBtn:hover {
+	background-color: #222; /* Add a dark-grey background on hover */
+	}
+#topBtn::after {
+	content: "\f077";
+	font-family: FontAwesome;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 20px;
+	line-height: 18px;
+	color: #fff;
+	}
+
+.iweb-show {
+	display: block;
+}
+.iweb-hide {
+	display: none;
+}
+
+@media screen and (max-width: 739px) {
+	.iweb-show {
+		display: none;
+	}
+	.iweb-hide {
+		display: block;
+	}
+}

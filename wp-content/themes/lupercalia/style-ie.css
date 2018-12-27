@@ -1,0 +1,114 @@
+
+	@font-face {
+	  font-family: "Economica";
+	  src:url("fonts/economica.eot");
+	  src:url("fonts/economica.eot?#iefix") format("embedded-opentype"),
+
+	  font-weight: normal;
+	  font-style: normal;
+
+	}
+	
+	
+	
+	.wrapper { max-width:960px; }
+
+	/* ------------------------------------------------------------------------- */
+	/* GRIDS
+	/* ------------------------------------------------------------------------- */
+	
+	.grid-20 { width:19%; }
+	.grid-25 { width:24%; }
+	.grid-30 { width:29%; }
+	.grid-33 { width:32.33% }
+	.grid-40 { width:39%; }
+	.grid-50 { width:49%; }
+	.grid-60 { width:59%; }
+	.grid-66 { width:65.67% }
+	.grid-70 { width:69%; }
+	.grid-80 { width:79%; }
+	.grid-100 { width:100%; }
+	
+	/* ------------------------------------------------------------------------- */
+	/* HEADER
+	/* ------------------------------------------------------------------------- */
+	
+	.logo { float:left; padding-top:15px; }
+	
+	/* ------------------------------------------------------------------------- */
+	/* SOCIAL
+	/* ------------------------------------------------------------------------- */
+	
+	.social { float:right; text-align:right; padding-bottom:15px; padding-top:15px; }
+	
+	/* ------------------------------------------------------------------------- */
+	/* BREADCRUMB
+	/* ------------------------------------------------------------------------- */
+
+	.breadcrumb ul { padding-left:15px; padding-right:15px; }
+	
+	/* ------------------------------------------------------------------------- */
+	/* NAVIGATION
+	/* ------------------------------------------------------------------------- */
+	
+	.navigation ul { margin:0; padding:0; text-align:right; }
+	.navigation li { display:inline-block; margin-left:-.25em; position:relative; text-align:left; }
+	.navigation li a:hover:after,
+	.navigation li a:hover { color:#fff; -webkit-transition:background 0.4s ease-in; -moz-transition:background 0.4s ease-in; -ms-transition:background 0.4s ease-in; -o-transition:background 0.4s ease-in; transition: background 0.4s ease-in; }
+	.navigation ul ul { display:none; z-index:99; }
+	.navigation li:hover > ul { display:block; position:absolute; padding:0; }
+	.navigation ul ul li { width:150px; position:relative; }
+	.navigation li li ul{ position:absolute; top:0; left:100%; }
+	
+	/* TOGGLE */
+	.icon-menu { display:none; }
+	
+	/* ------------------------------------------------------------------------- */
+	/* FRONT-PAGE
+	/* ------------------------------------------------------------------------- */
+	
+	/* front-top */
+	.front-top .widget { float:left; }
+	
+	/* SLIDER */
+	
+	.slider-text { margin-bottom:-67px; }
+	.slider-title { font-size:50px; }
+	.slider-description { font-size:30px; }
+
+	/* LAST ENTRIES */
+	
+	.last-entries [class*="grid-"] { float:left; }
+	
+	/* ------------------------------------------------------------------------- */
+	/* MAIN
+	/* ------------------------------------------------------------------------- */
+	
+	.main { float:left; }
+	
+	/* ------------------------------------------------------------------------- */
+	/* ARTICLE
+	/* ------------------------------------------------------------------------- */
+	
+	.article { float:left; margin-bottom:15px; }
+	
+	/* 404 */
+	.e404 { margin:0 auto; }
+	
+	/* RELATED POSTS */
+	.related-posts .grid-33 { float:left; }
+	
+	/* ------------------------------------------------------------------------- */
+	/* SIDEBAR
+	/* ------------------------------------------------------------------------- */	
+
+	.sidebar { float:right; }
+	
+	/* toggle */
+	.icon-sidebar { display:none; }
+	
+	/* ------------------------------------------------------------------------- */
+	/* PRE-FOOTER
+	/* ------------------------------------------------------------------------- */	
+	
+	.pre-footer .widget { float:left; }

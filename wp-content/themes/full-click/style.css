@@ -1,0 +1,554 @@
+/**
+Theme Name: Full Click
+Theme URI: http://evisionthemes.com/product/business-click/
+Author: eVision Themes
+Author URI: http://evisionthemes.com/
+Template: business-click
+Text Domain: full-click
+Description: Full Click is one page child theme of Corporate theme Business Click. This theme includes multiple sections like Featured slider, Services, Who we are, Portfolio, Call To Action, Review section, Blog, Contact section etc. The theme is completely responsive and your website will look perfect on all small to large devices. Within a single click, you can easily set up the demo website and edit your own content, images. Try our full click theme and set up your own website.
+Preview : https://demo.evisionthemes.com/business-click/multipage
+Support: https://evisionthemes.com/supports
+Version: 1.0.1
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready, left-sidebar, right-sidebar, blog, e-commerce, theme-options, custom-colors, full-width-template, one-column, grid-layout, footer-widgets, portfolio
+ */
+.img-cover {
+  background-size: cover;
+  background-position: center center;
+}
+
+body.home.fullpage-enabled ul#fp-menu {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 9999;
+  margin-right: 30px;
+}
+body.home.fullpage-enabled ul#fp-menu li {
+  list-style: none;
+  position: relative;
+}
+body.home.fullpage-enabled ul#fp-menu li a {
+  display: block;
+}
+body.home.fullpage-enabled ul#fp-menu li:first-child a span.fp-menu-indicator {
+  border-top: 1px solid #fff;
+}
+body.home.fullpage-enabled ul#fp-menu li a span.fp-menu-indicator {
+  content: '';
+  height: 40px;
+  width: 6px;
+  border-bottom: 1px solid #fff;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+  display: block;
+}
+body.home.fullpage-enabled ul#fp-menu li a span.fp-menu-indicator span {
+  display: block;
+  width: 100%;
+  height: 0%;
+  transition: all 0.1s ease-in-out;
+}
+body.home.fullpage-enabled ul#fp-menu li a span.fp-menu-text {
+  position: absolute;
+  right: 0;
+  width: 120px;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin-right: 20px;
+  padding: 5px;
+  display: block;
+  font-weight: 600;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+body.home.fullpage-enabled ul#fp-menu li a span.fp-menu-text:after {
+  content: '';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  position: absolute;
+  right: 0;
+  transform: translate(100%, -50%);
+  top: 50%;
+}
+body.home.fullpage-enabled ul#fp-menu li.active a span.fp-menu-indicator span {
+  height: 100%;
+  transition: all 1s ease;
+}
+body.home.fullpage-enabled ul#fp-menu li:hover a span.fp-menu-text,
+body.home.fullpage-enabled ul#fp-menu li.active a span.fp-menu-text {
+  opacity: 1;
+}
+body.home.fullpage-enabled a#moveSectionDown {
+  color: #fff;
+  display: block !important;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 999;
+}
+body.home.fullpage-enabled a#moveSectionDown i {
+  font-size: 30px;
+}
+body.home.fullpage-enabled a#moveSectionDown i:before {
+  text-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.home.fullpage-enabled #page {
+  padding-top: 0 !important;
+}
+
+body.fp-viewing-slider #evt-scroll-top {
+  display: none !important;
+}
+
+body.home.fullpage-enabled.blog h2 {
+  color: #ffffff;
+}
+body.home.fullpage-enabled.blog #evt-banner {
+  margin-bottom: 0;
+}
+body.home.fullpage-enabled #evt-banner .evt-banner-slider .slick-slide .evt-banner-image {
+  max-height: 1080px;
+}
+body.home.fullpage-enabled .evt-featured-item-wrap .evt-featured-item .evt-featured-icon,
+body.home.fullpage-enabled .evt-thumb-holder .evt-thumb-hover a {
+  color: #202020;
+  font-weight: 600;
+}
+body.home.fullpage-enabled .evt-img-overlay {
+  background-color: transparent !important;
+}
+body.home.fullpage-enabled .fp-tableCell {
+  background-color: rgba(0, 0, 0, 0.4) !important;
+}
+body.home.fullpage-enabled #evt-partner .fp-tableCell {
+  background-color: rgba(0, 0, 0, 0.6) !important;
+}
+body.home.fullpage-enabled section.section {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+body.home.fullpage-enabled .tmm .tmm_wrap {
+  margin-bottom: 0;
+}
+body.home.fullpage-enabled #evt-portfolio #filters button.is-checked {
+  background-color: #fff;
+}
+body.home.fullpage-enabled #evt-blog .evt-blog-slider .evt-box-caption {
+  background: transparent;
+}
+body.home.fullpage-enabled section.section .widget-title,
+body.home.fullpage-enabled section.section .evt-featured-title a {
+  color: #fff !important;
+}
+body.home.fullpage-enabled .entry-meta a,
+body.home.fullpage-enabled section.section,
+body.home.fullpage-enabled .evt-featured-item-wrap .evt-featured-item .evt-featured-title a, body.home.fullpage-enabled .evt-box-title a,
+body.home.fullpage-enabled .tmm .tmm_job,
+body.home.fullpage-enabled .slick-slider .slick-arrow,
+body.home.fullpage-enabled caption {
+  color: #fff;
+}
+body.home.fullpage-enabled #evt-banner .evt-banner-slider .slick-slide .evt-banner-image {
+  height: 100vh;
+}
+body.home.fullpage-enabled section.section {
+  background-attachment: fixed;
+}
+body.home.fullpage-enabled #evt-why-us, body.home.fullpage-enabled #evt-featured, body.home.fullpage-enabled #evt-team, body.home.fullpage-enabled #evt-blog, body.home.fullpage-enabled #evt-contact, body.home.fullpage-enabled #evt-short-code1, body.home.fullpage-enabled #evt-short-code2, body.home.fullpage-enabled #evt-full-width-widgets {
+  background-color: #000;
+  background-size: cover;
+  background-position: center center;
+}
+body.home.fullpage-enabled #evt-blog .evt-box-caption p {
+  display: none;
+}
+body.home.fullpage-enabled section.section {
+  overflow: hidden;
+}
+body.home.fullpage-enabled #evt-banner .fp-scroller {
+  transform: translate(0px, 0px) translateZ(0px) !important;
+}
+body.home.fullpage-enabled #evt-banner .iScrollVerticalScrollbar {
+  display: none;
+}
+body.home.fullpage-enabled #evt-blog .evt-img-overlay {
+  padding-bottom: 0;
+}
+body.home.fullpage-enabled .site-footer .evt-footer-widget {
+  padding-top: 0;
+}
+body.home.fullpage-enabled #evt-contact .container {
+  padding-bottom: 50px;
+}
+body.home.fullpage-enabled header.site-header#masthead {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media (min-width: 576px) {
+  .home.fullpage-enabled .container {
+    max-width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .home.fullpage-enabled #evt-banner .evt-banner-image .evt-banner-caption {
+    left: 30px;
+  }
+  .home.fullpage-enabled header.site-header .evt-header-wrap-nav .evt-menu-toggler-manage #menu-icon.menu-toggler {
+    right: 15px;
+  }
+}
+.menu-toggler span {
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+body.home.fullpage-enabled header.site-header .evt-header-wrap-nav .evt-menu-toggler-manage #menu-icon.menu-toggler:hover {
+  background-color: transparent;
+}
+body.home.fullpage-enabled header.site-header .evt-header-wrap-nav .evt-menu-toggler-manage #menu-icon.menu-toggler:hover span {
+  background-color: #fff;
+}
+body.home.fullpage-enabled header.site-header#masthead {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+@media (min-width: 992px) {
+  body.home.fullpage-enabled #menu-icon {
+    display: block;
+  }
+  body.home.fullpage-enabled nav#site-navigation {
+    display: none;
+  }
+  body.home.fullpage-enabled #evt-buy-btn {
+    margin-right: 80px;
+  }
+  body.home.fullpage-enabled .evt-mbl-menu ul.menu > li > a {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 600;
+  }
+  body.home.fullpage-enabled .evt-mbl-menu ul.menu > li ul li a {
+    font-size: 20px;
+  }
+  body.home.fullpage-enabled .menu-toggler span {
+    height: 3px;
+  }
+  body.home.fullpage-enabled header.site-header .evt-header-wrap-nav .evt-menu-toggler-manage #menu-icon.menu-toggler span:nth-child(1) {
+    display: block;
+  }
+  body.home.fullpage-enabled header.site-header .evt-header-wrap-nav .evt-menu-toggler-manage #menu-icon.menu-toggler {
+    width: 70px;
+  }
+  body.home.fullpage-enabled .menu-toggler.evt-menu-open span:nth-child(1) {
+    top: 0;
+    width: 100%;
+    left: 0;
+  }
+  body.home.fullpage-enabled .evt-close-wrapper .evt-inner-box {
+    height: 30px;
+    width: 30px;
+  }
+  body.home.fullpage-enabled .evt-close-wrapper .evt-inner-box .evt-inner:after,
+  body.home.fullpage-enabled .evt-close-wrapper .evt-inner-box .evt-inner:before {
+    width: 3px;
+  }
+  body.home.fullpage-enabled .evt-arrow-box {
+    right: 20px;
+  }
+  body.home.fullpage-enabled .evt-arrow-box .evt-down-arrow {
+    width: 10px;
+    height: 10px;
+  }
+  body.home.fullpage-enabled .evt-arrow-box .evt-down-arrow:before, body.home.fullpage-enabled .evt-arrow-box .evt-down-arrow:after {
+    width: 3px;
+  }
+  body.home.fullpage-enabled .evt-mbl-menu {
+    width: 500px;
+    right: -500px;
+  }
+  body.home.fullpage-enabled .evt-mbl-menu.evt-menu-open, body.home.fullpage-enabled.evt-mbl-overlay-right .evt-mbl-menu.evt-menu-open, body.home.fullpage-enabled.evt-mbl-shift-right .evt-mbl-menu.evt-menu-open {
+    right: 0;
+  }
+  body.home.fullpage-enabled.evt-mbl-shift-right.evt-menu-open {
+    right: 500px;
+  }
+  body.home.fullpage-enabled.evt-mbl-overlay-left .evt-mbl-menu, body.home.fullpage-enabled.evt-mbl-shift-left .evt-mbl-menu {
+    right: auto;
+    left: -500px;
+  }
+  body.home.fullpage-enabled.evt-mbl-overlay-left .evt-mbl-menu.evt-menu-open, body.home.fullpage-enabled.evt-mbl-shift-left .evt-mbl-menu.evt-menu-open {
+    left: 0;
+  }
+  body.home.fullpage-enabled.evt-mbl-shift-left.evt-menu-open {
+    left: 500px;
+  }
+}
+.animate-move-up-down {
+  animation: MoveUpDown 2s linear infinite;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 45px;
+  }
+  50% {
+    bottom: 55px;
+  }
+}
+#evt-testimonials .evt-box-caption {
+  text-align: center;
+}
+#evt-testimonials .evt-testimonials-author .profile-img,
+#evt-testimonials .evt-testimonials-author .profile-info {
+  float: none;
+}
+#evt-testimonials .evt-testimonials-author {
+  text-align: center;
+}
+#evt-testimonials .profile-img {
+  margin-right: 0;
+}
+#evt-testimonials .evt-testimonials-slider {
+  background: transparent;
+}
+#evt-testimonials ul.slick-dots li button {
+  width: 12px;
+  height: 12px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+#evt-testimonials .justify-content-lg-end,
+#evt-testimonials .justify-content-lg-start {
+  justify-content: center !important;
+}
+#evt-testimonials .slick-slider.evt-testimonials-slider .slick-arrow {
+  bottom: auto;
+  top: 50%;
+  transform: translate(0, -50%);
+  margin-top: 0;
+}
+#evt-testimonials .slick-slider.evt-testimonials-slider .slick-arrow.slick-prev {
+  right: auto;
+  left: 0;
+}
+#evt-testimonials .slick-slider.evt-testimonials-slider .slick-arrow.slick-next {
+  right: 0;
+}
+
+.widget-title:before, .widgettitle:before, .woocommerce div.product .product_title:before, .page-title:before, body .entry-title:before, .widget_search form .search-submit, .evt-head-search form .search-submit, .pagination .nav-links a, .wp-pagenavi a, .woocommerce nav.woocommerce-pagination a, .pagination .nav-links span, .wp-pagenavi span, .woocommerce nav.woocommerce-pagination span, a.btn, .btn, .read-more, .wpcf7-form .wpcf7-submit, .woocommerce #respond input#submit, .woocommerce div.product form.cart .button, .woocommerce #respond input#submit.alt, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt, button, input[type="button"], input[type="reset"], input[type="submit"], .btn.btn-reverse:hover, .wp-pagenavi a:hover, .wp-pagenavi span.current, .pagination .nav-links ul li span.current, .wp-pagenavi ul li span.current, .woocommerce nav.woocommerce-pagination ul li span.current, .pagination .nav-links ul li span:hover, .wp-pagenavi ul li span:hover, .woocommerce nav.woocommerce-pagination ul li span:hover, .pagination .nav-links ul li a:hover, .wp-pagenavi ul li a:hover, .woocommerce nav.woocommerce-pagination ul li a:hover, header.site-header .evt-header-wrap-nav .evt-menu-toggler-manage #menu-icon.menu-toggler:hover span, ul.slick-dots li button:hover, ul.slick-dots li.slick-active button, .woocommerce span.onsale, .woocommerce .widget_price_filter .ui-slider .ui-slider-range, .woocommerce .widget_price_filter .ui-slider .ui-slider-handle, .evt-carousel.slick-slider ul.slick-dots li button:hover, .evt-carousel.slick-slider ul.slick-dots li.slick-active button, .evt-featured-item-wrap .evt-featured-item .evt-featured-icon, #evt-top-header, .evt-thumb-holder .evt-thumb-hover, #evt-team .evt-box-item-wrap .evt-box-image .evt-box-social-icons, #evt-testimonials .evt-testimonials-slider, .elementor-widget-button a.elementor-button, .elementor-widget-button .elementor-button, .elementor-slick-slider ul.slick-dots li button, .elementor-widget-icon.elementor-view-stacked .elementor-icon, body .elementor-social-icon, body .elementor-add-new-section .elementor-add-section-button {
+  background-color: #ffe501;
+}
+
+a:hover, .evt-item article .entry-title a:hover, a.readmore, .readmore, .breadcrumbs .trail-items .trail-item a, .slick-slider .slick-arrow:hover, .woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price, .woocommerce-message::before, .woocommerce-info::before, .woocommerce form .form-row .required, .evt-head-search-toggler:hover i, body.head-search-active .evt-head-search-toggler .fa-search, nav#site-navigation ul li:hover > a, nav#site-navigation ul#menu > li.current-menu-item > a, nav#site-navigation ul.nav-menu > li.current-menu-item > a, nav#site-navigation ul.menu > li.current-menu-item > a, nav#site-navigation > ul > li.current-menu-item > a, #evt-top-header .evt-head-search-toggler:hover, body.home.transparent-header:not(.small-header) nav#site-navigation ul#menu > li > a:hover, body.home.transparent-header:not(.small-header) nav#site-navigation ul.nav-menu > li > a:hover, body.home.transparent-header:not(.small-header) nav#site-navigation ul.menu > li > a:hover, body.home.transparent-header:not(.small-header) nav#site-navigation > ul > li > a:hover, body.home.transparent-header:not(.small-header) nav#site-navigation ul a:hover, body.home.transparent-header:not(.small-header) nav#site-navigation ul#menu > li.current-menu-item > a, body.home.transparent-header:not(.small-header) nav#site-navigation ul.nav-menu > li.current-menu-item > a, body.home.transparent-header:not(.small-header) nav#site-navigation ul.menu > li.current-menu-item > a, #evt-portfolio #filters button.is-checked, #evt-team .evt-box-item-wrap .evt-box-caption .evt-designation, .elementor-widget-icon-box.elementor-view-framed .elementor-icon, body .elementor-widget-heading .elementor-heading-title > a {
+  color: #ffe501;
+}
+
+/* css3 gradient */
+.css-gradient,
+.evt-banner-image.css-gradient {
+  background: black;
+  background: -moz-linear-gradient(40deg, #9a8a00 0%, #ffe501 100%);
+  background: -webkit-linear-gradient(40deg, #9a8a00 0%, #ffe501 100%);
+  background: linear-gradient(40deg, #9a8a00 0%, #ffe501 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="darken($business_child_color, 20%)",endColorstr="#ffe501",GradientType=1);
+  background-size: cover;
+  background-position: center center;
+}
+
+#evt-preloader {
+  background-color: #ffe501;
+}
+#evt-preloader #status i {
+  color: #fff;
+}
+
+#evt-testimonials.dark-background {
+  background-color: #ffe501;
+}
+#evt-testimonials .evt-img-overlay {
+  background-color: transparent;
+}
+#evt-testimonials .text-left {
+  text-align: center !important;
+}
+
+#evt-blog .evt-blog-slider .evt-box-caption {
+  border: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+#evt-banner .evt-banner-slider .evt-overlay:after,
+#evt-banner .evt-banner-slider .coin-slider:after {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+@media (min-width: 768px) {
+  #evt-banner .slick-slider.evt-banner-slider .slick-arrow {
+    display: none;
+    visibility: hidden;
+  }
+  #evt-banner .evt-banner-image .evt-banner-caption {
+    text-align: left;
+    left: 16px;
+  }
+}
+@media (max-width: 479px) {
+  #evt-banner #evt-banner .nivoSlider .nivo-caption h1, #evt-banner #evt-banner .metaslider .caption-wrap .caption h1, #evt-banner .evt-banner-image .evt-banner-caption .evt-title {
+    font-size: 24px;
+  }
+}
+@media (min-width: 576px) {
+  #evt-banner .evt-banner-image .evt-banner-caption {
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #evt-why-us .widget-title {
+    text-align: left;
+  }
+}
+
+ul#fp-menu li a span.fp-menu-text,
+ul#fp-menu li a span.fp-menu-indicator span {
+  background-color: #ffe501;
+}
+
+ul#fp-menu li a span.fp-menu-text:after {
+  border-color: transparent transparent transparent #ffe501;
+}
+
+body.home.fullpage-enabled #evt-featured .container,
+body.home.fullpage-enabled #evt-contact .container {
+  padding-top: 20px;
+  padding-bottom: 0;
+}
+
+body.home.fullpage-enabled a#moveSectionDown i {
+  font-size: 40px;
+}
+
+body.blog:not(.home) .section.img-cover {
+  background-image: none !important;
+}
+
+#evt-testimonials .evt-testimonials-slider {
+  background-color: transparent;
+}
+
+/* fixing hamberger icon, if no site title presents */
+.evt-header-row {
+  min-height: 80px;
+}
+
+.evt-mbl-menu a:hover,
+.evt-mbl-menu li:hover a,
+.evt-mbl-menu li.current-menu-item a {
+  color: #ffe501;
+}
+
+@media (min-width: 768px) {
+  body.home.fullpage-enabled.fp-viewing-section1 ul#fp-menu, body.home.fullpage-enabled.fp-viewing-section2 ul#fp-menu, body.home.fullpage-enabled.fp-viewing-section3 ul#fp-menu, body.home.fullpage-enabled.fp-viewing-section4 ul#fp-menu, body.home.fullpage-enabled.fp-viewing-section5 ul#fp-menu, body.home.fullpage-enabled.fp-viewing-section6 ul#fp-menu, body.home.fullpage-enabled.fp-viewing-section7 ul#fp-menu {
+    display: block !important;
+  }
+  body.home.fullpage-enabled.fp-viewing-section1 header.site-header#masthead, body.home.fullpage-enabled.fp-viewing-section2 header.site-header#masthead, body.home.fullpage-enabled.fp-viewing-section3 header.site-header#masthead, body.home.fullpage-enabled.fp-viewing-section4 header.site-header#masthead, body.home.fullpage-enabled.fp-viewing-section5 header.site-header#masthead, body.home.fullpage-enabled.fp-viewing-section6 header.site-header#masthead, body.home.fullpage-enabled.fp-viewing-section7 header.site-header#masthead {
+    background-color: transparent;
+  }
+}
+@media (min-width: 768px) {
+  body.home.fullpage-enabled.blog ul#fp-menu {
+    display: none !important;
+  }
+  body.home.fullpage-enabled.blog header.site-header#masthead {
+    background-color: transparent;
+  }
+}
+
+body.fp-viewing-section1 #evt-scroll-top {
+  display: none !important;
+}
+
+body.home.fullpage-enabled a.btn,
+a.btn,
+.btn,
+input[type="submit"],
+.widget_search form .search-submit {
+  color: #202020;
+}
+body.home.fullpage-enabled a.btn:hover,
+a.btn:hover,
+.btn:hover,
+input[type="submit"]:hover,
+.widget_search form .search-submit:hover {
+  color: #fff;
+}
+
+ul#fp-menu li a span.fp-menu-text {
+  color: #202020;
+}
+
+.widget_search form .search-submit:before, .evt-head-search form .search-submit:before, .pagination .nav-links a:before, .wp-pagenavi a:before, .woocommerce nav.woocommerce-pagination a:before, .pagination .nav-links span:before, .wp-pagenavi span:before, .woocommerce nav.woocommerce-pagination span:before, .btn:before, .read-more:before, .wpcf7-form .wpcf7-submit:before, .woocommerce #respond input#submit:before, .woocommerce div.product form.cart .button:before, .woocommerce #respond input#submit.alt:before, .woocommerce a.button:before, .woocommerce button.button:before, .woocommerce input.button:before, .woocommerce a.button.alt:before, .woocommerce button.button.alt:before, .woocommerce input.button.alt:before, button:before, input[type="button"]:before, input[type="reset"]:before, input[type="submit"]:before, .widget_search form .search-submit:hover, .evt-head-search form .search-submit:hover, input[type="submit"]:hover {
+  background-color: #a031d8;
+}
+
+a:hover, .evt-item article .entry-title a:hover, a.readmore, .readmore, .breadcrumbs .trail-items .trail-item a, .slick-slider .slick-arrow:hover, .woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price, .woocommerce-message::before, .woocommerce-info::before, .woocommerce form .form-row .required, .evt-head-search-toggler:hover i, body.head-search-active .evt-head-search-toggler .fa-search, nav#site-navigation ul li:hover > a, nav#site-navigation ul#menu > li.current-menu-item > a, nav#site-navigation ul.nav-menu > li.current-menu-item > a, nav#site-navigation ul.menu > li.current-menu-item > a, nav#site-navigation > ul > li.current-menu-item > a, #evt-top-header .evt-head-search-toggler:hover, body.home.transparent-header:not(.small-header) nav#site-navigation ul#menu > li > a:hover, body.home.transparent-header:not(.small-header) nav#site-navigation ul.nav-menu > li > a:hover, body.home.transparent-header:not(.small-header) nav#site-navigation ul.menu > li > a:hover, body.home.transparent-header:not(.small-header) nav#site-navigation > ul > li > a:hover, body.home.transparent-header:not(.small-header) nav#site-navigation ul a:hover, body.home.transparent-header:not(.small-header) nav#site-navigation ul#menu > li.current-menu-item > a, body.home.transparent-header:not(.small-header) nav#site-navigation ul.nav-menu > li.current-menu-item > a, body.home.transparent-header:not(.small-header) nav#site-navigation ul.menu > li.current-menu-item > a, #evt-portfolio #filters button.is-checked, #evt-team .evt-box-item-wrap .evt-box-caption .evt-designation, .elementor-widget-icon-box.elementor-view-framed .elementor-icon, body .elementor-widget-heading .elementor-heading-title > a {
+  color: #a031d8;
+}
+
+.home.fullpage-enabled a.readmore, .home.fullpage-enabled .readmore {
+  color: #fff;
+}
+
+input[type="submit"], .wpcf7-form .wpcf7-submit, .read-more {
+  color: #202020;
+}
+
+#evt-preloader {
+  background-color: #a031d8;
+}
+#evt-preloader #status i {
+  color: #fff;
+}
+
+.site-branding .site-title {
+  font-size: 40px;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.site-description {
+  font-size: 22px;
+}
+
+body.fullpage-enabled .site-description {
+  display: none;
+}
+body.fullpage-enabled.fp-viewing-section1 .site-description {
+  display: block;
+}
+
+.home.fullpage-enabled .section.css-gradient .fp-tableCell,
+.css-gradient,
+.evt-banner-image.css-gradient {
+  background: black;
+  background: -moz-linear-gradient(40deg, #45125e 0%, #a031d8 100%);
+  background: -webkit-linear-gradient(40deg, #45125e 0%, #a031d8 100%);
+  background: linear-gradient(40deg, #45125e 0%, #a031d8 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="darken($business_child_color_secondary, 30%)",endColorstr="#a031d8",GradientType=1);
+  background-size: cover;
+  background-position: center center;
+}
+
+body.custom-background .container {
+  background-color: transparent;
+}
+
+/*# sourceMappingURL=style.css.map */
