@@ -1,0 +1,690 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Seasonal v1.0.5\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-08-19 11:09+0300\n"
+"Last-Translator: admin <dyba03@yandex.ua>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ seasonal
+#: 404.php:13
+msgid "Page not found"
+msgstr "Страница не найдена"
+
+# @ seasonal
+#: 404.php:20
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Кажется, мы не можем найти то, что вы ищете?"
+
+# @ seasonal
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "По данному адресу ничего не найдено. Попробуйте воспользоваться поиском."
+
+# @ seasonal
+#: 404.php:25
+msgid "Return to the Homepage here"
+msgstr "На главную"
+
+# @ seasonal
+#: author-bio.php:24
+msgid "Published by"
+msgstr "Опубликовал:"
+
+# @ seasonal
+#: author-bio.php:29
+#, php-format
+msgid "View all posts by %s"
+msgstr "Все записи автора: %s"
+
+# @ seasonal
+#: comments.php:23
+msgid "No Comments"
+msgstr "Комментариев нет"
+
+# @ seasonal
+#: comments.php:23
+msgid " Comment "
+msgstr "Комментарий"
+
+# @ seasonal
+#: comments.php:23
+msgid " Comments "
+msgstr "Комментарии"
+
+# @ seasonal
+#: comments.php:25
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Эта запись защищена паролем. Введите пароль для просмотра комментариев."
+
+# @ seasonal
+#: comments.php:46
+msgid "Sorry, the comment form is closed at this time."
+msgstr "Извините, форма комментариев сейчас недоступна."
+
+# @ seasonal
+#: comments.php:59
+msgid "Post a Comment"
+msgstr "Оставить комментарий"
+
+# @ seasonal
+#: comments.php:60
+#, php-format
+msgid "Post a Reply to %s"
+msgstr "Написать ответ для %s"
+
+# @ seasonal
+#: comments.php:61
+msgid "Cancel Reply"
+msgstr "Отменить ответ"
+
+# @ seasonal
+#: comments.php:62
+msgid "Submit"
+msgstr "Отправить"
+
+# @ seasonal
+#: comments.php:63
+msgid "Write your comment here..."
+msgstr "Напишите свой комментарий здесь..."
+
+# @ seasonal
+#: comments.php:67
+msgid "Your full name"
+msgstr "Ваше имя"
+
+# @ seasonal
+#: comments.php:68
+msgid "E-mail address"
+msgstr "E-mail адрес"
+
+# @ seasonal
+#: comments.php:69
+msgid "Website"
+msgstr "Веб-сайт"
+
+# @ seasonal
+#: functions.php:67
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+# @ seasonal
+#: functions.php:68
+msgid "Footer Menu"
+msgstr "Меню в подвале"
+
+# @ seasonal
+#: functions.php:69
+msgid "Social Menu"
+msgstr "Социальное меню"
+
+# @ seasonal
+#: functions.php:130
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+# @ seasonal
+#: functions.php:138
+msgctxt "Playfair Display font: on or off"
+msgid "on"
+msgstr ""
+
+# @ seasonal
+#: functions.php:146
+msgctxt "Add new subset (greek, cyrillic, devanagari, vietnamese)"
+msgid "no-subset"
+msgstr ""
+
+# @ seasonal
+#: functions.php:204
+msgid "expand child menu"
+msgstr ""
+
+# @ seasonal
+#: functions.php:205
+msgid "collapse child menu"
+msgstr ""
+
+# @ seasonal
+#: header.php:24
+msgid "Skip to content"
+msgstr "Перейти к содержанию"
+
+# @ seasonal
+#: header.php:79
+msgid "Menu"
+msgstr "Меню"
+
+# @ seasonal
+#: image.php:49 inc/template-tags.php:232 template-parts/content-page.php:29
+msgid "Pages:"
+msgstr "Страницы:"
+
+# @ seasonal
+#: image.php:53 inc/template-tags.php:236
+msgid "Page"
+msgstr "Страница"
+
+# @ seasonal
+#: image.php:63
+msgid "Previous Image"
+msgstr "Предыдущее изображение"
+
+# @ seasonal
+#: image.php:64
+msgid "Next Image"
+msgstr "Следующее изображение"
+
+# @ seasonal
+#: inc/back-compat.php:35 inc/back-compat.php:45 inc/back-compat.php:58
+#, php-format
+msgid "Seasonal requires at least WordPress version 4.1. You are running version %s. Please upgrade and try again."
+msgstr ""
+
+# @ seasonal
+#: inc/comment-layout.php:21
+msgid "at"
+msgstr "в"
+
+# @ seasonal
+#: inc/comment-layout.php:31
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации."
+
+# @ seasonal
+#: inc/customizer.php:14
+msgid "Header Logo"
+msgstr "Логотип"
+
+# @ seasonal
+#: inc/customizer.php:15
+msgid "Sidebar Background Image"
+msgstr "Фон боковой панели"
+
+# @ seasonal
+#: inc/customizer.php:16
+msgid "Sidebar Background Colour without Background Image)"
+msgstr "Боковая панель (цвет фона без фонового изображения)"
+
+# @ seasonal
+#: inc/customizer.php:30
+msgid "Show Site Title"
+msgstr "Показать название сайта"
+
+# @ seasonal
+#: inc/customizer.php:44
+msgid "Show Tagline"
+msgstr "Показать подзаголовок"
+
+# @ seasonal
+#: inc/customizer.php:53
+msgid "Blog Options"
+msgstr "Настройки блога"
+
+# @ seasonal
+#: inc/customizer.php:65
+msgid "Blog Style"
+msgstr "Стиль блога"
+
+# @ seasonal
+#: inc/customizer.php:69
+msgid "Blog Full Style"
+msgstr "Блог на всю ширину"
+
+# @ seasonal
+#: inc/customizer.php:70
+msgid "Blog Small Style"
+msgstr "Блог в коробке"
+
+# @ seasonal
+#: inc/customizer.php:80
+msgid "Blog Home Alignment"
+msgstr "Выравнивание"
+
+# @ seasonal
+#: inc/customizer.php:84 inc/customizer.php:599
+msgid "Left"
+msgstr "Слева"
+
+# @ seasonal
+#: inc/customizer.php:85 inc/customizer.php:600
+msgid "Centered"
+msgstr "По центру"
+
+# @ seasonal
+#: inc/customizer.php:97
+msgid "Show Edit Link"
+msgstr "Показывать название ссылок"
+
+# @ seasonal
+#: inc/customizer.php:110
+msgid "Show Categories in Summary"
+msgstr "Показать рубрики"
+
+# @ seasonal
+#: inc/customizer.php:124
+msgid "Show Categories on Full Post"
+msgstr "Показать рубрики"
+
+# @ seasonal
+#: inc/customizer.php:138
+msgid "Show Posted Date"
+msgstr "Дата размещения"
+
+# @ seasonal
+#: inc/customizer.php:152
+msgid "Show Tags"
+msgstr "Показать метки"
+
+# @ seasonal
+#: inc/customizer.php:166
+msgid "Show Featured Image on Full Post"
+msgstr "Показать избранные изображения в посте"
+
+# @ seasonal
+#: inc/customizer.php:180
+msgid "Show Post Author"
+msgstr "Показать автора публикации"
+
+# @ seasonal
+#: inc/customizer.php:189
+msgid "Other Options"
+msgstr "Другие опции"
+
+# @ seasonal
+#: inc/customizer.php:200
+msgid "Sidebar Width in Percent"
+msgstr "Боковая панель - ширина в процентах"
+
+# @ seasonal
+#: inc/customizer.php:203
+msgid "Default: 33"
+msgstr "По умолчанию: 33"
+
+# @ seasonal
+#: inc/customizer.php:216
+msgid "Fluid Content Width"
+msgstr "Ширина контента"
+
+# @ seasonal
+#: inc/customizer.php:227
+msgid "Your Copyright Name"
+msgstr "Копирайт"
+
+# @ seasonal
+#: inc/customizer.php:245
+msgid "Background Size"
+msgstr "Размер фона"
+
+# @ seasonal
+#: inc/customizer.php:248
+msgid "Auto"
+msgstr "Авто"
+
+# @ seasonal
+#: inc/customizer.php:249
+msgid "Cover"
+msgstr "Обложка"
+
+# @ seasonal
+#: inc/customizer.php:250
+msgid "Contain"
+msgstr "Вместить"
+
+# @ seasonal
+#: inc/customizer.php:263
+msgid "Background Overlay Opacity"
+msgstr "Прозрачность фона"
+
+# @ seasonal
+#: inc/customizer.php:281
+msgid "Site Title Colour"
+msgstr "Цвет названия сайта"
+
+# @ seasonal
+#: inc/customizer.php:294
+msgid "Site Tagline Colour"
+msgstr "Цвет подзаголовка сайта"
+
+# @ seasonal
+#: inc/customizer.php:306
+msgid "Link color"
+msgstr "Цвет ссылок"
+
+# @ seasonal
+#: inc/customizer.php:319
+msgid "Link colour on hover"
+msgstr "Цвет ссылки при наведении"
+
+# @ seasonal
+#: inc/customizer.php:332
+msgid "Sidebar Social Background"
+msgstr "Фон социальных кнопок"
+
+# @ seasonal
+#: inc/customizer.php:345
+msgid "Sidebar Social Icon"
+msgstr "Социальные иконки"
+
+# @ seasonal
+#: inc/customizer.php:358
+msgid "Sidebar Social Background Hover"
+msgstr "Фон социальных кнопок при наведении"
+
+# @ seasonal
+#: inc/customizer.php:371
+msgid "Sidebar Social Icon Hover"
+msgstr "Социальные кнопки при наведении"
+
+# @ seasonal
+#: inc/customizer.php:384
+msgid "Mobile Menu Button Border"
+msgstr "Цвет границы мобильного меню"
+
+# @ seasonal
+#: inc/customizer.php:397
+msgid "Mobile Menu Button Text"
+msgstr "Текст, который используется для первичного текста кнопки"
+
+# @ seasonal
+#: inc/customizer.php:410
+msgid "Mobile Menu Button Border on Hover"
+msgstr "Граница кнопки при наведении"
+
+# @ seasonal
+#: inc/customizer.php:422
+msgid "Mobile Menu Button Text on Hover"
+msgstr "Цвет текста кнопки при наведении"
+
+# @ seasonal
+#: inc/customizer.php:435
+msgid "Button background"
+msgstr "Фон кнопки"
+
+# @ seasonal
+#: inc/customizer.php:448
+msgid "Button background on hover"
+msgstr "Цвет фона кнопки при наведении"
+
+# @ seasonal
+#: inc/customizer.php:462
+msgid "Button Text color"
+msgstr "Цвет текста кнопки"
+
+# @ seasonal
+#: inc/customizer.php:475
+msgid "Button Text on Hover"
+msgstr "Цвет текста кнопки при наведении"
+
+# @ seasonal
+#: inc/customizer.php:488
+msgid "Headings &amp; Titles Colour"
+msgstr "Цвет заголовка"
+
+# @ seasonal
+#: inc/customizer.php:500
+msgid "SubTitle Colour"
+msgstr "Цвет подзаголовка"
+
+# @ seasonal
+#: inc/customizer.php:513
+msgid "Pagination Background"
+msgstr "Цвет фона пагинации"
+
+# @ seasonal
+#: inc/customizer.php:526
+msgid "Pagination Text Colour"
+msgstr "Цвет текста пагинации"
+
+# @ seasonal
+#: inc/customizer.php:539
+msgid "Pagination Current &amp; Hover Background"
+msgstr "Цвет фона пагинации при наведении"
+
+# @ seasonal
+#: inc/customizer.php:552
+msgid "Pagination Current &amp; Hover Text"
+msgstr "Цвет текста пагинации при наведении"
+
+# @ seasonal
+#: inc/customizer.php:565
+msgid "Main Menu Link Colour"
+msgstr "Цвет ссылок основного меню"
+
+# @ seasonal
+#: inc/customizer.php:578
+msgid "Main Menu Active/Hover Text Colour"
+msgstr "Цвет ссылок основного меню при наведении"
+
+# @ seasonal
+#: inc/customizer.php:613
+msgid "Blog Full"
+msgstr "Блог на всю ширину"
+
+# @ seasonal
+#: inc/customizer.php:614
+msgid "Blog Small"
+msgstr "Блог в коробке"
+
+# @ seasonal
+#: inc/extras.php:57
+#, php-format
+msgid "Page %s"
+msgstr "Страница %s"
+
+# @ seasonal
+#: inc/extras.php:94 inc/extras.php:139
+msgid "Continue Reading"
+msgstr "Читать полностью"
+
+# @ seasonal
+#: inc/sidebars.php:16
+msgid "Bottom 1"
+msgstr "Нижний сайдбар 1"
+
+# @ seasonal
+#: inc/sidebars.php:18
+msgid "This is the first bottom sidebar position located above the footer."
+msgstr "Первый сайдбар футтера"
+
+# @ seasonal
+#: inc/sidebars.php:25
+msgid "Bottom 2"
+msgstr "Нижний сайдбар 2"
+
+# @ seasonal
+#: inc/sidebars.php:27
+msgid "This is the second featured bottom sidebar position located above the footer."
+msgstr "Второй сайдбар футтера"
+
+# @ seasonal
+#: inc/sidebars.php:34
+msgid "Bottom 3"
+msgstr "Нижний сайдбар 3"
+
+# @ seasonal
+#: inc/sidebars.php:36
+msgid "This is the third featured bottom sidebar position located above the footer."
+msgstr "Третий сайдбар футтера"
+
+# @ seasonal
+#: inc/sidebars.php:43
+msgid "Bottom 4"
+msgstr "Нижний сайдбар 4"
+
+# @ seasonal
+#: inc/sidebars.php:45
+msgid "This is the fourth featured bottom sidebar position located above the footer."
+msgstr "Четвертый сайдбар футтера"
+
+# @ seasonal
+#: inc/sidebars.php:52
+msgid "Banner"
+msgstr "Банер"
+
+# @ seasonal
+#: inc/sidebars.php:54
+msgid "Page banner position."
+msgstr "Расположение баннера"
+
+# @ seasonal
+#: inc/template-tags.php:23
+msgid "Featured"
+msgstr "Избранное"
+
+# @ seasonal
+#: inc/template-tags.php:30 inc/template-tags.php:37
+msgid "Untitled"
+msgstr "Без названия"
+
+# @ seasonal
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#: inc/template-tags.php:55 template-parts/content.php:34
+#, php-format
+msgid "Continue reading %s"
+msgstr "Читать далее %s"
+
+# @ seasonal
+#: inc/template-tags.php:100
+msgctxt "Used before publish date."
+msgid "Posted on"
+msgstr "Опубликовано:"
+
+# @ seasonal
+#: inc/template-tags.php:106
+msgctxt "Used before post author name."
+msgid "Author"
+msgstr "Автор:"
+
+# @ seasonal
+#: inc/template-tags.php:114 template-parts/content-page.php:17
+msgid "Edit this Post"
+msgstr "Изменить"
+
+# @ seasonal
+#: inc/template-tags.php:142 inc/template-tags.php:160
+msgctxt "Used between list items, there is a space after the comma."
+msgid ", "
+msgstr ""
+
+# @ seasonal
+#: inc/template-tags.php:145
+msgctxt "Used before category names."
+msgid "Categories:"
+msgstr "Рубрики:"
+
+# @ seasonal
+#: inc/template-tags.php:163
+msgctxt "Used before tag names."
+msgid "Tags:"
+msgstr "Метки:"
+
+# @ seasonal
+#: inc/template-tags.php:196
+msgid "Prev"
+msgstr "Назад"
+
+# @ seasonal
+#: inc/template-tags.php:197
+msgid "Next"
+msgstr "Вперед"
+
+# @ seasonal
+#: inc/template-tags.php:212
+msgid "Next Article"
+msgstr "Следующая запись"
+
+# @ seasonal
+#: inc/template-tags.php:213
+msgid "Next Article:"
+msgstr "Следующая статья:"
+
+# @ seasonal
+#: inc/template-tags.php:216
+msgid "Previous Article"
+msgstr "Предыдущая запись"
+
+# @ seasonal
+#: inc/template-tags.php:217
+msgid "Previous Article:"
+msgstr "Предыдущая статья:"
+
+# @ seasonal
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+# @ seasonal
+#: searchform.php:10
+msgctxt "label"
+msgid "Search for:"
+msgstr "Поиск"
+
+# @ seasonal
+#: searchform.php:14
+msgctxt "submit button"
+msgid "Find"
+msgstr "Искать"
+
+# @ seasonal
+#: template-parts/content-aside.php:21 template-parts/content-gallery.php:19
+#: template-parts/content-image.php:19 template-parts/content-link.php:23
+#: template-parts/content-quote.php:23 template-parts/content-status.php:23
+#: template-parts/content-video.php:19
+msgctxt "Used before post format."
+msgid "Format"
+msgstr "Формат"
+
+# @ seasonal
+#. translators: %s: Name of current post
+#: template-parts/content-gallery.php:40 template-parts/content-image.php:40
+#: template-parts/content-video.php:40
+#, php-format
+msgid "See More %s"
+msgstr "Смотреть еще %s"
+
+# @ seasonal
+#: template-parts/content-none.php:11
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+# @ twentyfifteen
+#: template-parts/content-none.php:18
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свою запись? <a href=\"%1$s\">Начните сейчас</a>"
+
+# @ seasonal
+#: template-parts/content-none.php:22
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, по вашему запросу ничего не найдено. Попробуйте другие ключевые слова."
+
+# @ seasonal
+#: template-parts/content-none.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Нам не удалось найти то, что вы ищите. Попробуйте воспользоваться поиском."
+
+# @ seasonal
+#: template-parts/site-footer.php:24
+msgid "Copyright &copy;"
+msgstr "&copy;"
+
+# @ seasonal
+#: template-parts/site-footer.php:25
+msgid "All rights reserved."
+msgstr "Все права защищены."

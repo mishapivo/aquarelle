@@ -1,0 +1,1113 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Oxane v10.98\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2016-10-19 16:58+0300\n"
+"Last-Translator: Игорь <dybabiz@ya.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.10\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ oxane
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ой! Это страница не может быть найдена."
+
+# @ oxane
+#: 404.php:19
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Ничего не было найдено. Может попробовать одну из следующих ссылок или новый поиск?"
+
+# @ oxane
+#: 404.php:27
+msgid "Most Used Categories"
+msgstr "Популярные категории"
+
+# @ oxane
+#. translators: %1$s: smiley
+#: 404.php:44
+#, php-format
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Поищите в месячных архивах. %1$s"
+
+# @ oxane
+#: comments.php:28
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "Один комментарий для &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s комментариев для &ldquo;%2$s&rdquo;"
+
+# @ oxane
+#: comments.php:35 comments.php:53
+msgid "Comment navigation"
+msgstr "Навигация по комментариям"
+
+# @ oxane
+#: comments.php:36 comments.php:54
+msgid "&larr; Older Comments"
+msgstr "&larr; Старые комментарии"
+
+# @ oxane
+#: comments.php:37 comments.php:55
+msgid "Newer Comments &rarr;"
+msgstr "Новые комментарии &larr;"
+
+# @ oxane
+#: comments.php:65
+msgid "Comments are closed."
+msgstr "Комментарии отключены."
+
+# @ oxane
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Найдено ничего"
+
+# @ oxane
+#: content-none.php:19
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать свою первую запись? <a href=\"%1$s\">Начните здесь</a>."
+
+# @ oxane
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Извините, но ничего не найдено по условиям поиска. Попробуйте использовать другие ключевые слова."
+
+# @ oxane
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Кажется, мы не можем найти то, что Вы ищете. Попробуйте воспользоваться поиском по сайту."
+
+# @ oxane
+#: content-page.php:18 content-single.php:28 content.php:29
+msgid "Pages:"
+msgstr "Страницы:"
+
+# @ oxane
+#: content-page.php:25 inc/template-tags.php:91 inc/template-tags.php:139
+#: inc/template-tags.php:175
+msgid "Edit"
+msgstr "Редактировать"
+
+# @ oxane
+#. translators: %s: Name of current post
+#: content.php:22
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Подробнее %s <span class=\"meta-nav\">&rarr;</span>"
+
+# @ oxane
+#: featured-posts.php:5
+msgid "Featured Articles"
+msgstr "Главные новости"
+
+# @ oxane
+#: footer.php:19
+msgid "Y"
+msgstr ""
+
+# @ oxane
+#: footer.php:19
+msgid ". All Rights Reserved. "
+msgstr ". Все права защищены."
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:327
+msgid "Install Required Plugins"
+msgstr "Установить дополнительные плагины"
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:328
+msgid "Install Plugins"
+msgstr "Установка плагинов"
+
+# @ oxane
+#. translators: %s: plugin name.
+#: framework/class-tgm-plugin-activation.php:330
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Установка плагина: %s"
+
+# @ oxane
+#. translators: %s: plugin name.
+#: framework/class-tgm-plugin-activation.php:332
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Обновление плагинов: %s"
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:333
+msgid "Something went wrong with the plugin API."
+msgstr "Что-то пошло не так с API плагина."
+
+# @ oxane
+#. translators: 1: plugin name(s).
+#: framework/class-tgm-plugin-activation.php:336
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ oxane
+#. translators: 1: plugin name(s).
+#: framework/class-tgm-plugin-activation.php:342
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ oxane
+#. translators: 1: plugin name(s).
+#: framework/class-tgm-plugin-activation.php:348
+#, php-format
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ oxane
+#. translators: 1: plugin name(s).
+#: framework/class-tgm-plugin-activation.php:354
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ oxane
+#. translators: 1: plugin name(s).
+#: framework/class-tgm-plugin-activation.php:360
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ oxane
+#. translators: 1: plugin name(s).
+#: framework/class-tgm-plugin-activation.php:366
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:371
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:376
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:381
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:385
+msgid "Return to Required Plugins Installer"
+msgstr "Вернутся к установке необходимых плагинов"
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:386
+#: framework/class-tgm-plugin-activation.php:827
+#: framework/class-tgm-plugin-activation.php:2533
+#: framework/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "Вернуться в консоль"
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:387
+#: framework/class-tgm-plugin-activation.php:3159
+msgid "Plugin activated successfully."
+msgstr "Плагин успешно активирован."
+
+# @ oxane
+#. translators: 1: plugin name.
+#: framework/class-tgm-plugin-activation.php:390
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Действия не выполненны. Плагин %1$s уже активен."
+
+# @ oxane
+#. translators: 1: plugin name.
+#: framework/class-tgm-plugin-activation.php:392
+#, php-format
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "Плагин не активен. Для этой темы нужна версия выше %s. Пожалуйста, обновите плагин"
+
+# @ oxane
+#. translators: 1: dashboard link.
+#: framework/class-tgm-plugin-activation.php:394
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "все плагины успешно установлены  и активированы. %1$s"
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "Игнорировать это уведомление"
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "Один или несколько важных плагинов необходимо установить, обновить или активировать."
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:397
+msgid "Please contact the administrator of this site for help."
+msgstr "Пожалуйста, обратитесь к администратору сайта за помощью."
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Этот плагин должен быть обновлен, чтобы быть совместимым с вашей темой."
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Требуется обновление"
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "Пакет удаленного плагина не содержит папку с необходимым и переименование не работает."
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:934
+#: framework/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Пожалуйста, свяжитесь с поставщиком плагина и попросить их упаковать плагин в соответствии с правилами для WordPress."
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "Удаленный пакет плагинов состоит из более чем одного файла, но файлы не упакованы в папку."
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:1121
+#: framework/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "и"
+
+# @ oxane
+#. translators: %s: version number
+#: framework/class-tgm-plugin-activation.php:1982
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "Обязательно"
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "Рекомендуемое"
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr ""
+
+# @ oxane
+#. translators: 1: install status, 2: update status
+#: framework/class-tgm-plugin-activation.php:2342
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+# @ oxane
+#. translators: 1: number of plugins.
+#: framework/class-tgm-plugin-activation.php:2388
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ oxane
+#. translators: 1: number of plugins.
+#: framework/class-tgm-plugin-activation.php:2392
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ oxane
+#. translators: 1: number of plugins.
+#: framework/class-tgm-plugin-activation.php:2396
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ oxane
+#. translators: 1: number of plugins.
+#: framework/class-tgm-plugin-activation.php:2400
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr ""
+
+# @ oxane
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/class-tgm-plugin-activation.php:2603
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+# @ oxane
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/class-tgm-plugin-activation.php:2608
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+# @ oxane
+#. translators: %2$s: plugin name in screen reader markup
+#: framework/class-tgm-plugin-activation.php:2614
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+# @ oxane
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: framework/class-tgm-plugin-activation.php:2952
+#: framework/class-tgm-plugin-activation.php:388
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr ""
+
+# @ oxane
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/class-tgm-plugin-activation.php:3498
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ oxane
+#. translators: 1: plugin name, 2: error message.
+#: framework/class-tgm-plugin-activation.php:3501
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+# @ oxane
+#. translators: 1: plugin name.
+#: framework/class-tgm-plugin-activation.php:3503
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+# @ oxane
+#. translators: 1: plugin name.
+#: framework/class-tgm-plugin-activation.php:3509
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:3509
+#: framework/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:3509
+#: framework/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr ""
+
+# @ oxane
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/class-tgm-plugin-activation.php:3512
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+# @ oxane
+#. translators: 1: plugin name.
+#: framework/class-tgm-plugin-activation.php:3517
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+# @ oxane
+#: framework/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr ""
+
+# @ oxane
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: framework/class-tgm-plugin-activation.php:3520
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ oxane
+#: framework/layouts/content-grid.php:22
+#: framework/layouts/content-grid_2_column.php:22
+#: framework/layouts/content-grid_3_column.php:22
+msgid "Read More"
+msgstr "Подробнее"
+
+# @ oxane
+#: framework/tgmpa.php:47
+msgid "RT Slider for Oxane Theme"
+msgstr ""
+
+# @ oxane
+#. translators: 1: plugin name(s).
+#: framework/tgmpa.php:74
+#, php-format
+msgid "To use a Slider with Oxane Theme, we recommend you to install and activate the following Plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+# @ oxane
+#: framework/theme-functions.php:83
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Выбрать &mdash;"
+
+# @ oxane
+#: framework/widgets/recent-posts.php:13
+msgid "Oxane Recent Posts with Thumbnails"
+msgstr "Последние сообщения Oxane с эскизами"
+
+# @ oxane
+#: framework/widgets/recent-posts.php:14
+msgid "Display your recent posts, with a Thumbnail."
+msgstr "Отображать последние записи с миниатюрами"
+
+# @ oxane
+#: framework/widgets/recent-posts.php:23
+msgid "Latest Posts"
+msgstr "Последние записи"
+
+# @ oxane
+#: framework/widgets/recent-posts.php:60
+msgid "M j, Y"
+msgstr ""
+
+# @ oxane
+#: framework/widgets/recent-posts.php:68
+msgid "Oops, there are no posts."
+msgstr "К сожалению, нет записей."
+
+# @ oxane
+#: framework/widgets/recent-posts.php:85
+msgid "Latest Articles"
+msgstr "Последние статьи"
+
+# @ oxane
+#: framework/widgets/recent-posts.php:91
+msgid "5"
+msgstr ""
+
+# @ oxane
+#: framework/widgets/recent-posts.php:95
+msgid "Title:"
+msgstr "Заголовок:"
+
+# @ oxane
+#: framework/widgets/recent-posts.php:98
+msgid "No. of Posts:"
+msgstr "Количество записей:"
+
+# @ oxane
+#: functions.php:62
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+# @ oxane
+#: functions.php:63
+msgid "Top Menu"
+msgstr "Верхнее Меню"
+
+# @ oxane
+#: functions.php:96
+msgid "Sidebar"
+msgstr ""
+
+# @ oxane
+#: functions.php:106
+msgid "Footer 1"
+msgstr ""
+
+# @ oxane
+#: functions.php:115
+msgid "Footer 2"
+msgstr ""
+
+# @ oxane
+#: functions.php:124
+msgid "Footer 3"
+msgstr ""
+
+# @ oxane
+#: header.php:22
+msgid "Skip to content"
+msgstr "Наверх"
+
+# @ oxane
+#: inc/customizer.php:20
+msgid "Title, Tagline & Logo"
+msgstr "Название, Слоган и логотип"
+
+# @ oxane
+#: inc/customizer.php:32
+msgid "Resize & Adjust Logo"
+msgstr "Изменение размера & настроить логотип"
+
+# @ oxane
+#: inc/customizer.php:65
+msgid "Site Title Color"
+msgstr "Цвет заголовка сайта"
+
+# @ oxane
+#: inc/customizer.php:80
+msgid "Site Tagline Color"
+msgstr "Цвет описания сайта"
+
+# @ oxane
+#: inc/customizer.php:103
+msgid "Header Image Arrangement"
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:108
+msgid "Contain"
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:109
+msgid "Cover Completely (Recommended)"
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:128
+msgid "Header Image Alignment"
+msgstr "Выровнять изображение заголовка"
+
+# @ oxane
+#: inc/customizer.php:133
+msgid "Center"
+msgstr "По центру"
+
+# @ oxane
+#: inc/customizer.php:134
+msgid "Left"
+msgstr "Слева"
+
+# @ oxane
+#: inc/customizer.php:135
+msgid "Right"
+msgstr "Справа"
+
+# @ oxane
+#: inc/customizer.php:146
+msgid "Repeat Header Image"
+msgstr "Повтор изображения заголоовка"
+
+# @ oxane
+#: inc/customizer.php:163
+msgid "Hide Title and Tagline."
+msgstr "Скрыть название и слоган"
+
+# @ oxane
+#: inc/customizer.php:177
+msgid "Display Site Title and Tagline Below the Logo."
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:194
+msgid "Featured Posts Slider"
+msgstr "Слайдер рекомендуемых записей"
+
+# @ oxane
+#: inc/customizer.php:207 inc/customizer.php:267
+msgid "Enable"
+msgstr "Включить"
+
+# @ oxane
+#: inc/customizer.php:222 inc/customizer.php:282 inc/customizer.php:562
+msgid "Title"
+msgstr "Заголовок "
+
+# @ oxane
+#: inc/customizer.php:241
+msgid "Category For Featured Posts Slider"
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:254
+msgid "Featured Posts"
+msgstr "Лучшие записи"
+
+# @ oxane
+#: inc/customizer.php:301
+msgid "Category For Featured Posts"
+msgstr "Рубрики для популярных записей"
+
+# @ oxane
+#: inc/customizer.php:316
+msgid "Max No. of Rows."
+msgstr "Макс число строк"
+
+# @ oxane
+#: inc/customizer.php:328
+msgid "Design & Layout"
+msgstr "Дизайн и Расположение"
+
+# @ oxane
+#: inc/customizer.php:334
+msgid "Blog Layout"
+msgstr "Расположение блога"
+
+# @ oxane
+#: inc/customizer.php:355
+msgid "Select Layout"
+msgstr "Выбрать Расположение"
+
+# @ oxane
+#: inc/customizer.php:360
+msgid "Oxane Theme Layout"
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:361
+msgid "Basic Blog Layout"
+msgstr "Основной макет блога"
+
+# @ oxane
+#: inc/customizer.php:362
+msgid "Grid - 2 Column"
+msgstr "Сетка  - 2 колонки"
+
+# @ oxane
+#: inc/customizer.php:363
+msgid "Grid - 3 Column"
+msgstr "Сетка - 3 колонки"
+
+# @ oxane
+#: inc/customizer.php:372
+msgid "Sidebar Layout"
+msgstr "Расположение Сайдбара"
+
+# @ oxane
+#: inc/customizer.php:386
+msgid "Disable Sidebar Everywhere."
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:401
+msgid "Disable Sidebar on Home/Blog."
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:417
+msgid "Disable Sidebar on Front Page."
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:436
+msgid "Sidebar Width"
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:437
+msgid "Min: 25%, Default: 33%, Max: 40%"
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:475
+msgid "Custom CSS"
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:476
+msgid "Enter your Custom CSS to Modify design."
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:510
+msgid "Custom Footer Text"
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:511
+msgid "Enter your Own Copyright Text."
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:537
+msgid "Google Web Fonts"
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:578
+msgid "Body"
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:588
+msgid "Social Icons"
+msgstr "Иконки соц. сетей"
+
+# @ oxane
+#: inc/customizer.php:593
+msgid "-"
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:594
+msgid "Facebook"
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:595
+msgid "Twitter"
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:596
+msgid "Google Plus"
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:597
+msgid "Instagram"
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:598
+msgid "RSS Feeds"
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:599
+msgid "Vine"
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:600
+msgid "Vimeo"
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:601
+msgid "Youtube"
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:602
+msgid "Flickr"
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:617 inc/customizer.php:630
+msgid "Icon "
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:630
+msgid " Url"
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:660
+msgid "Oxane - Help & Support"
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:675
+msgid "WordPress Support Forums"
+msgstr ""
+
+# @ oxane
+#: inc/customizer.php:676
+msgid "Visit the Official WordPress Support Forums for Help related to this theme. <a href=\"https://wordpress.org/support/theme/oxane\">Upgrade to Pro</a>."
+msgstr ""
+
+# @ oxane
+#: inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr " %s"
+
+# @ oxane
+#: inc/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "- %s"
+
+# @ oxane
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:73 inc/template-tags.php:79
+msgid ", "
+msgstr ""
+
+# @ oxane
+#: inc/template-tags.php:75
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Категории: %1$s"
+
+# @ oxane
+#: inc/template-tags.php:81
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Метки: %1$s"
+
+# @ oxane
+#: inc/template-tags.php:87
+msgid "Leave a comment"
+msgstr "Комментировать"
+
+# @ oxane
+#: inc/template-tags.php:87
+msgid "1 Comment"
+msgstr "1 Комментарий"
+
+# @ oxane
+#: inc/template-tags.php:87
+msgid "% Comments"
+msgstr "% Комментариев"
+
+# @ oxane
+#: inc/template-tags.php:139
+msgid "Pingback:"
+msgstr ""
+
+# @ oxane
+#: inc/template-tags.php:154
+#, php-format
+msgctxt "1: date"
+msgid "%1$s"
+msgstr ""
+
+# @ oxane
+#: inc/template-tags.php:160
+msgid "Your comment is awaiting moderation."
+msgstr "Спасибо! Ваш комментарий ожидает проверки."
+
+# @ oxane
+#: index.php:18
+msgid "From the Blog"
+msgstr "Из блога"
+
+# @ oxane
+#: search.php:12
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+# @ oxane
+#: searchform-top.php:3 searchform-top.php:4
+msgctxt "label"
+msgid "Search for:"
+msgstr "Поиск для:"
+
+# @ oxane
+#: searchform-top.php:4
+msgctxt "placeholder"
+msgid "Search..."
+msgstr "Искать..."

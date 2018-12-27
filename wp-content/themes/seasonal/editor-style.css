@@ -1,0 +1,279 @@
+/* Editor CSS Document */
+body {
+	font-family: "Open Sans",Helvetica,Arial,sans-serif;
+	font-size: 0.875rem;
+	line-height: 1.65;
+	color: #616161;
+	font-weight: 400;
+	background-color: #ffffff;
+}
+
+img {
+	-ms-interpolation-mode: bicubic;
+	border: 0;
+	height: auto;
+	max-width: 100%;
+	vertical-align: middle;
+}
+.alignleft {
+	display: inline;
+	float: left;
+	margin-right: 4%;
+}
+
+.alignright {
+	display: inline;
+	float: right;
+	margin-left: 4%;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+}
+.pull-right {
+  float: right;
+}
+.pull-left {
+  float: left;
+}
+blockquote.alignleft,
+.wp-caption.alignleft,
+img.alignleft {
+	margin: 0.5% 4% 1% 0;
+}
+
+blockquote.alignright,
+.wp-caption.alignright,
+img.alignright {
+	margin: 0.5% 0 1% 4%;
+}
+
+blockquote.aligncenter,
+.wp-caption.aligncenter,
+img.aligncenter {
+	clear: both;
+  	margin: 0.5% auto 3%;
+}
+
+.wp-caption.alignleft,
+.wp-caption.alignright,
+.wp-caption.aligncenter {
+	margin-bottom: 3%;
+}
+
+a,
+a:visited {
+  color: #7599c5;
+  text-decoration: none;
+}
+a:hover,
+a:focus,
+a:active {
+  color: #424242;
+  text-decoration: none;
+  outline: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Playfair Display", sans-serif;
+	color: #424242;
+	font-weight: 400;
+	line-height: 1.2;
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 2rem;
+}
+h2 {
+	font-size: 1.75rem;
+}
+h3 {
+	font-size: 1.5rem;
+}
+h4 {
+	font-size: 1.25rem;
+}
+h5 {
+	font-size: 1rem;
+}
+h6 {
+	font-size: 0.875rem;
+}
+p {
+  margin: 0 0 1.5rem;
+}
+
+/* content titles */
+.title {
+	margin: 0;
+}
+.subtitle {
+  margin: 8px 0 24px;
+  letter-spacing: 0;
+  font-weight: 400;
+  font-style: italic;
+  text-transform: none;
+  color: #222222;
+}
+
+
+h1.title {}
+h2.title {}
+h3.title {}
+
+h2.subtitle {
+	font-size: 1.5rem;
+}
+h3.subtitle {
+	font-size: 1.313rem;
+}
+h4.subtitle {
+	font-size: 1.25rem;
+}
+
+
+blockquote {
+	border-left: 3px solid #838588;
+	margin: 30px;
+	padding: 0 0 0 20px;
+	font-size: 1rem;
+	font-style: italic;
+}
+blockquote p {
+	margin: 0;
+}
+
+abbr[title],
+abbr[data-original-title] {
+  cursor: help;
+  border-bottom: 1px dotted #777777;
+}
+dfn,
+cite,
+em,
+i {
+	font-style: italic;
+}
+
+
+address {
+  margin-bottom: 22px;
+  font-style: normal;
+  line-height: 1.42857143;
+}
+pre,
+code {
+	background: #eee;
+	font-family: Courier, monospace;
+	border: 1px solid #d6d6d6;	
+}
+pre {
+	font-size: 0.9375rem;
+	line-height: 1.2;
+	margin-bottom: 1.6em;
+	max-width: 100%;
+	overflow: auto;
+	padding: 20px;
+}
+code {
+	padding: 0 8px;
+	color: #bc7204;
+}
+
+kbd,
+tt,
+var {
+	font-family: Monaco, Consolas, monospace;
+	font-size: 0.9375rem;
+}
+
+abbr,
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+
+mark,
+ins {
+	background: #fff9c0;
+	text-decoration: none;
+}
+
+/* Horizontal rules and dividers */
+hr {
+	background-color: #ccc;
+	border: 0;
+	height: 1px;
+	margin-bottom: 1.5em;	
+}
+
+/* Buttons */
+.btn {
+	font-weight: 300;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	text-align: center;
+	vertical-align: middle;
+	background-image: none;
+	background-color: #838588;
+	color: #fff;
+	white-space: nowrap;
+	font-size: 0.875rem;
+	line-height: 1.42857143;
+	border: 1px solid transparent;  
+	padding: 6px 16px;
+}
+.btn {
+  display: inline-block;
+  margin-bottom: 0;  
+  -ms-touch-action: manipulation;
+      touch-action: manipulation;
+  cursor: pointer;  
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: thin dotted;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.btn:hover{
+	background-color: #6a6c6f;
+  color: #ffffff;
+  text-decoration: none;
+}
+.btn:active,
+.btn.active {
+  outline: 0;
+  background-image: none;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+.btn-lg {
+  padding: 10px 24px;
+  font-size: 1.25rem;
+  line-height: 1.3333333;
+}
+.btn-sm {
+  padding: 5px 14px;
+  font-size: 0.813rem;
+  line-height: 1.5;
+}
+.btn-xs {
+  padding: 4px 12px;
+  font-size: 0.688rem;
+  line-height: 1.25;
+}

@@ -1,0 +1,72 @@
+**** Seasonal ****
+
+License: GNU General Public License v3 or later
+License URI: https://www.gnu.org/copyleft/gpl.html
+
+The Seasonal theme was based partially on the design aspects of the WordPress Twenty Fifteen theme.
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+
+**** Preloader ****
+
+The MIT License (MIT)
+
+Copyright (c) 2014 Tobias Ahlin
+http://tobiasahlin.com/spinkit/
+
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+**** Bootstrap ****
+
+Bootstrap v3.3.4 (http://getbootstrap.com)
+Copyright 2011-2015 Twitter, Inc.
+Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+
+
+**** Normalize CSS ****
+
+normalize.css v3.0.2 | MIT License | git.io/normalize
+
+
+**** Font Icons ****
+
+Genericons is distributed under the terms of the GNU GPL v2 or later.
+https://www.gnu.org/licenses/gpl-2.0.html
+
+
+**** Fonts ****
+
+Open Sans: Steve Matteson
+https://www.google.com/fonts/specimen/Open+Sans
+License: http://www.apache.org/licenses/LICENSE-2.0.html
+
+PlayFair Display: Claus Eggers Sørensen
+https://www.google.com/fonts/specimen/Playfair+Display
+Copyright (c) 2010-2012 by Claus Eggers Sørensen (es@forthehearts.net)
+License: http://scripts.sil.org/OFL
+
+
+**** Photos ****
+
+Sidebar Default Image: http://commons.wikimedia.org/wiki/File:Lajedo_de_Pai_Mateus_-_PB_2.jpg
+Special thanks for the hard work and amazing photography from Ruy Carvalho
+Author: Ruy Carvalho  http://www.ForestWander.com
+License: Creative Commons and the authors own permissions: https://creativecommons.org/licenses/by-sa/3.0/deed.en

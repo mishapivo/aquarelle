@@ -1,0 +1,154 @@
+/* CSS Document */
+
+.widget-area .widget select {
+	width: 100%;
+	padding: 6px 0 4px 8px;
+}
+.comments-area #respond{
+	padding: 20px 0;
+}
+.entry-title a {
+    word-wrap: break-word;
+}
+.entry-header{
+	padding: 0 0;
+}
+.entry-content{
+	text-align:left;
+	padding: 0 0;
+}
+.entry-content p{
+	padding:0 10px;
+}
+article.sticky:before{
+	left: 10px;
+}
+.cv-footer-right-wrapper{
+	width: 100%;
+}
+
+/* BREADCRUMB CSS */
+
+.wp_breadcrumb ul {
+	margin: 0 0 1em 0;
+	list-style: none;
+}
+
+.wp_breadcrumb ul li {
+	display: inline-block;
+}
+
+.wp_breadcrumb ul li a {
+	text-decoration: underline;
+}
+
+.wp_breadcrumb ul li a:hover {
+	text-decoration: underline;
+}
+
+.wp_breadcrumb ul li a:after {
+	content: '\003E';
+	display: inline-block;
+	margin: 0 14px 0 12px;
+}
+
+
+/* PAGINATION CSS */
+
+.page-numbers {
+	display: none;
+	padding: 0.5em 0.75em;
+}
+
+.page-numbers.current {
+	color: #767676;
+	display: inline-block;
+}
+
+.page-numbers.current .screen-reader-text {
+	clip: auto;
+	height: auto;
+	overflow: auto;
+	position: relative !important;
+	width: auto;
+}
+
+.prev.page-numbers,
+.next.page-numbers {
+	background-color: #ddd;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	display: inline-block;
+	font-size: 24px;
+	font-size: 1.5rem;
+	line-height: 1;
+	padding: 0.25em 0.5em 0.4em;
+}
+
+.prev.page-numbers,
+.next.page-numbers {
+	-webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+	transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+}
+
+.prev.page-numbers:focus,
+.prev.page-numbers:hover,
+.next.page-numbers:focus,
+.next.page-numbers:hover {
+	background-color: #767676;
+	color: #fff;
+}
+
+.prev.page-numbers {
+	float: left;
+}
+
+.next.page-numbers {
+	float: right;
+}
+
+.comments-pagination,
+.post-navigation {
+	clear: both;
+}
+
+.post-navigation .nav-previous {
+	float: left;
+	width: 50%;
+}
+
+.post-navigation .nav-next {
+	float: right;
+	text-align: right;
+	width: 50%;
+}
+
+.nav-next,
+.post-navigation .nav-next {
+	margin-top: 0;
+}
+
+.nav-links .nav-title {
+	position: relative;
+}
+
+.nav-title-icon-wrapper {
+	position: absolute;
+	text-align: center;
+	width: 2em;
+}
+
+.nav-links .nav-previous .nav-title .nav-title-icon-wrapper {
+	left: -2em;
+}
+
+.nav-links .nav-next .nav-title .nav-title-icon-wrapper {
+	right: -2em;
+}
+.navigation.pagination{
+}
+.icon.icon-arrow-left,
+.icon.icon-arrow-right {
+	height: 10px;
+	width: 12px;
+}

@@ -1,0 +1,58 @@
+body {
+  background-color: white;
+  color: #494c4e; }
+
+a, a:visited {
+  color: #2b3856; }
+
+a:hover {
+  color: #2b3856; }
+
+.themecolor, .themecolor.btn {
+  background-color: #e7f3f1;
+  color: #2b3856; }
+  .themecolor a, .themecolor.btn a, .themecolor a:visited, .themecolor.btn a:visited, .themecolor a:hover, .themecolor.btn a:hover {
+    color: #2b3856 !important; }
+
+.btn.themecolor {
+  color: #2b3856 !important; }
+
+/* Posts */
+.card-text.post-content {
+  background-color: white;
+  color: #494c4e; }
+
+.sticky_icon {
+  color: red; }
+
+/* Navbar */
+.navbar, .navbar a, .navbar a:visited, .navbar .dropdown-menu a, .navbar .dropdown-menu a:visited, .navbar .dropdown-menu a:hover {
+  background-color: #e7f3f1 !important;
+  color: #2b3856 !important; }
+  .navbar .dropdown-menu a:hover, .navbar a .dropdown-menu a:hover, .navbar a:visited .dropdown-menu a:hover, .navbar .dropdown-menu a .dropdown-menu a:hover, .navbar .dropdown-menu a:visited .dropdown-menu a:hover, .navbar .dropdown-menu a:hover .dropdown-menu a:hover {
+    background-color: rgba(0, 0, 0, 0.2) !important; }
+
+a.nav-link:hover {
+  border-bottom: 2px solid #2b3856; }
+
+.active a.nav-link {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2); }
+
+/* Widget area */
+.card.widget li {
+  border-color: #e7f3f1; }
+
+/* Pagination */
+.page-item.active .page-link {
+  background-color: #e7f3f1;
+  border-color: #e7f3f1;
+  color: #2b3856; }
+
+.page-item .page-link {
+  color: #e7f3f1; }
+
+/* Post paging */
+.active.post-paging-link.themecolor, .active.post-paging-link.themecolor.btn {
+  color: #e7f3f1;
+  background-color: #2b3856;
+  border: 1px solid #e7f3f1; }

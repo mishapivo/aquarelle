@@ -1,0 +1,27 @@
+ChangeLog
+=========
+
+Version 0.95*
+
+	i) Fixed Escaping Issues and other minor fixes.
+
+Version 0.94*
+
+	i) Fixed Escaping data on output
+	ii) i18n for date func.
+
+Version 0.93*
+
+	i) Properly sanitized Custom CSS
+
+Version 0.92*
+
+	i) Fixed Many Pre release bugs
+
+Version 0.91*
+
+	i) Fixed Many Pre release bugs
+
+Version 0.9*
+
+	i) Initial Release.

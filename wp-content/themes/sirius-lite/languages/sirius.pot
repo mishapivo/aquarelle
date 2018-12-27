@@ -1,0 +1,904 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2017-01-27 20:30-0600\n"
+"PO-Revision-Date: 2016-06-18 05:56-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;esc_html__;esc_attr__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: inc\n"
+
+#: comments.php:8
+msgid "Name"
+msgstr ""
+
+#: comments.php:9
+msgid "Email Address"
+msgstr ""
+
+#: comments.php:10
+msgid "Website"
+msgstr ""
+
+#: comments.php:13 comments.php:15
+msgid "Comment"
+msgstr ""
+
+#: comments.php:28
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:48
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:52
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: customize/customizer.php:16
+msgid "Sirius - Info"
+msgstr ""
+
+#: customize/customizer.php:23
+msgid "Front Page"
+msgstr ""
+
+#: customize/customizer.php:26
+msgid "Front Page Sections"
+msgstr ""
+
+#: customize/customizer.php:31
+msgid "Featured Links / Pages (Images)"
+msgstr ""
+
+#: customize/customizer.php:36 customize/customizer.php:263
+msgid "Open Content - 1"
+msgstr ""
+
+#: customize/customizer.php:41 customize/customizer.php:264
+msgid "Call to Action - 1"
+msgstr ""
+
+#: customize/customizer.php:46 customize/customizer.php:265
+msgid "Open Content - 2"
+msgstr ""
+
+#: customize/customizer.php:51
+msgid "Featured Links / Pages (Icons)"
+msgstr ""
+
+#: customize/customizer.php:56 customize/customizer.php:267
+msgid "Recent Posts"
+msgstr ""
+
+#: customize/customizer.php:61 customize/customizer.php:268
+msgid "Call to Action - 2"
+msgstr ""
+
+#: customize/customizer.php:68
+msgid "Blog Feed"
+msgstr ""
+
+#: customize/customizer.php:74
+msgid "Posts"
+msgstr ""
+
+#: customize/customizer.php:80
+msgid "Pages"
+msgstr ""
+
+#: customize/customizer.php:87
+msgid "Advanced"
+msgstr ""
+
+#: customize/customizer.php:111
+msgid "Sirius PRO"
+msgstr ""
+
+#: customize/customizer.php:112
+msgid ""
+"\n"
+"        <h1>Sirius Pro</h1>\n"
+"        <p><a class=\"button\" href=\"https://www.lyrathemes.com/sirius-pro/"
+"\" target=\"_blank\">Upgrade to Sirius Pro</a></p>\n"
+"        <p>Upgrade for the many awesome features and expert support included "
+"with the pro version of this theme. View the <a href=\"https://www."
+"lyrathemes.com/preview/?theme=sirius-pro\" target=\"_blank\">Sirius Pro "
+"Demo</a> to see the additional features and functionality available in your "
+"upgrade.</p>\n"
+"        <p>Pro Features:\n"
+"        <ul>\n"
+"            <li>&raquo; Front Page Slider</li>\n"
+"            <li>&raquo; Built-in Portfolio/Projects</li>\n"
+"            <li>&raquo; Built-in Searchable FAQ</li>\n"
+"            <li>&raquo; Built-in Shortcodes for Info Cards</li>\n"
+"            <li>&raquo; Front Page Testimonials</li>\n"
+"            <li>&raquo; Front Page Team</li>\n"
+"            <li>&raquo; Front Page Featured Pages with Images (Flexible)</"
+"li>\n"
+"            <li>&raquo; One on one personal support and continuous theme "
+"updates</li>\n"
+"        </ul>\n"
+"        </p>\n"
+"        <hr />\n"
+"        <h1>Current Theme: Sirius Lite</h1>\n"
+"        <h3>Demo Site</h3>\n"
+"        <p>Head on over to the <a  href=\"https://www.lyrathemes.com/"
+"preview/?theme=sirius\" target=\"_blank\">Sirius demo</a> to see what you "
+"can accomplish with this theme!</p>\n"
+"        <h3>Documentation</h3>\n"
+"        <p>Read how to customize the theme, set up widgets, and learn of all "
+"the possible options available to you.</p>\n"
+"        <p><a class=\"button\" href=\"https://www.lyrathemes.com/"
+"documentation/sirius.pdf\" target=\"_blank\">Sirius Documentation</a></p>\n"
+"        <h3>Sample Data</h3>\n"
+"        <p>You can install the content and settings shown on our demo site "
+"by importing this sample data.</p>\n"
+"        <p><a class=\"button\" href=\"https://www.lyrathemes.com/sample-data/"
+"sirius-sample-data.zip\" target=\"_blank\">Sirius Sample Data</a></p>\n"
+"        <h3>Feedback and Support</h3>\n"
+"        <p>For feedback and support, please contact us and we would be happy "
+"to assist!</p>\n"
+"        <p><a class=\"button\" href=\"https://www.lyrathemes.com/support\" "
+"target=\"_blank\">Sirius Support</a></p>\n"
+"        "
+msgstr ""
+
+#: customize/customizer.php:153
+msgid "Show Image Logo?"
+msgstr ""
+
+#: customize/customizer.php:154
+msgid "Choose whether to display the image logo."
+msgstr ""
+
+#: customize/customizer.php:158 customize/customizer.php:658
+#: customize/customizer.php:761
+msgid "SHOW"
+msgstr ""
+
+#: customize/customizer.php:158 customize/customizer.php:658
+#: customize/customizer.php:761
+msgid "HIDE"
+msgstr ""
+
+#: customize/customizer.php:163
+msgid "Text Logo"
+msgstr ""
+
+#: customize/customizer.php:164
+msgid ""
+"Displayed when `Show Image Logo?` is set to `Show` or if there is no logo "
+"image uploaded."
+msgstr ""
+
+#: customize/customizer.php:183
+msgid "Copyright Text"
+msgstr ""
+
+#: customize/customizer.php:184
+msgid "Accepts HTML."
+msgstr ""
+
+#: customize/customizer.php:197
+msgid "Caption Heading"
+msgstr ""
+
+#: customize/customizer.php:206
+msgid "Caption Description"
+msgstr ""
+
+#: customize/customizer.php:215
+msgid "Button 1 - Label"
+msgstr ""
+
+#: customize/customizer.php:224
+msgid "Button 1 - URL"
+msgstr ""
+
+#: customize/customizer.php:233
+msgid "Button 2 - Label"
+msgstr ""
+
+#: customize/customizer.php:242
+msgid "Button 2 - URL"
+msgstr ""
+
+#: customize/customizer.php:255
+msgid "Order of Frontpage Sections"
+msgstr ""
+
+#: customize/customizer.php:256
+msgid ""
+"Choose which sections to display by clicking on the `eye` icon and rearrange "
+"them in the order you would like them displayed."
+msgstr ""
+
+#: customize/customizer.php:261
+msgid "Frontpage Content"
+msgstr ""
+
+#: customize/customizer.php:262
+msgid "Featured Links/Pages (Images)"
+msgstr ""
+
+#: customize/customizer.php:266
+msgid "Featured Links/Pages (Icons)"
+msgstr ""
+
+#: customize/customizer.php:279 customize/customizer.php:479
+msgid "Featured Link / Page"
+msgstr ""
+
+#: customize/customizer.php:281
+msgid ""
+"These items will be shown 2 in a row. You can add as many as you like. Click "
+"`Add new row` to add a new item."
+msgstr ""
+
+#: customize/customizer.php:286 customize/customizer.php:323
+#: customize/customizer.php:362 customize/customizer.php:420
+#: customize/customizer.php:486 customize/customizer.php:595
+msgid "Select Page"
+msgstr ""
+
+#: customize/customizer.php:300 customize/customizer.php:339
+#: customize/customizer.php:396 customize/customizer.php:436
+#: customize/customizer.php:510 customize/customizer.php:572
+#: customize/customizer.php:629
+msgid "Section ID"
+msgstr ""
+
+#: customize/customizer.php:302 customize/customizer.php:341
+#: customize/customizer.php:398 customize/customizer.php:438
+#: customize/customizer.php:512 customize/customizer.php:574
+#: customize/customizer.php:631
+msgid ""
+"Enter the ID for this section. This will allow the user to scroll down to "
+"this area when the corresponding link in the top navigation is clicked."
+msgstr ""
+
+#: customize/customizer.php:310 customize/customizer.php:349
+#: customize/customizer.php:406 customize/customizer.php:446
+#: customize/customizer.php:520 customize/customizer.php:582
+#: customize/customizer.php:639
+msgid "Section Background Color"
+msgstr ""
+
+#: customize/customizer.php:325 customize/customizer.php:364
+#: customize/customizer.php:422 customize/customizer.php:597
+msgid ""
+"Select the page that has the content you would like to show in this section."
+msgstr ""
+
+#: customize/customizer.php:371 customize/customizer.php:604
+msgid "Enable Parallax Background?"
+msgstr ""
+
+#: customize/customizer.php:372 customize/customizer.php:605
+msgid "Use the image uploaded next as a background with a parallax effect."
+msgstr ""
+
+#: customize/customizer.php:380 customize/customizer.php:613
+#: customize/kirki-config.php:11
+msgid "Background Image"
+msgstr ""
+
+#: customize/customizer.php:384 customize/customizer.php:617
+msgid ""
+"If parallax is disabled above, this image will be used as a simple "
+"background image."
+msgstr ""
+
+#: customize/customizer.php:407 customize/customizer.php:640
+msgid ""
+"This will be used if no background image has been supplied for this section."
+msgstr ""
+
+#: customize/customizer.php:459 customize/customizer.php:534
+msgid "Heading"
+msgstr ""
+
+#: customize/customizer.php:460
+msgid "Heading for the featured links (icons) section."
+msgstr ""
+
+#: customize/customizer.php:469 customize/customizer.php:544
+msgid "Text/Description"
+msgstr ""
+
+#: customize/customizer.php:470 customize/customizer.php:545
+msgid "Text to be displayed under the heading."
+msgstr ""
+
+#: customize/customizer.php:481
+msgid ""
+"These items will be shown 3 or 4 in a row. You can add as many as you like. "
+"Click `Add new row` to add a new item. For a complete list of icons that can "
+"be used, please go to http://fontawesome.io/icons/"
+msgstr ""
+
+#: customize/customizer.php:490
+msgid "Font Awesome Icon"
+msgstr ""
+
+#: customize/customizer.php:495
+msgid "Icon Color"
+msgstr ""
+
+#: customize/customizer.php:535
+msgid "Heading for the recent posts section."
+msgstr ""
+
+#: customize/customizer.php:554
+msgid "Number of Posts to Display"
+msgstr ""
+
+#: customize/customizer.php:555
+msgid ""
+"Posts display 2 in a row. Choose how many you want to show in the recent "
+"posts section on the front page."
+msgstr ""
+
+#: customize/customizer.php:653 customize/customizer.php:756
+msgid "Show Meta?"
+msgstr ""
+
+#: customize/customizer.php:654
+msgid ""
+"Choose whether to display date, category, author, tags for posts in the blog "
+"feed. This applies to all blog feeds on all pages, including the front page."
+msgstr ""
+
+#: customize/customizer.php:663 customize/customizer.php:766
+msgid "Show Date?"
+msgstr ""
+
+#: customize/customizer.php:672 customize/customizer.php:775
+msgid "Show Category?"
+msgstr ""
+
+#: customize/customizer.php:681 customize/customizer.php:784
+msgid "Show Author?"
+msgstr ""
+
+#: customize/customizer.php:690
+msgid "Show Comments?"
+msgstr ""
+
+#: customize/customizer.php:706
+msgid "Show Sidebar?"
+msgstr ""
+
+#: customize/customizer.php:709
+msgid ""
+"Sidebar is not shown by default. If the sidebar is disabled, then the blog "
+"feed will be shown in a two-column layout."
+msgstr ""
+
+#: customize/customizer.php:715
+msgid "Post Display Format (With Sidebar)"
+msgstr ""
+
+#: customize/customizer.php:718
+msgid ""
+"This setting is ignored and only excerpts will be displayed (`Excerpt Only`) "
+"in a two-column format if the sidebar is disabled."
+msgstr ""
+
+#: customize/customizer.php:722
+msgid "Full Content"
+msgstr ""
+
+#: customize/customizer.php:725
+msgid "Excerpt Only"
+msgstr ""
+
+#: customize/customizer.php:732
+msgid "Post Images"
+msgstr ""
+
+#: customize/customizer.php:735
+msgid ""
+"Choosing `None` will hide all featured images from the blog feed. `Images - "
+"Always` will show the posts with their featured images and the theme default/"
+"sample images in place of any missing featured images. `Images - Available` "
+"will only show the featured images you have uploaded and no sample images "
+"will be shown for the posts where the featured image is missing."
+msgstr ""
+
+#: customize/customizer.php:739
+msgid "None"
+msgstr ""
+
+#: customize/customizer.php:742
+msgid "Images - Always"
+msgstr ""
+
+#: customize/customizer.php:745
+msgid "Images - Available"
+msgstr ""
+
+#: customize/customizer.php:757
+msgid ""
+"Choose whether to display date, category, author, tags for posts on the post "
+"page."
+msgstr ""
+
+#: customize/customizer.php:793
+msgid "Show Tags?"
+msgstr ""
+
+#: customize/customizer.php:809 customize/customizer.php:842
+msgid "Layout"
+msgstr ""
+
+#: customize/customizer.php:810 customize/customizer.php:843
+msgid "Choose whether to display the sidebar."
+msgstr ""
+
+#: customize/customizer.php:820
+msgid "Show Featured Image?"
+msgstr ""
+
+#: customize/customizer.php:821
+msgid "Whether to show featured image at the beginning of the post."
+msgstr ""
+
+#: customize/customizer.php:829 customize/customizer.php:862
+msgid "Show Banner in Full Size?"
+msgstr ""
+
+#: customize/customizer.php:830
+msgid "Whether to show featured image in full size on the post page."
+msgstr ""
+
+#: customize/customizer.php:853
+msgid "Show Featured Image ?"
+msgstr ""
+
+#: customize/customizer.php:854
+msgid "Whether to show featured image at the beginning of the page."
+msgstr ""
+
+#: customize/customizer.php:863
+msgid "Whether to show featured image in full size on the page."
+msgstr ""
+
+#: customize/customizer.php:875
+msgid "Custom CSS"
+msgstr ""
+
+#: customize/customizer.php:876
+msgid "Custom CSS code to modify styling."
+msgstr ""
+
+#: customize/kirki-config.php:10
+msgid "Background Color"
+msgstr ""
+
+#: customize/kirki-config.php:12
+msgid "No Repeat"
+msgstr ""
+
+#: customize/kirki-config.php:13
+msgid "Repeat All"
+msgstr ""
+
+#: customize/kirki-config.php:14
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: customize/kirki-config.php:15
+msgid "Repeat Vertically"
+msgstr ""
+
+#: customize/kirki-config.php:16
+msgid "Inherit"
+msgstr ""
+
+#: customize/kirki-config.php:17
+msgid "Background Repeat"
+msgstr ""
+
+#: customize/kirki-config.php:18
+msgid "Cover"
+msgstr ""
+
+#: customize/kirki-config.php:19
+msgid "Contain"
+msgstr ""
+
+#: customize/kirki-config.php:20
+msgid "Background Size"
+msgstr ""
+
+#: customize/kirki-config.php:21
+msgid "Fixed"
+msgstr ""
+
+#: customize/kirki-config.php:22
+msgid "Scroll"
+msgstr ""
+
+#: customize/kirki-config.php:23
+msgid "Background Attachment"
+msgstr ""
+
+#: customize/kirki-config.php:24
+msgid "Left Top"
+msgstr ""
+
+#: customize/kirki-config.php:25
+msgid "Left Center"
+msgstr ""
+
+#: customize/kirki-config.php:26
+msgid "Left Bottom"
+msgstr ""
+
+#: customize/kirki-config.php:27
+msgid "Right Top"
+msgstr ""
+
+#: customize/kirki-config.php:28
+msgid "Right Center"
+msgstr ""
+
+#: customize/kirki-config.php:29
+msgid "Right Bottom"
+msgstr ""
+
+#: customize/kirki-config.php:30
+msgid "Center Top"
+msgstr ""
+
+#: customize/kirki-config.php:31
+msgid "Center Center"
+msgstr ""
+
+#: customize/kirki-config.php:32
+msgid "Center Bottom"
+msgstr ""
+
+#: customize/kirki-config.php:33
+msgid "Background Position"
+msgstr ""
+
+#: customize/kirki-config.php:34
+msgid "Background Opacity"
+msgstr ""
+
+#: customize/kirki-config.php:35
+msgid "ON"
+msgstr ""
+
+#: customize/kirki-config.php:36
+msgid "OFF"
+msgstr ""
+
+#: customize/kirki-config.php:37
+msgid "All"
+msgstr ""
+
+#: customize/kirki-config.php:38
+msgid "Cyrillic"
+msgstr ""
+
+#: customize/kirki-config.php:39
+msgid "Cyrillic Extended"
+msgstr ""
+
+#: customize/kirki-config.php:40
+msgid "Devanagari"
+msgstr ""
+
+#: customize/kirki-config.php:41
+msgid "Greek"
+msgstr ""
+
+#: customize/kirki-config.php:42
+msgid "Greek Extended"
+msgstr ""
+
+#: customize/kirki-config.php:43
+msgid "Khmer"
+msgstr ""
+
+#: customize/kirki-config.php:44
+msgid "Latin"
+msgstr ""
+
+#: customize/kirki-config.php:45
+msgid "Latin Extended"
+msgstr ""
+
+#: customize/kirki-config.php:46
+msgid "Vietnamese"
+msgstr ""
+
+#: customize/kirki-config.php:47
+msgid "Hebrew"
+msgstr ""
+
+#: customize/kirki-config.php:48
+msgid "Arabic"
+msgstr ""
+
+#: customize/kirki-config.php:49
+msgid "Bengali"
+msgstr ""
+
+#: customize/kirki-config.php:50
+msgid "Gujarati"
+msgstr ""
+
+#: customize/kirki-config.php:51
+msgid "Tamil"
+msgstr ""
+
+#: customize/kirki-config.php:52
+msgid "Telugu"
+msgstr ""
+
+#: customize/kirki-config.php:53
+msgid "Thai"
+msgstr ""
+
+#: customize/kirki-config.php:57
+msgid "Font Family"
+msgstr ""
+
+#: customize/kirki-config.php:58
+msgid "Font Size"
+msgstr ""
+
+#: customize/kirki-config.php:59
+msgid "Font Weight"
+msgstr ""
+
+#: customize/kirki-config.php:60
+msgid "Line Height"
+msgstr ""
+
+#: customize/kirki-config.php:61
+msgid "Font Style"
+msgstr ""
+
+#: customize/kirki-config.php:62
+msgid "Letter Spacing"
+msgstr ""
+
+#: customize/kirki-config.php:63
+msgid "Top"
+msgstr ""
+
+#: customize/kirki-config.php:64
+msgid "Bottom"
+msgstr ""
+
+#: customize/kirki-config.php:65
+msgid "Left"
+msgstr ""
+
+#: customize/kirki-config.php:66
+msgid "Right"
+msgstr ""
+
+#: customize/kirki-config.php:67
+msgid "Color"
+msgstr ""
+
+#: customize/kirki-config.php:68
+msgid "Add Image"
+msgstr ""
+
+#: customize/kirki-config.php:69
+msgid "Change Image"
+msgstr ""
+
+#: customize/kirki-config.php:70
+msgid "Remove"
+msgstr ""
+
+#: customize/kirki-config.php:71
+msgid "No Image Selected"
+msgstr ""
+
+#: customize/kirki-config.php:72
+msgid "Select a font-family"
+msgstr ""
+
+#: customize/kirki-config.php:73
+msgid "Variant"
+msgstr ""
+
+#: customize/kirki-config.php:74
+msgid "Subset"
+msgstr ""
+
+#: customize/kirki-config.php:75
+msgid "Size"
+msgstr ""
+
+#: customize/kirki-config.php:76
+msgid "Height"
+msgstr ""
+
+#: customize/kirki-config.php:77
+msgid "Spacing"
+msgstr ""
+
+#: customize/kirki-config.php:78
+msgid "Ultra-Light 100"
+msgstr ""
+
+#: customize/kirki-config.php:79
+msgid "Ultra-Light 100 Italic"
+msgstr ""
+
+#: customize/kirki-config.php:80
+msgid "Light 200"
+msgstr ""
+
+#: customize/kirki-config.php:81
+msgid "Light 200 Italic"
+msgstr ""
+
+#: customize/kirki-config.php:82
+msgid "Book 300"
+msgstr ""
+
+#: customize/kirki-config.php:83
+msgid "Book 300 Italic"
+msgstr ""
+
+#: customize/kirki-config.php:84
+msgid "Normal 400"
+msgstr ""
+
+#: customize/kirki-config.php:85
+msgid "Normal 400 Italic"
+msgstr ""
+
+#: customize/kirki-config.php:86
+msgid "Medium 500"
+msgstr ""
+
+#: customize/kirki-config.php:87
+msgid "Medium 500 Italic"
+msgstr ""
+
+#: customize/kirki-config.php:88
+msgid "Semi-Bold 600"
+msgstr ""
+
+#: customize/kirki-config.php:89
+msgid "Semi-Bold 600 Italic"
+msgstr ""
+
+#: customize/kirki-config.php:90
+msgid "Bold 700"
+msgstr ""
+
+#: customize/kirki-config.php:91
+msgid "Bold 700 Italic"
+msgstr ""
+
+#: customize/kirki-config.php:92
+msgid "Extra-Bold 800"
+msgstr ""
+
+#: customize/kirki-config.php:93
+msgid "Extra-Bold 800 Italic"
+msgstr ""
+
+#: customize/kirki-config.php:94
+msgid "Ultra-Bold 900"
+msgstr ""
+
+#: customize/kirki-config.php:95
+msgid "Ultra-Bold 900 Italic"
+msgstr ""
+
+#: customize/kirki-config.php:96
+msgid "Invalid Value"
+msgstr ""
+
+#: customize/theme-defaults.php:19
+msgid "Learn More"
+msgstr ""
+
+#: customize/theme-defaults.php:21
+msgid "Lets go"
+msgstr ""
+
+#: customize/theme-defaults.php:53
+msgid "Simple But Effective"
+msgstr ""
+
+#: customize/theme-defaults.php:54
+msgid ""
+"This is some description text that shows up at the beginning of the featured "
+"section. You can edit this by going to Appearance > Customize > Front Page > "
+"Featured Links / Pages (Icons)."
+msgstr ""
+
+#: customize/theme-defaults.php:59
+msgid "Latest Blog Posts"
+msgstr ""
+
+#: customize/theme-defaults.php:60
+msgid ""
+"This is some description text that shows up at the beginning of the latest "
+"blog posts section. You can edit this by going to Appearance > Customize > "
+"Front Page > Recent Posts."
+msgstr ""
+
+#: functions.php:23
+msgid "Custom Colors"
+msgstr ""
+
+#: functions.php:41
+msgid "Top Left"
+msgstr ""
+
+#: functions.php:42
+msgid "Top Right"
+msgstr ""
+
+#: functions.php:43
+msgid "Main"
+msgstr ""
+
+#: functions.php:44
+msgid "Footer"
+msgstr ""
+
+#: functions.php:306
+msgid "Home"
+msgstr ""
+
+#: header.php:66
+msgid "Toggle Navigation"
+msgstr ""
+
+#: parts/entry.php:43 parts/page-content.php:21 parts/single-content.php:32
+msgid "Post ID: "
+msgstr ""
+
+#: parts/feed-pagination.php:7 parts/feed-pagination.php:15
+msgid "Previous"
+msgstr ""
+
+#: parts/feed-pagination.php:7 parts/feed-pagination.php:15
+msgid "Next"
+msgstr ""
+
+#: parts/single-content.php:48
+msgid "Tags: "
+msgstr ""
+
+#: widgets/widgets.php:6
+msgid "Sidebar - Default"
+msgstr ""
+
+#: widgets/widgets.php:15
+msgid "Sidebar - Post"
+msgstr ""
+
+#: widgets/widgets.php:24
+msgid "Sidebar - Page"
+msgstr ""

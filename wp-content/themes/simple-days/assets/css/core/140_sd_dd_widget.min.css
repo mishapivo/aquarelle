@@ -1,0 +1,2 @@
+.dd_widget label{cursor:pointer;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;border-radius:5px}.dd_widget label:after{font-family:"FontAwesome";content:"\f0d7";position:absolute;right:10px}
+.dd_widget ul a li{padding:10px;background:#fff;border:0;cursor:pointer}.dd_widget ul a li:hover{background:#07a;color:#fff}#toggle_dd_archives:checked ~ ul,#toggle_dd_categories:checked ~ ul{display:block}

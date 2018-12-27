@@ -1,0 +1,43 @@
+.toc {
+  background: #f2f2f2; }
+
+.labbel_hide, .labbel_view {
+  color: #07a;
+  cursor: pointer; }
+
+#toggle_toc {
+  display: none; }
+  #toggle_toc:not(:checked) ~ div .labbel_hide, #toggle_toc:checked ~ div .labbel_view {
+    display: inline-block; }
+  #toggle_toc:checked ~ div .labbel_hide, #toggle_toc:not(:checked) ~ div .labbel_view {
+    display: none; }
+  #toggle_toc:not(:checked) ~ .toc_ul, #toggle_toc:not(:checked) ~ .toc_ul ul, #toggle_toc:not(:checked) ~ .toc_ul li {
+    overflow: visible;
+    max-height: 1000px;
+    -webkit-transition: max-height 0.5s;
+    transition: max-height 0.5s; }
+  #toggle_toc:checked ~ .toc_ul, #toggle_toc:checked ~ .toc_ul ul, #toggle_toc:checked ~ .toc_ul li {
+    overflow: hidden;
+    max-height: 0;
+    -webkit-transition: max-height 0.5s;
+    transition: max-height 0.5s; }
+
+.toc ul,
+.toc li {
+  list-style: none;
+  margin: 0; }
+
+.toc ul ul {
+  margin-left: 15px; }
+
+ol.toc_ol {
+  padding-left: 30px; }
+  ol.toc_ol li {
+    list-style-type: decimal; }
+
+.toc_widget {
+  border: none;
+  background: transparent;
+  background: #fff; }
+
+

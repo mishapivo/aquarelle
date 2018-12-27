@@ -1,0 +1,549 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Seasonal Pro\n"
+"POT-Creation-Date: 2015-06-23 10:55-0800\n"
+"PO-Revision-Date: 2015-06-23 10:55-0800\n"
+"Last-Translator: Shaped Pixels <mail@address>\n"
+"Language-Team: Shaped Pixels <mail@address>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.1\n"
+"X-Poedit-Basepath: ..\\\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x;esc_attr__;esc_attr_x;esc_html__;"
+"esc_html_e;esc_html_x\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:13
+msgid "Page not found"
+msgstr ""
+
+#: 404.php:20
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: 404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: 404.php:25
+msgid "Return to the Homepage here"
+msgstr ""
+
+#: author-bio.php:24
+msgid "Published by"
+msgstr ""
+
+#: author-bio.php:29
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: comments.php:23
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:23
+msgid " Comment "
+msgstr ""
+
+#: comments.php:23
+msgid " Comments "
+msgstr ""
+
+#: comments.php:25
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: comments.php:46
+msgid "Sorry, the comment form is closed at this time."
+msgstr ""
+
+#: comments.php:59
+msgid "Post a Comment"
+msgstr ""
+
+#: comments.php:60
+#, php-format
+msgid "Post a Reply to %s"
+msgstr ""
+
+#: comments.php:61
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:62
+msgid "Submit"
+msgstr ""
+
+#: comments.php:63
+msgid "Write your comment here..."
+msgstr ""
+
+#: comments.php:67
+msgid "Your full name"
+msgstr ""
+
+#: comments.php:68
+msgid "E-mail address"
+msgstr ""
+
+#: comments.php:69
+msgid "Website"
+msgstr ""
+
+#: functions.php:67
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:68
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:69
+msgid "Social Menu"
+msgstr ""
+
+#: functions.php:130 functions.php:138
+msgid "on"
+msgstr ""
+
+#: functions.php:146
+msgid "no-subset"
+msgstr ""
+
+#: functions.php:201
+msgid "expand child menu"
+msgstr ""
+
+#: functions.php:202
+msgid "collapse child menu"
+msgstr ""
+
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: header.php:79
+msgid "Menu"
+msgstr ""
+
+#: image.php:49 inc/template-tags.php:232 template-parts/content-page.php:29
+msgid "Pages:"
+msgstr ""
+
+#: image.php:53 inc/template-tags.php:236
+msgid "Page"
+msgstr ""
+
+#: image.php:63
+msgid "Previous Image"
+msgstr ""
+
+#: image.php:64
+msgid "Next Image"
+msgstr ""
+
+#: inc/back-compat.php:35 inc/back-compat.php:45 inc/back-compat.php:58
+#, php-format
+msgid ""
+"Seasonal requires at least WordPress version 4.1. You are running version "
+"%s. Please upgrade and try again."
+msgstr ""
+
+#: inc/comment-layout.php:21
+msgid "at"
+msgstr ""
+
+#: inc/comment-layout.php:31
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/customizer.php:14
+msgid "Header Logo"
+msgstr ""
+
+#: inc/customizer.php:15
+msgid "Sidebar Background Image"
+msgstr ""
+
+#: inc/customizer.php:16
+msgid "Sidebar Background Colour without Background Image)"
+msgstr ""
+
+#: inc/customizer.php:30
+msgid "Show Site Title"
+msgstr ""
+
+#: inc/customizer.php:44
+msgid "Show Tagline"
+msgstr ""
+
+#: inc/customizer.php:53
+msgid "Blog Options"
+msgstr ""
+
+#: inc/customizer.php:65
+msgid "Blog Style"
+msgstr ""
+
+#: inc/customizer.php:69
+msgid "Blog Full Style"
+msgstr ""
+
+#: inc/customizer.php:70
+msgid "Blog Small Style"
+msgstr ""
+
+#: inc/customizer.php:80
+msgid "Blog Home Alignment"
+msgstr ""
+
+#: inc/customizer.php:84 inc/customizer.php:599
+msgid "Left"
+msgstr ""
+
+#: inc/customizer.php:85 inc/customizer.php:600
+msgid "Centered"
+msgstr ""
+
+#: inc/customizer.php:97
+msgid "Show Edit Link"
+msgstr ""
+
+#: inc/customizer.php:110
+msgid "Show Categories in Summary"
+msgstr ""
+
+#: inc/customizer.php:124
+msgid "Show Categories on Full Post"
+msgstr ""
+
+#: inc/customizer.php:138
+msgid "Show Posted Date"
+msgstr ""
+
+#: inc/customizer.php:152
+msgid "Show Tags"
+msgstr ""
+
+#: inc/customizer.php:166
+msgid "Show Featured Image on Full Post"
+msgstr ""
+
+#: inc/customizer.php:180
+msgid "Show Post Author"
+msgstr ""
+
+#: inc/customizer.php:189
+msgid "Other Options"
+msgstr ""
+
+#: inc/customizer.php:200
+msgid "Sidebar Width in Percent"
+msgstr ""
+
+#: inc/customizer.php:203
+msgid "Default: 33"
+msgstr ""
+
+#: inc/customizer.php:216
+msgid "Fluid Content Width"
+msgstr ""
+
+#: inc/customizer.php:227
+msgid "Your Copyright Name"
+msgstr ""
+
+#: inc/customizer.php:245
+msgid "Background Size"
+msgstr ""
+
+#: inc/customizer.php:248
+msgid "Auto"
+msgstr ""
+
+#: inc/customizer.php:249
+msgid "Cover"
+msgstr ""
+
+#: inc/customizer.php:250
+msgid "Contain"
+msgstr ""
+
+#: inc/customizer.php:263
+msgid "Background Overlay Opacity"
+msgstr ""
+
+#: inc/customizer.php:281
+msgid "Site Title Colour"
+msgstr ""
+
+#: inc/customizer.php:294
+msgid "Site Tagline Colour"
+msgstr ""
+
+#: inc/customizer.php:306
+msgid "Link color"
+msgstr ""
+
+#: inc/customizer.php:319
+msgid "Link colour on hover"
+msgstr ""
+
+#: inc/customizer.php:332
+msgid "Sidebar Social Background"
+msgstr ""
+
+#: inc/customizer.php:345
+msgid "Sidebar Social Icon"
+msgstr ""
+
+#: inc/customizer.php:358
+msgid "Sidebar Social Background Hover"
+msgstr ""
+
+#: inc/customizer.php:371
+msgid "Sidebar Social Icon Hover"
+msgstr ""
+
+#: inc/customizer.php:384
+msgid "Mobile Menu Button Border"
+msgstr ""
+
+#: inc/customizer.php:397
+msgid "Mobile Menu Button Text"
+msgstr ""
+
+#: inc/customizer.php:410
+msgid "Mobile Menu Button Border on Hover"
+msgstr ""
+
+#: inc/customizer.php:422
+msgid "Mobile Menu Button Text on Hover"
+msgstr ""
+
+#: inc/customizer.php:435
+msgid "Button background"
+msgstr ""
+
+#: inc/customizer.php:448
+msgid "Button background on hover"
+msgstr ""
+
+#: inc/customizer.php:462
+msgid "Button Text color"
+msgstr ""
+
+#: inc/customizer.php:475
+msgid "Button Text on Hover"
+msgstr ""
+
+#: inc/customizer.php:488
+msgid "Headings &amp; Titles Colour"
+msgstr ""
+
+#: inc/customizer.php:500
+msgid "SubTitle Colour"
+msgstr ""
+
+#: inc/customizer.php:513
+msgid "Pagination Background"
+msgstr ""
+
+#: inc/customizer.php:526
+msgid "Pagination Text Colour"
+msgstr ""
+
+#: inc/customizer.php:539
+msgid "Pagination Current &amp; Hover Background"
+msgstr ""
+
+#: inc/customizer.php:552
+msgid "Pagination Current &amp; Hover Text"
+msgstr ""
+
+#: inc/customizer.php:565
+msgid "Main Menu Link Colour"
+msgstr ""
+
+#: inc/customizer.php:578
+msgid "Main Menu Active/Hover Text Colour"
+msgstr ""
+
+#: inc/customizer.php:613
+msgid "Blog Full"
+msgstr ""
+
+#: inc/customizer.php:614
+msgid "Blog Small"
+msgstr ""
+
+#: inc/extras.php:57
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/extras.php:94 inc/extras.php:139
+msgid "Continue Reading"
+msgstr ""
+
+#: inc/sidebars.php:16
+msgid "Bottom 1"
+msgstr ""
+
+#: inc/sidebars.php:18
+msgid "This is the first bottom sidebar position located above the footer."
+msgstr ""
+
+#: inc/sidebars.php:25
+msgid "Bottom 2"
+msgstr ""
+
+#: inc/sidebars.php:27
+msgid ""
+"This is the second featured bottom sidebar position located above the footer."
+msgstr ""
+
+#: inc/sidebars.php:34
+msgid "Bottom 3"
+msgstr ""
+
+#: inc/sidebars.php:36
+msgid ""
+"This is the third featured bottom sidebar position located above the footer."
+msgstr ""
+
+#: inc/sidebars.php:43
+msgid "Bottom 4"
+msgstr ""
+
+#: inc/sidebars.php:45
+msgid ""
+"This is the fourth featured bottom sidebar position located above the footer."
+msgstr ""
+
+#: inc/sidebars.php:52
+msgid "Banner"
+msgstr ""
+
+#: inc/sidebars.php:54
+msgid "Page banner position."
+msgstr ""
+
+#: inc/template-tags.php:23
+msgid "Featured"
+msgstr ""
+
+#: inc/template-tags.php:30 inc/template-tags.php:37
+msgid "Untitled"
+msgstr ""
+
+#. translators: %s: Name of current post
+#: inc/template-tags.php:55 template-parts/content.php:34
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: inc/template-tags.php:100
+msgid "Posted on"
+msgstr ""
+
+#: inc/template-tags.php:106
+msgid "Author"
+msgstr ""
+
+#: inc/template-tags.php:114 template-parts/content-page.php:17
+msgid "Edit this Post"
+msgstr ""
+
+#: inc/template-tags.php:142 inc/template-tags.php:160
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:145
+msgid "Categories:"
+msgstr ""
+
+#: inc/template-tags.php:163
+msgid "Tags:"
+msgstr ""
+
+#: inc/template-tags.php:196
+msgid "Prev"
+msgstr ""
+
+#: inc/template-tags.php:197
+msgid "Next"
+msgstr ""
+
+#: inc/template-tags.php:212
+msgid "Next Article"
+msgstr ""
+
+#: inc/template-tags.php:213
+msgid "Next Article:"
+msgstr ""
+
+#: inc/template-tags.php:216
+msgid "Previous Article"
+msgstr ""
+
+#: inc/template-tags.php:217
+msgid "Previous Article:"
+msgstr ""
+
+#: search.php:16
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: searchform.php:14
+msgid "Find"
+msgstr ""
+
+#: template-parts/content-aside.php:21 template-parts/content-gallery.php:19
+#: template-parts/content-image.php:19 template-parts/content-link.php:23
+#: template-parts/content-quote.php:23 template-parts/content-status.php:23
+#: template-parts/content-video.php:19
+msgid "Format"
+msgstr ""
+
+#: template-parts/content-gallery.php:40 template-parts/content-image.php:40
+#: template-parts/content-video.php:40
+#, php-format
+msgid "See More %s"
+msgstr ""
+
+#: template-parts/content-none.php:11
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:18
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:27
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/site-footer.php:24
+msgid "Copyright &copy;"
+msgstr ""
+
+#: template-parts/site-footer.php:25
+msgid "All rights reserved."
+msgstr ""

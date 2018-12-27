@@ -1,0 +1,32 @@
+/* CSS Document */
+
+.woocommerce ul.products li.product a img {
+	min-height: 196px;
+	border: 1px solid rgba(0,0,0,0.2);
+	background-color: rgba(0,0,0,0.1);
+}
+.woocommerce .woocommerce-ordering select{
+	padding: 6px 8px;
+}
+.woocommerce .products .star-rating{
+	margin: 0 auto;
+}
+.woocommerce ul.products li.product a:not(.button) {
+	min-height: 284px;
+	display: block;
+}
+.woocommerce a.button.alt,
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt,
+.woocommerce button.button.alt:hover{
+	background: #27B6D4;
+	padding: 10px 20px 8px;	
+	text-transform: capitalize;
+}
+.woocommerce a.button.alt:hover,
+.woocommerce button.button.alt:hover{
+	color:#000;
+}
+.woocommerce-MyAccount-navigation{
+	text-align:left;
+}

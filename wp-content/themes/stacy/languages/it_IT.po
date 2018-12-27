@@ -1,0 +1,55 @@
+# Copyright (C) 2018 spicethemes.com
+# This file is distributed under the GNU General Public License v3 or later.
+# Translators:
+# raffaella isidori <r.isidori@thesign.it>, 2018
+# FX Bénard <fxb@wp-translations.org>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: Stacy 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/stacy\n"
+"POT-Creation-Date: 2018-05-15T09:57:58+00:00\n"
+"PO-Revision-Date: 2018-05-19 15:01+0200\n"
+"Last-Translator: fxbenard pour WP-Translations <fx@wp-translations.pro>\n"
+"Language-Team: Italian (Italy) (https://www.transifex.com/wp-translations/"
+"teams/64435/it_IT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: stacy\n"
+"X-Generator: Poedit 2.0.7\n"
+
+#. Theme Name of the theme
+msgid "Stacy"
+msgstr "Stacy"
+
+#. Theme URI of the theme
+msgid "https://spicethemes.com/stacy-wordpress-theme/"
+msgstr "https://spicethemes.com/stacy-wordpress-theme/"
+
+#. Description of the theme
+msgid ""
+"Stacy is a responsive, multi-purpose WordPress theme. It’s flexible and "
+"suitable for agencies, blogs, businesses, finance, accounting, consulting, "
+"corporations, or portfolios. Customization is easy and straight-forward, "
+"with options provided that allow you to setup your site to perfectly fit "
+"your desired online presence. For more details, visit this link https://"
+"wordpress.org/themes/spicepress/. We hope you will find the Stacy theme "
+"useful."
+msgstr ""
+"Stacy è un tema WordPress responsivo e polivalente. È flessibile e perfetto "
+"per agenzie, blog, siti aziendali e istituzionali e per portfolio. La sua "
+"personalizzazione è facile e intuitiva, con opzioni che ti permetteranno di "
+"creare un sito perfettamente in linea con i tuoi obiettivi per una ottimale "
+"presenza online. Per maggiori dettagli, la demo è a questo link https://"
+"wordpress.org/themes/spicepress/. Ci auguriamo che tu possa  trovare Stacy "
+"molto utile."
+
+#. Author of the theme
+msgid "spicethemes.com"
+msgstr "spicethemes.com"
+
+#. Author URI of the theme
+msgid "https://spicethemes.com"
+msgstr "https://spicethemes.com"

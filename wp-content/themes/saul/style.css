@@ -1,0 +1,564 @@
+/**
+
+Theme Name: Saul
+Description: Saul is a clean and creative Jax Lite child theme based on Bootstrap framework, with a different layout for some elements like the header, post details, buttons and new Google Fonts. Saul is optimized to work with Contact Form 7 plugins.
+Author: ThemeinProgress
+Author URI: https://www.themeinprogress.com
+Version: 1.0.4
+Template: jax-lite
+Tags: blog, photography, custom-background, custom-colors, custom-header, custom-logo, custom-menu, featured-images, flexible-header, footer-widgets, post-formats, right-sidebar, sticky-post, theme-options, threaded-comments, translation-ready, one-column, two-columns, three-columns, grid-layout
+Text Domain: saul
+Domain Path: /languages
+License: GNU General Public License v3 or later
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Saul WordPress Theme is child theme of Jax Lite WordPress Theme, Copyright 2018 ThemeinProgress.com
+Saul WordPress Theme is distributed under the terms of the GNU GPL
+
+*/
+
+/* Typography
+   ---- */
+
+body,
+p, 
+li, 
+address, 
+dd, 
+blockquote, 
+td, 
+th,
+a.button,
+.textwidget,
+h1.title,
+h2.title,
+h3.title,
+h4.title,
+h5.title,
+h6.title {
+	font-family:'Mukta Vaani',Verdana, Geneva, sans-serif; 
+}
+
+#logo a,
+#logo a span {
+	font-family: 'Lato', cursive;
+}
+
+/* Header
+   ---- */
+
+#header {
+    background-image: url(assets/images/header-image.jpg);
+	background-attachment: fixed;
+    background-position: center;
+}
+
+#logo a:hover > span.sitename ,
+#logo a:hover > span.sitedescription {
+	color:#1abc9c
+}
+
+#logo a span.sitedescription {
+	display:inline-block;
+}
+
+#logo a span.clear {
+	display:block;
+}
+
+#header .navigation {
+    top: 30px;
+    right: 30px;
+}
+
+#header .navigation i {
+    color: #fff;
+    vertical-align: top;
+    height: 14px;
+    width: 14px;
+}
+
+/* Back to top
+   ---- */
+
+#back-to-top i {
+	padding:0;
+	font-size:26px;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+	background:none;
+	color:#aaa;
+	border:none 
+}
+
+#back-to-top i.open, 
+#back-to-top i:hover {
+    cursor: pointer;
+    background:none;
+	border:none; 
+	color: #1abc9c;
+}
+
+#masonry .pin-container, 
+body.single .format-image .pin-container {
+    padding-top: 0;
+}
+
+/* Pagination
+   ---- */
+
+.wp-pagenavi a, 
+.wp-pagenavi a:link,
+.wp-pagenavi span.current,
+.wip-pagination a > span { 
+	border-width: 2px;
+	background:none;
+	border-color:#1abc9c;
+	color:#1abc9c;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+
+.wip-pagination a > span { 
+	color:#1abc9c !important;
+}
+
+.wp-pagenavi a:hover, 
+.wp-pagenavi span.current,
+.wip-pagination span ,
+.wip-pagination span:hover ,
+.wip-pagination a:hover > span {
+	color:#fff;
+	background-color:#1abc9c;
+	border-color:#1abc9c;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+
+/* Tagcloud
+   ---- */
+
+.tagcloud a {
+    margin: 0 0 6px 0 !important;
+    border-width: 2px;
+}
+
+/* Contents
+   ---- */
+
+#masonry .post-article.post-title,
+.post-article.post-title,
+.pin-container {
+    padding-top: 0;
+}
+
+.post-article { 
+	padding:50px;
+}
+
+.comments-title {
+    padding: 50px;
+}
+
+.comments-container .post-article {
+    padding: 0 50px 50px 50px;
+}
+
+.post-article blockquote {
+    border-left-style: solid;
+    border-left-width: 4px;
+    border-left-color: #ddd !important;
+    background: #fafafa;
+    margin: 40px 0;
+    padding: 40px;
+    font-style: italic;
+}
+
+/* Contact Form 7
+   ---- */
+
+.wpcf7-form {
+	margin:0 !important;
+}
+
+.wpcf7-form label {
+	width:100%;
+	text-align:center
+}
+
+.wpcf7-form input, 
+.wpcf7-form select, 
+.wpcf7-form textarea {
+	padding: 10px 2%;
+	border:solid 1px #ddd;
+	width:100%;
+	margin:auto;
+	color:#616161;
+	-webkit-transition: background-color .3s ease;
+	-moz-transition: background-color .3s ease; 
+	-o-transition: background-color .3s ease;
+}
+
+div.wpcf7 .ajax-loader {
+    visibility: hidden;
+    display: none;
+}
+
+div.wpcf7 img.ajax-loader {
+	display:none;
+}
+
+div.wpcf7-response-output {
+    margin: 50px 0 0 0 !important;
+    padding: 1em !important;
+}
+
+div.wpcf7-validation-errors {
+    border: 1px solid #f00 !important;
+    color: #f00 !important;
+}
+
+div.wpcf7-mail-sent-ok {
+    border: 1px solid #398f14 !important;
+    color: #398f14 !important;
+}
+
+/* Post details
+   ---- */
+
+.entry-category {
+	text-align:center;
+	display:block;
+	font-size:10px;
+	text-transform:uppercase;
+	font-weight:bold;
+	padding-bottom: 0.5rem;
+	line-height: 1.8em;
+	color:#aaa;
+}
+
+.entry-date {
+	text-align:center;
+	display:block;
+	font-size:10px !important;
+	text-transform:uppercase;
+	padding-top: 1rem;
+	margin-bottom:40px;
+	line-height: 1.8em;
+	color:#aaa;
+	font-weight:normal
+}
+
+.entry-category a,
+.entry-date a {
+	color:#aaa;
+	font-size:10px !important;
+}
+
+.post-article .title,
+.post-article.post-title .title {
+	margin:5px 0
+}
+
+#masonry .entry-date { 
+	margin-bottom:25px;
+}
+
+.post-date {
+	color:#fff; 
+	text-align:left;
+}
+
+.day { 
+	font-size:14px; 
+	line-height:1.1em;
+}
+
+.archive { 
+	margin:0;
+}
+
+.entry-tags { 
+	font-size:13px; 
+	border-bottom:solid 1px #ddd; 
+	border-top:solid 1px #ddd; 
+	position:relative; 
+	font-weight:bold;
+}
+
+.entry-tags span { 
+	font-weight:normal;
+}
+
+.post-date {
+	color:#fff; 
+	text-align:left;
+}
+
+.day { 
+	font-size:14px; 
+	line-height:1.1em;
+}
+
+.archive { 
+	margin:0;
+}
+
+/* Search form widget
+   ---- */
+
+#searchform {
+    position: relative;
+	display:block
+}
+
+/* Buttons
+   ---- */
+
+a.button,
+#searchform input[type=submit], 
+.contact-form input[type=submit], 
+#commentform input[type=submit],
+.wpcf7-form input[type=submit] {
+    padding: 5px 20px;
+	border-style:solid;
+	border-width:2px;
+	border-color:#1abc9c;
+    color: #1abc9c;
+	font-size:12px;
+	text-transform:uppercase;
+	font-weight:600;
+}
+
+.wpcf7-form input[type=submit] {
+	width:auto;
+	display:block;
+	margin-top: 30px;
+	margin-bottom:-10px;
+}
+
+a.button:hover,
+#searchform input[type=submit]:hover, 
+.contact-form input[type=submit]:hover, 
+#commentform input[type=submit]:hover,
+.wpcf7-form input[type=submit]:hover {
+	border-width:2px;
+	background-color:#1abc9c;
+	color:#fff;
+}
+
+#searchform input[type=text],
+.col-md-6 #searchform input[type=text],
+.col-md-4 #searchform input[type=text],
+.col-md-3 #searchform input[type=text]{
+	width:100%;
+	padding: 10px 1%;
+}
+
+#searchform input[type=text]:focus,
+.contact-form input[type=submit]:focus, 
+#commentform input[type=submit]:focus,
+.wpcf7-form input[type=submit]:focus {
+	outline:none;
+}
+
+.col-md-4 #searchform input[type=text],
+.col-md-3 #searchform input[type=text],
+#scroll-sidebar #searchform input[type=text]{
+	padding: 10px 2%;
+}
+
+#searchform #searchsubmit,
+.col-md-6 #searchform #searchsubmit,
+.col-md-4 #searchform #searchsubmit,
+.col-md-3 #searchform #searchsubmit{
+    border: none;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 50%;
+    margin-top: -15px;
+    right: 10px;
+}
+
+#searchform #searchsubmit,
+#searchform #searchsubmit:hover {
+	font-size:0px;
+	text-indent: -9999px;
+    -webkit-transition: background-color .3s ease;
+    -moz-transition: background-color .3s ease;
+    -o-transition: background-color .3s ease;	
+    background-image: url(assets/images/search.svg);
+    background-color: #aaa;
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:10px;
+}
+
+#searchform #searchsubmit:hover {
+    background-color: #1abc9c;
+}
+
+/* Desktop layout
+   ---- */
+
+body.saul_desktop_layout #header {
+	padding:0 50px 100px 50px;
+}
+
+body.saul_desktop_layout .saul-menu { 
+	text-align:left; 
+	position:relative; 
+	width:100%;
+	margin-left:-50px;
+	margin-bottom:30px;
+	display:block
+}
+	
+body.saul_desktop_layout .saul-menu ul { 
+	list-style:none; 
+	margin:0; 
+	display:inline-block;
+	margin-top: 10px;
+	}
+	
+body.saul_desktop_layout .saul-menu ul li {
+	float:left; 
+	position:relative; 
+	display:block;
+	text-align:left;
+	font-size:inherit
+}
+	
+body.saul_desktop_layout .saul-menu ul li a   { 
+	text-decoration:none; 
+	display:block; 
+	padding:15px;
+	margin:0 5px 0 0;
+	z-index:1; 
+	font-size:14px;
+	color:#fff;
+	-webkit-transition: all .3s linear; 
+	-moz-transition: all .3s linear; 
+	-o-transition: all .3s linear;
+	font-family:'Mukta Vaani';
+	text-transform:uppercase;
+	font-weight:600;
+}
+
+body.saul_desktop_layout .saul-menu ul li a:hover, 
+body.saul_desktop_layout .saul-menu li:hover > a, 
+body.saul_desktop_layout .saul-menu ul li.current-menu-item > a, 
+body.saul_desktop_layout .saul-menu ul li.current_page_item > a, 
+body.saul_desktop_layout .saul-menu ul li.current-menu-parent > a, 
+body.saul_desktop_layout .saul-menu ul li.current_page_ancestor > a,
+body.saul_desktop_layout .saul-menu ul li.current-menu-ancestor > a {
+	color: #1abc9c;
+}
+
+body.saul_desktop_layout .saul-menu .sf-sub-indicator { 
+	padding:0 0 0 10px; 
+	float:right; 
+	font-size:8px;
+}
+
+body.saul_desktop_layout .saul-menu ul ul { 
+	display:none; 
+	position: absolute; 
+	top:55px; 
+	left:0; 
+	width:100%;
+	min-width:190px;
+	z-index:1001;
+	margin:0;
+	padding:0;
+	background:#2D3032; 
+}
+	 
+body.saul_desktop_layout .saul-menu ul ul li { 
+	position:relative; 
+	margin:0;
+	width:100%;
+	min-width:190px;
+	padding:0;
+	line-height:1.2em;
+}
+	
+body.saul_desktop_layout .saul-menu ul ul li a { 
+	text-decoration:none; 
+	text-align:left; 
+	display:block; 
+	margin:0;
+	padding:10px 20px;
+	font-size:12px;
+	color:#fff;
+}
+	
+body.saul_desktop_layout .saul-menu ul ul li a:hover, 
+body.saul_desktop_layout .saul-menu ul ul li a:hover, 
+body.saul_desktop_layout .saul-menu ul ul li.current-menu-item > a,
+body.saul_desktop_layout .saul-menu ul ul li.current_page_item > a, 
+body.saul_desktop_layout .saul-menu ul ul li.current_page_ancestor > a, 
+body.saul_desktop_layout .saul-menu ul ul li.current_page_ancestor > a, 
+body.saul_desktop_layout .saul-menu ul ul li.current-menu-ancestor > a { 
+	color: #1abc9c;
+}
+
+body.saul_desktop_layout .saul-menu ul ul li ul { 
+	top:0px !important; 
+	left:190px; 
+}
+	
+body.saul_desktop_layout .saul-menu ul ul li ul:before { 
+	display:none;
+}
+
+/* Mobile layout
+   ---- */
+
+body.saul_mobile_layout #header {
+	padding:50px;
+}
+
+body.saul_mobile_layout .saul-menu { 
+	display:none;
+}
+
+body.saul_mobile_layout #header .navigation {
+	top: auto;
+	right: auto;
+}
+
+body.saul_mobile_layout #header {
+	width:100%;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+body.saul_mobile_layout #header .navigation,
+body.saul_mobile_layout #sidebar-wrapper #scroll-sidebar .navigation {
+	position:relative;
+	margin-top:50px;
+	top:auto;
+	right:auto;
+}
+	
+body.saul_mobile_layout #sidebar-wrapper #scroll-sidebar .navigation {
+	margin-top:40px;
+}
+	
+body.saul_mobile_layout #header .navigation i ,
+body.saul_mobile_layout #sidebar-wrapper #scroll-sidebar .navigation i {
+	font-size:24px;
+}
+
+@media screen and (max-width: 768px) {
+	
+	body.saul_mobile_layout #footer .widget-box {
+		margin-bottom:50px;
+	}
+
+}

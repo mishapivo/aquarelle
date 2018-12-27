@@ -1,0 +1,111 @@
+/*
+Theme Name: Store eCommerce
+Description: Store eCommerce is responsive, SEO friendly, multipurpose and fully customizable WordPerss theme for eCommerce and Blog. it is perfect theme to display business informations and sell products online. it is fully compatible with WooCommerce plugin and have all the WooCommerce options like shop icon, cart icon, my account icon, gallery zoom, gallery light box, gallery slider, shop page layout, single product page layout, product images effects, products per column etc. it is also fully compatible with WooCommerce Quick View plugin with hover effects. Additional Theme Features : One Click Demo Import, Typography Options, Social Profile, Blog Options, Front Page Posts Slider, Sidebar Menu, Top Main Menu, Footer Menu, Footer Widgets, Footer Copyright Section, Sticky Main Menu, Page Preloader, Custom Logo, Full Width Layout, Left Sidebar Layout, Right Sidebar Layout, Contact Form 7 ready, Elementor Page Builder ready, Translation ready etc. it can be use for many type of websites such as blog, lifestyle, photography, gallery, travel, event, startups, agency and firm, architecture, medical, corporate businesses, sport, one page, landing page, restaurant and similar websites.
+Version: 1.0.0
+Author: DiThemes
+Author URI: https://dithemes.com/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, left-sidebar, right-sidebar, grid-layout, flexible-header, custom-background, custom-colors, custom-header, custom-menu, editor-style, custom-logo, featured-images, footer-widgets, full-width-template, microformats, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, blog, photography, e-commerce
+Text Domain: store-ecommerce
+Template: di-blog
+*/
+
+
+/* Additional Woo CSS */
+
+.woocommerce.woocommerce-page.archive ul.products li.product {
+	border: 1px solid #E9E9E9;
+}
+
+.woocommerce.woocommerce-page.archive ul.products li.product div.star-rating {
+	display: none;
+}
+
+.woocommerce.woocommerce-page.archive ul.products li.product span.price {
+	text-align: center;
+	padding: 5px 0;
+}
+
+.woocommerce.woocommerce-page.archive ul.products li.product h2.woocommerce-loop-product__title {
+	text-align: center;
+}
+
+.woocommerce.woocommerce-page.archive ul.products li.product .button.add_to_cart_button,
+.woocommerce.woocommerce-page.archive ul.products li.product .button.product_type_external,
+.woocommerce.woocommerce-page.archive ul.products li.product .button.product_type_grouped {
+	margin: 0 auto;
+	display: table;
+}
+
+.woocommerce.woocommerce-page.archive ul.products li.product .added_to_cart {
+	margin: 0 auto;
+	display: table;
+}
+
+.woocommerce.woocommerce-page.archive ul.products li.product span.onsale {
+	-webkit-transition: visibility .5s, opacity .5s;
+	transition: visibility .5s, opacity .5s;
+}
+
+.woocommerce.woocommerce-page.archive ul.products li.product:hover span.onsale {
+	visibility: hidden;
+	opacity: 0;
+}
+
+/* Additional Woo CSS END */
+
+/* Plugin Compatibility CSS */
+
+/* YITH WooCommerce Quick View Compatibility */
+
+.woocommerce.woocommerce-page.archive ul.products li.product .button.yith-wcqv-button {
+	-webkit-transition: visibility .5s, opacity .5s;
+	transition: visibility .5s, opacity .5s;
+	visibility: hidden;
+	opacity: 0;
+	position: relative;
+	display: table;
+	margin: 0 auto;
+	position: relative;
+	top: -251px;
+	padding: 8px 8px;
+	font-size: 13px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+.woocommerce.woocommerce-page.archive ul.products li.product:hover .button.yith-wcqv-button {
+	visibility: visible;
+	opacity: 1;
+}
+
+/* YITH WooCommerce Quick View Compatibility END */
+
+/* Plugin Compatibility CSS END */
+
+
+/* Additional Menu CSS */
+
+.footer-menu {
+	list-style-type: none;
+	padding: 0;
+	margin: 0 auto;
+	display: table;
+}
+.navbar-nav.footer-menu li {
+	display: inline-block;
+}
+
+.footer-menu li {
+	padding: 12px;
+}
+
+.footer-menu li a {
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+}
+
+

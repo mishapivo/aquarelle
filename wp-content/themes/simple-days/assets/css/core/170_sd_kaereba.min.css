@@ -1,0 +1,7 @@
+.kaerebalink-box,.booklink-box{margin:20px auto;padding:20px;-webkit-box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);box-shadow:0 2px 2px 0 rgba(0,0,0,0.14),0 3px 1px -2px rgba(0,0,0,0.12),0 1px 5px 0 rgba(0,0,0,0.2);-webkit-border-radius:2px;border-radius:2px}
+.kaerebalink-image,.booklink-image{max-width:256px}.kaerebalink-image>a>img,.booklink-image>a>img{max-height:256px}.kaerebalink-image>a amp-img img,.booklink-image>a amp-img img{object-fit:contain}
+.kaerebalink-info,.booklink-info{margin:10px 0 0}.kaerebalink-name>a,.booklink-name>a{text-align:center;display:block;color:#555;font-weight:700}.kaerebalink-powered-date,.booklink-powered-date,.kaerebalink-detail,.booklink-detail{text-align:right;font-size:12px}
+div[class^="shoplink"]{margin-top:10px;width:100%;text-align:center;background:#f3f3f3;border:1px #dadada solid;border-radius:2px;font-weight:bold}
+div[class^="shoplink"]:hover{border:1px #c6c6c6 solid;box-shadow:1px 1px 1px #eaeaea;color:#333;background:#f7f7f7}div[class^="shoplink"]:active{box-shadow:inset 1px 1px 1px #dfdfdf}
+div[class^="shoplink"] a{display:block;color:#222;padding:5px 10px}div[class^="shoplink"] a:hover{color:#222}
+div[class^="shoplink"] a:after{content:" \f002";font-family:"FontAwesome"}.booklink-footer,.kaerebalink-name>img,.kaerebalink-name>amp-img,.kaerebalink-name>p,.booklink-name>img,.booklink-name>amp-img,.booklink-name>p,div[class^="shoplink"] img,div[class^="shoplink"] amp-img{display:none}

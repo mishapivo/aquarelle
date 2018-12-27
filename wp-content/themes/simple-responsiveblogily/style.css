@@ -1,0 +1,391 @@
+/* 
+Theme Name:		 Simple ResponsiveBlogily
+Theme URI:		 https://superbthemes.com/responsiveblogily/responsive-blogily-info/
+Description:	 Responsive Blogily is your responsive and seo friendly responsive blog, the theme is crafted to be used for blogging, journalist writing or newspapers. The code is optimized and clean so your websites loading time till be amazing. We have inserted lots of advertisement space where you can put your Google Adsense or other type of ads if you wish. It's a great theme if you're a writer whose writing about entertainment, food, lifestyle, product previews, fashion, travel, gaming or other sort of affiliate blog. The theme works with Beaver Pagebuilder as all our other themes so you can create a minimalistic business agency portfolio, landing page or one page. The design is creative and modern, it's of course responsive so it works on tablets, desktop computers and mobile phones on any system such as Apples iOS/iPhone, Android or Windows phones.
+Author:			 ThemeEverest
+Author URI:		 https://superbthemes.com/
+Template:		 responsiveblogily
+Version:		 1.1
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-3.0.en.html
+Text Domain:	 simple-responsiveblogily
+Tags: two-columns, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu, custom-logo, featured-images, footer-widgets, theme-options, threaded-comments, translation-ready, blog, entertainment, news
+*/
+
+
+
+
+.comments-area {
+	width: 100%
+}
+
+.comment-respond .comment-form {
+	width: 100%;
+	box-sizing: border-box
+}
+
+.comments-area .comment-meta,
+.comments-area .comment-respond {
+	position: relative
+}
+
+.comments-area .comments-title {
+	margin-bottom: 30px;
+	color: #222;
+	font-size: 30px
+}
+
+.comments-area .comment-meta .comment-metadata a {
+	color: #999
+}
+
+.comment-meta .vcard img {
+	float: left;
+	margin-right: 14px
+}
+
+.comments-area .comment-author {
+	line-height: normal;
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 0
+}
+
+.comments-area .comment-author .fn a {
+	color: #222
+}
+
+.comments-area .comment-content {
+	padding: 20px 0 0 45px;
+}
+
+.comments-area .reply .comment-reply-link i {
+	font-size: 12px
+}
+
+.comments-area .comment-content p {
+	margin-bottom: 5px
+}
+
+.comments-area p.form-submit {
+	margin-bottom: 0;
+	padding-bottom: 10px
+}
+
+.comments-area p.form-submit input {
+	background: #fab526;
+	border: none;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	border-radius:30px;
+	padding: 15px 35px;
+	text-shadow: none;
+	box-shadow: none;
+	outline: 0;
+	margin: 0;
+	transition: background .25s linear
+}
+
+
+.comments-area ol.comment-list>li:last-child {
+	margin-bottom: 0
+}
+
+.comments-area ol.comment-list>li {
+	width: 100%;
+	border-bottom: 3px solid #000
+}
+
+#comments li.comment.parent article .reply,
+.author-highlight li.bypostauthor article .reply {
+	padding-bottom: 0
+}
+
+.comments-area ol.comment-list ol.children li  {
+	padding-top: 20px;
+	margin-left:0;
+	margin-top:20px;
+	padding-left: 10px;
+	margin-bottom: 0;
+	list-style:none;
+	border-top:1px solid rgba(0,0,0,0.1);
+	border-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+ol.children {
+	margin-left: 0;
+	padding-left: 5px;
+}
+.comments-area ol.comment-list li li.bypostauthor {
+	position: relative
+}
+
+.comments-area.author-highlight ol.comment-list li.bypostauthor {
+	border-bottom: 3px solid #f00000;
+	padding: 40px;
+	background: #f5f5f5
+}
+
+
+#comments li.comment .comment-respond {
+	margin-top: 10px;
+	position: relative
+}
+
+.comment-reply-title {
+	position: relative;
+	color: #3498DB;
+	margin: 0 0 16px;
+	padding-bottom: 20px
+}
+
+p.comment-form-email, p.comment-form-author {
+	max-width: 49%;
+	float: left;
+	display: inline-block;
+}
+
+p.comment-form-email {
+	margin-left: 2%;
+}
+
+.comment-form-wrap .comment-respond,
+.main-navigation ul li,
+.sheader {
+	position: relative
+}
+a#cancel-comment-reply-link {
+	display: block;
+	font-size: 17px;
+	opacity: 0.6;
+}
+.comments-area .comment-respond * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.comment-respond .logged-in-as a {
+	color: #000;
+}
+
+.comments-area .comment-respond input[type=text],
+.comments-area .comment-respond input[type=email],
+.comments-area .comment-respond input[type=url] {
+	background: #fff;
+	padding: 8px 14px;
+	width: 100%;
+	max-width: 430px;
+	margin-bottom: 6px
+}
+
+.wp-caption,
+embed,
+iframe,
+object {
+	max-width: 100%
+}
+
+.comments-area {
+	width: 100%
+}
+
+.comment-respond .comment-form {
+	width: 100%;
+	box-sizing: border-box
+}
+
+.comments-area .comment-meta,
+.comments-area .comment-respond {
+	position: relative
+}
+
+.comments-area .comments-title {
+	margin-bottom: 30px;
+	color: #222;
+	font-size: 30px
+}
+
+.comments-area .comment-meta .comment-metadata a {
+	color: #999
+}
+
+.comment-meta .vcard img {
+	float: left;
+	margin-right: 14px
+}
+
+.comments-area .comment-author {
+	line-height: normal;
+	font-size: 16px;
+	font-weight: 700;
+	margin-bottom: 0
+}
+
+.comments-area .comment-author .fn a {
+	color: #222
+}
+
+.comments-area .comment-content {
+	padding: 20px 0 0 45px;
+}
+
+.comments-area .reply .comment-reply-link i {
+	font-size: 12px
+}
+
+.comments-area .comment-content p {
+	margin-bottom: 5px
+}
+
+.comments-area p.form-submit {
+	margin-bottom: 0;
+	padding-bottom: 10px
+}
+
+.comments-area p.form-submit input {
+	background: #fab526;
+	border: none;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	border-radius:30px;
+	padding: 15px 35px;
+	text-shadow: none;
+	box-shadow: none;
+	outline: 0;
+	margin: 0;
+	transition: background .25s linear
+}
+
+
+.comments-area ol.comment-list>li:last-child {
+	margin-bottom: 0
+}
+
+.comments-area ol.comment-list>li {
+	width: 100%;
+	border-bottom: 3px solid #000
+}
+
+#comments li.comment.parent article .reply,
+.author-highlight li.bypostauthor article .reply {
+	padding-bottom: 0
+}
+
+.comments-area ol.comment-list ol.children li  {
+	padding-top: 20px;
+	margin-left:0;
+	margin-top:20px;
+	padding-left: 10px;
+	margin-bottom: 0;
+	list-style:none;
+	border-top:1px solid rgba(0,0,0,0.1);
+	border-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+ol.children {
+	margin-left: 0;
+	padding-left: 5px;
+}
+.comments-area ol.comment-list li li.bypostauthor {
+	position: relative
+}
+
+.comments-area.author-highlight ol.comment-list li.bypostauthor {
+	border-bottom: 3px solid #f00000;
+	padding: 40px;
+	background: #f5f5f5
+}
+
+
+#comments li.comment .comment-respond {
+	margin-top: 10px;
+	position: relative
+}
+
+.comment-reply-title {
+	position: relative;
+	color: #3498DB;
+	margin: 0 0 16px;
+	padding-bottom: 20px
+}
+
+p.comment-form-email, p.comment-form-author {
+	max-width: 49%;
+	float: left;
+	display: inline-block;
+}
+
+p.comment-form-email {
+	margin-left: 2%;
+}
+
+.comment-form-wrap .comment-respond,
+.main-navigation ul li,
+.sheader {
+	position: relative
+}
+a#cancel-comment-reply-link {
+	display: block;
+	font-size: 17px;
+	opacity: 0.6;
+}
+.comments-area .comment-respond * {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+.comment-respond .logged-in-as a {
+	color: #000;
+}
+
+.comments-area .comment-respond input[type=text],
+.comments-area .comment-respond input[type=email],
+.comments-area .comment-respond input[type=url] {
+	background: #fff;
+	padding: 8px 14px;
+	width: 100%;
+	max-width: 430px;
+	margin-bottom: 6px
+}
+
+.wp-caption,
+embed,
+iframe,
+object {
+	max-width: 100%
+}
+
+
+.image-banner {
+    margin-bottom: 35px;
+}
+
+.blog article.fbox {
+    margin-bottom: 0px;
+}
+
+.blog article.fbox .entry-content {
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.11);
+}
+
+.blog article.fbox {
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+}
+.primary-menu .pmenu, .super-menu, #smobile-menu, .primary-menu ul li ul.children, .primary-menu ul li ul.sub-menu {
+	background:#000;
+}
+#smobile-menu.show .main-navigation ul ul.children.active, #smobile-menu.show .main-navigation ul ul.sub-menu.active, #smobile-menu.show .main-navigation ul li, .smenu-hide.toggle-mobile-menu.menu-toggle, #smobile-menu.show .main-navigation ul li, .primary-menu ul li ul.children li, .primary-menu ul li ul.sub-menu li, .primary-menu .pmenu, .super-menu {
+	border-color:#000;
+}
+
+.main-navigation ul li a, .main-navigation ul li .sub-arrow, .super-menu .toggle-mobile-menu, .toggle-mobile-menu:before, .mobile-menu-active .smenu-hide {
+	color:#fff;
+}

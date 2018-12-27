@@ -1,0 +1,34 @@
+﻿== Theme Shaoor ==
+Shaoor WordPress Theme is a child theme of Wisdom Blog WordPress Theme.
+Shaoor WordPress Theme is distributed under the terms of the GNU GPL
+
+== Theme wisdom-blog ==
+Wisdom Blog is distributed under the terms of the GNU GPL
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+GNU General Public License for more details.
+
+== Scripts ==
+All the scripts used in this theme are not taken/copied from any copyright protected sections. Developer of this theme is well aware of GNU GPL and he is continuously contributing to opensource through his WordPress plugins, themes, gituhub, stackoverflow threads and other blogs online. He is capable of writing, editing and improving the scripts. A few sections are taken/inserted from wisdom-blog theme to keep the current theme compatible in the same way as a child theme and in future bootstrap is expected to improve/enhance the layouts. Developer of this theme respects copyright laws and are committed to remove any copyright infringing.
+
+== Images ==
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+And CC0 1.0 Universal (CC0 1.0) - Public Domain Dedication 
+License URI: https://creativecommons.org/publicdomain/zero/1.0/deed.en
+Terms of Use: https://pixabay.com/en/service/terms/#usage
+
+svg-icons.svg taken from the parent theme twentyseventeen. Twenty Seventeen is distributed under the terms of the GNU GPL
+According to the license, this program is a free software and can be redistributed and/or modified under the terms of the GNU General Public License as published by the Free Software Foundation, either version 2 of the License, or (at your option) any later version.
+
+
+= Background Image =
+
+= Attachment Images =

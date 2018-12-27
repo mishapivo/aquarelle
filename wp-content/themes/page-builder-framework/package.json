@@ -1,0 +1,20 @@
+{
+  "name": "wpbf",
+  "version": "0.0.1",
+  "description": "sass & js compiling",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.24.4",
+    "dev-ip": "^1.0.1",
+    "gulp": "^3.9.1",
+    "gulp-plumber": "^1.2.0",
+    "gulp-rename": "^1.3.0",
+    "gulp-ruby-sass": "^3.0.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}

@@ -1,0 +1,79 @@
+-------------------------------------------------------
+    CHANGELOG
+-------------------------------------------------------
+
+Keep a change log to describe all the changes made to program source files. The purpose of this is so that people investigating 
+bugs in the future will know about the changes that might have introduced the bug. Often a new bug can be found by looking at 
+what was recently changed. More importantly, change logs can help you eliminate conceptual inconsistencies between different 
+parts of a program, by giving you a history of how the conflicting concepts arose and who they came from.
+
+
+
+-------------------------------------------------------
+    CHANGELOG Legend
+-------------------------------------------------------
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+-------------------------------------------------------
+    CHANGELOG Version Numbers
+-------------------------------------------------------
+
+[major].[minor].[patch]
+
+These 3 levels are defined as:
+
+1. An increment in the major version identifier indicates a break in backward compatibility.
+2. An increment in the minor version identifier indicates the addition of new features or a significant change to existing features.
+3. An increment in the patch version identifier indicates that bugs have been fixed.
+
+-------------------------------------------------------
+    CHANGELOG Changes
+-------------------------------------------------------
+
+
+[July 5, 2015] Version 1.0.5 Shaped Pixels <www.shapedpixels.com>
+
+[!] Fixed a function in the functions.php file that was not loading the font icons.
+[x] Removed a duplicate set of the Genericon font
+
+----------
+
+
+[July 1, 2015] Version 1.0.4 Shaped Pixels <www.shapedpixels.com>
+
+[!] Fixed an issue with genericons display errors in Firefox. It needed the base64 font version.
+[*] Updated the functions.php file to accommodate the font icons.
+
+-----------
+
+[June 22, 2015] Version 1.0.3 Shaped Pixels <www.shapedpixels.com>
+
+[!] Fixed problem of genericons font not loading
+
+---------
+
+[June 22, 2015] Version 1.0.2 Shaped Pixels <www.shapedpixels.com>
+
+[x] Removed an extra sidebar that was not part of this theme version
+[*] Updated the language .pot file
+
+--------
+
+[June 15, 2015] Version 1.0.1 Shaped Pixels <www.shapedpixels.com>
+
+[!] Fixed an incorrect function name in the functions.php file
+[x] Removed an extra enqueued html5.js script that was in the header.php
+[+] Added missing "no content" template content-none.php
+[!] Fixed multi-page nav on the full single post
+
+--------
+
+[June 6, 2015] Version 1.0.0 Shaped Pixels <www.shapedpixels.com>
+
+[] New theme is released

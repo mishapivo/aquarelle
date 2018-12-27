@@ -1,0 +1,133 @@
+@media screen and (min-width: 768px) {
+  
+  
+  
+  .lo_grid3 article {
+    flex: 0 0 32%; }
+
+  
+  
+  
+  .title_text {
+    font-size: 24px; }
+
+  .site_title {
+    padding: 10px 0; }
+
+  .on_thum:before {
+    padding-top: 50%; }
+
+  .full_thum_b:before {
+    padding-top: 35%; }
+
+  .oh_widget {
+    width: auto;
+    margin: 0; }
+
+  
+  
+  
+  .f_widget {
+    padding: 10px 15px;
+    margin: 0 0px 30px; }
+    .f_widget .ad_rectangle {
+      min-width: auto; }
+
+  .fw_con > div {
+    width: 32%; }
+
+  .copyright_info, .copyright_wordpress {
+    margin: 0; }
+    .copyright_info div, .copyright_wordpress div {
+      margin: 0;
+      padding: 0; }
+    .copyright_info > div:last-child, .copyright_wordpress > div:last-child {
+      margin-left: 5px; }
+      .copyright_info > div:last-child:before, .copyright_wordpress > div:last-child:before {
+        content: " | "; }
+
+  div.copyright_right {
+    text-align: right; }
+
+  
+  
+  
+  .post_card {
+    flex: 0 0 49%; }
+
+  .post_card_thum_img {
+    height: 100%;
+    max-height: 240px; }
+
+  .on_pagi > div {
+    width: auto; }
+
+  .s_widget {
+    max-width: 48%;
+    min-width: 48%;
+    height: min-content; }
+
+  .ad_rectangle {
+    min-width: 300px; }
+
+  
+  
+  
+  .nav_link_box {
+    width: 48%; }
+
+  .bc_thum_wrap {
+    width: 30%; }
+
+  .bc_thum {
+    height: 100%;
+    border-radius: 2px 0 0 2px; }
+
+  .bc_entry {
+    width: 70%; }
+
+  .cta_box_bg img {
+    display: none; }
+
+  .cta_box_thum {
+    width: 60%;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px; }
+
+  .cta_box_like {
+    border-radius: 0 3px 3px 0;
+    background: #272727; }
+
+  
+  
+  
+  .f_col101 {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    -webkit-flex-direction: row;
+    flex-direction: row; }
+
+  .on_pagi {
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap; }
+
+  .nav_link {
+    -ms-flex-wrap: nowrap;
+    -webkit-flex-wrap: nowrap;
+    flex-wrap: nowrap; }
+
+  .credit, .index_contents {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between; }
+
+  .sns_ap, .copyright_info, .copyright_wordpress {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    -webkit-justify-content: flex-start;
+    justify-content: flex-start; } }
+
+

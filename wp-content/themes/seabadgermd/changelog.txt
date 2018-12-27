@@ -1,0 +1,17 @@
+Changelog:
+
+1.1.4
+    Remove the About card widget
+    Fix various code style issues
+    Fix various missing or incorrect escaping issues
+
+1.1.3
+    Fix search bar when searching on pages and posts
+    Fix comment button to properly show comment icon
+    Change comment icon according to number of comments
+
+1.1.2:
+    Fix responsive gallery
+        * add missing alt/title tags
+        * skip image if no src is returned by wp_get_attachment_image_src
+        * properly link to media file / attachment page

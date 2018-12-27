@@ -1,0 +1,28 @@
+== Changelog ==
+
+= 1.2.5.1 ==
+1. Fixed escaping issues.
+
+= 1.2.5 ==
+1. Added Recommended plugin tab.
+
+= 1.2.4 ==
+1. Update String.
+
+= 1.2.3 ==
+1. Update Theme About page description.
+
+= 1.2.2 ==
+1. Added Theme Detail Page.
+
+= 1.2.1 ==
+1. Fixed styling issue.
+
+= 1.2 ==
+1. Fixed styling issue.
+
+= 1.1 ==
+1. Fixed theme review issue.
+
+= 1.0 ==
+1. Released

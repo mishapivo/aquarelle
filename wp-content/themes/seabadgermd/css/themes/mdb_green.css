@@ -1,0 +1,58 @@
+body {
+  background-color: white;
+  color: #59955c; }
+
+a, a:visited {
+  color: #6ca870; }
+
+a:hover {
+  color: #6ca870; }
+
+.themecolor, .themecolor.btn {
+  background-color: #59955c;
+  color: white; }
+  .themecolor a, .themecolor.btn a, .themecolor a:visited, .themecolor.btn a:visited, .themecolor a:hover, .themecolor.btn a:hover {
+    color: white !important; }
+
+.btn.themecolor {
+  color: white !important; }
+
+/* Posts */
+.card-text.post-content {
+  background-color: white;
+  color: #59955c; }
+
+.sticky_icon {
+  color: #ff5353; }
+
+/* Navbar */
+.navbar, .navbar a, .navbar a:visited, .navbar .dropdown-menu a, .navbar .dropdown-menu a:visited, .navbar .dropdown-menu a:hover {
+  background-color: #59955c !important;
+  color: white !important; }
+  .navbar .dropdown-menu a:hover, .navbar a .dropdown-menu a:hover, .navbar a:visited .dropdown-menu a:hover, .navbar .dropdown-menu a .dropdown-menu a:hover, .navbar .dropdown-menu a:visited .dropdown-menu a:hover, .navbar .dropdown-menu a:hover .dropdown-menu a:hover {
+    background-color: rgba(255, 255, 255, 0.2) !important; }
+
+a.nav-link:hover {
+  border-bottom: 2px solid white; }
+
+.active a.nav-link {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2); }
+
+/* Widget area */
+.card.widget li {
+  border-color: #59955c; }
+
+/* Pagination */
+.page-item.active .page-link {
+  background-color: #59955c;
+  border-color: #59955c;
+  color: white; }
+
+.page-item .page-link {
+  color: #59955c; }
+
+/* Post paging */
+.active.post-paging-link.themecolor, .active.post-paging-link.themecolor.btn {
+  color: #59955c;
+  background-color: white;
+  border: 1px solid #59955c; }

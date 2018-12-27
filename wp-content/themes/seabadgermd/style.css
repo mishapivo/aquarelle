@@ -1,0 +1,573 @@
+/*
+Theme Name: SeaBadgerMD
+Theme URI: https://seabadger.io/seabadgermd-wordpress-theme
+Description: Responsive Material Design WordPress blog theme
+Version: 1.1.4
+Author: SeaBadger.io
+Author URI: https://seabadger.io/about
+License: GNU General Public License v3 or later
+License URI: https://www.gnu.org/licenses/gpl.txt
+Text Domain: seabadgermd
+Tags: blog,two-columns,right-sidebar,grid-layout,custom-colors,custom-menu,featured-images,theme-options,threaded-comments,translation-ready,custom-background,custom-header,flexible-header
+*/
+
+main {
+	padding-top: 2rem;
+	padding-bottom: 2rem;
+}
+
+.card {
+	border-radius: 0;
+}
+
+.blockquote {
+	margin-bottom: 1rem;
+	font-size: 1.25rem;
+}
+
+pre {
+	color: inherit;
+}
+
+h1, h2, h3, h4 {
+	font-family: "Roboto Slab", Roboto, sans-serif;
+}
+
+/* Posts */
+
+@media (max-width: 576px) {
+	.posts-col {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.btn {
+		font-size: .6rem;
+		padding: .5rem 1.6rem;
+	}
+	.container.hero {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+
+.post-wrapper {
+	margin-bottom: 2rem;
+}
+
+.post-image-overlay {
+	overflow: hidden;
+	position: relative;
+	top: 1rem;
+	padding-bottom: 1rem;
+}
+
+.post-image-overlay > img {
+	max-width: 90%;
+	left: 5%;
+	border-radius: 0.5rem;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.post-meta {
+	padding-bottom: 1rem;
+	text-align: center;
+}
+
+.post-author,
+.post-date,
+.post-categories {
+	padding: .3rem .6rem .3rem .6rem;
+}
+
+.post-navigation-prev {
+	text-align: right;
+}
+
+.post-paging {
+	text-align: center;
+}
+
+.post-paging-link {
+	width: 2rem;
+	display: inline-block;
+}
+
+.card-text.post-content {
+	font-size: 1rem;
+}
+
+.tagline {
+	font-size: 0.9rem;
+	line-height: 1rem;
+}
+
+.tagline > a:before {
+	content: '#';
+}
+
+.clear {
+	clear: both;
+	width: 0;
+	height: 0;
+	visibility: hidden;
+	overflow: hidden;
+}
+
+.sticky_icon {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	opacity: 0.6;
+}
+
+.comment-link {
+	float: right;
+}
+
+/* Sidebar */
+#sidebar .widget {
+	margin-bottom: 30px;
+}
+
+#sidebar .widget-title {
+	margin: -15px -15px 10px -15px;
+	padding: 5px;
+	/* border-radius: 5px 5px 0px 0px; */
+	border-radius: 0;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+#sidebar .widget ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#sidebar .widget ul.children {
+	padding-left: 20px;
+}
+
+#sidebar .widget li {
+	/* workaround missing card-text class */
+	font-size: 0.9rem;
+	font-weight: 400;
+}
+
+#sidebar .widget li:not(:last-child) {
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	padding-bottom: 5px;
+}
+
+#sidebar .widget li:not(:first-child) {
+	padding-top: 5px;
+}
+
+.widget_calendar table {
+	width: 100%;
+}
+
+.widget_calendar th,
+.widget_calendar td,
+.widget_calendar caption {
+	text-align: center;
+}
+
+.widget_calendar tfoot td {
+	border: 0;
+}
+
+.widget_calendar #today {
+	border-style: solid;
+	border-width: 1px;
+}
+
+.widget_calendar td > a {
+	font-weight: bold;
+}
+
+.tagcloud {
+	text-align: center;
+}
+
+.tag-cloud-link {
+	border-radius: .5em;
+	padding: 1px .2em 1px .2em;
+	margin: 0 0.1em 0 0.1em;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+/* Recent posts grid widget */
+.recent-posts-grid-item {
+	padding: 5px;
+	max-width: 170px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.recent-posts-grid-textover {
+	font-size: 9pt;
+	position: absolute;
+	bottom: 20px;
+	left: 5%;
+	width: 80%;
+	background-color: rgba(255,255,255,0.7);
+	color: #2B3856;
+	padding: 2px;
+}
+
+/* About card widget */
+.about.aboutwidget {
+	margin: -20px;
+}
+
+.about {
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 2px 5px 0px, rgba(0, 0, 0, 0.12) 0px 2px 10px 0px;
+}
+
+.about-header {
+	text-align: center;
+}
+
+.about-title {
+	font-size: 1.25rem;
+}
+
+.about-avatar {
+	height: 100px;
+	margin-top: -50px;
+	border-radius: 50%!important;
+	border: 5px solid rgba(255,255,255,.8);
+}
+
+.about-body {
+	padding: 10px;
+}
+
+.about-text,
+.card .card-body p.about-text {
+	margin-bottom: 0;
+}
+
+.about-footer {
+	text-align: center;
+	padding: 5px;
+}
+
+/* Navbar */
+/* fix navbar below the wp toolbar */
+.customize-support .navbar.fixed-top {
+	position: fixed;
+	top: 25px;
+}
+
+header.fixed ~ main {
+	margin-top: 3rem;
+}
+
+nav.fixed-top ~ .hero {
+	margin-top: 5rem;
+}
+
+nav ~ .breadcrumb {
+	margin-top: 3rem;
+}
+
+img.navbar-brand-logo {
+	max-height: 30px;
+}
+
+/* Navbar search form */
+.navbar .md-form {
+	margin: 0;
+}
+
+/* Hero */
+.jumbotron {
+	background-color: #444;
+}
+
+.hero-button-area {
+	text-align: right;
+}
+
+/* Breadcrumb */
+nav.breadcrumb {
+	border-radius: 0;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}
+
+.breadcrumb-item.active {
+	color: inherit;
+}
+
+.breadcrumb-item+.breadcrumb-item::before,
+.breadcrumb-item::before {
+	color: inherit;
+}
+
+/* Pagination */
+#page-nav ul.pagination {
+	justify-content: center;
+}
+
+/* Footer menu */
+.footer-menu {
+	text-align: center;
+}
+
+.footer-menu ul {
+	list-style: none;
+}
+
+.footer-menu li {
+	display: inline-block;
+	margin: 0 15px 0 15px;
+}
+
+.page-footer {
+	padding-top: 0;
+}
+
+.footer-menu {
+	line-height: 50px;
+}
+
+.footer-themeinfo {
+	background-color: rgba(255,255,255,0.4);
+	color: #2966B8 !important;
+	text-align: center;
+	font-size: .9rem;
+	padding-top: .2rem;
+	padding-bottom: .2rem;
+}
+
+/* Font definition */
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('./font/roboto_slab/robotoslab-bold-webfont.woff2') format('woff2'),
+         url('./font/roboto_slab/robotoslab-bold-webfont.woff') format('woff'),
+         url('./font/roboto_slab/robotoslab-bold-webfont.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Slab';
+    src: url('./font/roboto_slab/robotoslab-regular-webfont.woff2') format('woff2'),
+         url('./font/roboto_slab/robotoslab-regular-webfont.woff') format('woff'),
+         url('./font/roboto_slab/robotoslab-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Tables */
+table.table a {
+	color: inherit;
+}
+
+/* Forms */
+.form-control:focus {
+	color: inherit;
+}
+
+/* Buttons */
+.btn.btn-round {
+	border-radius: 50%;
+	width: 45px;
+	height: 45px;
+	padding: 0;
+	text-align: center;
+}
+
+.btn.btn-round i {
+	line-height: 45px;
+}
+
+.btn-social > i.fa {
+	font-size: 25px;
+	margin-top: 0;
+}
+
+/* Floating button displayed dynmically to allow jumping to top of page */
+#to-the-top {
+	display: none;
+	position: fixed;
+	width: 45px;
+	height: 45px;
+	bottom: 20px;
+	right: 20px;
+	padding: 0;
+	z-index: 99;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 50%;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+	opacity: 0.8;
+}
+
+#to-the-top .fa {
+	font-size: 45px;
+}
+
+/* Magazin Front Page */
+
+.fp-widget {
+	padding-bottom: 1rem;
+}
+
+/* FP Posts */
+.category-readmore {
+	text-align: right;
+	margin-top: -1.5rem;
+}
+
+.category-readmore a.btn.btn-sm {
+	font-family: "Roboto Slab";
+	text-transform: none;
+	font-size: .8rem;
+}
+
+.postcard-title {
+	padding: 5px;
+	font-size: 1.2rem;
+}
+
+.postcard-body {
+	padding-top: 0;
+}
+
+.postcard-meta {
+	text-align: center;
+}
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+.alignnone {
+  margin: 5px 20px 20px 0;
+	max-width: 100%;
+}
+
+.aligncenter,
+div.aligncenter {
+  display: block;
+	margin: 5px auto 5px auto;
+	max-width: 100%;
+}
+
+img.aligncenter,
+img.alignright,
+img.alignleft {
+	height: auto;
+}
+
+.alignright {
+  float:right;
+  margin: 5px 0 20px 20px;
+	max-width: 100%;
+}
+
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+	max-width: 100%;
+}
+
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+
+a img.alignnone {
+  margin: 5px 20px 20px 0;
+}
+
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+
+a img.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.wp-caption {
+	background: #fff;
+	border: 1px solid #f0f0f0;
+	max-width: 96%; /* Image does not overflow the content area */
+	padding: 5px 3px 10px;
+	text-align: center;
+}
+
+.wp-caption.alignnone {
+	margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignleft {
+	margin: 5px 20px 20px 0;
+}
+
+.wp-caption.alignright {
+	margin: 5px 0 20px 20px;
+}
+
+.wp-caption img {
+	border: 0 none;
+	height: auto;
+	margin: 0;
+	max-width: 98.5%;
+	padding: 0;
+	width: auto;
+}
+
+.wp-caption p.wp-caption-text {
+	font-size: 11px;
+	line-height: 17px;
+	margin: 0;
+	padding: 0 4px 5px;
+}
+
+/* Text meant only for screen readers. */
+.screen-reader-text {
+	border: 0;
+	clip: rect(1px, 1px, 1px, 1px);
+	clip-path: inset(50%);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute !important;
+	width: 1px;
+	word-wrap: normal !important; /* Many screen reader and browser combinations announce broken words as they would appear visually. */
+}
+
+.screen-reader-text:focus {
+	background-color: #eee;
+	clip: auto !important;
+	clip-path: none;
+	color: #444;
+	display: block;
+	font-size: 1em;
+	height: auto;
+	left: 5px;
+	line-height: normal;
+	padding: 15px 23px 14px;
+	text-decoration: none;
+	top: 5px;
+	width: auto;
+	z-index: 100000;
+	/* Above WP toolbar. */
+}
+
+.gallery-caption {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bypostauthor {
+	font-weight: bolder;
+}

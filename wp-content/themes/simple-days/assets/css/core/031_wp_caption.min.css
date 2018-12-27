@@ -1,0 +1,6 @@
+.wp-caption{border:1px solid #eee;background:#fafafa;text-align:center;margin:10px auto 20px;padding:10px;-webkit-border-radius:3px;border-radius:3px;max-width:100%}
+.wp-caption-text{text-align:center}.gallery-item{display:inline-block;text-align:center;vertical-align:top;margin:0 0 1.5em;padding:0 1em 0 0;width:100%}
+.gallery-item img:hover{opacity:.7}.gallery-caption{padding:0 10px 0 0;margin-bottom:0}.wp-caption img,.gallery img{-webkit-box-shadow:3px 3px 5px rgba(0,0,0,0.5);box-shadow:3px 3px 5px rgba(0,0,0,0.5)}
+.gallery-columns-2 .gallery-item{max-width:50%}.gallery-columns-3 .gallery-item{max-width:33.33%}.gallery-columns-4 .gallery-item{max-width:25%}.gallery-columns-5 .gallery-item{max-width:20%}
+.gallery-columns-6 .gallery-item{max-width:16.66%}.gallery-columns-7 .gallery-item{max-width:14.28%}.gallery-columns-8 .gallery-item{max-width:12.5%}.gallery-columns-9 .gallery-item{max-width:11.11%}
+.gallery-columns-7 .gallery-caption,.gallery-columns-8 .gallery-caption,.gallery-columns-9 .gallery-caption{display:none}

@@ -1,0 +1,885 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ProfitMag v10.02\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-01-15 16:51+0300\n"
+"Last-Translator: Игорь <dybabiz@ya.ru>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ profitmag
+#: 404.php:15
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Упс! Эта страница не найдена."
+
+# @ profitmag
+#: 404.php:19
+msgid "It looks like nothing was found at this location."
+msgstr "По данному адресу ничего не найдено."
+
+# @ profitmag
+#: archive.php:37
+#, php-format
+msgid "Author: %s"
+msgstr "Автор: %s"
+
+# @ profitmag
+#: archive.php:40
+#, php-format
+msgid "Day: %s"
+msgstr "Число: %s"
+
+# @ profitmag
+#: archive.php:43
+#, php-format
+msgid "Month: %s"
+msgstr "Месяц: %s"
+
+# @ profitmag
+#: archive.php:43
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+# @ profitmag
+#: archive.php:46
+#, php-format
+msgid "Year: %s"
+msgstr "Год: %s"
+
+# @ profitmag
+#: archive.php:46
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+# @ profitmag
+#: archive.php:49
+msgid "Asides"
+msgstr ""
+
+# @ profitmag
+#: archive.php:52
+msgid "Galleries"
+msgstr ""
+
+# @ profitmag
+#: archive.php:55
+msgid "Images"
+msgstr ""
+
+# @ profitmag
+#: archive.php:58
+msgid "Videos"
+msgstr ""
+
+# @ profitmag
+#: archive.php:61
+msgid "Quotes"
+msgstr ""
+
+# @ profitmag
+#: archive.php:64
+msgid "Links"
+msgstr ""
+
+# @ profitmag
+#: archive.php:67
+msgid "Statuses"
+msgstr ""
+
+# @ profitmag
+#: archive.php:70
+msgid "Audios"
+msgstr ""
+
+# @ profitmag
+#: archive.php:73
+msgid "Chats"
+msgstr ""
+
+# @ profitmag
+#: archive.php:76
+msgid "Archives"
+msgstr ""
+
+# @ profitmag
+#: comments.php:28
+msgid "COMMENTS"
+msgstr "КОММЕНТАРИИ"
+
+# @ profitmag
+#: comments.php:33 comments.php:51
+msgid "Comment navigation"
+msgstr "Комментарий навигация"
+
+# @ profitmag
+#: comments.php:34 comments.php:52
+msgid "&larr; Older Comments"
+msgstr "&larr;  Предыдущие комментарии"
+
+# @ profitmag
+#: comments.php:35 comments.php:53
+msgid "Newer Comments &rarr;"
+msgstr "Следующие комментарии &rarr;"
+
+# @ profitmag
+#: comments.php:63
+msgid "Comments are closed."
+msgstr "Обсуждение закрыто"
+
+# @ profitmag
+#: content-none.php:13
+msgid "Nothing Found"
+msgstr "Ничего не найдено"
+
+# @ profitmag
+#: content-none.php:19
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "Готовы опубликовать первую запись? <a href=\"%1$s\">Начать здесь</a>."
+
+# @ profitmag
+#: content-none.php:23
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "К сожалению, по вашему запросу ничего не найдено."
+
+# @ profitmag
+#: content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Кажется, мы можем и найти то, что вы  ищете. Возможно, поиск может помочь."
+
+# @ profitmag
+#: content-page.php:18 content-search.php:42 content-single.php:43
+#: content.php:38
+msgid "Pages:"
+msgstr "Страницы: "
+
+# @ profitmag
+#: content-page.php:24 content-search.php:75 content-single.php:73
+#: content.php:71
+msgid "Edit"
+msgstr "Изменить"
+
+# @ profitmag
+#: content-search.php:38 content.php:34
+msgid "Read More"
+msgstr "Подробнее"
+
+# @ profitmag
+#. translators: used between list items, there is a space after the comma
+#: content-search.php:52 content-search.php:62 content-single.php:53
+#: content-single.php:63 content.php:48 content.php:58
+msgid ", "
+msgstr ""
+
+# @ profitmag
+#: content-search.php:56 content-single.php:57 content.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr "Категории: %1$s"
+
+# @ profitmag
+#: content-search.php:66 content-single.php:67 content.php:62
+#, php-format
+msgid "Tagged %1$s"
+msgstr "Метки: %1$s"
+
+# @ profitmag
+#: content-search.php:72 content.php:68
+msgid "Leave a comment"
+msgstr "Оставить комментарий"
+
+# @ profitmag
+#: content-search.php:72 content.php:68
+msgid "1 Comment"
+msgstr "1 Комментарий"
+
+# @ profitmag
+#: content-search.php:72 content.php:68
+msgid "% Comments"
+msgstr "% Комментариев"
+
+# @ profitmag
+#: content-single.php:29
+msgid "Related Post"
+msgstr "Похожие записи"
+
+# @ profitmag
+#: front-page.php:328
+msgid "Media Gallery"
+msgstr "Медиа-галерея"
+
+# @ profitmag
+#: functions.php:49
+msgid "Primary Menu"
+msgstr "Основное меню"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:184
+msgid "Theme Options"
+msgstr "Опции темы"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:211
+msgid "Like/Follow our Page for New Updates"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:222
+msgid "Options Saved"
+msgstr "Опции сохранены"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:228 inc/admin-panel/theme-options.php:250
+msgid "Basic Settings"
+msgstr "Основные настройки"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:229 inc/admin-panel/theme-options.php:340
+msgid "Home Page Settings"
+msgstr "Настройки Главной страницы"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:230 inc/admin-panel/theme-options.php:509
+msgid "Slider Settings"
+msgstr "Настройки слайдера"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:231 inc/admin-panel/theme-options.php:625
+msgid "Sidebar Posts Settings"
+msgstr "Боковая колонка - Настройка"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:232 inc/admin-panel/theme-options.php:840
+msgid "Advertising"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:233
+msgid "Social Links"
+msgstr "Социальные ссылки"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:234 inc/admin-panel/theme-options.php:964
+msgid "Tools"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:235
+msgid "About ProfitMag Theme"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:253
+msgid "Disable Responsive Design?"
+msgstr "Адаптивный дизайн"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:258 inc/admin-panel/theme-options.php:869
+msgid "Check to disable"
+msgstr "Выключить"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:264
+msgid "Web Page Layout"
+msgstr "Макет веб-страницы"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:279
+msgid "Show Search in Menu?"
+msgstr "Показать поиск в меню?"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:283
+msgid "Check to enable"
+msgstr "Включено"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:289
+msgid "Menu Alignment"
+msgstr "Выравнивание Меню"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:303
+msgid "Upload Favicon"
+msgstr "Загрузить иконку сайта"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:306 inc/admin-panel/theme-options.php:325
+msgid "Upload"
+msgstr "Загрузить"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:307
+msgid "Upload favicon(.png) with size of 16px X 16px"
+msgstr "Загрузите favicon(.png) размер  16px X 16px"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:312 inc/admin-panel/theme-options.php:317
+msgid "Remove"
+msgstr "Удалить"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:317
+msgid "remove"
+msgstr "удалить"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:324
+msgid "Upload Header Logo"
+msgstr "Загрузить логотип"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:329
+msgid "Footer Copyright Text"
+msgstr "Copyright текст в подвале"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:343
+msgid "Featured Block ( Besides Slider )"
+msgstr "Блок записей ( В виде слайдера )"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:353 inc/admin-panel/theme-options.php:369
+#: inc/admin-panel/theme-options.php:388 inc/admin-panel/theme-options.php:407
+#: inc/admin-panel/theme-options.php:426 inc/admin-panel/theme-options.php:449
+#: inc/admin-panel/theme-options.php:466 inc/admin-panel/theme-options.php:677
+#: inc/admin-panel/theme-options.php:729 inc/admin-panel/theme-options.php:762
+#: inc/admin-panel/theme-options.php:814
+msgid "Category "
+msgstr "Категория "
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:359
+msgid "Featured Block One ( 3 Column )"
+msgstr "Блок записей Первый ( В 3 клонки )"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:371 inc/admin-panel/theme-options.php:390
+#: inc/admin-panel/theme-options.php:409 inc/admin-panel/theme-options.php:428
+#: inc/admin-panel/theme-options.php:451 inc/admin-panel/theme-options.php:468
+msgid "No.of Block Post to Display"
+msgstr "Количество записей"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:378
+msgid "Featured Block Two ( 3 Column )"
+msgstr "Блок записе Второй ( В 3 колонки )"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:397
+msgid "Featured Block Three ( 5 Column )"
+msgstr "Блок записей Третий ( В 5 колонок )"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:416
+msgid "Featured Block Four ( Excerpt Posts )"
+msgstr "Блок записей Четвертый( С отрывком записей )"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:439
+msgid "Featured Block Left"
+msgstr "Блок записей Пятый - Лево"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:456
+msgid "Featured Block Right"
+msgstr "Блок записей Пятый - Право"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:499 inc/admin-panel/theme-options.php:715
+#: inc/admin-panel/theme-options.php:800
+msgid "Add Image"
+msgstr "Добавить изображение"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:514
+msgid "Show Slide From"
+msgstr "Показать слайды из"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:515
+msgid "Single Posts"
+msgstr "Записей"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:516
+msgid "Category Posts"
+msgstr "Категории"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:521
+msgid "Select the post that you want to display as a Slider"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:524
+msgid "Silder 1"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:538
+msgid "Silder 2"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:550
+msgid "Silder 3"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:562
+msgid "Silder 4"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:576
+msgid "Select Category"
+msgstr "Выберите категорию"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:590
+msgid "Show Slider Controls (Arrows)"
+msgstr "Показывать стрелки перехода"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:602
+msgid "Slider auto Transition"
+msgstr "Авто переход"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:616
+msgid "Slider Speed"
+msgstr "Скорость слайдера"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:635 inc/admin-panel/theme-options.php:665
+msgid "Left Sidebar"
+msgstr "Sidebar с Лева"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:642 inc/admin-panel/theme-options.php:750
+msgid "Right Sidebar"
+msgstr "Sidebar с Права"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:649
+msgid "Both Sidebar"
+msgstr "Sidebar с Двух сторон"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:657
+msgid "No Sidebar"
+msgstr "Без Sidebar"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:667 inc/admin-panel/theme-options.php:752
+msgid "Category Posts One ( Middle of Sidebar )"
+msgstr "Категория записей Один ( Middle of Sidebar )"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:679 inc/admin-panel/theme-options.php:731
+#: inc/admin-panel/theme-options.php:764 inc/admin-panel/theme-options.php:816
+msgid "No.of Post to Display"
+msgstr "Количество записей"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:685 inc/admin-panel/theme-options.php:770
+msgid "Middle Ads"
+msgstr "Реклама"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:687 inc/admin-panel/theme-options.php:739
+#: inc/admin-panel/theme-options.php:745 inc/admin-panel/theme-options.php:772
+#: inc/admin-panel/theme-options.php:824 inc/admin-panel/theme-options.php:830
+#: inc/admin-panel/theme-options.php:844 inc/admin-panel/theme-options.php:849
+msgid "Please insert the image of size "
+msgstr "Введите рекламный код"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:719 inc/admin-panel/theme-options.php:804
+msgid "Category Posts Two( Middle of Sidebar )"
+msgstr "Category Posts Два( Middle of Sidebar )"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:737 inc/admin-panel/theme-options.php:822
+msgid "Bottom Ads One"
+msgstr "Рекламное место 1"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:743 inc/admin-panel/theme-options.php:828
+msgid "Bottom Ads Two"
+msgstr "Рекламное место 2"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:842
+msgid "Header Ads"
+msgstr "Реклама в шапке"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:847
+msgid "Home Page Ads ( Mid Section )"
+msgstr "Рекламный блок на главной между записями"
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:859
+msgid "Social links - Put your social url"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:861
+msgid "Put your social url below.. Leave blank if you don't want to show it."
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:865
+msgid "Disable Social icons in header?"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:875
+msgid "Facebook"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:881
+msgid "Twitter"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:887
+msgid "Google plus"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:893
+msgid "Youtube"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:899
+msgid "Pinterest"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:905
+msgid "Flickr"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:911
+msgid "Vimeo"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:917
+msgid "Stumbleupon"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:923
+msgid "Dribble"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:929
+msgid "Tumblr"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:935
+msgid "Linkedin"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:941
+msgid "Sound Cloud"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:947
+msgid "Skype"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:953
+msgid "RSS"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:966
+msgid "Custom CSS"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:968
+msgid "Enter the custom css here"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:972
+msgid "Analytics Code"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:974
+msgid "Enter the code from Facebook, Google or any other media here."
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:980
+msgid "Know more about ProfitMag Themes"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:982
+msgid "This is ProfitMag Theme developed by"
+msgstr ""
+
+# @ profitmag
+#: inc/admin-panel/theme-options.php:987
+msgid "Save Options"
+msgstr "Сохранить опции"
+
+# @ profitmag
+#: inc/extras.php:63
+#, php-format
+msgid "Page %s"
+msgstr "Страница %s"
+
+# @ profitmag
+#: inc/profitmag-functions.php:14
+msgid "Right Sidebar Top"
+msgstr "Правая боковая колонка ТОП"
+
+# @ profitmag
+#: inc/profitmag-functions.php:24
+msgid "Right Sidebar Middle"
+msgstr "Правая боковая колонка СРЕДНЯЯ"
+
+# @ profitmag
+#: inc/profitmag-functions.php:37
+msgid "Left Sidebar Top"
+msgstr "Левая боковая колонка ТОП"
+
+# @ profitmag
+#: inc/profitmag-functions.php:47
+msgid "Left Sidebar Middle"
+msgstr "Левая боковая колонка СРЕДНЯЯ"
+
+# @ profitmag
+#: inc/profitmag-functions.php:57
+msgid "Home Popular Widget Area"
+msgstr "Популярные записи на главной"
+
+# @ profitmag
+#: inc/profitmag-functions.php:68
+msgid "Footer Top Column One"
+msgstr ""
+
+# @ profitmag
+#: inc/profitmag-functions.php:78
+msgid "Footer Top Column Two"
+msgstr ""
+
+# @ profitmag
+#: inc/profitmag-functions.php:88
+msgid "Footer Top Column Three"
+msgstr ""
+
+# @ profitmag
+#: inc/profitmag-functions.php:98
+msgid "Footer Top Column Four"
+msgstr ""
+
+# @ profitmag
+#: inc/profitmag-functions.php:109
+msgid "Footer Top Column Five"
+msgstr ""
+
+# @ profitmag
+#: inc/profitmag-functions.php:120
+msgid "Footer Top Column Six"
+msgstr ""
+
+# @ profitmag
+#: inc/profitmag-functions.php:132
+msgid "Footer Bottom Column One"
+msgstr ""
+
+# @ profitmag
+#: inc/profitmag-functions.php:142
+msgid "Footer Bottom Column Two"
+msgstr ""
+
+# @ profitmag
+#: inc/profitmag-functions.php:152
+msgid "Footer Bottom Column Three"
+msgstr ""
+
+# @ profitmag
+#: inc/profitmag-functions.php:162
+msgid "Footer Bottom Column Four"
+msgstr ""
+
+# @ profitmag
+#: inc/profitmag-functions.php:550
+msgid "No related post."
+msgstr "Нет связанных записей"
+
+# @ default
+#: inc/profitmag-functions.php:597
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+# @ profitmag
+#: inc/profitmag-functions.php:600
+msgid "Your comment is awaiting moderation."
+msgstr "Спасибо! Ваш комментарий ожидает проверки."
+
+# @ profitmag
+#. translators: 1: date, 2: time
+#: inc/profitmag-functions.php:608
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s в %2$s"
+
+# @ profitmag
+#: inc/profitmag-functions.php:608
+msgid "(Edit)"
+msgstr "(Изменить)"
+
+# @ profitmag
+#: inc/profitmag-functions.php:653
+msgid "&laquo;"
+msgstr ""
+
+# @ profitmag
+#: inc/profitmag-functions.php:654
+msgid "&raquo;"
+msgstr ""
+
+# @ default
+#: inc/profitmag-functions.php:673
+msgid "Search"
+msgstr "Поиск"
+
+# @ profitmag
+#: inc/template-tags.php:21
+msgid "Posts navigation"
+msgstr "Записи навигация"
+
+# @ profitmag
+#: inc/template-tags.php:25
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Назад"
+
+# @ profitmag
+#: inc/template-tags.php:29
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Вперед <span class=\"meta-nav\">&rarr;</span>"
+
+# @ profitmag
+#: inc/template-tags.php:52
+msgid "Post navigation"
+msgstr "Запись навигация"
+
+# @ profitmag
+#: inc/template-tags.php:55
+#, php-format
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span>&nbsp;%title"
+msgstr ""
+
+# @ profitmag
+#: inc/template-tags.php:56
+#, php-format
+msgctxt "Next post link"
+msgid "%title&nbsp;<span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+# @ profitmag
+#: inc/template-tags.php:82
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr " %s"
+
+# @ profitmag
+#: inc/template-tags.php:87
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr "от %s"
+
+# @ profitmag
+#: inc/widgets/widget-popular-posts.php:16
+msgid "Your site&#8217;s Popular posts."
+msgstr "Выводит самые популярные записи"
+
+# @ profitmag
+#: inc/widgets/widget-popular-posts.php:17
+msgid "MT Popular Posts"
+msgstr "MT Популярные записи"
+
+# @ profitmag
+#: inc/widgets/widget-popular-posts.php:24
+msgid "Popular"
+msgstr "Популярное"
+
+# @ profitmag
+#: inc/widgets/widget-popular-posts.php:101
+#: inc/widgets/widget-recent-posts.php:94
+msgid "Title:"
+msgstr "Заголовок:"
+
+# @ profitmag
+#: inc/widgets/widget-popular-posts.php:104
+#: inc/widgets/widget-recent-posts.php:97
+msgid "Number of posts to show:"
+msgstr "Количество записей:"
+
+# @ profitmag
+#: inc/widgets/widget-recent-posts.php:16
+msgid "Your site&#8217;s most recent Posts( with thumbnail in front )."
+msgstr "Выводит последние записи с миниатюрами"
+
+# @ profitmag
+#: inc/widgets/widget-recent-posts.php:17
+msgid "MT Recent Posts"
+msgstr "MT Последние записи"
+
+# @ profitmag
+#: inc/widgets/widget-recent-posts.php:24
+msgid "Recent Posts"
+msgstr "Последнее"
+
+# @ profitmag
+#: search.php:26
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Результаты поиска: %s"
+
+# @ profitmag
+#: sidebar-left.php:63 sidebar-left.php:137 sidebar-right.php:71
+#: sidebar-right.php:146
+msgid "View All"
+msgstr "Далее"
+
+# @ profitmag
+#: sidebar-left.php:80 sidebar-right.php:88
+msgid "Photo Gallery"
+msgstr "Фото Альбом"

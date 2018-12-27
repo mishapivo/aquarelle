@@ -1,0 +1,23 @@
+.blog_card {
+  background: #f2f2f2;
+  border-radius: 2px; }
+
+.bc_thum {
+  border-radius: 2px 2px 0 0; }
+  .bc_thum:before {
+    padding-top: 50%; }
+
+.bc_entry {
+  padding: 10px 15px; }
+
+.bc_summary {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  line-height: 22px; }
+
+.bc_domain {
+  color: #062; }
+
+

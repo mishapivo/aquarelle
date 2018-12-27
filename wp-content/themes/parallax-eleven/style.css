@@ -1,0 +1,88 @@
+/*
+ Theme Name:   Parallax Eleven
+ Theme URI:    http://www.themehunk.com/product/parallax-eleven/
+ Description:  Parallax Eleven is a child theme of featuredlite loaded with total customization options plus unique gradient touch.
+ Author:       ThemeHunk Team
+ Author URI:   http://www.themehunk.com/
+ Template:     featuredlite
+ Version:      1.0.0
+ License:      GNU General Public License v3 or later
+ License URI:   http://www.gnu.org/licenses/gpl-3.0.html
+Tags:one-column, two-columns, grid-layout, right-sidebar, custom-colors, custom-menu, theme-options, sticky-post, translation-ready, footer-widgets, blog  
+ Text Domain:  parallax-eleven
+*/
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+    -moz-font-feature-settings: "liga" on;
+}
+.main-header-section{ 
+ background: linear-gradient(193deg , rgba(244, 59, 81, 0.8) 0%, rgba(69, 58, 158, 0.8) 100%);
+}
+.ribbon-section .ribbon-button button, .bottom-ribbon-section .ribbon-button button, .button-two .main-button button{
+	font-weight: 600;
+    line-height: 20px;
+    font-size: 13px;
+    letter-spacing: 4px;
+    color: #ffffff;
+    background-color:#ff0a74;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 30px;
+    webkit-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+.ribbon-section .ribbon-button button:hover, .bottom-ribbon-section .ribbon-button button:hover {
+    background-color: #ffaa32;
+    color: #fff;
+    -webkit-box-shadow: 0 14px 26px -12px rgba(233, 30, 99, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(233, 30, 99, 0.2);
+    box-shadow: 0 14px 26px -12px rgba(233, 30, 99, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(233, 30, 99, 0.2);
+}
+span.featured-icon i, span.multi-featured-icon i, span.multi-testimonial-image img {
+      border-radius: 5px;
+}
+h3.subhead-text{  
+    font-size: 14px!important;
+    font-style: normal;
+    letter-spacing: 2px!important;
+    line-height: 22px!important;
+}
+.aboutus-image img, .aboutus-section img {
+     box-shadow: 0 10px 30px 0 rgba(187,187,187,.3), 0 10px 30px rgba(0,0,0,.07);
+}
+.ribbon-section h2.heading-area {
+    font-size: 26px;
+}
+.main-head-partition {
+      margin-top: 15px;
+}
+.ribbon-section, .aboutus-section, .client-team-section, .client-testimonial-section, .contact-section {
+     background: linear-gradient(135deg, rgba(26, 187, 197, .85) 0%, rgba(26, 187, 197, .85) 41%, rgba(45, 188, 129, .85) 56%, rgba(45, 188, 129, .85) 100%)!important;
+}
+.multi-feature-area, .bottom-ribbon-section, .woocommerce-section, .multi-slider-area{
+background: linear-gradient(193deg , rgba(244, 59, 81, 0.8) 0%, rgba(69, 58, 158, 0.8) 100%)!important;
+}
+.aboutus-text h2, .aboutus-text p, .client-team-section h2, .client-team-section h3, .client-testimonial-section h2,#testimonials h3.subhead-text{
+color:#fff;
+}
+.ribbon-section .ribbon-button button, .bottom-ribbon-section .ribbon-button button {
+    border-radius: 5px;
+}
+ul.multiple-featured-section li.multi-featured, figure.team-box, ul.multiple-testimonial-section li.multi-testimonial, .featured-section a {
+    border-radius: 5px;
+}
+#header .header-img {
+    height: 450px;
+}
+.footer-copyright .social-icon ul li {
+      padding: 0px 12px;
+    font-size: 19px;
+}
+.footer-copyright .social-icon ul li a i{
+ background: linear-gradient(193deg , rgba(244, 59, 81, 0.8) 0%, rgba(69, 58, 158, 0.8) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
