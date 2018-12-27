@@ -1,0 +1,58 @@
+%clear {
+  &:after {
+    content: " ";
+
+    @include clear-float();
+  }
+}
+
+%clear-list {
+  @include clear-list();
+}
+
+%post-meta-small {
+  @include font-size(10);
+
+  .post-cats {
+    a {
+      height: 20px;
+      line-height: 20px;
+    }
+  }
+}
+
+%buzzo-heading {
+  font-weight: bold;
+  font-family: $font__secondary;
+  color: $color__heading;
+}
+
+@each $pt in 30, 70, 90, 100  {
+  .pt-#{$pt} {
+    padding-top: #{$pt}px !important;
+  }
+}
+
+@each $pb in 30, 70, 100  {
+  .pb-#{$pb} {
+    padding-bottom: #{$pb}px !important;
+  }
+}
+
+@each $mt in 0  {
+  .mt-#{$mt} {
+    margin-top: #{$mt}px !important;
+  }
+}
+
+@each $mb in 0, 100  {
+  .mb-#{$mb} {
+    margin-bottom: #{$mb}px !important;
+  }
+}
+
+@each $fz in 10, 11, 12, 13, 14, 15, 16, 18, 20, 30, 40, 50  {
+  .fz-#{$fz} {
+    font-size: #{$fz}px !important;
+  }
+}

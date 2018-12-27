@@ -1,0 +1,32 @@
+.posts-navigation {
+  margin-top: 87px;
+  padding-top: 30px;
+  border-top: 1px solid rgba(178, 178, 178, 0.4);
+
+  .nav-links {
+    @extend %clear;
+
+    .nav-previous {
+      float: left;
+    }
+
+    .nav-next {
+      float: right;
+    }
+  }
+
+  .paginate-links, {
+    text-align: center;
+
+    .page-numbers {
+      margin-left: 5px;
+      margin-right: 5px;
+    }
+  }
+}
+
+.page-links {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}

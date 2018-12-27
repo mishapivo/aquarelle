@@ -1,0 +1,98 @@
+// Color
+$color__background-body: #fff;
+$color__background-screen: #f1f1f1;
+$color__background-hr: rgba(149, 149, 149, 0.15);
+$color__background-button: #e6e6e6;
+$color__background-pre: #eee;
+$color__background-ins: #fff9c0;
+$color__bg-gray: #f8f8f8;
+
+$color__text-screen: #21759b;
+$color__text-input: #666;
+$color__text-input-focus: #111;
+$color__link: #996B33;
+$color__link-hover: #be925c;
+$color__link-visited: $color__link-hover;
+$color__text-main: #777;
+$color__text-light: #767676;
+
+$color__heading: #3c3c3c;
+$color__heading-dark: #2c2c2c;
+
+$color__border-button: #ccc #ccc #bbb;
+$color__border-button-hover: #ccc #bbb #aaa;
+$color__border-button-focus: #aaa #bbb #bbb;
+$color__border-input: #ccc;
+$color__border-abbr: #666;
+
+// Typography
+$font__main: Poppins, sans-serif;
+$font__secondary: Raleway, sans-serif;
+$font__code: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+$font__pre: "Courier 10 Pitch", Courier, monospace;
+$font__line-height-body: 1.5;
+$font__line-height-pre: 1.6;
+
+// Grid
+$size__container-width: 1280px;
+$size__grid-guiter: 40px;
+
+// Breakpoints
+$size__screen-sm-min: 768px;
+$size__screen-md-min: 992px;
+$size__screen-lg-min: 1340px;
+$size__screen-xs-max: $size__screen-sm-min - 1px;
+$size__screen-sm-max: $size__screen-md-min - 1px;
+$size__screen-md-max: $size__screen-lg-min - 1px;
+$screen-lg-min: $size__screen-lg-min;
+
+// Layout
+$size__site-main: 100%;
+$size__site-sidebar: 25%;
+
+// Header
+$size__header-height: 100px;
+$size__mobile-nav-width: 300px;
+$color__header-background: #fff;
+$color__menu-link: #9b9b9b;
+$color__menu-toggle-bg: #ccc;
+$color__site-title: #3c3c3c;
+
+// Footer
+$color__footer-copyright: #000;
+$color__footer-social: #191919;
+
+// Comment
+$color__comment-name: #3c3c3c;
+$color__comment-text: #aeaeae;
+$color__comment-link: #adacac;
+$color__comment-meta: #a8a8a8;
+$color__comment-field-bg: #f1f2f2;
+
+// Overlay
+$color__overlay-bg: rgba(0,0,0,0.7);
+
+// Post
+$color__post-meta: #9d9d9d;
+$color__post-title: #3c3c3c;
+
+// Section
+$color__section-list-cats: #949494;
+$color__section-list-cats-sep: #d8d8d8;
+$color__view-more: #858585;
+
+// Form
+$color__form-border: rgba(149, 149, 149, 0.3);
+$color__form-placeholder: #898989;
+$color__form-button: #898989;
+
+// Bootstrap
+$grid-gutter-width:        40px;
+$container-large-desktop:  (1280px + $grid-gutter-width);
+$font-family-sans-serif:   $font__main;
+$line-height-base:         1.714285714; // 24 / 14;
+$text-color:               #777;
+$headings-font-family:     $font__secondary;
+$headings-font-weight:     700;
+$headings-line-height:     1.28; // 32 / 25;
+$headings-color:           #3c3c3c;

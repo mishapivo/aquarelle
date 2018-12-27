@@ -1,0 +1,20 @@
+.page-heading {
+  @include font-size(35);
+  line-height: 25 / 35 * 1em;
+  font-weight: bold;
+  font-family: $font__secondary;
+  color: $color__heading;
+  margin-bottom: 55px;
+}
+
+.page-title {
+  @include font-size(70);
+  font-family: $font__secondary;
+  font-weight: bold;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font__secondary;
+  font-weight: bold;
+}

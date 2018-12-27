@@ -1,0 +1,799 @@
+# Copyright (C) 2018 96 Theme
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: _s 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2018-11-26 16:00+0100\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
+"Last-Translator:\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: 404.php:21
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:23
+msgid "Go to Home Page"
+msgstr ""
+
+#: 404.php:24
+msgid "Go to Previous Page"
+msgstr ""
+
+#. translators: 1: title.
+#: comments.php:35
+#, php-format
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr ""
+
+#. translators: 1: comment count number, 2: title.
+#: comments.php:41
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:66
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:51
+msgid "Primary"
+msgstr ""
+
+#: functions.php:52 inc/customizer/header-options.php:94
+#: inc/customizer/header-options.php:136
+msgid "Top Menu"
+msgstr ""
+
+#: functions.php:53
+msgid "Social Menu"
+msgstr ""
+
+#: functions.php:54
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:132
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:134 functions.php:144 functions.php:154
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:142
+msgid "Offcanvas"
+msgstr ""
+
+#: functions.php:152
+msgid "Instagram"
+msgstr ""
+
+#: inc/breadcrumbs.php:248
+msgid "Browse:"
+msgstr ""
+
+#: inc/breadcrumbs.php:249
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: inc/breadcrumbs.php:250
+msgid "Home"
+msgstr ""
+
+#: inc/breadcrumbs.php:251
+msgid "404 Not Found"
+msgstr ""
+
+#: inc/breadcrumbs.php:252
+msgid "Archives"
+msgstr ""
+
+#: inc/breadcrumbs.php:254
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: inc/breadcrumbs.php:256
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:258
+#, php-format
+msgid "Minute %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:260
+#, php-format
+msgid "Week %s"
+msgstr ""
+
+#: inc/breadcrumbs.php:712
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: inc/breadcrumbs.php:729
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: inc/breadcrumbs.php:746
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: inc/breadcrumbs.php:762 inc/breadcrumbs.php:791 inc/breadcrumbs.php:818
+#: inc/breadcrumbs.php:845 inc/breadcrumbs.php:1186
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: inc/breadcrumbs.php:763 inc/breadcrumbs.php:819 inc/breadcrumbs.php:1190
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: inc/breadcrumbs.php:764 inc/breadcrumbs.php:1194
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: inc/breadcrumbs.php:792
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: inc/customizer/blog-options.php:10
+msgid "Blog Setting"
+msgstr ""
+
+#: inc/customizer/blog-options.php:25 inc/customizer/blog-options.php:47
+msgid "Choose Options"
+msgstr ""
+
+#: inc/customizer/blog-options.php:30 inc/customizer/blog-options.php:159
+msgid "Default"
+msgstr ""
+
+#: inc/customizer/blog-options.php:31
+msgid "Full Width"
+msgstr ""
+
+#: inc/customizer/blog-options.php:32
+msgid "List Opposite"
+msgstr ""
+
+#: inc/customizer/blog-options.php:33
+msgid "Grid"
+msgstr ""
+
+#: inc/customizer/blog-options.php:52
+msgid "Excerpt"
+msgstr ""
+
+#: inc/customizer/blog-options.php:53
+msgid "Full Content"
+msgstr ""
+
+#: inc/customizer/blog-options.php:67
+msgid "Excerpt Length"
+msgstr ""
+
+#: inc/customizer/blog-options.php:85 inc/customizer/single-options.php:26
+msgid "Enable Drop Cap"
+msgstr ""
+
+#: inc/customizer/blog-options.php:103
+msgid "Enable Archive Title"
+msgstr ""
+
+#: inc/customizer/blog-options.php:121
+msgid "Enable Read More Button"
+msgstr ""
+
+#: inc/customizer/blog-options.php:137
+msgid "Button Title"
+msgstr ""
+
+#: inc/customizer/blog-options.php:154
+msgid "Pagination Options"
+msgstr ""
+
+#: inc/customizer/blog-options.php:160
+msgid "Numeric"
+msgstr ""
+
+#: inc/customizer/control.php:25
+msgid "&mdash; Select &mdash;"
+msgstr ""
+
+#: inc/customizer/default.php:48 template-parts/section-slider.php:51
+#: template-parts/section-slider.php:96
+msgid "Read More"
+msgstr ""
+
+#: inc/customizer/footer-options.php:12
+msgid "Footer Setting"
+msgstr ""
+
+#: inc/customizer/footer-options.php:29
+msgid "Enable Footer Menu"
+msgstr ""
+
+#: inc/customizer/footer-options.php:30
+msgid "Note: To show footer menu."
+msgstr ""
+
+#: inc/customizer/footer-options.php:30 inc/customizer/footer-options.php:50
+#: inc/customizer/menu-options.php:28 inc/widget/widget.php:332
+msgid "Click Here"
+msgstr ""
+
+#: inc/customizer/footer-options.php:30 inc/customizer/footer-options.php:50
+msgid "to create menu"
+msgstr ""
+
+#: inc/customizer/footer-options.php:49
+msgid "Enable Footer Social Menu"
+msgstr ""
+
+#: inc/customizer/footer-options.php:50
+msgid "Note: To show footer social menu."
+msgstr ""
+
+#: inc/customizer/footer-options.php:68
+msgid "Enable Instagram"
+msgstr ""
+
+#: inc/customizer/footer-options.php:87
+msgid "Upload Footer Logo"
+msgstr ""
+
+#: inc/customizer/general-options.php:10
+msgid "General Setting"
+msgstr ""
+
+#: inc/customizer/general-options.php:28
+msgid "Content Area Width"
+msgstr ""
+
+#: inc/customizer/general-options.php:29
+msgid ""
+"Select primary and secondary width.Secondary width is calculated from "
+"primary width"
+msgstr ""
+
+#: inc/customizer/general-options.php:53 inc/customizer/header-options.php:88
+#: inc/customizer/header-options.php:130 inc/customizer/home-options.php:54
+#: inc/customizer/theme-options.php:29
+msgid "Choose Option"
+msgstr ""
+
+#: inc/customizer/general-options.php:58
+msgid "Sidebar Right"
+msgstr ""
+
+#: inc/customizer/general-options.php:59
+msgid "Sidebar Left"
+msgstr ""
+
+#: inc/customizer/general-options.php:60
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/customizer/general-options.php:77
+msgid "Enable Sticky Sidebar"
+msgstr ""
+
+#: inc/customizer/general-options.php:96 inc/customizer/single-options.php:45
+msgid "Enable Category"
+msgstr ""
+
+#: inc/customizer/general-options.php:114 inc/customizer/single-options.php:63
+msgid "Enable Author"
+msgstr ""
+
+#: inc/customizer/general-options.php:132 inc/customizer/single-options.php:81
+msgid "Enable Date"
+msgstr ""
+
+#: inc/customizer/general-options.php:150 inc/customizer/single-options.php:99
+msgid "Enable Post Format Icon"
+msgstr ""
+
+#: inc/customizer/general-options.php:171
+msgid "Enable Header and Footer Builder"
+msgstr ""
+
+#: inc/customizer/general-options.php:172
+msgid ""
+"Header Footer Elementor Plugin should be active. To setup go to Apperance > "
+"Header Footer Builder.Resfresh your pages to see effect."
+msgstr ""
+
+#: inc/customizer/header-options.php:11
+msgid "Header Setting"
+msgstr ""
+
+#: inc/customizer/header-options.php:28
+msgid "Site Branding Height"
+msgstr ""
+
+#: inc/customizer/header-options.php:29
+msgid "Define height of site branding"
+msgstr ""
+
+#: inc/customizer/header-options.php:55
+msgid "Enable Top Header Section"
+msgstr ""
+
+#: inc/customizer/header-options.php:72
+msgid "Left Part Header"
+msgstr ""
+
+#: inc/customizer/header-options.php:93 inc/customizer/header-options.php:135
+msgid "Select"
+msgstr ""
+
+#: inc/customizer/header-options.php:95 inc/customizer/header-options.php:137
+msgid "Social Icon"
+msgstr ""
+
+#: inc/customizer/header-options.php:96 inc/customizer/header-options.php:138
+#: inc/customizer/header-options.php:172
+msgid "Address"
+msgstr ""
+
+#: inc/customizer/header-options.php:97 inc/customizer/header-options.php:139
+msgid "Current Date"
+msgstr ""
+
+#: inc/customizer/header-options.php:113
+msgid "Right Part Header"
+msgstr ""
+
+#: inc/customizer/header-options.php:155
+msgid "Header Address"
+msgstr ""
+
+#: inc/customizer/header-options.php:189
+msgid "Phone Number"
+msgstr ""
+
+#: inc/customizer/header-options.php:209
+msgid "Contact Email"
+msgstr ""
+
+#: inc/customizer/home-options.php:13
+msgid "Home Page Options"
+msgstr ""
+
+#: inc/customizer/home-options.php:21
+msgid "Slider Section"
+msgstr ""
+
+#: inc/customizer/home-options.php:37
+msgid "Enable Slider Section"
+msgstr ""
+
+#: inc/customizer/home-options.php:59
+msgid "Post Slider"
+msgstr ""
+
+#: inc/customizer/home-options.php:60
+msgid "Banner Image"
+msgstr ""
+
+#: inc/customizer/home-options.php:78 inc/customizer/home-options.php:187
+msgid "Select Category"
+msgstr ""
+
+#: inc/customizer/home-options.php:95
+msgid "No of Slider"
+msgstr ""
+
+#: inc/customizer/home-options.php:115
+msgid "Slider Text Position"
+msgstr ""
+
+#: inc/customizer/home-options.php:142
+msgid "Upload Banner Image"
+msgstr ""
+
+#: inc/customizer/home-options.php:153
+msgid "Popular Section"
+msgstr ""
+
+#: inc/customizer/home-options.php:169
+msgid "Enable Popular Section"
+msgstr ""
+
+#: inc/customizer/menu-options.php:11
+msgid "Menu Setting"
+msgstr ""
+
+#: inc/customizer/menu-options.php:27
+msgid "Enable Offcanvas Section"
+msgstr ""
+
+#: inc/customizer/menu-options.php:28
+msgid "Note: To show Offcanvas."
+msgstr ""
+
+#: inc/customizer/menu-options.php:28
+msgid "to add item."
+msgstr ""
+
+#: inc/customizer/menu-options.php:46
+msgid "Enable Search"
+msgstr ""
+
+#: inc/customizer/options.php:14
+msgid "Left"
+msgstr ""
+
+#: inc/customizer/options.php:15
+msgid "Center"
+msgstr ""
+
+#: inc/customizer/options.php:16
+msgid "Right"
+msgstr ""
+
+#: inc/customizer/single-options.php:10
+msgid "Single Setting"
+msgstr ""
+
+#: inc/customizer/single-options.php:118
+msgid "Enable Author Bio"
+msgstr ""
+
+#: inc/customizer/theme-options.php:13
+msgid "Theme Options"
+msgstr ""
+
+#: inc/customizer/theme-options.php:34
+msgid "Logo Only"
+msgstr ""
+
+#: inc/customizer/theme-options.php:35
+msgid "Logo + Title"
+msgstr ""
+
+#: inc/customizer/theme-options.php:36
+msgid "Logo + Tagline"
+msgstr ""
+
+#: inc/customizer/theme-options.php:37
+msgid "Title Only"
+msgstr ""
+
+#: inc/customizer/theme-options.php:38
+msgid "Title + Tagline"
+msgstr ""
+
+#: inc/customizer/theme-options.php:54
+msgid "Enable Breadcrumb"
+msgstr ""
+
+#: inc/customizer/theme-options.php:71
+msgid "Choose Header Image Options"
+msgstr ""
+
+#: inc/customizer/theme-options.php:72
+msgid "Note: Post Thumbail works only in Single Page."
+msgstr ""
+
+#: inc/customizer/theme-options.php:77
+msgid "None"
+msgstr ""
+
+#: inc/customizer/theme-options.php:78
+msgid "Header Image"
+msgstr ""
+
+#: inc/customizer/theme-options.php:79
+msgid "Post Thumbnail"
+msgstr ""
+
+#: inc/customizer/theme-options.php:96
+msgid "Header Image Height"
+msgstr ""
+
+#: inc/customizer/theme-options.php:123
+msgid "Header Image Opacity"
+msgstr ""
+
+#: inc/customizer/theme-options.php:124
+msgid "Choose Header Image Opacity."
+msgstr ""
+
+#: inc/hook/custom-function.php:389
+#, php-format
+msgid "Theme of %s"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Lora, translate this to 'off'. Do not translate into your own language.
+#: inc/hook/helper-function.php:20
+msgctxt "Lora font: on or off"
+msgid "on"
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Open Sans , translate this to 'off'. Do not translate into your own language.
+#: inc/hook/helper-function.php:25
+msgctxt "Open Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: inc/hook/helper-function.php:72
+msgid "Blog"
+msgstr ""
+
+#: inc/hook/helper-function.php:78
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: inc/hook/helper-function.php:80
+msgid "Oops! That page can&#39;t be found."
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/hook/helper-function.php:114
+#, php-format
+msgctxt "post author"
+msgid "VIEW ALL POSTS BY %s"
+msgstr ""
+
+#: inc/hook/helper-function.php:177
+msgid "PREV"
+msgstr ""
+
+#: inc/hook/helper-function.php:178
+msgid "NEXT"
+msgstr ""
+
+#: inc/hook/structure.php:50
+msgid "Skip to content"
+msgstr ""
+
+#: inc/metabox.php:12
+msgid "Sidebar Layout"
+msgstr ""
+
+#: inc/metabox.php:27
+msgid "Left sidebar"
+msgstr ""
+
+#: inc/metabox.php:32
+msgid "Right sidebar (default)"
+msgstr ""
+
+#: inc/metabox.php:38
+msgid "No sidebar"
+msgstr ""
+
+#. translators: %s: post date.
+#: inc/template-tags.php:42
+#, php-format
+msgctxt "post date"
+msgid " %s"
+msgstr ""
+
+#. translators: %s: post author.
+#: inc/template-tags.php:72
+#, php-format
+msgctxt "post author"
+msgid "By %s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:103
+msgid " "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:106
+#, php-format
+msgid " %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:123
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of categories.
+#: inc/template-tags.php:126
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:130
+msgctxt "list item separator"
+msgid ", "
+msgstr ""
+
+#. translators: 1: list of tags.
+#: inc/template-tags.php:133
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. translators: %s: post title
+#: inc/template-tags.php:143
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. translators: %s: Name of current post. Only visible to screen readers
+#: inc/template-tags.php:160 template-parts/content-page.php:38
+#, php-format
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr ""
+
+#: inc/widget/about/inc/widget.php:29
+msgid "A widget that displays about me section"
+msgstr ""
+
+#: inc/widget/about/inc/widget.php:33
+msgid "Blogger Era: About Me"
+msgstr ""
+
+#: inc/widget/about/inc/widget.php:89 inc/widget/widget.php:31
+#: inc/widget/widget.php:205 inc/widget/widget.php:314
+msgid "Title:"
+msgstr ""
+
+#: inc/widget/about/inc/widget.php:96
+msgid "Description"
+msgstr ""
+
+#: inc/widget/about/inc/widget.php:103
+msgid "Cover Image:"
+msgstr ""
+
+#: inc/widget/about/inc/widget.php:106
+msgid "Upload"
+msgstr ""
+
+#: inc/widget/about/inc/widget.php:106
+msgid "Select Cover Photo"
+msgstr ""
+
+#: inc/widget/about/inc/widget.php:106
+msgid "Choose Image"
+msgstr ""
+
+#: inc/widget/about/inc/widget.php:125
+msgid "Preview"
+msgstr ""
+
+#: inc/widget/about/inc/widget.php:132
+msgid "Name"
+msgstr ""
+
+#: inc/widget/widget.php:20
+msgid "Add Widget to Display Latest Blog."
+msgstr ""
+
+#: inc/widget/widget.php:23
+msgid "Blogger Era: Latest Blog"
+msgstr ""
+
+#: inc/widget/widget.php:34
+msgid "Number of posts to show:"
+msgstr ""
+
+#: inc/widget/widget.php:38
+msgid "Display post date?"
+msgstr ""
+
+#: inc/widget/widget.php:54
+msgid "Latest Blog"
+msgstr ""
+
+#: inc/widget/widget.php:135
+msgid "Social Link Widget"
+msgstr ""
+
+#: inc/widget/widget.php:137
+msgid "Blogger Era: Social"
+msgstr ""
+
+#: inc/widget/widget.php:211
+msgid ""
+"Social menu is not set. Please create menu and assign it to Social Theme "
+"Location."
+msgstr ""
+
+#: inc/widget/widget.php:232
+msgid "Display Instagram Feeds."
+msgstr ""
+
+#: inc/widget/widget.php:234
+msgid "Blogger Era: Instagram Feeds"
+msgstr ""
+
+#: inc/widget/widget.php:320
+msgid "Label Text:"
+msgstr ""
+
+#: inc/widget/widget.php:327
+msgid "Access Token:"
+msgstr ""
+
+#: inc/widget/widget.php:331
+msgid "You can generate Instagram Access Token online. For ex: "
+msgstr ""
+
+#: inc/widget/widget.php:339
+msgid "Number of Image:"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#. translators: 1: link to WP admin new post page.
+#: template-parts/content-none.php:24
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:37
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:44
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/content-page.php:25
+msgid "Pages:"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Blogger Era"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://96themes.com/downloads/blogger-era/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Blogger Era is a responsive blogger template, it is clean and compatible "
+"with many devices, It’s perfect for creating your  blog, no need to coding "
+"as it is very customizable.Blogger era is a clean,responsive,minimal and "
+"well-thought WordPress theme for professional bloggers, publishers, "
+"entrepreneurs, companies,news,blog,business,Lawyer,education,restaurants,"
+"cafe,portfolio etc..Blogger era is multiple theme with an eye-catching "
+"design.Here you can get a completely different appearance of your blog or "
+"magazine."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "96 Themes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://96themes.com"
+msgstr ""

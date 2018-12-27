@@ -1,0 +1,718 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-08-30 03:14+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: 404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: 404.php:21
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: comments.php:32
+#, php-format
+msgctxt "comments title"
+msgid "%s Comment"
+msgid_plural "%s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:40 comments.php:63
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:43 comments.php:66
+msgid "Older Comments"
+msgstr ""
+
+#: comments.php:44 comments.php:67
+msgid "Newer Comments"
+msgstr ""
+
+#: comments.php:80
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:23
+#, php-format
+msgid "&copy; [year]. Made with love by <a href=\"%s\">Awethemes</a>"
+msgstr ""
+
+#: functions.php:55
+msgid "Primary"
+msgstr ""
+
+#: functions.php:135 inc/sidebar.php:20
+msgid "Sidebar"
+msgstr ""
+
+#: functions.php:137 functions.php:147 functions.php:157
+msgid "Add widgets here."
+msgstr ""
+
+#: functions.php:145
+msgid "Content bottom"
+msgstr ""
+
+#: functions.php:155
+msgid "Post footer"
+msgstr ""
+
+#. If there are characters in your language that are not supported by Poppins, translate this to 'off'. Do not translate into your own language.
+#: functions.php:182
+msgctxt "Poppins font: on or off"
+msgid "on"
+msgstr ""
+
+#. If there are characters in your language that are not supported by Raleway, translate this to 'off'. Do not translate into your own language.
+#: functions.php:187
+msgctxt "Raleway font: on or off"
+msgid "on"
+msgstr ""
+
+#. If there are characters in your language that are not supported by La Belle Aurore, translate this to 'off'. Do not translate into your own language.
+#: functions.php:192
+msgctxt "La Belle Aurore font: on or off"
+msgid "on"
+msgstr ""
+
+#: header.php:24
+msgid "Skip to content"
+msgstr ""
+
+#: searchform.php:3
+msgid "Enter keyword here..."
+msgstr ""
+
+#: inc/blog.php:28 inc/extras.php:488 inc/template-tags.php:142
+msgid "Blog"
+msgstr ""
+
+#: inc/blog.php:39
+msgid "Blog layout"
+msgstr ""
+
+#: inc/blog.php:43 inc/meta-boxes.php:117
+msgid "Standard"
+msgstr ""
+
+#: inc/blog.php:44 inc/meta-boxes.php:118
+msgid "Standard without content"
+msgstr ""
+
+#: inc/blog.php:45 inc/meta-boxes.php:119
+msgid "List"
+msgstr ""
+
+#: inc/blog.php:46 inc/meta-boxes.php:120
+msgid "Standard overlay"
+msgstr ""
+
+#: inc/blog.php:57
+msgid "Enable advanced layout"
+msgstr ""
+
+#: inc/blog.php:60
+msgid "Use Advanced layout setting in each post."
+msgstr ""
+
+#: inc/blog.php:70
+msgid "Pagination type"
+msgstr ""
+
+#: inc/blog.php:74
+msgid "Next/Prev"
+msgstr ""
+
+#: inc/blog.php:75
+msgid "Numeric"
+msgstr ""
+
+#: inc/cat-meta.php:24 inc/cat-meta.php:37
+msgid "Color"
+msgstr ""
+
+#: inc/cat-meta.php:26 inc/cat-meta.php:42
+msgid "Background color of category in post loop"
+msgstr ""
+
+#: inc/customizer.php:39
+msgid "Content options"
+msgstr ""
+
+#: inc/customizer.php:50
+msgid "Blog display"
+msgstr ""
+
+#: inc/customizer.php:51
+msgid ""
+"Choose between a full post or an excerpt for the blog and archive pages."
+msgstr ""
+
+#: inc/customizer.php:55
+msgid "Full post"
+msgstr ""
+
+#: inc/customizer.php:56
+msgid "Post excerpt"
+msgstr ""
+
+#: inc/customizer.php:67
+msgid "Show related posts"
+msgstr ""
+
+#: inc/customizer.php:68
+msgid "Show related posts section in single post page."
+msgstr ""
+
+#: inc/customizer.php:72 inc/meta-boxes.php:161
+msgid "Yes"
+msgstr ""
+
+#: inc/customizer.php:73 inc/meta-boxes.php:162
+msgid "No"
+msgstr ""
+
+#: inc/customizer.php:84
+msgid "Query related posts by"
+msgstr ""
+
+#: inc/customizer.php:88
+msgid "Same tag"
+msgstr ""
+
+#: inc/customizer.php:89
+msgid "Same category"
+msgstr ""
+
+#: inc/customizer.php:100
+msgid "Excluded categories"
+msgstr ""
+
+#: inc/customizer.php:103
+msgid ""
+"Fills categories id which don't want to show in post categories. Eg: 1,3,10"
+msgstr ""
+
+#: inc/extras.php:224
+msgid "View all posts"
+msgstr ""
+
+#: inc/extras.php:345
+msgid "You also may like this"
+msgstr ""
+
+#: inc/extras.php:405 inc/extras.php:405
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: inc/extras.php:423 inc/extras.php:424
+msgid "Name"
+msgstr ""
+
+#: inc/extras.php:425 inc/extras.php:426
+msgid "Email"
+msgstr ""
+
+#: inc/extras.php:427 inc/extras.php:428
+msgid "Website"
+msgstr ""
+
+#. search query.
+#. search keyword.
+#: inc/extras.php:493 inc/template-tags.php:140
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: inc/extras.php:497
+msgid "Not found"
+msgstr ""
+
+#: inc/footer.php:27
+msgid "Footer"
+msgstr ""
+
+#: inc/footer.php:38
+msgid "Copyright"
+msgstr ""
+
+#: inc/footer.php:50
+msgid "Show social icons"
+msgstr ""
+
+#: inc/home.php:33
+msgid "Sections page template"
+msgstr ""
+
+#: inc/home.php:41
+msgid "Featured section"
+msgstr ""
+
+#: inc/home.php:52
+msgid "Featured category"
+msgstr ""
+
+#: inc/home.php:65
+msgid "Featured background image"
+msgstr ""
+
+#: inc/home.php:76 inc/home.php:206
+msgid "Number of posts"
+msgstr ""
+
+#: inc/home.php:89
+msgid "Columns section"
+msgstr ""
+
+#: inc/home.php:100 inc/home.php:169
+msgid "Show this section"
+msgstr ""
+
+#: inc/home.php:112
+msgid "Columns layout"
+msgstr ""
+
+#: inc/home.php:125 inc/home.php:304 inc/page-banner.php:53
+msgid "Background color"
+msgstr ""
+
+#. %s: Home colunm sidebar number
+#: inc/home.php:136
+#, php-format
+msgid "Home column %s"
+msgstr ""
+
+#: inc/home.php:138
+msgid "Use in section home columns"
+msgstr ""
+
+#: inc/home.php:181
+msgid "Title"
+msgstr ""
+
+#: inc/home.php:193
+msgid "Choose category"
+msgstr ""
+
+#: inc/home.php:218
+msgid "Show list categories"
+msgstr ""
+
+#: inc/home.php:219
+msgid "Display list categories in the bottom of section title."
+msgstr ""
+
+#: inc/home.php:231
+msgid "List categories"
+msgstr ""
+
+#: inc/home.php:244
+msgid "Show view more link"
+msgstr ""
+
+#: inc/home.php:248
+msgid "Not show"
+msgstr ""
+
+#: inc/home.php:249
+msgid "In the bottom of section"
+msgstr ""
+
+#: inc/home.php:250
+msgid "In list categories"
+msgstr ""
+
+#: inc/home.php:256 inc/home.php:609 inc/jetpack.php:45
+msgid "View more"
+msgstr ""
+
+#: inc/home.php:261
+msgid "View more text"
+msgstr ""
+
+#: inc/home.php:274
+msgid "View more url"
+msgstr ""
+
+#: inc/home.php:287
+msgid "Title align"
+msgstr ""
+
+#: inc/home.php:291
+msgid "Left"
+msgstr ""
+
+#: inc/home.php:292
+msgid "Center"
+msgstr ""
+
+#: inc/home.php:293
+msgid "Right"
+msgstr ""
+
+#: inc/home.php:315
+msgid "Priority"
+msgstr ""
+
+#: inc/home.php:316
+msgid "Lowest priority will be shown first."
+msgstr ""
+
+#: inc/home.php:334 inc/widgets.php:157
+msgid "All categories"
+msgstr ""
+
+#: inc/home.php:347
+msgid "Grid posts section"
+msgstr ""
+
+#: inc/home.php:348
+msgid "Carousel posts section"
+msgstr ""
+
+#: inc/home.php:349
+msgid "Grid-2 posts section"
+msgstr ""
+
+#: inc/meta-boxes.php:24
+msgid "Advanced display settings"
+msgstr ""
+
+#: inc/meta-boxes.php:112
+msgid "Advanced layout"
+msgstr ""
+
+#: inc/meta-boxes.php:116 inc/meta-boxes.php:160 inc/meta-boxes.php:174
+msgid "Default"
+msgstr ""
+
+#: inc/meta-boxes.php:123
+msgid "Enable advanced layout in Customize > Blog to use these settings."
+msgstr ""
+
+#: inc/meta-boxes.php:133
+msgid "Hide page title"
+msgstr ""
+
+#: inc/meta-boxes.php:142
+msgid "Contene gray background"
+msgstr ""
+
+#: inc/meta-boxes.php:156
+msgid "Show footer columns"
+msgstr ""
+
+#: inc/meta-boxes.php:170 inc/sidebar.php:31
+msgid "Sidebar layout"
+msgstr ""
+
+#: inc/meta-boxes.php:175 inc/sidebar.php:80
+msgid "Sidebar right"
+msgstr ""
+
+#: inc/meta-boxes.php:176 inc/sidebar.php:81
+msgid "Sidebar left"
+msgstr ""
+
+#: inc/meta-boxes.php:177 inc/sidebar.php:82
+msgid "No sidebar"
+msgstr ""
+
+#: inc/page-banner.php:19
+msgid "Page banner"
+msgstr ""
+
+#: inc/page-banner.php:30
+msgid "Show page banner"
+msgstr ""
+
+#: inc/page-banner.php:42
+msgid "Background image"
+msgstr ""
+
+#: inc/sidebar.php:44
+msgid "Sidebar layout for archive page"
+msgstr ""
+
+#: inc/sidebar.php:57
+msgid "Sidebar layout for single page"
+msgstr ""
+
+#: inc/sidebar.php:70
+msgid "Sidebar layout for page detail page"
+msgstr ""
+
+#: inc/social.php:29
+msgid "Social network"
+msgstr ""
+
+#: inc/social.php:56
+msgid "Twitter"
+msgstr ""
+
+#: inc/social.php:57
+msgid "Github"
+msgstr ""
+
+#: inc/social.php:58
+msgid "WordPress"
+msgstr ""
+
+#: inc/social.php:59
+msgid "Youtube"
+msgstr ""
+
+#: inc/social.php:60
+msgid "Facebook"
+msgstr ""
+
+#: inc/social.php:61
+msgid "Dribbble"
+msgstr ""
+
+#: inc/social.php:62
+msgid "Digg"
+msgstr ""
+
+#: inc/social.php:63
+msgid "Deviantart"
+msgstr ""
+
+#: inc/social.php:64
+msgid "Flickr"
+msgstr ""
+
+#: inc/social.php:65
+msgid "Google plus"
+msgstr ""
+
+#: inc/social.php:66
+msgid "Instagram"
+msgstr ""
+
+#: inc/social.php:67
+msgid "Pinterest"
+msgstr ""
+
+#: inc/social.php:68
+msgid "Vimeo"
+msgstr ""
+
+#: inc/template-tags.php:28
+#, php-format
+msgctxt "post date"
+msgid "Posted on %s"
+msgstr ""
+
+#: inc/template-tags.php:33
+#, php-format
+msgctxt "post author"
+msgid "by %s"
+msgstr ""
+
+#. used between list items, there is a space after the comma
+#. used between list items, there is a space after the comma
+#: inc/template-tags.php:50 inc/template-tags.php:56
+msgid ", "
+msgstr ""
+
+#: inc/template-tags.php:52
+#, php-format
+msgid "Posted in %1$s"
+msgstr ""
+
+#: inc/template-tags.php:58
+#, php-format
+msgid "Tagged %1$s"
+msgstr ""
+
+#. %s: post title
+#: inc/template-tags.php:65
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#. %s: Name of current post
+#: inc/template-tags.php:72
+#, php-format
+msgid "Edit %s"
+msgstr ""
+
+#: inc/template-tags.php:197
+msgctxt "more text"
+msgid " ..."
+msgstr ""
+
+#: inc/template-tags.php:203 template-parts/content-page-no-title.php:19
+#: template-parts/content-page.php:21 template-parts/content.php:19
+msgid "Pages:"
+msgstr ""
+
+#: inc/template-tags.php:228
+msgctxt "more text"
+msgid " &hellip;"
+msgstr ""
+
+#: inc/template-tags.php:249
+msgid "Posts navigation"
+msgstr ""
+
+#. %s: comment author link
+#: inc/template-tags.php:320
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#. 1: date, 2: time
+#: inc/template-tags.php:327
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/template-tags.php:331
+msgid "(Edit)"
+msgstr ""
+
+#: inc/template-tags.php:336
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/template-tags.php:359
+msgid "No comment"
+msgstr ""
+
+#: inc/template-tags.php:360
+msgid "1 comment"
+msgstr ""
+
+#: inc/template-tags.php:361
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: inc/template-tags.php:363
+msgid "Comments are off"
+msgstr ""
+
+#: inc/widgets.php:79
+msgid "Buzzo: Posts"
+msgstr ""
+
+#: inc/widgets.php:145
+msgid "Title:"
+msgstr ""
+
+#: inc/widgets.php:150
+msgid "Number of posts:"
+msgstr ""
+
+#: inc/widgets.php:155
+msgid "Category:"
+msgstr ""
+
+#: inc/widgets.php:165
+msgid "Tag:"
+msgstr ""
+
+#: inc/widgets.php:167
+msgid "All tags"
+msgstr ""
+
+#: inc/widgets.php:175
+msgid "Order by:"
+msgstr ""
+
+#: inc/widgets.php:177
+msgid "Latest"
+msgstr ""
+
+#: inc/widgets.php:178
+msgid "Comment count"
+msgstr ""
+
+#: inc/widgets.php:179
+msgid "Random"
+msgstr ""
+
+#: inc/widgets.php:184
+msgid "Order:"
+msgstr ""
+
+#: inc/widgets.php:186
+msgid "DESC"
+msgstr ""
+
+#: inc/widgets.php:187
+msgid "ASC"
+msgstr ""
+
+#: inc/widgets.php:192
+msgid "Number of columns:"
+msgstr ""
+
+#: template-parts/content-none.php:14
+msgid "Nothing Found"
+msgstr ""
+
+#: template-parts/content-none.php:21
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:25
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/single/next-post.php:17
+msgid "Next post"
+msgstr ""
+
+#. Name of the theme
+msgid "Buzzo"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Buzzo is a simple, responsive, gorgeous theme that will put your content "
+"without distraction. The theme does offer visual appeal by including large "
+"enticing featured images and bold headlines, which make it easy for your "
+"readers to browse lots of material."
+msgstr ""
+
+#. URI of the theme
+msgid "http://awethemes.com/docs/buzzo"
+msgstr ""
+
+#. Author of the theme
+msgid "Awethemes"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://awethemes.com"
+msgstr ""

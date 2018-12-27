@@ -1,0 +1,95 @@
+.author-box {
+  @extend %clear;
+
+  .author-avatar {
+    width: 180px;
+    float: left;
+    margin-right: 40px;
+    position: relative;
+
+    img {
+      display: block;
+
+      + .overlay {
+        opacity: 0;
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.8);
+
+        transition: all 0.2s ease-in;
+
+        .author-social {
+          position: absolute;
+          left: 0;
+          width: 100%;
+          top: 50%;
+          margin-top: -10px;
+        }
+
+        .author-posts-link {
+          position: absolute;
+          left: 0;
+          bottom: 16px;
+          width: 100%;
+        }
+      }
+    }
+
+    &:hover {
+      img + .overlay {
+        opacity: 1;
+
+        transition: all 0.2s ease-in;
+      }
+    }
+  }
+
+  .author-name {
+    @include font-size(20);
+
+    color: $color__heading;
+    font-weight: bold;
+    font-family: $font__secondary;
+    line-height: 34 / 20 * 1em;
+  }
+
+  .author-position {
+    @include font-size(12);
+
+    color: rgba(183, 183, 183, 0.6);
+    line-height: 22 / 15 * 1em;
+    margin-bottom: 7px;
+  }
+
+  .author-bio {
+    @include font-size(15);
+
+    color: $color__text-main;
+    line-height: 30 / 15 * 1em;
+    margin-top: 7px;
+  }
+
+  .author-social {
+    @include font-size(11);
+    text-align: center;
+
+    a {
+      color: #fff;
+      margin: 0 4px;
+    }
+  }
+
+  .author-posts-link {
+    @include font-size(10);
+    text-align: center;
+    text-transform: uppercase;
+    font-family: $font__secondary;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}

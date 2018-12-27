@@ -1,0 +1,54 @@
+/**
+* Custom Css for backend 
+*
+* @package Blogger_Era
+*/
+#blogger-era-img-container li{
+	padding: 3px;
+}
+#blogger-era-img-container .blogger-era-radio-img-selected{
+	border: 3px solid #bcbcbc;
+	padding: 1px;
+	width: 16%;
+}
+
+#customize-controls .control-section-upsell .accordion-section-title:hover,
+#customize-controls .control-section-upsell .accordion-section-title:focus {
+	background-color: #fff;
+}
+
+.control-section-upsell .accordion-section-title .button {
+	margin-top:  -4px;
+	font-weight: 700;
+	margin-left: 8px;
+	border-color: #d04031;
+	background-color: #f55e4f;
+	color: #fff;
+}
+
+.control-section-upsell .accordion-section-title .button:hover {
+	background-color: #e65e4f;
+}
+
+.customize-control-info h2{
+	background-color: #B3D4EB;
+	padding:5px; 
+	color:#fff; 
+	text-transform:uppercase; 
+	text-align: center; 
+	font-size: 15px; 
+	font-weight: normal;
+}
+input[type="range" i].range-slider__range{
+	cursor: pointer;
+	width: 100%;
+}
+.range-slider__value{
+	background-color: #B3D4EB;
+	text-align: center;
+	display: block;
+	font-size: 14px;
+	padding: 5px;
+	margin: 5px 0 10px;
+	color: #fff;
+}

@@ -1,0 +1,35 @@
+.view-more,
+#infinite-handle {
+  text-align: center;
+  @include font-size(18);
+  font-weight: bold;
+  font-family: $font__secondary;
+  height: 1em;
+  border-bottom: 1px solid $color__background-hr;
+
+  span {
+    background: none !important;
+    border-radius: 0 !important;
+    font-size: 100% !important;
+    padding: 0 !important;
+    color: $color__view-more !important;
+  }
+
+  a,
+  button {
+    display: inline-block !important;
+    background: #fff !important;
+    padding: 0 44px !important;
+    text-decoration: none;
+    color: inherit;
+
+    &:hover,
+    &:focus {
+      color: $color__link-hover !important;
+    }
+  }
+}
+
+#infinite-handle {
+  margin-top: 87px;
+}

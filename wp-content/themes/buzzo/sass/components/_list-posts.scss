@@ -1,0 +1,12 @@
+.blog-posts {
+  .post {
+    margin-bottom: 60px;
+
+    &:not(.post-layout-standard-overlay) {
+      &:first-of-type {
+        padding-bottom: 60px;
+        border-bottom: 1px solid rgba(149, 149, 149, 0.3);
+      }
+    }
+  }
+}

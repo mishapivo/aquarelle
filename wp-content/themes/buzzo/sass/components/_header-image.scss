@@ -1,0 +1,22 @@
+.header-image {
+  background-color: #ccc;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  &:not(.no-bg) {
+    height: 400px;
+    padding-top: 225px;
+  }
+
+  &__title {
+    font-family: $font__secondary;
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 25px;
+    color: #fff;
+    text-shadow: 1px 1px 0 rgba(60,60,60,0.3);
+  }
+}

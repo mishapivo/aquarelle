@@ -1,0 +1,54 @@
+.site-content {
+  @extend %clear;
+
+  padding-top: 100px;
+
+  &.layout-sidebar-right {
+    .content-area {
+      @media (min-width: $size__screen-md-min) {
+        float: left;
+        width: 840 / 1280 * 100%;
+      }
+    }
+
+    .widget-area {
+      @media (min-width: $size__screen-md-min) {
+        float: right;
+        width: 360 / 1280 * 100%;
+      }
+    }
+  }
+
+  &.layout-sidebar-left {
+    .content-area {
+      @media (min-width: $size__screen-md-min) {
+        float: right;
+        width: 840 / 1280 * 100%;
+      }
+    }
+
+    .widget-area {
+      @media (min-width: $size__screen-md-min) {
+        float: left;
+        width: 360 / 1280 * 100%;
+      }
+    }
+  }
+}
+
+body.content-no-padding {
+  .site-content {
+    padding: 0 !important;
+  }
+}
+
+body.content-no-margin {
+  .content-area {
+    margin: 0 !important;
+  }
+}
+
+.content-area,
+.widget-area {
+  margin-bottom: 126px;
+}

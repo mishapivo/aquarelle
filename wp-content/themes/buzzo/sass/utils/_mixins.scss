@@ -1,0 +1,40 @@
+@mixin font-size($sizeValue) {
+  font-size: $sizeValue * 1px;
+  font-size: $sizeValue / 16 * 1rem;
+}
+
+@mixin center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin clearfix() {
+  content: "";
+  display: table;
+  table-layout: fixed;
+}
+
+@mixin clearfix-after() {
+  clear: both;
+}
+
+@mixin clear-float() {
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+@mixin clear-list() {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+@mixin heading($fontSize) {
+  font-family: $font__secondary;
+  font-weight: bold;
+  line-height: 1;
+  @include font-size($fontSize);
+}

@@ -1,0 +1,196 @@
+.button-important {
+  background-color: #1492ce;
+  color: #fff !important;
+  display: block;
+  padding: 5px 0;
+  text-align: center;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 8px 0;
+  font-style: normal;
+}
+.button-important:hover {
+  background-color: #0073aa;
+}
+
+.customize-control .tab-title {
+  background-color: #fff;
+  padding: 7px 10px;
+  display: block;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+li.customize-section-description-container + .customize-control .tab-title {
+  margin-top: 0;
+}
+
+#sub-accordion-section-business-click-family .customize-control {
+  background-color: #fff;
+  box-sizing: border-box;
+  margin-bottom: 0;
+  padding: 10px;
+  width: 100%;
+}
+#sub-accordion-section-business-click-family .customize-control[id*="business-click-title"] {
+  background-color: transparent;
+  padding: 0;
+  width: auto;
+}
+#sub-accordion-section-business-click-family .customize-control[id*="business-click-title"] .customize-control-description {
+  margin-bottom: 2px;
+}
+
+#customize-theme-controls li#accordion-panel-business-click-main-page-options h3.accordion-section-title {
+  background-color: #1492ce;
+  border-color: #0073aa;
+  color: #ffffff;
+}
+#customize-theme-controls li#accordion-panel-business-click-main-page-options h3.accordion-section-title:after {
+  color: #ffffff;
+}
+#customize-theme-controls li#accordion-panel-business-click-main-page-options h3.accordion-section-title:hover {
+  background-color: #0073aa;
+  border-left-color: #0073aa;
+}
+#customize-theme-controls li#accordion-panel-business-click-main-page-options h3.accordion-section-title .button {
+  background-color: rgba(44, 121, 44, 0.3);
+}
+#customize-theme-controls li#accordion-panel-business-click-main-page-options h3.accordion-section-title .button:hover {
+  background-color: rgba(44, 121, 44, 0.6);
+}
+
+.ui-slider-horizontal {
+  height: 4px;
+  border: 0;
+  background: #ffffff;
+}
+
+.ui-slider .ui-slider-range {
+  background: #a4afb7;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+  border-radius: 50%;
+  background: #ffffff;
+  border: 0;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.3);
+  top: -6px;
+  height: 16px;
+  width: 16px;
+}
+
+li#customize-control-business_click_options-business-click-slider-hover-overlay-transparency input,
+li#customize-control-business_click_options-business-click-slider-hover-overlay-transparency .slider-overlay,
+li#customize-control-business_click_options-business-click-slider-overlay-transparency input,
+li#customize-control-business_click_options-business-click-slider-overlay-transparency .slider-overlay {
+  display: inline-block;
+  float: right;
+  box-sizing: border-box;
+}
+li#customize-control-business_click_options-business-click-slider-hover-overlay-transparency input,
+li#customize-control-business_click_options-business-click-slider-overlay-transparency input {
+  width: 25%;
+}
+li#customize-control-business_click_options-business-click-slider-hover-overlay-transparency .slider-overlay,
+li#customize-control-business_click_options-business-click-slider-overlay-transparency .slider-overlay {
+  width: 70%;
+  margin-right: 5%;
+  margin-top: 11px;
+}
+
+#customize-controls #customize-theme-controls .control-section-business-click h3.accordion-section-title {
+  background-color: #FFC107;
+  border-left-color: #FFC107;
+  text-align: center;
+  padding-top: 13px;
+}
+#customize-controls #customize-theme-controls .control-section-business-click h3.accordion-section-title a.cusbtn {
+  background-color: #009688;
+  border-color: #009688;
+  color: #ffffff;
+  margin-left: 0;
+}
+#customize-controls #customize-theme-controls .control-section-business-click h3.accordion-section-title a.cusbtn:hover {
+  background-color: #008679;
+}
+
+.customize-control-checkbox input[type=checkbox] {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: inline-block;
+  width: 40px;
+  height: 14px;
+  border-radius: 8px;
+  background: #ccc;
+  vertical-align: middle;
+  position: relative;
+  cursor: pointer;
+  user-select: none;
+  transition: background 350ms ease;
+}
+
+.customize-control-checkbox input[type=checkbox]:before,
+.customize-control-checkbox input[type=checkbox]:after {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: -3px;
+  transition: all 350ms cubic-bezier(0, 0.95, 0.38, 0.98), background 150ms ease;
+}
+
+.customize-control-checkbox input[type=checkbox]:before {
+  background: rgba(0, 0, 0, 0.2);
+  transform: translate3d(0, -50%, 0) scale(0);
+}
+
+.customize-control-checkbox input[type=checkbox]:after {
+  background: #EF3F3D;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transform: translate3d(0, -50%, 0);
+}
+
+.customize-control-checkbox input[type=checkbox]:checked:before {
+  background: transparent;
+  font-size: 0;
+  line-height: 1px;
+  transform: translate3d(100%, -50%, 0) scale(1);
+}
+
+.customize-control-checkbox input[type=checkbox]:checked:after {
+  background: #1492ce;
+  transform: translate3d(100%, -50%, 0);
+}
+
+.customize-control-radio-image input {
+  vertical-align: top;
+  margin-top: 13px;
+  margin-right: 5px;
+  display: none;
+}
+
+.customize-control-radio-image input:checked + span img {
+  -webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.25);
+  border: 1px solid #3498DB;
+}
+
+.customize-control-checkbox .customize-control-description {
+  margin-left: -24px;
+  margin-top: 8px;
+}
+
+.from-page-selected .customize-control-category_dropdown {
+  display: none !important;
+}
+
+.from-category-selected .customize-control-dropdown-pages {
+  display: none !important;
+}
+
+/*# sourceMappingURL=customizer.css.map */

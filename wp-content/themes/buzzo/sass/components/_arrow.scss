@@ -1,0 +1,77 @@
+.arrow {
+  $bg-color: #bebebe;
+
+  display: inline-block;
+  height: 3px;
+  width: 27px;
+  background: $bg-color;
+  position: relative;
+  border-radius: 2px;
+
+  &:before,
+  &:after {
+    content: " ";
+    position: absolute;
+    display: block;
+    height: 15px;
+    width: 3px;
+    background: $bg-color;
+  }
+
+  &-left {
+    &:before,
+    &:after {
+      left: 3px;
+    }
+
+    &:before {
+      bottom: -2px;
+      transform: rotate(45deg);
+    }
+
+    &:after {
+      top: -2px;
+      transform: rotate(-45deg);
+    }
+  }
+
+  &-right {
+    &:before,
+    &:after {
+      right: 3px;
+    }
+
+    &:before {
+      bottom: -2px;
+      transform: rotate(-45deg);
+    }
+
+    &:after {
+      top: -2px;
+      transform: rotate(45deg);
+    }
+  }
+}
+
+a:hover,
+a:focus {
+  .arrow {
+    background: $color__link;
+
+    &:before,
+    &:after {
+      background: $color__link;
+    }
+  }
+}
+
+.arrow-big {
+  width: 40px;
+  height: 5px;
+
+  &:before,
+  &:after {
+    height: 20px;
+    width: 5px;
+  }
+}

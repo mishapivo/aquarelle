@@ -1,0 +1,445 @@
+/*
+Theme Name: Blogger Era
+
+Adding support for languages written in a Right To Left (RTL) direction is easy -
+it's just a matter of overwriting all the horizontal positioning attributes
+of your CSS stylesheet in a separate stylesheet file named rtl.css.
+
+https://codex.wordpress.org/Right-to-Left_Language_Support
+
+*/
+
+/*
+body {
+	direction: rtl;
+	unicode-bidi: embed;
+}
+*/
+
+/* body {direction:rtl;} */
+
+ul, ol{
+    margin: 0 3em 1.5em 0 ;
+}
+
+li > ul, li > ol{
+    margin-right: 1.5em;
+}
+
+.main-navigation{
+    float: right;
+}
+
+.main-navigation ul{
+    padding-right: 0;
+}
+
+.main-navigation ul ul{
+    float: right;
+    right: -999em;
+}
+
+.main-navigation ul ul ul{
+    right: -999em;
+}
+
+.main-navigation ul li:hover > ul, .main-navigation ul li.focus > ul{
+    right: auto;
+}
+
+.main-navigation ul ul li:hover > ul, .main-navigation ul ul li.focus > ul{
+    right: 100%;
+}
+
+.main-navigation > div > ul > li:first-child, .menu-top-menu-container > ul > li:first-child{
+    padding-right: 0;
+}
+
+.main-navigation ul li ul, .menu-top-menu-container ul li ul{
+    right: 0;
+    text-align: right;
+}
+
+.main-navigation ul li ul li ul, .menu-top-menu-container ul li ul li ul{
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    right: 200px;
+}
+
+.main-navigation .page_item_has_children:before, .main-navigation .menu-item-has-children::before{
+    left: 0;
+}
+
+.main-navigation .children .page_item_has_children:before, .main-navigation .sub-menu .menu-item-has-children::before{
+    left: 15px;
+}
+
+.comment-navigation .nav-previous, .posts-navigation .nav-previous, .post-navigation .nav-previous{
+    float: right;
+}
+
+.comment-navigation .nav-next, .posts-navigation .nav-next, .post-navigation .nav-next{
+    float: left;
+    text-align: left;
+}
+
+.screen-reader-text:focus{
+    right: 5px;
+}
+
+.alignleft{
+    float: right;
+    margin-left: 1.5em;
+}
+
+.alignright{
+    float: left;
+    margin-right: 1.5em;
+}
+
+.aligncenter{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.widget_recent_comments li span{
+    padding: 0 25px 0 0 ;
+}
+
+.widget_rss li a:before, .widget_recent_comments li span:before, .widget_recent_entries ul li a:before, .widget_pages li a:before, .widget_recent_comments li a:before, .widget_meta li a:before, .widget_nav_menu li a:before, .widget_categories li a:before, .entry-content ul li a:before, .widget_archive li a:before{
+    right: 0;
+}
+
+.comment-author.vcard img{
+    float: right;
+    margin-left: 15px;
+}
+
+.reply{
+    float: left;
+}
+
+.wp-caption img[class*="wp-image-"]{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row{
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.custom-col-1,  .custom-col-2,  .custom-col-3,  .custom-col-4,  .custom-col-5, .custom-col-6,  .custom-col-7,  .custom-col-8, .custom-col-9,  .custom-col-10,  .custom-col-11,  .custom-col-12{
+    padding-left: 15px;
+    padding-right: 15px;
+    float: right;
+}
+
+.right-side{
+    float: left;
+    text-align: left;
+}
+
+.top-header{
+    float: right;
+}
+
+.top-header-left, .top-header-right{
+    float: right;
+}
+
+.top-address-part i{
+    padding-left: 10px;
+}
+
+.top-address-part li:first-child{
+    padding-right: 0;
+}
+
+.offcanvas-toggle-wrapper{
+    float: right;
+    padding: 20px 0 20px 20px ;
+}
+
+.offcanvas ul{
+    margin: 55px 0 0 0 ;
+}
+
+.offcanvas-toggle:before{
+    margin: 0 0 0 20px ;
+}
+
+.offcanvas .offcanvas-toggle.close{
+    float: left;
+}
+
+.bottom-header{
+    float: right;
+}
+
+.search-part{
+    float: left;
+    text-align: left;
+    padding: 20px 20px 20px 0 ;
+}
+
+.search-area{
+    left: 15px;
+}
+
+.search-part label input{
+    padding-left: 55px;
+}
+
+.search-part input[type="submit"]{
+    left: 0px;
+}
+
+.menu-holder{
+    float: right;
+}
+
+.caption{
+    left: 100px;
+}
+
+.entry-meta .byline{
+    border-left: 1px solid #cac8c8;
+    padding-left: 5px;
+}
+
+.popular-section-wrapper .popular-caption{
+    right: 50%;
+}
+
+.content-area{
+    padding-left: 30px;
+    float: right;
+}
+
+.widget-area{
+    float: left;
+}
+
+.search-form input{
+    padding: 8px 15px 8px 30px ;
+}
+
+.search-form input .search-field{
+    padding-left: 55px;
+}
+
+.search-form .search-submit{
+    left: 0;
+}
+
+.latest-post figure{
+    float: right;
+}
+
+.latest-post .post-wrap{
+    float: right;
+    padding-right: 15px;
+}
+
+.blog-post-wrapper figure, .blog-post-caption{
+    float: right;
+}
+
+.blog-post-caption{
+    padding: 15px 30px 15px 15px ;
+}
+
+.post-formate-wrap{
+    left: -25px;
+}
+
+.site-footer .follow-us .inline-design.social-links ul li a:before{
+    margin-left: 10px;
+}
+
+.page-title-wrap:before{
+    right: 0;
+    left: 0;
+}
+
+.breadcrumbs ul li:before{
+    right: -7px;
+}
+
+.single .post-formate-wrap{
+    left: 2%;
+}
+
+.post-related-post{
+    float: right;
+}
+
+.entry-content ul{
+    text-align: right;
+}
+
+.entry-content li:before{
+    right: -15px;
+}
+
+.navigation .nav-previous a{
+    padding: 0 25px 0 5px ;
+}
+
+.navigation .nav-next a{
+    padding: 0 5px 0 25px ;
+}
+
+.navigation .nav-previous:before{
+    right: 0;
+}
+
+.navigation .nav-next:after{
+    left: 0;
+}
+
+.author-details{
+    float: left;
+    padding-right: 20px;
+}
+
+.author-intro{
+    text-align: left;
+}
+
+.comment-form-author, .comment-form-email, .comment-form-url{
+    float: right;
+}
+
+.comment-form-author{
+    padding-right: 0;
+}
+
+.comment-form-url{
+    padding-left: 0;
+}
+
+.comments-area{
+    float: right;
+}
+
+.error-404 .entry-content{
+    text-align: left;
+    left: 48px;
+    right: 0;
+}
+
+.quick-contact-info{
+    float: right;
+}
+
+.quick-contact-info p{
+    float: right;
+}
+
+.inner-contact-us, .google-map-wrap{
+    float: right;
+}
+
+.inner-contact-us{
+    padding-left: 30px;
+}
+
+.classic-design .post-formate-wrap, .grid-layout .post-formate-wrap, .full-width .post-formate-wrap{
+    left: 25px;
+}
+
+.list-opp .post:nth-child(even) .blog-post-wrapper figure, .list-opp .post:nth-child(even) .blog-post-caption{
+    float: left;
+}
+
+.list-opp .post:nth-child(even) .blog-post-caption{
+    padding: 15px 15px 15px 30px ;
+}
+
+.list-opp .post:nth-child(even) .post-formate-wrap{
+    left: auto;
+    right: -25px;
+}
+
+.blog-post-wrap.grid-layout{
+    margin-left: -47px;
+    float: right;
+}
+
+.caption-overlay figure:before, .overlay figure:before{
+    right: 0;
+    left: 0;
+}
+
+.overlay .blog-title-wrap{
+    left: 0;
+    right: 0;
+}
+
+.overlay .post-formate-wrap{
+    left: 15px;
+}
+
+.caption-overlay .blog-title-wrap{
+    left: 0;
+    right: 0;
+}
+
+.caption-overlay .post-formate-wrap{
+    left: 20px;
+}
+
+.entry-meta i{
+    margin-left: 5px;
+}
+
+.nosidebar .content-area{
+    padding-left: 0;
+}
+
+.popular-wrapper figure:before{
+    right: 0;
+    left: 0;
+}
+
+.popular-wrapper figure:hover:before{
+    right: 10px;
+    left: 10px;
+}
+
+.widget.blogger_era_widget_instagram{
+    float: right;
+}
+
+.widget.blogger_era_widget_instagram ul li{
+    float: right;
+}
+
+.back-to-top{
+    left: 30px;
+}
+
+.global-layout-sidebar-left .content-area{
+    float: left;
+    padding-left: 0;
+    padding-right: 30px;
+}
+
+.global-layout-no-sidebar .content-area{
+    padding-left: 0;
+}
+
+.contact-form-wrap, .widget-post-author, .navigation.post-navigation, .navigation.posts-navigation, .breadcrumb-wrapper, .page-title-wrap, .site-branding, .post, .blog-post-wrapper, .popular-section-wrapper, .popular-section, .freature-slider-section{
+    float: right;
+}
+
+.social-links ul li a::before{
+    margin-right: 5px;
+}
+
+.drop-cap .entry-content > p:first-of-type:first-letter, .drop-cap .entry-content > p:first-of-type:first-letter{
+    float: right;
+}
+
+

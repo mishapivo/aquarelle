@@ -1,0 +1,129 @@
+/*
+Theme Name: Business Blue
+Description: Business Blue is a Multipurpose, Responsive, SEO Friendly and child theme of Di Business theme. it comes with default blue color. Theme Features : One Click Demo Import, WooCommerce Ready, Page Layouts, Page Builder Templates, Blog Options, Top Bar, Sidebar Widgets, Footer Widgets, Footer Copyright Section, WooCommerce Options, Typography Options, Contact Form 7 Ready, Page Builder Ready, Custom Header Image, Header Layouts, Social Profile and much more. it can be use for many type of business websites such as creative business, ecommerce (WooCommerce), medical shop, corporate businesses, online selling, blog, landing page, travel, real estate, photography, industrial, education, job board and portal, agency and firm, gallery, listing, school, yoga, lifestyle, architecture, local business, restaurant, affiliate, university, hotel, construction, one page, portfolio, startups, wedding planners etc. DEMO : http://demo.dithemes.com/di-business/
+Version: 1.0.0
+Author: dithemes
+Author URI: https://dithemes.com/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: one-column, two-columns, left-sidebar, right-sidebar, grid-layout, custom-background, custom-colors, custom-header, custom-logo, custom-menu, editor-style, featured-images, footer-widgets, flexible-header, full-width-template, microformats, post-formats, sticky-post, theme-options, threaded-comments, translation-ready, blog, e-commerce, portfolio
+Text Domain: business-blue
+Template: di-business
+*/
+
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+	background-color: #3500c5;
+}
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+	background-color: #3500c5 !important;
+}
+
+.woocommerce ul.products li.product .price, .woocommerce div.product p.price, .woocommerce div.product span.price {
+	color: #3500c5;
+}
+
+.archive.post-type-archive .star-rating {
+	display: none;
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-product__title {
+	text-align: center;
+	margin-bottom: 6px;
+}
+
+.woocommerce ul.products li.product .price {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+.woocommerce ul.products li.product .button {
+	margin: 0 auto;
+	display: table;
+}
+
+.woocommerce a.added_to_cart {
+	display: table;
+	margin: 0 auto;
+}
+
+.bgtoph {
+	background-color: #3500c5;
+}
+
+.navbarprimary {
+	background-color: #3500c5;
+}
+
+.navbarprimary .dropdown-menu {
+	border-bottom-color: #3500c5;
+}
+
+#back-to-top, .di_business_social_widget a, .bbp-submit-wrapper .button {
+	background-color: #3500c5;
+}
+
+.side-menu-menu-button {
+	background-color: #3500c5;
+}
+
+.content-first .content-second h3.the-title {
+	background-color: #3500c5;
+}
+
+.content-first .content-second h1.the-title, .woocommerce .left-content h1.page-title {
+	background-color: #3500c5;
+}
+
+.content-first .content-second h3.the-title {
+	border-color: #00146b;
+}
+
+.content-first .content-second h1.the-title, .woocommerce .left-content h1.page-title.woocommerce-products-header__title {
+	border-color: #00146b;
+}
+
+.widget_sidebar_main .right-widget-title {
+	border-color: #00146b;
+}
+
+.widget_sidebar_main .right-widget-title {
+	background-color: #3500c5;
+}
+
+.masterbtn {
+	background-color: #3500c5;
+}
+
+.post-navigation .nav-next a, .post-navigation .nav-previous a {
+	background-color: #3500c5;
+}
+
+.tagcloud a {
+	background-color: #3500c5;
+}
+
+.tagcloud a::before {
+	border-right-color: #3500c5;
+}
+
+.singletags a {
+	background-color: #3500c5;
+}
+
+.singletags a::before {
+	border-right-color: #3500c5;
+}
+
+.footer {
+	border-color: #3500c5;
+}
+
+.footer a, .widgets_footer ul li::before {
+	color: #3500c5;
+}
+
+.footer-copyright a {
+	color: #3500c5;
+}
+
