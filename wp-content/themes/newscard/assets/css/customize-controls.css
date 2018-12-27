@@ -1,0 +1,24 @@
+.theme-info {
+	margin-right: -12px;
+	margin-left: -12px;
+}
+.theme-info a {
+	padding: 10px 10px 11px 14px;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 600;
+	background: #fff;
+	color: #555d66;
+	display: block;
+	text-decoration: none;
+	border-left: 4px solid #fff;
+	border-bottom: 1px solid #ddd;
+}
+.theme-info a:hover {
+	color: #0073aa;
+	background: #f3f3f5;
+	border-left-color: #0073aa;
+}
+.theme-info a:focus {
+	box-shadow : none;
+}

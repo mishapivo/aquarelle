@@ -1,0 +1,381 @@
+# Copyright (C) 2018 Iceable Media
+# This file is distributed under the GNU General Public License v2 (GPLv2).
+msgid ""
+msgstr ""
+"Project-Id-Version: Materia Lite 1.0.10\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/style\n"
+"POT-Creation-Date: 2018-01-31 13:46:08+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: grunt-wp-i18n 0.5.4\n"
+
+#: 404.php:25
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:26 index.php:228 page-templates/full-width.php:86 page.php:87
+#: single.php:155
+msgid "What you are looking for isn't here..."
+msgstr ""
+
+#: 404.php:27
+msgid "Maybe a search will help ?"
+msgstr ""
+
+#: comments.php:20
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:33
+#. Translators: %1$s is the number of comments, %2$s is the post title
+msgid "%1$s Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:59
+msgid "Older comments"
+msgstr ""
+
+#: comments.php:65
+msgid "Newer comments"
+msgstr ""
+
+#: comments.php:78
+msgid "Comments are closed."
+msgstr ""
+
+#: footer.php:37
+#. Translators: %1$s is the copyright date, %2$s is the site name (e.g.
+#. Copyright © 2018, My Website)
+msgid "Copyright &copy; %1$s, %2$s."
+msgstr ""
+
+#: footer.php:44
+#. Translators: "Powered by" link to WordPress.org. %1$s is the localized
+#. wordpress.org url (e.g. https:en.wordpress.org), %2$s is title attribute for
+#. the link ("Semantic Personal Publishing Platform"), %3$s is the anchor
+#. ("WordPress")
+msgid "Proudly powered by <a href=\"%1$s\" title=\"%2$s\">%3$s</a>."
+msgstr ""
+
+#: footer.php:45
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: footer.php:46
+msgid "Semantic Personal Publishing Platform"
+msgstr ""
+
+#: footer.php:47
+msgid "WordPress"
+msgstr ""
+
+#: footer.php:52
+#. Translators: %s is a link to the author's website with the name "Iceable
+#. Themes" as anchor
+msgid "Materia design by %s."
+msgstr ""
+
+#: functions.php:97
+msgid "Default Sidebar"
+msgstr ""
+
+#: functions.php:106
+msgid "Footer"
+msgstr ""
+
+#: functions.php:234
+msgid "Customize this menu now!"
+msgstr ""
+
+#: functions.php:283
+msgid "Read More"
+msgstr ""
+
+#: functions.php:293
+msgid "Previous Posts"
+msgstr ""
+
+#: functions.php:299
+msgid "Next Posts"
+msgstr ""
+
+#: functions.php:322
+msgid "Next Post"
+msgstr ""
+
+#: functions.php:328
+msgid "Previous Post"
+msgstr ""
+
+#: functions.php:392
+#. Translators: %s is the author's name
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: functions.php:406
+#. Translators: %s is the relative time (e.g. (3 days ago) )
+msgid "(%s ago)"
+msgstr ""
+
+#: functions.php:416
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:439
+msgid "Edit"
+msgstr ""
+
+#: functions.php:485
+msgid "Home"
+msgstr ""
+
+#: functions.php:516
+msgid "Search Results"
+msgstr ""
+
+#: functions.php:520
+msgid "404 Error"
+msgstr ""
+
+#: inc/customizer/customizer.php:19
+msgid "Blog Settings"
+msgstr ""
+
+#: inc/customizer/customizer.php:27
+msgid "Mobile"
+msgstr ""
+
+#: inc/customizer/customizer.php:35
+msgid "More"
+msgstr ""
+
+#: inc/customizer/customizer.php:53
+msgid "Main Color"
+msgstr ""
+
+#: inc/customizer/customizer.php:74
+msgid "Blog Index Content"
+msgstr ""
+
+#: inc/customizer/customizer.php:79
+msgid "Excerpt"
+msgstr ""
+
+#: inc/customizer/customizer.php:80
+msgid "Full content"
+msgstr ""
+
+#: inc/customizer/customizer.php:100
+msgid "Responsive Mode"
+msgstr ""
+
+#: inc/customizer/customizer.php:105 inc/customizer/customizer.php:182
+#: inc/customizer/customizer.php:207 inc/customizer/customizer.php:231
+#: inc/customizer/customizer.php:256
+msgid "On"
+msgstr ""
+
+#: inc/customizer/customizer.php:106 inc/customizer/customizer.php:183
+#: inc/customizer/customizer.php:208 inc/customizer/customizer.php:232
+#: inc/customizer/customizer.php:257
+msgid "Off"
+msgstr ""
+
+#: inc/customizer/customizer.php:126
+msgid "Mobile menu"
+msgstr ""
+
+#: inc/customizer/customizer.php:131
+msgid "Mobile drawer"
+msgstr ""
+
+#: inc/customizer/customizer.php:132
+msgid "Dropdown"
+msgstr ""
+
+#: inc/customizer/customizer.php:152
+msgid "Header image display mode"
+msgstr ""
+
+#: inc/customizer/customizer.php:157
+msgid "Card"
+msgstr ""
+
+#: inc/customizer/customizer.php:158
+msgid "Full Width"
+msgstr ""
+
+#: inc/customizer/customizer.php:177
+msgid "Display header on Homepage"
+msgstr ""
+
+#: inc/customizer/customizer.php:202
+msgid "Display header on Blog Index"
+msgstr ""
+
+#: inc/customizer/customizer.php:226
+msgid "Display header on Single Posts"
+msgstr ""
+
+#: inc/customizer/customizer.php:251
+msgid "Display header on Pages"
+msgstr ""
+
+#: inc/customizer/customizer.php:277
+msgid "Get Materia Pro"
+msgstr ""
+
+#: inc/customizer/customizer.php:278
+msgid ""
+"Unleash the full potential of materia with tons of additional settings, "
+"advanced features and premium support."
+msgstr ""
+
+#: inc/customizer/customizer.php:300
+msgid "Materia Lite support forums"
+msgstr ""
+
+#: inc/customizer/customizer.php:301
+msgid "Have a question? Need help?"
+msgstr ""
+
+#: inc/customizer/customizer.php:323
+msgid "Rate Materia Lite"
+msgstr ""
+
+#: inc/customizer/customizer.php:324
+msgid "Like this theme? We'd love to hear your feedback!"
+msgstr ""
+
+#: inc/customizer/customizer.php:350
+msgid "Upgrade to materia Pro!"
+msgstr ""
+
+#: index.php:74
+#. Translators: %s the date of the post
+msgid "Posted on %s"
+msgstr ""
+
+#: index.php:88 single.php:67
+#. Translators: %s is the author's name
+msgid "View all posts by %s"
+msgstr ""
+
+#: index.php:99
+#. Translators: %s is the author's name
+msgid "by %s"
+msgstr ""
+
+#: index.php:115
+#. Translators: %s is the category name
+msgid "in %s"
+msgstr ""
+
+#: index.php:159
+msgid "Comment"
+msgstr ""
+
+#: index.php:160
+msgid "View 1 Comment"
+msgstr ""
+
+#: index.php:161
+msgid "View % Comments"
+msgstr ""
+
+#: index.php:163
+msgid "Comments Off"
+msgstr ""
+
+#: index.php:188 single.php:123
+#. Translators: %s is a list of tags
+msgid "Tagged with %s"
+msgstr ""
+
+#: index.php:209 index.php:227 page-templates/full-width.php:85 page.php:86
+#: single.php:154
+msgid "Not Found"
+msgstr ""
+
+#: index.php:214
+#. Translators: %s is the search term
+msgid "Your search for \"%s\" did not return any result."
+msgstr ""
+
+#: index.php:219
+msgid "Would you like to try another search ?"
+msgstr ""
+
+#: page-templates/full-width.php:56 page.php:56 single.php:97
+msgid "Pages:"
+msgstr ""
+
+#: page-templates/full-width.php:61 page.php:61 single.php:102
+msgid "Next page"
+msgstr ""
+
+#: page-templates/full-width.php:62 page.php:62 single.php:103
+msgid "Previous page"
+msgstr ""
+
+#: part-title.php:22
+msgid "404: Page Not Found"
+msgstr ""
+
+#: part-title.php:29
+#. Translators: %s is the search term
+msgid "Search Results for \"%s\""
+msgstr ""
+
+#: sidebar.php:18
+msgid "Add some widgets"
+msgstr ""
+
+#: sidebar.php:19
+msgid "Click here to add widgets to your sidebar!"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Materia Lite"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "https://www.iceablethemes.com/shop/materia-lite/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A material design inspired WordPress Theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Iceable Media"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.iceablethemes.com"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full-width Page Template, No Sidebar"
+msgstr ""
+
+#: functions.php:364
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: functions.php:366
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: functions.php:368
+msgctxt "submit button"
+msgid "Search"
+msgstr ""

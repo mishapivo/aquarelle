@@ -1,0 +1,156 @@
+/*
+Theme Name: Materialize
+Theme URI: http://mythem.es/item/materialize-free-wordpress-theme/
+Description: Materialize is an white, clean, elegant, modern, creative and beautiful freemium WordPress theme built with HTML5 and CSS3. The clean, white, elegant, modern and creative design can be used for any type of website: business, corporate, portfolio, products, creative, arts, design, construction, transport, manufacturing, ecology, cosmetics, beauty, hygiene, sports, culture, presentations, food business, restaurants, drink, bar, pub, club, radio, tv, television, music, movies, live style, garden, cuisine, chemical, pharmaceutical, medicine, travel, sample blog, agriculture, science, politics and more others. The theme is builded base on white, clean and responsive Material Design Concept. This theme is suitable for all type of devices: desktop, notebook, tablete, iPhone and others. Responsive design and Materialia Design Concept are based on Materialize framework. Theme is developed by myThem.es. We carefully handcrafted this theme with a strong focus on typography, usability and overall user-experience. It’s very quick to setup and easy to customize. It also comes with free support. Please read the FAQ: <strong>Admin Dashboard > Appearances > Materialize FAQ</strong>. See our demo: <a href="https://goo.gl/DspUMM">https://goo.gl/DspUMM</a>.
+Version: 0.0.21
+Tags:  blog, news, featured-images, one-column, theme-options, translation-ready, custom-colors, custom-menu, threaded-comments, custom-background, custom-header
+Text Domain: materialize
+Domain Path: /languages
+Author: myThem.es
+Author URI: http://mythem.es/
+License: GNU General Public License v2.0
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+
+
+
+    Materialize, Copyright 2015 myThem.es
+    Materialize is distributed under the terms of the GNU GPL
+
+
+                     ________________
+                    |_____    _______|
+     ___ ___ ___   __ __  |  |  __       ____   ___ ___ ___       ____   ____
+    |           | |_ |  | |  | |  |___  |  __| |           |     |  __| |  __|
+    |   |   |   |  | |  | |  | |  __  | |  __| |   |   |   |  _  |  __| |__  |
+    |___|___|___|   |  |  |__| |_ ||_ | |____| |___|___|___| |_| |____| |____|
+                    |_|
+
+
+                         myThem.es Marketplace provides WordPress themes with
+                                    the best quality and the smallest prices.
+
+
+
+
+*/
+/* ALIGN TEXT */
+.align-none{
+    text-align: none;
+}
+.align-left{
+    text-align: left;
+}
+.align-center{
+    text-align: center;
+}
+.align-justify{
+    text-align: justify;
+}
+.align-right{
+    text-align: right;
+}
+
+/* WORDPRESS */
+.alignleft,
+.alignright{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.alignnone,
+.aligncenter{
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+div.mythemes-page > .aligncenter:first-child,
+div.mythemes-page > .alignnone:first-child{
+    margin-top: 0px;
+}
+div.mythemes-page > .aligncenter:last-child,
+div.mythemes-page > .alignnone:last-child{
+    margin-bottom: 0px;
+}
+.alignleft{
+    float:left;
+    margin-right: 15px;
+}
+.alignright{
+    float:right;
+    margin-left: 15px;
+}
+.aligncenter{
+    clear:both;
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+.sticky,
+.gallery-caption,
+.screen-reader-text,
+.bypostauthor{}
+
+.wp-caption{
+    background-color: #ffffff;
+
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+       -moz-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+            box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+.wp-caption,
+.wp-caption p,
+.wp-caption a{
+    font-style: italic;
+}
+.wp-caption,
+.wp-caption p{
+    color: #454545;
+}
+section .wp-caption p,
+section .wp-caption p.wp-caption-text{
+    background: #ffffff;
+    color: #454545;
+    padding: 15px 25px;
+    margin: 0px;
+    line-height: 24px;
+}
+section .post-thumbnail .valign-bottom-cell-wrapper{
+    height: auto;
+}
+.single-portfolio .thumbnail-content footer,
+section .post-thumbnail footer{
+    background: rgba( 0,0,0, 0.4 );
+    color: #ffffff;
+    font-style: italic;
+    padding: 10px;
+}
+.wp-caption img{
+    display: block;
+
+    width: -webkit-calc( 100% + 10px );
+    width: calc( 100% + 10px );
+
+}
+
+.mythemes-round-corners{
+    -webkit-border-radius: 5px;
+       -moz-border-radius: 5px;
+            border-radius: 5px;
+}
+
+code {
+    background: #e9e9e9;
+    font-size: 12px;
+    padding: 8px 15px;
+
+    -webkit-border-radius: 2px;
+       -moz-border-radius: 2px;
+            border-radius: 2px;
+}
+code {
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+    font-weight: 400;
+    color: #333;
+}

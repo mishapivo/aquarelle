@@ -1,0 +1,64 @@
+version 0.0.21 ( March 26, 2018 )
+-------------------------------------------------------
+- Code Quality Improvements
+- Post Meta Date Improvements
+
+version 0.0.20 ( February 21, 2018 )
+-------------------------------------------------------
+- add 6 new social networks links: Vimeo Circled, GitLab, YouTube, YouTube Play, Odnoklassniki and Reddit
+- updated fontello icon font: http://fontello.com/
+- add small design improvements
+
+version 0.0.19 ( February 13, 2018 )
+-------------------------------------------------------
+- fix Image Alignment Issue
+- fix Header Image Size on Resize Window
+- add option in Customize / Breadcrumbs to can modify the "Blog" word from the blog Template
+
+version 0.0.16 ( Jun 21, 2017 )
+-------------------------------------------------------
+- fix semantic mistake "writed by" => "written by"
+
+version 0.0.15 ( February 26, 2017 )
+-------------------------------------------------------
+- added default WordPress custom logo support
+- added default WordPress custom CSS support
+- removed default content from themes files
+
+version 0.0.14 ( February 7, 2017 )
+-------------------------------------------------------
+- added small improvements
+
+version 0.0.13 ( October 27, 2016 )
+-------------------------------------------------------
+- fix the differences and adjusted the php 7 compatibility
+
+version 0.0.12 ( Sebtember 27, 2016 )
+-------------------------------------------------------
+- added filter for 404.php template
+- fix the localization directory path
+
+version 0.0.11 ( Sebtember 8, 2016 )
+-------------------------------------------------------
+- improvements for the scripts and the styles includes
+- added filter to can include custom styles from child theme
+
+version 0.0.10 ( July 18, 2016 )
+-------------------------------------------------------
+- Added multiple options for custom css ( IE, IE 11, IE 10, IE 9, IE 8 )
+- Improvements - tags button height ( single bottom meta )
+- Improvements - styled blockquote elements <cite> and <footer>
+- Improvements - width for the form element <fieldset>
+- Improvements - style audio player with relative theme colors
+- changed the theme tags from style.css
+
+version 0.0.9 ( May 19, 2016 )
+-------------------------------------------------------
+- Buttons Improvements
+- Header Image Improvements
+- Page Content Improvements
+
+version 0.0.8 ( April 20, 2016 )
+-------------------------------------------------------
+- Forms and Inputs Improvements
+- Header Image Improvements

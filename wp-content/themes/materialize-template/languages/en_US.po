@@ -1,0 +1,243 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Materialize Template\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-22 23:05+0000\n"
+"PO-Revision-Date: 2018-05-22 23:06+0000\n"
+"Last-Translator: admin <admin@vsweb.be>\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: archive.php:29 archive.php:60 author.php:29 author.php:60 category.php:30
+#: category.php:61 index.php:30 index.php:61
+msgid "Page"
+msgstr "Page"
+
+#: comments.php:54
+#, php-format
+msgctxt "comments title"
+msgid "One Reply to &ldquo;%s&rdquo;"
+msgstr "One Reply to &ldquo;%s&rdquo; "
+
+#: comments.php:58
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s Replies to &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s Reply to &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s Replies to &ldquo;%2$s&rdquo;"
+
+#: comments.php:84
+msgid "prev"
+msgstr "prev"
+
+#: comments.php:85
+msgid "next"
+msgstr "next"
+
+#: comments.php:96
+msgid "Comments are closed."
+msgstr "Comments are closed."
+
+#: comments.php:105
+msgctxt "noun"
+msgid "Comment"
+msgstr "Comment"
+
+#: comments.php:114
+msgid "Name"
+msgstr "Name"
+
+#: comments.php:122
+msgid "Email"
+msgstr "Email"
+
+#: comments.php:130
+msgid "Website"
+msgstr "Website"
+
+#: footer.php:60
+msgid "about us"
+msgstr "about us"
+
+#: footer.php:65
+msgid "theme by"
+msgstr "theme by"
+
+#: inc/components.php:65
+msgid "Main menu"
+msgstr "Main menu"
+
+#: inc/components.php:66
+msgid "Footer menu"
+msgstr "Footer menu"
+
+#: inc/components.php:67
+msgid "First zone of profile menu"
+msgstr "First zone of profile menu"
+
+#: inc/components.php:68
+msgid "Second zone of profile menu"
+msgstr "Second zone of profile menu"
+
+#: inc/components.php:69
+msgid "Action buttons zone of mobile menu"
+msgstr "Action buttons zone of mobile menu"
+
+#: inc/components.php:76
+msgid "Footer sidebar 1"
+msgstr "Footer sidebar 1"
+
+#: inc/components.php:78
+msgid "First widgets area of the footer"
+msgstr "First widgets area of the footer"
+
+#: inc/components.php:86
+msgid "Footer sidebar 2"
+msgstr "Footer sidebar 2"
+
+#: inc/components.php:88
+msgid "Second widgets area of the footer"
+msgstr "Second widgets area of the footer"
+
+#: inc/components.php:96
+msgid "Footer sidebar 3"
+msgstr "Footer sidebar 3"
+
+#: inc/components.php:98
+msgid "Third widgets area of the footer"
+msgstr "Third widgets area of the footer"
+
+#: inc/components.php:106
+msgid "Footer profile"
+msgstr "Footer about us zone"
+
+#: inc/components.php:109
+msgid "Profile area of the footer"
+msgstr "Footer about us zone"
+
+#. Name of the template
+#: inc/components.php:117
+msgid "Left sidebar"
+msgstr "Left sidebar"
+
+#: inc/components.php:119
+msgid "Widgets area for left sidebar"
+msgstr "Widgets area for left sidebar"
+
+#. Name of the template
+#: inc/components.php:127
+msgid "Right sidebar"
+msgstr "Right sidebar"
+
+#: inc/components.php:129
+msgid "Widgets area for right sidebar"
+msgstr "Widgets area for right sidebar"
+
+#: inc/components.php:275
+msgid "Log in to Reply"
+msgstr "Log in to Reply"
+
+#: inc/theme-options.php:87
+msgid "&copy; 2018 VsWeb"
+msgstr "&copy; 2018 VsWeb"
+
+#: inc/theme-options.php:93
+msgid "Theme colours"
+msgstr "Theme colours"
+
+#: inc/theme-options.php:98
+msgid "Theme options"
+msgstr "Theme options"
+
+#: inc/theme-options.php:104
+msgid "Header background-color"
+msgstr "Header background-color"
+
+#: inc/theme-options.php:110
+msgid "Menu background-color"
+msgstr "Menu background-color"
+
+#: inc/theme-options.php:116
+msgid "Search bar background-color"
+msgstr "Search bar background-color"
+
+#: inc/theme-options.php:122
+msgid "Sidebar background-color"
+msgstr "Sidebar background-color"
+
+#: inc/theme-options.php:128
+msgid "Footer background-color"
+msgstr "Footer background-color"
+
+#: inc/theme-options.php:134
+msgid "Copyright background-color"
+msgstr "Copyright background-color"
+
+#: inc/theme-options.php:140
+msgid "Default image"
+msgstr "Default image"
+
+#: inc/theme-options.php:147
+msgid "Copyright"
+msgstr "Copyright"
+
+#. Name of the template
+msgid "Full width"
+msgstr "Full width"
+
+#: template-parts/content-none.php:15
+msgid "Nothing Found"
+msgstr "Nothing Found"
+
+#: template-parts/content-none.php:22
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+
+#: template-parts/content-none.php:26
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+
+#: template-parts/content-none.php:31
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+
+#: template-parts/content.php:15 template-parts/content.php:20
+msgid "read more"
+msgstr "read more"
+
+#. Name of the theme
+msgid "Materialize Template"
+msgstr "Materialize Template"
+
+#. Description of the theme
+msgid "A complete material design wordpress template"
+msgstr "A complete material design wordpress template"
+
+#. URI of the theme
+msgid "https://vsweb.be/view/work/wordpress-theme"
+msgstr "https://vsweb.be/view/work/wordpress-theme"
+
+#. Author of the theme
+msgid "Geoffrey Kratz"
+msgstr "Geoffrey Kratz"
+
+#. Author URI of the theme
+msgid "https://vsweb.be/"
+msgstr "https://vsweb.be/"

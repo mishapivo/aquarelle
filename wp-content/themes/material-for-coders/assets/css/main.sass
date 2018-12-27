@@ -1,0 +1,592 @@
+// main: style.sass
+
+body
+    margin: 0
+    padding: 0
+    font-family: Roboto
+
+    &.sidebar-inactive
+        .article-wrapper pre
+            @media (min-width: $screen-md)
+                margin-left: -100px
+                margin-right: -100px
+
+a,
+a:hover,
+a:focus,
+a:active
+    outline: none
+    color: inherit
+    text-decoration: none
+
+.menu-2
+    font-family: Montserrat
+
+    .menu-2-toggler
+        i
+            vertical-align: middle
+
+    ul
+        margin: 0
+        padding: 0
+        overflow: hidden
+        transition: all .3s linear
+        height: auto
+
+        &.collapsed
+            @media (max-width: 768px)
+                height: 0
+
+        li
+            @media (max-width: 768px)
+                display: block
+
+    &.current-menu-item a
+        color: $color-primary
+        border-bottom-color: $color-primary
+    a
+        display: block
+        padding: 15px
+        padding-bottom: 12px
+        color: $color-grey-30
+        border-bottom: 3px solid transparent
+
+        &:hover,
+        &:focus,
+        &.active
+            color: $color-accent
+            border-bottom-color: $color-accent
+
+
+.big-title
+    background-color: $color-grey-05
+    color: $color-primary
+    padding: 40px 0
+
+    @media (max-width: 600px)
+        padding: 2em 0
+
+    h2
+        font-weight: 100
+        padding: 0
+        margin: 0
+        font-size: 50px
+
+        @media (max-width: 600px)
+            font-size: 25px
+            font-weight: 300
+
+        small
+            color: inherit
+            font-size: 20px
+            font-weight: 100
+            vertical-align: middle
+
+.article-wrapper
+
+    h2
+        color: $color-primary
+        font-weight: 400
+        font-size: 30px
+        font-family: Montserrat
+
+        a:hover,
+        a:focus
+            border-bottom: 1px dotted $color-primary
+
+    .context
+        padding: 1.5em 0
+        line-height: 2em
+        color: $color-grey-40
+
+        i
+            position: relative
+            top: 6px
+
+        a:hover,
+        a:focus,
+        a:active
+            color: $color-primary
+
+    img.featured
+        margin-bottom: 30px
+        &:first-child
+            margin-top: 50px
+
+    .article
+        padding-bottom: 2em
+
+        h1, h2, h3, h4
+            color: $color-primary
+            font-weight: 300
+        p
+            font-size: 16px
+            line-height: 1.8em
+            margin: 2em 0
+            color: $color-grey-50
+
+            &:first-child
+                margin-top: 0
+
+            &:last-child
+                margin-bottom: 0
+
+        ul, ol
+            font-size: 16px
+            line-height: 1.8em
+            margin: 2em 0
+            color: $color-grey-50
+
+        pre
+            background-color: $color-grey-05
+            color: $color-grey-50
+            border: none
+            border-radius: 0
+            padding: 40px
+            font-size: 15px
+            overflow: auto
+            -ms-word-wrap: normal
+            word-wrap: normal
+            overflow-wrap: normal
+            white-space: pre
+
+        img
+            max-width: 100%
+            height: auto
+
+        a:not(.btn)
+            color: $color-primary
+            border-bottom: 1px dotted $color-primary
+            transition: all .2s
+
+            &:hover
+                color: $color-accent
+                border-bottom: 1px dotted $color-accent
+
+    .author-box
+        margin: 60px 0 80px 0
+        padding: 30px
+        border-radius: 4px
+        background-color: $color-grey-05
+
+        .author-avatar-container
+            text-align: center
+            margin-top: -70px
+            img
+                border: 5px solid $color-white
+
+        h3
+            padding: 15px 0 30px 0
+            border-bottom: 1px solid $color-grey-10
+            text-align: center
+            margin: 0px 0 30px 0
+            font-family: Montserrat
+
+        a
+            color: $color-primary
+            font-weight: bold
+            &:hover
+                color: $color-accent
+
+    #comments
+        .comments
+            margin-top: 80px
+
+            .pingback
+                border: 1px solid transparentize($color-accent, 0.8)
+                background: transparentize($color-accent, 0.9)
+                padding: 15px
+                border-radius: 3px
+                margin: 30px 0
+                font-weight: bold
+
+                a
+                    font-weight: normal
+
+
+                .edit-link
+                    color: $color-primary
+                    float: right
+                    font-weight: bold
+
+
+
+            .comment
+                margin: 30px 0
+
+                .comment
+                    padding-left: 80px
+
+                a
+                    color: $color-primary
+
+                    &:hover,
+                    &:active,
+                    &:focus
+                        border-bottom: 1px dotted $color-primary
+
+
+
+                .comment-meta
+
+                    img.avatar
+                        float: left
+                        border-radius: 999px
+                        margin-right: 20px
+
+
+                    .comment-author
+                        font-family: Montserrat
+                        font-size: 17px
+                        margin: 20px 0
+                        padding: 0
+
+
+                    span.says
+                        display: none
+
+
+                    div.comment-metadata
+                        font-size: 13px
+                        color: $color-grey-30
+                        margin: 15px 0
+
+                        a
+                            color: inherit
+                            &:hover
+                                border-bottom: none
+                                color: $color-primary
+
+                .comment-content
+                    padding-left: 80px
+                    color: $color-grey-50
+                    font-size: 15px
+
+                    pre
+                        background-color: $color-grey-05
+                        color: $color-grey-50
+                        border: none
+                        border-radius: 0
+                        padding: 20px
+                        font-size: 15px
+                        overflow: auto
+                        -ms-word-wrap: normal
+                        word-wrap: normal
+                        overflow-wrap: normal
+                        white-space: pre
+
+                .reply
+                    text-align: right
+                    border-bottom: 1px solid $color-grey-10
+                    margin-left: 80px
+                    padding-bottom: 30px
+
+    .comment-respond
+        padding: 30px
+        background: $color-grey-05
+        border-radius: 4px
+
+        .required
+            color: $color-primary
+
+
+        h3
+            padding: 0 0 30px 0
+            border-bottom: 1px solid $color-grey-10
+            text-align: center
+            margin: 0px 0 30px 0
+            font-family: Montserrat
+            small
+                display: block
+
+
+
+
+
+        label
+            display: block
+
+
+        input[type=text],
+        textarea
+            border-radius: 3px
+            border: 1px solid $color-grey-20
+            transition: all .1s linear
+
+            &:focus
+                box-shadow: none
+                border: 1px solid $color-primary
+                box-shadow: inset 0 0 0 3px transparentize($color-primary, .9)
+                outline: none
+
+
+
+        input[type=text]
+            width: 50%
+            padding: 10px 15px
+
+        textarea
+            width: 100%
+            padding: 15px
+            resize: vertical
+
+
+        @media (max-width: 700px)
+            input[type=text],
+            textarea
+                width: 100%
+
+.sidebar
+    padding-top: 25px
+    color: $color-grey-50
+
+    h3
+        color: $color-primary
+        font-family: Montserrat
+        border-bottom: 2px solid $color-grey-10
+        padding-bottom: .5em
+        margin-bottom: .5em
+        font-size: 20px
+
+    .widget
+        margin-bottom: 25px
+
+        ul,
+        ol
+            margin: 0
+            padding: 10px 0 0 16px
+
+            li
+                margin-bottom: .25em
+
+    .blogroll
+        li
+            color: $color-grey-30
+        a
+            color: $color-grey-50
+            display: block
+
+    #wp-calendar
+        width: 100%
+
+        caption
+            text-align: center
+            font-weight: bold
+
+        tbody
+            a
+                color: $color-primary
+                font-weight: bold
+
+
+        tfoot
+            text-align: center
+            tr
+                td
+                    padding-top: 1em
+
+.navigation
+    text-align: center
+    width: 100%
+
+    ul
+        list-style: none
+        margin: 0
+        padding: 0
+        overflow: auto
+        margin: 30px 0
+        font-size: 15px
+        font-family: Montserrat
+
+        li
+            margin: 0
+            padding: 0
+            display: inline-block
+
+
+
+    a:hover
+        background-color: $color-accent
+        color: $color-white
+
+    .page-numbers
+        display: inline-block
+        padding: 7px 10px
+        border-radius: 3px
+
+        &.current
+            background-color: $color-primary
+            color: $color-white
+
+
+
+
+.menu-mobile-wrapper
+    position: fixed
+    bottom: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background: transparentize($color-black, .5)
+    visibility: hidden
+    transition: all .3s ease-in-out
+    opacity: 0
+    box-shadow: 0 -100px 0 0 transparentize($color-black, .5)
+    z-index: 999
+
+    .menu-mobile
+        position: absolute
+        width: 80%
+        max-height: 80%
+        top: 50%
+        left: 10%
+        z-index: 999999
+        background-color: $color-white
+        border-radius: 3px
+        transition: all .5s 0.3s cubic-bezier(0.22, 1.1, 0.21, 1.1)
+        opacity: 0
+        transform: translateY(-30%)
+        overflow-y: scroll
+        overflow-x: hidden
+        box-shadow: 0 5px 15px 0 transparentize($color-black, .5)
+
+        form
+            margin: 0
+            padding: 0
+            border-bottom: 1px solid $color-grey-20
+
+            input[type=text]
+                padding: 30px 20px
+                border-radius: 0
+                border: none
+
+                &:focus
+                    box-shadow: none
+                    outline: none
+
+
+
+
+        ul
+            margin: 0
+            padding: 0
+            li
+                margin: 0
+                padding: 0
+                a
+                    display: block
+                    padding: 20px
+                    font-size: 16px
+                    font-family: Montserrat
+                    transition: all .2s linear
+                    color: $color-grey-80
+
+                    &:hover,
+                    &:active,
+                    &:focus
+                        background-color: $color-grey-10
+
+
+                &:first-child a
+                    border-radius: 3px 3px 0 0
+
+                &:last-child a
+                    border-bottom: none
+
+
+
+
+
+    &.opened
+        visibility: visible
+        opacity: 1
+
+        .menu-mobile
+            opacity: 1
+            transform: translateY(-50%)
+
+
+.icon-empty-results,
+.icon-404
+    font-size: 150px !important
+    margin: .5em auto
+    color: $color-grey-30
+
+
+.footer
+    margin-top: 100px
+    padding: 30px 0
+    font-family: Montserrat
+    background-color: $color-primary
+    color: $color-white
+
+    &.black
+        background-color: $color-grey-80
+
+    .widget
+        margin: 15px 0
+
+        @media (max-width: 768px)
+            text-align: center
+
+        input,
+        select
+            border: none
+            margin: 10px 0
+
+        .btn-primary
+            @include btn-background($color-accent)
+            margin: 10px 0
+
+        h3
+            padding: 0
+            margin: 0 0 20px 0
+            text-transform: uppercase
+            font-size: 20px
+            @include overflowed-text
+
+
+        ul
+            margin: 0 0 0 0
+            padding: 0
+            list-style: none
+
+            li
+                padding: 0
+                margin: 10px 0
+                @include overflowed-text
+                display: block
+
+                .subtitle,
+                .post-date
+                    @include overflowed-text
+                    display: block
+                    font-size: .9em
+                    color: lighten($color-primary, 30%)
+
+
+
+            li:not(:last-child)
+                margin-bottom: .5em
+
+
+
+        // Widget specific styles:
+
+        ul.recentcomments
+            li.recentcomments
+
+.license
+    font-family: Montserrat
+    background-color: darken($color-primary, 10%)
+    color: $color-white
+    text-align: center
+    padding: 20px
+
+    &.black
+        background-color: $color-grey-90
+
+
+    p
+        margin: 0
+        padding: 0

@@ -1,0 +1,277 @@
+/*
+Theme Name: Modern Construction
+Theme URI: https://www.themesglance.com/themes/free-construction-wordpress-theme/
+Author: Themesglance
+Author URI: https://www.themesglance.com/
+Description: Modern Construction WordPress theme is bold, powerful and stunning, designed specially to cater all the real estate businesses and services such as construction and building, contractor work, property dealing, real estate agency and broker-ship, repair, architecture, renovation, building material trading and any such relevant business. From serving the basic to advanced needs of builders and contractors, Modern Construction WordPress theme is capable enough to design a performance efficient website over a click. The code is optimized for faster page loading. It is readily responsive, cross-browser compatible and multilingual. This theme allows creating a portfolio, showcasing projects and services and publishing the most recent news and blog in the most professional manner. This multipurpose, mobile-first theme is SEO friendly and integrated with social media icons. As the theme is multipurpose, it works perfectly for other business websites apart from architects and construction profession. Demo: https://www.themesglance.com/mega-construction-pro/
+Version: 0.1
+license : GNU General Public License v3.0
+License URI : http://www.gnu.org/licenses/gpl.html
+Text Domain: modern-construction
+Template: mega-construction
+Tags: custom-background, custom-menu, custom-colors, custom-logo, editor-style, featured-images, full-width-template, footer-widgets, one-column, sticky-post, two-columns, theme-options, threaded-comments, right-sidebar, left-sidebar, grid-layout, three-columns, blog
+*/
+
+/*header*/
+#header {
+    background: #eae05bad;
+}
+.page-template-custom-front-page #header{
+	background: transparent;
+}
+.page-template-custom-front-page .logo{
+	position: relative;
+	text-align: center;
+	z-index: 0;
+    display: block;
+    width: 100%;
+    transform: none; 
+    top: 0;
+    left:0; 
+    margin: 0; 
+}
+.page-template-custom-front-page .logo h1 a,
+.woocommerce-message::before,
+.logo h1 a,
+.post-info i,
+#sidebar h3{
+	color: #dfd229;
+}
+.page-template-custom-front-page .logo p,
+.logo p{
+	color: #121212;
+	margin: 0;
+}
+.menu-sec{
+	z-index: 0;
+	border: none;
+}
+.search-box i{
+	border-left: 1px solid #b2b2b2;
+	padding: 6px 20px;
+}
+#header .nav ul li:hover > ul,
+#header .nav ul li a:active,
+.blogbtn a:hover,
+#sidebar h3::before,
+#sidebar input[type="submit"],
+#footer input[type="submit"],
+.woocommerce span.onsale,
+.woocommerce a.button,
+h1.page-title, h1.search-title,
+.woocommerce button.button.alt,
+.woocommerce #respond input#submit,
+.woocommerce button.button,
+.woocommerce a.button.alt,
+.title-box,
+.bradcrumbs a,
+nav.woocommerce-MyAccount-navigation ul li,
+#wrapper h1,
+#comments input[type="submit"].submit,
+input[type="submit"],
+#header .nav ul li a:hover{
+	background: #dfd229 !important;
+}
+.woocommerce-message{
+	border-top-color:#dfd229;
+}
+#header .nav ul li a:hover{
+	background: #fff;
+	color: #121212;
+}
+#comments input[type="submit"],
+.serach_inner input[type="submit"]:hover,
+input[type="submit"]{
+	color: #fff;
+}
+#header .nav ul li:hover > ul li a,
+.blog-sec h3 a,
+#sidebar input[type="submit"],
+.bradcrumbs a:hover {
+	color: #121212;
+}
+.blogbtn a{
+	background: #121212;
+}
+
+/*Slider*/
+
+#slider .carousel-caption{
+	bottom: 35%;
+}
+#slider .inner_carousel h2 {
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: #fff;
+    padding: 0px;
+    font-size: 40px;
+}
+#slider .read-btn a {
+    padding: 13px;
+    background: #dfd229;
+    color: #121212;
+    font-size: 13px;
+    letter-spacing: 0;
+    font-weight: 700;
+}
+#slider .read-btn{
+    margin-top: 5%;
+}
+#slider i:hover,
+.product_meta a,
+.woocommerce p.stars a::before,
+.woocommerce-MyAccount-content a,
+#wrapper p a,
+.comment-meta a,
+span.post-title {
+	color: #dfd229;
+}
+
+/* Contact Section */
+#contact-us{
+	position: relative;
+	z-index: 999;
+	width: 100%;
+	background: #ddd;
+}
+#contact-us .contact {
+    background: #dfd229;
+    padding: 12px 10px;
+    margin-top: -4em;
+}
+#contact-us .contact p,
+#contact-us .contact i{
+	color: #121212;
+	padding: 0 10px;
+}
+#contact-us .contactbtn a {
+    color: #dfd229;
+    background: #121212;
+    padding: 12px 25px;
+    font-weight: 500;
+    font-size: 14px;
+}
+#contact-us .call{
+	border-left: 1px solid #b2b2b2;
+	border-right: 1px solid #b2b2b2;
+}
+#contact-us .address{
+	padding: 0 10px;
+}
+.about h3 a {
+    color: #121212;
+}
+.textbox {
+    background: #dfd229;
+}
+.textbox a{
+	color: #121212;
+}
+
+/*----Service Section------*/
+.service{
+	background: #f7f7f7;
+	padding: 3% 0;
+}
+.video-post .entry-video iframe{
+    height: 340px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+.service-text p,
+.service-category p {
+    color: #b2b2b2;
+    font-size: 14px;
+}
+.service-content h3 {
+    text-align: left;
+    padding-top: 30px;
+    font-size: 23px;
+}
+.service-content {
+    background: url(./images/tower.png) no-repeat;
+    padding-left: 55px;
+}
+.service-category,
+.service-category .category-content p{
+    text-align: center;
+}
+.service-category p{
+	text-align: left;
+}
+.category-content h5{
+	color: #121212;
+}
+.category-content {
+    background: #fff;
+    padding: 10px;
+    margin-bottom: 10px; 
+}
+
+/*----footer------*/
+.inner {
+    background: #dfd229;
+    padding: 1%;
+}
+.copyright a{
+	color: #121212;
+	font-weight: 700;
+}
+#footer p,
+.copyright a:hover{
+	color: #121212;
+}
+#footer {
+    background: #2b2f3f;
+}
+#footer .widget p{
+	color: #fff;
+}
+#footer input[type="submit"] {
+    padding: 13px 2%;
+    font-size: 12px;
+}
+
+/*----sidebar----*/
+#sidebar form{
+	border-color: #121212;
+}
+
+/*-----media---*/
+@media screen and (max-width:768px){
+	#footer input[type="submit"] {
+	    padding: 13px 2%;
+	    font-size: 12px;
+	}
+	#contact-us{
+		position: relative;
+	}
+	#contact-us .contact{
+		margin: 0;
+	}
+	#contact-us .contactbtn a{
+		padding: 12px 17px;
+	}
+}
+@media screen and (max-width:425px){
+	.category-content{
+		margin-top: -11%;
+	}
+	#contact-us .call{
+		border:none;
+	}
+	#header .nav{
+		display: contents;
+	}
+	#footer p{
+		padding: 8px;
+	}
+}
+@media screen and (max-width:768px) and (min-width:768px){
+	#sidebar label{
+		width: 67%;
+	}
+	#sidebar input[type="submit"]{
+		width: 32%;
+	}
+}

@@ -1,0 +1,19 @@
+.valign-cell{
+    display: table-cell;
+}
+
+.parallax{
+	background-attachment: fixed;
+	background-position: center;
+
+	-webkit-background-size: cover;
+	   -moz-background-size: cover;
+	    -ms-background-size: cover;
+	     -o-background-size: cover;
+		    background-size: cover;
+}
+
+.parallax img {
+  	left: 0%;
+  	display: none;
+}

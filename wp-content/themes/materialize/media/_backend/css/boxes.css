@@ -1,0 +1,315 @@
+/* SHORTCODE BOX */
+div.mythemes-shortcode-manager-shadow {
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 150000;
+}
+div.mythemes-shortcode-manager-shadow {
+  display: none;
+}
+div.mythemes-shortcode-manager {
+  background: #ffffff;
+  position: fixed;
+  width: 99%;
+  height: 98%;
+  top: 1%;
+  left: 0.5%;
+  bottom: 1%;
+  right: 0.5%;
+  z-index: 150001;
+}
+div.mythemes-shortcode-manager div.mythemes-header {
+  background: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+  position: fixed;
+  width: 99%;
+  top: 1%;
+  left: 0.5%;
+  right: 0.5%;
+}
+div.mythemes-shortcode-manager div.mythemes-header h3 {
+  border-bottom: 1px solid #ffffff;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0px;
+  padding: 8px 10px;
+  text-transform: uppercase;
+}
+div.mythemes-shortcode-manager div.mythemes-header a.mythemes-close {
+  float: right;
+  font-size: 16px;
+  margin: 11px 16px;
+}
+div.mythemes-shortcode-manager div.mythemes-header a.mythemes-close i,
+div.mythemes-shortcode-manager div.mythemes-header a.mythemes-close i:before {
+  font-size: 16px;
+}
+div.mythemes-shortcode-manager table {
+  border-collapse: collapse;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+div.mythemes-shortcode-manager table tr td {
+  background: #f1f1f1;
+  vertical-align: top;
+  padding: 5px;
+  padding-left: 7px;
+}
+div.mythemes-shortcode-manager table tr td.mythemes-header {
+  height: 41px;
+  padding: 0px;
+}
+div.mythemes-shortcode-manager table tr td.shortcode-list {
+  width: 200px;
+  padding-top: 10px;
+  padding-right: 8px;
+  border-right: 1px solid #eeeeee;
+  background: #f9f9f9;
+}
+div.mythemes-shortcode-manager table tr td.shortcode-list input.mythemes-button {
+  display: none;
+  width: 200px;
+  position: fixed;
+  bottom: 3%;
+  margin: 0px;
+}
+div.mythemes-shortcode-manager table tr td div.mytheme-sh-settings {
+  padding-top: 20px;
+  overflow-y: scroll;
+}
+div.mythemes-shortcode-manager table tr td div.mytheme-sh-settings .mythemes-flat-alert.mythemes-sh-code {
+  margin: 0px 10px 20px 10px;
+}
+div.mythemes-shortcode-manager table tr td div.mytheme-sh-settings span.the-code {
+  display: block;
+  background: #fefefe;
+  border: 1px solid #f6f6f6;
+  color: #666666;
+  position: relative;
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  padding: 5px 8px;
+  margin-top: 10px;
+}
+div.mythemes-shortcode-manager table tr td div.mytheme-sh-settings span.the-code .attr {
+  font-weight: bold;
+  color: blue;
+}
+div.mythemes-shortcode-manager table tr td div.mytheme-sh-settings span.the-code .attr .value {
+  color: red;
+}
+div.mythemes-shortcode-manager table tr td div.mytheme-sh-settings span.the-code .text {
+  color: green;
+}
+div.mythemes-shortcode-manager table tr td div.mytheme-sh-settings span.the-code .mythemes-ln {
+  display: block !important;
+}
+div.mythemes-shortcode-manager table tr td div.mytheme-sh-settings span.the-code .mythemes-ln.hide-ln {
+  display: none !important;
+}
+div.mythemes-shortcode-manager table tr td div.mytheme-sh-settings span.the-code textarea {
+  background: inherit;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  margin: 0;
+  padding: 5px 8px;
+  outline: none;
+  resize: none;
+  overflow: hidden;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  -ms-box-shadow: none;
+  -o-box-shadow: none;
+  box-shadow: none;
+}
+div.mythemes-shortcode-manager {
+  display: none;
+}
+/* ADMIN PANEL BOX */
+.mythemes-box {
+  background: #fcfcfc;
+  padding: 20px;
+  margin-bottom: 20px;
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  -ms-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  -o-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+.mythemes-box .mythemes-box-header {
+  border-bottom: 1px solid #e8e8e8;
+  margin-bottom: 25px;
+}
+.mythemes-box .mythemes-box-header h3 {
+  color: #232323;
+  font-family: Montserrat, sans-serif, Arial, serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 0px 0px 10px 3px;
+  padding: 0px;
+}
+div.postbox#header,
+div.postbox#layout,
+div.postbox#blank,
+div.postbox#link,
+div.postbox#details,
+div.postbox#video,
+div.postbox#fi-sidebar,
+div.postbox#icon {
+  background: #fcfcfc;
+}
+div.postbox#blank div.inside,
+div.postbox#link div.inside,
+div.postbox#details div.inside,
+div.postbox#video div.inside,
+div.postbox#icon div.inside {
+  padding-top: 20px;
+}
+div.postbox#video iframe {
+  max-width: 100%;
+  margin-top: -15px;
+  margin-bottom: 20px;
+}
+/* MYTHEMES POST THUBNAIL */
+div.mythemes-post-thumbnail {
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  border: 1px solid #666666;
+  background: #efefef;
+}
+div.mythemes-post-thumbnail img {
+  cursor: move;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+/* IMAGE SLIDESHOW BUILDER */
+div.mythemes-slideshow-button {
+  float: right;
+  margin-top: -5px;
+}
+div.mythemes-slideshow-button button {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  margin: 0px;
+}
+div.mythemes-slideshow-container {
+  margin-top: 15px;
+  padding-top: 5px;
+  border-top: 1px solid #ededed;
+}
+div.mythemes-slideshow-container div.mythemes-slideshow-item,
+div.mythemes-slideshow-container div.mythemes-slideshow-action {
+  display: inline-block;
+  float: left;
+  width: 150px;
+  height: 150px;
+  margin: 10px 10px 0px 0px;
+  overflow: hidden;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+}
+div.mythemes-slideshow-container div.mythemes-slideshow-action a {
+  background: #e9e9e9;
+  color: #999999;
+  font-size: 48px;
+  width: 150px;
+  height: 150px;
+  display: table;
+  valign: middle;
+  vertical-align: central;
+  vertical-align: middle;
+  text-align: center;
+  /* align center */
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -moz-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -moz-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  -ms-transition: all 0.3s linear;
+  -o-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+div.mythemes-slideshow-container div.mythemes-slideshow-action a:hover {
+  background: #f7f7f7;
+  color: #666666;
+}
+div.mythemes-slideshow-container div.mythemes-slideshow-item {
+  background-color: #fbfbfb;
+  background-image: url('/wp-admin/images/spinner.gif');
+  background-position: center center;
+  background-repeat: no-repeat;
+  border: 1px dashed #f3f3f3;
+}
+div.mythemes-slideshow-container div.mythemes-slideshow-item:hover {
+  cursor: move;
+}
+div.mythemes-slideshow-container div.mythemes-slideshow-item img {
+  background-color: #ffffff;
+}
+div.mythemes-slideshow-container div.mythemes-slideshow-item div.mythemes-slideshow-item-header {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  margin: 5px 0px 0px 115px;
+  text-align: center;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+}
+div.mythemes-slideshow-container div.mythemes-slideshow-item div.mythemes-slideshow-item-header:hover {
+  background-color: rgba(0, 0, 0, 0.95);
+}
+div.mythemes-slideshow-container div.mythemes-slideshow-item div.mythemes-slideshow-item-header a {
+  display: block;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+div.mythemes-slideshow-container div.mythemes-slideshow-item div.mythemes-slideshow-item-header {
+  display: none;
+}
+div.mythemes-slideshow-container div.mythemes-slideshow-item:hover div.mythemes-slideshow-item-header {
+  display: block;
+}

@@ -1,0 +1,197 @@
+/**
+ * Stylesheet for custom styles.
+ *
+ */
+
+.bg-image {
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center center !important;
+}
+
+body .primary-bgcolor {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+body .bg-image {
+    background-color: #000;
+}
+
+h1, h2, h3, h4, h5, h6,
+body .primary-font {
+    font-family: 'Playfair Display', serif;
+}
+
+.site .top-bar {
+    background: black;
+    color: #fff;
+}
+
+.site .top-bar a {
+    color: #fff;
+}
+
+.site .top-bar .social-icons ul li a:after {
+    width: 22px;
+    font-size: 18px;
+}
+
+.site-branding {
+    display: table;
+    width: 100%;
+    min-height: 1px;
+    padding: 40px 0;
+}
+
+.twp-site-branding {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.site-branding .site-title {
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 1.0731707317;
+    letter-spacing: -.055em;
+    text-transform: uppercase;
+}
+
+.site-branding .site-title a,
+.site-branding .site-description {
+    color: #333;
+}
+
+.site-branding .site-description {
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.main-navigation a {
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.main-navigation .menu ul > li > a {
+    font-size: 14px;
+}
+
+.main-navigation,
+.main-navigation .icon-search,
+.main-navigation .icon-sidr {
+    border-color: #404040;
+}
+
+.switch div {
+    background: #03A9F4;
+}
+
+.no-sidebar .site-content .entry-content .image-full {
+    width: inherit;
+}
+
+.twp-slider-3 .slide-text {
+    width: 100%;
+    text-align: center;
+}
+
+.twp-slider-3 .slide-text .read-more {
+    border-radius: 4px;
+    margin-left: auto;
+}
+
+.home .site.slider-enabled .top-bar,
+.home .slider-enabled #masthead .top-header {
+    background: rgba(0, 0, 0, 0.64);
+}
+
+.home #masthead .top-header {
+    border-bottom: 1px solid #404040;
+    border-top: 1px solid #404040;
+}
+
+.home #masthead.site-header.nav-affix .top-header {
+    background: #000;
+    border-bottom: none;
+    border-top: none;
+}
+
+.twp-slider-5 .slide-text-wrapper h2 span {
+    display: block;
+    font-style: italic;
+}
+
+@media only screen and (min-width: 1600px) {
+    .site-branding {
+        padding: 60px 0;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .home .slider-enabled #masthead {
+        background: rgba(0, 0, 0, 0.54);
+        position: absolute;
+        left: 0;
+        right: 0;
+    }
+
+    .home .slider-enabled .site-branding .site-title a,
+    .home .slider-enabled .site-branding .site-description {
+        color: #f5f5f5;
+    }
+
+    .twp-slider-5 .single-slide {
+        height: 700px;
+        height: 100%;
+        height: 100vh;
+    }
+
+    .twp-slider-5 .single-slide .slide-text {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        left: 0;
+        right: 0;
+    }
+
+    .slide-text-wrapper h2 {
+        font-size: 64px;
+    }
+    .twp-slider-5 .slide-text-wrapper h2 span {
+        font-size: 74px;
+        font-weight: 700;
+    }
+    .twp-slider-5 .single-slide .slide-text .read-more {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .twp-slider-5.owl-carousel .owl-nav {
+        top: 70%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .home .site .top-bar,
+    .home #masthead .top-header {
+        background: #000 !important;
+    }
+
+    .home .site .site-branding .site-title a,
+    .home .site .site-branding .site-description {
+        color: #333;
+    }
+
+    .home #masthead {
+        background: #fff;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .site-branding .site-title {
+        font-size: 28px;
+    }
+}

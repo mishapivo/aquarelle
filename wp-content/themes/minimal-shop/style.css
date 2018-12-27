@@ -1,0 +1,128 @@
+/*
+Theme Name: Minimal Shop
+Theme URI: https://afthemes.com/products/minimal-shop/
+Author: AF themes
+Author URI: https://afthemes.com
+Description: Minimal Shop is a child theme of StoreCommerce, an advanced, powerful and flexible, free multipurpose WordPress theme having profound integration with WooCommerce plugin. The child theme has a new header in compressed layout. Additionally, the adds new footer widget area to the parent theme. And for demo site, Shop page has been set as a Static Homepage and placed number of widgets on its Above Banner Widgets Section and Above Footer Widgets Section. Furthermore, the child theme has also altered some of the frontpage layout's default value as well as changes on some essential fonts and color setup. Built with an immense research on modern online shopping sites and the eCommerce functionality in mind, it is a fully responsive WP WooCommerce theme with an elegant design, extensive functionality and incredible user experience. When you start building an awesome store with the help of live customizer theme options and available widgets, it can be implemented as a fashion and clothing store, gadgets store, home appliances shop, automobile shopping site, interior store, books store, photo store, movies store, foods and restaurants online order sites and more. The theme is well optimized that helps to rank your website in the top of search engines and users will get an outstanding support from the team if there will be any difficulties while using the theme. There are three demos available for this theme so choose the one you like and start to build a website. See our demo: https://demo.afthemes.com/storecommerce/minimal-shop/
+Support: https://afthemes.com/supports/
+Template: storecommerce
+Version: 1.0.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: minimal-shop
+Tags: e-commerce, entertainment, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-menu, featured-images, full-width-template, custom-header, translation-ready, theme-options, threaded-comments
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Minimal Shop is based on Underscores https://underscores.me/, (C) 2012-2017 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Minimal Shop is a child theme of "StoreCommerce". StoreCommerce Theme is licensed under the GPL v2. Copyright 2018 AF themes
+Minimal Shop is distributed under the terms of the GNU GPL v2 or later.
+*/
+
+body .spinner-container .path
+{
+stroke: #08162c;
+
+}
+
+body .top-header {
+   background-color: #283242;
+}
+
+body.home .header-style-2.aft-transparent-header .cart-shop, 
+body.home .header-style-2.aft-transparent-header .account-user a, 
+body.home .header-style-2.aft-transparent-header .open-search-form, 
+body.home .header-style-2.aft-transparent-header .aft-wishlist-trigger, 
+body.home .header-style-2.aft-transparent-header .header-left-part .logo-brand .site-title a, 
+body.home .header-style-2.aft-transparent-header .header-left-part .logo-brand .site-description,
+body .header-left-part .logo-brand .site-title a,
+body .header-left-part .logo-brand .site-title a:hover,
+body .header-left-part .logo-brand .site-title a:visited,
+body .header-left-part .logo-brand .site-description,
+body .header-style-3 .account-user a,
+body .header-style-3 .account-user a:visited,
+body .header-style-3 .account-user a:hover {
+    color: #ffffff;
+}
+
+.top-cart-content.primary-bgcolor,
+.main-navigation ul .sub-menu,
+.main-navigation .menu ul ul,
+body.home .header-style-2.aft-transparent-header.aft-sticky-navigation.nav-up ,
+body.home .header-style-2.aft-transparent-header.aft-sticky-navigation.nav-down,
+.header-style-2:before,
+body .header-style-3-1 .navigation-section-wrapper,
+body .header-style-3 .navigation-section-wrapper
+{
+    background-color: #08162c;
+}
+
+.woocommerce ul.cart_list li a,
+.header-right-part .cart-shop span,
+p.woocommerce-mini-cart__empty-message,
+.woocommerce .widget_shopping_cart .total strong,
+.woocommerce.widget_shopping_cart .total strong,
+body .main-navigation ul .sub-menu li a,
+body.home .header-style-2.aft-transparent-header .cart-shop,
+body.home .header-style-2.aft-transparent-header .account-user a,
+body.home .header-style-2.aft-transparent-header .open-search-form,
+body.home .header-style-2.aft-transparent-header .aft-wishlist-trigger,
+body.home .header-style-2.aft-transparent-header .main-navigation .menu > li > a,
+body .main-navigation .menu ul.menu-desktop > li > a,
+body .header-right-part > div  i,
+body .main-navigation .menu ul.menu-desktop > li > a:visited,
+body .af-cart-icon-and-count:after,
+body.home .header-style-2.aft-transparent-header .main-navigation .menu > li > a,
+body.home .header-style-2.aft-transparent-header.aft-sticky-navigation.nav-down .main-navigation .menu > li > a,
+body.home .header-style-2.aft-transparent-header .af-cart-icon-and-count:after,
+body.home .header-style-2.aft-transparent-header.aft-sticky-navigation .af-cart-icon-and-count:after
+{
+    color: #ffffff;
+}
+
+body .header-right-part .overlay button i{
+	color: #4a4a4a;
+}
+
+body .header-right-part .overlay button:hover i{
+	color: #ffffff;
+}
+
+.ham,.ham:before, .ham:after
+{
+    background-color: #ffffff;
+}
+
+
+.posts_latest_widget .posts-date, 
+span.offer-date-counter > span,    
+body span.menu-description,
+body span.title-note,
+body .badge-wrapper span.onsale,
+body .header-right-part .aft-wooicon .aft-woo-counter,
+body .header-right-part .af-cart-icon-and-count .item-count,
+body span.product-count span.item-texts,
+body .post-thumbnail-wrap .posts-date,
+body .posts_latest_widget .posts-date,
+body .main-navigation .menu > li > a:before
+{
+background: #FF9800;
+}
+
+span.offer-date-counter > span{
+border-color: #FF9800;
+}
+
+body span.menu-description:after,
+body span.title-note:after,
+body span.title-note:after
+{
+border-top: 5px solid #FF9800;
+}
+
+body span.product-count span.item-texts:after{
+border-top: 10px solid #FF9800;
+}

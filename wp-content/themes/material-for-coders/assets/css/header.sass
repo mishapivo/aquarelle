@@ -1,0 +1,116 @@
+// main: main.sass
+
+.header-placeholder
+    height: 88px
+    @media (max-width: $screen-md)
+        height: 60px
+
+.header
+    background-color: $color-primary
+    padding: 27px
+    position: fixed
+    width: 100%
+    top: 0
+    z-index: 998
+    transition: all .2s ease-out
+
+    &.headroom--unpinned
+        transform: translateY(-100%)
+        opacity: 0
+
+    @media (max-width: $screen-md)
+        padding: 1em 0
+        .title-wrapper
+            width: 100%
+
+    .title-wrapper
+        display: inline-block
+        color: $color-menu-1-active
+        vertical-align: middle
+        @include overflowed-text
+
+        .mobile-menu-toggler
+            vertical-align: middle
+            display: inline-block
+            font-size: 24px
+            line-height: 1
+            width: 32px
+            height: 32px
+            padding: 4px 0 0 4px
+            margin: 0 .5em 0 0
+            border-radius: 4em
+            float: left
+
+            &:hover
+                background-color: lighten($color-primary, 10%)
+            &:active
+                background-color: darken($color-primary, 10%)
+
+
+        h1
+            padding: 0
+            margin: 0 20px 0 0
+            font-size: 32px
+            line-height: 1
+            display: block
+            font-weight: bold
+            vertical-align: middle
+            text-transform: uppercase
+            font-family: Montserrat
+
+            a
+                line-height: 1
+                display: block
+                img
+                    display: block
+                    vertical-align: baseline
+
+
+    ul.primary-menu
+        display: inline-block
+        font-family: Montserrat
+        color: $color-menu-1-inactive
+        margin: 0
+
+        li:not(:last-child)
+            margin-right: 1em
+
+        a
+            &.active,
+            &:active,
+            &:hover,
+            &:focus
+                color: $color-menu-1-active
+
+        li.current-menu-item a
+            color: $color-menu-1-active
+
+    form
+        margin: 0
+        padding: 0
+        position: relative
+
+        input.search
+            background-color: lighten($color-primary, 5%)
+            border: none
+            color: $color-menu-1-inactive
+            border-radius: 4px
+            padding: 5px 35px 5px 10px
+            box-shadow: none
+            width: 70%
+            @include transition(all .1s linear)
+
+            &:hover
+                background-color: lighten($color-primary, 10%)
+            &:focus
+                width: 100%
+                color: $color-primary
+                background-color: $color-white
+                border-color: none
+                outline: 0
+
+        i
+            position: absolute
+            top: 6px
+            right: 6px
+            color: lighten($color-primary, 30%)

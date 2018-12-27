@@ -1,0 +1,35 @@
+.wrapper {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.neve-main {
+  flex: 1 auto;
+}
+
+.archive-container {
+  padding-top: $spacing-sm;
+}
+
+.nv-page-title-wrap.nv-big-title h1 {
+  line-height: 1.3em;
+  margin-bottom: $spacing-sm;
+  border-bottom: $muted-border;
+  padding-bottom: $spacing-xs;
+}
+
+.nv-content-none-wrap {
+  margin-bottom: $spacing-lg;
+}
+
+@mixin page--laptop() {
+  .archive-container {
+    padding-top: 30px;
+  }
+
+  .nv-content-none-wrap {
+    margin-bottom: 0;
+  }
+}

@@ -1,0 +1,26 @@
+Version 0.1
+  i) Initial Version Released.
+
+Version 0.2
+  i)   Resolved minor theme errors.
+  ii)  Added new pixel images.
+  iii) Added proper translation.
+
+Version 0.2.1
+  i)   Added Proper Theme urls.
+
+Version 0.2.2
+  i)  Added post format tag.
+  ii) Added hooks in theme.
+
+Version 0.2.3 
+  i) Updated bootstrap.
+  ii) updated potfile.
+
+ Version 0.2.4
+  i)   Added woocommerce.
+  ii)  updated potfile.
+  iii) Added Typography.
+  iv)  Changed slider.
+  v)   Resolved theme errors.
+  vi)  Changed the image urls.

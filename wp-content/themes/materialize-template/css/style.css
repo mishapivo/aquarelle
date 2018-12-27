@@ -1,0 +1,467 @@
+/**
+ *
+ *
+ *  Materialize Template <http://wordpress.org>
+ *
+ *  By KRATZ Geoffrey AKA Jul6art AKA VanIllaSkype
+ *  for VsWeb <https://vsweb.be>
+ *
+ *  https://vsweb.be
+ *  admin@vsweb.be
+ *
+ *  Special thanks to Brynnlow
+ *  for his contribution
+ *
+ *  It is free software; you can redistribute it and/or modify it under
+ *  the terms of the GNU General Public License, either version 2
+ *  of the License, or any later version.
+ *
+ *  For the full copyright and license information, please read the
+ *  LICENSE.txt file that was distributed with this source code.
+ *
+ *  The flex one, in a flex world
+ *
+ *     __    __    ___            __    __    __   ____
+ *     \ \  / /   / __|           \ \  /  \  / /  |  __\   __
+ *      \ \/ / _  \__ \  _         \ \/ /\ \/ /   |  __|  |  _\
+ *       \__/ (_) |___/ (_)         \__/  \__/    |  __/  |___/
+ *
+ *                    https://vsweb.be
+ *
+ */
+html, body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1.page-title, h2.header, h3#reply-title, h4.comments-title, aside.sidebar a {
+    color: #ff9800;
+}
+
+.parallax-container {
+    height: 360px;
+    width: 100%;
+    position: inherit!important;
+}
+
+a.brand-logo {
+    margin-left: 10px;
+}
+
+.blue-custom {
+    background-color: #1387C0;
+}
+
+.blue-custom.lighten-2 {
+    background-color: #039be5;
+}
+
+.blue-custom.darken-2 {
+    background-color: #2D2868;
+}
+
+.blue-custom.darken-4 {
+    background-color: darkslateblue;
+}
+
+span.required {
+    color: red;
+    margin-left: 5px;
+}
+
+i.prefix {
+    position: relative;
+    top: 6px;
+}
+
+/*header*/
+nav ul li.current-menu-item {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+nav.nav-extended label {
+    color: #DDDDDD;
+}
+
+.user-view img {
+    max-width: 300px;
+}
+
+nav.nav-extended li > ul > li {
+    display: none;
+}
+
+nav.nav-extended li:hover > ul > li {
+    display: block;
+}
+
+nav.nav-extended li > ul > li:hover ul {
+    display: block;
+}
+
+nav.nav-extended li:hover > ul > li a {
+    background-color: #2C7C91;
+}
+
+nav.nav-extended li > ul > li:hover ul li a {
+    background-color: #5C5C5C;
+}
+
+nav .brand-logo img {
+    height: 64px;
+    width: auto;
+}
+
+.searchform input {
+    min-height:65px;
+    margin-bottom: 0!important;
+}
+
+header nav input[type="search"] {
+    border-bottom: none!important;
+}
+
+@media (max-width: 600px) {
+    nav .brand-logo img {
+        height: 56px;
+    }
+}
+
+nav .brand-logo:nth-child(2) {
+    margin-left: 80px;
+}
+
+@media (max-width: 992px) {
+    nav .brand-logo:nth-child(2) {
+        display: none!important;
+    }
+}
+
+ul.inline li {
+    display: inline-block;
+}
+
+#mobile-menu i.dashicons {
+    font-size: 20px;
+    position: relative;
+    top: 18px;
+}
+
+#mobile-menu .click-to-toggle {
+    bottom: 75px!important;
+}
+
+#mobile-menu .click-to-toggle li {
+    margin: 0;
+}
+
+#mobile-menu .click-to-toggle li a {
+    width: 48px;
+    padding: 0 12px;
+    margin: 10px 5px;
+}
+
+#mobile-menu i.material-icons {
+    width: 24px;
+}
+
+header nav .navbar-hidden {
+    display: none;
+}
+
+#mobile-menu .fixed-action-btn li a {
+    padding: 0;
+    margin: 0;
+    font-size: 0;
+}
+
+#mobile-menu .fixed-action-btn li i {
+    left: 10px;
+    color: #FFFFFF;
+}
+
+/*content*/
+.masonry-gallery .col {
+    font-size: 0;
+}
+
+.masonry-gallery .col > * {
+    font-size: 1rem;
+}
+
+.white {
+    background: #f1f1f1;
+}
+
+.white h1,
+.masonry-gallery h1 {
+    font-size: 40px;
+}
+
+.white h2,
+.masonry-gallery h2 {
+    font-size: 35px;
+}
+
+.white h3 {
+    font-size: 28px;
+}
+
+/*sidebar*/
+form#commentform p.form-submit {
+    margin-bottom: 40px;
+}
+
+main[role="main"] > .white > .container {
+    background-color: #1565C0;
+    margin-bottom: 0;
+}
+
+main[role="main"] > .white > .container > * {
+    padding-bottom: 20px;
+}
+
+aside.sidebar {
+    color: inherit;
+}
+
+main[role="main"] > .white > .container > *:not(.sidebar) {
+    background-color: #f1f1f1;
+    color: #000;
+}
+
+aside.sidebar, section.section {
+    display: inline-block;
+    vertical-align: top;
+    color: inherit;
+}
+
+.container {
+    height: 100%;
+}
+
+aside h3 {
+    font-size: 23px;
+    color: #FFFFFF;
+}
+
+/*comments*/
+ul.comment-footer {
+    text-align: right;
+}
+
+li.comment-response {
+    border-left: 15px solid #e0e0e0;
+}
+
+ul.comment-footer li {
+    font-size: 0.7em;
+    color: #777;
+    font-style: italic;
+    margin-left: 10px;
+}
+
+ul.comment-footer i {
+    position: relative;
+    top: 5px;
+    font-size: 1.6em;
+}
+
+.nav-links {
+    display: block;
+}
+
+.nav-links , .nav-links a {
+    color: #000;
+}
+
+nav.comments-pagination, nav.navigation.pagination {
+    background-color: #fff;
+    text-align: center;
+    height: auto!important;
+}
+
+nav.navigation.pagination {
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: calc(100% - 20px);
+}
+
+nav.comments-pagination h2, nav.navigation.pagination h2 {
+    display: none;
+}
+
+nav.comments-pagination a, nav.comments-pagination span.page-numbers, nav.navigation.pagination a, nav.navigation.pagination span.page-numbers {
+    margin: 0 10px;
+}
+
+nav.comments-pagination a, nav.navigation.pagination a {
+    color: #039be5;
+}
+
+nav.comments-pagination div.nav-links, nav.navigation.pagination div.nav-links {
+    position: relative;
+}
+
+nav.comments-pagination a.next, nav.navigation.pagination a.next {
+    margin: 0 20px 0 0;
+    float: right;
+}
+
+nav.comments-pagination a.prev, nav.navigation.pagination a.prev {
+    margin: 0 0 0 20px;
+    float: left;
+}
+
+ul.collection div#respond {
+background-color: #E0E0E0;
+padding: 20px;
+}
+
+/*footer*/
+footer.page-footer {
+    color: #aaa;
+}
+
+footer.page-footer nav {
+    -webkit-box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    box-shadow: none!important;
+}
+
+/*wordpress requirements*/
+.wp-caption {}
+.wp-caption-text {}
+.screen-reader-text {}
+.gallery-caption {}
+.bypostauthor {}
+.alignright {
+    text-align: right;
+}
+.alignleft {
+    text-align: left;
+}
+.aligncenter {
+    text-align: center;
+}
+
+/*login*/
+body.login {
+    background-color: #fff;
+}
+
+@media only screen and (max-width: 380px) {
+    #login {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    #login {
+        width: 380px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #login {
+        width: 600px;
+    }
+}
+
+.login form::before {
+    display: block;
+    content: "";
+    clear: both;
+    width: calc(100% + 48px);
+    height: 55px;
+    background-color: #039BE5;
+    margin: -26px -24px 35px -24px;
+    background-size: cover;
+}
+
+#login div {
+	width: 100%!important;
+	min-width: 100%!important;
+}
+
+.login form {
+	width: 100%!important;
+	min-width: 100%!important;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),0 1px 5px 0 rgba(0,0,0,0.12),0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.login form:hover {
+    transition: box-shadow .25s;
+    box-shadow: 0 8px 17px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+p.forgetmenot {
+    display: none;
+}
+
+/*articles similaires*/
+div.jp-relatedposts {
+    padding-top: 0;
+    margin-top: 0;
+}
+
+h3.jp-relatedposts-headline {
+    font-size: 34px!important;
+    color: #ff9800;
+    line-height: 34px;
+    border-top: none;
+}
+
+h3.jp-relatedposts-headline em {
+    font-weight: normal!important;
+}
+
+h3.jp-relatedposts-headline em::before {
+    display: none!important;
+}
+
+/*scroll to top*/
+#scroll_to_top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    cursor: pointer;
+    z-index: 4;
+    background-color: transparent;
+    color: #aaa;
+}
+
+#scroll_to_top:hover {
+    background-color: #fff;
+}
+
+#scroll_to_top.hide {
+    bottom: -50px;
+}
+
+.card .card-image img {
+    height: auto;
+}
+
+/*fixes 1O/2018*/
+@media only screen and (min-width: 993px) {
+    main .container {
+        display: table;
+        float: none;
+    }
+
+    main .container > .col {
+        display: table-cell;
+        float: none;
+    }
+}

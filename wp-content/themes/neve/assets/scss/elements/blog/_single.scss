@@ -1,0 +1,86 @@
+.single .entry-header, .page .nv-page-title-wrap {
+  margin-top: 30px;
+}
+
+.single, .page {
+  .nv-sidebar-wrap {
+    margin-top: 30px;
+  }
+}
+
+.nv-title-meta-wrap,
+.nv-thumb-wrap {
+  &:only-child {
+    margin-bottom: $spacing-sm;
+  }
+}
+
+.nv-thumb-wrap + .nv-title-meta-wrap {
+  margin: $spacing-sm 0;
+}
+
+.nv-title-meta-wrap + .nv-thumb-wrap {
+  margin: $spacing-sm 0;
+}
+
+.single-post-container .title {
+  margin-bottom: 0;
+}
+
+.attachment-neve-blog {
+  display: flex;
+}
+
+.nv-content-wrap .page-numbers {
+  justify-content: center;
+  margin: $spacing-xs auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  list-style-type: none;
+  > a:not(:last-child) span, > span {
+    padding-right: $spacing-sm;
+  }
+}
+
+.post-password-form {
+  margin-bottom: $spacing;
+  text-align: center;
+  input[type=submit] {
+    height: 39px;
+    margin-left: $spacing-xs;
+  }
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  label > input {
+    margin-left: $spacing-xs;
+  }
+}
+
+.nv-tags-list {
+  font-size: .85em;
+  margin: $spacing-sm 0;
+  span {
+    margin-right: $spacing-xs;
+  }
+  a {
+    display: inline-block;
+    padding: 2px $spacing-xs;
+    transition: $transition_med;
+    border-radius: 3px;
+    margin-bottom: $spacing-xs;
+    margin-right: $spacing-xs;
+    border: 1px solid $button_color;
+    color: $button_color;
+    &:hover {
+      background: $button_color;
+      color: #fff;
+    }
+  }
+}
+
+@mixin single-post--laptop() {
+}

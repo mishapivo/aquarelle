@@ -1,0 +1,292 @@
+/**
+ * Backdrop Core (normalize.css)
+ *
+ * @package     Backdrop Core
+ * @copyright   Copyright (C) 2018. Benjamin Lu
+ * @license     GNU General PUblic License v2 or later (https://www.gnu.org/licenses/gpl-2.0.html)
+ * @author      Benjamin Lu (https://getbenonit.com)
+ */
+
+/**
+ * Table of Content
+ *
+ *  1.0 - Typography
+ *  2.0 - Elements
+ *  3.0 - Forms
+ *  4.0 - Alignments
+ *  5.0 - Accessibility
+ *  6.0 - Clearings
+ *  7.0 - Navigation (Links)
+ *  8.0 - Content (Posts and Pages)
+ *  9.0 - Content (Archives)
+ * 10.0 - Captions
+ * 11.0 - Galleries
+ */
+
+/**
+ *  1.0 - Typography
+ */
+ h1 {
+	display: block;
+	font-family: 'Fira Sans', serif;
+	font-size: 2em;
+	font-weight: 700;
+	margin: 0.67em 0;
+}
+
+h2 {
+	display: block;
+	font-family: 'Fira Sans', serif;
+	font-size: 1.5em;
+	font-weight: 700;
+	margin: 0.83em 0;
+}
+
+h3 {
+	display: block;
+	font-family: 'Fira Sans', serif;
+	font-size: 1.17em;
+	font-weight: 700;
+	margin: 1em 0;
+}
+
+h4 {
+	display: block;
+	font-family: 'Fira Sans', serif;
+	font-size: 1em;
+	font-weight: 700;
+	margin: 1.33em 0;
+}
+
+h5 {
+	display: block;
+	font-family: 'Fira Sans', serif;
+	font-size: .83em;
+	font-weight: 700;
+	margin: 1.67em 0;
+}
+
+h6 {
+	display: block;
+	font-family: 'Fira Sans', serif;
+	font-size: .67em;
+	font-weight: 700;
+	margin: 2.33em 0;
+}
+
+/**
+ *  2.0 - Elements
+ */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+    font-family: 'Merriweather', serif;
+}
+
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+figure {
+    margin: 0;
+}
+
+/**
+ *  3.0 - Forms
+ */
+
+/**
+ *  4.0 - Alignments
+ */
+.alignleft {
+	float: left;
+	margin-right: 1.5em;
+}
+
+.alignright {
+	float: right;
+	margin-left: 1.5em;
+}
+
+.aligncenter {
+	clear: both;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/**
+ *  5.0 - Accessibility
+ */
+.screen-reader-text {
+	clip: rect(0.063em, 0.063em, 0.063em, 0.063em);
+	height: 0.063em;
+	overflow: hidden;
+	position: absolute !important;
+	width: 0.063em;
+}
+
+.screen-reader-text:focus {
+    background: #f1f1f1;
+    border-radius: 0.188em;
+    box-shadow: 0 0 0.125em 0.125em;
+    clip: auto !important;
+    color: #21759b;
+    display: block;
+    font-size: 0.875em;
+    font-weight: bold;
+    height: auto;
+    left: 5px;
+    line-height: normal;
+    padding: 0.938em 1.5em 0.938em;
+    text-decoration: none;
+    top: 5px;
+    width: auto;
+    z-index: 100000;
+}
+
+/**
+ *  6.0 - Clearings
+ */
+.site-container:before,
+.site-container:after {
+	clear: both;
+	content: "";
+	display: table;
+}
+
+/**
+ *  7.0 - Navigation (Links)
+ */
+a {
+	color: #111111;
+	text-decoration: none;
+	}
+
+a:hover,
+a:focus {
+	color: #666666;
+}
+
+
+
+/**
+ *  8.0 - Content (Posts and Pages)
+ */
+.content-area .post .entry-content,
+.content-area .post .entry-excerpt,
+.content-area .page .entry-content,
+.content-area .page .entry-excerpt {
+	line-height: 1.7em;
+}
+
+.content-area .sticky {
+
+}
+
+/**
+ *  9.0 - Content (Archives)
+ */
+.archive-description {
+	display: block;
+	font-family: 'Merriweather', serif;
+	font-size: 0.5em;
+	font-weight: normal;
+}
+
+/**
+ * 10.0 - Captions
+ */
+.wp-caption {
+    max-width: 100%;
+    margin-bottom: 1.5em;
+}
+
+.wp-caption img[class*="wp-image-"] {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.wp-caption-text {
+    text-align: center;
+}
+
+.wp-caption .wp-caption-text,
+.gallery-caption {
+    background: #eeeeee;
+    font-size: 0.938em;
+    padding: 0.313em;
+    text-align: center;
+}
+
+.wp-caption p {
+    margin: 0;
+    padding: 0;
+}
+
+/**
+ * 11.0 - Galleries
+ */
+ .gallery-size-thumbnail {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.125em;
+}
+
+.gallery-column-2 {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1.125em;
+}
+
+.gallery-column-3 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1.125em;
+}
+
+.gallery-column-4 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-gap: 1.125em;
+}
+
+.gallery-column-5 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 1.125em;
+}
+
+.gallery-column-6 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 1.125em;
+}
+
+.gallery-column-7 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 1.125em;
+}
+
+.gallery-column-8 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 1.125em;
+}
+
+.gallery-column-9 {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+	grid-gap: 1.125em;
+}

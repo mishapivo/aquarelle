@@ -1,0 +1,475 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: "
+"medipress\n"
+"POT-Creation-Date: "
+"2018-09-24 13:26+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Your "
+"Name <you@example.com>\n"
+"Language-Team: Your Team "
+"<translations@example."
+"com>\n"
+"Report-Msgid-Bugs-To: "
+"Translator Name "
+"<translations@example."
+"com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/"
+"plain; charset=UTF-8\n"
+"Content-Transfer-"
+"Encoding: 8bit\n"
+"Plural-Forms: "
+"nplurals=2; plural=n != "
+"1;\n"
+"X-Textdomain-Support: "
+"yesX-Generator: Poedit "
+"1.6.4\n"
+"X-Poedit-SourceCharset: "
+"UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;esc_html_e;"
+"esc_html_x:1,2c;"
+"esc_html__;esc_attr_e;"
+"esc_attr_x:1,2c;"
+"esc_attr__;_ex:1,2c;"
+"_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;"
+"_n:1,2;_n_noop:1,2;"
+"__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,"
+"_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"Language: en_US\n"
+"X-Generator: Poedit "
+"2.1.1\n"
+"X-Poedit-"
+"SearchPath-0: .\n"
+
+#: 404.php:28
+msgid "404"
+msgstr ""
+
+#: 404.php:29
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:32
+msgid "Back to Home"
+msgstr ""
+
+#: archive.php:43
+#: index.php:45
+#: search.php:51
+msgid "&laquo;"
+msgstr ""
+
+#: archive.php:44
+#: index.php:46
+#: search.php:52
+msgid "&raquo;"
+msgstr ""
+
+#: class-wp-bootstrap-navwalker.php:358
+msgid "Add a menu"
+msgstr ""
+
+#: comments.php:32
+#, php-format
+msgid ""
+"One thought on &ldquo;"
+"%s&rdquo;"
+msgstr ""
+
+#: comments.php:36
+#, php-format
+msgctxt "comments title"
+msgid "%1$s Comment found"
+msgid_plural ""
+"%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:65
+msgid ""
+"Comments are closed."
+msgstr ""
+
+#: comments.php:77
+msgid ""
+"<h3>LEAVE A REPLY</h3>"
+msgstr ""
+
+#: content-parts/content-none.php:12
+msgid ""
+"Ready to publish your "
+"first post? Get started "
+"here."
+msgstr ""
+
+#: content-parts/content-none.php:16
+msgid ""
+"Sorry, but nothing "
+"matched your search "
+"terms. Please try again "
+"with some different "
+"keywords."
+msgstr ""
+
+#: content-parts/content-none.php:24
+msgid ""
+"It seems we can&rsquo;t "
+"find what you&rsquo;re "
+"looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content-parts/content-search.php:19
+#: content-parts/content-single.php:21
+#: content-parts/content.php:19
+msgid "Posted at"
+msgstr ""
+
+#: content-parts/content-search.php:29
+#: content-parts/content-single.php:31
+#: content-parts/content.php:29
+msgid "0 Comment"
+msgstr ""
+
+#: content-parts/content-search.php:29
+#: content-parts/content-single.php:31
+#: content-parts/content.php:29
+msgid "1 Comment"
+msgstr ""
+
+#: content-parts/content-search.php:29
+#: content-parts/content-single.php:31
+#: content-parts/content.php:29
+msgid "% Comments"
+msgstr ""
+
+#: content-parts/content-search.php:34
+#: content-parts/content.php:39
+#: section-parts/front-page-blogpost.php:53
+msgid "Read More"
+msgstr ""
+
+#: content-parts/content-single.php:42
+msgid "Tags: "
+msgstr ""
+
+#: content-parts/content-single.php:44
+msgid " "
+msgstr ""
+
+#: content-parts/content-single.php:58
+msgid "Pages: "
+msgstr ""
+
+#: footer.php:36
+#, php-format
+msgid ""
+" %1$sPowered by %2$s%3$s"
+msgstr ""
+
+#: footer.php:36
+msgid ""
+"https://wordpress.org/"
+msgstr ""
+
+#: footer.php:38
+#, php-format
+msgid ""
+" Theme: medipress by: "
+"%1$sDesign By %2$s%3$s"
+msgstr ""
+
+#: footer.php:38
+msgid ""
+"http://wordpress.org/"
+msgstr ""
+
+#: functions.php:59
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:164
+msgid "Blog Sidebar"
+msgstr ""
+
+#: functions.php:166
+msgid ""
+"Sidebar on the blog "
+"layout."
+msgstr ""
+
+#: functions.php:177
+msgid ""
+"Footer Widget Area 1"
+msgstr ""
+
+#: functions.php:179
+msgid ""
+"The footer widget area 1"
+msgstr ""
+
+#: functions.php:188
+msgid ""
+"Footer Widget Area 2"
+msgstr ""
+
+#: functions.php:190
+msgid ""
+"The footer widget area 2"
+msgstr ""
+
+#: functions.php:198
+msgid ""
+"Footer Widget Area 3"
+msgstr ""
+
+#: functions.php:200
+msgid ""
+"The footer widget area 3"
+msgstr ""
+
+#: functions.php:208
+msgid ""
+"Footer Widget Area 4"
+msgstr ""
+
+#: functions.php:210
+msgid ""
+"The footer widget area 4"
+msgstr ""
+
+#: functions.php:226
+msgid ""
+"Your comment is awaiting "
+"moderation."
+msgstr ""
+
+#: functions.php:236
+#, php-format
+msgid "%1$s %2$s"
+msgstr ""
+
+#: functions.php:236
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:239
+msgid "Posted at "
+msgstr ""
+
+#: header.php:64
+msgid "Email Us :"
+msgstr ""
+
+#: header.php:71
+msgid "Call Us :"
+msgstr ""
+
+#: include/customizer.php:23
+msgid "Show"
+msgstr ""
+
+#: include/customizer.php:24
+msgid "Hide"
+msgstr ""
+
+#: include/customizer.php:35
+msgid "2 Column Layout"
+msgstr ""
+
+#: include/customizer.php:36
+msgid "3 Column Layout"
+msgstr ""
+
+#: include/customizer.php:37
+msgid "4 Column Layout"
+msgstr ""
+
+#: include/customizer.php:109
+msgid "Medipress Options"
+msgstr ""
+
+#: include/customizer.php:119
+msgid "Header Section"
+msgstr ""
+
+#: include/customizer.php:139
+msgid "Header Option"
+msgstr ""
+
+#: include/customizer.php:140
+msgid ""
+"Show/hide option for "
+"Header Section."
+msgstr ""
+
+#: include/customizer.php:158
+msgid "Email Us"
+msgstr ""
+
+#: include/customizer.php:175
+msgid "Contact Us"
+msgstr ""
+
+#: include/customizer.php:194
+msgid "Facebook URL"
+msgstr ""
+
+#: include/customizer.php:210
+msgid "Twitter URL"
+msgstr ""
+
+#: include/customizer.php:226
+msgid "Google URL"
+msgstr ""
+
+#: include/customizer.php:242
+msgid "Instagram URL"
+msgstr ""
+
+#: include/customizer.php:260
+msgid "Slider Section"
+msgstr ""
+
+#: include/customizer.php:281
+msgid "Slider Option"
+msgstr ""
+
+#: include/customizer.php:282
+msgid ""
+"Show/hide option for "
+"Slider Section."
+msgstr ""
+
+#: include/customizer.php:305
+msgid "Slider Page "
+msgstr ""
+
+#: include/customizer.php:322
+#: include/customizer.php:615
+msgid "Button Text"
+msgstr ""
+
+#: include/customizer.php:338
+#: include/customizer.php:597
+msgid "Button URL"
+msgstr ""
+
+#: include/customizer.php:354
+msgid "Service Section"
+msgstr ""
+
+#: include/customizer.php:374
+msgid "Services Option"
+msgstr ""
+
+#: include/customizer.php:375
+msgid ""
+"Show/hide option Section."
+msgstr ""
+
+#: include/customizer.php:395
+msgid "service Title"
+msgstr ""
+
+#: include/customizer.php:413
+msgid "service description"
+msgstr ""
+
+#: include/customizer.php:437
+msgid "Service Page "
+msgstr ""
+
+#: include/customizer.php:452
+msgid "Blog Section"
+msgstr ""
+
+#: include/customizer.php:471
+msgid "Blog Option"
+msgstr ""
+
+#: include/customizer.php:472
+msgid ""
+"Show/hide option for "
+"Blog Section."
+msgstr ""
+
+#: include/customizer.php:489
+msgid "Blog Title"
+msgstr ""
+
+#: include/customizer.php:505
+msgid "Blog Subheading"
+msgstr ""
+
+#: include/customizer.php:521
+msgid "Callout Section"
+msgstr ""
+
+#: include/customizer.php:541
+msgid "Footer Callout"
+msgstr ""
+
+#: include/customizer.php:542
+msgid ""
+"Show/hide option for "
+"Footer Callout Section."
+msgstr ""
+
+#: include/customizer.php:561
+msgid "Callout Text"
+msgstr ""
+
+#: include/customizer.php:579
+msgid "Callout Subtitle"
+msgstr ""
+
+#: include/customizer.php:627
+msgid "Footer Section"
+msgstr ""
+
+#: include/customizer.php:646
+msgid "Footer Option"
+msgstr ""
+
+#: include/customizer.php:647
+msgid ""
+"Show/hide option for "
+"Footer Section."
+msgstr ""
+
+#: include/customizer.php:668
+msgid "Copyright"
+msgstr ""
+
+#: include/extras.php:16
+msgctxt "placeholder"
+msgid "Search"
+msgstr ""
+
+#: include/extras.php:16
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: search.php:17
+#, php-format
+msgid ""
+"Search Results for : %s"
+msgstr ""
+
+#: search.php:22
+#, php-format
+msgid ""
+"Nothing Found for: %s"
+msgstr ""
+
+#: section-parts/front-page-blogpost.php:45
+msgid "By"
+msgstr ""
